@@ -3,12 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Timetable (SEM II)</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗓️</text></svg>">
-    
+    <title>College Portal</title>
     <style>
-        @import url('https://fonts.cdnfonts.com/css/cascadia-code');
-
         :root {
             /* Light Mode */
             --primary: #2c3e50;
@@ -102,17 +98,8 @@
 
         @keyframes slideUp { from { transform: translateY(50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 
-        /* 🆕 TITLE FONT UPDATE */
-        .login-card h1 { 
-            margin: 0 0 5px; 
-            color: #2c3e50; 
-            font-size: 1.6rem; 
-            font-family: 'Cascadia Code', 'Fira Code', 'Courier New', monospace;
-            font-weight: 600; /* SemiBold */
-            letter-spacing: -0.5px;
-        }
+        .login-card h1 { margin: 0 0 5px; color: #2c3e50; font-size: 1.8rem; font-weight: 800; }
         body.dark-mode .login-card h1 { color: #fff; }
-        
         .login-card p { color: #666; margin-bottom: 25px; font-size: 0.9rem; }
         body.dark-mode .login-card p { color: #aaa; }
 
@@ -410,7 +397,9 @@
         .ps, .wd, .pp, .aeiot { background: #f4ecf7; color: #8e44ad; border-left: 3px solid #8e44ad; }
         .pd, .cs, .mpfl, .eva { background: #fdedec; color: #c0392b; border-left: 3px solid #c0392b; }
         .dpv, .caed, .bms { background: #ebf5fb; color: #2c3e50; border-left: 3px solid #34495e; }
-        
+        .fpi { background: #ffe0b2; color: #e67e22; border-left: 3px solid #e67e22; }
+        .eva-slot { background: #d7bde2; color: #8e44ad; border-left: 3px solid #8e44ad; }
+
         .break { 
             background: var(--bg); 
             color: var(--text-sub); 
@@ -460,7 +449,7 @@
         <button class="theme-toggle-fixed" onclick="toggleTheme()">🌓</button>
         
         <div class="login-card">
-            <h1>Timetable (SEM II) 🗓️</h1>
+            <h1>🎓 College Portal</h1>
             <p>Check your live schedule</p>
             
             <label style="display:block; text-align:left; font-weight:600; margin-bottom:8px; color:var(--text-main);">MIS Number</label>
@@ -526,7 +515,7 @@
 <script>
     const STUDENT_DATABASE = {
         "612572009": { 
-            name: "Ajinkya", info: "MIS: 612572009",
+            name: "Ajinkya", info: "MIS: 612572009 | DPV Batch 3",
             cards: [
                 {code: "DS", name: "Discrete Struct", color: "#16a085", div: "Div 5", batch: "B1"},
                 {code: "FMS", name: "Measurements", color: "#f39c12", div: "Div 1", batch: "-"},
@@ -556,7 +545,7 @@
             }
         },
         "612505077": {
-            name: "Pranav", info: "MIS: 612505077",
+            name: "Pranav", info: "MIS: 612505077 | EEMI Div 1",
             cards: [
                 {code: "EEMI", name: "Elec Meas.", color: "#d35400", div: "Div 1", batch: "B4"},
                 {code: "EP", name: "Engg Physics", color: "#2980b9", div: "Div 1", batch: "B3"},
@@ -586,7 +575,7 @@
             }
         },
         "612510026": {
-            name: "Atharva", info: "MIS: 612510026",
+            name: "Atharva", info: "MIS: 612510026 | EP Div 3",
             cards: [
                 {code: "EP", name: "Engg Physics", color: "#2980b9", div: "Div 3", batch: "B1"},
                 {code: "FMS", name: "Measurements", color: "#f39c12", div: "Div 3", batch: "-"},
@@ -616,7 +605,7 @@
             }
         },
         "612510050": {
-            name: "Kaustubh", info: "MIS: 612510050",
+            name: "Kaustubh", info: "MIS: 612510050 | EP Div 3",
             cards: [
                 {code: "EP", name: "Engg Physics", color: "#2980b9", div: "Div 3", batch: "B1"},
                 {code: "FMS", name: "Measurements", color: "#f39c12", div: "Div 3", batch: "-"},
@@ -643,6 +632,39 @@
                 "mon-1630": { type: "lab", subj: "EVA", room: "LAB", tag: "⚡", span: 2, class: "eva" },
                 "tue-1630": { type: "lab", subj: "CS", room: "LAB", tag: "🗣️", span: 2, class: "cs" },
                 "wed-1630": { type: "lab", subj: "EP", room: "LAB", tag: "🔬", span: 2, class: "ep" }
+            }
+        },
+        "612510067": {
+            name: "Riya", info: "MIS: 612510067 | EP Div 3",
+            cards: [
+                {code: "EP", name: "Engg Physics", color: "#2980b9", div: "Div 3", batch: "B2"},
+                {code: "FPI", name: "Phys. Infra.", color: "#e67e22", div: "Div 1", batch: "-"},
+                {code: "CAED", name: "Comp Aided Engg", color: "#34495e", div: "Div 1", batch: "B3"},
+                {code: "PS", name: "Prob & Stats", color: "#8e44ad", div: "Div 3", batch: "B3"},
+                {code: "CS", name: "Comm Skills", color: "#c0392b", div: "Div 4", batch: "B2"},
+                {code: "EVA", name: "EV Architecture", color: "#27ae60", div: "Div 1", batch: "B1"}
+            ],
+            schedule: {
+                "wed-0830": { type: "lab", subj: "CAED", room: "LAB", tag: "💻", span: 2, class: "caed" },
+                "tue-0930": { type: "lec", subj: "EP", room: "NC02", class: "ep" },
+                "wed-1030": { type: "lec", subj: "CAED", room: "NC03", class: "caed" },
+                "thu-1030": { type: "lec", subj: "CAED", room: "NC03", class: "caed" },
+                "fri-1030": { type: "lec", subj: "CAED", room: "NC03", class: "caed" },
+                "wed-1130": { type: "lec", subj: "PS", room: "NC04", class: "ps" },
+                "thu-1130": { type: "lec", subj: "PS", room: "NC04", class: "ps" },
+                "fri-1130": { type: "lec", subj: "PS", room: "NC04", class: "ps" },
+                
+                // FPI overrides lunch
+                "tue-1230": { type: "lec", subj: "FPI", room: "NC03", class: "fpi" },
+                "wed-1230": { type: "lec", subj: "FPI", room: "NC03", class: "fpi" },
+                "thu-1230": { type: "lec", subj: "FPI", room: "NC03", class: "fpi" },
+
+                "mon-1330": { type: "lec", subj: "EVA", room: "NC14", class: "eva-slot" },
+                
+                "mon-1630": { type: "lab", subj: "EVA", room: "LAB", tag: "⚡", span: 2, class: "eva-slot" },
+                "tue-1630": { type: "lab", subj: "CS", room: "LAB", tag: "🗣️", span: 2, class: "cs" },
+                "wed-1630": { type: "lab", subj: "EP", room: "LAB", tag: "🔬", span: 2, class: "ep" },
+                "fri-0830": { type: "lab", subj: "PS", room: "NC14", tag: "📐", span: 2, class: "ps" }
             }
         }
     };
@@ -737,7 +759,7 @@
             { id: "0930", label: "9:30 - 10:30" },
             { id: "1030", label: "10:30 - 11:30" }, 
             { id: "1130", label: "11:30 - 12:30" },
-            { id: "LUNCH", label: "12:30 - 1:30", type: "break" },
+            { id: "1230", label: "12:30 - 1:30", type: "break" }, // Changed ID for logic
             { id: "1330", label: "1:30 - 2:30" }, 
             { id: "1430", label: "2:30 - 3:30" },
             { id: "1530", label: "3:30 - 4:30" }, 
@@ -749,16 +771,31 @@
         const skipped = {}; 
 
         slots.forEach((slot, index) => {
-            if (slot.type === "break") {
+            // Check if ANY day has a class at 12:30 (handles FPI exception)
+            let hasClassAtLunch = false;
+            if (slot.id === "1230") {
+                hasClassAtLunch = days.some(d => schedule[`${d}-1230`]);
+            }
+
+            // Standard Lunch Row (Only if NO classes at 12:30 for anyone this user)
+            if (slot.id === "1230" && !hasClassAtLunch) {
                 tbody.innerHTML += `<tr><td class="time-col">${slot.label}</td><td colspan="6" class="break" id="lunch-break">LUNCH BREAK</td></tr>`;
                 return;
             }
+
             let rowHtml = `<tr><td class="time-col">${slot.label}</td>`;
             days.forEach(day => {
                 const key = `${day}-${slot.id}`;
                 if (skipped[`${day}-${index}`]) return; 
 
                 const item = schedule[key];
+                
+                // Logic for 12:30 slots specifically
+                if (slot.id === "1230" && !item) {
+                     rowHtml += `<td class="break" style="font-size:0.75rem;">Lunch</td>`;
+                     return;
+                }
+
                 if (item) {
                     const rowspan = item.span || 1;
                     for(let i = 1; i < rowspan; i++) skipped[`${day}-${index + i}`] = true;
@@ -820,6 +857,7 @@
         else if (mins >= 570 && mins < 630) currentSlotId = "0930";
         else if (mins >= 630 && mins < 690) currentSlotId = "1030";
         else if (mins >= 690 && mins < 750) currentSlotId = "1130";
+        else if (mins >= 750 && mins < 810) currentSlotId = "1230"; // Added 12:30 slot check
         else if (mins >= 810 && mins < 870) currentSlotId = "1330";
         else if (mins >= 870 && mins < 930) currentSlotId = "1430";
         else if (mins >= 930 && mins < 990) currentSlotId = "1530";
@@ -831,9 +869,12 @@
             let el = document.getElementById(key);
 
             if (!el) {
-                const prevSlotIndex = ["0830", "0930", "1030", "1130", "LUNCH", "1330", "1430", "1530", "1630", "1730"].indexOf(currentSlotId) - 1;
+                // Check if we are in the 2nd hour of a lab started in previous slot
+                const slotsList = ["0830", "0930", "1030", "1130", "1230", "1330", "1430", "1530", "1630", "1730"];
+                const prevSlotIndex = slotsList.indexOf(currentSlotId) - 1;
+                
                 if(prevSlotIndex >= 0) {
-                     const prevSlotId = ["0830", "0930", "1030", "1130", "LUNCH", "1330", "1430", "1530", "1630", "1730"][prevSlotIndex];
+                     const prevSlotId = slotsList[prevSlotIndex];
                      const prevKey = `${dayPrefix}-${prevSlotId}`;
                      const prevItem = currentUserSchedule[prevKey];
                      if(prevItem && prevItem.span === 2) el = document.getElementById(prevKey);
