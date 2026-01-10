@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>College Portal</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗓️</text></svg>">
+    
     <style>
+        @import url('https://fonts.cdnfonts.com/css/cascadia-code');
+
         :root {
             /* Light Mode */
             --primary: #2c3e50;
@@ -98,7 +102,14 @@
 
         @keyframes slideUp { from { transform: translateY(50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 
-        .login-card h1 { margin: 0 0 5px; color: #2c3e50; font-size: 1.8rem; font-weight: 800; }
+        .login-card h1 { 
+            margin: 0 0 5px; 
+            color: #2c3e50; 
+            font-size: 1.6rem; 
+            font-family: 'Cascadia Code', 'Fira Code', 'Courier New', monospace;
+            font-weight: 600; 
+            letter-spacing: -0.5px;
+        }
         body.dark-mode .login-card h1 { color: #fff; }
         .login-card p { color: #666; margin-bottom: 25px; font-size: 0.9rem; }
         body.dark-mode .login-card p { color: #aaa; }
@@ -449,7 +460,7 @@
         <button class="theme-toggle-fixed" onclick="toggleTheme()">🌓</button>
         
         <div class="login-card">
-            <h1>🎓 College Portal</h1>
+            <h1>Timetable (SEM II) 🗓️</h1>
             <p>Check your live schedule</p>
             
             <label style="display:block; text-align:left; font-weight:600; margin-bottom:8px; color:var(--text-main);">MIS Number</label>
@@ -515,7 +526,7 @@
 <script>
     const STUDENT_DATABASE = {
         "612572009": { 
-            name: "Ajinkya", info: "MIS: 612572009 | DPV Batch 3",
+            name: "Ajinkya", info: "MIS: 612572009",
             cards: [
                 {code: "DS", name: "Discrete Struct", color: "#16a085", div: "Div 5", batch: "B1"},
                 {code: "FMS", name: "Measurements", color: "#f39c12", div: "Div 1", batch: "-"},
@@ -545,7 +556,7 @@
             }
         },
         "612505077": {
-            name: "Pranav", info: "MIS: 612505077 | EEMI Div 1",
+            name: "Pranav", info: "MIS: 612505077",
             cards: [
                 {code: "EEMI", name: "Elec Meas.", color: "#d35400", div: "Div 1", batch: "B4"},
                 {code: "EP", name: "Engg Physics", color: "#2980b9", div: "Div 1", batch: "B3"},
@@ -575,7 +586,7 @@
             }
         },
         "612510026": {
-            name: "Atharva", info: "MIS: 612510026 | EP Div 3",
+            name: "Atharva", info: "MIS: 612510026",
             cards: [
                 {code: "EP", name: "Engg Physics", color: "#2980b9", div: "Div 3", batch: "B1"},
                 {code: "FMS", name: "Measurements", color: "#f39c12", div: "Div 3", batch: "-"},
@@ -605,7 +616,7 @@
             }
         },
         "612510050": {
-            name: "Kaustubh", info: "MIS: 612510050 | EP Div 3",
+            name: "Kaustubh", info: "MIS: 612510050",
             cards: [
                 {code: "EP", name: "Engg Physics", color: "#2980b9", div: "Div 3", batch: "B1"},
                 {code: "FMS", name: "Measurements", color: "#f39c12", div: "Div 3", batch: "-"},
@@ -635,7 +646,7 @@
             }
         },
         "612510067": {
-            name: "Riya", info: "MIS: 612510067 | EP Div 3",
+            name: "Riya", info: "MIS: 612510067",
             cards: [
                 {code: "EP", name: "Engg Physics", color: "#2980b9", div: "Div 3", batch: "B2"},
                 {code: "FPI", name: "Phys. Infra.", color: "#e67e22", div: "Div 1", batch: "-"},
@@ -645,22 +656,19 @@
                 {code: "EVA", name: "EV Architecture", color: "#27ae60", div: "Div 1", batch: "B1"}
             ],
             schedule: {
-                "wed-0830": { type: "lab", subj: "CAED", room: "LAB", tag: "💻", span: 2, class: "caed" },
+                "mon-0930": { type: "lec", subj: "EP", room: "NC02", class: "ep" },
                 "tue-0930": { type: "lec", subj: "EP", room: "NC02", class: "ep" },
+                "wed-0830": { type: "lab", subj: "CAED", room: "LAB", tag: "💻", span: 2, class: "caed" },
                 "wed-1030": { type: "lec", subj: "CAED", room: "NC03", class: "caed" },
                 "thu-1030": { type: "lec", subj: "CAED", room: "NC03", class: "caed" },
                 "fri-1030": { type: "lec", subj: "CAED", room: "NC03", class: "caed" },
                 "wed-1130": { type: "lec", subj: "PS", room: "NC04", class: "ps" },
                 "thu-1130": { type: "lec", subj: "PS", room: "NC04", class: "ps" },
                 "fri-1130": { type: "lec", subj: "PS", room: "NC04", class: "ps" },
-                
-                // FPI overrides lunch
                 "tue-1230": { type: "lec", subj: "FPI", room: "NC03", class: "fpi" },
                 "wed-1230": { type: "lec", subj: "FPI", room: "NC03", class: "fpi" },
                 "thu-1230": { type: "lec", subj: "FPI", room: "NC03", class: "fpi" },
-
                 "mon-1330": { type: "lec", subj: "EVA", room: "NC14", class: "eva-slot" },
-                
                 "mon-1630": { type: "lab", subj: "EVA", room: "LAB", tag: "⚡", span: 2, class: "eva-slot" },
                 "tue-1630": { type: "lab", subj: "CS", room: "LAB", tag: "🗣️", span: 2, class: "cs" },
                 "wed-1630": { type: "lab", subj: "EP", room: "LAB", tag: "🔬", span: 2, class: "ep" },
