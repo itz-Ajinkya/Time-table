@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>College Portal</title>
+    <style>
+        :root {
+            /* Light Mode */
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --bg: #f0f2f5;
+            --card-bg: #ffffff;
+            --text-main: #333333;
+            --text-sub: #7f8c8d;
+            --border: #e1e4e8;
+            --input-bg: #f8f9fa;
+            --input-focus-bg: #ffffff;
+            --live-color: #2ecc71;
+            --error: #e74c3c;
+            --card-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            --slot-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        /* Dark Mode */
+        body.dark-mode {
+            --primary: #ecf0f1;
+            --accent: #5dade2;
+            --bg: #121212;
+            --card-bg: #1e1e1e;
+            --text-main: #e0e0e0;
+            --text-sub: #b0b3b8;
+            --border: #333333;
+            --input-bg: #2c2c2c;
+            --input-focus-bg: #333333;
+            --card-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            --slot-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            overflow-x: hidden;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .hidden { display: none !important; }
+        .container { max-width: 100%; margin: 0 auto; padding: 15px; }
+
+        /* ============================
+           PAGE 1: LOGIN
+           ============================ */
+        #home-page {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #2c3e50 0%, #2980b9 100%);
+            padding: 20px;
+            position: relative;
+        }
+
+        .theme-toggle-fixed {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            backdrop-filter: blur(5px);
+            font-size: 1.2rem;
+            z-index: 100;
+        }
+
+        .login-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 30px 25px;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 100%;
+            max-width: 380px;
+            transition: transform 0.4s;
+            animation: slideUp 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+        body.dark-mode .login-card { background: rgba(30, 30, 30, 0.95); }
+
+        @keyframes slideUp { from { transform: translateY(50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
+        .login-card h1 { margin: 0 0 5px; color: #2c3e50; font-size: 1.8rem; font-weight: 800; }
+        body.dark-mode .login-card h1 { color: #fff; }
+        .login-card p { color: #666; margin-bottom: 25px; font-size: 0.9rem; }
+        body.dark-mode .login-card p { color: #aaa; }
+
+        /* UNIFIED INPUT STYLING */
+        .mis-input-wrapper {
+            display: flex;
+            align-items: center;
+            background: var(--input-bg);
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            padding: 0 16px;
+            transition: all 0.3s ease;
+            cursor: text;
+            margin-bottom: 20px;
+        }
+        
+        .mis-input-wrapper:focus-within {
+            border-color: var(--accent);
+            background: var(--input-focus-bg);
+            box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.15);
+        }
+
+        .prefix {
+            font-family: 'Courier New', monospace;
+            font-weight: 700;
+            font-size: 1.4rem;
+            color: var(--text-main);
+            user-select: none;
+            opacity: 0.7;
+            letter-spacing: 2px;
+        }
+
+        .mis-input-wrapper input {
+            border: none;
+            background: transparent;
+            padding: 16px 0 16px 2px;
+            font-size: 1.4rem;
+            font-family: 'Courier New', monospace;
+            font-weight: 700;
+            color: var(--text-main);
+            outline: none;
+            width: 100%;
+            letter-spacing: 2px;
+        }
+
+        .btn-login {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 16px 0;
+            width: 100%;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
+            transition: transform 0.2s;
+        }
+        .btn-login:active { transform: scale(0.98); }
+
+        .error-msg {
+            color: var(--error);
+            font-size: 0.85rem;
+            margin-top: 20px;
+            font-weight: 600;
+            display: none;
+            background: rgba(231, 76, 60, 0.1);
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid var(--error);
+        }
+
+        .home-credit {
+            position: absolute;
+            bottom: 25px;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.8rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        .shake { animation: shake 0.4s ease-in-out; }
+        @keyframes shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-8px); } 75% { transform: translateX(8px); } }
+
+        /* ============================
+           PAGE 2: DASHBOARD
+           ============================ */
+        
+        header {
+            background: var(--card-bg);
+            padding: 15px;
+            border-radius: 16px;
+            box-shadow: var(--card-shadow);
+            margin-bottom: 20px;
+            border-bottom: 3px solid var(--accent);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            transition: background 0.3s;
+        }
+
+        .header-top { display: flex; justify-content: space-between; align-items: flex-start; }
+        .profile-info h1 { margin: 0; font-size: 1.4rem; color: var(--primary); }
+        .profile-info p { margin: 2px 0 0; color: var(--text-sub); font-size: 0.85rem; }
+
+        .header-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        
+        .btn-group { display: flex; gap: 10px; align-items: center; }
+
+        .theme-btn {
+            background: none;
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 50%;
+            transition: background 0.3s;
+        }
+        .theme-btn:hover { background: rgba(0,0,0,0.05); }
+        body.dark-mode .theme-btn:hover { background: rgba(255,255,255,0.1); }
+
+        .logout-btn {
+            background: var(--card-bg);
+            color: var(--error);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .clock-container {
+            font-family: 'Courier New', monospace;
+            font-weight: 700;
+            color: var(--accent);
+            font-size: 0.95rem;
+            min-width: 110px;
+            text-align: right;
+        }
+
+        /* 🎴 CARDS */
+        .cards {
+            display: flex;
+            overflow-x: auto;
+            gap: 12px;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+        }
+        .cards::-webkit-scrollbar { display: none; }
+        
+        .card {
+            background: var(--card-bg);
+            padding: 15px;
+            border-radius: 14px;
+            box-shadow: var(--card-shadow);
+            min-width: 140px;
+            scroll-snap-align: start;
+            border-left: 4px solid #ccc;
+            flex-shrink: 0;
+            transition: background 0.3s;
+        }
+
+        .card h3 { margin: 0 0 5px; font-size: 0.7rem; color: var(--text-sub); text-transform: uppercase; letter-spacing: 0.5px; }
+        .card .subject { font-size: 1.2rem; font-weight: 800; color: var(--primary); margin-bottom: 2px; }
+        .card .detail, .card .batch { font-size: 0.85rem; font-weight: 500; color: var(--text-sub); display: block; }
+
+        /* Timetable Grid */
+        .timetable-wrapper {
+            background: var(--card-bg);
+            border-radius: 16px;
+            box-shadow: var(--card-shadow);
+            overflow: hidden;
+            position: relative;
+            transition: background 0.3s;
+        }
+
+        .table-scroll-container {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            max-width: 100%;
+        }
+
+        table { width: 100%; border-collapse: separate; border-spacing: 0; min-width: 700px; }
+
+        th { 
+            background-color: var(--primary); 
+            color: var(--bg);
+            padding: 12px; 
+            font-size: 0.8rem; 
+            text-transform: uppercase;
+            position: sticky;
+            top: 0;
+            z-index: 5;
+        }
+        body.dark-mode th { color: #121212; }
+
+        td:first-child, th:first-child {
+            position: sticky;
+            left: 0;
+            background: var(--card-bg);
+            z-index: 6;
+            border-right: 2px solid var(--border);
+            box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+        }
+        th:first-child { background: var(--primary); z-index: 7; }
+
+        td { 
+            padding: 8px;
+            vertical-align: top;
+            border-bottom: 1px solid var(--border);
+            border-right: 1px solid var(--border);
+            height: 90px; 
+            width: 14%;
+        }
+        
+        .time-col { 
+            font-weight: 700; 
+            color: var(--text-sub); 
+            text-align: center; 
+            vertical-align: middle; 
+            font-size: 0.75rem; 
+            background: var(--bg) !important; 
+            width: 95px;
+            padding: 5px;
+            line-height: 1.3;
+        }
+
+        /* 🔬 SLOT STYLING */
+        .slot {
+            position: relative;
+            border-radius: 8px;
+            padding: 6px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            text-align: center;
+            transition: all 0.3s ease;
+            color: #333;
+            box-shadow: var(--slot-shadow);
+            overflow: visible;
+        }
+        
+        .lab-tag { 
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            font-size: 1.5rem;
+            line-height: 1;
+            z-index: 1;
+        }
+        
+        .room-tag { background: rgba(255,255,255,0.8); color: #333; font-size: 0.7rem; padding: 2px 5px; border-radius: 4px; margin-top: 4px; font-weight: 600; display: inline-block; }
+
+        /* Hover Reveal */
+        .slot .extra-info {
+            max-height: 0;
+            opacity: 0;
+            font-size: 0.75rem;
+            font-weight: 500;
+            background: rgba(255,255,255,0.3);
+            padding: 0 4px;
+            border-radius: 4px;
+            margin-top: 4px;
+            transition: all 0.3s ease;
+            overflow: hidden;
+            color: #333;
+        }
+
+        .slot:hover .extra-info, .slot:active .extra-info {
+            max-height: 40px;
+            opacity: 1;
+            margin-top: 4px;
+            padding: 4px;
+        }
+        .slot:hover { transform: scale(1.05); z-index: 20; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+
+        /* Colors */
+        .ds, .vcde { background: #e8f8f5; color: #16a085; border-left: 3px solid #16a085; }
+        .fms, .eemi, .bmt { background: #fef9e7; color: #d35400; border-left: 3px solid #f39c12; }
+        .qp, .ep, .feet { background: #eaf2f8; color: #2980b9; border-left: 3px solid #2980b9; }
+        .ps, .wd, .pp, .aeiot { background: #f4ecf7; color: #8e44ad; border-left: 3px solid #8e44ad; }
+        .pd, .cs, .mpfl, .eva { background: #fdedec; color: #c0392b; border-left: 3px solid #c0392b; }
+        .dpv, .caed, .bms { background: #ebf5fb; color: #2c3e50; border-left: 3px solid #34495e; }
+        
+        .break { 
+            background: var(--bg); 
+            color: var(--text-sub); 
+            font-style: italic; 
+            font-weight: 500; 
+            font-size: 0.8rem;
+            text-align: center !important;
+            vertical-align: middle !important;
+        }
+
+        .live-active { 
+            box-shadow: 0 0 0 3px var(--live-color), 0 4px 15px rgba(46, 204, 113, 0.4) !important; 
+            transform: scale(1.05); 
+            z-index: 10; 
+            position: relative;
+        }
+        .live-active::after { 
+            content: "LIVE NOW"; 
+            position: absolute; 
+            top: -14px; 
+            left: 50%; 
+            transform: translateX(-50%); 
+            background: var(--live-color); 
+            color: white; 
+            font-family: 'Arial Black', 'Impact', sans-serif;
+            font-size: 0.85rem; 
+            padding: 4px 10px;
+            border-radius: 12px;
+            letter-spacing: 0.5px;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            white-space: nowrap;
+            z-index: 20;
+        }
+
+        footer { text-align: center; margin-top: 30px; font-size: 0.8rem; color: var(--text-sub); padding-bottom: 30px; }
+        
+        .current-day-col { background-color: rgba(52, 152, 219, 0.1); }
+        th.current-day-col { background-color: #34495e; border-bottom: 3px solid var(--accent); }
+        body.dark-mode th.current-day-col { color: white; }
+
+    </style>
+</head>
+<body>
+
+    <div id="home-page">
+        <button class="theme-toggle-fixed" onclick="toggleTheme()">🌓</button>
+        
+        <div class="login-card">
+            <h1>🎓 College Portal</h1>
+            <p>Check your live schedule</p>
+            
+            <label style="display:block; text-align:left; font-weight:600; margin-bottom:8px; color:var(--text-main);">MIS Number</label>
+            
+            <div class="mis-input-wrapper" onclick="document.getElementById('mis-input').focus()">
+                <span class="prefix">6125</span>
+                <input type="tel" id="mis-input" placeholder="*****" maxlength="5" autocomplete="off" inputmode="numeric">
+            </div>
+            
+            <button class="btn-login" onclick="attemptLogin()">VIEW TIMETABLE</button>
+            <div class="error-msg" id="error-msg">❌ Incorrect MIS</div>
+        </div>
+        <div class="home-credit">Designed & Developed by Ajinkya Patil [AIML]</div>
+    </div>
+
+    <div id="timetable-page" class="hidden">
+        <div class="container">
+            <header>
+                <div class="header-top">
+                    <div class="profile-info">
+                        <h1 id="user-name-display">Student</h1>
+                        <p id="user-details-display">MIS: ---</p>
+                    </div>
+                    
+                    <div class="btn-group">
+                        <button class="theme-btn" onclick="toggleTheme()">🌓</button>
+                    </div>
+                </div>
+                
+                <div class="header-actions">
+                    <div id="clock" class="clock-container">--:--:--</div>
+                    <button class="logout-btn" onclick="logout()">Logout</button>
+                </div>
+            </header>
+
+            <div class="cards" id="subject-cards-container"></div>
+
+            <div class="timetable-wrapper">
+                <div class="table-scroll-container" id="scroll-container">
+                    <table id="main-table">
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th id="th-mon">Mon</th>
+                                <th id="th-tue">Tue</th>
+                                <th id="th-wed">Wed</th>
+                                <th id="th-thu">Thu</th>
+                                <th id="th-fri">Fri</th>
+                                <th id="th-sat">Sat</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-body"></tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <footer>
+                <p>Designed & Developed by Ajinkya Patil [AIML]</p>
+            </footer>
+        </div>
+    </div>
+
+<script>
+    const STUDENT_DATABASE = {
+        "612572009": { 
+            name: "Ajinkya", info: "MIS: 612572009 | DPV Batch 3",
+            cards: [
+                {code: "DS", name: "Discrete Struct", color: "#16a085", div: "Div 5", batch: "B1"},
+                {code: "FMS", name: "Measurements", color: "#f39c12", div: "Div 1", batch: "-"},
+                {code: "QP", name: "Quantum Phy", color: "#2980b9", div: "Div 4", batch: "B2"},
+                {code: "PS", name: "Prob & Stats", color: "#8e44ad", div: "Div 6", batch: "B2"},
+                {code: "DPV", name: "Data Proc & Vis", color: "#34495e", div: "Div 1", batch: "B3"},
+                {code: "PD", name: "Personality Dev", color: "#c0392b", div: "Div 9", batch: "-"}
+            ],
+            schedule: {
+                "wed-1030": { type: "lab", subj: "QP", room: "EP LAB", tag: "🔬", span: 2, class: "qp" },
+                "thu-1030": { type: "lab", subj: "DPV", room: "NC11", tag: "💻", span: 2, class: "dpv" },
+                "sat-1030": { type: "lab", subj: "PD", room: "NC08", tag: "", span: 2, class: "pd" },
+                "mon-1330": { type: "lec", subj: "DPV", room: "NC01", class: "dpv" },
+                "tue-1330": { type: "lec", subj: "FMS", room: "NC10", class: "fms" },
+                "wed-1330": { type: "lec", subj: "FMS", room: "NC10", class: "fms" },
+                "thu-1330": { type: "lec", subj: "FMS", room: "NC10", class: "fms" },
+                "fri-1330": { type: "lec", subj: "QP", room: "NC13", class: "qp" },
+                "mon-1430": { type: "lec", subj: "DS", room: "NC03", class: "ds" },
+                "wed-1430": { type: "lec", subj: "DS", room: "NC03", class: "ds" },
+                "mon-1530": { type: "lec", subj: "PS", room: "NC08", class: "ps" },
+                "wed-1530": { type: "lec", subj: "QP", room: "NC02", class: "qp" },
+                "thu-1530": { type: "lab", subj: "DS", room: "CSE", tag: "💻", span: 2, class: "ds" },
+                "mon-1630": { type: "lab", subj: "PS", room: "NC13", tag: "📐", span: 2, class: "ps" },
+                "tue-1630": { type: "lec", subj: "PS", room: "NC08", class: "ps" },
+                "fri-1630": { type: "lec", subj: "PS", room: "NC08", class: "ps" },
+                "tue-1730": { type: "lec", subj: "DS", room: "NC03", class: "ds" }
+            }
+        },
+        "612505077": {
+            name: "Pranav", info: "MIS: 612505077 | EEMI Div 1",
+            cards: [
+                {code: "EEMI", name: "Elec Meas.", color: "#d35400", div: "Div 1", batch: "B4"},
+                {code: "EP", name: "Engg Physics", color: "#2980b9", div: "Div 1", batch: "B3"},
+                {code: "PS", name: "Prob & Stats", color: "#8e44ad", div: "Div 1", batch: "B1"},
+                {code: "FMS", name: "Measurements", color: "#f39c12", div: "Div 2", batch: "-"},
+                {code: "CS", name: "Comm Skills", color: "#c0392b", div: "Div 2", batch: "B2"},
+                {code: "WD", name: "Web Design", color: "#8e44ad", div: "Div 2", batch: "B1"}
+            ],
+            schedule: {
+                "tue-0830": { type: "lab", subj: "EEMI", room: "LAB", tag: "🔬", span: 2, class: "eemi" },
+                "wed-0930": { type: "lec", subj: "PS", room: "NC03", class: "ps" },
+                "thu-0930": { type: "lec", subj: "EEMI", room: "NC03", class: "eemi" },
+                "fri-0930": { type: "lec", subj: "EEMI", room: "NC03", class: "eemi" },
+                "mon-1030": { type: "lec", subj: "EEMI", room: "NC03", class: "eemi" },
+                "tue-1030": { type: "lec", subj: "PS", room: "NC03", class: "ps" },
+                "wed-1030": { type: "lab", subj: "PS", room: "NC14", tag: "📐", span: 2, class: "ps" },
+                "mon-1130": { type: "lec", subj: "EP", room: "NC01", class: "ep" },
+                "tue-1130": { type: "lec", subj: "EP", room: "NC01", class: "ep" },
+                "mon-1330": { type: "lec", subj: "WD", room: "NC04", class: "wd" },
+                "tue-1330": { type: "lec", subj: "FMS", room: "NC10", class: "fms" },
+                "wed-1330": { type: "lec", subj: "FMS", room: "NC10", class: "fms" },
+                "thu-1330": { type: "lec", subj: "FMS", room: "NC10", class: "fms" },
+                "fri-1330": { type: "lec", subj: "PS", room: "NC03", class: "ps" },
+                "mon-1430": { type: "lab", subj: "CS", room: "NC11", tag: "🗣️", span: 2, class: "cs" },
+                "tue-1630": { type: "lab", subj: "EP", room: "LAB", tag: "🔬", span: 2, class: "ep" },
+                "wed-1630": { type: "lab", subj: "WD", room: "LAB", tag: "💻", span: 2, class: "wd" }
+            }
+        },
+        "612510026": {
+            name: "Atharva", info: "MIS: 612510026 | EP Div 3",
+            cards: [
+                {code: "EP", name: "Engg Physics", color: "#2980b9", div: "Div 3", batch: "B1"},
+                {code: "FMS", name: "Measurements", color: "#f39c12", div: "Div 3", batch: "-"},
+                {code: "CAED", name: "Comp Aided Engg", color: "#34495e", div: "Div 1", batch: "B2"},
+                {code: "VCDE", name: "Vector Calc", color: "#16a085", div: "Div 4", batch: "B4"},
+                {code: "CS", name: "Comm Skills", color: "#c0392b", div: "Div 4", batch: "B1"},
+                {code: "MPFL", name: "Manuf. Practices", color: "#c0392b", div: "Div 1", batch: "B1"}
+            ],
+            schedule: {
+                "thu-0830": { type: "lab", subj: "VCDE", room: "NC13", tag: "📐", span: 2, class: "vcde" },
+                "mon-0930": { type: "lec", subj: "EP", room: "NC02", class: "ep" },
+                "tue-0930": { type: "lec", subj: "EP", room: "NC02", class: "ep" },
+                "wed-1030": { type: "lec", subj: "CAED", room: "NC03", class: "caed" },
+                "thu-1030": { type: "lec", subj: "CAED", room: "NC03", class: "caed" },
+                "fri-1030": { type: "lec", subj: "CAED", room: "NC03", class: "caed" },
+                "tue-1030": { type: "lab", subj: "CAED", room: "LAB", tag: "💻", span: 2, class: "caed" },
+                "wed-1130": { type: "lec", subj: "VCDE", room: "NC02", class: "vcde" },
+                "thu-1130": { type: "lec", subj: "VCDE", room: "NC02", class: "vcde" },
+                "fri-1130": { type: "lec", subj: "VCDE", room: "NC02", class: "vcde" },
+                "mon-1330": { type: "lec", subj: "MPFL", room: "NC05", class: "mpfl" },
+                "tue-1330": { type: "lec", subj: "FMS", room: "NC06", class: "fms" },
+                "wed-1330": { type: "lec", subj: "FMS", room: "NC06", class: "fms" },
+                "thu-1330": { type: "lec", subj: "FMS", room: "NC06", class: "fms" },
+                "mon-1630": { type: "lab", subj: "MPFL", room: "LAB", tag: "⚙️", span: 2, class: "mpfl" },
+                "tue-1630": { type: "lab", subj: "CS", room: "LAB", tag: "🗣️", span: 2, class: "cs" },
+                "wed-1630": { type: "lab", subj: "EP", room: "LAB", tag: "🔬", span: 2, class: "ep" }
+            }
+        },
+        "612510050": {
+            name: "Kaustubh", info: "MIS: 612510050 | EP Div 3",
+            cards: [
+                {code: "EP", name: "Engg Physics", color: "#2980b9", div: "Div 3", batch: "B1"},
+                {code: "FMS", name: "Measurements", color: "#f39c12", div: "Div 3", batch: "-"},
+                {code: "CAED", name: "Comp Aided Engg", color: "#34495e", div: "Div 1", batch: "B2"},
+                {code: "PS", name: "Prob & Stats", color: "#8e44ad", div: "Div 3", batch: "B3"},
+                {code: "CS", name: "Comm Skills", color: "#c0392b", div: "Div 4", batch: "B1"},
+                {code: "EVA", name: "EV Architecture", color: "#c0392b", div: "Div 1", batch: "B1"}
+            ],
+            schedule: {
+                "fri-0830": { type: "lab", subj: "PS", room: "NC14", tag: "📐", span: 2, class: "ps" },
+                "mon-0930": { type: "lec", subj: "EP", room: "NC02", class: "ep" },
+                "tue-0930": { type: "lec", subj: "EP", room: "NC02", class: "ep" },
+                "wed-1030": { type: "lec", subj: "CAED", room: "NC03", class: "caed" },
+                "thu-1030": { type: "lec", subj: "CAED", room: "NC03", class: "caed" },
+                "fri-1030": { type: "lec", subj: "CAED", room: "NC03", class: "caed" },
+                "tue-1030": { type: "lab", subj: "CAED", room: "LAB", tag: "💻", span: 2, class: "caed" },
+                "wed-1130": { type: "lec", subj: "PS", room: "NC04", class: "ps" },
+                "thu-1130": { type: "lec", subj: "PS", room: "NC04", class: "ps" },
+                "fri-1130": { type: "lec", subj: "PS", room: "NC04", class: "ps" },
+                "mon-1330": { type: "lec", subj: "EVA", room: "NC14", class: "eva" },
+                "tue-1330": { type: "lec", subj: "FMS", room: "NC06", class: "fms" },
+                "wed-1330": { type: "lec", subj: "FMS", room: "NC06", class: "fms" },
+                "thu-1330": { type: "lec", subj: "FMS", room: "NC06", class: "fms" },
+                "mon-1630": { type: "lab", subj: "EVA", room: "LAB", tag: "⚡", span: 2, class: "eva" },
+                "tue-1630": { type: "lab", subj: "CS", room: "LAB", tag: "🗣️", span: 2, class: "cs" },
+                "wed-1630": { type: "lab", subj: "EP", room: "LAB", tag: "🔬", span: 2, class: "ep" }
+            }
+        }
+    };
+
+    let clockInterval;
+    let currentUserSchedule = null;
+
+    // --- AUTO-LOGIN & THEME CHECK ---
+    window.onload = function() {
+        // Theme
+        const savedTheme = localStorage.getItem('theme');
+        if(savedTheme === 'dark') document.body.classList.add('dark-mode');
+        
+        // Login
+        const savedUser = localStorage.getItem('currentUserMIS');
+        if(savedUser && STUDENT_DATABASE[savedUser]) {
+            loadDashboard(STUDENT_DATABASE[savedUser]);
+        }
+    };
+
+    // --- DARK MODE TOGGLE ---
+    function toggleTheme() {
+        document.body.classList.toggle('dark-mode');
+        localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+    }
+
+    // --- LOGIN LOGIC ---
+    const misInput = document.getElementById('mis-input');
+    misInput.addEventListener("keypress", (e) => { if (e.key === "Enter") attemptLogin(); });
+
+    function attemptLogin() {
+        const enteredPart = misInput.value.trim();
+        if(!enteredPart) return;
+
+        const fullMis = "6125" + enteredPart;
+        const errorMsg = document.getElementById('error-msg');
+        const loginCard = document.querySelector('.login-card');
+
+        if (STUDENT_DATABASE[fullMis]) {
+            // Save persistence
+            localStorage.setItem('currentUserMIS', fullMis);
+            loadDashboard(STUDENT_DATABASE[fullMis]);
+        } else {
+            errorMsg.style.display = 'block';
+            loginCard.classList.add('shake');
+            setTimeout(() => loginCard.classList.remove('shake'), 500);
+        }
+    }
+
+    function loadDashboard(studentData) {
+        document.getElementById('home-page').classList.add('hidden');
+        document.getElementById('timetable-page').classList.remove('hidden');
+
+        document.getElementById('user-name-display').innerText = `${studentData.name}`;
+        document.getElementById('user-details-display').innerText = studentData.info;
+
+        const cardContainer = document.getElementById('subject-cards-container');
+        cardContainer.innerHTML = "";
+        studentData.cards.forEach(c => {
+            // Conditional Batch Logic for Card
+            const batchDisplay = c.batch !== '-' ? `<div class="batch">Batch: ${c.batch}</div>` : '';
+            
+            cardContainer.innerHTML += `
+                <div class="card" style="border-left-color: ${c.color};">
+                    <h3>${c.name}</h3>
+                    <div class="subject" style="color:var(--primary)">${c.code}</div>
+                    <div class="detail">${c.div}</div>
+                    ${batchDisplay}
+                </div>
+            `;
+        });
+
+        renderTable(studentData);
+        currentUserSchedule = studentData.schedule;
+        
+        updateClockAndHighlight();
+        clockInterval = setInterval(updateClockAndHighlight, 1000);
+    }
+
+    function renderTable(studentData) {
+        const schedule = studentData.schedule;
+        const subjectDetails = {};
+        studentData.cards.forEach(c => {
+            subjectDetails[c.code] = { div: c.div, batch: c.batch };
+        });
+
+        const tbody = document.getElementById('table-body');
+        tbody.innerHTML = "";
+        const slots = [
+            { id: "0830", label: "8:30 - 9:30" }, 
+            { id: "0930", label: "9:30 - 10:30" },
+            { id: "1030", label: "10:30 - 11:30" }, 
+            { id: "1130", label: "11:30 - 12:30" },
+            { id: "LUNCH", label: "12:30 - 1:30", type: "break" },
+            { id: "1330", label: "1:30 - 2:30" }, 
+            { id: "1430", label: "2:30 - 3:30" },
+            { id: "1530", label: "3:30 - 4:30" }, 
+            { id: "1630", label: "4:30 - 5:30" },
+            { id: "1730", label: "5:30 - 6:30" }
+        ];
+        const days = ["mon", "tue", "wed", "thu", "fri", "sat"];
+        const skipped = {}; 
+
+        slots.forEach((slot, index) => {
+            if (slot.type === "break") {
+                tbody.innerHTML += `<tr><td class="time-col">${slot.label}</td><td colspan="6" class="break" id="lunch-break">LUNCH BREAK</td></tr>`;
+                return;
+            }
+            let rowHtml = `<tr><td class="time-col">${slot.label}</td>`;
+            days.forEach(day => {
+                const key = `${day}-${slot.id}`;
+                if (skipped[`${day}-${index}`]) return; 
+
+                const item = schedule[key];
+                if (item) {
+                    const rowspan = item.span || 1;
+                    for(let i = 1; i < rowspan; i++) skipped[`${day}-${index + i}`] = true;
+                    
+                    const details = subjectDetails[item.subj] || { div: "", batch: "" };
+                    // Conditional Batch Logic for Slot Slot
+                    const batchInfo = details.batch !== '-' ? `<br>Batch: ${details.batch}` : '';
+                    
+                    rowHtml += `
+                        <td rowspan="${rowspan}">
+                            <div class="slot ${item.class}" id="${key}">
+                                ${item.tag ? `<div class="lab-tag">${item.tag}</div>` : ''}
+                                <div>${item.subj}${item.type === 'lab' ? ' LAB' : ''}</div>
+                                <span class="room-tag">${item.room}</span>
+                                <div class="extra-info">
+                                    ${details.div}${batchInfo}
+                                </div>
+                            </div>
+                        </td>`;
+                } else {
+                    rowHtml += `<td id="${key}"></td>`;
+                }
+            });
+            rowHtml += `</tr>`;
+            tbody.innerHTML += rowHtml;
+        });
+    }
+
+    function logout() {
+        localStorage.removeItem('currentUserMIS');
+        document.getElementById('timetable-page').classList.add('hidden');
+        document.getElementById('home-page').classList.remove('hidden');
+        clearInterval(clockInterval);
+        misInput.value = ""; 
+        document.getElementById('error-msg').style.display = 'none';
+    }
+
+    function updateClockAndHighlight() {
+        const now = new Date();
+        const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        const dayIndex = now.getDay();
+        const clockEl = document.getElementById('clock');
+        if(clockEl) {
+            clockEl.innerText = `${days[dayIndex]}, ${now.toLocaleTimeString('en-US', { hour12: true, hour: '2-digit', minute: '2-digit', second: '2-digit' })}`;
+        }
+
+        document.querySelectorAll('.live-active').forEach(el => el.classList.remove('live-active'));
+        document.querySelectorAll('.current-day-col').forEach(el => el.classList.remove('current-day-col'));
+
+        if (dayIndex === 0 || !currentUserSchedule) return;
+
+        const dayPrefix = days[dayIndex].toLowerCase();
+        document.getElementById(`th-${dayPrefix}`)?.classList.add('current-day-col');
+        
+        const mins = now.getHours() * 60 + now.getMinutes();
+        let currentSlotId = null;
+
+        if (mins >= 510 && mins < 570) currentSlotId = "0830";
+        else if (mins >= 570 && mins < 630) currentSlotId = "0930";
+        else if (mins >= 630 && mins < 690) currentSlotId = "1030";
+        else if (mins >= 690 && mins < 750) currentSlotId = "1130";
+        else if (mins >= 810 && mins < 870) currentSlotId = "1330";
+        else if (mins >= 870 && mins < 930) currentSlotId = "1430";
+        else if (mins >= 930 && mins < 990) currentSlotId = "1530";
+        else if (mins >= 990 && mins < 1050) currentSlotId = "1630";
+        else if (mins >= 1050 && mins < 1110) currentSlotId = "1730";
+
+        if (currentSlotId) {
+            let key = `${dayPrefix}-${currentSlotId}`;
+            let el = document.getElementById(key);
+
+            if (!el) {
+                const prevSlotIndex = ["0830", "0930", "1030", "1130", "LUNCH", "1330", "1430", "1530", "1630", "1730"].indexOf(currentSlotId) - 1;
+                if(prevSlotIndex >= 0) {
+                     const prevSlotId = ["0830", "0930", "1030", "1130", "LUNCH", "1330", "1430", "1530", "1630", "1730"][prevSlotIndex];
+                     const prevKey = `${dayPrefix}-${prevSlotId}`;
+                     const prevItem = currentUserSchedule[prevKey];
+                     if(prevItem && prevItem.span === 2) el = document.getElementById(prevKey);
+                }
+            }
+            if (el && el.classList.contains('slot')) {
+                el.classList.add('live-active');
+                if(!window.scrolledToLive) {
+                    el.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
+                    window.scrolledToLive = true;
+                }
+            }
+        }
+    }
+</script>
+
+</body>
+</html>
