@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <title>🗓️ Mobile Timetable</title>
+    <title>Timetable</title>
     
     <style>
         @import url('https://fonts.cdnfonts.com/css/cascadia-code');
@@ -75,7 +75,6 @@
             box-shadow: 0 10px 40px rgba(0,0,0,0.25);
             text-align: center;
             width: 100%;
-            /* Pop-up animation for login card */
             animation: slideUp 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
         }
         @keyframes slideUp { from { transform: translateY(50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
@@ -172,25 +171,73 @@
         }
 
         /* ============================
-           CARDS
+           CARDS (U-SHAPED / BLOCK STYLE)
            ============================ */
         .cards {
-            display: flex; gap: 10px; overflow-x: auto; padding: 4px 4px 16px 4px;
+            display: flex; gap: 12px; overflow-x: auto; padding: 4px 4px 20px 4px;
             scroll-snap-type: x mandatory; margin: 0 -12px 10px -12px; padding-left: 12px; padding-right: 12px;
         }
         .cards::-webkit-scrollbar { display: none; }
 
         .card {
-            background: var(--card-bg); min-width: 110px; padding: 12px; border-radius: 14px;
-            box-shadow: var(--shadow-soft); scroll-snap-align: start; border-left: 4px solid #ccc;
-            flex-shrink: 0; text-align: center; display: flex; flex-direction: column; justify-content: center;
+            background: var(--card-bg);
+            min-width: 120px;
+            padding: 15px 10px;
+            border-radius: 12px; /* Slightly squarer for block look */
+            /* REMOVED LEFT BORDER, ADDED BOTTOM & RIGHT BORDER FOR U-SHAPE/BLOCK */
+            border: 1px solid var(--border); 
+            border-bottom-width: 5px; /* The 'lower' edge */
+            border-right-width: 5px;  /* The 'right' edge */
+            box-shadow: var(--shadow-soft);
+            scroll-snap-align: start;
+            flex-shrink: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            /* Layout distribution: Name top, Code middle, Batch/Space bottom */
+            justify-content: space-between; 
+            min-height: 140px; /* FIXED HEIGHT FOR ALIGNMENT */
         }
-        .card h3 { font-size: 0.75rem; color: var(--text-sub); margin: 0 0 4px 0; text-transform: uppercase; }
-        .card .subject { font-size: 1.4rem; font-weight: 800; margin-bottom: 4px; }
-        .card .detail { background: #fff; color: #333; font-size: 0.8rem; font-weight: 700; padding: 4px 8px; border-radius: 6px; display: inline-block; box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
+        
+        /* Container for Name and Code to keep them top-aligned */
+        .card-top-content {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .card h3 { 
+            font-size: 0.75rem; color: var(--text-sub); margin: 0; 
+            text-transform: uppercase; letter-spacing: 0.5px;
+            /* Ensure 1 row or clamp if too long */
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+        
+        .card .subject { font-size: 1.5rem; font-weight: 800; line-height: 1.2; }
+        
+        .card .detail { 
+            background: #fff; color: #333; font-size: 0.8rem; font-weight: 700; 
+            padding: 4px 8px; border-radius: 6px; display: inline-block; 
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1); border: 1px solid #eee;
+            margin-bottom: 8px;
+        }
+
+        /* Batch Badge or Invisible Spacer */
+        .batch-container {
+            height: 24px; /* Fixed height for bottom area */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         .card .batch-badge {
-            background: rgba(0,0,0,0.05); color: var(--text-main); font-size: 0.75rem; font-weight: 700; 
-            padding: 2px 6px; border-radius: 4px; margin-top: 6px; display: inline-block; border: 1px solid var(--border);
+            background: rgba(0,0,0,0.05); 
+            color: #000000; /* FORCE BLACK TEXT */
+            font-size: 0.75rem; 
+            font-weight: 700; 
+            padding: 3px 8px; 
+            border-radius: 4px; 
+            display: inline-block; 
+            border: 1px solid var(--border);
         }
 
         /* ============================
@@ -198,12 +245,13 @@
            ============================ */
         .timetable-wrapper { background: var(--card-bg); border-radius: 16px; box-shadow: var(--shadow-soft); overflow: hidden; position: relative; }
         .table-scroll-container { overflow-x: auto; -webkit-overflow-scrolling: touch; width: 100%; }
-        table { border-collapse: separate; border-spacing: 0; min-width: 700px; table-layout: fixed; }
+        
+        /* INCREASED MIN-WIDTH FOR TABLE TO ACCOMMODATE WIDER COLUMNS */
+        table { border-collapse: separate; border-spacing: 0; min-width: 950px; table-layout: fixed; }
 
         th { background: var(--primary); color: #fff; padding: 12px 4px; font-size: 0.8rem; text-transform: uppercase; position: sticky; top: 0; z-index: 20; }
         body.dark-mode th { color: #121212; }
 
-        /* Time column slightly wider for "8:30 - 9:30" */
         .time-col { 
             position: sticky; left: 0; background: var(--card-bg); width: 85px; z-index: 25; 
             border-right: 1px solid var(--border); font-size: 0.75rem; font-weight: 700; 
@@ -211,24 +259,24 @@
             box-shadow: 2px 0 5px rgba(0,0,0,0.05);
             display: flex; align-items: center; justify-content: center;
         }
-        /* Fix table cell alignment for flex time-col */
         td.time-col-cell { padding: 0; height: 140px; } 
 
         th:first-child { position: sticky; left: 0; z-index: 30; background: var(--primary); width: 85px; box-shadow: 2px 0 5px rgba(0,0,0,0.1); }
 
         td { border-bottom: 1px solid var(--border); border-right: 1px solid var(--border); padding: 6px; vertical-align: top; height: 140px; }
-        th:not(:first-child), td:not(.time-col-cell) { width: calc((100% - 85px) / 6); min-width: 105px; }
+        
+        /* INCREASED MIN-WIDTH FROM 105px TO 145px HERE */
+        th:not(:first-child), td:not(.time-col-cell) { width: calc((100% - 85px) / 6); min-width: 145px; }
 
         /* SLOT ANIMATIONS & STYLING */
         .slot, .split-item { 
             height: 100%; width: 100%; border-radius: 10px; 
             display: flex; flex-direction: column; justify-content: center; align-items: center; 
-            text-align: center; position: relative; padding: 24px 4px 8px 4px; /* Added top padding for emoji */
+            text-align: center; position: relative; padding: 28px 4px 8px 4px; /* More top padding for emoji */
             box-shadow: var(--slot-shadow); overflow: visible; 
             transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
         }
         
-        /* HOVER / TOUCH POP-UP ANIMATION */
         .slot:hover, .split-item:hover {
             transform: translateY(-6px) scale(1.03);
             z-index: 50;
@@ -242,56 +290,96 @@
         .slot-title { font-weight: 800; font-size: 1.2rem; margin-bottom: 4px; line-height: 1.1; }
         .room-tag { background: rgba(255,255,255,0.85); color: #000; font-size: 0.85rem; font-weight: 700; padding: 4px 8px; border-radius: 6px; display: inline-block; }
         
-        /* LAB EMOJI: TOP CENTER & LARGER */
+        /* LAB EMOJI: TOP CENTER & LARGE */
         .lab-tag { 
             position: absolute; 
-            top: 2px; 
+            top: 4px; 
             left: 50%; 
             transform: translateX(-50%); 
-            font-size: 1.8rem; /* Increased size */
+            font-size: 2rem; 
             line-height: 1;
             z-index: 5;
             filter: drop-shadow(0 2px 2px rgba(0,0,0,0.1));
         }
 
-        /* LUNCH ANIMATIONS */
+        /* SUPER SMOOTH LUNCH ANIMATION */
         .break { 
-            background: repeating-linear-gradient(45deg, var(--bg), var(--bg) 10px, var(--card-bg) 10px, var(--card-bg) 20px); 
+            background: linear-gradient(120deg, var(--bg) 0%, var(--card-bg) 50%, var(--bg) 100%);
+            background-size: 200% 200%;
             color: var(--text-sub); font-style: italic; vertical-align: middle; text-align: center; font-size: 0.9rem; font-weight: 600; 
             position: relative; overflow: hidden;
         }
         
         #lunch-break.lunch-now { 
-            background: var(--bg); 
             border: 2px solid var(--accent); 
-            animation: pulseLunch 2s infinite alternate;
+            /* Breathing background */
+            animation: lunchBreath 4s ease infinite; 
         }
-        @keyframes pulseLunch { from { box-shadow: 0 0 10px rgba(52, 152, 219, 0.1); } to { box-shadow: 0 0 25px rgba(52, 152, 219, 0.3); } }
+        @keyframes lunchBreath { 
+            0% { background-position: 0% 50%; box-shadow: inset 0 0 15px rgba(52,152,219,0.05); } 
+            50% { background-position: 100% 50%; box-shadow: inset 0 0 30px rgba(52,152,219,0.2); } 
+            100% { background-position: 0% 50%; box-shadow: inset 0 0 15px rgba(52,152,219,0.05); } 
+        }
 
-        /* Rising Lunch Emojis */
+        /* Floating Lunch Emojis with Bezier for smooth float */
         .lunch-emoji {
             position: absolute; pointer-events: none; user-select: none;
-            bottom: -20px; font-size: 1.5rem;
-            animation: lunchRise linear infinite;
+            bottom: -30px; font-size: 1.8rem;
+            will-change: transform, opacity;
+            /* Custom cubic-bezier for a "floaty" feel */
+            animation: floatUp 4s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
         }
-        @keyframes lunchRise {
-            0% { transform: translateY(0) scale(0.8); opacity: 0; }
+        @keyframes floatUp {
+            0% { transform: translateY(0) scale(0.8) rotate(0deg); opacity: 0; }
             10% { opacity: 1; }
-            100% { transform: translateY(-120px) scale(1.1); opacity: 0; }
+            90% { opacity: 1; }
+            100% { transform: translateY(-160px) scale(1.1) rotate(15deg); opacity: 0; }
         }
-        .lb-text { position: relative; z-index: 5; background: rgba(255,255,255,0.8); padding: 4px 8px; border-radius: 8px; }
+        .lb-text { position: relative; z-index: 5; background: rgba(255,255,255,0.9); padding: 4px 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
 
         .current-day-col { background-color: rgba(52, 152, 219, 0.05); }
         th.current-day-col { background-color: #34495e; border-bottom: 3px solid var(--accent); }
         
-        .live-active { box-shadow: 0 0 0 3px var(--live-color); z-index: 10; }
-        
+        /* LIVE INDICATOR BOX (Green Stylish Box) */
+        .live-active { 
+            box-shadow: 0 0 0 3px var(--live-color); 
+            z-index: 10;
+        }
+        /* The Green Box "LIVE" Badge */
+        .live-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--live-color);
+            color: white;
+            font-family: 'Cascadia Code', 'Courier New', monospace;
+            font-weight: 600; /* SemiBold */
+            font-size: 0.85rem;
+            padding: 2px 12px;
+            border-radius: 6px;
+            box-shadow: 0 4px 6px rgba(46, 204, 113, 0.3);
+            z-index: 60;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
         /* Snowfall */
-        .snowfall { position: absolute; inset: 0; overflow: hidden; pointer-events: none; opacity: 0.6; z-index: 2; }
+        .snowfall { position: absolute; inset: 0; overflow: hidden; pointer-events: none; opacity: 0.5; z-index: 2; }
         .snowflake { position: absolute; color: white; animation: fall linear infinite; }
         @keyframes fall { to { transform: translateY(180px); } }
 
-        footer { text-align: center; font-family: monospace; font-size: 0.8rem; color: var(--text-sub); margin-top: 20px; font-weight: 700; }
+        /* FOOTER UPDATES */
+        footer { 
+            text-align: center; 
+            font-family: 'Cascadia Code', monospace; /* Changed to Cascadia Code */
+            font-size: 1rem; /* Increased Size */
+            color: var(--text-sub); 
+            margin-top: 30px; 
+            font-weight: 600; /* SemiBold */
+            letter-spacing: 0.5px;
+            padding-bottom: 20px;
+        }
     </style>
 </head>
 <body>
@@ -309,7 +397,7 @@
             <div class="error-msg" id="error-msg">❌ Invalid MIS</div>
         </div>
         <div style="position: absolute; bottom: 20px; color: rgba(255,255,255,0.6); font-size: 0.75rem; text-align: center; width: 100%; left:0;">
-            Created by Ajinkya Patil
+            Created by Ajinkya Patil [AIML]
         </div>
     </div>
 
@@ -350,7 +438,7 @@
                 </div>
             </div>
             
-            <footer>Designed by Ajinkya Patil</footer>
+            <footer>Designed by Ajinkya Patil [AIML]</footer>
         </div>
     </div>
 
@@ -457,7 +545,7 @@
         document.getElementById('user-name-display').innerText = data.name || "Student";
         document.getElementById('user-details-display').innerHTML = data.info || `MIS: ${data.mis}`;
 
-        // Populate Cards (Top Strip) - ADDED BATCH DISPLAY
+        // Populate Cards (Top Strip) - U-SHAPED, BATCH INFO, ALIGNED
         const container = document.getElementById('subject-cards-container');
         container.innerHTML = "";
         if (data.cards) {
@@ -471,12 +559,19 @@
                     ? `<div class="batch-badge">Batch: ${c.batch}</div>` 
                     : '';
 
+                // Border styles are now controlled by the class .card, but color injection for bottom/right borders:
                 container.innerHTML += `
-                    <div class="card" style="border-left-color:${color}; background:${bg}">
-                        <h3>${c.name}</h3>
-                        <div class="subject" style="color:${color}">${c.code}</div>
-                        <div class="detail">${c.div}</div>
-                        ${batchHtml}
+                    <div class="card" style="border-color:${color}; border-bottom-color:${color}; border-right-color:${color}; background:${bg}">
+                        <div class="card-top-content">
+                            <h3>${c.name}</h3>
+                            <div class="subject" style="color:${color}">${c.code}</div>
+                        </div>
+                        <div>
+                            <div class="detail">${c.div}</div>
+                            <div class="batch-container">
+                                ${batchHtml}
+                            </div>
+                        </div>
                     </div>
                 `;
             });
@@ -491,7 +586,6 @@
         const tbody = document.getElementById('table-body');
         tbody.innerHTML = "";
         
-        // RESTORED FULL TIME RANGES
         const slots = [
             { id: "0830", label: "8:30 - 9:30" }, { id: "0930", label: "9:30 - 10:30" },
             { id: "1030", label: "10:30 - 11:30" }, { id: "1130", label: "11:30 - 12:30" },
@@ -581,6 +675,8 @@
 
         document.querySelectorAll('.live-active').forEach(el => {
             el.classList.remove('live-active');
+            const b = el.querySelector('.live-badge');
+            if(b) b.remove();
             const s = el.querySelector('.snowfall');
             if(s) s.remove();
         });
@@ -613,18 +709,16 @@
         else if (min >= 990 && min < 1050) slotId = "1630";
         else if (min >= 1050 && min < 1110) slotId = "1730";
 
-        // RESTORED LUNCH ANIMATION
         if (slotId === '1230' && lb) {
              lb.classList.add('lunch-now');
-             // Add rising emojis
              const count = 3 + Math.floor(Math.random() * 3);
              for(let i=0; i<count; i++) {
                  const em = document.createElement('div');
                  em.className = 'lunch-emoji';
                  em.innerText = '🍽️';
                  em.style.left = (10 + Math.random()*80) + '%';
-                 em.style.animationDuration = (2 + Math.random()*2) + 's';
-                 em.style.animationDelay = (Math.random()*1) + 's';
+                 em.style.animationDuration = (3 + Math.random()*3) + 's';
+                 em.style.animationDelay = (Math.random()*2) + 's';
                  lb.appendChild(em);
              }
         }
@@ -637,15 +731,25 @@
                 const allIds = ["0830","0930","1030","1130","1230","1330","1430","1530","1630","1730"];
                 const currIdx = allIds.indexOf(slotId);
                 if (currIdx > 0) {
-                     const prevId = allIds[currIdx-1];
-                     const prevKey = `${dayName}-${prevId}`;
-                     const prevItem = currentUserSchedule[prevKey];
-                     if (prevItem && prevItem.span === 2) el = document.getElementById(prevKey);
+                      const prevId = allIds[currIdx-1];
+                      const prevKey = `${dayName}-${prevId}`;
+                      const prevItem = currentUserSchedule[prevKey];
+                      if (prevItem && prevItem.span === 2) el = document.getElementById(prevKey);
                 }
             }
 
             if (el) {
                 el.classList.add('live-active');
+                
+                // ADD LIVE BADGE
+                if (!el.querySelector('.live-badge')) {
+                    const badge = document.createElement('div');
+                    badge.className = 'live-badge';
+                    badge.innerText = 'LIVE';
+                    el.appendChild(badge);
+                }
+
+                // Add Snow
                 if (!el.querySelector('.snowfall')) {
                     const snow = document.createElement('div');
                     snow.className = 'snowfall';
