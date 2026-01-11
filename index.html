@@ -19,10 +19,10 @@
             --border: #e1e4e8;
             --input-bg: #ffffff;
             --shadow-soft: 0 4px 20px rgba(0,0,0,0.05);
-            --slot-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            --slot-shadow: 0 2px 5px rgba(0,0,0,0.08);
             --live-color: #2ecc71;
             --error: #e74c3c;
-            --bar-bg: #1a1a1a; /* Dark black square color */
+            --bar-bg: #1a1a1a;
             --bar-text: #ffffff;
         }
 
@@ -37,7 +37,7 @@
             --border: #2a2a2a;
             --input-bg: #2c2c2c;
             --shadow-soft: 0 4px 20px rgba(0,0,0,0.4);
-            --slot-shadow: 0 1px 3px rgba(0,0,0,0.3);
+            --slot-shadow: 0 2px 5px rgba(0,0,0,0.3);
             --bar-bg: #000000;
         }
         
@@ -75,7 +75,11 @@
             box-shadow: 0 10px 40px rgba(0,0,0,0.25);
             text-align: center;
             width: 100%;
+            /* Pop-up animation for login card */
+            animation: slideUp 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
         }
+        @keyframes slideUp { from { transform: translateY(50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+        
         body.dark-mode .login-card { background: rgba(30, 30, 30, 0.96); }
 
         .login-card h1 { margin: 0 0 8px; color: #2c3e50; font-size: 1.8rem; font-weight: 700; letter-spacing: -0.5px; }
@@ -95,12 +99,13 @@
             background: var(--accent); color: white; border: none; padding: 18px 0; width: 100%;
             border-radius: 14px; font-size: 1.1rem; font-weight: 700; cursor: pointer;
             box-shadow: 0 6px 20px rgba(52, 152, 219, 0.3);
+            transition: transform 0.2s;
         }
-        .btn-login:active { transform: scale(0.98); }
+        .btn-login:active { transform: scale(0.96); }
         .error-msg { color: var(--error); margin-top: 20px; font-weight: 600; display: none; background: rgba(231, 76, 60, 0.1); padding: 12px; border-radius: 12px; }
 
         /* ============================
-           DASHBOARD HEADER (New Layout)
+           DASHBOARD HEADER
            ============================ */
         .container { padding: 12px 12px 80px 12px; max-width: 100%; }
 
@@ -109,12 +114,11 @@
             border-radius: 16px;
             box-shadow: var(--shadow-soft);
             margin-bottom: 16px;
-            overflow: hidden; /* Ensures the dark bar stays inside rounded corners */
+            overflow: hidden;
             display: flex;
             flex-direction: column;
         }
 
-        /* Top Row: Info + Theme Toggle */
         .header-top {
             padding: 16px;
             display: flex;
@@ -136,7 +140,6 @@
             transition: background 0.2s;
         }
 
-        /* Bottom Row: Dark Bar with Time + Exit */
         .status-bar {
             background: var(--bar-bg);
             color: var(--bar-text);
@@ -152,7 +155,7 @@
             font-weight: 700;
             font-size: 0.95rem;
             letter-spacing: 0.5px;
-            color: #fff; /* Always white on dark bar */
+            color: #fff;
         }
 
         .logout-btn {
@@ -169,7 +172,7 @@
         }
 
         /* ============================
-           CARDS & TIMETABLE
+           CARDS
            ============================ */
         .cards {
             display: flex; gap: 10px; overflow-x: auto; padding: 4px 4px 16px 4px;
@@ -185,7 +188,14 @@
         .card h3 { font-size: 0.75rem; color: var(--text-sub); margin: 0 0 4px 0; text-transform: uppercase; }
         .card .subject { font-size: 1.4rem; font-weight: 800; margin-bottom: 4px; }
         .card .detail { background: #fff; color: #333; font-size: 0.8rem; font-weight: 700; padding: 4px 8px; border-radius: 6px; display: inline-block; box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
+        .card .batch-badge {
+            background: rgba(0,0,0,0.05); color: var(--text-main); font-size: 0.75rem; font-weight: 700; 
+            padding: 2px 6px; border-radius: 4px; margin-top: 6px; display: inline-block; border: 1px solid var(--border);
+        }
 
+        /* ============================
+           TIMETABLE & SLOTS
+           ============================ */
         .timetable-wrapper { background: var(--card-bg); border-radius: 16px; box-shadow: var(--shadow-soft); overflow: hidden; position: relative; }
         .table-scroll-container { overflow-x: auto; -webkit-overflow-scrolling: touch; width: 100%; }
         table { border-collapse: separate; border-spacing: 0; min-width: 700px; table-layout: fixed; }
@@ -193,32 +203,93 @@
         th { background: var(--primary); color: #fff; padding: 12px 4px; font-size: 0.8rem; text-transform: uppercase; position: sticky; top: 0; z-index: 20; }
         body.dark-mode th { color: #121212; }
 
-        .time-col { position: sticky; left: 0; background: var(--card-bg); width: 70px; z-index: 25; border-right: 1px solid var(--border); font-size: 0.75rem; font-weight: 700; color: var(--text-sub); text-align: center; padding: 8px 2px; box-shadow: 2px 0 5px rgba(0,0,0,0.05); }
-        th:first-child { position: sticky; left: 0; z-index: 30; background: var(--primary); width: 70px; box-shadow: 2px 0 5px rgba(0,0,0,0.1); }
+        /* Time column slightly wider for "8:30 - 9:30" */
+        .time-col { 
+            position: sticky; left: 0; background: var(--card-bg); width: 85px; z-index: 25; 
+            border-right: 1px solid var(--border); font-size: 0.75rem; font-weight: 700; 
+            color: var(--text-sub); text-align: center; padding: 0 4px; 
+            box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+            display: flex; align-items: center; justify-content: center;
+        }
+        /* Fix table cell alignment for flex time-col */
+        td.time-col-cell { padding: 0; height: 140px; } 
+
+        th:first-child { position: sticky; left: 0; z-index: 30; background: var(--primary); width: 85px; box-shadow: 2px 0 5px rgba(0,0,0,0.1); }
 
         td { border-bottom: 1px solid var(--border); border-right: 1px solid var(--border); padding: 6px; vertical-align: top; height: 140px; }
-        th:not(:first-child), td:not(.time-col) { width: calc((100% - 70px) / 6); min-width: 105px; }
+        th:not(:first-child), td:not(.time-col-cell) { width: calc((100% - 85px) / 6); min-width: 105px; }
 
-        .slot, .split-item { height: 100%; width: 100%; border-radius: 10px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; position: relative; padding: 8px 4px; box-shadow: var(--slot-shadow); overflow: hidden; }
-        .slot-collision { background: transparent; box-shadow: none; padding: 0; }
-        .slot-split { display: flex; width: 100%; height: 100%; gap: 4px; }
+        /* SLOT ANIMATIONS & STYLING */
+        .slot, .split-item { 
+            height: 100%; width: 100%; border-radius: 10px; 
+            display: flex; flex-direction: column; justify-content: center; align-items: center; 
+            text-align: center; position: relative; padding: 24px 4px 8px 4px; /* Added top padding for emoji */
+            box-shadow: var(--slot-shadow); overflow: visible; 
+            transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+        }
+        
+        /* HOVER / TOUCH POP-UP ANIMATION */
+        .slot:hover, .split-item:hover {
+            transform: translateY(-6px) scale(1.03);
+            z-index: 50;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        .slot-collision { background: transparent; box-shadow: none; padding: 0; pointer-events: none; }
+        .slot-split { display: flex; width: 100%; height: 100%; gap: 4px; pointer-events: auto; }
         .split-item { flex: 1; min-width: 0; font-size: 0.9em; }
 
         .slot-title { font-weight: 800; font-size: 1.2rem; margin-bottom: 4px; line-height: 1.1; }
         .room-tag { background: rgba(255,255,255,0.85); color: #000; font-size: 0.85rem; font-weight: 700; padding: 4px 8px; border-radius: 6px; display: inline-block; }
-        .lab-tag { position: absolute; top: 4px; right: 4px; font-size: 1.2rem; opacity: 0.8; }
+        
+        /* LAB EMOJI: TOP CENTER & LARGER */
+        .lab-tag { 
+            position: absolute; 
+            top: 2px; 
+            left: 50%; 
+            transform: translateX(-50%); 
+            font-size: 1.8rem; /* Increased size */
+            line-height: 1;
+            z-index: 5;
+            filter: drop-shadow(0 2px 2px rgba(0,0,0,0.1));
+        }
 
-        .break { background: repeating-linear-gradient(45deg, var(--bg), var(--bg) 10px, var(--card-bg) 10px, var(--card-bg) 20px); color: var(--text-sub); font-style: italic; vertical-align: middle; text-align: center; font-size: 0.9rem; font-weight: 600; }
-        #lunch-break.lunch-now { background: var(--bg); border: 2px solid var(--accent); animation: pulseLunch 2s infinite; }
-        @keyframes pulseLunch { 0% { opacity: 0.8; } 50% { opacity: 1; } 100% { opacity: 0.8; } }
+        /* LUNCH ANIMATIONS */
+        .break { 
+            background: repeating-linear-gradient(45deg, var(--bg), var(--bg) 10px, var(--card-bg) 10px, var(--card-bg) 20px); 
+            color: var(--text-sub); font-style: italic; vertical-align: middle; text-align: center; font-size: 0.9rem; font-weight: 600; 
+            position: relative; overflow: hidden;
+        }
+        
+        #lunch-break.lunch-now { 
+            background: var(--bg); 
+            border: 2px solid var(--accent); 
+            animation: pulseLunch 2s infinite alternate;
+        }
+        @keyframes pulseLunch { from { box-shadow: 0 0 10px rgba(52, 152, 219, 0.1); } to { box-shadow: 0 0 25px rgba(52, 152, 219, 0.3); } }
+
+        /* Rising Lunch Emojis */
+        .lunch-emoji {
+            position: absolute; pointer-events: none; user-select: none;
+            bottom: -20px; font-size: 1.5rem;
+            animation: lunchRise linear infinite;
+        }
+        @keyframes lunchRise {
+            0% { transform: translateY(0) scale(0.8); opacity: 0; }
+            10% { opacity: 1; }
+            100% { transform: translateY(-120px) scale(1.1); opacity: 0; }
+        }
+        .lb-text { position: relative; z-index: 5; background: rgba(255,255,255,0.8); padding: 4px 8px; border-radius: 8px; }
 
         .current-day-col { background-color: rgba(52, 152, 219, 0.05); }
         th.current-day-col { background-color: #34495e; border-bottom: 3px solid var(--accent); }
         
         .live-active { box-shadow: 0 0 0 3px var(--live-color); z-index: 10; }
-        .snowfall { position: absolute; inset: 0; overflow: hidden; pointer-events: none; opacity: 0.5; }
+        
+        /* Snowfall */
+        .snowfall { position: absolute; inset: 0; overflow: hidden; pointer-events: none; opacity: 0.6; z-index: 2; }
         .snowflake { position: absolute; color: white; animation: fall linear infinite; }
-        @keyframes fall { to { transform: translateY(150px); } }
+        @keyframes fall { to { transform: translateY(180px); } }
 
         footer { text-align: center; font-family: monospace; font-size: 0.8rem; color: var(--text-sub); margin-top: 20px; font-weight: 700; }
     </style>
@@ -252,7 +323,6 @@
                     </div>
                     <button class="theme-btn" onclick="toggleTheme()" id="theme-btn" aria-label="Toggle Theme">🌑</button>
                 </div>
-                
                 <div class="status-bar">
                     <div id="clock">--:--:--</div>
                     <button class="logout-btn" onclick="logout()">EXIT</button>
@@ -387,7 +457,7 @@
         document.getElementById('user-name-display').innerText = data.name || "Student";
         document.getElementById('user-details-display').innerHTML = data.info || `MIS: ${data.mis}`;
 
-        // Populate Cards (Top Strip)
+        // Populate Cards (Top Strip) - ADDED BATCH DISPLAY
         const container = document.getElementById('subject-cards-container');
         container.innerHTML = "";
         if (data.cards) {
@@ -396,11 +466,17 @@
                 const color = (group && group.color) || c.color || '#ccc';
                 const bg = (group && group.bg) || hexToRgba(color, 0.1);
                 
+                // Check if batch exists
+                const batchHtml = (c.batch && c.batch !== '-') 
+                    ? `<div class="batch-badge">Batch: ${c.batch}</div>` 
+                    : '';
+
                 container.innerHTML += `
                     <div class="card" style="border-left-color:${color}; background:${bg}">
                         <h3>${c.name}</h3>
                         <div class="subject" style="color:${color}">${c.code}</div>
                         <div class="detail">${c.div}</div>
+                        ${batchHtml}
                     </div>
                 `;
             });
@@ -415,12 +491,13 @@
         const tbody = document.getElementById('table-body');
         tbody.innerHTML = "";
         
+        // RESTORED FULL TIME RANGES
         const slots = [
-            { id: "0830", label: "8:30" }, { id: "0930", label: "9:30" },
-            { id: "1030", label: "10:30" }, { id: "1130", label: "11:30" },
-            { id: "1230", label: "12:30" }, { id: "1330", label: "1:30" },
-            { id: "1430", label: "2:30" }, { id: "1530", label: "3:30" },
-            { id: "1630", label: "4:30" }, { id: "1730", label: "5:30" }
+            { id: "0830", label: "8:30 - 9:30" }, { id: "0930", label: "9:30 - 10:30" },
+            { id: "1030", label: "10:30 - 11:30" }, { id: "1130", label: "11:30 - 12:30" },
+            { id: "1230", label: "12:30 - 1:30" }, { id: "1330", label: "1:30 - 2:30" },
+            { id: "1430", label: "2:30 - 3:30" }, { id: "1530", label: "3:30 - 4:30" },
+            { id: "1630", label: "4:30 - 5:30" }, { id: "1730", label: "5:30 - 6:30" }
         ];
         const days = ["mon", "tue", "wed", "thu", "fri", "sat"];
         const skipped = {};
@@ -429,12 +506,12 @@
             if (slot.id === "1230") {
                 const hasClass = days.some(d => schedule[`${d}-1230`]);
                 if (!hasClass) {
-                    tbody.innerHTML += `<tr><td class="time-col">${slot.label}</td><td colspan="6" class="break" id="lunch-break">LUNCH BREAK</td></tr>`;
+                    tbody.innerHTML += `<tr><td class="time-col time-col-cell"><div class="time-col">${slot.label}</div></td><td colspan="6" class="break" id="lunch-break"><span class="lb-text">LUNCH BREAK</span></td></tr>`;
                     return;
                 }
             }
 
-            let rowHtml = `<tr><td class="time-col">${slot.label}</td>`;
+            let rowHtml = `<tr><td class="time-col time-col-cell"><div class="time-col">${slot.label}</div></td>`;
 
             days.forEach(day => {
                 const key = `${day}-${slot.id}`;
@@ -498,7 +575,6 @@
         const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         const dayIdx = now.getDay();
         
-        // ADDED SECONDS HERE
         const timeStr = now.toLocaleTimeString('en-US', { hour12: true, hour: 'numeric', minute:'2-digit', second: '2-digit' });
         const clockEl = document.getElementById('clock');
         if(clockEl) clockEl.innerText = `${days[dayIdx]}, ${timeStr}`;
@@ -509,6 +585,13 @@
             if(s) s.remove();
         });
         document.querySelectorAll('.current-day-col').forEach(el => el.classList.remove('current-day-col'));
+
+        // Clear Lunch
+        const lb = document.getElementById('lunch-break');
+        if (lb) {
+            lb.classList.remove('lunch-now');
+            lb.querySelectorAll('.lunch-emoji').forEach(e => e.remove());
+        }
 
         if (dayIdx === 0 || !currentUserSchedule) return; 
 
@@ -530,10 +613,20 @@
         else if (min >= 990 && min < 1050) slotId = "1630";
         else if (min >= 1050 && min < 1110) slotId = "1730";
 
-        const lb = document.getElementById('lunch-break');
-        if (lb) {
-            if (slotId === '1230') lb.classList.add('lunch-now');
-            else lb.classList.remove('lunch-now');
+        // RESTORED LUNCH ANIMATION
+        if (slotId === '1230' && lb) {
+             lb.classList.add('lunch-now');
+             // Add rising emojis
+             const count = 3 + Math.floor(Math.random() * 3);
+             for(let i=0; i<count; i++) {
+                 const em = document.createElement('div');
+                 em.className = 'lunch-emoji';
+                 em.innerText = '🍽️';
+                 em.style.left = (10 + Math.random()*80) + '%';
+                 em.style.animationDuration = (2 + Math.random()*2) + 's';
+                 em.style.animationDelay = (Math.random()*1) + 's';
+                 lb.appendChild(em);
+             }
         }
 
         if (slotId && slotId !== '1230') {
