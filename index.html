@@ -308,6 +308,9 @@
             margin-top: 6px;
             box-shadow: 0 1px 2px rgba(0,0,0,0.04);
         }
+        @media (max-width: 640px) {
+            .card .detail, .card .batch { font-size: 0.85rem; padding: 4px 6px; }
+        }
 
         /* Timetable Grid */
         .timetable-wrapper {
@@ -325,7 +328,7 @@
             max-width: 100%;
         }
 
-        table { width: 100%; border-collapse: separate; border-spacing: 0; min-width: 700px; }
+        table { width: 100%; border-collapse: separate; border-spacing: 0; min-width: 820px; }
 
         th { 
             background-color: var(--primary); 
@@ -355,8 +358,12 @@
             border-bottom: 1px solid var(--border);
             border-right: 1px solid var(--border);
             height: 90px; 
-            width: 14%;
         }
+        /* Make each day column wider so text doesn't collide with emoji; first column (time) is excluded */
+        th:not(:first-child), td:not(.time-col) { min-width: 120px; }
+        
+        /* Increase table min-width to accommodate wider day columns */
+        table { min-width: 820px; }
         
         .time-col { 
             font-weight: 700; 
@@ -388,6 +395,8 @@
             box-shadow: var(--slot-shadow);
             overflow: visible;
         }
+        /* Make room tag appear as a separate line below the title for clarity */
+        .slot .room-tag, .split-item .room-tag { display: block; margin-top: 6px; }
         
         .lab-tag { 
             position: absolute;
@@ -404,6 +413,11 @@
         }
         /* Ensure positioning context exists for both slot and split items */
         .slot, .split-item { position: relative; }
+        /* Give slots extra right padding so emoji in the top-right never overlaps slot content */
+        .slot, .split-item { padding-right: 36px; }
+        /* Slot title/subheading styling: keep title on one line and LAB as a subheading */
+        .slot .slot-title, .split-item .slot-title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
+        .slot .slot-sub, .split-item .slot-sub { display: block; font-weight: 700; font-size: 0.9rem; margin-top: 2px; }
         /* Utility: force any emoji intended for top-right to be absolutely positioned */
         .emoji-top-right { position: absolute !important; top: 6px !important; right: 6px !important; transform: none !important; z-index: 3 !important; }
         /* Mobile tweak: smaller lab-tag and anchored top-right */
@@ -623,11 +637,14 @@
             .time-col { width: 80px; font-size: 0.9rem; }
             .slot { padding: 10px; font-size: 1rem; border-radius: 10px; }
             .slot:hover { transform: none; }
-            /* Show extra info by default on mobile (no hover) */
-            .slot .extra-info { max-height: none; opacity: 1; padding: 4px; margin-top: 6px; }
-            .slot .lab-tag { font-size: 1.2rem; top: 6px; right: 6px; }
+            /* On mobile show a single-line truncated summary by default and allow tap-to-expand */
+            .slot .extra-info { max-height: 1.2em; opacity: 1; padding: 4px; margin-top: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+            .slot.expanded .extra-info, .split-item.expanded .extra-info { max-height: 300px; white-space: normal; overflow: visible; }
+            /* Slightly reduce slot text and ensure enough space from emoji */
+            .slot, .split-item { font-size: 0.95rem; padding-right: 36px; }
+            .slot .lab-tag { font-size: 1rem; top: 6px; right: 6px; }
             /* Smaller lab-tag inside split items (collision cells) */
-            .split-item .lab-tag { font-size: 0.95rem; top: 6px; right: 6px; }
+            .split-item .lab-tag { font-size: 0.9rem; top: 6px; right: 6px; }
             .btn-login { padding: 18px 0; font-size: 1.1rem; }
             .mis-input-wrapper input { font-size: 1.2rem; padding: 12px 0; }
             .theme-toggle-fixed { top: 12px; right: 12px; }
@@ -993,7 +1010,8 @@
                             rowHtml += `
                                 <div class="split-item ${classStyle}" style="border-left:4px solid ${slotColor}; background: ${slotBg}; color: ${slotText};">
                                     ${displayTag ? `<div class="lab-tag emoji-top-right">${displayTag}</div>` : ''}
-                                    <div style="font-weight:800; color:${slotColor}; font-size:1.05rem">${it.subj}${it.type === 'lab' ? ' LAB' : ''}</div>
+                                    <div class="slot-title" style="font-weight:800; color:${slotColor}; font-size:1.05rem">${it.subj}</div>
+                                    ${it.type === 'lab' ? `<div class="slot-sub" style="font-weight:700; color:${slotColor}; font-size:0.9rem;">LAB</div>` : ''}
                                     <span class="room-tag">${it.room}</span>
                                     <div class="extra-info" style="color:${slotText};">
                                         ${details.div}${batchInfo}
@@ -1027,7 +1045,8 @@
                             <td rowspan="${rowspan}">
                                 <div class="slot ${classStyle}" id="${key}" style="border-left:4px solid ${slotColor}; background: ${slotBg}; color: ${slotText};">
                                     ${displayTag ? `<div class="lab-tag emoji-top-right">${displayTag}</div>` : ''}
-                                    <div style="font-weight:800; color:${slotColor}; font-size:1.1rem">${item.subj}${item.type === 'lab' ? ' LAB' : ''}</div>
+                                    <div class="slot-title" style="font-weight:800; color:${slotColor}; font-size:1.1rem">${item.subj}</div>
+                                    ${item.type === 'lab' ? `<div class="slot-sub" style="font-weight:700; color:${slotColor}; font-size:0.95rem;">LAB</div>` : ''}
                                     <span class="room-tag">${item.room}</span>
                                     <div class="extra-info" style="color:${slotText};">
                                         ${details.div}${batchInfo}
