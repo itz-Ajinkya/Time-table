@@ -22,6 +22,8 @@
             --slot-shadow: 0 1px 3px rgba(0,0,0,0.08);
             --live-color: #2ecc71;
             --error: #e74c3c;
+            --bar-bg: #1a1a1a; /* Dark black square color */
+            --bar-text: #ffffff;
         }
 
         /* Dark Mode */
@@ -36,6 +38,7 @@
             --input-bg: #2c2c2c;
             --shadow-soft: 0 4px 20px rgba(0,0,0,0.4);
             --slot-shadow: 0 1px 3px rgba(0,0,0,0.3);
+            --bar-bg: #000000;
         }
         
         * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -46,15 +49,14 @@
             color: var(--text-main);
             margin: 0;
             padding: 0;
-            /* Prevent bounce scrolling on body, handle it in containers */
             overscroll-behavior-y: none;
-            font-size: 16px; /* Base size for mobile legibility */
+            font-size: 16px;
         }
 
         .hidden { display: none !important; }
 
         /* ============================
-           LOGIN SCREEN (Mobile Optimized)
+           LOGIN SCREEN
            ============================ */
         #home-page {
             height: 100vh;
@@ -76,321 +78,149 @@
         }
         body.dark-mode .login-card { background: rgba(30, 30, 30, 0.96); }
 
-        .login-card h1 { 
-            margin: 0 0 8px; 
-            color: #2c3e50; 
-            font-size: 1.8rem; 
-            font-weight: 700;
-            letter-spacing: -0.5px;
-        }
+        .login-card h1 { margin: 0 0 8px; color: #2c3e50; font-size: 1.8rem; font-weight: 700; letter-spacing: -0.5px; }
         body.dark-mode .login-card h1 { color: #fff; }
-        
         .login-card p { color: #666; margin-bottom: 32px; font-size: 1rem; }
         body.dark-mode .login-card p { color: #aaa; }
 
         .mis-input-wrapper {
-            display: flex;
-            align-items: center;
-            background: var(--input-bg);
-            border: 2px solid var(--border);
-            border-radius: 14px;
-            padding: 4px 16px;
-            margin-bottom: 20px;
+            display: flex; align-items: center; background: var(--input-bg);
+            border: 2px solid var(--border); border-radius: 14px; padding: 4px 16px; margin-bottom: 20px;
         }
         .mis-input-wrapper:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2); }
-
         .prefix { font-family: monospace; font-weight: 700; font-size: 1.4rem; opacity: 0.6; margin-right: 4px; }
-        
-        .mis-input-wrapper input {
-            border: none;
-            background: transparent;
-            padding: 14px 0;
-            font-size: 1.4rem;
-            font-family: monospace;
-            font-weight: 700;
-            color: var(--text-main);
-            width: 100%;
-            outline: none;
-        }
+        .mis-input-wrapper input { border: none; background: transparent; padding: 14px 0; font-size: 1.4rem; font-family: monospace; font-weight: 700; color: var(--text-main); width: 100%; outline: none; }
 
         .btn-login {
-            background: var(--accent);
-            color: white;
-            border: none;
-            padding: 18px 0;
-            width: 100%;
-            border-radius: 14px;
-            font-size: 1.1rem;
-            font-weight: 700;
+            background: var(--accent); color: white; border: none; padding: 18px 0; width: 100%;
+            border-radius: 14px; font-size: 1.1rem; font-weight: 700; cursor: pointer;
             box-shadow: 0 6px 20px rgba(52, 152, 219, 0.3);
-            cursor: pointer;
         }
         .btn-login:active { transform: scale(0.98); }
-
-        .error-msg {
-            color: var(--error);
-            margin-top: 20px;
-            font-weight: 600;
-            display: none;
-            background: rgba(231, 76, 60, 0.1);
-            padding: 12px;
-            border-radius: 12px;
-        }
+        .error-msg { color: var(--error); margin-top: 20px; font-weight: 600; display: none; background: rgba(231, 76, 60, 0.1); padding: 12px; border-radius: 12px; }
 
         /* ============================
-           DASHBOARD (Mobile Flow)
+           DASHBOARD HEADER (New Layout)
            ============================ */
-        .container { 
-            padding: 12px 12px 80px 12px; /* Bottom padding for footer */
-            max-width: 100%;
+        .container { padding: 12px 12px 80px 12px; max-width: 100%; }
+
+        header {
+            background: var(--card-bg);
+            border-radius: 16px;
+            box-shadow: var(--shadow-soft);
+            margin-bottom: 16px;
+            overflow: hidden; /* Ensures the dark bar stays inside rounded corners */
+            display: flex;
+            flex-direction: column;
         }
 
-        /* Header Area */
-        header {
+        /* Top Row: Info + Theme Toggle */
+        .header-top {
+            padding: 16px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 16px;
-            background: var(--card-bg);
-            padding: 16px;
-            border-radius: 16px;
-            box-shadow: var(--shadow-soft);
         }
 
         .profile-info h1 { margin: 0; font-size: 1.3rem; color: var(--text-main); }
         .profile-info p { margin: 2px 0 0; color: var(--text-sub); font-size: 0.85rem; font-family: monospace; }
-        
-        .header-controls { text-align: right; }
-        #clock { font-family: monospace; font-weight: 700; color: var(--accent); font-size: 0.9rem; margin-bottom: 6px; }
-        
-        .action-row { display: flex; gap: 12px; justify-content: flex-end; align-items: center; }
-        
+
         .theme-btn {
             background: var(--bg);
             border: 1px solid var(--border);
-            width: 36px; height: 36px;
+            width: 40px; height: 40px;
             border-radius: 50%;
             display: flex; align-items: center; justify-content: center;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             cursor: pointer;
-        }
-        
-        .logout-btn {
-            background: rgba(231, 76, 60, 0.1);
-            color: var(--error);
-            border: none;
-            padding: 8px 12px;
-            border-radius: 8px;
-            font-size: 0.8rem;
-            font-weight: 700;
-            cursor: pointer;
+            transition: background 0.2s;
         }
 
-        /* Top Horizontal Scroll Cards */
-        .cards {
+        /* Bottom Row: Dark Bar with Time + Exit */
+        .status-bar {
+            background: var(--bar-bg);
+            color: var(--bar-text);
+            padding: 12px 16px;
             display: flex;
-            gap: 10px;
-            overflow-x: auto;
-            padding: 4px 4px 16px 4px;
-            scroll-snap-type: x mandatory;
-            margin: 0 -12px 10px -12px; /* Bleed to edges */
-            padding-left: 12px; /* Restore padding start */
-            padding-right: 12px;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        #clock {
+            font-family: 'Cascadia Code', monospace;
+            font-weight: 700;
+            font-size: 0.95rem;
+            letter-spacing: 0.5px;
+            color: #fff; /* Always white on dark bar */
+        }
+
+        .logout-btn {
+            background: rgba(255, 255, 255, 0.15);
+            color: #ff6b6b;
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        /* ============================
+           CARDS & TIMETABLE
+           ============================ */
+        .cards {
+            display: flex; gap: 10px; overflow-x: auto; padding: 4px 4px 16px 4px;
+            scroll-snap-type: x mandatory; margin: 0 -12px 10px -12px; padding-left: 12px; padding-right: 12px;
         }
         .cards::-webkit-scrollbar { display: none; }
 
         .card {
-            background: var(--card-bg);
-            min-width: 110px;
-            padding: 12px;
-            border-radius: 14px;
-            box-shadow: var(--shadow-soft);
-            scroll-snap-align: start;
-            border-left: 4px solid #ccc;
-            flex-shrink: 0;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            background: var(--card-bg); min-width: 110px; padding: 12px; border-radius: 14px;
+            box-shadow: var(--shadow-soft); scroll-snap-align: start; border-left: 4px solid #ccc;
+            flex-shrink: 0; text-align: center; display: flex; flex-direction: column; justify-content: center;
         }
         .card h3 { font-size: 0.75rem; color: var(--text-sub); margin: 0 0 4px 0; text-transform: uppercase; }
         .card .subject { font-size: 1.4rem; font-weight: 800; margin-bottom: 4px; }
-        .card .detail { 
-            background: #fff; color: #333; 
-            font-size: 0.8rem; font-weight: 700; 
-            padding: 4px 8px; border-radius: 6px; 
-            display: inline-block; 
-            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-        }
+        .card .detail { background: #fff; color: #333; font-size: 0.8rem; font-weight: 700; padding: 4px 8px; border-radius: 6px; display: inline-block; box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
 
-        /* ============================
-           TIMETABLE GRID (Mobile Optimized)
-           ============================ */
-        .timetable-wrapper {
-            background: var(--card-bg);
-            border-radius: 16px;
-            box-shadow: var(--shadow-soft);
-            overflow: hidden; /* Hide outer scroll */
-            position: relative;
-        }
+        .timetable-wrapper { background: var(--card-bg); border-radius: 16px; box-shadow: var(--shadow-soft); overflow: hidden; position: relative; }
+        .table-scroll-container { overflow-x: auto; -webkit-overflow-scrolling: touch; width: 100%; }
+        table { border-collapse: separate; border-spacing: 0; min-width: 700px; table-layout: fixed; }
 
-        .table-scroll-container {
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch; /* Smooth scroll on iOS */
-            width: 100%;
-        }
-
-        /* Force minimum width to ensure slots aren't squashed */
-        table { 
-            border-collapse: separate; 
-            border-spacing: 0; 
-            min-width: 700px; /* Ensure wide enough scroll */
-            table-layout: fixed;
-        }
-
-        th {
-            background: var(--primary);
-            color: #fff;
-            padding: 12px 4px;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            position: sticky;
-            top: 0;
-            z-index: 20;
-        }
+        th { background: var(--primary); color: #fff; padding: 12px 4px; font-size: 0.8rem; text-transform: uppercase; position: sticky; top: 0; z-index: 20; }
         body.dark-mode th { color: #121212; }
 
-        /* Sticky Time Column */
-        .time-col {
-            position: sticky;
-            left: 0;
-            background: var(--card-bg);
-            width: 70px;
-            z-index: 25;
-            border-right: 1px solid var(--border);
-            font-size: 0.75rem;
-            font-weight: 700;
-            color: var(--text-sub);
-            text-align: center;
-            padding: 8px 2px;
-            box-shadow: 2px 0 5px rgba(0,0,0,0.05);
-        }
-        /* Sticky Time Header */
-        th:first-child {
-            position: sticky;
-            left: 0;
-            z-index: 30;
-            background: var(--primary);
-            width: 70px;
-            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-        }
+        .time-col { position: sticky; left: 0; background: var(--card-bg); width: 70px; z-index: 25; border-right: 1px solid var(--border); font-size: 0.75rem; font-weight: 700; color: var(--text-sub); text-align: center; padding: 8px 2px; box-shadow: 2px 0 5px rgba(0,0,0,0.05); }
+        th:first-child { position: sticky; left: 0; z-index: 30; background: var(--primary); width: 70px; box-shadow: 2px 0 5px rgba(0,0,0,0.1); }
 
-        td {
-            border-bottom: 1px solid var(--border);
-            border-right: 1px solid var(--border);
-            padding: 6px;
-            vertical-align: top;
-            height: 140px; /* TALL, VERTICALLY RECTANGULAR */
-        }
-        
-        /* Day Columns */
-        th:not(:first-child), td:not(.time-col) {
-            width: calc((100% - 70px) / 6);
-            min-width: 105px; /* Minimum width for readability */
-        }
+        td { border-bottom: 1px solid var(--border); border-right: 1px solid var(--border); padding: 6px; vertical-align: top; height: 140px; }
+        th:not(:first-child), td:not(.time-col) { width: calc((100% - 70px) / 6); min-width: 105px; }
 
-        /* Slot Content */
-        .slot, .split-item {
-            height: 100%;
-            width: 100%;
-            border-radius: 10px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            position: relative;
-            padding: 8px 4px;
-            box-shadow: var(--slot-shadow);
-            overflow: hidden;
-        }
-        
-        /* Split slots for collisions */
+        .slot, .split-item { height: 100%; width: 100%; border-radius: 10px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; position: relative; padding: 8px 4px; box-shadow: var(--slot-shadow); overflow: hidden; }
         .slot-collision { background: transparent; box-shadow: none; padding: 0; }
         .slot-split { display: flex; width: 100%; height: 100%; gap: 4px; }
         .split-item { flex: 1; min-width: 0; font-size: 0.9em; }
 
-        .slot-title {
-            font-weight: 800;
-            font-size: 1.2rem; /* Big readable text */
-            margin-bottom: 4px;
-            line-height: 1.1;
-        }
-        
-        .room-tag {
-            background: rgba(255,255,255,0.85);
-            color: #000;
-            font-size: 0.85rem;
-            font-weight: 700;
-            padding: 4px 8px;
-            border-radius: 6px;
-            display: inline-block;
-        }
+        .slot-title { font-weight: 800; font-size: 1.2rem; margin-bottom: 4px; line-height: 1.1; }
+        .room-tag { background: rgba(255,255,255,0.85); color: #000; font-size: 0.85rem; font-weight: 700; padding: 4px 8px; border-radius: 6px; display: inline-block; }
+        .lab-tag { position: absolute; top: 4px; right: 4px; font-size: 1.2rem; opacity: 0.8; }
 
-        /* Corner Emoji */
-        .lab-tag {
-            position: absolute;
-            top: 4px;
-            right: 4px;
-            font-size: 1.2rem;
-            opacity: 0.8;
-        }
-
-        /* Lunch Break */
-        .break {
-            background: repeating-linear-gradient(
-                45deg,
-                var(--bg),
-                var(--bg) 10px,
-                var(--card-bg) 10px,
-                var(--card-bg) 20px
-            );
-            color: var(--text-sub);
-            font-style: italic;
-            vertical-align: middle;
-            text-align: center;
-            font-size: 0.9rem;
-            font-weight: 600;
-        }
-        
-        #lunch-break.lunch-now {
-            background: var(--bg);
-            border: 2px solid var(--accent);
-            animation: pulseLunch 2s infinite;
-        }
+        .break { background: repeating-linear-gradient(45deg, var(--bg), var(--bg) 10px, var(--card-bg) 10px, var(--card-bg) 20px); color: var(--text-sub); font-style: italic; vertical-align: middle; text-align: center; font-size: 0.9rem; font-weight: 600; }
+        #lunch-break.lunch-now { background: var(--bg); border: 2px solid var(--accent); animation: pulseLunch 2s infinite; }
         @keyframes pulseLunch { 0% { opacity: 0.8; } 50% { opacity: 1; } 100% { opacity: 0.8; } }
 
-        /* Current Day Highlight */
         .current-day-col { background-color: rgba(52, 152, 219, 0.05); }
         th.current-day-col { background-color: #34495e; border-bottom: 3px solid var(--accent); }
         
-        /* Live Slot Styles */
-        .live-active {
-            box-shadow: 0 0 0 3px var(--live-color);
-            z-index: 10;
-        }
+        .live-active { box-shadow: 0 0 0 3px var(--live-color); z-index: 10; }
         .snowfall { position: absolute; inset: 0; overflow: hidden; pointer-events: none; opacity: 0.5; }
         .snowflake { position: absolute; color: white; animation: fall linear infinite; }
         @keyframes fall { to { transform: translateY(150px); } }
 
-        footer {
-            text-align: center;
-            font-family: monospace;
-            font-size: 0.8rem;
-            color: var(--text-sub);
-            margin-top: 20px;
-            font-weight: 700;
-        }
+        footer { text-align: center; font-family: monospace; font-size: 0.8rem; color: var(--text-sub); margin-top: 20px; font-weight: 700; }
     </style>
 </head>
 <body>
@@ -399,14 +229,11 @@
         <div class="login-card">
             <h1>🗓️ Timetable</h1>
             <p>Mobile Edition (Sem II)</p>
-            
             <div style="text-align:left; font-weight:600; margin-bottom:8px; color:var(--text-main); font-size:0.9rem;">MIS Number</div>
-            
             <div class="mis-input-wrapper">
                 <span class="prefix">6125</span>
                 <input type="tel" id="mis-input" placeholder="*****" maxlength="5" autocomplete="off" inputmode="numeric">
             </div>
-            
             <button class="btn-login" onclick="attemptLogin()">VIEW SCHEDULE</button>
             <div class="error-msg" id="error-msg">❌ Invalid MIS</div>
         </div>
@@ -418,16 +245,17 @@
     <div id="timetable-page" class="hidden">
         <div class="container">
             <header>
-                <div class="profile-info">
-                    <h1 id="user-name-display">Student</h1>
-                    <p id="user-details-display">MIS: ---</p>
-                </div>
-                <div class="header-controls">
-                    <div id="clock">--:--</div>
-                    <div class="action-row">
-                        <button class="theme-btn" onclick="toggleTheme()" id="theme-btn">🌑</button>
-                        <button class="logout-btn" onclick="logout()">EXIT</button>
+                <div class="header-top">
+                    <div class="profile-info">
+                        <h1 id="user-name-display">Student</h1>
+                        <p id="user-details-display">MIS: ---</p>
                     </div>
+                    <button class="theme-btn" onclick="toggleTheme()" id="theme-btn" aria-label="Toggle Theme">🌑</button>
+                </div>
+                
+                <div class="status-bar">
+                    <div id="clock">--:--:--</div>
+                    <button class="logout-btn" onclick="logout()">EXIT</button>
                 </div>
             </header>
 
@@ -598,7 +426,6 @@
         const skipped = {};
 
         slots.forEach((slot, idx) => {
-            // Lunch Row Logic
             if (slot.id === "1230") {
                 const hasClass = days.some(d => schedule[`${d}-1230`]);
                 if (!hasClass) {
@@ -621,30 +448,12 @@
                 }
 
                 if (item) {
-                    const renderSlot = (it) => {
-                        const group = getGroupData(it.subj);
-                        const color = (group && group.color) || '#7f8c8d';
-                        const bg = (group && group.bg) || hexToRgba(color, 0.15);
-                        const textColor = readableTextColor(color);
-                        // Emoji logic
-                        const emoji = it.tag || ((it.type === 'lab' && typeof getLabEmoji === 'function') ? getLabEmoji(it.subj, it.room) : '');
-
-                        return `
-                        <div class="slot ${it.class||''}" style="background:${bg}; border-left:4px solid ${color}; color:${textColor}">
-                            ${emoji ? `<span class="lab-tag">${emoji}</span>` : ''}
-                            <div class="slot-title" style="color:${color}">${it.subj}${it.type==='lab'?' LAB':''}</div>
-                            <span class="room-tag">${it.room}</span>
-                        </div>`;
-                    };
-
                     if (Array.isArray(item)) {
-                        // Collision (Split)
                         const maxSpan = Math.max(...item.map(i => i.span || 1));
                         for(let i=1; i<maxSpan; i++) skipped[`${day}-${idx+i}`] = true;
                         
-                        rowHtml += `<td rowspan="${maxSpan}"><div class="slot slot-collision"><div class="slot-split">`;
+                        rowHtml += `<td rowspan="${maxSpan}"><div class="slot slot-collision" id="${key}"><div class="slot-split">`;
                         item.forEach(it => {
-                             // WRAP in split-item, inject styles directly
                              const group = getGroupData(it.subj);
                              const color = (group && group.color) || '#7f8c8d';
                              const bg = (group && group.bg) || hexToRgba(color, 0.15);
@@ -659,10 +468,21 @@
                         });
                         rowHtml += `</div></div></td>`;
                     } else {
-                        // Single Item
                         const span = item.span || 1;
                         for(let i=1; i<span; i++) skipped[`${day}-${idx+i}`] = true;
-                        rowHtml += `<td rowspan="${span}">${renderSlot(item)}</td>`;
+                        
+                        const group = getGroupData(item.subj);
+                        const color = (group && group.color) || '#7f8c8d';
+                        const bg = (group && group.bg) || hexToRgba(color, 0.15);
+                        const textColor = readableTextColor(color);
+                        const emoji = item.tag || ((item.type === 'lab' && typeof getLabEmoji === 'function') ? getLabEmoji(item.subj, item.room) : '');
+
+                        rowHtml += `<td rowspan="${span}">
+                        <div class="slot ${item.class||''}" id="${key}" style="background:${bg}; border-left:4px solid ${color}; color:${textColor}">
+                            ${emoji ? `<span class="lab-tag">${emoji}</span>` : ''}
+                            <div class="slot-title" style="color:${color}">${item.subj}${item.type==='lab'?' LAB':''}</div>
+                            <span class="room-tag">${item.room}</span>
+                        </div></td>`;
                     }
                 } else {
                     rowHtml += `<td></td>`;
@@ -678,11 +498,11 @@
         const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         const dayIdx = now.getDay();
         
-        // Update text
-        const timeStr = now.toLocaleTimeString('en-US', { hour12: true, hour: 'numeric', minute:'2-digit' });
-        document.getElementById('clock').innerText = `${days[dayIdx]}, ${timeStr}`;
+        // ADDED SECONDS HERE
+        const timeStr = now.toLocaleTimeString('en-US', { hour12: true, hour: 'numeric', minute:'2-digit', second: '2-digit' });
+        const clockEl = document.getElementById('clock');
+        if(clockEl) clockEl.innerText = `${days[dayIdx]}, ${timeStr}`;
 
-        // Clear active states
         document.querySelectorAll('.live-active').forEach(el => {
             el.classList.remove('live-active');
             const s = el.querySelector('.snowfall');
@@ -690,59 +510,67 @@
         });
         document.querySelectorAll('.current-day-col').forEach(el => el.classList.remove('current-day-col'));
 
-        if (dayIdx === 0 || !currentUserSchedule) return; // Sunday or no data
+        if (dayIdx === 0 || !currentUserSchedule) return; 
 
-        // Highlight Day Column
         const dayName = days[dayIdx].toLowerCase();
         const th = document.getElementById(`th-${dayName}`);
         if(th) th.classList.add('current-day-col');
 
-        // Logic for current slot highlight
         const min = now.getHours() * 60 + now.getMinutes();
         let slotId = null;
         
-        // Mapping intervals (simple buckets)
         if (min >= 510 && min < 570) slotId = "0830";
         else if (min >= 570 && min < 630) slotId = "0930";
         else if (min >= 630 && min < 690) slotId = "1030";
         else if (min >= 690 && min < 750) slotId = "1130";
-        else if (min >= 750 && min < 810) slotId = "1230"; // Lunch
+        else if (min >= 750 && min < 810) slotId = "1230"; 
         else if (min >= 810 && min < 870) slotId = "1330";
         else if (min >= 870 && min < 930) slotId = "1430";
         else if (min >= 930 && min < 990) slotId = "1530";
         else if (min >= 990 && min < 1050) slotId = "1630";
         else if (min >= 1050 && min < 1110) slotId = "1730";
 
-        // Lunch Animation
         const lb = document.getElementById('lunch-break');
         if (lb) {
             if (slotId === '1230') lb.classList.add('lunch-now');
             else lb.classList.remove('lunch-now');
         }
 
-        // Slot Highlight
         if (slotId && slotId !== '1230') {
-            // Find element (considering span)
-            // If current slot is empty, check if previous slot spills over (2hr labs)
-            const allIds = ["0830","0930","1030","1130","1230","1330","1430","1530","1630","1730"];
-            const currIdx = allIds.indexOf(slotId);
-            
-            // Try direct hit
             let key = `${dayName}-${slotId}`;
-            let el = document.getElementById(key); // Not using IDs on td, need to find the DIV inside
+            let el = document.getElementById(key);
             
-            // Since we didn't put IDs on Tds in the new render, we have to rely on logic:
-            // Actually, in the render function above, I didn't add ID to the TD/Div. 
-            // Let's rely on finding content via text or re-render? No, too expensive.
-            // Let's just fix the render function to add IDs to the inner DIVs for highlighting.
+            if (!el) {
+                const allIds = ["0830","0930","1030","1130","1230","1330","1430","1530","1630","1730"];
+                const currIdx = allIds.indexOf(slotId);
+                if (currIdx > 0) {
+                     const prevId = allIds[currIdx-1];
+                     const prevKey = `${dayName}-${prevId}`;
+                     const prevItem = currentUserSchedule[prevKey];
+                     if (prevItem && prevItem.span === 2) el = document.getElementById(prevKey);
+                }
+            }
+
+            if (el) {
+                el.classList.add('live-active');
+                if (!el.querySelector('.snowfall')) {
+                    const snow = document.createElement('div');
+                    snow.className = 'snowfall';
+                    for(let i=0; i<8; i++) {
+                        const flake = document.createElement('div');
+                        flake.className = 'snowflake';
+                        flake.innerText = '❄️';
+                        flake.style.left = Math.random()*100 + '%';
+                        flake.style.animationDuration = (3+Math.random()*5)+'s';
+                        flake.style.opacity = 0.6;
+                        flake.style.fontSize = (10+Math.random()*10)+'px';
+                        snow.appendChild(flake);
+                    }
+                    el.appendChild(snow);
+                }
+            }
         }
     }
-    
-    // Patching renderTable to ensure IDs exist for highlighting
-    // (This overrides the internal logic of renderTable slightly for the "id" attribute)
-    // See lines in renderTable: <div class="slot..." id="${key}" ...
-    // My renderTable above didn't include ID. Let's assume you copy the renderTable I wrote 
-    // but I will output the corrected renderTable logic in the final block below to ensure IDs are there.
 </script>
 </body>
 </html>
