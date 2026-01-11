@@ -282,6 +282,16 @@
             flex-shrink: 0;
             transition: background 0.3s;
             position: relative; /* allow absolute-positioned emojis inside cards */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .card h3 { text-align: center; }
+        .card .subject { text-align: center; }
+        @media (max-width: 640px) {
+            .card { min-width: 120px; }
         }
 
         .card h3 { margin: 0 0 5px; font-size: 0.85rem; color: var(--text-sub); text-transform: uppercase; letter-spacing: 0.5px; }
@@ -308,8 +318,23 @@
             margin-top: 6px;
             box-shadow: 0 1px 2px rgba(0,0,0,0.04);
         }
+        /* Compact card used inside table slots */
+        .card-in-slot {
+            display: inline-block;
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 6px 8px;
+            margin-top: 6px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        .card-in-slot .subject { font-weight: 800; font-size: 0.95rem; margin-bottom: 2px; }
+        .card-in-slot .detail { font-weight: 600; font-size: 0.8rem; }
         @media (max-width: 640px) {
             .card .detail, .card .batch { font-size: 0.85rem; padding: 4px 6px; }
+            .card-in-slot { padding: 4px 6px; font-size: 0.8rem; }
         }
 
         /* Timetable Grid */
@@ -328,7 +353,14 @@
             max-width: 100%;
         }
 
-        table { width: 100%; border-collapse: separate; border-spacing: 0; min-width: 820px; }
+        table { width: 100%; border-collapse: separate; border-spacing: 0; min-width: 820px; table-layout: fixed; }
+        
+        /* Vertically Rectangular Look */
+        th:not(:first-child), td:not(.time-col) { width: calc((100% - 95px) / 6); min-width: 100px; }
+        
+        @media (max-width: 640px) {
+            th:not(:first-child), td:not(.time-col) { width: calc((100% - 80px) / 6); min-width: 90px; }
+        }
 
         th { 
             background-color: var(--primary); 
@@ -352,17 +384,17 @@
         }
         th:first-child { background: var(--primary); z-index: 7; }
 
+        /* INCREASED HEIGHT FOR VERTICAL RECTANGLES */
         td { 
             padding: 8px;
             vertical-align: top;
             border-bottom: 1px solid var(--border);
             border-right: 1px solid var(--border);
-            height: 90px; 
+            height: 150px; 
         }
-        /* Make each day column wider so text doesn't collide with emoji; first column (time) is excluded */
-        th:not(:first-child), td:not(.time-col) { min-width: 120px; }
         
-        /* Increase table min-width to accommodate wider day columns */
+        th:not(:first-child), td:not(.time-col) { min-width: 100px; }
+        
         table { min-width: 820px; }
         
         .time-col { 
@@ -390,12 +422,13 @@
             justify-content: center;
             height: 100%;
             text-align: center;
-            transition: all 0.3s ease;
+            transition: transform 0.18s ease, box-shadow 0.18s ease;
             color: #333;
             box-shadow: var(--slot-shadow);
             overflow: visible;
+            will-change: transform;
         }
-        /* Make room tag appear as a separate line below the title for clarity */
+        
         .slot .room-tag, .split-item .room-tag { display: block; margin-top: 6px; }
         
         .lab-tag { 
@@ -407,26 +440,20 @@
             z-index: 2;
             transition: opacity 0.18s ease, transform 0.18s ease;
             pointer-events: none;
-            transform: none !important; /* ensure no centering transforms */
-            display: inline-block; /* ensure correct box behavior */
+            transform: none !important;
+            display: inline-block;
             text-align: center;
         }
-        /* Ensure positioning context exists for both slot and split items */
-        .slot, .split-item { position: relative; }
-        /* Give slots extra right padding so emoji in the top-right never overlaps slot content */
-        .slot, .split-item { padding-right: 36px; }
-        /* Slot title/subheading styling: keep title on one line and LAB as a subheading */
+        .slot, .split-item { position: relative; padding-right: 36px; }
         .slot .slot-title, .split-item .slot-title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
         .slot .slot-sub, .split-item .slot-sub { display: block; font-weight: 700; font-size: 0.9rem; margin-top: 2px; }
-        /* Utility: force any emoji intended for top-right to be absolutely positioned */
+        
         .emoji-top-right { position: absolute !important; top: 6px !important; right: 6px !important; transform: none !important; z-index: 3 !important; }
-        /* Mobile tweak: smaller lab-tag and anchored top-right */
         @media (max-width: 640px) {
             .lab-tag { font-size: 1.25rem; top: 6px; right: 6px; }
             .emoji-top-right { top: 6px !important; right: 6px !important; }
         }
 
-        /* When hovering, hide emoji tag to avoid overlap with expanding extra-info */
         .slot:hover .lab-tag,
         .slot.slot-collision:hover .lab-tag,
         .split-item:hover .lab-tag {
@@ -434,19 +461,14 @@
             transform: translateY(-6px);
         }
 
-        /* Split-slot (collision) layout */
         .slot-collision { position: relative; padding: 6px; }
         .slot-split { display:flex; gap:6px; height:100%; align-items:stretch; }
         .slot-split .split-item { flex:1; min-width:0; border-radius:6px; padding:6px; display:flex; flex-direction:column; align-items:center; justify-content:center; position:relative; overflow:hidden; }
-        /* Collision badge removed visually (kept class for compatibility) */
         .collision-tag { display: none !important; }
-        /* Previously we hid on hover; not needed since badge is removed */
         .slot:hover .collision-tag { display: none !important; }
         
-        /* Room tag: larger and bold */
         .room-tag { background: rgba(255,255,255,0.9); color: #111; font-size: 0.95rem; padding: 4px 6px; border-radius: 6px; margin-top: 6px; font-weight: 800; display: inline-block; }
 
-        /* Hover Reveal */
         .slot .extra-info,
         .slot .extra-info * {
             max-height: 0;
@@ -468,9 +490,10 @@
             opacity: 1;
             margin-top: 4px;
             padding: 4px;
-            color: #111 !important; /* Force division/batch text black on hover */
+            color: #111 !important;
         }
-        .slot:hover { transform: scale(1.05); z-index: 20; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+        .slot:hover { transform: translateY(-6px) scale(1.02); z-index: 30; box-shadow: 0 6px 22px rgba(0,0,0,0.22); }
+        .split-item:hover { transform: translateY(-6px) scale(1.02); z-index: 30; box-shadow: 0 6px 22px rgba(0,0,0,0.22); }
 
         /* Colors - Updated to use classes generated by Logic.js */
         .ds, .vcde { background: #e8f8f5; color: #16a085; border-left: 3px solid #16a085; }
@@ -482,7 +505,6 @@
         .fpi, .ae101 { background: #ffe0b2; color: #e67e22; border-left: 3px solid #e67e22; }
         .eva-slot, .rkmi { background: #d7bde2; color: #8e44ad; border-left: 3px solid #8e44ad; }
 
-        /* Top cards: much fainter backgrounds than slot tiles (use very low alpha RGBA) */
         .card.qp, .card.ep, .card.feet { background: rgba(41,128,185,0.06); color: #2980b9; border-left: 4px solid #2980b9; }
         .card.ps, .card.wd, .card.pp, .card.aeiot { background: rgba(142,68,173,0.06); color: #8e44ad; border-left: 4px solid #8e44ad; }
         .card.pd, .card.cs, .card.mpfl, .card.eva { background: rgba(192,57,43,0.06); color: #c0392b; border-left: 4px solid #c0392b; }
@@ -500,19 +522,17 @@
             vertical-align: middle !important;
         }
 
-        /* Lunch break should use Cascadia Code SemiBold for emphasis on mobile and desktop */
         #lunch-break {
             font-family: 'Cascadia Code', 'Fira Code', 'Courier New', monospace;
-            font-weight: 600; /* SemiBold look */
+            font-weight: 600;
             font-size: 0.95rem;
             letter-spacing: 1px;
             text-transform: uppercase;
-            font-style: normal; /* override general .break italic */
-            position: relative; /* for absolutely positioned emojis */
+            font-style: normal;
+            position: relative;
             overflow: visible;
         }
 
-        /* When lunch is live/active, highlight the lunch cell and show embedded emojis */
         #lunch-break.lunch-now {
             border: 3px solid var(--accent);
             border-radius: 10px;
@@ -526,7 +546,6 @@
             to { box-shadow: 0 10px 40px rgba(52,152,219,0.12); }
         }
 
-        /* Smooth rising lunch emojis (start bottom, float up, fade out at top) */
         .lb-text { position: relative; z-index: 4; display: inline-block; padding: 6px 10px; letter-spacing: 1px; }
 
         .lunch-emoji {
@@ -540,7 +559,7 @@
             animation-timing-function: cubic-bezier(0.22, 0.9, 0.28, 1);
             animation-iteration-count: infinite;
             will-change: transform, opacity;
-            z-index: 1; /* behind the text */
+            z-index: 1;
             text-shadow: 0 1px 2px rgba(0,0,0,0.06);
             opacity: 0;
         }
@@ -559,7 +578,6 @@
             position: relative;
             overflow: visible;
         }
-        /* Decorative vertical LIVE badges on both sides of the live slot */
         .live-active::before,
         .live-active::after {
             content: "LIVE";
@@ -569,8 +587,8 @@
             background: var(--live-color);
             color: white;
             font-family: 'Arial Black', 'Impact', sans-serif;
-            font-size: 0.62rem; /* reduced size */
-            padding: 4px 8px; /* reduced padding */
+            font-size: 0.62rem;
+            padding: 4px 8px;
             border-radius: 4px;
             letter-spacing: 0.8px;
             text-shadow: 0 0 0 rgba(0,0,0,0.06);
@@ -582,32 +600,27 @@
         .live-active::before { left: -24px; transform: translateY(-50%) rotate(-90deg); }
         .live-active::after { right: -24px; transform: translateY(-50%) rotate(90deg); }
 
-        /* Ensure slot content appears above snow overlay */
         .slot > *, .split-item > *, .slot .extra-info, .split-item .extra-info { position: relative; z-index: 3; }
 
-        /* Snowfall overlay for live class slots (smooth, continuous fall; behind content) */
         .snowfall { position: absolute; inset: 0; pointer-events: none; overflow: hidden; border-radius: inherit; z-index: 1; }
         .snowflake {
             position: absolute; display: block; pointer-events: none;
             opacity: 0.48; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.08));
             will-change: top, transform, opacity;
         }
-        /* Fall animates `top` (continuous linear), sway animates `transform` for gentle motion */
         .snowflake { animation-name: fall, sway; animation-timing-function: linear, ease-in-out; animation-iteration-count: infinite, infinite; }
         @keyframes fall { from { top: -12%; } to { top: 110%; } }
         @keyframes sway { 0% { transform: translateX(0) rotate(0deg) } 50% { transform: translateX(8px) rotate(8deg) } 100% { transform: translateX(0) rotate(0deg) } }
-        /* Slight lift for contrast in both themes */
         .snowflake { text-shadow: 0 1px 0 rgba(255,255,255,0.12); }
 
 
-        /* Emphasize footer: larger and superbold for better legibility */
         footer { 
             text-align: center; 
             margin-top: 30px; 
             font-size: 1rem; 
             color: var(--text-sub); 
             padding-bottom: 30px; 
-            font-weight: 900; /* superbold */
+            font-weight: 900;
             font-family: 'Cascadia Code', 'Fira Code', 'Courier New', monospace;
             letter-spacing: 0.6px;
         }
@@ -618,11 +631,7 @@
 
         /* ============================
            MOBILE IMPROVEMENTS
-           - larger touch targets
-           - avoid hover-only interactions
-           - reduce table min-width to make horizontal scrolling usable
-           - enable expanded slot views on tap
-        */
+           ============================ */
         @media (max-width: 640px) {
             html, body { font-size: 16px; }
             .container { padding: 12px; }
@@ -631,30 +640,26 @@
             .cards { gap: 10px; padding-bottom: 8px; }
             .card { min-width: 120px; padding: 12px; }
             .timetable-wrapper { border-radius: 12px; }
-            /* Keep table horizontally scrollable but with smaller min width */
             table { min-width: 600px; }
-            td { padding: 12px; height: auto; min-height: 70px; font-size: 0.95rem; }
+            
+            td { padding: 12px; height: auto; min-height: 110px; font-size: 0.95rem; }
+            
             .time-col { width: 80px; font-size: 0.9rem; }
             .slot { padding: 10px; font-size: 1rem; border-radius: 10px; }
             .slot:hover { transform: none; }
-            /* On mobile show a single-line truncated summary by default and allow tap-to-expand */
             .slot .extra-info { max-height: 1.2em; opacity: 1; padding: 4px; margin-top: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
             .slot.expanded .extra-info, .split-item.expanded .extra-info { max-height: 300px; white-space: normal; overflow: visible; }
-            /* Slightly reduce slot text and ensure enough space from emoji */
             .slot, .split-item { font-size: 0.95rem; padding-right: 36px; }
             .slot .lab-tag { font-size: 1rem; top: 6px; right: 6px; }
-            /* Smaller lab-tag inside split items (collision cells) */
             .split-item .lab-tag { font-size: 0.9rem; top: 6px; right: 6px; }
             .btn-login { padding: 18px 0; font-size: 1.1rem; }
             .mis-input-wrapper input { font-size: 1.2rem; padding: 12px 0; }
             .theme-toggle-fixed { top: 12px; right: 12px; }
             .split-item, .slot { touch-action: manipulation; -webkit-tap-highlight-color: rgba(0,0,0,0.06); }
             .extra-info { transition: none; }
-            /* Larger, reachable controls */
             .logout-btn, .theme-btn { padding: 10px; min-width: 44px; min-height: 44px; }
         }
 
-        /* Expanded class for tap to reveal */
         .slot.expanded .extra-info, .split-item.expanded .extra-info { max-height: 300px; opacity: 1; }
 
     </style>
@@ -662,7 +667,6 @@
 <body>
 
     <div id="home-page">
-        
         <div class="login-card">
             <h1><span aria-hidden="true">🗓️</span> Timetable (SEM II)</h1>
             <p>Check your live schedule</p>
@@ -731,14 +735,11 @@
 <script src="logic.js"></script>
 
 <script>
-    // Loader diagnostic
     console.log('index.html loader:', 'GENERATED_DB=', typeof GENERATED_DB, 'getStudentData=', typeof getStudentData);
 
     let clockInterval;
     let currentUserSchedule = null;
 
-    // Global group color map so both cards and table slots use the same colors
-    // Each group now has a light background hex to use for faint table cards.
     window.GROUP_COLOR_MAP = {
         blueGroup: { codes: ['EP','QP','EC'], color: '#2980b9', bg: '#EAF4FF' },
         purpleGroup: { codes: ['PS','VCDE'], color: '#8e44ad', bg: '#F4ECF7' },
@@ -790,7 +791,6 @@
         // Theme Check
         const savedTheme = localStorage.getItem('theme');
         if(savedTheme === 'dark') document.body.classList.add('dark-mode');
-        // Sync button text
         if (typeof updateThemeButton === 'function') updateThemeButton();
         
         // Login Check
@@ -814,7 +814,6 @@
         const btn = document.getElementById('theme-toggle-btn');
         if (!btn) return;
         const isDark = document.body.classList.contains('dark-mode');
-        // Show emoji: 🌑 for switching to dark, 💡 for switching to light
         btn.innerText = isDark ? '💡' : '🌑';
         btn.title = isDark ? 'Switch to light theme' : 'Switch to dark theme';
         btn.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
@@ -827,19 +826,15 @@
     function attemptLogin() {
         const entered = misInput.value.trim();
         if(!entered) return;
-
-        // Accept either full 9-digit MIS (e.g. 612515003) or the 5-digit suffix (e.g. 15003)
         const fullMis = entered.length === 9 ? entered : (entered.length === 5 ? ("6125" + entered) : ("6125" + entered));
         const errorMsg = document.getElementById('error-msg');
         const loginCard = document.querySelector('.login-card');
 
-        // Check if data is loaded
         if (typeof getStudentData !== "function") {
             alert("Error: logic.js or students.js not loaded. Please run python script!");
             return;
         }
 
-        // Get Data from logic.js
         const studentData = getStudentData(fullMis);
 
         if (studentData) {
@@ -856,74 +851,57 @@
         document.getElementById('home-page').classList.add('hidden');
         document.getElementById('timetable-page').classList.remove('hidden');
 
-        document.getElementById('user-name-display').innerText = studentData.name || "Student";
-        const misText = studentData.info || `MIS: ${studentData.mis || '---'}`;
-        document.getElementById('user-details-display').innerHTML = misText.replace(/(MIS:\s*)(\d+)/, '$1<strong>$2</strong>');
-
-        const cardContainer = document.getElementById('subject-cards-container');
-        cardContainer.innerHTML = "";
-        
-        // --- SUBJECT GROUP COLOR OVERRIDES ---
-        const groupColorMap = {
-            // Group 1
-            blueGroup: { codes: ['EP','QP','EC'], color: '#2980b9' },
-            // Group 2
-            purpleGroup: { codes: ['PS','VCDE'], color: '#8e44ad' },
-            // Group 3
-            ochreGroup: { codes: ['BCE','FPI','AIMA','EEU','AEIOT','FMS','FME','BMT','NM'], color: '#f39c12' },
-            // Group 4
-            tealGroup: { codes: ['IPSSF','EM','FEET','DS','EEMI','BMS','CAED','FFR'], color: '#16a085' },
-            // Group 5
-            redGroup: { codes: ['PD','CS'], color: '#c0392b' },
-            // Group 6
-            slateGroup: { codes: ['GE','FCP','PPS','WD','EW','DPI','DPV','CAD','EVA','MPFL','RDOS','PP'], color: '#34495e' }
-        };
-
-        function hexToRgba(hex, alpha) {
-            if (!hex) return '';
-            const h = hex.replace('#','');
-            const bigint = parseInt(h, 16);
-            const r = (bigint >> 16) & 255;
-            const g = (bigint >> 8) & 255;
-            const b = bigint & 255;
-            return `rgba(${r}, ${g}, ${b}, ${alpha})`;
-        }
-
-        function getGroupColor(code) {
-            for (const key in groupColorMap) {
-                if (groupColorMap[key].codes.includes(code)) return groupColorMap[key].color;
-            }
-            return null;
-        }
-
-        if (studentData.cards) {
-            studentData.cards.forEach(c => {
-                const batchDisplay = (c.batch && c.batch !== '-') ? `<div class="batch">Batch: ${c.batch}</div>` : '';
-                const overrideColor = getGroupColor(c.code);
-                const groupData = getGroupData(c.code);
-                const useColor = (groupData && groupData.color) || c.color || '#dddddd';
-                const bgColor = (groupData && groupData.bg) || hexToRgba(useColor, 0.18);
-                const textCol = readableTextColor(useColor);
-                console.log('CARD COLOR DEBUG:', c.code, 'groupBg=', groupData && groupData.bg, 'final=', useColor, 'text=', textCol);
-                cardContainer.innerHTML += `
-                    <div class="card" style="border-left:4px solid ${useColor} !important; background: ${bgColor};">
-                        <h3>${c.name}</h3>
-                        <div class="subject" style="color: ${useColor};">${c.code}</div>
-                        <div class="detail" style="color: ${textCol};">${c.div}</div>
-                        ${batchDisplay}
-                    </div>
-                `;
-            });
-        }
-
-        renderTable(studentData);
-        currentUserSchedule = studentData.schedule;
-        
+        // --- CRITICAL FIX: START CLOCK IMMEDIATELY ---
+        // Ensure this runs before any complex table rendering that might crash
+        if (clockInterval) clearInterval(clockInterval);
         updateClockAndHighlight();
         clockInterval = setInterval(updateClockAndHighlight, 1000);
+
+        // Safe rendering
+        try {
+            document.getElementById('user-name-display').innerText = studentData.name || "Student";
+            const misText = studentData.info || `MIS: ${studentData.mis || '---'}`;
+            document.getElementById('user-details-display').innerHTML = misText.replace(/(MIS:\s*)(\d+)/, '$1<strong>$2</strong>');
+
+            const cardContainer = document.getElementById('subject-cards-container');
+            cardContainer.innerHTML = "";
+            
+            // Re-define helper if needed or use global
+            function getGroupColor(code) {
+                for (const key in window.GROUP_COLOR_MAP) {
+                    if (window.GROUP_COLOR_MAP[key].codes.includes(code)) return window.GROUP_COLOR_MAP[key].color;
+                }
+                return null;
+            }
+
+            if (studentData.cards) {
+                studentData.cards.forEach(c => {
+                    const batchDisplay = (c.batch && c.batch !== '-') ? `<div class="batch">Batch: ${c.batch}</div>` : '';
+                    const groupData = getGroupData(c.code);
+                    const useColor = (groupData && groupData.color) || c.color || '#dddddd';
+                    const bgColor = (groupData && groupData.bg) || hexToRgba(useColor, 0.18);
+                    const textCol = readableTextColor(useColor);
+                    
+                    cardContainer.innerHTML += `
+                        <div class="card" style="border-left:4px solid ${useColor} !important; background: ${bgColor};">
+                            <h3>${c.name}</h3>
+                            <div class="subject" style="color: ${useColor};">${c.code}</div>
+                            <div class="detail" style="color: ${textCol};">${c.div}</div>
+                            ${batchDisplay}
+                        </div>
+                    `;
+                });
+            }
+
+            renderTable(studentData);
+            placeCardsInTable(studentData);
+            currentUserSchedule = studentData.schedule;
+            
+        } catch (e) {
+            console.error("Rendering error:", e);
+        }
     }
 
-    // Compute lab emoji if not explicitly provided (delegates to logic.js helper if available)
     function computeLabEmoji(code, room) {
         if (typeof getLabEmoji === 'function') return getLabEmoji(code, room);
         return '';
@@ -959,7 +937,6 @@
         const skipped = {}; 
 
         slots.forEach((slot, index) => {
-            // Lunch Logic
             let hasClassAtLunch = false;
             if (slot.id === "1230") {
                 hasClassAtLunch = days.some(d => schedule[`${d}-1230`]);
@@ -984,73 +961,51 @@
                 }
 
                 if (item) {
-                    // If there are multiple items in the same slot, render a split cell
                     if (Array.isArray(item)) {
                         const itemsArr = item;
                         const rowspan = Math.max(...itemsArr.map(it => it.span || 1));
                         for(let i = 1; i < rowspan; i++) skipped[`${day}-${index + i}`] = true;
 
-                        rowHtml += `
-                            <td rowspan="${rowspan}">
-                                <div class="slot slot-collision" id="${key}">
-                                    <div class="slot-split">
-                        `;
+                        rowHtml += `<td rowspan="${rowspan}"><div class="slot slot-collision" id="${key}"><div class="slot-split">`;
 
                         itemsArr.forEach(it => {
                             const details = subjectDetails[it.subj] || { div: "", batch: "" };
-                            const batchInfo = (details.batch && details.batch !== '-') ? `<br>Batch: ${details.batch}` : '';
                             const classStyle = it.class || it.subj.toLowerCase();
                             const groupDataSlot = getGroupData(it.subj);
                             const slotColor = (groupDataSlot && groupDataSlot.color) || (details && details.color) || '#dddddd';
                             const slotBg = (groupDataSlot && groupDataSlot.bg) || hexToRgba(slotColor, 0.20);
                             const slotText = readableTextColor(slotColor);
-
                             const displayTag = (it.tag && it.tag.trim()) ? it.tag : (it.type === 'lab' ? computeLabEmoji(it.subj, it.room) : '');
 
                             rowHtml += `
                                 <div class="split-item ${classStyle}" style="border-left:4px solid ${slotColor}; background: ${slotBg}; color: ${slotText};">
                                     ${displayTag ? `<div class="lab-tag emoji-top-right">${displayTag}</div>` : ''}
-                                    <div class="slot-title" style="font-weight:800; color:${slotColor}; font-size:1.05rem">${it.subj}</div>
-                                    ${it.type === 'lab' ? `<div class="slot-sub" style="font-weight:700; color:${slotColor}; font-size:0.9rem;">LAB</div>` : ''}
+                                    <div class="slot-title" style="font-weight:800; color:${slotColor}; font-size:1.05rem">${it.subj}${it.type === 'lab' ? ' LAB' : ''}</div>
                                     <span class="room-tag">${it.room}</span>
-                                    <div class="extra-info" style="color:${slotText};">
-                                        ${details.div}${batchInfo}
-                                    </div>
+                                    <div class="extra-info" style="color:${slotText};"></div>
                                 </div>`;
                         });
-
-                        rowHtml += `
-                                    </div>
-                                </div>
-                            </td>`;
+                        rowHtml += `</div></div></td>`;
 
                     } else {
                         const rowspan = item.span || 1;
                         for(let i = 1; i < rowspan; i++) skipped[`${day}-${index + i}`] = true;
                         
                         const details = subjectDetails[item.subj] || { div: "", batch: "" };
-                        const batchInfo = (details.batch && details.batch !== '-') ? `<br>Batch: ${details.batch}` : '';
-                        
-                        // Fallback for missing class property
                         const classStyle = item.class || item.subj.toLowerCase();
                         const groupDataSlot = getGroupData(item.subj);
                         const slotColor = (groupDataSlot && groupDataSlot.color) || (details && details.color) || '#dddddd';
                         const slotBg = (groupDataSlot && groupDataSlot.bg) || hexToRgba(slotColor, 0.20);
                         const slotText = readableTextColor(slotColor);
-
-                        // Ensure lab emoji shows in top-right: prefer existing tag, else derive from subject/room
                         const displayTag = item.tag || ((item.type === 'lab' && typeof getLabEmoji === 'function') ? getLabEmoji(item.subj, item.room) : '');
                         
                         rowHtml += `
                             <td rowspan="${rowspan}">
                                 <div class="slot ${classStyle}" id="${key}" style="border-left:4px solid ${slotColor}; background: ${slotBg}; color: ${slotText};">
                                     ${displayTag ? `<div class="lab-tag emoji-top-right">${displayTag}</div>` : ''}
-                                    <div class="slot-title" style="font-weight:800; color:${slotColor}; font-size:1.1rem">${item.subj}</div>
-                                    ${item.type === 'lab' ? `<div class="slot-sub" style="font-weight:700; color:${slotColor}; font-size:0.95rem;">LAB</div>` : ''}
+                                    <div class="slot-title" style="font-weight:800; color:${slotColor}; font-size:1.1rem">${item.subj}${item.type === 'lab' ? ' LAB' : ''}</div>
                                     <span class="room-tag">${item.room}</span>
-                                    <div class="extra-info" style="color:${slotText};">
-                                        ${details.div}${batchInfo}
-                                    </div>
+                                    <div class="extra-info" style="color:${slotText};"></div>
                                 </div>
                             </td>`;
                     }
@@ -1061,11 +1016,9 @@
             rowHtml += `</tr>`;
             tbody.innerHTML += rowHtml;
         });
-        // Enable tap-expand behavior on touch devices so mobile users can reveal details by tapping slots.
         if (typeof enableSlotTapExpand === 'function') enableSlotTapExpand();
     }
 
-    // Mobile: tap to expand/collapse slot info (improves usability on touch devices)
     function enableSlotTapExpand() {
         const isTouch = ('ontouchstart' in window) || (navigator.maxTouchPoints && navigator.maxTouchPoints > 0);
         if (!isTouch) return;
@@ -1094,11 +1047,64 @@
         });
     }
 
-    // Show or hide randomly positioned lunch emojis inside the lunch break cell
+    function placeCardsInTable(studentData) {
+        document.querySelectorAll('.card-in-slot').forEach(e => e.remove());
+        if (!studentData || !studentData.cards || !studentData.schedule) return;
+        const days = ["mon","tue","wed","thu","fri","sat"];
+        const slots = ["0830","0930","1030","1130","1230","1330","1430","1530","1630","1730"];
+
+        studentData.cards.forEach(c => {
+            const group = getGroupData(c.code);
+            const useColor = (group && group.color) || c.color || '#dddddd';
+            const bg = (group && group.bg) || hexToRgba(useColor, 0.12);
+            const textCol = readableTextColor(useColor);
+            days.forEach(d => {
+                slots.forEach(s => {
+                    const key = `${d}-${s}`;
+                    const slotEl = document.getElementById(key);
+                    if (!slotEl) return;
+                    const splitItems = slotEl.querySelectorAll('.split-item');
+                    if (splitItems && splitItems.length) {
+                        splitItems.forEach(si => {
+                            const title = si.querySelector('.slot-title');
+                            if (title && title.textContent.trim() === c.code) {
+                                if (si.querySelector(`.card-in-slot[data-sub='${c.code}']`)) return;
+                                const div = document.createElement('div');
+                                div.className = 'card-in-slot';
+                                div.setAttribute('data-sub', c.code);
+                                div.style.borderLeft = `4px solid ${useColor}`;
+                                div.style.color = textCol;
+                                div.style.background = bg;
+                                div.innerHTML = `<div class="subject">${c.code}</div>`;
+                                const roomTag = si.querySelector('.room-tag');
+                                if (roomTag) si.insertBefore(div, roomTag);
+                                else si.appendChild(div);
+                            }
+                        });
+                    } else {
+                        const title = slotEl.querySelector('.slot-title');
+                        if (title && title.textContent.trim() === c.code) {
+                            if (slotEl.querySelector(`.card-in-slot[data-sub='${c.code}']`)) return;
+                            const div = document.createElement('div');
+                            div.className = 'card-in-slot';
+                            div.setAttribute('data-sub', c.code);
+                            div.style.borderLeft = `4px solid ${useColor}`;
+                            div.style.color = textCol;
+                            div.style.background = bg;
+                            div.innerHTML = `<div class="subject">${c.code}</div><div class="detail">${c.div}</div>`;
+                            const roomTag = slotEl.querySelector('.room-tag');
+                            if (roomTag) slotEl.insertBefore(div, roomTag);
+                            else slotEl.appendChild(div);
+                        }
+                    }
+                });
+            });
+        });
+    }
+
     function showLunchEmojis(active) {
         const lb = document.getElementById('lunch-break');
         if (!lb) return;
-        // Ensure the LUNCH BREAK text is wrapped in .lb-text (in case it's older markup)
         if (!lb.querySelector('.lb-text')) {
             const txt = lb.textContent.trim();
             lb.textContent = '';
@@ -1109,11 +1115,9 @@
         }
 
         if (active) {
-            if (lb.classList.contains('lunch-now')) return; // already active
+            if (lb.classList.contains('lunch-now')) return; 
             lb.classList.add('lunch-now');
-
-            // Create a small continuous stream of emojis (each animates from bottom to top)
-            const count = 5 + Math.floor(Math.random() * 4); // 5-8 emojis
+            const count = 5 + Math.floor(Math.random() * 4); 
             for (let i = 0; i < count; i++) {
                 const span = document.createElement('span');
                 span.className = 'lunch-emoji';
@@ -1123,7 +1127,6 @@
                 span.style.fontSize = `${14 + Math.random() * 18}px`;
                 const dur = (3 + Math.random() * 4).toFixed(2) + 's';
                 span.style.animationDuration = dur;
-                // Negative delay so it starts mid-flight for continuity
                 span.style.animationDelay = `-${(Math.random() * parseFloat(dur)).toFixed(2)}s`;
                 lb.appendChild(span);
             }
@@ -1133,32 +1136,24 @@
         }
     }
 
-    // Snowfall overlay helpers for live slots
     function addSnowfallToSlot(el) {
         if (!el || el.querySelector('.snowfall')) return;
         const container = document.createElement('div');
         container.className = 'snowfall';
-        // Fewer flakes for subtler, smoother snowfall
-        const flakes = 10 + Math.floor(Math.random() * 8); // 10-17 flakes
+        const flakes = 10 + Math.floor(Math.random() * 8);
         for (let i = 0; i < flakes; i++) {
             const f = document.createElement('span');
             f.className = 'snowflake';
             f.innerText = '❄️';
-            // Horizontal spread
             f.style.left = (Math.random() * 94 + 3) + '%';
-            // Random negative start so flakes are already mid-fall
-            f.style.top = (-10 - Math.random() * 100) + '%'; // -10% to -110%
-            // Size varied (smaller overall)
+            f.style.top = (-10 - Math.random() * 100) + '%'; 
             f.style.fontSize = (10 + Math.random() * 14) + 'px';
-            // Fall duration (6-12s) and sway duration (3-5s)
             const fallDur = (6 + Math.random() * 6).toFixed(2);
             const swayDur = (3 + Math.random() * 2).toFixed(2);
             f.style.animationDuration = `${fallDur}s, ${swayDur}s`;
-            // Negative delay so flakes appear mid-fall for continuity
             const fallDelay = -(Math.random() * parseFloat(fallDur)).toFixed(2);
             const swayDelay = -(Math.random() * parseFloat(swayDur)).toFixed(2);
             f.style.animationDelay = `${fallDelay}s, ${swayDelay}s`;
-            // Softer opacity for subtleness
             f.style.opacity = (0.22 + Math.random() * 0.24).toFixed(2);
             container.appendChild(f);
         }
@@ -1189,14 +1184,12 @@
             clockEl.innerText = `${daysArr[dayIndex]}, ${now.toLocaleTimeString('en-US', { hour12: true, hour: '2-digit', minute: '2-digit', second: '2-digit' })}`;
         }
 
-        // Remove previous live highlights and any snowfall overlays
         document.querySelectorAll('.live-active').forEach(el => {
             el.classList.remove('live-active');
             removeSnowfallFromSlot(el);
         });
         document.querySelectorAll('.current-day-col').forEach(el => el.classList.remove('current-day-col'));
 
-        // Ensure lunch visuals are off before we compute (they will be toggled below)
         showLunchEmojis(false);
 
         if (dayIndex === 0 || !currentUserSchedule) return;
@@ -1218,12 +1211,8 @@
         else if (mins >= 990 && mins < 1050) currentSlotId = "1630";
         else if (mins >= 1050 && mins < 1110) currentSlotId = "1730";
 
-        // Handle lunch-specific visuals
         if (currentSlotId === '1230') {
-            // If lunch row exists, activate lunch visuals (emojis, border)
             showLunchEmojis(true);
-        } else {
-            showLunchEmojis(false);
         }
 
         if (currentSlotId) {
@@ -1231,7 +1220,6 @@
             let el = document.getElementById(key);
 
             if (!el) {
-                // Check previous slot for labs (2-hour slots)
                 const slotsList = ["0830", "0930", "1030", "1130", "1230", "1330", "1430", "1530", "1630", "1730"];
                 const prevSlotIndex = slotsList.indexOf(currentSlotId) - 1;
                 
@@ -1246,9 +1234,6 @@
                 el.classList.add('live-active');
                 addSnowfallToSlot(el);
             }
-        } else {
-            // ensure lunch emojis are hidden when there's no active slot (non-lunch minutes)
-            // showLunchEmojis(false) already called above
         }
     }
 </script>
