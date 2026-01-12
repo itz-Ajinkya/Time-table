@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>Timetable</title>
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗓️</text></svg>">
     
     <style>
@@ -164,11 +166,11 @@
         .profile-info h1 { margin: 0; font-size: 1.5rem; font-weight: 700; color: var(--text-main); }
         .profile-info p { 
             margin: 4px 0 0; 
-            color: var(--text-main);          /* Darker color for better visibility */
-            font-size: 1.4rem;                /* Much larger size */
+            color: var(--text-main);
+            font-size: 1.1rem;
             font-family: 'Cascadia Code', monospace; 
-            font-weight: 800;                 /* Super Bold */
-            opacity: 1;                       /* Removed transparency */
+            font-weight: 800;
+            opacity: 1;
             letter-spacing: 1px;
         }
         .header-center {
@@ -319,8 +321,11 @@
         th { background: var(--primary); color: #fff; padding: 12px 4px; font-size: 0.8rem; text-transform: uppercase; position: sticky; top: 0; z-index: 20; }
         body.dark-mode th { color: #121212; }
 
+        /* --- UPDATED Z-INDEX FIX: TIME COLUMN --- */
         .time-col { 
-            position: sticky; left: 0; background: var(--card-bg); width: 115px; z-index: 25; 
+            position: sticky; left: 0; background: var(--card-bg); width: 115px; 
+            /* High Z-Index ensures this stays on top of hovered cards */
+            z-index: 1000 !important; 
             border-right: 1px solid var(--border); font-size: 0.75rem; font-weight: 700; 
             color: var(--text-sub); text-align: center; padding: 0 4px; 
             box-shadow: 2px 0 5px rgba(0,0,0,0.05);
@@ -328,7 +333,14 @@
             white-space: nowrap;
         }
         td.time-col-cell { padding: 0; height: 140px; } 
-        th:first-child { position: sticky; left: 0; z-index: 30; background: var(--primary); width: 115px; box-shadow: 2px 0 5px rgba(0,0,0,0.1); }
+        
+        /* Ensure the Time Header is even higher */
+        th:first-child { 
+            position: sticky; left: 0; 
+            z-index: 1001 !important; 
+            background: var(--primary); width: 115px; box-shadow: 2px 0 5px rgba(0,0,0,0.1); 
+        }
+        
         td { border-bottom: 1px solid var(--border); border-right: 1px solid var(--border); padding: 6px; vertical-align: top; height: 140px; }
         th:not(:first-child), td:not(.time-col-cell) { width: calc((100% - 115px) / 6); min-width: 140px; }
 
@@ -339,7 +351,15 @@
             box-shadow: var(--slot-shadow); overflow: visible; 
             transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
         }
-        .slot:hover, .split-item:hover { transform: translateY(-6px) scale(1.03); z-index: 50; box-shadow: 0 10px 25px rgba(0,0,0,0.15); }
+        
+        /* --- UPDATED HOVER Z-INDEX --- */
+        .slot:hover, .split-item:hover { 
+            transform: translateY(-6px) scale(1.03); 
+            /* Set this to 500 so it pops up, but stays BELOW the time column (1000) */
+            z-index: 500 !important; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15); 
+        }
+        
         .slot-collision { background: transparent; box-shadow: none; padding: 0; pointer-events: none; }
         .slot-split { display: flex; width: 100%; height: 100%; gap: 4px; pointer-events: auto; }
         .split-item { flex: 1; min-width: 0; font-size: 0.9em; }
@@ -423,12 +443,6 @@
             100% { transform: translateY(180px); opacity: 0; } 
         }
 
-        footer { 
-            text-align: center; font-family: 'Cascadia Code', monospace; 
-            font-size: 1rem; color: var(--text-sub); margin-top: 30px; 
-            font-weight: 600; letter-spacing: 0.5px; padding-bottom: 20px;
-        }
-        
         /* CLASH FOOTER NOTE */
         .clash-note {
             text-align: center; 
@@ -442,6 +456,60 @@
             max-width: 400px;
             border: 1px dashed var(--clash-text);
             display: none; /* Hidden by default */
+        }
+        
+        /* ============================
+           NEW FOOTER STYLES
+           ============================ */
+        .contact-footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--card-bg); /* Matches card bg for consistency */
+            margin-top: 2rem;
+            border-top: 1px solid var(--border);
+            border-radius: 16px;
+        }
+
+        .contact-footer p {
+            margin-bottom: 1rem;
+            font-weight: bold;
+            color: var(--text-sub);
+            font-family: 'Cascadia Code', monospace;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .social-btn {
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            color: white;
+            font-weight: 500;
+            transition: transform 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        /* Instagram Gradient */
+        .social-btn.insta {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        }
+
+        /* Email Color */
+        .social-btn.mail {
+            background-color: #EA4335;
+        }
+
+        .social-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
     </style>
 </head>
@@ -512,7 +580,24 @@
                 ⚠️ Clash Detected! Schedule will be fixed later...
             </div>
             
-            <footer>Designed by Ajinkya Patil [AIML]</footer>
+            <footer class="contact-footer">
+                <div style="margin-top: 15px; font-size: 1.2rem; opacity: 0.7; font-family: 'Cascadia Code SemiBold', monospace;">
+                    Designed by Ajinkya Patil [AIML]
+                </div>
+                <div style="height: 12px;"></div>
+                <p>Connect with me:</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/ajinkya_patil_2006" target="_blank" class="social-btn insta">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                    
+                    <a href="mailto:ajinkya.s.p12@gmail.com" class="social-btn mail">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                </div>
+                
+            </footer>
+
         </div>
     </div>
 
@@ -650,12 +735,6 @@
                                  const nextKey = `${day}-${timeSlots[i+j]}`;
                                  if (schedule[nextKey]) {
                                      hasCollision = true; // Overlap detected!
-                                     // We can't easily "split" inside an array without complex logic,
-                                     // but marking it is usually enough. 
-                                     // Ideally, we force the next slot to render.
-                                     // The rendering loop relies on 'skipped' array.
-                                     // If we don't modify the data, the renderer will skip the next slot.
-                                     // FIX: Force span to 1 to reveal the collision.
                                      subEntry.span = 1; 
                                  }
                              }
@@ -753,12 +832,8 @@
             });
         }
 
-        // 1. Process Collisions
-        // We clone the schedule to avoid mutating the original logic.js object permanently if needed
-        // but here we likely want to mutate 'data.schedule' for display purposes.
         const collisionDetected = fixSpanCollisions(data.schedule);
         
-        // 2. Show Footer Note if Collision
         const footerNote = document.getElementById('clash-footer');
         if (collisionDetected) {
             footerNote.style.display = 'block';
