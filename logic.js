@@ -30,7 +30,7 @@ const MASTER_SCHEDULE = {
     // ==========================================
     "BMS": {
         "Div 1": {
-            "mon-1030": { type: "lec", room: "NC 10" }, "thu-0930": { type: "lec", room: "NC 10" }, "fri-0930": { type: "lec", room: "NC 10" },
+            "mon-1030": { type: "lec", room: "NC 04" }, "thu-0930": { type: "lec", room: "NC 04" }, "fri-0930": { type: "lec", room: "NC 04" },
             "B1": { "mon-0830": { type: "lab", room: "BMS LAB", span: 2 } }, "B2": { "mon-0830": { type: "lab", room: "BMS LAB", span: 2 } },
             "B3": { "tue-0830": { type: "lab", room: "BMS LAB", span: 2 } }, "B4": { "tue-0830": { type: "lab", room: "BMS LAB", span: 2 } }
         }
@@ -566,4 +566,5 @@ function getStudentData(mis) {
     });
 
     return { ...student, schedule: personalSchedule };
+
 }
