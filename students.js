@@ -173,8 +173,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -467,8 +467,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -754,8 +754,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -1146,8 +1146,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -1195,8 +1195,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -1538,8 +1538,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -1636,8 +1636,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -1685,8 +1685,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2028,8 +2028,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2518,8 +2518,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2616,8 +2616,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2665,8 +2665,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2714,8 +2714,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2763,8 +2763,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -2812,8 +2812,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -2861,8 +2861,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -2910,8 +2910,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3008,8 +3008,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3057,8 +3057,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3106,8 +3106,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3155,8 +3155,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -3204,8 +3204,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -3253,8 +3253,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -3302,8 +3302,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -3351,8 +3351,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -3498,8 +3498,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -3596,8 +3596,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -3736,8 +3736,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -3785,8 +3785,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -3932,8 +3932,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -3981,8 +3981,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -4079,8 +4079,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -4128,8 +4128,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -4177,8 +4177,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -4226,8 +4226,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -4324,8 +4324,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -4373,8 +4373,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -4422,8 +4422,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -4520,8 +4520,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -4618,8 +4618,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -4716,8 +4716,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -4765,8 +4765,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -4863,8 +4863,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -4912,8 +4912,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -5010,8 +5010,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -5108,8 +5108,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -5157,8 +5157,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -5206,8 +5206,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -5255,8 +5255,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -5304,8 +5304,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -5353,8 +5353,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -5402,8 +5402,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -5451,8 +5451,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -5500,8 +5500,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -5549,8 +5549,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -5598,8 +5598,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -5696,8 +5696,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -5794,8 +5794,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -5843,8 +5843,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -5892,8 +5892,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -5941,8 +5941,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -6039,8 +6039,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6235,8 +6235,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6284,8 +6284,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6333,8 +6333,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6382,8 +6382,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6431,8 +6431,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6480,8 +6480,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6529,8 +6529,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6578,8 +6578,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6627,8 +6627,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6676,8 +6676,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6725,8 +6725,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6774,8 +6774,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6872,8 +6872,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6970,8 +6970,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -7068,8 +7068,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -7117,8 +7117,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -7166,8 +7166,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -7215,8 +7215,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -7313,8 +7313,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -7362,8 +7362,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -7411,8 +7411,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -7460,8 +7460,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -7656,8 +7656,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -7705,8 +7705,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -7754,8 +7754,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -7803,8 +7803,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -7852,8 +7852,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -7901,8 +7901,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -7999,8 +7999,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -8097,8 +8097,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -8146,8 +8146,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -8195,8 +8195,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -8244,8 +8244,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -8293,8 +8293,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -8342,8 +8342,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -8391,8 +8391,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -8538,8 +8538,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -8587,8 +8587,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -8636,8 +8636,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -8685,8 +8685,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -8734,8 +8734,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -8783,8 +8783,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -8832,8 +8832,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -8930,8 +8930,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -8979,8 +8979,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -9028,8 +9028,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -9126,8 +9126,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -9224,8 +9224,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -9273,8 +9273,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -9371,8 +9371,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -9469,8 +9469,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -9518,8 +9518,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -9567,8 +9567,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -9616,8 +9616,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -9665,8 +9665,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -9714,8 +9714,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -9812,8 +9812,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -9861,8 +9861,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -9903,8 +9903,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -9952,8 +9952,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -10001,8 +10001,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -10099,8 +10099,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -10148,8 +10148,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -10190,8 +10190,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -10239,8 +10239,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -10386,8 +10386,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -10435,8 +10435,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -10484,8 +10484,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -10582,8 +10582,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -10680,8 +10680,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -10729,8 +10729,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -10827,8 +10827,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -10876,8 +10876,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -10967,8 +10967,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -11016,8 +11016,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -11065,8 +11065,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -11212,8 +11212,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -11261,8 +11261,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -11310,8 +11310,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -11408,8 +11408,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -11457,8 +11457,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -11604,8 +11604,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -11653,8 +11653,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -11702,8 +11702,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -11751,8 +11751,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -11800,8 +11800,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -11849,8 +11849,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -11898,8 +11898,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -12045,8 +12045,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -12143,8 +12143,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -12192,8 +12192,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -12241,8 +12241,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -12290,8 +12290,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -12339,8 +12339,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -12388,8 +12388,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -12486,8 +12486,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -12535,8 +12535,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -12633,8 +12633,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -12682,8 +12682,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -12780,8 +12780,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -12829,8 +12829,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -12878,8 +12878,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -12927,8 +12927,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -13025,8 +13025,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -13123,8 +13123,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -13172,8 +13172,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -13221,8 +13221,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -13270,8 +13270,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -13319,8 +13319,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -13368,8 +13368,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -13417,8 +13417,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -13564,8 +13564,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -13613,8 +13613,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -13662,8 +13662,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -13711,8 +13711,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -13760,8 +13760,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -13809,8 +13809,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -13956,8 +13956,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -14054,8 +14054,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -14103,8 +14103,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -14152,8 +14152,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -14250,8 +14250,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -14348,8 +14348,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -14397,8 +14397,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -14481,8 +14481,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -14530,8 +14530,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -14579,8 +14579,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -14628,8 +14628,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -14677,8 +14677,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -14726,8 +14726,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -14775,8 +14775,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -14873,8 +14873,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -14971,8 +14971,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -15020,8 +15020,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -15167,8 +15167,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -15216,8 +15216,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -15461,8 +15461,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -15510,8 +15510,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -15559,8 +15559,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -15608,8 +15608,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -15657,8 +15657,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -15706,8 +15706,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -15755,8 +15755,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -15853,8 +15853,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -15902,8 +15902,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -15951,8 +15951,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16000,8 +16000,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16049,8 +16049,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16140,8 +16140,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16189,8 +16189,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16336,8 +16336,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16434,8 +16434,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16483,8 +16483,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16532,8 +16532,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16581,8 +16581,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16630,8 +16630,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16679,8 +16679,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16728,8 +16728,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16777,8 +16777,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16826,8 +16826,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16875,8 +16875,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -16973,8 +16973,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -17022,8 +17022,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -17071,8 +17071,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -17120,8 +17120,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -17218,8 +17218,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -17316,8 +17316,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -17813,8 +17813,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -17862,8 +17862,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -18310,8 +18310,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -18359,8 +18359,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -18457,8 +18457,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -18702,8 +18702,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -18947,8 +18947,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -19395,8 +19395,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -19689,8 +19689,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -19948,8 +19948,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -20095,8 +20095,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -20200,8 +20200,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -20445,8 +20445,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -20494,8 +20494,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -20788,8 +20788,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -21411,8 +21411,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -21901,8 +21901,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -21992,8 +21992,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -22139,8 +22139,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -22188,8 +22188,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -22237,8 +22237,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -22286,8 +22286,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -22335,8 +22335,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -22384,8 +22384,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -22433,8 +22433,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -22531,8 +22531,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -22580,8 +22580,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -22678,8 +22678,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -22727,8 +22727,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -22825,8 +22825,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -22874,8 +22874,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -22923,8 +22923,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -22972,8 +22972,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -23021,8 +23021,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -23070,8 +23070,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -23119,8 +23119,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -23168,8 +23168,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -23217,8 +23217,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -23364,8 +23364,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -23462,8 +23462,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -23707,8 +23707,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -23756,8 +23756,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -23805,8 +23805,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -23854,8 +23854,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -23903,8 +23903,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -23952,8 +23952,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -24043,8 +24043,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -24141,8 +24141,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -24239,8 +24239,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -24288,8 +24288,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -24337,8 +24337,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -24484,8 +24484,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -24533,8 +24533,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -24631,8 +24631,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -24680,8 +24680,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -24729,8 +24729,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -24827,8 +24827,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -24925,8 +24925,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -24974,8 +24974,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -25023,8 +25023,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -25170,8 +25170,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -25268,8 +25268,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -25464,8 +25464,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -25513,8 +25513,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -25562,8 +25562,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -25611,8 +25611,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -25660,8 +25660,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -25758,8 +25758,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -26003,8 +26003,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -26052,8 +26052,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -26101,8 +26101,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -26199,8 +26199,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -26241,8 +26241,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -26290,8 +26290,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -26437,8 +26437,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -26486,8 +26486,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -26633,8 +26633,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -26731,8 +26731,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -26780,8 +26780,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -26829,8 +26829,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -26878,8 +26878,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -26927,8 +26927,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -26976,8 +26976,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -27025,8 +27025,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -27172,8 +27172,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -27221,8 +27221,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -27270,8 +27270,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -27417,8 +27417,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -27466,8 +27466,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -27564,8 +27564,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -27711,8 +27711,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -27760,8 +27760,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -27809,8 +27809,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -27858,8 +27858,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -27907,8 +27907,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -27956,8 +27956,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -28005,8 +28005,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -28054,8 +28054,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -28103,8 +28103,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -28201,8 +28201,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -28250,8 +28250,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -28299,8 +28299,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -28439,8 +28439,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -28488,8 +28488,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -28530,8 +28530,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -28572,8 +28572,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -28621,8 +28621,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -28670,8 +28670,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -28817,8 +28817,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -28915,8 +28915,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -28964,8 +28964,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29013,8 +29013,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29062,8 +29062,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29160,8 +29160,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29209,8 +29209,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29258,8 +29258,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29307,8 +29307,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29356,8 +29356,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29405,8 +29405,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29503,8 +29503,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29552,8 +29552,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29601,8 +29601,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29650,8 +29650,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29797,8 +29797,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29895,8 +29895,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29944,8 +29944,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -29993,8 +29993,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -30042,8 +30042,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -30084,8 +30084,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -30182,8 +30182,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -30231,8 +30231,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -30280,8 +30280,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -30329,8 +30329,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -30427,8 +30427,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -30476,8 +30476,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -30623,8 +30623,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -30721,8 +30721,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -30798,8 +30798,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -30847,8 +30847,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -30896,8 +30896,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -30945,8 +30945,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -30994,8 +30994,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -31043,8 +31043,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -31092,8 +31092,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -31141,8 +31141,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -31190,8 +31190,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -31239,8 +31239,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -31288,8 +31288,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -31337,8 +31337,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -31386,8 +31386,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -31435,8 +31435,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -31470,8 +31470,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -31512,8 +31512,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -31561,8 +31561,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -31659,8 +31659,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -31708,8 +31708,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -31757,8 +31757,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -31855,8 +31855,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -31904,8 +31904,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -31953,8 +31953,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -32002,8 +32002,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -32149,8 +32149,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -32198,8 +32198,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -32296,8 +32296,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -32345,8 +32345,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -32394,8 +32394,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -32443,8 +32443,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -32492,8 +32492,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -32541,8 +32541,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -32590,8 +32590,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -32639,8 +32639,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -32688,8 +32688,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -32737,8 +32737,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -32786,8 +32786,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -32835,8 +32835,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -32884,8 +32884,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -32933,8 +32933,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -32982,8 +32982,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -33031,8 +33031,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -33080,8 +33080,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -33129,8 +33129,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -33178,8 +33178,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -33227,8 +33227,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -33276,8 +33276,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -33325,8 +33325,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -33374,8 +33374,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -33423,8 +33423,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -33472,8 +33472,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -33521,8 +33521,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -33570,8 +33570,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -33619,8 +33619,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -33668,8 +33668,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -33717,8 +33717,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -33766,8 +33766,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -33815,8 +33815,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -33864,8 +33864,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -33913,8 +33913,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -33962,8 +33962,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -34011,8 +34011,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -34109,8 +34109,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -34158,8 +34158,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -34207,8 +34207,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -34256,8 +34256,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -34305,8 +34305,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -34354,8 +34354,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -34403,8 +34403,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -34452,8 +34452,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -34501,8 +34501,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -34550,8 +34550,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -34599,8 +34599,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -34648,8 +34648,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -34746,8 +34746,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -34795,8 +34795,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -34844,8 +34844,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -34893,8 +34893,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -34942,8 +34942,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -34991,8 +34991,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -35040,8 +35040,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -35089,8 +35089,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -35138,8 +35138,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -35187,8 +35187,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -35236,8 +35236,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -35285,8 +35285,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -35383,8 +35383,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -35432,8 +35432,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -35530,8 +35530,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -35579,8 +35579,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -35628,8 +35628,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -35726,8 +35726,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -35775,8 +35775,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -35824,8 +35824,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -35873,8 +35873,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -35922,8 +35922,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -35971,8 +35971,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -36020,8 +36020,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -36069,8 +36069,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -36111,8 +36111,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -36160,8 +36160,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -36209,8 +36209,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -36258,8 +36258,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -36356,8 +36356,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -36405,8 +36405,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -36552,8 +36552,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -36601,8 +36601,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -36650,8 +36650,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -36699,8 +36699,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -36748,8 +36748,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -36797,8 +36797,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -36846,8 +36846,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -36895,8 +36895,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -37042,8 +37042,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -37189,8 +37189,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -37287,8 +37287,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -37385,8 +37385,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -37525,8 +37525,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B1"
       },
@@ -37567,8 +37567,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -37616,8 +37616,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -37763,8 +37763,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -37812,8 +37812,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -37959,8 +37959,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -38001,8 +38001,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -38050,8 +38050,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B2"
       },
@@ -38148,8 +38148,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -38197,8 +38197,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -38246,8 +38246,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -38295,8 +38295,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -38344,8 +38344,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -38393,8 +38393,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -38442,8 +38442,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -38484,8 +38484,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -38533,8 +38533,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -38582,8 +38582,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -38631,8 +38631,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -38729,8 +38729,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -38827,8 +38827,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B2"
       },
@@ -38876,8 +38876,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -38925,8 +38925,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -38974,8 +38974,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -39023,8 +39023,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -39072,8 +39072,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -39121,8 +39121,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -39170,8 +39170,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -39219,8 +39219,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -39268,8 +39268,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -39317,8 +39317,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -39366,8 +39366,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -39415,8 +39415,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -39464,8 +39464,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B3"
       },
@@ -39513,8 +39513,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -39562,8 +39562,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -39611,8 +39611,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -39660,8 +39660,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -39709,8 +39709,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -39758,8 +39758,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -39800,8 +39800,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -39849,8 +39849,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -39898,8 +39898,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -39947,8 +39947,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -40045,8 +40045,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -40094,8 +40094,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -40143,8 +40143,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -40192,8 +40192,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -40241,8 +40241,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -40290,8 +40290,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B4"
       },
@@ -40339,8 +40339,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -40388,8 +40388,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -40437,8 +40437,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -40486,8 +40486,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -40535,8 +40535,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -40682,8 +40682,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -40731,8 +40731,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -40829,8 +40829,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -40927,8 +40927,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B3"
       },
@@ -41025,8 +41025,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -41123,8 +41123,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -41172,8 +41172,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -41221,8 +41221,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -41270,8 +41270,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 8",
         "batch": "B4"
       },
@@ -41417,8 +41417,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -41466,8 +41466,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -41515,8 +41515,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -41613,8 +41613,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -41662,8 +41662,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -41760,8 +41760,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 9",
         "batch": "B1"
       },
@@ -41956,8 +41956,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42733,8 +42733,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42880,8 +42880,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -43125,8 +43125,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -43174,8 +43174,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -43811,8 +43811,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -43860,8 +43860,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -44056,8 +44056,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -44497,8 +44497,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -44644,8 +44644,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -45281,8 +45281,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -45967,8 +45967,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -46261,8 +46261,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -46408,8 +46408,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -46457,8 +46457,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -47045,8 +47045,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -47192,8 +47192,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -47633,8 +47633,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -48606,8 +48606,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -49726,8 +49726,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -49824,8 +49824,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -50265,8 +50265,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -50510,8 +50510,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -50853,8 +50853,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -52120,8 +52120,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -53394,8 +53394,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -53639,8 +53639,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -53688,8 +53688,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -53982,8 +53982,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -54325,8 +54325,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -55263,8 +55263,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -55557,8 +55557,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -56194,8 +56194,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -57321,8 +57321,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -57958,8 +57958,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -58007,8 +58007,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -58056,8 +58056,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -58105,8 +58105,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -58154,8 +58154,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -58203,8 +58203,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -58252,8 +58252,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -58301,8 +58301,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -58399,8 +58399,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -58448,8 +58448,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -58546,8 +58546,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -58595,8 +58595,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -58644,8 +58644,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -58693,8 +58693,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -58742,8 +58742,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -58791,8 +58791,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -58840,8 +58840,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -58889,8 +58889,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -58987,8 +58987,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -59036,8 +59036,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -59085,8 +59085,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -59134,8 +59134,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -59183,8 +59183,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -59232,8 +59232,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -59281,8 +59281,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -59330,8 +59330,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -59379,8 +59379,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -59428,8 +59428,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -59526,8 +59526,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -59575,8 +59575,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -59624,8 +59624,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -59673,8 +59673,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -59722,8 +59722,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -59771,8 +59771,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -59820,8 +59820,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -59869,8 +59869,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -59918,8 +59918,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -59967,8 +59967,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -60016,8 +60016,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -60065,8 +60065,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -60114,8 +60114,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -60163,8 +60163,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -60261,8 +60261,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -60310,8 +60310,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -60359,8 +60359,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -60457,8 +60457,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -60506,8 +60506,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -60555,8 +60555,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -60604,8 +60604,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -60653,8 +60653,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -60702,8 +60702,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -60800,8 +60800,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -60849,8 +60849,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -60898,8 +60898,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -60947,8 +60947,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -61045,8 +61045,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -61094,8 +61094,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -61143,8 +61143,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -61290,8 +61290,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -61339,8 +61339,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -61388,8 +61388,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -61430,8 +61430,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -61479,8 +61479,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -61577,8 +61577,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -61626,8 +61626,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -61724,8 +61724,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -61773,8 +61773,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -61822,8 +61822,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -61864,8 +61864,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -61913,8 +61913,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -61962,8 +61962,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -62060,8 +62060,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -62109,8 +62109,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -62158,8 +62158,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -62207,8 +62207,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -62256,8 +62256,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -62305,8 +62305,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -62354,8 +62354,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -62452,8 +62452,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -62501,8 +62501,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -62550,8 +62550,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -62648,8 +62648,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -62697,8 +62697,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -62746,8 +62746,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -62795,8 +62795,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -62893,8 +62893,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -62942,8 +62942,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -62991,8 +62991,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -63040,8 +63040,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -63089,8 +63089,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -63138,8 +63138,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -63285,8 +63285,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -63334,8 +63334,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -63383,8 +63383,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -63432,8 +63432,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -63481,8 +63481,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -63530,8 +63530,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -63579,8 +63579,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -63628,8 +63628,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -63775,8 +63775,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -63824,8 +63824,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -63873,8 +63873,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -63971,8 +63971,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -64020,8 +64020,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -64069,8 +64069,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -64118,8 +64118,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -64167,8 +64167,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -64216,8 +64216,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -64265,8 +64265,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -64314,8 +64314,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -64363,8 +64363,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -64412,8 +64412,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -64461,8 +64461,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -64510,8 +64510,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -64559,8 +64559,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -64608,8 +64608,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -64706,8 +64706,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -64755,8 +64755,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -64804,8 +64804,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -64902,8 +64902,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -64951,8 +64951,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -65000,8 +65000,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -65049,8 +65049,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -65098,8 +65098,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -65147,8 +65147,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -65196,8 +65196,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -65245,8 +65245,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -65294,8 +65294,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -65343,8 +65343,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -65392,8 +65392,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -65441,8 +65441,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -65490,8 +65490,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -65539,8 +65539,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -65637,8 +65637,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -65686,8 +65686,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -65735,8 +65735,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -65784,8 +65784,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -65833,8 +65833,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -65882,8 +65882,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -65980,8 +65980,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -66029,8 +66029,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -66078,8 +66078,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -66127,8 +66127,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -66176,8 +66176,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -66323,8 +66323,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -66421,8 +66421,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -66470,8 +66470,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -66568,8 +66568,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -66666,8 +66666,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -66764,8 +66764,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -66813,8 +66813,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -66911,8 +66911,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -66960,8 +66960,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -67009,8 +67009,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -67058,8 +67058,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -67107,8 +67107,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -67156,8 +67156,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -67254,8 +67254,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -67303,8 +67303,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -67352,8 +67352,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -67436,8 +67436,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -67534,8 +67534,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -67583,8 +67583,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -67632,8 +67632,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -67730,8 +67730,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -67779,8 +67779,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -67828,8 +67828,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -67975,8 +67975,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -68024,8 +68024,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -68171,8 +68171,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -68220,8 +68220,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -68269,8 +68269,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -68318,8 +68318,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -68367,8 +68367,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -68465,8 +68465,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -68514,8 +68514,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -68661,8 +68661,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -68710,8 +68710,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -68857,8 +68857,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -68906,8 +68906,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -69053,8 +69053,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -69144,8 +69144,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -69193,8 +69193,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -69242,8 +69242,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -69291,8 +69291,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -69340,8 +69340,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -69389,8 +69389,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -69438,8 +69438,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -69487,8 +69487,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -69536,8 +69536,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69585,8 +69585,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69634,8 +69634,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69732,8 +69732,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69781,8 +69781,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69830,8 +69830,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69879,8 +69879,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -70026,8 +70026,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -70075,8 +70075,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -70124,8 +70124,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -70173,8 +70173,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -70222,8 +70222,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -70271,8 +70271,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -70369,8 +70369,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -70418,8 +70418,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70565,8 +70565,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70614,8 +70614,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70663,8 +70663,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70712,8 +70712,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70761,8 +70761,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70810,8 +70810,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70859,8 +70859,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70908,8 +70908,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70957,8 +70957,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -71006,8 +71006,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -71055,8 +71055,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -71104,8 +71104,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -71188,8 +71188,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -71524,8 +71524,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -71860,8 +71860,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -71902,8 +71902,8 @@ const GENERATED_DB = {
       },
       {
         "code": "VCDE",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Vector calculus",
+        "color": "#27ae60",
         "div": "Div 6",
         "batch": "B2"
       },
