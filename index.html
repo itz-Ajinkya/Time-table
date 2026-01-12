@@ -107,7 +107,7 @@
 
         .mis-input-wrapper {
             display: flex; align-items: center; background: var(--input-bg);
-            border: 2px solid var(--border); border-radius: 14px; padding: 4px 16px; margin-bottom: 20px;
+            border: 2px solid var(--border); border-radius: 14px; padding: 1px 10px; margin-bottom: 14px;
         }
         .mis-input-wrapper:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2); }
         
@@ -122,7 +122,7 @@
         .mis-input-wrapper input { 
             border: none; 
             background: transparent; 
-            padding: 14px 0; 
+            padding: 8px 0; 
             font-size: 2rem; 
             font-family: 'Cascadia Code', monospace; 
             font-weight: 700; 
@@ -264,9 +264,9 @@
             background: transparent;
             color: #ff5252;
             border: 1px solid rgba(255, 82, 82, 0.3);
-            padding: 4px 12px;
+            padding: 7px 15px;
             border-radius: 6px;
-            font-size: 0.75rem;
+            font-size: 1rem;
             font-weight: 700;
             cursor: pointer;
             letter-spacing: 0.5px;
@@ -564,7 +564,7 @@
     <div id="home-page">
         <div class="login-card">
             <h1>🗓️ Timetable</h1>
-            <p>Mobile Edition (Sem II)</p>
+            <p>(Sem II)</p>
             <div style="text-align:left; font-weight:700; margin-bottom:8px; color:var(--text-main); font-size:1.2rem; font-family: 'Cascadia Code', monospace;">MIS Number</div>
             <div class="mis-input-wrapper">
                 <span class="prefix">6125</span>
@@ -573,9 +573,23 @@
             <button class="btn-login" onclick="attemptLogin()">VIEW SCHEDULE</button>
             <div class="error-msg" id="error-msg">❌ Invalid MIS</div>
         </div>
-        <div style="position: absolute; bottom: 20px; color: rgba(255,255,255,0.6); font-size: 0.75rem; text-align: center; width: 100%; left:0;">
-            Created by Ajinkya Patil [AIML]
-        </div>
+        <footer class="contact-footer">
+                <div style="margin-top: 15px; font-size: 1.2rem; opacity: 0.7; font-family: 'Cascadia Code SemiBold', monospace;">
+                    Designed by Ajinkya Patil [AIML]
+                </div>
+                <div style="height: 12px;"></div>
+                <p>Connect with me:</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/ajinkya_patil_2006" target="_blank" class="social-btn insta">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                    
+                    <a href="mailto:ajinkya.s.p12@gmail.com" class="social-btn mail">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                </div>
+                
+            </footer>
     </div>
 
     <div id="timetable-page" class="hidden">

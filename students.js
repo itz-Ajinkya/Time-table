@@ -13139,8 +13139,8 @@ const GENERATED_DB = {
         "code": "WD",
         "name": "Unknown",
         "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B3"
+        "div": "Div 1",
+        "batch": "B2"
       }
     ],
     "schedule": {}
@@ -56701,7 +56701,7 @@ const GENERATED_DB = {
         "name": "Quantum Phy",
         "color": "#f1c40f",
         "div": "Div 4",
-        "batch": "B2"
+        "batch": "B3"
       },
       {
         "code": "NM",
