@@ -489,28 +489,31 @@ const MASTER_SCHEDULE = {
 };
 
 // --- LAB EMOJI MAPPING ---
-// Assign emojis to lab slots by subject code
+// 1. UPDATED: Added 'PP' to the Computer/Tech group
 const LAB_EMOJI_GROUPS = [
-    { emoji: '💻', codes: ['CAED', 'WD', 'MPFL', 'IPSSF', 'DS', 'DPV', 'PPS', 'FCP', 'GE', 'EW', 'CAD', 'DPI', 'EVA', 'RDOS'] },
+    { emoji: '💻', codes: ['PP', 'CAED', 'WD', 'MPFL', 'IPSSF', 'DS', 'DPV', 'PPS', 'FCP', 'GE', 'EW', 'CAD', 'DPI', 'EVA', 'RDOS'] },
     { emoji: '📐', codes: ['VCDE', 'PS', 'AEIOT', 'FPI', 'AIMA', 'NM', 'BMT'] }, 
     { emoji: '🗣️', codes: ['CS', 'PD'] },
     { emoji: '🔬', codes: ['EP', 'EC', 'QP', 'EEMI', 'FEET', 'EM', 'FME', 'FMS', 'BCE', 'EEU'] }
 ];
 
 function getLabEmoji(code, room) {
-    if (!code) return '';
+    if (!code) return '🧪';
     const upper = code.toUpperCase();
+    
     for (const g of LAB_EMOJI_GROUPS) {
         if (g.codes.includes(upper) && g.emoji) return g.emoji;
     }
+    
     // Fallback heuristics based on room name
     if (room && /computer|cognizant/i.test(room)) return '💻';
-    return '';
+    
+    // 2. UPDATED: Return generic lab emoji if no match found
+    return '🧪';
 }
 
-// --- DATA MERGER FUNC TION ---
+// --- DATA MERGER FUNCTION ---
 function getStudentData(mis) {
-    // 1. Safety Check
     if (!GENERATED_DB || !GENERATED_DB[mis]) {
         return null;
     }
@@ -518,37 +521,38 @@ function getStudentData(mis) {
     const student = GENERATED_DB[mis];
     const personalSchedule = {};
 
-    // 2. Build Schedule from allocated Cards
     if (student.cards && Array.isArray(student.cards)) {
         student.cards.forEach(card => {
-            const subjectCode = card.code; // e.g. "AEIOT"
-            const div = card.div;          // e.g. "Div 1"
-            const batch = card.batch;      // e.g. "B1"
+            const subjectCode = card.code;
+            const div = card.div;
+            const batch = card.batch;
 
-            // Ensure this subject exists in Master Schedule
             if (MASTER_SCHEDULE[subjectCode] && MASTER_SCHEDULE[subjectCode][div]) {
                 const divSchedule = MASTER_SCHEDULE[subjectCode][div];
 
-                // --- A. Process Lectures (Direct Keys) ---
+                // --- A. Process Lectures ---
                 Object.keys(divSchedule).forEach(timeKey => {
-                    // Filter out Batch keys (B1, B2) by checking length or content
-                    // Time keys are like "mon-1030" (length 8), Batches are "B1" (length 2)
                     if (timeKey.length < 5) return; 
 
                     const slot = divSchedule[timeKey];
+                    
+                    // 3. UPDATED: Check for PD, CS, PP lectures to give them emojis
+                    let lectureEmoji = "";
+                    if (['PD', 'CS', 'PP'].includes(subjectCode.toUpperCase())) {
+                        lectureEmoji = getLabEmoji(subjectCode, slot.room);
+                    }
+
                     const entry = {
                         ...slot,
                         subj: subjectCode,
                         class: subjectCode.toLowerCase(),
-                        tag: "" // Lectures usually don't have emoji tags
+                        tag: lectureEmoji 
                     };
 
-                    // Add to schedule (Handling Collisions)
                     addToSchedule(personalSchedule, timeKey, entry);
                 });
 
-                // --- B. Process Labs (Batch Keys) ---
-                // If the student has a batch assigned (e.g., "B1") and the schedule has that batch
+                // --- B. Process Labs ---
                 if (batch !== '-' && divSchedule[batch]) {
                     const labSlots = divSchedule[batch];
                     
@@ -558,11 +562,10 @@ function getStudentData(mis) {
                             ...lab,
                             subj: subjectCode,
                             class: subjectCode.toLowerCase(),
-                            // Safety check for emoji function
-                            tag: (typeof getLabEmoji === 'function') ? getLabEmoji(subjectCode, lab.room) : "🧪"
+                            // This now works for PP (added to list) and others (via fallback)
+                            tag: getLabEmoji(subjectCode, lab.room) 
                         };
 
-                        // Add to schedule (Handling Collisions)
                         addToSchedule(personalSchedule, timeKey, entry);
                     });
                 }
@@ -570,16 +573,15 @@ function getStudentData(mis) {
         });
     }
 
-    // 3. Return the Final Data Object
     return {
-        name: student.name, // Now correctly pulling "Ajinkya Patil" etc. from students.js
+        name: student.name,
         info: student.info,
         cards: student.cards,
         schedule: personalSchedule
     };
 }
 
-// Helper to handle overlapping slots (arrays)
+// Helper to handle overlapping slots
 function addToSchedule(schedule, timeKey, entry) {
     if (schedule[timeKey]) {
         if (Array.isArray(schedule[timeKey])) {

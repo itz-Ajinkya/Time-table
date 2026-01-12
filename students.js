@@ -6,7 +6,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -40,8 +40,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -55,7 +55,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -104,7 +104,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -153,7 +153,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -202,7 +202,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -251,7 +251,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -285,8 +285,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -300,7 +300,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -349,7 +349,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -398,7 +398,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -447,7 +447,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -496,7 +496,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -538,7 +538,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -572,8 +572,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -587,7 +587,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -636,7 +636,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -685,7 +685,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -734,7 +734,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -783,7 +783,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -817,8 +817,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -832,7 +832,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -881,7 +881,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -930,7 +930,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -979,7 +979,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -1028,7 +1028,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -1077,7 +1077,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -1126,7 +1126,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -1175,7 +1175,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -1224,7 +1224,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -1273,7 +1273,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -1322,7 +1322,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -1371,7 +1371,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -1420,7 +1420,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -1469,7 +1469,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -1518,7 +1518,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -1552,8 +1552,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -1567,7 +1567,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -1616,7 +1616,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -1665,7 +1665,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -1714,7 +1714,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -1763,7 +1763,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -1812,7 +1812,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -1861,7 +1861,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -1910,7 +1910,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -1959,7 +1959,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2008,7 +2008,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2057,7 +2057,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2106,7 +2106,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2155,7 +2155,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2204,7 +2204,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2238,8 +2238,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -2253,7 +2253,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2302,7 +2302,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2351,7 +2351,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2400,7 +2400,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2449,7 +2449,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2483,8 +2483,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -2498,7 +2498,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2547,7 +2547,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2596,7 +2596,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2645,7 +2645,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2694,7 +2694,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2743,7 +2743,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2792,7 +2792,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2841,7 +2841,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2875,8 +2875,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -2890,7 +2890,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -2939,7 +2939,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -2988,7 +2988,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3037,7 +3037,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3086,7 +3086,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3135,7 +3135,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3184,7 +3184,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3233,7 +3233,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3282,7 +3282,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3331,7 +3331,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3380,7 +3380,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3429,7 +3429,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3478,7 +3478,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3527,7 +3527,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3576,7 +3576,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3610,8 +3610,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -3625,7 +3625,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3667,7 +3667,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3716,7 +3716,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3765,7 +3765,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3814,7 +3814,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3863,7 +3863,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3912,7 +3912,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -3961,7 +3961,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -4010,7 +4010,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -4059,7 +4059,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -4108,7 +4108,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -4142,8 +4142,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -4157,7 +4157,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -4206,7 +4206,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -4255,7 +4255,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -4289,8 +4289,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -4304,7 +4304,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -4353,7 +4353,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -4402,7 +4402,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -4451,7 +4451,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -4500,7 +4500,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -4549,7 +4549,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -4598,7 +4598,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -4647,7 +4647,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -4696,7 +4696,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -4745,7 +4745,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -4794,7 +4794,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -4843,7 +4843,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -4892,7 +4892,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -4941,7 +4941,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -4990,7 +4990,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5039,7 +5039,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5088,7 +5088,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5137,7 +5137,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5186,7 +5186,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5235,7 +5235,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5284,7 +5284,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5333,7 +5333,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5382,7 +5382,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5431,7 +5431,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5480,7 +5480,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5529,7 +5529,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5578,7 +5578,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5627,7 +5627,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5676,7 +5676,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5725,7 +5725,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5774,7 +5774,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5823,7 +5823,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5872,7 +5872,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5921,7 +5921,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -5970,7 +5970,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6019,7 +6019,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6068,7 +6068,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6117,7 +6117,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6166,7 +6166,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6215,7 +6215,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6264,7 +6264,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6313,7 +6313,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6362,7 +6362,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6411,7 +6411,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6460,7 +6460,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6509,7 +6509,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6558,7 +6558,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6607,7 +6607,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6656,7 +6656,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6705,7 +6705,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6754,7 +6754,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6788,8 +6788,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -6803,7 +6803,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6852,7 +6852,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6901,7 +6901,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6950,7 +6950,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -6999,7 +6999,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -7048,7 +7048,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -7097,7 +7097,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -7146,7 +7146,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -7195,7 +7195,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -7244,7 +7244,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -7293,7 +7293,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -7342,7 +7342,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -7391,7 +7391,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -7425,8 +7425,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -7440,7 +7440,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -7489,7 +7489,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -7538,7 +7538,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -7587,7 +7587,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -7621,8 +7621,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -7636,7 +7636,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -7685,7 +7685,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -7734,7 +7734,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -7783,7 +7783,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -7817,8 +7817,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -7832,7 +7832,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -7881,7 +7881,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -7930,7 +7930,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -7979,7 +7979,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8028,7 +8028,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8062,8 +8062,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -8077,7 +8077,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8126,7 +8126,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8175,7 +8175,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8224,7 +8224,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8273,7 +8273,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8322,7 +8322,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8371,7 +8371,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8420,7 +8420,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8469,7 +8469,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8518,7 +8518,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8567,7 +8567,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8616,7 +8616,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8665,7 +8665,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8714,7 +8714,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8763,7 +8763,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -8812,7 +8812,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -8861,7 +8861,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -8895,8 +8895,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -8910,7 +8910,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -8959,7 +8959,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9008,7 +9008,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9057,7 +9057,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9106,7 +9106,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9155,7 +9155,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9204,7 +9204,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9253,7 +9253,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9302,7 +9302,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9351,7 +9351,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9400,7 +9400,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9449,7 +9449,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9498,7 +9498,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9547,7 +9547,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9596,7 +9596,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9645,7 +9645,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9694,7 +9694,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9743,7 +9743,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9792,7 +9792,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9841,7 +9841,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9890,7 +9890,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9932,7 +9932,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -9981,7 +9981,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -10030,7 +10030,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -10079,7 +10079,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -10128,7 +10128,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -10177,7 +10177,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -10219,7 +10219,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -10268,7 +10268,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -10317,7 +10317,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -10366,7 +10366,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -10415,7 +10415,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -10464,7 +10464,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -10513,7 +10513,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -10547,8 +10547,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -10562,7 +10562,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -10611,7 +10611,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -10660,7 +10660,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -10709,7 +10709,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -10758,7 +10758,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -10792,8 +10792,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -10807,7 +10807,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -10856,7 +10856,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -10905,7 +10905,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -10947,7 +10947,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -10996,7 +10996,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -11045,7 +11045,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -11094,7 +11094,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -11143,7 +11143,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -11192,7 +11192,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -11241,7 +11241,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -11290,7 +11290,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -11339,7 +11339,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -11388,7 +11388,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -11437,7 +11437,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -11486,7 +11486,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -11520,8 +11520,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -11535,7 +11535,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -11584,7 +11584,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -11618,8 +11618,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -11633,7 +11633,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -11682,7 +11682,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -11731,7 +11731,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -11780,7 +11780,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -11829,7 +11829,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -11878,7 +11878,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -11912,8 +11912,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -11927,7 +11927,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -11976,7 +11976,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12025,7 +12025,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12074,7 +12074,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12123,7 +12123,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12172,7 +12172,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12221,7 +12221,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12270,7 +12270,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12319,7 +12319,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12368,7 +12368,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12417,7 +12417,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12466,7 +12466,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12515,7 +12515,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12564,7 +12564,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12613,7 +12613,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12662,7 +12662,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12711,7 +12711,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12760,7 +12760,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12809,7 +12809,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12858,7 +12858,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12907,7 +12907,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -12956,7 +12956,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -13005,7 +13005,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13054,7 +13054,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13103,7 +13103,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13152,7 +13152,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13201,7 +13201,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13250,7 +13250,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13299,7 +13299,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13348,7 +13348,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13397,7 +13397,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13446,7 +13446,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13482,8 +13482,8 @@ const GENERATED_DB = {
         "code": "WD",
         "name": "Unknown",
         "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B3"
+        "div": "Div 1",
+        "batch": "B2"
       }
     ],
     "schedule": {}
@@ -13495,7 +13495,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13544,7 +13544,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13593,7 +13593,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13642,7 +13642,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13691,7 +13691,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13740,7 +13740,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13789,7 +13789,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13838,7 +13838,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13887,7 +13887,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13936,7 +13936,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -13985,7 +13985,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -14034,7 +14034,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -14083,7 +14083,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -14132,7 +14132,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -14181,7 +14181,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -14230,7 +14230,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -14279,7 +14279,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -14328,7 +14328,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -14377,7 +14377,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -14426,7 +14426,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -14461,7 +14461,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -14510,7 +14510,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -14559,7 +14559,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -14608,7 +14608,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -14657,7 +14657,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -14706,7 +14706,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -14740,8 +14740,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -14755,7 +14755,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -14804,7 +14804,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -14853,7 +14853,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -14902,7 +14902,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -14951,7 +14951,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15000,7 +15000,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15049,7 +15049,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15098,7 +15098,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15147,7 +15147,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15196,7 +15196,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15245,7 +15245,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15294,7 +15294,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15343,7 +15343,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15392,7 +15392,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15441,7 +15441,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15490,7 +15490,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15539,7 +15539,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15588,7 +15588,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15637,7 +15637,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15686,7 +15686,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15735,7 +15735,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15784,7 +15784,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -15833,7 +15833,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -15882,7 +15882,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -15931,7 +15931,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -15980,7 +15980,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16029,7 +16029,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16078,7 +16078,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16120,7 +16120,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16169,7 +16169,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16203,8 +16203,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -16218,7 +16218,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16267,7 +16267,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16316,7 +16316,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16365,7 +16365,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16414,7 +16414,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16463,7 +16463,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16512,7 +16512,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16561,7 +16561,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16610,7 +16610,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16659,7 +16659,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16708,7 +16708,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16757,7 +16757,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16806,7 +16806,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16855,7 +16855,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16904,7 +16904,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16953,7 +16953,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -17002,7 +17002,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -17051,7 +17051,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -17100,7 +17100,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -17134,8 +17134,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -17149,7 +17149,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -17198,7 +17198,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -17247,7 +17247,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -17296,7 +17296,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -17345,7 +17345,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -17394,7 +17394,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -17428,8 +17428,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -17443,7 +17443,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -17492,7 +17492,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -17534,14 +17534,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
-        "div": "Div 4",
-        "batch": "B1"
-      },
-      {
-        "code": "QP",
-        "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -17590,7 +17583,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -17639,7 +17632,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -17688,7 +17681,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -17737,7 +17730,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -17786,14 +17779,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
-        "div": "Div 4",
-        "batch": "B1"
-      },
-      {
-        "code": "QP",
-        "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -17842,7 +17828,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -17891,7 +17877,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -17940,7 +17926,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -17974,8 +17960,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -17989,14 +17975,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
-        "div": "Div 4",
-        "batch": "B1"
-      },
-      {
-        "code": "QP",
-        "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -18045,7 +18024,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -18094,7 +18073,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -18128,8 +18107,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -18143,7 +18122,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -18192,7 +18171,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18226,8 +18205,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -18241,7 +18220,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18290,7 +18269,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18339,7 +18318,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18388,7 +18367,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18437,7 +18416,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18486,7 +18465,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18520,8 +18499,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -18535,7 +18514,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18584,7 +18563,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18633,7 +18612,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18682,7 +18661,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18731,7 +18710,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18780,7 +18759,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18829,7 +18808,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18878,7 +18857,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18927,7 +18906,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -18961,8 +18940,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -18976,7 +18955,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -19025,16 +19004,9 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
-      },
-      {
-        "code": "QP",
-        "name": "Quantum Phy",
-        "color": "#3498db",
-        "div": "Div 4",
-        "batch": "B1"
       },
       {
         "code": "NM",
@@ -19081,7 +19053,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -19115,8 +19087,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -19130,7 +19102,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19179,7 +19151,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19228,7 +19200,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19277,7 +19249,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19326,7 +19298,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19360,8 +19332,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -19375,7 +19347,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19424,7 +19396,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19473,7 +19445,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19522,7 +19494,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19571,7 +19543,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19620,7 +19592,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19669,7 +19641,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19718,16 +19690,9 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
-      },
-      {
-        "code": "QP",
-        "name": "Quantum Phy",
-        "color": "#3498db",
-        "div": "Div 4",
-        "batch": "B2"
       },
       {
         "code": "NM",
@@ -19774,7 +19739,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19823,7 +19788,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19857,8 +19822,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -19872,16 +19837,9 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
-      },
-      {
-        "code": "QP",
-        "name": "Quantum Phy",
-        "color": "#3498db",
-        "div": "Div 4",
-        "batch": "B2"
       },
       {
         "code": "NM",
@@ -19928,7 +19886,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19977,7 +19935,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -20026,7 +19984,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -20075,7 +20033,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20124,7 +20082,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20173,16 +20131,9 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
-      },
-      {
-        "code": "QP",
-        "name": "Quantum Phy",
-        "color": "#3498db",
-        "div": "Div 4",
-        "batch": "B2"
       },
       {
         "code": "EEU",
@@ -20229,7 +20180,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20263,8 +20214,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -20278,7 +20229,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20312,8 +20263,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -20327,7 +20278,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20376,7 +20327,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20425,7 +20376,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20474,7 +20425,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20523,7 +20474,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20572,7 +20523,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20621,7 +20572,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20655,8 +20606,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -20670,7 +20621,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20719,7 +20670,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20768,7 +20719,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20817,7 +20768,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20851,8 +20802,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -20866,7 +20817,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20915,7 +20866,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -20957,7 +20908,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -21006,7 +20957,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -21055,7 +21006,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21104,7 +21055,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21153,7 +21104,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21187,8 +21138,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -21202,7 +21153,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21251,7 +21202,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21300,7 +21251,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21342,7 +21293,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21391,7 +21342,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21440,7 +21391,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21489,7 +21440,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21538,7 +21489,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21587,7 +21538,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21636,7 +21587,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21685,7 +21636,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21734,7 +21685,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21783,7 +21734,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21832,7 +21783,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21881,7 +21832,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21930,7 +21881,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -21972,7 +21923,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22021,7 +21972,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22070,7 +22021,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22119,7 +22070,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22168,7 +22119,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22217,7 +22168,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22266,7 +22217,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22315,7 +22266,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22364,7 +22315,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22413,7 +22364,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22462,7 +22413,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22511,7 +22462,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22560,7 +22511,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22609,7 +22560,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22658,7 +22609,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22707,7 +22658,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22756,7 +22707,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22805,7 +22756,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22854,7 +22805,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -22903,7 +22854,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -22952,7 +22903,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23001,7 +22952,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23050,7 +23001,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23099,7 +23050,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23148,7 +23099,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23197,7 +23148,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23246,7 +23197,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23295,7 +23246,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23344,7 +23295,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23393,7 +23344,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23442,7 +23393,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23491,7 +23442,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23540,7 +23491,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23589,7 +23540,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23638,7 +23589,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23687,7 +23638,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23736,7 +23687,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23785,7 +23736,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -23834,7 +23785,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -23883,7 +23834,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -23932,7 +23883,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -23966,8 +23917,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -23981,7 +23932,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24030,7 +23981,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24072,7 +24023,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24121,7 +24072,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24170,7 +24121,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24219,7 +24170,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24253,8 +24204,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -24268,7 +24219,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24317,7 +24268,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24366,7 +24317,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24400,8 +24351,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -24415,7 +24366,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24464,7 +24415,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24513,7 +24464,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24562,7 +24513,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24611,7 +24562,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24660,7 +24611,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24709,7 +24660,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24758,7 +24709,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -24807,7 +24758,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -24856,7 +24807,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -24905,7 +24856,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -24954,7 +24905,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25003,7 +24954,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25037,8 +24988,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B4"
       }
@@ -25052,7 +25003,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25101,7 +25052,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25150,7 +25101,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25199,7 +25150,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25248,7 +25199,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25297,7 +25248,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25346,7 +25297,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25395,7 +25346,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25444,7 +25395,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25493,7 +25444,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25542,7 +25493,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25591,7 +25542,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25640,7 +25591,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25689,7 +25640,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25738,7 +25689,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25787,7 +25738,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -25836,7 +25787,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -25885,7 +25836,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -25934,7 +25885,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -25983,7 +25934,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26032,7 +25983,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26081,7 +26032,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26130,7 +26081,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26179,7 +26130,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26228,7 +26179,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26270,7 +26221,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26319,7 +26270,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26368,7 +26319,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26417,7 +26368,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26466,7 +26417,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26515,7 +26466,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26564,7 +26515,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26598,8 +26549,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B4"
       }
@@ -26613,7 +26564,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26662,7 +26613,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26711,7 +26662,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26760,7 +26711,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26809,7 +26760,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -26858,7 +26809,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -26907,7 +26858,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -26956,7 +26907,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27005,7 +26956,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27054,7 +27005,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27103,7 +27054,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27152,7 +27103,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27201,7 +27152,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27250,7 +27201,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27299,7 +27250,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27333,8 +27284,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B4"
       }
@@ -27348,7 +27299,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27397,7 +27348,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27446,7 +27397,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27495,7 +27446,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27544,7 +27495,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27593,7 +27544,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27642,7 +27593,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27691,7 +27642,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27740,7 +27691,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27789,7 +27740,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27838,7 +27789,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -27887,7 +27838,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -27936,7 +27887,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -27985,7 +27936,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28034,7 +27985,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28083,7 +28034,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28132,7 +28083,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28181,7 +28132,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28230,7 +28181,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28279,7 +28230,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28328,7 +28279,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28377,7 +28328,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28419,7 +28370,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28468,7 +28419,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28517,7 +28468,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28552,7 +28503,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28601,7 +28552,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28650,7 +28601,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28699,7 +28650,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28748,7 +28699,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28797,7 +28748,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28846,7 +28797,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -28895,7 +28846,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -28944,7 +28895,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -28993,7 +28944,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -29042,7 +28993,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29091,7 +29042,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29140,7 +29091,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29189,7 +29140,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29238,7 +29189,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29287,7 +29238,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29336,7 +29287,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29385,7 +29336,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29434,7 +29385,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29483,7 +29434,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29532,7 +29483,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29581,7 +29532,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29630,7 +29581,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29679,7 +29630,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29728,7 +29679,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29777,7 +29728,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29826,7 +29777,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29875,7 +29826,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -29924,7 +29875,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -29973,7 +29924,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30022,7 +29973,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30071,7 +30022,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30098,8 +30049,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -30113,7 +30064,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30162,7 +30113,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30211,7 +30162,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30260,7 +30211,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30309,7 +30260,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30358,7 +30309,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30392,8 +30343,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B4"
       }
@@ -30407,7 +30358,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30456,7 +30407,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30505,7 +30456,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30554,7 +30505,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30603,7 +30554,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30652,7 +30603,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30701,7 +30652,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30750,7 +30701,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30778,7 +30729,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30827,7 +30778,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30876,7 +30827,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -30925,7 +30876,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -30974,7 +30925,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31023,7 +30974,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31072,7 +31023,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31121,7 +31072,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31170,7 +31121,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31219,7 +31170,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31268,7 +31219,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31317,7 +31268,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31366,7 +31317,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31415,7 +31366,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31464,7 +31415,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31492,7 +31443,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31526,8 +31477,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B4"
       }
@@ -31541,7 +31492,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31590,7 +31541,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31639,7 +31590,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31688,7 +31639,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31737,7 +31688,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31786,7 +31737,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31835,7 +31786,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31884,7 +31835,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31933,7 +31884,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -31982,7 +31933,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32031,7 +31982,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32080,7 +32031,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32129,7 +32080,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32178,7 +32129,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32227,7 +32178,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32276,7 +32227,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32325,7 +32276,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32374,7 +32325,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32423,7 +32374,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32472,7 +32423,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32521,7 +32472,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32570,7 +32521,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32619,7 +32570,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32668,7 +32619,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32717,7 +32668,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32766,7 +32717,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32815,7 +32766,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32864,7 +32815,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32913,7 +32864,7 @@ const GENERATED_DB = {
       {
         "code": "EP",
         "name": "Engg Physics",
-        "color": "#2980b9",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -32961,7 +32912,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33010,7 +32961,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33059,7 +33010,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33108,7 +33059,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33157,7 +33108,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33206,7 +33157,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33255,7 +33206,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33304,7 +33255,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33353,7 +33304,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33402,7 +33353,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33451,7 +33402,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33500,7 +33451,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33549,7 +33500,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33598,7 +33549,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33647,7 +33598,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33696,7 +33647,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33745,7 +33696,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33794,7 +33745,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33843,7 +33794,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33892,7 +33843,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33941,7 +33892,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -33990,7 +33941,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -34039,7 +33990,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -34088,7 +34039,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -34137,7 +34088,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -34186,7 +34137,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -34235,7 +34186,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -34284,7 +34235,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -34333,7 +34284,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -34382,7 +34333,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -34431,7 +34382,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -34480,7 +34431,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -34529,7 +34480,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
@@ -34578,7 +34529,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -34627,7 +34578,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -34676,7 +34627,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -34725,7 +34676,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -34774,7 +34725,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -34823,7 +34774,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -34872,7 +34823,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -34921,7 +34872,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -34970,7 +34921,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -35019,7 +34970,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -35068,7 +35019,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -35117,7 +35068,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -35166,7 +35117,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -35215,7 +35166,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -35264,7 +35215,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -35313,7 +35264,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -35362,7 +35313,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -35411,7 +35362,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -35460,7 +35411,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
@@ -35509,7 +35460,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -35558,7 +35509,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -35607,7 +35558,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -35656,7 +35607,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -35705,7 +35656,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -35754,7 +35705,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -35803,7 +35754,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -35852,7 +35803,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -35901,7 +35852,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -35936,8 +35887,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -35950,7 +35901,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -35985,8 +35936,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -35999,7 +35950,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -36048,7 +35999,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -36097,7 +36048,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -36139,7 +36090,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -36174,8 +36125,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -36188,7 +36139,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -36223,8 +36174,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -36237,7 +36188,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -36286,7 +36237,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -36335,7 +36286,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -36384,7 +36335,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
@@ -36433,7 +36384,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -36482,7 +36433,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -36531,7 +36482,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -36580,7 +36531,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -36629,7 +36580,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -36678,7 +36629,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -36713,8 +36664,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -36727,7 +36678,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -36776,7 +36727,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -36825,7 +36776,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -36874,7 +36825,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -36909,8 +36860,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -36923,7 +36874,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -36972,7 +36923,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -37021,7 +36972,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -37070,7 +37021,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -37119,7 +37070,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -37168,7 +37119,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -37217,7 +37168,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
@@ -37266,7 +37217,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -37315,7 +37266,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -37364,7 +37315,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -37399,8 +37350,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B4"
       }
@@ -37413,7 +37364,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -37462,7 +37413,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -37497,8 +37448,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B4"
       }
@@ -37511,7 +37462,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -37553,7 +37504,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -37595,7 +37546,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -37644,7 +37595,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -37693,7 +37644,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -37742,7 +37693,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -37791,7 +37742,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -37840,7 +37791,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -37889,7 +37840,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -37938,7 +37889,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -37987,7 +37938,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -38029,7 +37980,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -38078,7 +38029,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -38127,7 +38078,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -38176,7 +38127,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -38225,7 +38176,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -38274,7 +38225,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
@@ -38323,7 +38274,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -38372,7 +38323,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -38421,7 +38372,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -38470,7 +38421,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -38512,7 +38463,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -38561,7 +38512,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -38610,7 +38561,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -38659,7 +38610,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -38708,7 +38659,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -38757,7 +38708,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -38806,7 +38757,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -38855,7 +38806,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -38904,7 +38855,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -38953,7 +38904,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -39002,7 +38953,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -39051,7 +39002,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -39100,7 +39051,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -39149,7 +39100,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -39198,7 +39149,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -39247,7 +39198,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -39296,7 +39247,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -39345,7 +39296,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -39394,7 +39345,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
@@ -39429,8 +39380,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B4"
       }
@@ -39443,7 +39394,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -39492,7 +39443,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -39541,7 +39492,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -39590,7 +39541,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -39639,7 +39590,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -39688,7 +39639,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -39737,7 +39688,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -39786,7 +39737,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -39828,7 +39779,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -39877,7 +39828,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -39926,7 +39877,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -39975,7 +39926,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -40010,8 +39961,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B4"
       }
@@ -40024,7 +39975,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -40073,7 +40024,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -40122,7 +40073,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -40171,7 +40122,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -40220,7 +40171,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -40269,7 +40220,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -40318,7 +40269,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -40367,7 +40318,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -40416,7 +40367,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -40465,7 +40416,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -40514,7 +40465,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -40563,7 +40514,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -40612,7 +40563,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
@@ -40661,7 +40612,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -40710,7 +40661,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -40759,7 +40710,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -40808,7 +40759,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -40857,7 +40808,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -40906,7 +40857,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -40955,7 +40906,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41004,7 +40955,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41053,7 +41004,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41102,7 +41053,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41151,7 +41102,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41200,7 +41151,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41249,7 +41200,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41298,7 +41249,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41347,7 +41298,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41396,7 +41347,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41445,7 +41396,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41494,7 +41445,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41543,7 +41494,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41592,7 +41543,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41641,7 +41592,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41690,7 +41641,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41739,7 +41690,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "EC",
-        "name": "Electrical (EC)",
+        "name": "Engg Chemistry (EC)",
         "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
@@ -41789,7 +41740,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -41838,7 +41789,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -41887,7 +41838,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -41921,8 +41872,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -41936,7 +41887,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -41985,7 +41936,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42034,7 +41985,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42083,7 +42034,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42132,7 +42083,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42166,8 +42117,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -42181,7 +42132,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42215,8 +42166,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -42230,7 +42181,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42264,8 +42215,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -42279,7 +42230,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42313,8 +42264,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -42328,7 +42279,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42377,7 +42328,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42411,8 +42362,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -42426,7 +42377,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42475,7 +42426,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42524,7 +42475,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42551,8 +42502,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -42566,7 +42517,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42600,8 +42551,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -42615,7 +42566,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42649,8 +42600,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -42664,7 +42615,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -42713,7 +42664,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42762,7 +42713,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42796,8 +42747,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -42811,7 +42762,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42845,8 +42796,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -42860,7 +42811,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42894,8 +42845,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -42909,7 +42860,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42943,8 +42894,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -42958,7 +42909,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -43007,7 +42958,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -43041,8 +42992,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -43056,7 +43007,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -43090,8 +43041,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -43105,7 +43056,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -43154,7 +43105,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -43203,7 +43154,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -43237,8 +43188,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -43252,7 +43203,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -43301,7 +43252,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -43350,7 +43301,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -43399,7 +43350,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -43448,7 +43399,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -43482,8 +43433,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -43497,7 +43448,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -43546,7 +43497,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -43580,8 +43531,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -43595,7 +43546,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -43644,7 +43595,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43693,7 +43644,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43742,7 +43693,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43791,7 +43742,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43840,7 +43791,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43889,7 +43840,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43938,7 +43889,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43987,7 +43938,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -44036,7 +43987,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -44085,7 +44036,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -44134,7 +44085,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -44183,7 +44134,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -44232,7 +44183,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -44266,8 +44217,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -44281,7 +44232,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -44330,7 +44281,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -44379,7 +44330,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -44413,8 +44364,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -44428,7 +44379,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -44477,7 +44428,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -44526,7 +44477,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -44575,7 +44526,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44624,7 +44575,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44673,7 +44624,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44722,7 +44673,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44771,7 +44722,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44805,8 +44756,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -44820,7 +44771,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44869,7 +44820,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44918,7 +44869,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44952,8 +44903,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -44967,7 +44918,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -45001,8 +44952,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -45016,7 +44967,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -45065,7 +45016,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -45114,7 +45065,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -45148,8 +45099,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -45163,7 +45114,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -45212,7 +45163,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -45261,7 +45212,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -45310,7 +45261,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -45359,7 +45310,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -45408,7 +45359,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45457,7 +45408,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45506,7 +45457,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45555,7 +45506,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45604,7 +45555,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45653,7 +45604,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45687,8 +45638,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -45702,7 +45653,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45736,8 +45687,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -45751,7 +45702,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45800,7 +45751,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45849,7 +45800,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45898,7 +45849,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45947,7 +45898,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45981,8 +45932,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -45996,7 +45947,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -46045,7 +45996,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -46094,7 +46045,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -46143,7 +46094,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -46192,7 +46143,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -46241,7 +46192,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -46290,7 +46241,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -46324,8 +46275,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -46339,7 +46290,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46373,8 +46324,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -46388,7 +46339,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46437,7 +46388,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46486,7 +46437,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46535,7 +46486,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46584,7 +46535,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46633,7 +46584,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46682,7 +46633,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46731,7 +46682,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46780,7 +46731,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46829,7 +46780,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46878,7 +46829,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46912,8 +46863,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -46927,7 +46878,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46976,7 +46927,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -47010,8 +46961,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -47025,7 +46976,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -47074,7 +47025,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -47123,7 +47074,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -47172,7 +47123,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -47221,7 +47172,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -47270,7 +47221,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -47319,7 +47270,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47353,8 +47304,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -47368,7 +47319,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47417,7 +47368,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47466,7 +47417,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47515,7 +47466,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47564,7 +47515,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47613,7 +47564,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47662,7 +47613,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47711,7 +47662,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47745,8 +47696,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -47760,7 +47711,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47802,7 +47753,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47836,8 +47787,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -47851,7 +47802,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47885,8 +47836,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -47900,7 +47851,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47949,7 +47900,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47983,8 +47934,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -47998,7 +47949,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -48047,7 +47998,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -48081,8 +48032,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -48096,7 +48047,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -48130,8 +48081,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -48145,7 +48096,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -48194,7 +48145,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -48243,7 +48194,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48292,7 +48243,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48341,7 +48292,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48375,8 +48326,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -48390,7 +48341,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48439,7 +48390,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48488,7 +48439,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48537,7 +48488,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48586,7 +48537,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48635,7 +48586,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48669,8 +48620,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -48684,7 +48635,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48718,8 +48669,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -48733,7 +48684,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48767,8 +48718,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -48782,7 +48733,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48831,7 +48782,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48873,7 +48824,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48922,7 +48873,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48971,7 +48922,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -49005,8 +48956,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -49020,7 +48971,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -49069,7 +49020,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49118,7 +49069,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49152,8 +49103,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -49167,7 +49118,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49216,7 +49167,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49265,7 +49216,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49314,7 +49265,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49363,7 +49314,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49412,7 +49363,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49446,8 +49397,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -49461,7 +49412,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49510,7 +49461,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49559,7 +49510,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49608,7 +49559,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49657,7 +49608,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49691,8 +49642,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -49706,7 +49657,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49755,7 +49706,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49789,8 +49740,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -49804,7 +49755,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49853,7 +49804,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49902,7 +49853,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -49951,7 +49902,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -50000,7 +49951,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -50034,8 +49985,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -50049,7 +50000,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -50098,7 +50049,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -50147,7 +50098,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -50181,8 +50132,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -50196,7 +50147,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -50230,8 +50181,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -50245,7 +50196,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -50294,7 +50245,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -50343,7 +50294,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -50377,8 +50328,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -50392,7 +50343,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -50441,7 +50392,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -50490,7 +50441,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -50524,8 +50475,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -50539,7 +50490,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -50588,7 +50539,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -50637,7 +50588,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -50671,8 +50622,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -50686,7 +50637,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -50735,7 +50686,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -50784,7 +50735,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -50833,7 +50784,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -50882,7 +50833,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -50931,7 +50882,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -50980,7 +50931,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51029,7 +50980,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51078,7 +51029,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51127,7 +51078,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51176,7 +51127,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51225,7 +51176,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51274,7 +51225,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51308,8 +51259,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -51323,7 +51274,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51372,7 +51323,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51421,7 +51372,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51470,7 +51421,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51519,7 +51470,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51568,7 +51519,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51617,7 +51568,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51666,7 +51617,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51715,7 +51666,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51764,7 +51715,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -51798,8 +51749,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -51813,7 +51764,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -51847,8 +51798,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -51862,7 +51813,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -51911,7 +51862,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -51953,7 +51904,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -51987,8 +51938,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -52002,7 +51953,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52051,7 +52002,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52100,7 +52051,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52149,7 +52100,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52198,7 +52149,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52247,7 +52198,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52296,7 +52247,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52330,8 +52281,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -52345,7 +52296,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52379,8 +52330,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -52394,7 +52345,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52443,7 +52394,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52477,8 +52428,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -52492,7 +52443,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52541,7 +52492,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52575,8 +52526,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -52590,7 +52541,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52639,7 +52590,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52688,7 +52639,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52737,7 +52688,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52771,8 +52722,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -52786,7 +52737,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52835,7 +52786,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52884,7 +52835,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52918,8 +52869,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -52933,7 +52884,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -52982,7 +52933,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -53031,7 +52982,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -53080,7 +53031,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -53114,8 +53065,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -53129,7 +53080,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -53163,8 +53114,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -53178,7 +53129,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53227,7 +53178,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53276,7 +53227,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53325,7 +53276,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53359,8 +53310,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -53374,7 +53325,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53408,8 +53359,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -53423,7 +53374,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53457,8 +53408,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -53472,7 +53423,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53521,7 +53472,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53570,7 +53521,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53604,8 +53555,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -53619,7 +53570,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53668,7 +53619,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53717,7 +53668,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53751,8 +53702,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -53766,7 +53717,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53800,8 +53751,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -53815,7 +53766,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53864,7 +53815,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53913,7 +53864,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -53962,7 +53913,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -54011,7 +53962,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -54045,8 +53996,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -54060,7 +54011,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -54109,7 +54060,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -54158,7 +54109,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -54207,7 +54158,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -54241,8 +54192,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -54256,7 +54207,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -54305,7 +54256,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -54339,8 +54290,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -54354,7 +54305,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -54403,7 +54354,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -54452,7 +54403,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -54494,28 +54445,14 @@ const GENERATED_DB = {
     ],
     "schedule": {}
   },
-  "error": {
-    "name": "Student",
-    "info": "MIS: error",
+  "612515348": {
+    "name": "YESHASHREE KARHALE",
+    "info": "MIS: 612515348",
     "cards": [
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
-        "div": "Div 4",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612572010": {
-    "name": "AJNISH",
-    "info": "MIS: 612572010",
-    "cards": [
-      {
-        "code": "QP",
-        "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -54523,48 +54460,48 @@ const GENERATED_DB = {
         "code": "FMS",
         "name": "Material Sci (FMS)",
         "color": "#d35400",
-        "div": "Div 1",
+        "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "DS",
         "name": "Discrete Struct",
         "color": "#16a085",
-        "div": "Div 5",
-        "batch": "B1"
+        "div": "Div 4",
+        "batch": "B2"
       },
       {
         "code": "PS",
         "name": "Probablity & Stats",
         "color": "#1abc9c",
-        "div": "Div 6",
-        "batch": "B2"
+        "div": "Div 5",
+        "batch": "B3"
       },
       {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B3"
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
       },
       {
         "code": "WD",
         "name": "Unknown",
         "color": "#34495e",
-        "div": "Div 1",
+        "div": "Div 2",
         "batch": "B3"
       }
     ],
     "schedule": {}
   },
-  "612572016": {
-    "name": "ARNAV PARBAT",
-    "info": "MIS: 612572016",
+  "612515349": {
+    "name": "AADITYA PATEL",
+    "info": "MIS: 612515349",
     "cards": [
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -54579,15 +54516,15 @@ const GENERATED_DB = {
         "code": "DS",
         "name": "Discrete Struct",
         "color": "#16a085",
-        "div": "Div 5",
-        "batch": "B1"
+        "div": "Div 4",
+        "batch": "B2"
       },
       {
         "code": "PS",
         "name": "Probablity & Stats",
         "color": "#1abc9c",
-        "div": "Div 6",
-        "batch": "B2"
+        "div": "Div 5",
+        "batch": "B3"
       },
       {
         "code": "PD",
@@ -54597,23 +54534,23 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "WD",
+        "code": "PP",
         "name": "Unknown",
         "color": "#34495e",
-        "div": "Div 1",
-        "batch": "B3"
+        "div": "Div 5",
+        "batch": "B1"
       }
     ],
     "schedule": {}
   },
-  "612572035": {
-    "name": "HARSHIT SHIROL",
-    "info": "MIS: 612572035",
+  "612515350": {
+    "name": "AADYA",
+    "info": "MIS: 612515350",
     "cards": [
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -54621,21 +54558,21 @@ const GENERATED_DB = {
         "code": "FMS",
         "name": "Material Sci (FMS)",
         "color": "#d35400",
-        "div": "Div 1",
+        "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "DS",
         "name": "Discrete Struct",
         "color": "#16a085",
-        "div": "Div 5",
+        "div": "Div 4",
         "batch": "B2"
       },
       {
         "code": "PS",
         "name": "Probablity & Stats",
         "color": "#1abc9c",
-        "div": "Div 6",
+        "div": "Div 5",
         "batch": "B3"
       },
       {
@@ -54646,30 +54583,30 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "WD",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 1",
-        "batch": "B3"
+        "code": "PPS",
+        "name": "C",
+        "color": "#2980b9",
+        "div": "Div 2",
+        "batch": "B4"
       }
     ],
     "schedule": {}
   },
-  "612572039": {
-    "name": "KRISHNA KHILARE",
-    "info": "MIS: 612572039",
+  "612515351": {
+    "name": "AARUSH SHAH",
+    "info": "MIS: 612515351",
     "cards": [
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
       {
-        "code": "FMS",
-        "name": "Material Sci (FMS)",
-        "color": "#d35400",
+        "code": "AEIOT",
+        "name": "Electronics & IOT",
+        "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
       },
@@ -54677,14 +54614,63 @@ const GENERATED_DB = {
         "code": "DS",
         "name": "Discrete Struct",
         "color": "#16a085",
-        "div": "Div 5",
+        "div": "Div 4",
         "batch": "B2"
       },
       {
         "code": "PS",
         "name": "Probablity & Stats",
         "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B3"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
         "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "PPS",
+        "name": "C",
+        "color": "#2980b9",
+        "div": "Div 2",
+        "batch": "B4"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515352": {
+    "name": "ABHISHEK",
+    "info": "MIS: 612515352",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "NM",
+        "name": "Nanomaterial (NM)",
+        "color": "#9b59b6",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B2"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
         "batch": "B3"
       },
       {
@@ -54695,23 +54681,23 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "WD",
+        "code": "PP",
         "name": "Unknown",
         "color": "#34495e",
-        "div": "Div 1",
-        "batch": "B3"
+        "div": "Div 5",
+        "batch": "B1"
       }
     ],
     "schedule": {}
   },
-  "612572041": {
-    "name": "MANAS BADGUJAR",
-    "info": "MIS: 612572041",
+  "612515355": {
+    "name": "ADITYA DESHMUKH",
+    "info": "MIS: 612515355",
     "cards": [
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -54719,21 +54705,21 @@ const GENERATED_DB = {
         "code": "EEU",
         "name": "Electrical Unit",
         "color": "#f39c12",
-        "div": "Div 1",
+        "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "DS",
         "name": "Discrete Struct",
         "color": "#16a085",
-        "div": "Div 5",
+        "div": "Div 4",
         "batch": "B2"
       },
       {
         "code": "PS",
         "name": "Probablity & Stats",
         "color": "#1abc9c",
-        "div": "Div 6",
+        "div": "Div 5",
         "batch": "B3"
       },
       {
@@ -54741,48 +54727,48 @@ const GENERATED_DB = {
         "name": "Comm Skills",
         "color": "#c0392b",
         "div": "Div 6",
-        "batch": "B4"
+        "batch": "B2"
       },
       {
         "code": "WD",
         "name": "Unknown",
         "color": "#34495e",
-        "div": "Div 1",
+        "div": "Div 2",
         "batch": "B3"
       }
     ],
     "schedule": {}
   },
-  "612572043": {
-    "name": "MAYANK CHANDOLE",
-    "info": "MIS: 612572043",
+  "612515356": {
+    "name": "ADITYA BAVADEKAR",
+    "info": "MIS: 612515356",
     "cards": [
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
       {
-        "code": "BCE",
-        "name": "Civil",
-        "color": "#27ae60",
-        "div": "Div 1",
+        "code": "FMS",
+        "name": "Material Sci (FMS)",
+        "color": "#d35400",
+        "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "DS",
         "name": "Discrete Struct",
         "color": "#16a085",
-        "div": "Div 5",
+        "div": "Div 4",
         "batch": "B2"
       },
       {
         "code": "PS",
         "name": "Probablity & Stats",
         "color": "#1abc9c",
-        "div": "Div 6",
+        "div": "Div 5",
         "batch": "B3"
       },
       {
@@ -54796,27 +54782,27 @@ const GENERATED_DB = {
         "code": "WD",
         "name": "Unknown",
         "color": "#34495e",
-        "div": "Div 1",
+        "div": "Div 2",
         "batch": "B3"
       }
     ],
     "schedule": {}
   },
-  "612572059": {
-    "name": "SHAHIL SHEKHAWAT",
-    "info": "MIS: 612572059",
+  "612515357": {
+    "name": "ADITYA SENAPATI",
+    "info": "MIS: 612515357",
     "cards": [
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
       {
-        "code": "FMS",
-        "name": "Material Sci (FMS)",
-        "color": "#d35400",
+        "code": "AEIOT",
+        "name": "Electronics & IOT",
+        "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
       },
@@ -54824,14 +54810,14 @@ const GENERATED_DB = {
         "code": "DS",
         "name": "Discrete Struct",
         "color": "#16a085",
-        "div": "Div 5",
+        "div": "Div 4",
         "batch": "B3"
       },
       {
         "code": "PS",
         "name": "Probablity & Stats",
         "color": "#1abc9c",
-        "div": "Div 6",
+        "div": "Div 5",
         "batch": "B3"
       },
       {
@@ -54839,33 +54825,82 @@ const GENERATED_DB = {
         "name": "Comm Skills",
         "color": "#c0392b",
         "div": "Div 6",
-        "batch": "B4"
+        "batch": "B2"
       },
       {
-        "code": "WD",
+        "code": "PP",
         "name": "Unknown",
         "color": "#34495e",
-        "div": "Div 1",
-        "batch": "B3"
+        "div": "Div 4",
+        "batch": "B1"
       }
     ],
     "schedule": {}
   },
-  "612572077": {
-    "name": "VEDANG BIDWAI",
-    "info": "MIS: 612572077",
+  "612515358": {
+    "name": "ADVAY",
+    "info": "MIS: 612515358",
     "cards": [
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
       {
-        "code": "FMS",
-        "name": "Material Sci (FMS)",
-        "color": "#d35400",
+        "code": "EEU",
+        "name": "Electrical Unit",
+        "color": "#f39c12",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B3"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "PP",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 4",
+        "batch": "B1"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515360": {
+    "name": "ALISHA",
+    "info": "MIS: 612515360",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "BMT",
+        "name": "Biology",
+        "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
@@ -54873,14 +54908,14 @@ const GENERATED_DB = {
         "code": "DS",
         "name": "Discrete Struct",
         "color": "#16a085",
-        "div": "Div 5",
-        "batch": "B4"
+        "div": "Div 4",
+        "batch": "B3"
       },
       {
         "code": "PS",
         "name": "Probablity & Stats",
         "color": "#1abc9c",
-        "div": "Div 6",
+        "div": "Div 5",
         "batch": "B4"
       },
       {
@@ -54891,10 +54926,304 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
+        "code": "PP",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 5",
+        "batch": "B1"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515361": {
+    "name": "AMOGH UTEKAR",
+    "info": "MIS: 612515361",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "NM",
+        "name": "Nanomaterial (NM)",
+        "color": "#9b59b6",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "PP",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 4",
+        "batch": "B1"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515362": {
+    "name": "ANAYA GORE",
+    "info": "MIS: 612515362",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "NM",
+        "name": "Nanomaterial (NM)",
+        "color": "#9b59b6",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
         "code": "WD",
         "name": "Unknown",
         "color": "#34495e",
+        "div": "Div 2",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515363": {
+    "name": "ANVI MOKAL",
+    "info": "MIS: 612515363",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "FME",
+        "name": "Mechanical (FME)",
+        "color": "#95a5a6",
         "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "DPI",
+        "name": "DPI",
+        "color": "#2980b9",
+        "div": "Div 1",
+        "batch": "B1"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515364": {
+    "name": "AREEN VALS\ufffdNGKAR",
+    "info": "MIS: 612515364",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "NM",
+        "name": "Nanomaterial (NM)",
+        "color": "#9b59b6",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "PP",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 4",
+        "batch": "B1"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515368": {
+    "name": "AYUSH",
+    "info": "MIS: 612515368",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "EEU",
+        "name": "Electrical Unit",
+        "color": "#f39c12",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "PP",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 5",
+        "batch": "B1"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515369": {
+    "name": "DEVARSH MULEY",
+    "info": "MIS: 612515369",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "NM",
+        "name": "Nanomaterial (NM)",
+        "color": "#9b59b6",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "WD",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 2",
         "batch": "B3"
       }
     ],
@@ -54907,7 +55236,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -54949,6 +55278,1133 @@ const GENERATED_DB = {
     ],
     "schedule": {}
   },
+  "612515374": {
+    "name": "HRIDA PATTANSHETTI",
+    "info": "MIS: 612515374",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "FPI",
+        "name": "Instrumentation (FPI)",
+        "color": "#8e44ad",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "PP",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 4",
+        "batch": "B1"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515375": {
+    "name": "ISHAAN SONAWANE",
+    "info": "MIS: 612515375",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "EEU",
+        "name": "Electrical Unit",
+        "color": "#f39c12",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "WD",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 2",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515376": {
+    "name": "JAY SABALE",
+    "info": "MIS: 612515376",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "AEIOT",
+        "name": "Electronics & IOT",
+        "color": "#e74c3c",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "VCDE",
+        "name": "Vector calculus",
+        "color": "#27ae60",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "WD",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 2",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515377": {
+    "name": "KALASH VANKAR",
+    "info": "MIS: 612515377",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "BMT",
+        "name": "Biology",
+        "color": "#16a085",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "PPS",
+        "name": "C",
+        "color": "#2980b9",
+        "div": "Div 2",
+        "batch": "B4"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515378": {
+    "name": "KESHAV",
+    "info": "MIS: 612515378",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "AEIOT",
+        "name": "Electronics & IOT",
+        "color": "#e74c3c",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "VCDE",
+        "name": "Vector calculus",
+        "color": "#27ae60",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "WD",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 2",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515380": {
+    "name": "MALHAR RAUL",
+    "info": "MIS: 612515380",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "EEU",
+        "name": "Electrical Unit",
+        "color": "#f39c12",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "PP",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 5",
+        "batch": "B1"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515381": {
+    "name": "MIHIR DEOGAONKAR",
+    "info": "MIS: 612515381",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "NM",
+        "name": "Nanomaterial (NM)",
+        "color": "#9b59b6",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "PPS",
+        "name": "C",
+        "color": "#2980b9",
+        "div": "Div 2",
+        "batch": "B4"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515383": {
+    "name": "MITALI BHINDWALE",
+    "info": "MIS: 612515383",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "NM",
+        "name": "Nanomaterial (NM)",
+        "color": "#9b59b6",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "PPS",
+        "name": "C",
+        "color": "#2980b9",
+        "div": "Div 2",
+        "batch": "B4"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515386": {
+    "name": "PARTH PATIL",
+    "info": "MIS: 612515386",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "AEIOT",
+        "name": "Electronics & IOT",
+        "color": "#e74c3c",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "WD",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 2",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515388": {
+    "name": "RISHABH",
+    "info": "MIS: 612515388",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "EEU",
+        "name": "Electrical Unit",
+        "color": "#f39c12",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "DPV",
+        "name": "Data Vis (DPV)",
+        "color": "#2980b9",
+        "div": "Div 1",
+        "batch": "B4"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515390": {
+    "name": "RIYA LONDHE",
+    "info": "MIS: 612515390",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B2"
+      },
+      {
+        "code": "BMT",
+        "name": "Biology",
+        "color": "#16a085",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B1"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "PP",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 4",
+        "batch": "B1"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515391": {
+    "name": "RIYA APPINI",
+    "info": "MIS: 612515391",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B2"
+      },
+      {
+        "code": "EEU",
+        "name": "Electrical Unit",
+        "color": "#f39c12",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B1"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "RDOS",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 1",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515392": {
+    "name": "RUSHABH SHAH",
+    "info": "MIS: 612515392",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B2"
+      },
+      {
+        "code": "EEU",
+        "name": "Electrical Unit",
+        "color": "#f39c12",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "VCDE",
+        "name": "Vector calculus",
+        "color": "#27ae60",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B3"
+      },
+      {
+        "code": "WD",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 2",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515393": {
+    "name": "RUSHI RANADE",
+    "info": "MIS: 612515393",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B2"
+      },
+      {
+        "code": "FMS",
+        "name": "Material Sci (FMS)",
+        "color": "#d35400",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B1"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "PPS",
+        "name": "C",
+        "color": "#2980b9",
+        "div": "Div 2",
+        "batch": "B4"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515397": {
+    "name": "SHAHRIYAR MANSOOR",
+    "info": "MIS: 612515397",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B2"
+      },
+      {
+        "code": "FMS",
+        "name": "Material Sci (FMS)",
+        "color": "#d35400",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B1"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "PP",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 5",
+        "batch": "B1"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515399": {
+    "name": "SHREYAK KADAM",
+    "info": "MIS: 612515399",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B2"
+      },
+      {
+        "code": "EEU",
+        "name": "Electrical Unit",
+        "color": "#f39c12",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B1"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B3"
+      },
+      {
+        "code": "PPS",
+        "name": "C",
+        "color": "#2980b9",
+        "div": "Div 2",
+        "batch": "B4"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515401": {
+    "name": "SHRIHAN KULKARNI",
+    "info": "MIS: 612515401",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B2"
+      },
+      {
+        "code": "FMS",
+        "name": "Material Sci (FMS)",
+        "color": "#d35400",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B1"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B3"
+      },
+      {
+        "code": "PPS",
+        "name": "C",
+        "color": "#2980b9",
+        "div": "Div 2",
+        "batch": "B4"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515404": {
+    "name": "SOHAM",
+    "info": "MIS: 612515404",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B2"
+      },
+      {
+        "code": "FME",
+        "name": "Mechanical (FME)",
+        "color": "#95a5a6",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B1"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B3"
+      },
+      {
+        "code": "PP",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 5",
+        "batch": "B1"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515406": {
+    "name": "SURYANSH",
+    "info": "MIS: 612515406",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B2"
+      },
+      {
+        "code": "EEU",
+        "name": "Electrical Unit",
+        "color": "#f39c12",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B1"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "PPS",
+        "name": "C",
+        "color": "#2980b9",
+        "div": "Div 2",
+        "batch": "B4"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515408": {
+    "name": "TANVI",
+    "info": "MIS: 612515408",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B2"
+      },
+      {
+        "code": "NM",
+        "name": "Nanomaterial (NM)",
+        "color": "#9b59b6",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B1"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B3"
+      },
+      {
+        "code": "DPV",
+        "name": "Data Vis (DPV)",
+        "color": "#2980b9",
+        "div": "Div 1",
+        "batch": "B4"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515409": {
+    "name": "TIRTH MUSALE",
+    "info": "MIS: 612515409",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B2"
+      },
+      {
+        "code": "FPI",
+        "name": "Instrumentation (FPI)",
+        "color": "#8e44ad",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "VCDE",
+        "name": "Vector calculus",
+        "color": "#27ae60",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "RDOS",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 1",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515411": {
+    "name": "VAISHNAVI JANGAM",
+    "info": "MIS: 612515411",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B2"
+      },
+      {
+        "code": "EEU",
+        "name": "Electrical Unit",
+        "color": "#f39c12",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B1"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B3"
+      },
+      {
+        "code": "WD",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 2",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
+  "612515412": {
+    "name": "VARAD",
+    "info": "MIS: 612515412",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B2"
+      },
+      {
+        "code": "EEU",
+        "name": "Electrical Unit",
+        "color": "#f39c12",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B1"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B3"
+      },
+      {
+        "code": "PPS",
+        "name": "C",
+        "color": "#2980b9",
+        "div": "Div 2",
+        "batch": "B4"
+      }
+    ],
+    "schedule": {}
+  },
   "612515414": {
     "name": "VIBHUTE RAJKUMAR",
     "info": "MIS: 612515414",
@@ -54956,7 +56412,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -55005,7 +56461,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -55047,7 +56503,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -55081,8 +56537,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B4"
       }
@@ -55096,7 +56552,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -55145,7 +56601,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -55179,8 +56635,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B4"
       }
@@ -55194,7 +56650,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -55243,7 +56699,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -55292,7 +56748,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -55326,8 +56782,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -55341,7 +56797,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -55390,7 +56846,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -55424,8 +56880,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -55439,7 +56895,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -55488,7 +56944,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -55522,8 +56978,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -55537,7 +56993,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -55586,7 +57042,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -55628,6 +57084,55 @@ const GENERATED_DB = {
     ],
     "schedule": {}
   },
+  "612572010": {
+    "name": "AJNISH",
+    "info": "MIS: 612572010",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "FMS",
+        "name": "Material Sci (FMS)",
+        "color": "#d35400",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 5",
+        "batch": "B1"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B3"
+      },
+      {
+        "code": "WD",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 1",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
   "612572015": {
     "name": "ARCHIT KOTWALA",
     "info": "MIS: 612572015",
@@ -55635,7 +57140,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -55669,6 +57174,55 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
+        "name": "C",
+        "color": "#2980b9",
+        "div": "Div 1",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
+  "612572016": {
+    "name": "ARNAV PARBAT",
+    "info": "MIS: 612572016",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "AEIOT",
+        "name": "Electronics & IOT",
+        "color": "#e74c3c",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 5",
+        "batch": "B1"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "WD",
         "name": "Unknown",
         "color": "#34495e",
         "div": "Div 1",
@@ -55684,7 +57238,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -55733,7 +57287,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -55767,8 +57321,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -55782,7 +57336,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -55816,8 +57370,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -55831,7 +57385,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -55865,8 +57419,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -55880,7 +57434,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -55929,7 +57483,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -55978,7 +57532,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -56027,7 +57581,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -56076,7 +57630,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -56125,7 +57679,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -56167,6 +57721,55 @@ const GENERATED_DB = {
     ],
     "schedule": {}
   },
+  "612572035": {
+    "name": "HARSHIT SHIROL",
+    "info": "MIS: 612572035",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "FMS",
+        "name": "Material Sci (FMS)",
+        "color": "#d35400",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 5",
+        "batch": "B2"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B3"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "WD",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 1",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
   "612572036": {
     "name": "HEER JOBANPUTRA",
     "info": "MIS: 612572036",
@@ -56174,7 +57777,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -56208,8 +57811,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -56223,7 +57826,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -56272,7 +57875,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -56310,6 +57913,55 @@ const GENERATED_DB = {
         "color": "#34495e",
         "div": "Div 3",
         "batch": "B1"
+      }
+    ],
+    "schedule": {}
+  },
+  "612572039": {
+    "name": "KRISHNA KHILARE",
+    "info": "MIS: 612572039",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "FMS",
+        "name": "Material Sci (FMS)",
+        "color": "#d35400",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 5",
+        "batch": "B2"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B3"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "WD",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 1",
+        "batch": "B3"
       }
     ],
     "schedule": {}
@@ -56321,7 +57973,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -56363,6 +58015,104 @@ const GENERATED_DB = {
     ],
     "schedule": {}
   },
+  "612572041": {
+    "name": "MANAS BADGUJAR",
+    "info": "MIS: 612572041",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "EEU",
+        "name": "Electrical Unit",
+        "color": "#f39c12",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 5",
+        "batch": "B2"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B3"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B4"
+      },
+      {
+        "code": "WD",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 1",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
+  "612572043": {
+    "name": "MAYANK CHANDOLE",
+    "info": "MIS: 612572043",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "BCE",
+        "name": "Civil",
+        "color": "#27ae60",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 5",
+        "batch": "B2"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B3"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "WD",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 1",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
   "612572044": {
     "name": "MIHIRA PANDE",
     "info": "MIS: 612572044",
@@ -56370,7 +58120,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -56404,8 +58154,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -56419,7 +58169,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -56468,7 +58218,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -56502,8 +58252,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -56517,7 +58267,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -56566,7 +58316,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -56615,7 +58365,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -56664,7 +58414,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -56713,7 +58463,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -56762,7 +58512,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -56811,7 +58561,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -56860,7 +58610,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -56909,7 +58659,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -56958,7 +58708,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57000,6 +58750,55 @@ const GENERATED_DB = {
     ],
     "schedule": {}
   },
+  "612572059": {
+    "name": "SHAHIL SHEKHAWAT",
+    "info": "MIS: 612572059",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "FMS",
+        "name": "Material Sci (FMS)",
+        "color": "#d35400",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 5",
+        "batch": "B3"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B3"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B4"
+      },
+      {
+        "code": "WD",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 1",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
   "612572060": {
     "name": "SHASHANK PASTAPURE",
     "info": "MIS: 612572060",
@@ -57007,7 +58806,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57056,7 +58855,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57105,7 +58904,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57154,7 +58953,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57203,7 +59002,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57252,7 +59051,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57286,8 +59085,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -57301,7 +59100,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57343,6 +59142,55 @@ const GENERATED_DB = {
     ],
     "schedule": {}
   },
+  "612572077": {
+    "name": "VEDANG BIDWAI",
+    "info": "MIS: 612572077",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#f1c40f",
+        "div": "Div 4",
+        "batch": "B4"
+      },
+      {
+        "code": "FMS",
+        "name": "Material Sci (FMS)",
+        "color": "#d35400",
+        "div": "Div 1",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "PS",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
+        "div": "Div 6",
+        "batch": "B4"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "color": "#e91e63",
+        "div": "Div 9",
+        "batch": "-"
+      },
+      {
+        "code": "WD",
+        "name": "Unknown",
+        "color": "#34495e",
+        "div": "Div 1",
+        "batch": "B3"
+      }
+    ],
+    "schedule": {}
+  },
   "612572080": {
     "name": "VEDANT NANGARE",
     "info": "MIS: 612572080",
@@ -57350,7 +59198,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57384,8 +59232,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -57399,7 +59247,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57448,7 +59296,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57482,8 +59330,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -57497,7 +59345,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57546,7 +59394,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57595,7 +59443,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57644,7 +59492,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57678,8 +59526,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -57693,7 +59541,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57742,7 +59590,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57791,7 +59639,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57840,7 +59688,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57889,7 +59737,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -57938,7 +59786,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -57987,7 +59835,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58036,7 +59884,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58085,7 +59933,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58134,7 +59982,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58183,7 +60031,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58232,7 +60080,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58281,7 +60129,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58330,7 +60178,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58379,7 +60227,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58428,7 +60276,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58477,7 +60325,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58526,7 +60374,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58575,7 +60423,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58609,8 +60457,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -58624,7 +60472,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58673,7 +60521,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58707,8 +60555,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -58722,7 +60570,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58771,7 +60619,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58820,7 +60668,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58869,7 +60717,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58918,7 +60766,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -58967,7 +60815,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -59016,7 +60864,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -59050,8 +60898,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -59065,7 +60913,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -59099,8 +60947,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -59114,7 +60962,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59163,7 +61011,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59212,7 +61060,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59261,7 +61109,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59310,7 +61158,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59359,7 +61207,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59393,8 +61241,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -59408,7 +61256,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59457,7 +61305,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59506,7 +61354,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59555,7 +61403,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59589,8 +61437,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -59604,7 +61452,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59653,7 +61501,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59702,7 +61550,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59751,7 +61599,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59800,7 +61648,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59834,8 +61682,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -59849,7 +61697,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59898,7 +61746,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59947,7 +61795,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -59996,7 +61844,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -60045,7 +61893,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -60094,7 +61942,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -60143,7 +61991,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -60192,7 +62040,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -60241,7 +62089,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -60290,7 +62138,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -60339,7 +62187,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -60388,7 +62236,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -60437,7 +62285,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -60486,7 +62334,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -60535,7 +62383,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -60584,7 +62432,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -60618,8 +62466,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -60633,7 +62481,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -60667,8 +62515,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -60682,7 +62530,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -60731,7 +62579,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -60780,7 +62628,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -60829,7 +62677,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -60878,7 +62726,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -60927,7 +62775,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -60976,7 +62824,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -61025,7 +62873,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -61074,7 +62922,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -61123,7 +62971,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -61172,7 +63020,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -61221,7 +63069,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -61270,7 +63118,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -61319,7 +63167,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -61368,7 +63216,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -61417,7 +63265,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -61444,8 +63292,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -61459,7 +63307,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -61508,7 +63356,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -61557,7 +63405,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -61606,7 +63454,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -61655,7 +63503,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -61689,8 +63537,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -61704,7 +63552,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -61753,7 +63601,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -61802,7 +63650,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -61851,7 +63699,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -61878,8 +63726,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -61893,7 +63741,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -61927,8 +63775,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -61942,7 +63790,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -61991,7 +63839,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -62040,7 +63888,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -62074,8 +63922,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -62089,7 +63937,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -62138,7 +63986,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -62187,7 +64035,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -62236,7 +64084,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -62270,8 +64118,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -62285,7 +64133,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -62334,7 +64182,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -62383,7 +64231,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -62417,8 +64265,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -62432,7 +64280,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -62481,7 +64329,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -62530,7 +64378,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -62579,7 +64427,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -62628,7 +64476,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -62677,7 +64525,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -62726,7 +64574,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -62775,7 +64623,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -62809,8 +64657,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -62824,7 +64672,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -62873,7 +64721,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -62922,7 +64770,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -62971,7 +64819,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -63020,7 +64868,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -63069,7 +64917,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -63118,7 +64966,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -63167,7 +65015,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -63216,7 +65064,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -63265,7 +65113,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -63314,7 +65162,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -63363,7 +65211,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -63412,7 +65260,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -63461,7 +65309,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -63495,8 +65343,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -63510,7 +65358,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -63544,8 +65392,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -63559,7 +65407,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -63608,7 +65456,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -63642,8 +65490,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -63657,7 +65505,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -63706,7 +65554,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -63755,7 +65603,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -63789,8 +65637,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -63804,7 +65652,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -63853,7 +65701,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -63902,7 +65750,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -63936,8 +65784,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -63951,7 +65799,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -63985,8 +65833,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -64000,7 +65848,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -64034,8 +65882,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -64049,7 +65897,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -64083,8 +65931,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -64098,7 +65946,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -64147,7 +65995,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -64196,7 +66044,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -64245,7 +66093,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -64294,7 +66142,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -64343,7 +66191,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -64392,7 +66240,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -64441,7 +66289,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -64490,7 +66338,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -64539,7 +66387,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -64588,7 +66436,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -64637,7 +66485,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -64671,8 +66519,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -64686,7 +66534,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -64735,7 +66583,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -64784,7 +66632,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -64818,8 +66666,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -64833,7 +66681,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -64867,8 +66715,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -64882,7 +66730,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -64931,7 +66779,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -64980,7 +66828,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -65029,7 +66877,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -65078,7 +66926,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -65127,7 +66975,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -65176,7 +67024,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -65225,7 +67073,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -65274,7 +67122,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -65323,7 +67171,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -65372,7 +67220,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -65406,8 +67254,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -65421,7 +67269,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -65470,7 +67318,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -65519,7 +67367,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -65568,7 +67416,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -65617,7 +67465,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -65666,7 +67514,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -65715,7 +67563,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -65764,7 +67612,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -65813,7 +67661,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -65862,7 +67710,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -65911,7 +67759,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -65960,7 +67808,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66009,7 +67857,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66043,8 +67891,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -66058,7 +67906,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66107,7 +67955,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66156,7 +68004,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66205,7 +68053,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66254,7 +68102,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66288,8 +68136,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -66303,7 +68151,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66352,7 +68200,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66401,7 +68249,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66435,8 +68283,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -66450,7 +68298,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66499,7 +68347,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66548,7 +68396,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66597,7 +68445,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66646,7 +68494,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66695,7 +68543,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66744,7 +68592,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66793,7 +68641,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66827,8 +68675,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -66842,7 +68690,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66891,7 +68739,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66940,7 +68788,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -66989,7 +68837,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67038,7 +68886,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67087,7 +68935,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67136,7 +68984,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67185,7 +69033,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67219,8 +69067,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -67234,7 +69082,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67283,7 +69131,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67332,7 +69180,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67381,7 +69229,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67416,7 +69264,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67465,7 +69313,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67499,8 +69347,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -67514,7 +69362,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67563,7 +69411,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67612,7 +69460,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67661,7 +69509,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67710,7 +69558,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67759,7 +69607,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67808,7 +69656,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67857,7 +69705,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67906,7 +69754,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -67955,7 +69803,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -68004,7 +69852,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -68038,8 +69886,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -68053,7 +69901,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -68087,8 +69935,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -68102,7 +69950,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -68151,7 +69999,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -68200,7 +70048,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -68249,7 +70097,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -68298,7 +70146,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -68332,8 +70180,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -68347,7 +70195,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -68396,7 +70244,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -68445,7 +70293,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -68494,7 +70342,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -68543,7 +70391,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -68592,7 +70440,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -68641,7 +70489,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -68690,7 +70538,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -68739,7 +70587,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -68788,7 +70636,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -68822,8 +70670,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -68837,7 +70685,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -68886,7 +70734,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -68935,7 +70783,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -68969,8 +70817,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -68984,7 +70832,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69033,7 +70881,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69082,7 +70930,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69116,8 +70964,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -69131,7 +70979,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69173,7 +71021,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69207,8 +71055,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -69222,7 +71070,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69271,7 +71119,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69320,7 +71168,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69369,7 +71217,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69418,7 +71266,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69452,8 +71300,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -69467,7 +71315,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69516,7 +71364,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69565,7 +71413,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69614,7 +71462,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69663,7 +71511,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69712,7 +71560,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69746,8 +71594,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -69761,7 +71609,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -69810,7 +71658,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -69844,8 +71692,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -69859,7 +71707,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -69893,8 +71741,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -69908,7 +71756,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -69957,7 +71805,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70006,7 +71854,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70055,7 +71903,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70104,7 +71952,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70153,7 +72001,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70202,7 +72050,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70236,8 +72084,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -70251,7 +72099,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70300,7 +72148,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70349,7 +72197,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70398,7 +72246,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70447,7 +72295,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70496,7 +72344,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70530,8 +72378,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -70545,7 +72393,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70594,7 +72442,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70643,7 +72491,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70692,7 +72540,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70741,7 +72589,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70790,7 +72638,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70824,8 +72672,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "C",
+        "color": "#2980b9",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -70839,7 +72687,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70888,7 +72736,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70937,7 +72785,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -70986,7 +72834,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -71035,7 +72883,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -71084,7 +72932,7 @@ const GENERATED_DB = {
       {
         "code": "QP",
         "name": "Quantum Phy",
-        "color": "#3498db",
+        "color": "#f1c40f",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -71122,1644 +72970,6 @@ const GENERATED_DB = {
         "color": "#2980b9",
         "div": "Div 1",
         "batch": "B3"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515374": {
-    "name": "HRIDA PATTANSHETTI",
-    "info": "MIS: 612515374",
-    "cards": [
-      {
-        "code": "FPI",
-        "name": "Instrumentation (FPI)",
-        "color": "#8e44ad",
-        "div": "Div 1",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "PP",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 4",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515409": {
-    "name": "TIRTH MUSALE",
-    "info": "MIS: 612515409",
-    "cards": [
-      {
-        "code": "FPI",
-        "name": "Instrumentation (FPI)",
-        "color": "#8e44ad",
-        "div": "Div 1",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B4"
-      },
-      {
-        "code": "VCDE",
-        "name": "Vector calculus",
-        "color": "#27ae60",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "RDOS",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 1",
-        "batch": "B3"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515355": {
-    "name": "ADITYA DESHMUKH",
-    "info": "MIS: 612515355",
-    "cards": [
-      {
-        "code": "EEU",
-        "name": "Electrical Unit",
-        "color": "#f39c12",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B2"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B3"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "WD",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B3"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515358": {
-    "name": "ADVAY",
-    "info": "MIS: 612515358",
-    "cards": [
-      {
-        "code": "EEU",
-        "name": "Electrical Unit",
-        "color": "#f39c12",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B3"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "PP",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 4",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515368": {
-    "name": "AYUSH",
-    "info": "MIS: 612515368",
-    "cards": [
-      {
-        "code": "EEU",
-        "name": "Electrical Unit",
-        "color": "#f39c12",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "PP",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 5",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515375": {
-    "name": "ISHAAN SONAWANE",
-    "info": "MIS: 612515375",
-    "cards": [
-      {
-        "code": "EEU",
-        "name": "Electrical Unit",
-        "color": "#f39c12",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "WD",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B3"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515380": {
-    "name": "MALHAR RAUL",
-    "info": "MIS: 612515380",
-    "cards": [
-      {
-        "code": "EEU",
-        "name": "Electrical Unit",
-        "color": "#f39c12",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "PP",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 5",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515388": {
-    "name": "RISHABH",
-    "info": "MIS: 612515388",
-    "cards": [
-      {
-        "code": "EEU",
-        "name": "Electrical Unit",
-        "color": "#f39c12",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B4"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "DPV",
-        "name": "Data Vis (DPV)",
-        "color": "#2980b9",
-        "div": "Div 1",
-        "batch": "B4"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515391": {
-    "name": "RIYA APPINI",
-    "info": "MIS: 612515391",
-    "cards": [
-      {
-        "code": "EEU",
-        "name": "Electrical Unit",
-        "color": "#f39c12",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B4"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 6",
-        "batch": "B1"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "RDOS",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 1",
-        "batch": "B3"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515392": {
-    "name": "RUSHABH SHAH",
-    "info": "MIS: 612515392",
-    "cards": [
-      {
-        "code": "EEU",
-        "name": "Electrical Unit",
-        "color": "#f39c12",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B4"
-      },
-      {
-        "code": "VCDE",
-        "name": "Vector calculus",
-        "color": "#27ae60",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B3"
-      },
-      {
-        "code": "WD",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B3"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515399": {
-    "name": "SHREYAK KADAM",
-    "info": "MIS: 612515399",
-    "cards": [
-      {
-        "code": "EEU",
-        "name": "Electrical Unit",
-        "color": "#f39c12",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B4"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 6",
-        "batch": "B1"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B3"
-      },
-      {
-        "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B4"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515406": {
-    "name": "SURYANSH",
-    "info": "MIS: 612515406",
-    "cards": [
-      {
-        "code": "EEU",
-        "name": "Electrical Unit",
-        "color": "#f39c12",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B4"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 6",
-        "batch": "B1"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B4"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515411": {
-    "name": "VAISHNAVI JANGAM",
-    "info": "MIS: 612515411",
-    "cards": [
-      {
-        "code": "EEU",
-        "name": "Electrical Unit",
-        "color": "#f39c12",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B4"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 6",
-        "batch": "B1"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B3"
-      },
-      {
-        "code": "WD",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B3"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515412": {
-    "name": "VARAD",
-    "info": "MIS: 612515412",
-    "cards": [
-      {
-        "code": "EEU",
-        "name": "Electrical Unit",
-        "color": "#f39c12",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B4"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 6",
-        "batch": "B1"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B3"
-      },
-      {
-        "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B4"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515349": {
-    "name": "AADITYA PATEL",
-    "info": "MIS: 612515349",
-    "cards": [
-      {
-        "code": "AEIOT",
-        "name": "Electronics & IOT",
-        "color": "#e74c3c",
-        "div": "Div 1",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B2"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B3"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "PP",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 5",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515351": {
-    "name": "AARUSH SHAH",
-    "info": "MIS: 612515351",
-    "cards": [
-      {
-        "code": "AEIOT",
-        "name": "Electronics & IOT",
-        "color": "#e74c3c",
-        "div": "Div 1",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B2"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B3"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B4"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515357": {
-    "name": "ADITYA SENAPATI",
-    "info": "MIS: 612515357",
-    "cards": [
-      {
-        "code": "AEIOT",
-        "name": "Electronics & IOT",
-        "color": "#e74c3c",
-        "div": "Div 1",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B3"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "PP",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 4",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515376": {
-    "name": "JAY SABALE",
-    "info": "MIS: 612515376",
-    "cards": [
-      {
-        "code": "AEIOT",
-        "name": "Electronics & IOT",
-        "color": "#e74c3c",
-        "div": "Div 1",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "VCDE",
-        "name": "Vector calculus",
-        "color": "#27ae60",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "WD",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B3"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515378": {
-    "name": "KESHAV",
-    "info": "MIS: 612515378",
-    "cards": [
-      {
-        "code": "AEIOT",
-        "name": "Electronics & IOT",
-        "color": "#e74c3c",
-        "div": "Div 1",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "VCDE",
-        "name": "Vector calculus",
-        "color": "#27ae60",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "WD",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B3"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515386": {
-    "name": "PARTH PATIL",
-    "info": "MIS: 612515386",
-    "cards": [
-      {
-        "code": "AEIOT",
-        "name": "Electronics & IOT",
-        "color": "#e74c3c",
-        "div": "Div 1",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B4"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "WD",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B3"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515348": {
-    "name": "YESHASHREE KARHALE",
-    "info": "MIS: 612515348",
-    "cards": [
-      {
-        "code": "FMS",
-        "name": "Material Sci (FMS)",
-        "color": "#d35400",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B2"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B3"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "WD",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B3"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515350": {
-    "name": "AADYA",
-    "info": "MIS: 612515350",
-    "cards": [
-      {
-        "code": "FMS",
-        "name": "Material Sci (FMS)",
-        "color": "#d35400",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B2"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B3"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B4"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515356": {
-    "name": "ADITYA BAVADEKAR",
-    "info": "MIS: 612515356",
-    "cards": [
-      {
-        "code": "FMS",
-        "name": "Material Sci (FMS)",
-        "color": "#d35400",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B2"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B3"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "WD",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B3"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515393": {
-    "name": "RUSHI RANADE",
-    "info": "MIS: 612515393",
-    "cards": [
-      {
-        "code": "FMS",
-        "name": "Material Sci (FMS)",
-        "color": "#d35400",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B4"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 6",
-        "batch": "B1"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B4"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515397": {
-    "name": "SHAHRIYAR MANSOOR",
-    "info": "MIS: 612515397",
-    "cards": [
-      {
-        "code": "FMS",
-        "name": "Material Sci (FMS)",
-        "color": "#d35400",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B4"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 6",
-        "batch": "B1"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "PP",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 5",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515401": {
-    "name": "SHRIHAN KULKARNI",
-    "info": "MIS: 612515401",
-    "cards": [
-      {
-        "code": "FMS",
-        "name": "Material Sci (FMS)",
-        "color": "#d35400",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B4"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 6",
-        "batch": "B1"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B3"
-      },
-      {
-        "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B4"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515363": {
-    "name": "ANVI MOKAL",
-    "info": "MIS: 612515363",
-    "cards": [
-      {
-        "code": "FME",
-        "name": "Mechanical (FME)",
-        "color": "#95a5a6",
-        "div": "Div 1",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "DPI",
-        "name": "DPI",
-        "color": "#2980b9",
-        "div": "Div 1",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515404": {
-    "name": "SOHAM",
-    "info": "MIS: 612515404",
-    "cards": [
-      {
-        "code": "FME",
-        "name": "Mechanical (FME)",
-        "color": "#95a5a6",
-        "div": "Div 1",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B4"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 6",
-        "batch": "B1"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B3"
-      },
-      {
-        "code": "PP",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 5",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515360": {
-    "name": "ALISHA",
-    "info": "MIS: 612515360",
-    "cards": [
-      {
-        "code": "BMT",
-        "name": "Biology",
-        "color": "#16a085",
-        "div": "Div 1",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "PP",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 5",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515377": {
-    "name": "KALASH VANKAR",
-    "info": "MIS: 612515377",
-    "cards": [
-      {
-        "code": "BMT",
-        "name": "Biology",
-        "color": "#16a085",
-        "div": "Div 1",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B4"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515390": {
-    "name": "RIYA LONDHE",
-    "info": "MIS: 612515390",
-    "cards": [
-      {
-        "code": "BMT",
-        "name": "Biology",
-        "color": "#16a085",
-        "div": "Div 1",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B4"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 6",
-        "batch": "B1"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "PP",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 4",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515352": {
-    "name": "ABHISHEK",
-    "info": "MIS: 612515352",
-    "cards": [
-      {
-        "code": "NM",
-        "name": "Nanomaterial (NM)",
-        "color": "#9b59b6",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B2"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B3"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "PP",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 5",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515361": {
-    "name": "AMOGH UTEKAR",
-    "info": "MIS: 612515361",
-    "cards": [
-      {
-        "code": "NM",
-        "name": "Nanomaterial (NM)",
-        "color": "#9b59b6",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "PP",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 4",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515362": {
-    "name": "ANAYA GORE",
-    "info": "MIS: 612515362",
-    "cards": [
-      {
-        "code": "NM",
-        "name": "Nanomaterial (NM)",
-        "color": "#9b59b6",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "WD",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B3"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515364": {
-    "name": "AREEN VALS\ufffdNGKAR",
-    "info": "MIS: 612515364",
-    "cards": [
-      {
-        "code": "NM",
-        "name": "Nanomaterial (NM)",
-        "color": "#9b59b6",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "PP",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 4",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515369": {
-    "name": "DEVARSH MULEY",
-    "info": "MIS: 612515369",
-    "cards": [
-      {
-        "code": "NM",
-        "name": "Nanomaterial (NM)",
-        "color": "#9b59b6",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "WD",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B3"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515381": {
-    "name": "MIHIR DEOGAONKAR",
-    "info": "MIS: 612515381",
-    "cards": [
-      {
-        "code": "NM",
-        "name": "Nanomaterial (NM)",
-        "color": "#9b59b6",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "PD",
-        "name": "Personality Dev",
-        "color": "#e91e63",
-        "div": "Div 9",
-        "batch": "-"
-      },
-      {
-        "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B4"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515383": {
-    "name": "MITALI BHINDWALE",
-    "info": "MIS: 612515383",
-    "cards": [
-      {
-        "code": "NM",
-        "name": "Nanomaterial (NM)",
-        "color": "#9b59b6",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "PPS",
-        "name": "Unknown",
-        "color": "#34495e",
-        "div": "Div 2",
-        "batch": "B4"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515408": {
-    "name": "TANVI",
-    "info": "MIS: 612515408",
-    "cards": [
-      {
-        "code": "NM",
-        "name": "Nanomaterial (NM)",
-        "color": "#9b59b6",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B4"
-      },
-      {
-        "code": "PS",
-        "name": "Probablity & Stats",
-        "color": "#1abc9c",
-        "div": "Div 6",
-        "batch": "B1"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B3"
-      },
-      {
-        "code": "DPV",
-        "name": "Data Vis (DPV)",
-        "color": "#2980b9",
-        "div": "Div 1",
-        "batch": "B4"
       }
     ],
     "schedule": {}
