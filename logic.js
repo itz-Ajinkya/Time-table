@@ -510,62 +510,84 @@ function getLabEmoji(code, room) {
 
 // --- DATA MERGER FUNC TION ---
 function getStudentData(mis) {
-    if (typeof GENERATED_DB === 'undefined') {
-        console.error("GENERATED_DB is missing. Check students.js");
+    // 1. Safety Check
+    if (!GENERATED_DB || !GENERATED_DB[mis]) {
         return null;
     }
+
     const student = GENERATED_DB[mis];
-    if (!student) return null;
     const personalSchedule = {};
 
-    student.cards.forEach(card => {
-        const subjectCode = card.code;
-        const div = card.div;
-        const batch = card.batch;
+    // 2. Build Schedule from allocated Cards
+    if (student.cards && Array.isArray(student.cards)) {
+        student.cards.forEach(card => {
+            const subjectCode = card.code; // e.g. "AEIOT"
+            const div = card.div;          // e.g. "Div 1"
+            const batch = card.batch;      // e.g. "B1"
 
-        if (MASTER_SCHEDULE[subjectCode] && MASTER_SCHEDULE[subjectCode][div]) {
-            const divSchedule = MASTER_SCHEDULE[subjectCode][div];
+            // Ensure this subject exists in Master Schedule
+            if (MASTER_SCHEDULE[subjectCode] && MASTER_SCHEDULE[subjectCode][div]) {
+                const divSchedule = MASTER_SCHEDULE[subjectCode][div];
 
-            // Lectures (allow collisions — merge into arrays)
-            Object.keys(divSchedule).forEach(key => {
-                if (key.includes("-")) {
+                // --- A. Process Lectures (Direct Keys) ---
+                Object.keys(divSchedule).forEach(timeKey => {
+                    // Filter out Batch keys (B1, B2) by checking length or content
+                    // Time keys are like "mon-1030" (length 8), Batches are "B1" (length 2)
+                    if (timeKey.length < 5) return; 
+
+                    const slot = divSchedule[timeKey];
                     const entry = {
-                        ...divSchedule[key],
-                        subj: subjectCode,
-                        class: subjectCode.toLowerCase()
-                    };
-                    if (personalSchedule[key]) {
-                        if (Array.isArray(personalSchedule[key])) personalSchedule[key].push(entry);
-                        else personalSchedule[key] = [personalSchedule[key], entry];
-                    } else {
-                        personalSchedule[key] = entry;
-                    }
-                }
-            });
-
-            // Labs (allow collisions — merge into arrays). Assign emoji tag using getLabEmoji
-            if (batch !== '-' && divSchedule[batch]) {
-                const labSlots = divSchedule[batch];
-                Object.keys(labSlots).forEach(timeKey => {
-                    const lab = labSlots[timeKey];
-                    const entry = {
-                        ...lab,
+                        ...slot,
                         subj: subjectCode,
                         class: subjectCode.toLowerCase(),
-                        tag: getLabEmoji(subjectCode, lab.room)
+                        tag: "" // Lectures usually don't have emoji tags
                     };
-                    if (personalSchedule[timeKey]) {
-                        if (Array.isArray(personalSchedule[timeKey])) personalSchedule[timeKey].push(entry);
-                        else personalSchedule[timeKey] = [personalSchedule[timeKey], entry];
-                    } else {
-                        personalSchedule[timeKey] = entry;
-                    }
+
+                    // Add to schedule (Handling Collisions)
+                    addToSchedule(personalSchedule, timeKey, entry);
                 });
+
+                // --- B. Process Labs (Batch Keys) ---
+                // If the student has a batch assigned (e.g., "B1") and the schedule has that batch
+                if (batch !== '-' && divSchedule[batch]) {
+                    const labSlots = divSchedule[batch];
+                    
+                    Object.keys(labSlots).forEach(timeKey => {
+                        const lab = labSlots[timeKey];
+                        const entry = {
+                            ...lab,
+                            subj: subjectCode,
+                            class: subjectCode.toLowerCase(),
+                            // Safety check for emoji function
+                            tag: (typeof getLabEmoji === 'function') ? getLabEmoji(subjectCode, lab.room) : "🧪"
+                        };
+
+                        // Add to schedule (Handling Collisions)
+                        addToSchedule(personalSchedule, timeKey, entry);
+                    });
+                }
             }
-        }
-    });
+        });
+    }
 
-    return { ...student, schedule: personalSchedule };
-
+    // 3. Return the Final Data Object
+    return {
+        name: student.name, // Now correctly pulling "Ajinkya Patil" etc. from students.js
+        info: student.info,
+        cards: student.cards,
+        schedule: personalSchedule
+    };
 }
 
+// Helper to handle overlapping slots (arrays)
+function addToSchedule(schedule, timeKey, entry) {
+    if (schedule[timeKey]) {
+        if (Array.isArray(schedule[timeKey])) {
+            schedule[timeKey].push(entry);
+        } else {
+            schedule[timeKey] = [schedule[timeKey], entry];
+        }
+    } else {
+        schedule[timeKey] = entry;
+    }
+}
