@@ -12,7 +12,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -26,8 +26,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -61,7 +61,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -75,8 +75,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -124,8 +124,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -222,8 +222,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -271,8 +271,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -306,7 +306,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -320,8 +320,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -355,7 +355,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -369,8 +369,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -418,8 +418,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -509,8 +509,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -558,8 +558,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -607,8 +607,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -656,8 +656,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -705,8 +705,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -789,7 +789,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -803,8 +803,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -852,8 +852,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -901,8 +901,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -950,8 +950,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -999,8 +999,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -1034,7 +1034,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -1048,8 +1048,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -1097,8 +1097,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -1132,7 +1132,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -1244,8 +1244,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -1293,8 +1293,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -1328,7 +1328,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -1342,8 +1342,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -1377,7 +1377,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -1391,8 +1391,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -1440,8 +1440,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -1475,7 +1475,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -1489,8 +1489,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -1587,8 +1587,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -1734,8 +1734,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -1769,7 +1769,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -1783,8 +1783,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -1832,8 +1832,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -1881,8 +1881,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -1916,7 +1916,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -1930,8 +1930,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -1979,8 +1979,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -2063,7 +2063,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -2077,8 +2077,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -2126,8 +2126,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -2175,8 +2175,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -2224,8 +2224,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -2273,8 +2273,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -2308,7 +2308,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -2322,8 +2322,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -2371,8 +2371,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -2406,7 +2406,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -2420,8 +2420,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -2469,8 +2469,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -2504,7 +2504,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -2553,7 +2553,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -2567,8 +2567,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -2749,7 +2749,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -2847,7 +2847,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -2945,7 +2945,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -2959,8 +2959,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -2994,7 +2994,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -3043,7 +3043,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -3190,7 +3190,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -3239,7 +3239,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -3337,7 +3337,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -3386,7 +3386,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -3400,8 +3400,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -3449,8 +3449,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -3533,7 +3533,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -3547,8 +3547,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -3582,7 +3582,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -3631,15 +3631,15 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -3673,7 +3673,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -3687,8 +3687,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -3722,7 +3722,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -3771,7 +3771,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -3820,7 +3820,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -3834,8 +3834,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -3869,7 +3869,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -3883,8 +3883,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -3918,7 +3918,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -3967,7 +3967,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -4016,7 +4016,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -4030,8 +4030,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -4065,7 +4065,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -4114,7 +4114,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -4212,7 +4212,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -4261,7 +4261,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -4275,8 +4275,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -4310,7 +4310,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -4359,14 +4359,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
@@ -4415,7 +4415,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
@@ -4457,22 +4457,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -4506,14 +4506,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
@@ -4555,22 +4555,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -4604,14 +4604,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
@@ -4653,22 +4653,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -4702,14 +4702,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
@@ -4751,14 +4751,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
@@ -4807,15 +4807,15 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -4849,14 +4849,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
@@ -4898,14 +4898,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
@@ -4954,15 +4954,15 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -4996,14 +4996,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
@@ -5045,22 +5045,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -5094,14 +5094,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
@@ -5143,14 +5143,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
@@ -5192,14 +5192,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
@@ -5241,14 +5241,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
@@ -5290,14 +5290,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
@@ -5346,7 +5346,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
@@ -5388,14 +5388,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
@@ -5437,14 +5437,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
@@ -5486,14 +5486,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
@@ -5535,14 +5535,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
@@ -5584,14 +5584,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
@@ -5633,22 +5633,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -5682,14 +5682,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
@@ -5731,22 +5731,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -5780,14 +5780,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -5829,14 +5829,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -5878,14 +5878,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -5927,14 +5927,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -5976,7 +5976,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -5990,8 +5990,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6025,7 +6025,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -6074,7 +6074,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -6088,8 +6088,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6137,8 +6137,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6172,7 +6172,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -6186,8 +6186,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6270,7 +6270,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -6319,7 +6319,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -6515,7 +6515,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -6613,7 +6613,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -6662,7 +6662,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -6711,7 +6711,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -6760,7 +6760,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -6823,8 +6823,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -6858,7 +6858,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -6921,8 +6921,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -7005,7 +7005,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -7019,8 +7019,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -7054,7 +7054,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -7103,7 +7103,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -7152,7 +7152,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -7264,8 +7264,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -7446,7 +7446,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -7495,7 +7495,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -7509,8 +7509,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -7544,7 +7544,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -7558,8 +7558,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -7607,8 +7607,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -7642,7 +7642,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -7691,7 +7691,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -7740,7 +7740,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -7838,7 +7838,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -7936,7 +7936,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -7950,8 +7950,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -8048,8 +8048,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -8132,7 +8132,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -8230,7 +8230,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -8328,7 +8328,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -8377,7 +8377,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -8426,7 +8426,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -8440,8 +8440,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -8475,7 +8475,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -8489,8 +8489,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -8622,7 +8622,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -8671,7 +8671,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -8769,7 +8769,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -8867,7 +8867,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -8881,8 +8881,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -8916,7 +8916,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -8965,7 +8965,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -9063,7 +9063,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -9077,8 +9077,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -9112,7 +9112,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -9161,7 +9161,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -9175,8 +9175,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -9210,7 +9210,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -9259,7 +9259,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -9308,7 +9308,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -9322,8 +9322,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -9357,7 +9357,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -9420,8 +9420,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -9504,7 +9504,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -9553,7 +9553,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -9602,7 +9602,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -9651,7 +9651,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -9749,7 +9749,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -9763,8 +9763,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -9798,7 +9798,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -9938,7 +9938,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -9987,7 +9987,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -10050,8 +10050,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -10085,7 +10085,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -10134,7 +10134,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -10183,7 +10183,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -10274,7 +10274,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -10288,8 +10288,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -10323,7 +10323,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -10337,8 +10337,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -10372,7 +10372,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -10470,7 +10470,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -10533,8 +10533,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -10631,8 +10631,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -10666,7 +10666,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -10715,7 +10715,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -10778,8 +10778,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -10813,7 +10813,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -10862,7 +10862,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -10911,15 +10911,15 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -10953,7 +10953,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -11002,7 +11002,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -11051,7 +11051,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -11114,8 +11114,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -11149,7 +11149,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -11163,8 +11163,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -11296,7 +11296,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -11345,7 +11345,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -11359,8 +11359,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -11443,7 +11443,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -11492,7 +11492,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -11506,8 +11506,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -11555,8 +11555,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -11590,7 +11590,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -11688,14 +11688,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -11737,14 +11737,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -11786,14 +11786,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -11842,7 +11842,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -11884,14 +11884,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -11940,15 +11940,15 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -11982,22 +11982,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -12031,14 +12031,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -12087,15 +12087,15 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -12136,7 +12136,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -12178,14 +12178,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -12227,14 +12227,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -12276,14 +12276,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -12332,7 +12332,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -12374,14 +12374,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -12430,15 +12430,15 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -12472,14 +12472,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -12528,7 +12528,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -12577,15 +12577,15 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -12626,7 +12626,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -12675,7 +12675,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -12724,15 +12724,15 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -12773,7 +12773,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -12815,14 +12815,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -12864,14 +12864,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -12913,14 +12913,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -12962,22 +12962,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -13011,14 +13011,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -13067,15 +13067,15 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -13109,14 +13109,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -13158,14 +13158,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -13207,14 +13207,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -13263,7 +13263,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -13312,7 +13312,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -13361,7 +13361,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -13403,14 +13403,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -13452,22 +13452,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -13501,22 +13501,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -13550,14 +13550,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -13599,14 +13599,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -13655,7 +13655,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -13697,14 +13697,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -13753,7 +13753,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -13795,7 +13795,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -13844,7 +13844,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -13858,8 +13858,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -13893,7 +13893,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -13907,8 +13907,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -13942,7 +13942,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -14005,8 +14005,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -14040,7 +14040,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -14089,7 +14089,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -14201,8 +14201,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -14236,7 +14236,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -14285,7 +14285,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -14299,8 +14299,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -14334,7 +14334,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -14439,8 +14439,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -14565,7 +14565,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -14614,7 +14614,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -14663,7 +14663,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -14712,7 +14712,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -14761,7 +14761,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -14810,7 +14810,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -14824,8 +14824,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -14922,8 +14922,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -14957,7 +14957,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -15006,7 +15006,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -15055,7 +15055,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -15069,8 +15069,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -15104,7 +15104,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -15118,8 +15118,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -15153,7 +15153,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -15202,7 +15202,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -15251,7 +15251,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -15265,8 +15265,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -15300,7 +15300,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -15314,8 +15314,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -15349,7 +15349,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -15363,8 +15363,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -15412,8 +15412,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -15496,7 +15496,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -15545,7 +15545,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -15594,7 +15594,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -15643,7 +15643,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -15692,7 +15692,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -15790,7 +15790,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -15804,8 +15804,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -15839,7 +15839,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -15937,7 +15937,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -16084,15 +16084,15 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16175,7 +16175,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
@@ -16224,7 +16224,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -16238,8 +16238,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16287,8 +16287,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16371,7 +16371,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -16385,8 +16385,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -16518,7 +16518,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -16567,7 +16567,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -16616,7 +16616,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -16665,7 +16665,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -16714,7 +16714,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -16763,7 +16763,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -16812,7 +16812,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -16861,7 +16861,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
@@ -16924,8 +16924,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -17057,7 +17057,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -17106,7 +17106,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
@@ -17155,7 +17155,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
@@ -17169,8 +17169,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -17267,8 +17267,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -17302,7 +17302,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -17351,7 +17351,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -17365,8 +17365,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -17400,7 +17400,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -17414,8 +17414,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -17449,7 +17449,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -17463,8 +17463,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -17498,15 +17498,15 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -17561,8 +17561,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -17610,8 +17610,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -17659,8 +17659,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -17708,8 +17708,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -17757,8 +17757,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -17799,7 +17799,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -17848,7 +17848,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -17911,8 +17911,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -17960,8 +17960,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -18016,8 +18016,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -18065,8 +18065,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -18100,7 +18100,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -18114,8 +18114,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -18149,7 +18149,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -18163,8 +18163,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -18212,8 +18212,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -18261,8 +18261,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -18408,8 +18408,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -18506,8 +18506,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -18555,8 +18555,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -18590,7 +18590,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -18604,8 +18604,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -18653,8 +18653,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -18688,7 +18688,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -18737,7 +18737,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -18751,8 +18751,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -18800,8 +18800,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -18835,7 +18835,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -18849,8 +18849,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -18884,7 +18884,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -18898,8 +18898,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -18996,8 +18996,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19052,8 +19052,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19101,8 +19101,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19150,8 +19150,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19185,7 +19185,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -19199,8 +19199,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19234,7 +19234,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -19248,8 +19248,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19297,8 +19297,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19346,8 +19346,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -19381,7 +19381,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -19430,7 +19430,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -19444,8 +19444,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -19479,7 +19479,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -19493,8 +19493,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -19542,8 +19542,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -19591,8 +19591,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -19640,8 +19640,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -19745,8 +19745,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -19794,8 +19794,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -19843,8 +19843,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -19899,8 +19899,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -19934,7 +19934,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -19983,7 +19983,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -19997,8 +19997,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -20046,8 +20046,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -20130,7 +20130,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -20144,8 +20144,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -20235,7 +20235,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -20249,8 +20249,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -20298,8 +20298,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -20347,8 +20347,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -20396,8 +20396,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -20543,8 +20543,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -20578,7 +20578,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -20592,8 +20592,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -20641,8 +20641,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -20676,7 +20676,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -20690,8 +20690,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -20739,8 +20739,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -20837,8 +20837,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -20872,7 +20872,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -20886,8 +20886,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -20921,15 +20921,15 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -20963,7 +20963,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -20977,8 +20977,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -21026,8 +21026,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -21061,7 +21061,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -21075,8 +21075,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -21124,8 +21124,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -21173,8 +21173,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -21208,7 +21208,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -21222,8 +21222,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -21257,7 +21257,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -21271,8 +21271,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -21306,15 +21306,15 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -21348,7 +21348,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -21362,8 +21362,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -21397,7 +21397,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -21446,7 +21446,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -21460,8 +21460,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -21495,7 +21495,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -21509,8 +21509,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -21544,7 +21544,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -21558,8 +21558,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -21593,7 +21593,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -21607,8 +21607,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -21656,8 +21656,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -21691,7 +21691,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -21705,8 +21705,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -21740,7 +21740,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -21754,8 +21754,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -21803,8 +21803,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -21838,7 +21838,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -21852,8 +21852,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -21887,7 +21887,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -21936,15 +21936,15 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -21978,7 +21978,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -22027,7 +22027,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -22041,8 +22041,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -22076,7 +22076,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -22090,8 +22090,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -22174,7 +22174,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -22223,7 +22223,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -22272,7 +22272,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -22321,7 +22321,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -22419,7 +22419,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -22468,7 +22468,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -22482,8 +22482,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -22517,7 +22517,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -22566,7 +22566,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -22615,7 +22615,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -22629,8 +22629,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -22664,7 +22664,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -22713,7 +22713,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -22776,8 +22776,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -22811,7 +22811,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -22909,7 +22909,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -22958,7 +22958,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -23007,7 +23007,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -23056,7 +23056,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -23105,7 +23105,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -23154,7 +23154,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -23203,7 +23203,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -23252,7 +23252,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -23266,8 +23266,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -23301,7 +23301,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -23315,8 +23315,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -23350,7 +23350,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -23399,7 +23399,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -23413,8 +23413,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -23511,8 +23511,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -23546,7 +23546,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -23560,8 +23560,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -23595,7 +23595,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -23609,8 +23609,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -23658,8 +23658,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -23742,7 +23742,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -23889,7 +23889,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -23938,7 +23938,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -23987,7 +23987,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -24001,8 +24001,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -24036,7 +24036,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -24078,7 +24078,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -24092,8 +24092,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -24190,8 +24190,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -24274,7 +24274,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -24372,7 +24372,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -24386,8 +24386,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -24435,8 +24435,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -24470,7 +24470,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -24519,7 +24519,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -24582,8 +24582,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -24764,7 +24764,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -24778,8 +24778,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -24813,7 +24813,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -24876,8 +24876,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -25009,7 +25009,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -25058,7 +25058,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -25072,8 +25072,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -25107,7 +25107,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -25121,8 +25121,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -25205,7 +25205,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -25219,8 +25219,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -25254,7 +25254,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -25303,7 +25303,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -25317,8 +25317,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -25366,8 +25366,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -25401,7 +25401,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -25415,8 +25415,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -25450,7 +25450,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -25597,7 +25597,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -25646,7 +25646,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -25695,7 +25695,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -25709,8 +25709,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -25744,7 +25744,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -25793,7 +25793,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -25807,8 +25807,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -25842,7 +25842,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -25856,8 +25856,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -25891,7 +25891,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -25905,8 +25905,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -25940,7 +25940,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -25954,8 +25954,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -26038,7 +26038,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -26087,7 +26087,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -26136,7 +26136,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -26150,8 +26150,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -26185,7 +26185,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -26234,7 +26234,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -26325,7 +26325,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -26339,8 +26339,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -26374,7 +26374,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -26388,8 +26388,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -26423,7 +26423,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -26472,7 +26472,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -26521,7 +26521,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -26535,8 +26535,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -26584,8 +26584,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -26668,7 +26668,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -26682,8 +26682,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -26717,7 +26717,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -26766,7 +26766,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -26913,7 +26913,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -27060,7 +27060,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -27074,8 +27074,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -27109,7 +27109,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -27123,8 +27123,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -27158,7 +27158,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -27207,7 +27207,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -27256,7 +27256,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -27319,8 +27319,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -27368,8 +27368,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -27403,7 +27403,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -27501,7 +27501,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -27515,8 +27515,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -27599,7 +27599,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -27613,8 +27613,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -27648,7 +27648,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -27662,8 +27662,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -27697,7 +27697,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -27795,7 +27795,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -27844,7 +27844,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -27893,7 +27893,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -27942,14 +27942,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -27998,7 +27998,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -28040,14 +28040,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -28096,7 +28096,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -28138,22 +28138,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -28187,14 +28187,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -28236,14 +28236,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -28285,14 +28285,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -28341,15 +28341,15 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -28383,15 +28383,15 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -28432,7 +28432,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -28474,14 +28474,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -28523,7 +28523,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -28558,14 +28558,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -28614,7 +28614,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -28656,14 +28656,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -28705,22 +28705,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -28754,22 +28754,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -28803,14 +28803,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
@@ -28859,15 +28859,15 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -28901,14 +28901,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
@@ -28950,14 +28950,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
@@ -29006,7 +29006,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
@@ -29048,14 +29048,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
@@ -29097,22 +29097,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -29153,7 +29153,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
@@ -29195,14 +29195,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
@@ -29244,14 +29244,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
@@ -29293,14 +29293,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
@@ -29342,14 +29342,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
@@ -29398,7 +29398,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
@@ -29440,22 +29440,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -29489,14 +29489,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
@@ -29538,14 +29538,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
@@ -29594,7 +29594,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
@@ -29643,7 +29643,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
@@ -29692,15 +29692,15 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -29741,15 +29741,15 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -29783,14 +29783,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
@@ -29839,15 +29839,15 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -29881,14 +29881,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
@@ -29937,7 +29937,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
@@ -29979,14 +29979,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
@@ -30028,14 +30028,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
@@ -30126,15 +30126,15 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -30168,14 +30168,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
@@ -30224,7 +30224,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
@@ -30266,14 +30266,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
@@ -30322,7 +30322,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
@@ -30371,15 +30371,15 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -30413,14 +30413,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
@@ -30462,14 +30462,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
@@ -30511,22 +30511,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -30560,22 +30560,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -30609,14 +30609,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
@@ -30658,22 +30658,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -30714,7 +30714,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
@@ -30756,8 +30756,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -30784,14 +30784,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -30840,7 +30840,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -30882,14 +30882,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -30931,14 +30931,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -30980,14 +30980,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -31029,14 +31029,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -31078,14 +31078,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -31134,7 +31134,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -31183,7 +31183,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -31225,14 +31225,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -31274,14 +31274,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -31330,7 +31330,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -31379,7 +31379,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -31428,7 +31428,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -31498,14 +31498,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -31547,14 +31547,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -31596,22 +31596,22 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31645,14 +31645,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -31694,14 +31694,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -31743,14 +31743,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -31792,22 +31792,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -31848,7 +31848,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -31890,14 +31890,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -31946,7 +31946,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -31988,14 +31988,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -32044,15 +32044,15 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -32086,22 +32086,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -32135,14 +32135,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -32184,14 +32184,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -32240,15 +32240,15 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -32282,14 +32282,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -32331,14 +32331,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -32387,7 +32387,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -32436,7 +32436,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -32478,14 +32478,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -32534,7 +32534,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -32583,7 +32583,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -32632,7 +32632,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -32681,7 +32681,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -32723,14 +32723,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -32772,14 +32772,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -32828,7 +32828,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -32877,7 +32877,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -32919,14 +32919,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -32968,7 +32968,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -33066,7 +33066,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -33115,7 +33115,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -33164,7 +33164,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -33311,7 +33311,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -33458,7 +33458,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -33556,7 +33556,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -33605,7 +33605,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -33703,7 +33703,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -33850,14 +33850,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -33899,14 +33899,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -33955,7 +33955,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -34004,7 +34004,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -34053,15 +34053,15 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -34095,14 +34095,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -34151,7 +34151,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -34193,14 +34193,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -34242,14 +34242,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -34291,14 +34291,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -34340,14 +34340,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -34396,7 +34396,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -34438,14 +34438,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -34487,14 +34487,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -34536,14 +34536,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -34585,14 +34585,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B1"
@@ -34634,14 +34634,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -34683,22 +34683,22 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -34739,7 +34739,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -34788,7 +34788,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -34830,14 +34830,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -34879,14 +34879,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -34928,14 +34928,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -34977,14 +34977,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -35026,14 +35026,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -35082,7 +35082,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -35124,14 +35124,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -35180,7 +35180,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -35222,14 +35222,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B2"
@@ -35271,14 +35271,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -35327,15 +35327,15 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -35376,7 +35376,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -35425,7 +35425,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -35467,22 +35467,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -35516,14 +35516,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -35565,14 +35565,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -35614,14 +35614,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -35670,15 +35670,15 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -35719,7 +35719,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B3"
@@ -35768,7 +35768,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -35810,14 +35810,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -35859,14 +35859,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -35915,7 +35915,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -35957,14 +35957,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -36006,14 +36006,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -36055,14 +36055,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -36146,14 +36146,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -36202,7 +36202,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -36244,14 +36244,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -36293,22 +36293,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -36342,14 +36342,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -36391,14 +36391,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 1",
         "batch": "B4"
@@ -36440,7 +36440,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
@@ -36454,8 +36454,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -36489,7 +36489,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
@@ -36503,8 +36503,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B3"
       },
@@ -36538,7 +36538,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
@@ -36734,7 +36734,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
@@ -36783,7 +36783,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
@@ -36881,7 +36881,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
@@ -36930,7 +36930,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
@@ -36944,8 +36944,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -36979,7 +36979,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
@@ -36993,8 +36993,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -37077,7 +37077,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
@@ -37091,8 +37091,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -37126,7 +37126,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -37140,8 +37140,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -37224,7 +37224,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -37238,8 +37238,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B4"
       },
@@ -37273,7 +37273,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -37322,7 +37322,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -37336,8 +37336,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -37434,8 +37434,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -37469,7 +37469,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -37483,8 +37483,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B1"
       },
@@ -37518,7 +37518,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -37560,7 +37560,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -37665,8 +37665,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -37714,8 +37714,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -37749,7 +37749,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -37847,7 +37847,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -37861,8 +37861,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -37910,8 +37910,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -38036,7 +38036,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -38085,7 +38085,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -38099,8 +38099,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -38183,14 +38183,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -38239,7 +38239,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -38281,14 +38281,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -38337,7 +38337,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -38379,14 +38379,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -38428,14 +38428,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -38477,7 +38477,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -38519,14 +38519,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -38568,14 +38568,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -38617,14 +38617,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
@@ -38666,22 +38666,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B1"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B2"
       },
@@ -38715,14 +38715,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -38764,22 +38764,22 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -38820,7 +38820,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -38862,14 +38862,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -38918,7 +38918,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -38960,14 +38960,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -39009,14 +39009,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -39058,14 +39058,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B2"
@@ -39114,7 +39114,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -39156,14 +39156,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -39205,14 +39205,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -39254,14 +39254,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -39303,14 +39303,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -39359,7 +39359,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -39408,7 +39408,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -39450,14 +39450,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -39506,7 +39506,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -39548,14 +39548,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -39597,14 +39597,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -39646,14 +39646,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B3"
@@ -39695,14 +39695,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -39751,7 +39751,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -39793,7 +39793,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
@@ -39835,14 +39835,14 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -39884,14 +39884,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -39940,7 +39940,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -39982,22 +39982,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -40031,14 +40031,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -40080,14 +40080,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -40136,7 +40136,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -40185,7 +40185,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -40234,7 +40234,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -40276,14 +40276,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "Drawing (CAED)",
+        "name": "Drawing",
         "color": "#34495e",
         "div": "Div 2",
         "batch": "B4"
@@ -40325,14 +40325,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -40374,14 +40374,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -40430,7 +40430,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -40479,7 +40479,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -40521,14 +40521,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
@@ -40577,15 +40577,15 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -40619,22 +40619,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B1"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -40675,7 +40675,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
@@ -40724,7 +40724,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
@@ -40773,15 +40773,15 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -40822,7 +40822,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
@@ -40871,15 +40871,15 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -40920,7 +40920,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
@@ -40962,22 +40962,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B3"
       },
@@ -41018,7 +41018,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
@@ -41067,15 +41067,15 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -41109,14 +41109,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
@@ -41158,14 +41158,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B2"
@@ -41207,14 +41207,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
@@ -41256,14 +41256,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
@@ -41312,15 +41312,15 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -41354,22 +41354,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -41410,7 +41410,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
@@ -41459,7 +41459,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
@@ -41501,14 +41501,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
@@ -41557,15 +41557,15 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -41599,14 +41599,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
@@ -41655,7 +41655,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
@@ -41697,22 +41697,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 7",
         "batch": "B4"
       },
@@ -41753,7 +41753,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Programming (IPSSF)",
+        "name": "production (IPSSF)",
         "color": "#2ecc71",
         "div": "Div 1",
         "batch": "B4"
@@ -41809,8 +41809,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -41858,8 +41858,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -41907,8 +41907,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -41942,7 +41942,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -42005,8 +42005,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42040,7 +42040,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -42054,8 +42054,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42103,8 +42103,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42138,7 +42138,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -42152,8 +42152,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42201,8 +42201,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42250,8 +42250,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42285,7 +42285,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -42299,8 +42299,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42334,7 +42334,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -42348,8 +42348,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42383,7 +42383,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -42397,8 +42397,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42446,8 +42446,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42495,8 +42495,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -42537,8 +42537,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -42586,8 +42586,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -42635,8 +42635,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -42684,8 +42684,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -42768,7 +42768,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -42782,8 +42782,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -42817,7 +42817,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -42831,8 +42831,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -42929,8 +42929,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -42978,8 +42978,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43027,8 +43027,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43062,7 +43062,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -43076,8 +43076,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43209,7 +43209,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -43223,8 +43223,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43272,8 +43272,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43321,8 +43321,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43370,8 +43370,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43419,8 +43419,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43468,8 +43468,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43517,8 +43517,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43566,8 +43566,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43615,8 +43615,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -43650,7 +43650,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -43664,8 +43664,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -43713,8 +43713,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -43762,8 +43762,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -43895,7 +43895,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -43909,8 +43909,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -43958,8 +43958,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44007,8 +44007,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44105,8 +44105,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44154,8 +44154,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44189,7 +44189,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -44203,8 +44203,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44252,8 +44252,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44301,8 +44301,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44350,8 +44350,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44399,8 +44399,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44448,8 +44448,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -44546,8 +44546,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -44595,8 +44595,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -44693,8 +44693,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -44728,7 +44728,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -44742,8 +44742,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -44791,8 +44791,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -44826,7 +44826,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -44840,8 +44840,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -44875,7 +44875,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -44889,8 +44889,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -44938,8 +44938,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -44987,8 +44987,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45036,8 +45036,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45085,8 +45085,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45134,8 +45134,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45183,8 +45183,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45232,8 +45232,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45330,8 +45330,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45379,8 +45379,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45428,8 +45428,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45477,8 +45477,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45512,7 +45512,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -45526,8 +45526,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45561,7 +45561,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -45575,8 +45575,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45610,7 +45610,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -45624,8 +45624,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45673,8 +45673,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -45708,7 +45708,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -45722,8 +45722,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -45771,8 +45771,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -45820,8 +45820,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -45869,8 +45869,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -45918,8 +45918,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46016,8 +46016,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46065,8 +46065,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46114,8 +46114,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46163,8 +46163,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46212,8 +46212,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46310,8 +46310,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46345,7 +46345,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -46359,8 +46359,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46506,8 +46506,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46555,8 +46555,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46604,8 +46604,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46653,8 +46653,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46702,8 +46702,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46751,8 +46751,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46800,8 +46800,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -46835,7 +46835,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -46849,8 +46849,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -46898,8 +46898,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -46933,7 +46933,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -46947,8 +46947,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -46996,8 +46996,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47080,7 +47080,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -47094,8 +47094,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47129,7 +47129,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -47143,8 +47143,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47178,7 +47178,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -47241,8 +47241,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47290,8 +47290,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47339,8 +47339,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47388,8 +47388,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47437,8 +47437,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47486,8 +47486,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47535,8 +47535,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47584,8 +47584,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47682,8 +47682,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47717,7 +47717,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -47731,8 +47731,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47773,8 +47773,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47822,8 +47822,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47857,7 +47857,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -47871,8 +47871,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47920,8 +47920,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -47969,8 +47969,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -48018,8 +48018,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -48067,8 +48067,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48116,8 +48116,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48165,8 +48165,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48200,7 +48200,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -48214,8 +48214,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48263,8 +48263,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48312,8 +48312,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48361,8 +48361,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48410,8 +48410,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48445,7 +48445,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -48459,8 +48459,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48508,8 +48508,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48557,8 +48557,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48655,8 +48655,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48704,8 +48704,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48753,8 +48753,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48802,8 +48802,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48844,8 +48844,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48893,8 +48893,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48928,7 +48928,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -48942,8 +48942,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -48991,8 +48991,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -49040,8 +49040,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -49089,8 +49089,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -49138,8 +49138,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -49187,8 +49187,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -49236,8 +49236,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -49285,8 +49285,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -49320,7 +49320,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -49334,8 +49334,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -49383,8 +49383,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -49432,8 +49432,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -49481,8 +49481,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -49516,7 +49516,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -49530,8 +49530,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -49565,7 +49565,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -49579,8 +49579,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -49628,8 +49628,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -49677,8 +49677,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -49775,8 +49775,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -49873,8 +49873,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -49922,8 +49922,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -49957,7 +49957,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -49971,8 +49971,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -50020,8 +50020,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -50055,7 +50055,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -50069,8 +50069,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -50118,8 +50118,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -50167,8 +50167,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -50216,8 +50216,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -50300,7 +50300,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -50314,8 +50314,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -50363,8 +50363,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -50412,8 +50412,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -50461,8 +50461,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B3"
       },
@@ -50559,8 +50559,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -50608,8 +50608,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -50657,8 +50657,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -50692,7 +50692,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -50706,8 +50706,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -50755,8 +50755,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -50804,8 +50804,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -50888,7 +50888,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -50902,8 +50902,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -50951,8 +50951,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -50986,7 +50986,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -51000,8 +51000,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -51035,7 +51035,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -51049,8 +51049,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -51098,8 +51098,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -51147,8 +51147,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -51196,8 +51196,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -51245,8 +51245,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -51294,8 +51294,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -51343,8 +51343,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -51392,8 +51392,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -51441,8 +51441,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -51476,7 +51476,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -51490,8 +51490,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -51539,8 +51539,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B4"
       },
@@ -51588,8 +51588,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -51637,8 +51637,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -51686,8 +51686,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -51735,8 +51735,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -51770,7 +51770,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -51784,8 +51784,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -51833,8 +51833,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -51882,8 +51882,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -51924,8 +51924,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -51973,8 +51973,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -52022,8 +52022,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -52057,7 +52057,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -52071,8 +52071,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -52169,8 +52169,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -52218,8 +52218,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -52253,7 +52253,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -52267,8 +52267,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -52316,8 +52316,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -52365,8 +52365,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -52414,8 +52414,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -52463,8 +52463,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -52512,8 +52512,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -52561,8 +52561,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B1"
       },
@@ -52610,8 +52610,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -52659,8 +52659,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -52694,7 +52694,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -52708,8 +52708,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -52757,8 +52757,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -52792,7 +52792,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -52806,8 +52806,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -52855,8 +52855,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -52904,8 +52904,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -52953,8 +52953,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -53002,8 +53002,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -53051,8 +53051,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -53086,7 +53086,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -53100,8 +53100,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -53149,8 +53149,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -53198,8 +53198,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -53233,7 +53233,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -53247,8 +53247,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -53296,8 +53296,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -53345,8 +53345,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -53443,8 +53443,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -53492,8 +53492,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -53541,8 +53541,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -53590,8 +53590,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B2"
       },
@@ -53737,8 +53737,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -53772,7 +53772,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -53786,8 +53786,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -53835,8 +53835,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -53884,8 +53884,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -53919,7 +53919,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -53933,8 +53933,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -54031,8 +54031,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -54066,7 +54066,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -54080,8 +54080,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -54115,7 +54115,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -54129,8 +54129,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -54178,8 +54178,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -54227,8 +54227,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -54262,7 +54262,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -54276,8 +54276,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -54374,8 +54374,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -54423,8 +54423,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -54472,8 +54472,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -54535,8 +54535,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -54570,7 +54570,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -54584,8 +54584,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -54633,8 +54633,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -54682,8 +54682,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -54731,8 +54731,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -54766,7 +54766,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -54780,8 +54780,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -54829,8 +54829,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -54878,8 +54878,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -54927,8 +54927,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -54976,8 +54976,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -55011,15 +55011,15 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -55067,8 +55067,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -55116,8 +55116,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -55165,8 +55165,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -55214,8 +55214,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -55312,8 +55312,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -55361,8 +55361,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -55410,8 +55410,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -55459,8 +55459,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -55508,8 +55508,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -55543,7 +55543,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -55606,8 +55606,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -55655,8 +55655,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -55704,8 +55704,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -55753,8 +55753,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -55802,8 +55802,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -55837,7 +55837,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -55851,8 +55851,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -55900,8 +55900,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -55935,7 +55935,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -55949,8 +55949,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -55998,8 +55998,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -56033,7 +56033,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -56047,8 +56047,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -56096,8 +56096,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -56145,8 +56145,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B2"
       },
@@ -56243,8 +56243,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -56292,8 +56292,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -56341,8 +56341,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -56376,7 +56376,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -56390,8 +56390,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -56439,8 +56439,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -56474,7 +56474,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -56488,8 +56488,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -56523,7 +56523,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -56537,8 +56537,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -56586,8 +56586,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -56635,8 +56635,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -56684,8 +56684,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -56733,8 +56733,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -56782,8 +56782,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -56831,8 +56831,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -56880,8 +56880,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -56929,8 +56929,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -56978,8 +56978,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -57013,7 +57013,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -57027,8 +57027,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -57076,8 +57076,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -57125,8 +57125,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -57174,8 +57174,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B3"
       },
@@ -57223,8 +57223,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -57272,8 +57272,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -57370,8 +57370,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -57419,8 +57419,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -57468,8 +57468,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -57517,8 +57517,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -57552,7 +57552,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -57566,8 +57566,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -57615,8 +57615,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -57664,8 +57664,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -57699,7 +57699,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -57713,8 +57713,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -57762,8 +57762,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -57811,8 +57811,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -57860,8 +57860,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -57895,7 +57895,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -57909,8 +57909,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B4"
       },
@@ -57944,7 +57944,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -57993,7 +57993,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -58042,7 +58042,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -58091,7 +58091,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -58140,7 +58140,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -58189,7 +58189,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -58287,7 +58287,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -58336,7 +58336,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -58350,8 +58350,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -58385,7 +58385,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -58434,7 +58434,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -58483,7 +58483,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -58497,8 +58497,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -58532,7 +58532,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -58581,7 +58581,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -58679,7 +58679,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -58728,7 +58728,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -58826,7 +58826,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -58938,8 +58938,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -58973,7 +58973,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -59022,7 +59022,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -59071,7 +59071,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -59169,7 +59169,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -59218,7 +59218,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -59267,7 +59267,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -59316,7 +59316,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -59414,7 +59414,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -59463,7 +59463,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -59477,8 +59477,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -59512,7 +59512,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -59561,7 +59561,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -59610,7 +59610,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -59659,7 +59659,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -59757,7 +59757,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -59806,7 +59806,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -59855,7 +59855,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -59904,7 +59904,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -59953,7 +59953,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -60002,7 +60002,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -60051,7 +60051,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -60100,7 +60100,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -60149,7 +60149,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -60198,7 +60198,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -60212,8 +60212,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -60247,7 +60247,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -60296,7 +60296,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -60394,7 +60394,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -60408,8 +60408,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -60443,7 +60443,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -60492,7 +60492,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -60541,7 +60541,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -60590,7 +60590,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -60639,7 +60639,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -60688,7 +60688,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -60737,22 +60737,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -60786,14 +60786,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
@@ -60835,14 +60835,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
@@ -60891,7 +60891,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
@@ -60933,14 +60933,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
@@ -60982,22 +60982,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -61031,14 +61031,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
@@ -61080,14 +61080,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
@@ -61129,14 +61129,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
@@ -61178,22 +61178,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B1"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -61227,22 +61227,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -61276,14 +61276,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
@@ -61325,14 +61325,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
@@ -61381,7 +61381,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B2"
@@ -61465,14 +61465,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
@@ -61514,22 +61514,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -61563,14 +61563,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
@@ -61612,14 +61612,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
@@ -61661,22 +61661,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -61710,14 +61710,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
@@ -61766,7 +61766,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
@@ -61808,14 +61808,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B3"
@@ -61857,7 +61857,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -61899,14 +61899,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -61948,14 +61948,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -61997,22 +61997,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -62046,14 +62046,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -62095,14 +62095,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -62144,14 +62144,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -62193,14 +62193,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -62242,14 +62242,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -62291,14 +62291,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -62340,14 +62340,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -62389,22 +62389,22 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 3",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -62438,14 +62438,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -62487,14 +62487,14 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -62543,7 +62543,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Measurements (BMS)",
+        "name": "Measurements & sensors",
         "color": "#d35400",
         "div": "Div 1",
         "batch": "B4"
@@ -62599,8 +62599,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B1"
       },
@@ -62844,8 +62844,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -63173,7 +63173,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -63187,8 +63187,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -63236,8 +63236,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -63320,7 +63320,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -63677,8 +63677,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -63726,8 +63726,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -63810,7 +63810,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -63922,8 +63922,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -64202,7 +64202,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -64251,7 +64251,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -64349,7 +64349,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -64496,7 +64496,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -64657,8 +64657,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -64853,8 +64853,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 3",
         "batch": "B2"
       },
@@ -65133,7 +65133,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -65329,7 +65329,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -65574,7 +65574,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -65588,8 +65588,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -65672,7 +65672,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -65721,7 +65721,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -65770,7 +65770,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -65868,7 +65868,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -65931,8 +65931,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -65966,7 +65966,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -66015,7 +66015,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -66064,7 +66064,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 1",
         "batch": "-"
@@ -66162,7 +66162,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -66211,7 +66211,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -66225,8 +66225,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -66260,7 +66260,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -66274,8 +66274,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -66309,7 +66309,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -66358,7 +66358,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -66372,8 +66372,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -66407,7 +66407,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -66456,7 +66456,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -66505,7 +66505,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -66519,8 +66519,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -66554,7 +66554,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -66603,7 +66603,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -66617,8 +66617,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -66652,7 +66652,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -66701,7 +66701,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -66715,8 +66715,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -66750,7 +66750,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -66848,7 +66848,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -66862,8 +66862,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -66946,7 +66946,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -66995,7 +66995,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -67044,7 +67044,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -67093,7 +67093,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -67191,7 +67191,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -67205,8 +67205,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -67289,7 +67289,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -67338,7 +67338,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -67394,8 +67394,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -67471,7 +67471,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -67485,8 +67485,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -67520,7 +67520,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -67569,7 +67569,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -67618,7 +67618,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -67667,7 +67667,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -67681,8 +67681,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -67716,7 +67716,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -67765,7 +67765,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -67814,7 +67814,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -67863,7 +67863,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -67877,8 +67877,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -67912,7 +67912,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -67926,8 +67926,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -67961,7 +67961,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -68010,7 +68010,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -68059,7 +68059,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -68073,8 +68073,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -68108,7 +68108,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 2",
         "batch": "-"
@@ -68122,8 +68122,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -68353,7 +68353,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -68416,8 +68416,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -68563,8 +68563,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -68612,8 +68612,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B1"
       },
@@ -68696,7 +68696,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -68759,8 +68759,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -68808,8 +68808,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -68955,8 +68955,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -69004,8 +69004,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -69088,7 +69088,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -69102,8 +69102,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -69179,7 +69179,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -69683,8 +69683,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -69767,7 +69767,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BCE",
-        "name": "Civil (BCE)",
+        "name": "Civil",
         "color": "#27ae60",
         "div": "Div 1",
         "batch": "-"
@@ -69928,8 +69928,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -69977,8 +69977,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -70320,8 +70320,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -70467,8 +70467,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -70502,7 +70502,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -70516,8 +70516,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 4",
         "batch": "B2"
       },
@@ -70649,7 +70649,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -70992,7 +70992,7 @@ const GENERATED_DB = {
       },
       {
         "code": "AIMA",
-        "name": "Maths (AIMA)",
+        "name": "AI for Muti",
         "color": "#8e44ad",
         "div": "Div 2",
         "batch": "-"
@@ -71146,8 +71146,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -71230,8 +71230,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -71272,8 +71272,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -71314,8 +71314,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -71356,8 +71356,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -71398,8 +71398,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -71440,8 +71440,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -71482,8 +71482,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -71566,8 +71566,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -71608,8 +71608,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -71650,8 +71650,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -71692,8 +71692,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -71720,7 +71720,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -71734,8 +71734,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -71762,7 +71762,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -71776,8 +71776,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -71804,7 +71804,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -71818,8 +71818,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -71846,7 +71846,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -71888,7 +71888,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -71930,7 +71930,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "AEIOT",
-        "name": "Electronics (AEIOT)",
+        "name": "Electronics & IOT",
         "color": "#e74c3c",
         "div": "Div 1",
         "batch": "-"
@@ -71944,8 +71944,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -71986,8 +71986,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -72028,8 +72028,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -72070,8 +72070,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -72112,8 +72112,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -72154,8 +72154,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -72196,8 +72196,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -72238,8 +72238,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -72280,8 +72280,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -72308,7 +72308,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -72322,8 +72322,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -72350,7 +72350,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -72364,8 +72364,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -72392,7 +72392,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "BMT",
-        "name": "Biology (BMT)",
+        "name": "Biology",
         "color": "#16a085",
         "div": "Div 1",
         "batch": "-"
@@ -72406,8 +72406,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
@@ -72448,8 +72448,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B3"
       },
@@ -72490,8 +72490,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -72532,8 +72532,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -72574,8 +72574,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -72616,8 +72616,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -72658,8 +72658,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -72700,8 +72700,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 5",
         "batch": "B4"
       },
@@ -72742,8 +72742,8 @@ const GENERATED_DB = {
       },
       {
         "code": "PS",
-        "name": "Unknown",
-        "color": "#34495e",
+        "name": "Probablity & Stats",
+        "color": "#1abc9c",
         "div": "Div 6",
         "batch": "B1"
       },
