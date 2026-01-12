@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>Timetable</title>
     
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗓️</text></svg>">
+    
     <style>
         @import url('https://fonts.cdnfonts.com/css/cascadia-code');
 
         :root {
-            /* Light Mode */
+            /* Light Mode Defaults */
             --primary: #2c3e50;
             --accent: #3498db;
             --bg: #f4f6f8;
             --card-bg: #ffffff;
+            --header-bg: #ffffff;
+            --header-bar-bg: #eef2f5;
             --text-main: #2c3e50;
             --text-sub: #7f8c8d;
             --border: #e1e4e8;
@@ -22,23 +26,26 @@
             --slot-shadow: 0 2px 5px rgba(0,0,0,0.08);
             --live-color: #2ecc71;
             --error: #e74c3c;
-            --bar-bg: #1a1a1a;
-            --bar-text: #ffffff;
+            --clock-color: #2980b9;
+            --header-border: 1px solid #e1e4e8;
         }
 
-        /* Dark Mode */
+        /* Dark Mode Overrides */
         body.dark-mode {
             --primary: #ecf0f1;
             --accent: #5dade2;
             --bg: #121212;
             --card-bg: #1e1e1e;
+            --header-bg: #181818; 
+            --header-bar-bg: #0d0d0d;
             --text-main: #e0e0e0;
             --text-sub: #a0a0a0;
-            --border: #2a2a2a;
+            --border: #333333;
             --input-bg: #2c2c2c;
             --shadow-soft: 0 4px 20px rgba(0,0,0,0.4);
             --slot-shadow: 0 2px 5px rgba(0,0,0,0.3);
-            --bar-bg: #000000;
+            --clock-color: #4fabff;
+            --header-border: 1px solid #333;
         }
         
         * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -64,7 +71,7 @@
             flex-direction: column;
             justify-content: center;
             padding: 24px;
-            background: linear-gradient(135deg, #2c3e50 0%, #2980b9 100%);
+            background: linear-gradient(135deg, #1a1a1a 0%, #2c3e50 100%);
         }
 
         .login-card {
@@ -75,6 +82,8 @@
             box-shadow: 0 10px 40px rgba(0,0,0,0.25);
             text-align: center;
             width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
             animation: slideUp 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
         }
         @keyframes slideUp { from { transform: translateY(50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
@@ -91,8 +100,28 @@
             border: 2px solid var(--border); border-radius: 14px; padding: 4px 16px; margin-bottom: 20px;
         }
         .mis-input-wrapper:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2); }
-        .prefix { font-family: monospace; font-weight: 700; font-size: 1.4rem; opacity: 0.6; margin-right: 4px; }
-        .mis-input-wrapper input { border: none; background: transparent; padding: 14px 0; font-size: 1.4rem; font-family: monospace; font-weight: 700; color: var(--text-main); width: 100%; outline: none; }
+        
+        /* UPDATED MIS TEXT STYLES */
+        .prefix { 
+            font-family: 'Cascadia Code', monospace; 
+            font-weight: 700; 
+            font-size: 2rem; /* Larger */
+            opacity: 0.6; 
+            margin-right: 4px; 
+            letter-spacing: 1px;
+        }
+        .mis-input-wrapper input { 
+            border: none; 
+            background: transparent; 
+            padding: 14px 0; 
+            font-size: 2rem; /* Larger */
+            font-family: 'Cascadia Code', monospace; 
+            font-weight: 700; /* Super Bold */
+            color: var(--text-main); 
+            width: 100%; 
+            outline: none; 
+            letter-spacing: 2px;
+        }
 
         .btn-login {
             background: var(--accent); color: white; border: none; padding: 18px 0; width: 100%;
@@ -106,72 +135,113 @@
         /* ============================
            DASHBOARD HEADER
            ============================ */
-        .container { padding: 12px 12px 80px 12px; max-width: 100%; }
+        .container { padding: 12px 12px 80px 12px; max-width: 1600px; margin: 0 auto; }
 
         header {
-            background: var(--card-bg);
+            background: var(--header-bg);
             border-radius: 16px;
             box-shadow: var(--shadow-soft);
             margin-bottom: 16px;
             overflow: hidden;
             display: flex;
             flex-direction: column;
+            border: var(--header-border);
         }
 
-        .header-top {
-            padding: 16px;
+        .header-main {
+            padding: 16px 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            min-height: 70px;
         }
 
-        .profile-info h1 { margin: 0; font-size: 1.3rem; color: var(--text-main); }
-        .profile-info p { margin: 2px 0 0; color: var(--text-sub); font-size: 0.85rem; font-family: monospace; }
+        .profile-info { flex: 1; }
+        .profile-info h1 { margin: 0; font-size: 1.5rem; font-weight: 700; color: var(--text-main); }
+        .profile-info p { margin: 6px 0 0; color: var(--text-sub); font-size: 0.85rem; font-family: monospace; opacity: 0.8; }
+
+        /* --- UPDATED THEME SWITCHER (Right Side) --- */
+        .header-center {
+            display: flex;
+            align-items: center;
+            /* Removed absolute centering to let flexbox push it right */
+        }
 
         .theme-btn {
-            background: var(--bg);
-            border: 1px solid var(--border);
-            width: 40px; height: 40px;
+            background: transparent;
+            border: none;
+            width: 50px; height: 50px;
             border-radius: 50%;
             display: flex; align-items: center; justify-content: center;
-            font-size: 1.2rem;
             cursor: pointer;
-            transition: background 0.2s;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .theme-icon {
+            font-size: 2rem;
+            line-height: 1;
+            filter: drop-shadow(0 0 2px rgba(0,0,0,0.1));
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        
+        .theme-btn:active .theme-icon { transform: scale(0.8) rotate(15deg); }
+
+        .bulb-glow {
+            position: absolute;
+            width: 40px; height: 40px;
+            background: rgba(255, 235, 59, 0);
+            border-radius: 50%;
+            transition: all 0.4s ease;
+            z-index: -1;
+        }
+
+        /* Glow effect for Light Mode (Sun) */
+        body:not(.dark-mode) .bulb-glow {
+            background: rgba(255, 160, 0, 0.1);
+            box-shadow: 0 0 15px 5px rgba(255, 160, 0, 0.2);
+        }
+        
+        /* Glow effect for Dark Mode (Moon) */
+        body.dark-mode .bulb-glow {
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.1);
         }
 
         .status-bar {
-            background: var(--bar-bg);
-            color: var(--bar-text);
-            padding: 12px 16px;
+            background: var(--header-bar-bg);
+            padding: 10px 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
             width: 100%;
+            border-top: 1px solid var(--border);
         }
 
         #clock {
             font-family: 'Cascadia Code', monospace;
             font-weight: 700;
-            font-size: 0.95rem;
+            font-size: 0.9rem;
             letter-spacing: 0.5px;
-            color: #fff;
+            color: var(--clock-color);
         }
 
         .logout-btn {
-            background: rgba(255, 255, 255, 0.15);
-            color: #ff6b6b;
-            border: 1px solid rgba(255,255,255,0.1);
-            padding: 6px 14px;
+            background: transparent;
+            color: #ff5252;
+            border: 1px solid rgba(255, 82, 82, 0.3);
+            padding: 4px 12px;
             border-radius: 6px;
             font-size: 0.75rem;
-            font-weight: 800;
+            font-weight: 700;
             cursor: pointer;
             letter-spacing: 0.5px;
-            text-transform: uppercase;
+            transition: all 0.2s;
         }
+        .logout-btn:active { background: rgba(255, 82, 82, 0.1); transform: scale(0.95); }
 
         /* ============================
-           CARDS (U-SHAPED / BLOCK STYLE)
+           CARDS
            ============================ */
         .cards {
             display: flex; gap: 12px; overflow-x: auto; padding: 4px 4px 20px 4px;
@@ -183,202 +253,180 @@
             background: var(--card-bg);
             min-width: 120px;
             padding: 15px 10px;
-            border-radius: 12px; /* Slightly squarer for block look */
-            /* REMOVED LEFT BORDER, ADDED BOTTOM & RIGHT BORDER FOR U-SHAPE/BLOCK */
+            border-radius: 12px;
             border: 1px solid var(--border); 
-            border-bottom-width: 5px; /* The 'lower' edge */
-            border-right-width: 5px;  /* The 'right' edge */
+            border-bottom-width: 5px;
+            border-right-width: 5px; 
             box-shadow: var(--shadow-soft);
             scroll-snap-align: start;
             flex-shrink: 0;
             text-align: center;
             display: flex;
             flex-direction: column;
-            /* Layout distribution: Name top, Code middle, Batch/Space bottom */
             justify-content: space-between; 
-            min-height: 140px; /* FIXED HEIGHT FOR ALIGNMENT */
+            min-height: 140px;
         }
         
-        /* Container for Name and Code to keep them top-aligned */
         .card-top-content {
             display: flex;
             flex-direction: column;
             gap: 4px;
+            margin-bottom: 12px; 
         }
 
         .card h3 { 
             font-size: 0.75rem; color: var(--text-sub); margin: 0; 
             text-transform: uppercase; letter-spacing: 0.5px;
-            /* Ensure 1 row or clamp if too long */
             white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
         }
         
         .card .subject { font-size: 1.5rem; font-weight: 800; line-height: 1.2; }
         
         .card .detail { 
-            background: #fff; color: #333; font-size: 0.8rem; font-weight: 700; 
+            background: #f8f9fa !important; 
+            color: #2c3e50 !important; 
+            font-size: 0.8rem; font-weight: 700; 
             padding: 4px 8px; border-radius: 6px; display: inline-block; 
-            box-shadow: 0 1px 2px rgba(0,0,0,0.1); border: 1px solid #eee;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1); border: 1px solid #e1e4e8;
             margin-bottom: 8px;
         }
 
-        /* Batch Badge or Invisible Spacer */
-        .batch-container {
-            height: 24px; /* Fixed height for bottom area */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+        .batch-container { height: 24px; display: flex; align-items: center; justify-content: center; }
+        
         .card .batch-badge {
-            background: rgba(0,0,0,0.05); 
-            color: #000000; /* FORCE BLACK TEXT */
-            font-size: 0.75rem; 
-            font-weight: 700; 
-            padding: 3px 8px; 
-            border-radius: 4px; 
-            display: inline-block; 
-            border: 1px solid var(--border);
+            background: #f8f9fa !important; 
+            color: #2c3e50 !important;
+            font-size: 0.75rem; font-weight: 700; padding: 3px 8px; 
+            border-radius: 4px; display: inline-block; 
+            border: 1px solid #e1e4e8;
         }
 
         /* ============================
            TIMETABLE & SLOTS
            ============================ */
-        .timetable-wrapper { background: var(--card-bg); border-radius: 16px; box-shadow: var(--shadow-soft); overflow: hidden; position: relative; }
+        .timetable-wrapper { background: var(--card-bg); border-radius: 16px; box-shadow: var(--shadow-soft); overflow: hidden; position: relative; border: 1px solid var(--border); }
         .table-scroll-container { overflow-x: auto; -webkit-overflow-scrolling: touch; width: 100%; }
         
-        /* INCREASED MIN-WIDTH FOR TABLE TO ACCOMMODATE WIDER COLUMNS */
-        table { border-collapse: separate; border-spacing: 0; min-width: 950px; table-layout: fixed; }
+        table { border-collapse: separate; border-spacing: 0; min-width: 950px; width: 100%; table-layout: fixed; }
 
         th { background: var(--primary); color: #fff; padding: 12px 4px; font-size: 0.8rem; text-transform: uppercase; position: sticky; top: 0; z-index: 20; }
         body.dark-mode th { color: #121212; }
 
         .time-col { 
-            position: sticky; left: 0; background: var(--card-bg); width: 85px; z-index: 25; 
+            position: sticky; left: 0; background: var(--card-bg); width: 115px; z-index: 25; 
             border-right: 1px solid var(--border); font-size: 0.75rem; font-weight: 700; 
             color: var(--text-sub); text-align: center; padding: 0 4px; 
             box-shadow: 2px 0 5px rgba(0,0,0,0.05);
             display: flex; align-items: center; justify-content: center;
+            white-space: nowrap;
         }
         td.time-col-cell { padding: 0; height: 140px; } 
-
-        th:first-child { position: sticky; left: 0; z-index: 30; background: var(--primary); width: 85px; box-shadow: 2px 0 5px rgba(0,0,0,0.1); }
-
+        th:first-child { position: sticky; left: 0; z-index: 30; background: var(--primary); width: 115px; box-shadow: 2px 0 5px rgba(0,0,0,0.1); }
         td { border-bottom: 1px solid var(--border); border-right: 1px solid var(--border); padding: 6px; vertical-align: top; height: 140px; }
-        
-        /* INCREASED MIN-WIDTH FROM 105px TO 145px HERE */
-        th:not(:first-child), td:not(.time-col-cell) { width: calc((100% - 85px) / 6); min-width: 145px; }
+        th:not(:first-child), td:not(.time-col-cell) { width: calc((100% - 115px) / 6); min-width: 140px; }
 
-        /* SLOT ANIMATIONS & STYLING */
         .slot, .split-item { 
             height: 100%; width: 100%; border-radius: 10px; 
             display: flex; flex-direction: column; justify-content: center; align-items: center; 
-            text-align: center; position: relative; padding: 28px 4px 8px 4px; /* More top padding for emoji */
+            text-align: center; position: relative; padding: 28px 4px 8px 4px; 
             box-shadow: var(--slot-shadow); overflow: visible; 
             transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
         }
-        
-        .slot:hover, .split-item:hover {
-            transform: translateY(-6px) scale(1.03);
-            z-index: 50;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-        }
-
+        .slot:hover, .split-item:hover { transform: translateY(-6px) scale(1.03); z-index: 50; box-shadow: 0 10px 25px rgba(0,0,0,0.15); }
         .slot-collision { background: transparent; box-shadow: none; padding: 0; pointer-events: none; }
         .slot-split { display: flex; width: 100%; height: 100%; gap: 4px; pointer-events: auto; }
         .split-item { flex: 1; min-width: 0; font-size: 0.9em; }
-
         .slot-title { font-weight: 800; font-size: 1.2rem; margin-bottom: 4px; line-height: 1.1; }
         .room-tag { background: rgba(255,255,255,0.85); color: #000; font-size: 0.85rem; font-weight: 700; padding: 4px 8px; border-radius: 6px; display: inline-block; }
         
-        /* LAB EMOJI: TOP CENTER & LARGE */
         .lab-tag { 
-            position: absolute; 
-            top: 4px; 
-            left: 50%; 
-            transform: translateX(-50%); 
-            font-size: 2rem; 
-            line-height: 1;
-            z-index: 5;
-            filter: drop-shadow(0 2px 2px rgba(0,0,0,0.1));
+            position: absolute; top: 4px; left: 50%; transform: translateX(-50%); 
+            font-size: 2rem; line-height: 1; z-index: 5; filter: drop-shadow(0 2px 2px rgba(0,0,0,0.1));
         }
 
-        /* SUPER SMOOTH LUNCH ANIMATION */
+        /* ============================
+           LIVE SLOT STYLING (Updated)
+           ============================ */
+        .live-active {
+            /* Keep green outline */
+            box-shadow: 0 0 0 3px var(--live-color) !important;
+            z-index: 10;
+            
+            /* Darken background slightly */
+            filter: brightness(0.92);
+            
+            /* Remove distinct left border (make it plane) */
+            border-left-style: none !important;
+            
+            /* Adjust padding to compensate for missing border (4px original + 4px border = 8px) */
+            padding-left: 8px !important;
+        }
+
+        .live-badge {
+            position: absolute; top: -12px; left: 50%; transform: translateX(-50%);
+            background: var(--live-color); color: white; font-family: 'Cascadia Code', monospace;
+            font-weight: 600; font-size: 0.85rem; padding: 2px 12px; border-radius: 6px;
+            box-shadow: 0 4px 6px rgba(46, 204, 113, 0.3); z-index: 60; letter-spacing: 1px;
+        }
+
+        /* ============================
+           LUNCH BREAK - SMOOTH POP ANIMATION
+           ============================ */
         .break { 
             background: linear-gradient(120deg, var(--bg) 0%, var(--card-bg) 50%, var(--bg) 100%);
             background-size: 200% 200%;
-            color: var(--text-sub); font-style: italic; vertical-align: middle; text-align: center; font-size: 0.9rem; font-weight: 600; 
-            position: relative; overflow: hidden;
+            font-family: 'Cascadia Code', monospace; 
+            font-weight: 600; font-size: 1.5rem; 
+            color: var(--text-sub); vertical-align: middle; text-align: center; 
+            position: relative; overflow: hidden; height: 140px; 
         }
         
-        #lunch-break.lunch-now { 
-            border: 2px solid var(--accent); 
-            /* Breathing background */
-            animation: lunchBreath 4s ease infinite; 
-        }
+        #lunch-break.lunch-now { border: 2px solid var(--accent); animation: lunchBreath 4s ease infinite; }
         @keyframes lunchBreath { 
             0% { background-position: 0% 50%; box-shadow: inset 0 0 15px rgba(52,152,219,0.05); } 
             50% { background-position: 100% 50%; box-shadow: inset 0 0 30px rgba(52,152,219,0.2); } 
             100% { background-position: 0% 50%; box-shadow: inset 0 0 15px rgba(52,152,219,0.05); } 
         }
 
-        /* Floating Lunch Emojis with Bezier for smooth float */
         .lunch-emoji {
             position: absolute; pointer-events: none; user-select: none;
-            bottom: -30px; font-size: 1.8rem;
-            will-change: transform, opacity;
-            /* Custom cubic-bezier for a "floaty" feel */
-            animation: floatUp 4s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+            bottom: -50px; font-size: 0.8rem; z-index: 4; will-change: transform;
         }
-        @keyframes floatUp {
-            0% { transform: translateY(0) scale(0.8) rotate(0deg); opacity: 0; }
-            10% { opacity: 1; }
-            90% { opacity: 1; }
-            100% { transform: translateY(-160px) scale(1.1) rotate(15deg); opacity: 0; }
+
+        .emoji-burst { animation: burstPop 0.2s ease-out forwards; }
+        @keyframes burstPop {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.4); opacity: 0.8; }
+            100% { transform: scale(2); opacity: 0; }
         }
-        .lb-text { position: relative; z-index: 5; background: rgba(255,255,255,0.9); padding: 4px 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+
+        .lb-text { 
+            position: relative; z-index: 10;
+            background: var(--card-bg); color: var(--text-main);
+            padding: 8px 16px; border-radius: 12px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08); border: 1px solid var(--border);
+        }
 
         .current-day-col { background-color: rgba(52, 152, 219, 0.05); }
         th.current-day-col { background-color: #34495e; border-bottom: 3px solid var(--accent); }
-        
-        /* LIVE INDICATOR BOX (Green Stylish Box) */
-        .live-active { 
-            box-shadow: 0 0 0 3px var(--live-color); 
-            z-index: 10;
-        }
-        /* The Green Box "LIVE" Badge */
-        .live-badge {
-            position: absolute;
-            top: -12px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: var(--live-color);
-            color: white;
-            font-family: 'Cascadia Code', 'Courier New', monospace;
-            font-weight: 600; /* SemiBold */
-            font-size: 0.85rem;
-            padding: 2px 12px;
-            border-radius: 6px;
-            box-shadow: 0 4px 6px rgba(46, 204, 113, 0.3);
-            z-index: 60;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-        }
 
-        /* Snowfall */
         .snowfall { position: absolute; inset: 0; overflow: hidden; pointer-events: none; opacity: 0.5; z-index: 2; }
-        .snowflake { position: absolute; color: white; animation: fall linear infinite; }
-        @keyframes fall { to { transform: translateY(180px); } }
+        .snowflake { 
+            position: absolute; 
+            color: white; 
+            top: -20px;
+            animation: fall linear forwards; 
+        }
+        @keyframes fall { 
+            0% { transform: translateY(0); opacity: 1; }
+            80% { opacity: 1; }
+            100% { transform: translateY(180px); opacity: 0; } 
+        }
 
-        /* FOOTER UPDATES */
         footer { 
-            text-align: center; 
-            font-family: 'Cascadia Code', monospace; /* Changed to Cascadia Code */
-            font-size: 1rem; /* Increased Size */
-            color: var(--text-sub); 
-            margin-top: 30px; 
-            font-weight: 600; /* SemiBold */
-            letter-spacing: 0.5px;
-            padding-bottom: 20px;
+            text-align: center; font-family: 'Cascadia Code', monospace; 
+            font-size: 1rem; color: var(--text-sub); margin-top: 30px; 
+            font-weight: 600; letter-spacing: 0.5px; padding-bottom: 20px;
         }
     </style>
 </head>
@@ -404,16 +452,23 @@
     <div id="timetable-page" class="hidden">
         <div class="container">
             <header>
-                <div class="header-top">
+                <div class="header-main">
                     <div class="profile-info">
                         <h1 id="user-name-display">Student</h1>
                         <p id="user-details-display">MIS: ---</p>
                     </div>
-                    <button class="theme-btn" onclick="toggleTheme()" id="theme-btn" aria-label="Toggle Theme">🌑</button>
+                    
+                    <div class="header-center">
+                        <button class="theme-btn" onclick="toggleTheme()" id="theme-btn" aria-label="Toggle Theme">
+                            <div class="bulb-glow"></div>
+                            <span class="theme-icon" id="theme-icon">🌙</span>
+                        </button>
+                    </div>
                 </div>
+                
                 <div class="status-bar">
-                    <div id="clock">--:--:--</div>
-                    <button class="logout-btn" onclick="logout()">EXIT</button>
+                    <div id="clock">Mon, 12:00:00 PM</div>
+                    <button class="logout-btn" onclick="logout()">Logout</button>
                 </div>
             </header>
 
@@ -458,6 +513,7 @@
 
     let clockInterval;
     let currentUserSchedule = null;
+    let currentLiveSlotId = null;
 
     // Helpers
     const getGroupData = (code) => {
@@ -484,23 +540,34 @@
 
     // Initialization
     window.onload = function() {
-        if(localStorage.getItem('theme') === 'dark') {
+        const savedTheme = localStorage.getItem('theme');
+        if(savedTheme === 'dark') {
             document.body.classList.add('dark-mode');
-            document.getElementById('theme-btn').innerText = '💡';
         }
+        updateThemeIcon(); // Initialize correct icon
         
         const savedUser = localStorage.getItem('currentUserMIS');
         if(savedUser && typeof getStudentData === "function") {
             const data = getStudentData(savedUser);
             if(data) loadDashboard(data);
         }
+
+        // Animation Loop
+        requestAnimationFrame(animateLoop);
     };
 
     function toggleTheme() {
         document.body.classList.toggle('dark-mode');
         const isDark = document.body.classList.contains('dark-mode');
         localStorage.setItem('theme', isDark ? 'dark' : 'light');
-        document.getElementById('theme-btn').innerText = isDark ? '💡' : '🌑';
+        updateThemeIcon();
+    }
+
+    function updateThemeIcon() {
+        const isDark = document.body.classList.contains('dark-mode');
+        const icon = document.getElementById('theme-icon');
+        // If Dark Mode active, show Sun (switch to light), else Moon
+        if(icon) icon.innerText = isDark ? '☀️' : '🌙';
     }
 
     // Login
@@ -545,7 +612,7 @@
         document.getElementById('user-name-display').innerText = data.name || "Student";
         document.getElementById('user-details-display').innerHTML = data.info || `MIS: ${data.mis}`;
 
-        // Populate Cards (Top Strip) - U-SHAPED, BATCH INFO, ALIGNED
+        // Populate Cards (Top Strip)
         const container = document.getElementById('subject-cards-container');
         container.innerHTML = "";
         if (data.cards) {
@@ -554,12 +621,10 @@
                 const color = (group && group.color) || c.color || '#ccc';
                 const bg = (group && group.bg) || hexToRgba(color, 0.1);
                 
-                // Check if batch exists
                 const batchHtml = (c.batch && c.batch !== '-') 
                     ? `<div class="batch-badge">Batch: ${c.batch}</div>` 
                     : '';
 
-                // Border styles are now controlled by the class .card, but color injection for bottom/right borders:
                 container.innerHTML += `
                     <div class="card" style="border-color:${color}; border-bottom-color:${color}; border-right-color:${color}; background:${bg}">
                         <div class="card-top-content">
@@ -664,6 +729,123 @@
         });
     }
 
+    // ============================================
+    // ANIMATION LOOP
+    // ============================================
+    let activeEmojis = [];
+
+    function animateLoop() {
+        updateLunchAnimation();
+        updateSnowAnimation();
+        requestAnimationFrame(animateLoop);
+    }
+
+    // --- SMOOTH LUNCH BUBBLE LOGIC ---
+    function updateLunchAnimation() {
+        const lb = document.getElementById('lunch-break');
+        if (!lb || !lb.classList.contains('lunch-now')) {
+            activeEmojis.forEach(obj => obj.el.remove());
+            activeEmojis = [];
+            return;
+        }
+
+        const lbRect = lb.getBoundingClientRect();
+        const textEl = lb.querySelector('.lb-text');
+        const textRect = textEl ? textEl.getBoundingClientRect() : null;
+
+        // SPAWN: 30% chance/frame, Max 40 items
+        if (activeEmojis.length < 40 && Math.random() < 0.3) { 
+            const em = document.createElement('div');
+            em.className = 'lunch-emoji';
+            em.innerText = '🍽️';
+            
+            const startX = Math.random() * (lb.clientWidth - 30); 
+            const size = 0.8 + Math.random() * 0.8;
+            
+            em.style.left = startX + 'px';
+            em.style.fontSize = size + 'rem';
+            
+            lb.appendChild(em);
+
+            activeEmojis.push({
+                el: em,
+                y: -40,
+                // SMOOTH SPEED (2px - 3.5px)
+                speed: 2 + Math.random() * 2, 
+                // LOW WOBBLE
+                wobble: Math.random() * Math.PI * 2
+            });
+        }
+
+        for (let i = activeEmojis.length - 1; i >= 0; i--) {
+            const obj = activeEmojis[i];
+            
+            obj.y += obj.speed;
+            
+            // VERY GENTLE WOBBLE
+            obj.wobble += 0.05; 
+            const xOffset = Math.sin(obj.wobble) * 4; 
+            
+            obj.el.style.transform = `translate(${xOffset}px, -${obj.y}px)`;
+
+            const emRect = obj.el.getBoundingClientRect();
+
+            // SOAP BUBBLE POP CHECK
+            if (textRect && 
+                emRect.top < textRect.bottom &&
+                emRect.bottom > textRect.top &&
+                emRect.right > textRect.left &&
+                emRect.left < textRect.right) {
+                
+                obj.el.classList.add('emoji-burst');
+                activeEmojis.splice(i, 1);
+                setTimeout(() => { if(obj.el.parentNode) obj.el.remove(); }, 200);
+                continue;
+            }
+
+            if (obj.y > lbRect.height - 30) {
+                 obj.el.style.opacity = Math.max(0, 1 - (obj.y - (lbRect.height - 30)) / 20);
+            }
+
+            if (obj.y > lbRect.height + 20) {
+                obj.el.remove();
+                activeEmojis.splice(i, 1);
+            }
+        }
+    }
+
+    // --- CONTINUOUS RANDOM SNOW LOGIC ---
+    function updateSnowAnimation() {
+        if (!currentLiveSlotId) return;
+
+        const el = document.getElementById(currentLiveSlotId);
+        if (!el || !el.classList.contains('live-active')) return;
+
+        let snowContainer = el.querySelector('.snowfall');
+        if (!snowContainer) {
+            snowContainer = document.createElement('div');
+            snowContainer.className = 'snowfall';
+            el.appendChild(snowContainer);
+        }
+
+        // Random Spawn (10% chance per frame)
+        if (Math.random() < 0.1) {
+            const flake = document.createElement('div');
+            flake.className = 'snowflake';
+            flake.innerText = '❄️';
+            
+            flake.style.left = Math.random() * 100 + '%';
+            flake.style.fontSize = (10 + Math.random() * 10) + 'px';
+            const duration = 1.5 + Math.random() * 2;
+            flake.style.animationDuration = duration + 's';
+            flake.style.opacity = 0.5 + Math.random() * 0.5;
+
+            snowContainer.appendChild(flake);
+
+            setTimeout(() => { if(flake.parentNode) flake.remove(); }, duration * 1000);
+        }
+    }
+
     function updateClock() {
         const now = new Date();
         const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
@@ -677,17 +859,16 @@
             el.classList.remove('live-active');
             const b = el.querySelector('.live-badge');
             if(b) b.remove();
-            const s = el.querySelector('.snowfall');
-            if(s) s.remove();
+            if (el.id !== currentLiveSlotId) {
+                const s = el.querySelector('.snowfall');
+                if(s) s.remove();
+            }
         });
+        currentLiveSlotId = null; 
+
         document.querySelectorAll('.current-day-col').forEach(el => el.classList.remove('current-day-col'));
 
-        // Clear Lunch
         const lb = document.getElementById('lunch-break');
-        if (lb) {
-            lb.classList.remove('lunch-now');
-            lb.querySelectorAll('.lunch-emoji').forEach(e => e.remove());
-        }
 
         if (dayIdx === 0 || !currentUserSchedule) return; 
 
@@ -710,17 +891,11 @@
         else if (min >= 1050 && min < 1110) slotId = "1730";
 
         if (slotId === '1230' && lb) {
-             lb.classList.add('lunch-now');
-             const count = 3 + Math.floor(Math.random() * 3);
-             for(let i=0; i<count; i++) {
-                 const em = document.createElement('div');
-                 em.className = 'lunch-emoji';
-                 em.innerText = '🍽️';
-                 em.style.left = (10 + Math.random()*80) + '%';
-                 em.style.animationDuration = (3 + Math.random()*3) + 's';
-                 em.style.animationDelay = (Math.random()*2) + 's';
-                 lb.appendChild(em);
-             }
+             if (!lb.classList.contains('lunch-now')) lb.classList.add('lunch-now');
+        } else {
+            if (lb && lb.classList.contains('lunch-now')) {
+                lb.classList.remove('lunch-now');
+            }
         }
 
         if (slotId && slotId !== '1230') {
@@ -740,30 +915,13 @@
 
             if (el) {
                 el.classList.add('live-active');
+                currentLiveSlotId = el.id; 
                 
-                // ADD LIVE BADGE
                 if (!el.querySelector('.live-badge')) {
                     const badge = document.createElement('div');
                     badge.className = 'live-badge';
                     badge.innerText = 'LIVE';
                     el.appendChild(badge);
-                }
-
-                // Add Snow
-                if (!el.querySelector('.snowfall')) {
-                    const snow = document.createElement('div');
-                    snow.className = 'snowfall';
-                    for(let i=0; i<8; i++) {
-                        const flake = document.createElement('div');
-                        flake.className = 'snowflake';
-                        flake.innerText = '❄️';
-                        flake.style.left = Math.random()*100 + '%';
-                        flake.style.animationDuration = (3+Math.random()*5)+'s';
-                        flake.style.opacity = 0.6;
-                        flake.style.fontSize = (10+Math.random()*10)+'px';
-                        snow.appendChild(flake);
-                    }
-                    el.appendChild(snow);
                 }
             }
         }

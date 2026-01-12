@@ -301,13 +301,13 @@ const MASTER_SCHEDULE = {
             "B4": { "mon-0830": { type: "lab", room: "RDOS LAB", span: 2 } }
         }
     },
-    "DPV": {
+    "LAB": {
         "Div 1": {
             "mon-1330": { type: "lec", room: "NC01" },
-            "B1": { "wed-1630": { type: "lab", room: "Unknown", span: 2 } },
-            "B2": { "mon-1630": { type: "lab", room: "Unknown", span: 2 } },
-            "B3": { "thu-1030": { type: "lab", room: "NC11", span: 2 } },
-            "B4": { "mon-0830": { type: "lab", room: "Unknown", span: 2 } }
+            "B1": { "wed-1630": { type: "lab", room: "LAB", span: 2 } },
+            "B2": { "mon-1630": { type: "lab", room: "LAB", span: 2 } },
+            "B3": { "thu-1030": { type: "lab", room: "LAB", span: 2 } },
+            "B4": { "mon-0830": { type: "lab", room: "LAB", span: 2 } }
         }
     },
     "DPI": {
@@ -362,13 +362,13 @@ const MASTER_SCHEDULE = {
             "B4": { "fri-0830": { type: "lab", room: "PP LAB", span: 2 } }
         },
         "Div 4": {
-            "mon-1330": { type: "lec", room: "Unknown" },
+            "mon-1330": { type: "lec", room: "NC10" },
             "B1": { "tue-1030": { type: "lab", room: "PP LAB", span: 2 } },
             "B2": { "tue-1030": { type: "lab", room: "PP LAB", span: 2 } },
             "B3": { "tue-1030": { type: "lab", room: "PP LAB", span: 2 } },
         },
         "Div 5": {
-            "mon-1330": { type: "lec", room: "Unknown" },
+            "mon-1330": { type: "lec", room: "NC10" },
             "B1": { "mon-1030": { type: "lab", room: "PP LAB", span: 2 } },
             "B2": { "mon-1030": { type: "lab", room: "PP LAB", span: 2 } },
             "B3": { "mon-1030": { type: "lab", room: "PP LAB", span: 2 } },

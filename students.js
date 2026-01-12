@@ -17133,13 +17133,6 @@ const GENERATED_DB = {
         "batch": "B1"
       },
       {
-        "code": "QP",
-        "name": "Quantum Phy",
-        "color": "#2980b9",
-        "div": "Div 4",
-        "batch": "B1"
-      },
-      {
         "code": "NM",
         "name": "Subject",
         "color": "#95a5a6",
@@ -54480,6 +54473,55 @@ const GENERATED_DB = {
     ],
     "schedule": {}
   },
+  "612515371": {
+    "name": "Student",
+    "info": "MIS: 612515371",
+    "cards": [
+      {
+        "code": "QP",
+        "name": "Quantum Phy",
+        "color": "#2980b9",
+        "div": "Div 4",
+        "batch": "B1"
+      },
+      {
+        "code": "EEU",
+        "name": "Subject",
+        "color": "#95a5a6",
+        "div": "Div 2",
+        "batch": "-"
+      },
+      {
+        "code": "DS",
+        "name": "Discrete Struct",
+        "color": "#16a085",
+        "div": "Div 4",
+        "batch": "B3"
+      },
+      {
+        "code": "PS",
+        "name": "Prob & Stats",
+        "color": "#8e44ad",
+        "div": "Div 5",
+        "batch": "B4"
+      },
+      {
+        "code": "CS",
+        "name": "Comm Skills",
+        "color": "#c0392b",
+        "div": "Div 6",
+        "batch": "B2"
+      },
+      {
+        "code": "PP",
+        "name": "Subject",
+        "color": "#95a5a6",
+        "div": "Div 4",
+        "batch": "B1"
+      }
+    ],
+    "schedule": {}
+  },
   "612515414": {
     "name": "Student",
     "info": "MIS: 612515414",
@@ -70799,48 +70841,6 @@ const GENERATED_DB = {
         "name": "Subject",
         "color": "#95a5a6",
         "div": "Div 5",
-        "batch": "B1"
-      }
-    ],
-    "schedule": {}
-  },
-  "612515371": {
-    "name": "Student",
-    "info": "MIS: 612515371",
-    "cards": [
-      {
-        "code": "EEU",
-        "name": "Subject",
-        "color": "#95a5a6",
-        "div": "Div 2",
-        "batch": "-"
-      },
-      {
-        "code": "DS",
-        "name": "Discrete Struct",
-        "color": "#16a085",
-        "div": "Div 4",
-        "batch": "B3"
-      },
-      {
-        "code": "PS",
-        "name": "Prob & Stats",
-        "color": "#8e44ad",
-        "div": "Div 5",
-        "batch": "B4"
-      },
-      {
-        "code": "CS",
-        "name": "Comm Skills",
-        "color": "#c0392b",
-        "div": "Div 6",
-        "batch": "B2"
-      },
-      {
-        "code": "PP",
-        "name": "Subject",
-        "color": "#95a5a6",
-        "div": "Div 4",
         "batch": "B1"
       }
     ],
