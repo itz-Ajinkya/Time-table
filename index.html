@@ -28,6 +28,8 @@
             --error: #e74c3c;
             --clock-color: #2980b9;
             --header-border: 1px solid #e1e4e8;
+            --clash-bg: #fff0f0;
+            --clash-text: #c0392b;
         }
 
         /* Dark Mode Overrides */
@@ -46,6 +48,8 @@
             --slot-shadow: 0 2px 5px rgba(0,0,0,0.3);
             --clock-color: #4fabff;
             --header-border: 1px solid #333;
+            --clash-bg: #2c1e1e;
+            --clash-text: #e74c3c;
         }
         
         * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -105,7 +109,7 @@
         .prefix { 
             font-family: 'Cascadia Code', monospace; 
             font-weight: 700; 
-            font-size: 2rem; /* Larger */
+            font-size: 2rem; 
             opacity: 0.6; 
             margin-right: 4px; 
             letter-spacing: 1px;
@@ -114,9 +118,9 @@
             border: none; 
             background: transparent; 
             padding: 14px 0; 
-            font-size: 2rem; /* Larger */
+            font-size: 2rem; 
             font-family: 'Cascadia Code', monospace; 
-            font-weight: 700; /* Super Bold */
+            font-weight: 700; 
             color: var(--text-main); 
             width: 100%; 
             outline: none; 
@@ -158,13 +162,18 @@
 
         .profile-info { flex: 1; }
         .profile-info h1 { margin: 0; font-size: 1.5rem; font-weight: 700; color: var(--text-main); }
-        .profile-info p { margin: 6px 0 0; color: var(--text-sub); font-size: 0.85rem; font-family: monospace; opacity: 0.8; }
-
-        /* --- UPDATED THEME SWITCHER (Right Side) --- */
+        .profile-info p { 
+            margin: 4px 0 0; 
+            color: var(--text-main);          /* Darker color for better visibility */
+            font-size: 1.4rem;                /* Much larger size */
+            font-family: 'Cascadia Code', monospace; 
+            font-weight: 800;                 /* Super Bold */
+            opacity: 1;                       /* Removed transparency */
+            letter-spacing: 1px;
+        }
         .header-center {
             display: flex;
             align-items: center;
-            /* Removed absolute centering to let flexbox push it right */
         }
 
         .theme-btn {
@@ -196,13 +205,11 @@
             z-index: -1;
         }
 
-        /* Glow effect for Light Mode (Sun) */
         body:not(.dark-mode) .bulb-glow {
             background: rgba(255, 160, 0, 0.1);
             box-shadow: 0 0 15px 5px rgba(255, 160, 0, 0.2);
         }
         
-        /* Glow effect for Dark Mode (Moon) */
         body.dark-mode .bulb-glow {
             background: rgba(255, 255, 255, 0.05);
             box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.1);
@@ -345,20 +352,13 @@
         }
 
         /* ============================
-           LIVE SLOT STYLING (Updated)
+           LIVE SLOT STYLING
            ============================ */
         .live-active {
-            /* Keep green outline */
             box-shadow: 0 0 0 3px var(--live-color) !important;
             z-index: 10;
-            
-            /* Darken background slightly */
             filter: brightness(0.92);
-            
-            /* Remove distinct left border (make it plane) */
             border-left-style: none !important;
-            
-            /* Adjust padding to compensate for missing border (4px original + 4px border = 8px) */
             padding-left: 8px !important;
         }
 
@@ -428,6 +428,21 @@
             font-size: 1rem; color: var(--text-sub); margin-top: 30px; 
             font-weight: 600; letter-spacing: 0.5px; padding-bottom: 20px;
         }
+        
+        /* CLASH FOOTER NOTE */
+        .clash-note {
+            text-align: center; 
+            font-family: 'Cascadia Code', monospace; 
+            font-size: 0.85rem; 
+            color: var(--clash-text); 
+            background: var(--clash-bg);
+            padding: 10px;
+            border-radius: 8px;
+            margin: 10px auto 0 auto;
+            max-width: 400px;
+            border: 1px dashed var(--clash-text);
+            display: none; /* Hidden by default */
+        }
     </style>
 </head>
 <body>
@@ -436,7 +451,7 @@
         <div class="login-card">
             <h1>🗓️ Timetable</h1>
             <p>Mobile Edition (Sem II)</p>
-            <div style="text-align:left; font-weight:600; margin-bottom:8px; color:var(--text-main); font-size:0.9rem;">MIS Number</div>
+            <div style="text-align:left; font-weight:700; margin-bottom:8px; color:var(--text-main); font-size:1.2rem; font-family: 'Cascadia Code', monospace;">MIS Number</div>
             <div class="mis-input-wrapper">
                 <span class="prefix">6125</span>
                 <input type="tel" id="mis-input" placeholder="*****" maxlength="5" autocomplete="off" inputmode="numeric">
@@ -493,6 +508,10 @@
                 </div>
             </div>
             
+            <div id="clash-footer" class="clash-note">
+                ⚠️ Clash Detected! Schedule will be fixed later...
+            </div>
+            
             <footer>Designed by Ajinkya Patil [AIML]</footer>
         </div>
     </div>
@@ -544,7 +563,7 @@
         if(savedTheme === 'dark') {
             document.body.classList.add('dark-mode');
         }
-        updateThemeIcon(); // Initialize correct icon
+        updateThemeIcon();
         
         const savedUser = localStorage.getItem('currentUserMIS');
         if(savedUser && typeof getStudentData === "function") {
@@ -566,7 +585,6 @@
     function updateThemeIcon() {
         const isDark = document.body.classList.contains('dark-mode');
         const icon = document.getElementById('theme-icon');
-        // If Dark Mode active, show Sun (switch to light), else Moon
         if(icon) icon.innerText = isDark ? '☀️' : '🌙';
     }
 
@@ -599,20 +617,113 @@
         location.reload();
     }
 
+    // --- NEW: Fix Hidden Span Collisions ---
+    function fixSpanCollisions(schedule) {
+        const timeSlots = ["0830", "0930", "1030", "1130", "1230", "1330", "1430", "1530", "1630", "1730"];
+        const days = ["mon", "tue", "wed", "thu", "fri", "sat"];
+        let hasCollision = false;
+
+        days.forEach(day => {
+            // Check for explicit array collisions first
+            timeSlots.forEach(slot => {
+                const k = `${day}-${slot}`;
+                if (Array.isArray(schedule[k]) && schedule[k].length > 1) {
+                    hasCollision = true;
+                }
+            });
+
+            // Check for hidden span collisions
+            for (let i = 0; i < timeSlots.length; i++) {
+                const currentSlot = timeSlots[i];
+                const key = `${day}-${currentSlot}`;
+                let entry = schedule[key];
+
+                if (!entry) continue;
+
+                // Handle Arrays (check if any item in array overlaps next slot)
+                if (Array.isArray(entry)) {
+                    entry.forEach(subEntry => {
+                        if (subEntry.span && subEntry.span > 1) {
+                             // Check overlap
+                             for (let j = 1; j < subEntry.span; j++) {
+                                 if (i + j >= timeSlots.length) break;
+                                 const nextKey = `${day}-${timeSlots[i+j]}`;
+                                 if (schedule[nextKey]) {
+                                     hasCollision = true; // Overlap detected!
+                                     // We can't easily "split" inside an array without complex logic,
+                                     // but marking it is usually enough. 
+                                     // Ideally, we force the next slot to render.
+                                     // The rendering loop relies on 'skipped' array.
+                                     // If we don't modify the data, the renderer will skip the next slot.
+                                     // FIX: Force span to 1 to reveal the collision.
+                                     subEntry.span = 1; 
+                                 }
+                             }
+                        }
+                    });
+                } 
+                // Handle Single Entry
+                else if (entry.span && entry.span > 1) {
+                    let overlapFound = false;
+                    for (let j = 1; j < entry.span; j++) {
+                        if (i + j >= timeSlots.length) break;
+                        const nextKey = `${day}-${timeSlots[i+j]}`;
+                        if (schedule[nextKey]) {
+                            overlapFound = true;
+                            break;
+                        }
+                    }
+
+                    if (overlapFound) {
+                        hasCollision = true;
+                        
+                        // EXPLODE THE SPAN
+                        // 1. Save original info
+                        const originalSpan = entry.span;
+                        const baseEntry = { ...entry, span: 1 };
+                        
+                        // 2. Replace current slot with span-1
+                        schedule[key] = baseEntry;
+
+                        // 3. Propagate the rest of the class to subsequent slots
+                        for (let j = 1; j < originalSpan; j++) {
+                             if (i + j >= timeSlots.length) break;
+                             const nextKey = `${day}-${timeSlots[i+j]}`;
+                             const nextEntryClone = { ...baseEntry };
+                             
+                             // If next slot exists, merge into array
+                             if (schedule[nextKey]) {
+                                 if (Array.isArray(schedule[nextKey])) {
+                                     schedule[nextKey].push(nextEntryClone);
+                                 } else {
+                                     schedule[nextKey] = [schedule[nextKey], nextEntryClone];
+                                 }
+                             } else {
+                                 schedule[nextKey] = nextEntryClone;
+                             }
+                        }
+                    }
+                }
+            }
+        });
+        
+        return hasCollision;
+    }
+
     function loadDashboard(data) {
         document.getElementById('home-page').classList.add('hidden');
         document.getElementById('timetable-page').classList.remove('hidden');
 
-        // Start Clock immediately
+        // Start Clock
         if (clockInterval) clearInterval(clockInterval);
         updateClock();
         clockInterval = setInterval(updateClock, 1000);
 
-        // Populate Header
+        // Header
         document.getElementById('user-name-display').innerText = data.name || "Student";
         document.getElementById('user-details-display').innerHTML = data.info || `MIS: ${data.mis}`;
 
-        // Populate Cards (Top Strip)
+        // Cards
         const container = document.getElementById('subject-cards-container');
         container.innerHTML = "";
         if (data.cards) {
@@ -640,6 +751,19 @@
                     </div>
                 `;
             });
+        }
+
+        // 1. Process Collisions
+        // We clone the schedule to avoid mutating the original logic.js object permanently if needed
+        // but here we likely want to mutate 'data.schedule' for display purposes.
+        const collisionDetected = fixSpanCollisions(data.schedule);
+        
+        // 2. Show Footer Note if Collision
+        const footerNote = document.getElementById('clash-footer');
+        if (collisionDetected) {
+            footerNote.style.display = 'block';
+        } else {
+            footerNote.style.display = 'none';
         }
 
         renderTable(data);
@@ -740,7 +864,6 @@
         requestAnimationFrame(animateLoop);
     }
 
-    // --- SMOOTH LUNCH BUBBLE LOGIC ---
     function updateLunchAnimation() {
         const lb = document.getElementById('lunch-break');
         if (!lb || !lb.classList.contains('lunch-now')) {
@@ -753,7 +876,6 @@
         const textEl = lb.querySelector('.lb-text');
         const textRect = textEl ? textEl.getBoundingClientRect() : null;
 
-        // SPAWN: 30% chance/frame, Max 40 items
         if (activeEmojis.length < 40 && Math.random() < 0.3) { 
             const em = document.createElement('div');
             em.className = 'lunch-emoji';
@@ -770,27 +892,20 @@
             activeEmojis.push({
                 el: em,
                 y: -40,
-                // SMOOTH SPEED (2px - 3.5px)
                 speed: 2 + Math.random() * 2, 
-                // LOW WOBBLE
                 wobble: Math.random() * Math.PI * 2
             });
         }
 
         for (let i = activeEmojis.length - 1; i >= 0; i--) {
             const obj = activeEmojis[i];
-            
             obj.y += obj.speed;
-            
-            // VERY GENTLE WOBBLE
             obj.wobble += 0.05; 
             const xOffset = Math.sin(obj.wobble) * 4; 
-            
             obj.el.style.transform = `translate(${xOffset}px, -${obj.y}px)`;
 
             const emRect = obj.el.getBoundingClientRect();
 
-            // SOAP BUBBLE POP CHECK
             if (textRect && 
                 emRect.top < textRect.bottom &&
                 emRect.bottom > textRect.top &&
@@ -814,7 +929,6 @@
         }
     }
 
-    // --- CONTINUOUS RANDOM SNOW LOGIC ---
     function updateSnowAnimation() {
         if (!currentLiveSlotId) return;
 
@@ -828,20 +942,16 @@
             el.appendChild(snowContainer);
         }
 
-        // Random Spawn (10% chance per frame)
         if (Math.random() < 0.1) {
             const flake = document.createElement('div');
             flake.className = 'snowflake';
             flake.innerText = '❄️';
-            
             flake.style.left = Math.random() * 100 + '%';
             flake.style.fontSize = (10 + Math.random() * 10) + 'px';
             const duration = 1.5 + Math.random() * 2;
             flake.style.animationDuration = duration + 's';
             flake.style.opacity = 0.5 + Math.random() * 0.5;
-
             snowContainer.appendChild(flake);
-
             setTimeout(() => { if(flake.parentNode) flake.remove(); }, duration * 1000);
         }
     }
@@ -867,9 +977,7 @@
         currentLiveSlotId = null; 
 
         document.querySelectorAll('.current-day-col').forEach(el => el.classList.remove('current-day-col'));
-
         const lb = document.getElementById('lunch-break');
-
         if (dayIdx === 0 || !currentUserSchedule) return; 
 
         const dayName = days[dayIdx].toLowerCase();
@@ -893,9 +1001,7 @@
         if (slotId === '1230' && lb) {
              if (!lb.classList.contains('lunch-now')) lb.classList.add('lunch-now');
         } else {
-            if (lb && lb.classList.contains('lunch-now')) {
-                lb.classList.remove('lunch-now');
-            }
+            if (lb && lb.classList.contains('lunch-now')) lb.classList.remove('lunch-now');
         }
 
         if (slotId && slotId !== '1230') {
@@ -916,7 +1022,6 @@
             if (el) {
                 el.classList.add('live-active');
                 currentLiveSlotId = el.id; 
-                
                 if (!el.querySelector('.live-badge')) {
                     const badge = document.createElement('div');
                     badge.className = 'live-badge';

@@ -1,131 +1,247 @@
 // --- MASTER SCHEDULE DATABASE ---
 const MASTER_SCHEDULE = {
     // ==========================================
-    // 1. VECTOR CALCULUS (VCDE)
+    // 1. AEIOT
     // ==========================================
-    "VCDE": {
-        "Div 1": { "tue-1030": { type: "lec", room: "NC01" }, "wed-0930": { type: "lec", room: "NC01" }, "fri-1330": { type: "lec", room: "NC01" }, "B1": { "wed-1030": { type: "lab", room: "NC12", span: 2 } }, "B2": { "wed-1030": { type: "lab", room: "NC12", span: 2 } }, "B3": { "thu-1030": { type: "lab", room: "NC12", span: 2 } }, "B4": { "thu-1030": { type: "lab", room: "NC12", span: 2 } } },
-        "Div 2": { "tue-1030": { type: "lec", room: "NC02" }, "wed-0930": { type: "lec", room: "NC02" }, "fri-1330": { type: "lec", room: "NC02" }, "B1": { "wed-1030": { type: "lab", room: "NC08", span: 2 } }, "B2": { "wed-1030": { type: "lab", room: "NC08", span: 2 } }, "B3": { "wed-1030": { type: "lab", room: "NC08", span: 2 } }, "B4": { "thu-1030": { type: "lab", room: "NC11", span: 2 } } },
-        "Div 3": { "wed-1130": { type: "lec", room: "NC01" }, "thu-1130": { type: "lec", room: "NC01" }, "fri-1130": { type: "lec", room: "NC01" }, "B1": { "mon-1030": { type: "lab", room: "NC13", span: 2 } }, "B2": { "thu-0830": { type: "lab", room: "NC14", span: 2 } }, "B3": { "thu-0830": { type: "lab", room: "NC14", span: 2 } }, "B4": { "thu-0830": { type: "lab", room: "NC14", span: 2 } } },
-        "Div 4": { "wed-1130": { type: "lec", room: "NC02" }, "thu-1130": { type: "lec", room: "NC02" }, "fri-1130": { type: "lec", room: "NC02" }, "B1": { "mon-1030": { type: "lab", room: "NC12", span: 2 } }, "B2": { "mon-1030": { type: "lab", room: "NC12", span: 2 } }, "B3": { "mon-1030": { type: "lab", room: "NC12", span: 2 } }, "B4": { "thu-0830": { type: "lab", room: "NC13", span: 2 } } },
-        "Div 5": { "wed-1130": { type: "lec", room: "NC03" }, "thu-1130": { type: "lec", room: "NC03" }, "fri-1130": { type: "lec", room: "NC03" }, "B1": { "mon-1030": { type: "lab", room: "NC11", span: 2 } }, "B2": { "mon-1030": { type: "lab", room: "NC11", span: 2 } }, "B3": { "mon-1030": { type: "lab", room: "NC11", span: 2 } }, "B4": { "mon-1030": { type: "lab", room: "NC11", span: 2 } } },
-        "Div 6": { "mon-1530": { type: "lec", room: "NC01" }, "tue-1630": { type: "lec", room: "NC01" }, "fri-1630": { type: "lec", room: "NC01" }, "B1": { "mon-1630": { type: "lab", room: "NC12", span: 2 } }, "B2": { "mon-1630": { type: "lab", room: "NC12", span: 2 } }, "B3": { "mon-1630": { type: "lab", room: "NC12", span: 2 } }, "B4": { "mon-1630": { type: "lab", room: "NC12", span: 2 } } },
-        "Div 7": { "mon-1530": { type: "lec", room: "NC02" }, "tue-1630": { type: "lec", room: "NC02" }, "fri-1630": { type: "lec", room: "NC02" }, "B1": { "mon-1630": { type: "lab", room: "NC11", span: 2 } }, "B2": { "mon-1630": { type: "lab", room: "NC11", span: 2 } }, "B3": { "fri-1430": { type: "lab", room: "NC12", span: 2 } }, "B4": { "fri-1430": { type: "lab", room: "NC12", span: 2 } } },
-        "Div 8": { "tue-1430": { type: "lec", room: "NC01" }, "wed-1630": { type: "lec", room: "NC01" }, "fri-1530": { type: "lec", room: "NC01" }, "B1": { "wed-1430": { type: "lab", room: "NC13", span: 2 } }, "B2": { "tue-1630": { type: "lab", room: "NC14", span: 2 } }, "B3": { "wed-1430": { type: "lab", room: "NC13", span: 2 } }, "B4": { "wed-1430": { type: "lab", room: "NC13", span: 2 } } },
-        "Div 9": { "tue-1430": { type: "lec", room: "NC02" }, "wed-1630": { type: "lec", room: "NC02" }, "fri-1530": { type: "lec", room: "NC02" }, "B1": { "tue-1630": { type: "lab", room: "NC13", span: 2 } }, "B2": { "wed-1430": { type: "lab", room: "NC12", span: 2 } }, "B3": { "wed-1430": { type: "lab", room: "NC12", span: 2 } }, "B4": { "wed-1430": { type: "lab", room: "NC12", span: 2 } } }
+    "AEIOT": {
+        "Div 1": { "tue-1330": { type: "lec", room: "NC 09" }, "wed-1330": { type: "lec", room: "NC 09" }, "thu-1330": { type: "lec", room: "NC 09" } },
+        "Div 2": { "tue-1330": { type: "lec", room: "NC 09" }, "wed-1330": { type: "lec", room: "NC 09" }, "thu-1330": { type: "lec", room: "NC 09" } },
+        "Div 3": { "tue-1330": { type: "lec", room: "NC 11" }, "wed-1330": { type: "lec", room: "NC 11" }, "thu-1330": { type: "lec", room: "NC 11" } }
     },
 
     // ==========================================
-    // 2. PROBABILITY & STATISTICS (PS)
+    // 2. APPLIED INDUSTRIAL MATHEMATICS (AIMA)
     // ==========================================
-    "PS": {
-        "Div 1": { "tue-1030": { type: "lec", room: "NC03" }, "wed-0930": { type: "lec", room: "NC03" }, "fri-1330": { type: "lec", room: "NC03" }, "B1": { "wed-1030": { type: "lab", room: "NC14", span: 2 } }, "B2": { "thu-1030": { type: "lab", room: "NC14", span: 2 } }, "B3": { "thu-1030": { type: "lab", room: "NC14", span: 2 } }, "B4": { "thu-1030": { type: "lab", room: "NC14", span: 2 } } },
-        "Div 2": { "tue-1030": { type: "lec", room: "NC04" }, "wed-0930": { type: "lec", room: "NC04" }, "fri-1330": { type: "lec", room: "NC04" }, "B1": { "wed-1030": { type: "lab", room: "NC13", span: 2 } }, "B2": { "wed-1030": { type: "lab", room: "NC13", span: 2 } }, "B3": { "thu-1030": { type: "lab", room: "NC13", span: 2 } }, "B4": { "thu-1630": { type: "lab", room: "NC14", span: 2 } } },
-        "Div 3": { "wed-1130": { type: "lec", room: "NC04" }, "thu-1130": { type: "lec", room: "NC04" }, "fri-1130": { type: "lec", room: "NC04" }, "B1": { "mon-1030": { type: "lab", room: "NC14", span: 2 } }, "B2": { "mon-1030": { type: "lab", room: "NC14", span: 2 } }, "B3": { "fri-0830": { type: "lab", room: "NC14", span: 2 } }, "B4": { "fri-0830": { type: "lab", room: "NC14", span: 2 } } },
-        "Div 4": { "mon-1530": { type: "lec", room: "NC03" }, "tue-1630": { type: "lec", room: "NC03" }, "fri-1630": { type: "lec", room: "NC03" }, "B1": { "mon-1630": { type: "lab", room: "NC14", span: 2 } }, "B2": { "fri-1430": { type: "lab", room: "NC14", span: 2 } }, "B3": { "fri-1430": { type: "lab", room: "NC14", span: 2 } }, "B4": { "fri-1430": { type: "lab", room: "NC14", span: 2 } } },
-        "Div 5": { "mon-1530": { type: "lec", room: "NC04" }, "tue-1630": { type: "lec", room: "NC04" }, "fri-1630": { type: "lec", room: "NC04" }, "B1": { "fri-1430": { type: "lab", room: "NC13", span: 2 } }, "B2": { "fri-1430": { type: "lab", room: "NC13", span: 2 } }, "B3": { "fri-1430": { type: "lab", room: "NC13", span: 2 } }, "B4": { "fri-1430": { type: "lab", room: "NC13", span: 2 } } },
-        "Div 6": { "mon-1530": { type: "lec", room: "NC08" }, "tue-1630": { type: "lec", room: "NC08" }, "fri-1630": { type: "lec", room: "NC08" }, "B1": { "mon-1630": { type: "lab", room: "NC13", span: 2 } }, "B2": { "mon-1630": { type: "lab", room: "NC13", span: 2 } }, "B3": { "mon-1630": { type: "lab", room: "NC13", span: 2 } }, "B4": { "mon-1630": { type: "lab", room: "NC13", span: 2 } } },
-        "Div 7": { "tue-1430": { type: "lec", room: "NC08" }, "wed-1630": { type: "lec", room: "NC04" }, "fri-1130": { type: "lec", room: "NC04" }, "B1": { "wed-1430": { type: "lab", room: "NC14", span: 2 } }, "B2": { "wed-1430": { type: "lab", room: "NC14", span: 2 } }, "B3": { "wed-1430": { type: "lab", room: "NC14", span: 2 } }, "B4": { "thu-1630": { type: "lab", room: "NC13", span: 2 } } }
+    "AIMA": {
+        "Div 1": { "tue-1330": { type: "lec", room: "NC 02" }, "wed-1330": { type: "lec", room: "NC 02" }, "thu-1330": { type: "lec", room: "NC 02" } },
+        "Div 2": { "tue-1330": { type: "lec", room: "NC 03" }, "wed-1330": { type: "lec", room: "NC 03" }, "thu-1330": { type: "lec", room: "NC 03" } },
+        "Div 3": { "tue-1330": { type: "lec", room: "NC 04" }, "wed-1330": { type: "lec", room: "NC 04" }, "thu-1330": { type: "lec", room: "NC 04" } }
     },
 
     // ==========================================
-    // 3. ENGINEERING PHYSICS (EP)
+    // 3. BCE
     // ==========================================
-    "EP": {
-        "Div 1": { "mon-1130": { type: "lec", room: "NC01" }, "tue-1130": { type: "lec", room: "NC01" }, "B1": { "mon-1630": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "mon-1630": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "tue-1630": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "tue-1630": { type: "lab", room: "EP LAB", span: 2 } } },
-        "Div 2": { "mon-0930": { type: "lec", room: "NC01" }, "tue-0930": { type: "lec", room: "NC01" }, "B1": { "mon-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "mon-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "tue-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "tue-1430": { type: "lab", room: "EP LAB", span: 2 } } },
-        "Div 3": { "mon-0930": { type: "lec", room: "NC02" }, "tue-0930": { type: "lec", room: "NC02" }, "B1": { "wed-1630": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "wed-1630": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "thu-1630": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "thu-1630": { type: "lab", room: "EP LAB", span: 2 } } },
-        "Div 4": { "wed-1530": { type: "lec", room: "NC08" }, "fri-1330": { type: "lec", room: "NC08" }, "B1": { "mon-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "mon-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "tue-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "tue-0830": { type: "lab", room: "EP LAB", span: 2 } } },
-        "Div 5": { "wed-1530": { type: "lec", room: "NC11" }, "fri-1330": { type: "lec", room: "NC11" }, "B1": { "wed-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "wed-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "thu-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "thu-0830": { type: "lab", room: "EP LAB", span: 2 } } },
-        "Div 6": { "thu-1430": { type: "lec", room: "NC01" }, "fri-1430": { type: "lec", room: "NC01" }, "B1": { "mon-1030": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "mon-1030": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "tue-1030": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "tue-1030": { type: "lab", room: "EP LAB", span: 2 } } },
-        "Div 7": { "thu-1430": { type: "lec", room: "NC02" }, "fri-1430": { type: "lec", room: "NC02" }, "B1": { "mon-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "wed-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "tue-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "thu-0830": { type: "lab", room: "EP LAB", span: 2 } } },
+    "BCE": {
+        "Div 1": { "tue-1330": { type: "lec", room: "NC 01" }, "wed-1330": { type: "lec", room: "NC 01" }, "thu-1330": { type: "lec", room: "NC 01" } }
     },
 
     // ==========================================
-    // 4. QUANTUM PHYSICS (QP)
+    // 4. BASICS OF MEASUREMENT & SENSORS (BMS)
     // ==========================================
-    "QP": {
-        "Div 1": { "mon-1130": { type: "lec", room: "NC02" }, "tue-1130": { type: "lec", room: "NC02" }, "B1": { "wed-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "wed-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "thu-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "thu-1430": { type: "lab", room: "EP LAB", span: 2 } } },
-        "Div 2": { "mon-1130": { type: "lec", room: "NC03" }, "tue-1130": { type: "lec", room: "NC03" }, "B1": { "fri-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "fri-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "fri-1630": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "fri-1630": { type: "lab", room: "EP LAB", span: 2 } } },
-        "Div 3": { "wed-1530": { type: "lec", room: "NC01" }, "fri-1330": { type: "lec", room: "NC12" }, "B1": { "fri-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "fri-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "fri-1030": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "fri-1030": { type: "lab", room: "EP LAB", span: 2 } } },
-        "Div 4": { "wed-1530": { type: "lec", room: "NC02" }, "fri-1330": { type: "lec", room: "NC13" }, "B1": { "thu-1030": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "thu-1030": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "wed-1030": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "wed-1030": { type: "lab", room: "EP LAB", span: 2 } } },
-        "Div 5": { "mon-1130": { type: "lec", room: "NC04" }, "tue-1130": { type: "lec", room: "NC04" }, "B1": { "fri-1430": { type: "lab", room: "Cognizant", span: 2 } }, "B2": { "fri-1430": { type: "lab", room: "Cognizant", span: 2 } }, "B3": { "tue-1630": { type: "lab", room: "Cognizant", span: 2 } }, "B4": { "tue-1630": { type: "lab", room: "Cognizant", span: 2 } } },
-        "Div 6": { "mon-0930": { type: "lec", room: "NC04" }, "tue-0930": { type: "lec", room: "NC12" }, "B1": { "wed-1630": { type: "lab", room: "Cognizant", span: 2 } }, "B2": { "wed-1630": { type: "lab", room: "Cognizant", span: 2 } }, "B3": { "thu-1430": { type: "lab", room: "Cognizant", span: 2 } }, "B4": { "thu-1430": { type: "lab", room: "Cognizant", span: 2 } } },
-        "Div 7": { "wed-1530": { type: "lec", room: "NC03" }, "fri-1330": { type: "lec", room: "NC14" }, "B1": { "mon-0830": { type: "lab", room: "Cognizant", span: 2 } }, "B2": { "mon-0830": { type: "lab", room: "Cognizant", span: 2 } }, "B3": { "wed-1030": { type: "lab", room: "Cognizant", span: 2 } }, "B4": { "wed-1030": { type: "lab", room: "Cognizant", span: 2 } } }
-    },
-
-    // ==========================================
-    // 5. ENGINEERING CHEMISTRY (EC)
-    // ==========================================
-    "EC": {
-        "Div 1": { "mon-0930": { type: "lec", room: "NC03" }, "tue-0930": { type: "lec", room: "NC03" }, "B1": { "mon-1430": { type: "lab", room: "EC LAB", span: 2 } }, "B2": { "mon-1430": { type: "lab", room: "EC LAB", span: 2 } }, "B3": { "tue-1430": { type: "lab", room: "EC LAB", span: 2 } }, "B4": { "tue-1430": { type: "lab", room: "EC LAB", span: 2 } } },
-        "Div 2": { "thu-1430": { type: "lec", room: "NC03" }, "fri-1430": { type: "lec", room: "NC03" }, "B1": { "tue-1030": { type: "lab", room: "EC LAB", span: 2 } }, "B2": { "tue-1030": { type: "lab", room: "EC LAB", span: 2 } }, "B3": { "fri-0830": { type: "lab", room: "EC LAB", span: 2 } }, "B4": { "fri-0830": { type: "lab", room: "EC LAB", span: 2 } } }
-    },
-
-    // ==========================================
-    // 6. ENGINEERING MECHANICS (EM)
-    // ==========================================
-    "EM": {
+    "BMS": {
         "Div 1": {
-            "wed-1030": { type: "lec", room: "NC01" }, "thu-1030": { type: "lec", room: "NC01" }, "fri-1030": { type: "lec", room: "NC01" },
-            "B1": { "tue-1030": { type: "lab", room: "EM LAB", span: 2 } },
-            "B2": { "tue-1030": { type: "lab", room: "EM LAB", span: 2 } },
-            "B3": { "wed-0830": { type: "lab", room: "EM LAB", span: 2 } },
-            "B4": { "wed-0830": { type: "lab", room: "EM LAB", span: 2 } }
-        },
-        "Div 2": {
-            "tue-1530": { type: "lec", room: "NC01" }, "thu-1530": { type: "lec", room: "NC01" }, "wed-1730": { type: "lec", room: "NC01" },
-            "B1": { "mon-1430": { type: "lab", room: "EM LAB", span: 2 } },
-            "B2": { "mon-1430": { type: "lab", room: "EM LAB", span: 2 } },
-            "B3": { "fri-1630": { type: "lab", room: "EM LAB", span: 2 } },
-            "B4": { "fri-1630": { type: "lab", room: "EM LAB", span: 2 } }
+            "mon-1030": { type: "lec", room: "NC 10" }, "thu-0930": { type: "lec", room: "NC 10" }, "fri-0930": { type: "lec", room: "NC 10" },
+            "B1": { "mon-0830": { type: "lab", room: "BMS LAB", span: 2 } }, "B2": { "mon-0830": { type: "lab", room: "BMS LAB", span: 2 } },
+            "B3": { "tue-0830": { type: "lab", room: "BMS LAB", span: 2 } }, "B4": { "tue-0830": { type: "lab", room: "BMS LAB", span: 2 } }
         }
     },
 
     // ==========================================
-    // 7. DISCRETE STRUCTURES (DS)
+    // 5. BMT
+    // ==========================================
+    "BMT": {
+        "Div 1": { "tue-1330": { "type": "lec", "room": "NC 13" }, "wed-1330": { "type": "lec", "room": "NC 13" }, "thu-1330": { "type": "lec", "room": "NC 13" } }
+    },
+
+    // ==========================================
+    // 6. COMPUTER AIDED ENGINEERING DRAWING (CAED)
+    // ==========================================
+    "CAD": {
+        "Div 1": {
+            "mon-1330": { type: "lec", room: "NC 13" },
+            "B1": { "mon-1630": { type: "lab", room: "CAD LAB", span: 2 } },
+            "B2": { "mon-0830": { type: "lab", room: "CAD LAB", span: 2 } }
+        }
+    },
+    "CAED": {
+        "Div 1": {
+            "wed-1030": { type: "lec", room: "NC 03" }, "thu-1030": { type: "lec", room: "NC 03" }, "fri-1030": { type: "lec", room: "NC 03" },
+            "B1": { "tue-1030": { type: "lab", room: "CAED LAB", span: 2 } }, "B2": { "tue-1030": { type: "lab", room: "CAED LAB", span: 2 } },
+            "B3": { "wed-0830": { type: "lab", room: "CAED LAB", span: 2 } }, "B4": { "wed-0830": { type: "lab", room: "CAED LAB", span: 2 } }
+        },
+        "Div 2": {
+            "tue-1530": { type: "lec", room: "NC 02" }, "thu-1530": { type: "lec", room: "NC 02" }, "wed-1730": { type: "lec", room: "NC 02" },
+            "B1": { "mon-1430": { type: "lab", room: "CAED LAB", span: 2 } }, "B2": { "mon-1430": { type: "lab", room: "CAED LAB", span: 2 } },
+            "B3": { "fri-1630": { type: "lab", room: "CAED LAB", span: 2 } }, "B4": { "fri-1630": { type: "lab", room: "CAED LAB", span: 2 } }
+        }
+    },
+
+    // ==========================================
+    // 7. COMMUNICATION SKILLS (CS)
+    // ==========================================
+    "CS": {
+        "Div 1": { "B1": { "mon-1430": { type: "lab", room: "CS LAB", span: 2 } }, "B2": { "mon-1430": { type: "lab", room: "CS LAB", span: 2 } }, "B3": { "tue-1430": { type: "lab", room: "CS LAB", span: 2 } }, "B4": { "tue-1430": { type: "lab", room: "CS LAB", span: 2 } } },
+        "Div 2": { "B1": { "mon-1430": { type: "lab", room: "NC 11", span: 2 } }, "B2": { "mon-1430": { type: "lab", room: "NC 11", span: 2 } }, "B3": { "tue-1430": { type: "lab", room: "NC 11", span: 2 } }, "B4": { "tue-1430": { type: "lab", room: "NC 11", span: 2 } } },
+        "Div 3": { "B1": { "fri-1430": { type: "lab", room: "CS LAB", span: 2 } }, "B2": { "fri-1430": { type: "lab", room: "CS LAB", span: 2 } }, "B3": { "fri-1630": { type: "lab", room: "CS LAB", span: 2 } }, "B4": { "fri-1630": { type: "lab", room: "CS LAB", span: 2 } } },
+        "Div 4": { "B1": { "tue-1630": { type: "lab", room: "CS LAB", span: 2 } }, "B2": { "tue-1630": { type: "lab", room: "CS LAB", span: 2 } }, "B3": { "wed-1430": { type: "lab", room: "CS LAB", span: 2 } }, "B4": { "wed-1430": { type: "lab", room: "CS LAB", span: 2 } } },
+        "Div 5": { "B1": { "mon-1030": { type: "lab", room: "CS LAB", span: 2 } }, "B2": { "mon-1030": { type: "lab", room: "NC 09", span: 2 } }, "B3": { "tue-1030": { type: "lab", room: "CS LAB", span: 2 } }, "B4": { "tue-1030": { type: "lab", room: "NC 11", span: 2 } } },
+        "Div 6": { "B1": { "mon-1030": { type: "lab", room: "NC 08", span: 2 } }, "B2": { "mon-1030": { type: "lab", room: "NC 10", span: 2 } }, "B3": { "tue-1030": { type: "lab", room: "NC 08", span: 2 } }, "B4": { "tue-1030": { type: "lab", room: "NC 09", span: 2 } } },
+        "Div 7": { "B1": { "wed-1030": { type: "lab", room: "NC 11", span: 2 } }, "B2": { "wed-1030": { type: "lab", room: "CS LAB", span: 2 } }, "B3": { "thu-1030": { type: "lab", room: "NC 08", span: 2 } }, "B4": { "thu-1030": { type: "lab", room: "CS LAB", span: 2 } } }
+    },
+
+    // ==========================================
+    // 8. DPI
+    // ==========================================
+    "DPI": {
+        "Div 1": {
+            "mon-1230": { type: "lec", room: "NC 02" },
+            "B1": { "mon-1630": { type: "lab", room: "DPI LAB", span: 2 } },
+            "B2": { "thu-1030": { type: "lab", room: "DPI LAB", span: 2 } }
+        }
+    },
+
+    // ==========================================
+    // 9. DATA PRE-PROCESSING & VISUALIZATION (DPV)
+    // ==========================================
+    "DPV": {
+        "Div 1": {
+            "mon-1330": { type: "lec", room: "NC 01" },
+            "B1": { "wed-1630": { type: "lab", room: "DPV LAB", span: 2 } },
+            "B2": { "mon-1630": { type: "lab", room: "DPV LAB", span: 2 } },
+            "B3": { "thu-1030": { type: "lab", room: "DPV LAB", span: 2 } },
+            "B4": { "mon-0830": { type: "lab", room: "DPV LAB", span: 2 } }
+        }
+    },
+
+    // ==========================================
+    // 10. DISCRETE STRUCTURES (DS)
     // ==========================================
     "DS": {
         "Div 1": {
-            "mon-1030": { type: "lec", room: "NC01" }, "thu-0930": { type: "lec", room: "NC01" }, "fri-0930": { type: "lec", room: "NC01" },
+            "mon-1030": { type: "lec", room: "NC 01" }, "thu-0930": { type: "lec", room: "NC 01" }, "fri-0930": { type: "lec", room: "NC 01" },
             "B1": { "mon-0930": { type: "lab", room: "NC LAB", span: 1 } }, "B2": { "mon-0930": { type: "lab", room: "NC LAB", span: 1 } },
             "B3": { "tue-0930": { type: "lab", room: "NC LAB", span: 1 } }, "B4": { "tue-0930": { type: "lab", room: "NC LAB", span: 1 } }
         },
         "Div 2": {
-            "mon-1030": { type: "lec", room: "NC02" }, "thu-0930": { type: "lec", room: "NC02" }, "fri-0930": { type: "lec", room: "NC02" },
+            "mon-1030": { type: "lec", room: "NC 02" }, "thu-0930": { type: "lec", room: "NC 02" }, "fri-0930": { type: "lec", room: "NC 02" },
             "B1": { "thu-1130": { type: "lab", room: "NC LAB", span: 1 } }, "B2": { "fri-1130": { type: "lab", room: "NC LAB", span: 1 } },
             "B3": { "thu-1130": { type: "lab", room: "NC LAB", span: 1 } }, "B4": { "fri-1130": { type: "lab", room: "NC LAB", span: 1 } }
         },
         "Div 3": {
-            "mon-1430": { type: "lec", room: "NC01" }, "wed-1430": { type: "lec", room: "NC01" }, "tue-1730": { type: "lec", room: "NC01" },
+            "mon-1430": { type: "lec", room: "NC 01" }, "wed-1430": { type: "lec", room: "NC 01" }, "tue-1730": { type: "lec", room: "NC 01" },
             "B1": { "thu-1530": { type: "lab", room: "NC LAB", span: 1 } }, "B2": { "thu-1530": { type: "lab", room: "NC LAB", span: 1 } },
             "B3": { "tue-1530": { type: "lab", room: "NC LAB", span: 1 } }, "B4": { "tue-1530": { type: "lab", room: "NC LAB", span: 1 } }
         },
         "Div 4": {
-            "mon-1430": { type: "lec", room: "NC02" }, "wed-1430": { type: "lec", room: "NC02" }, "tue-1730": { type: "lec", room: "NC02" },
+            "mon-1430": { type: "lec", room: "NC 02" }, "wed-1430": { type: "lec", room: "NC 02" }, "tue-1730": { type: "lec", room: "NC 02" },
             "B1": { "wed-1630": { type: "lab", room: "NC LAB", span: 1 } }, "B2": { "wed-1630": { type: "lab", room: "NC LAB", span: 1 } },
             "B3": { "wed-1630": { type: "lab", room: "NC LAB", span: 1 } }, "B4": { "wed-1630": { type: "lab", room: "NC LAB", span: 1 } }
         },
         "Div 5": {
-            "mon-1430": { type: "lec", room: "NC03" }, "wed-1430": { type: "lec", room: "NC03" }, "tue-1730": { type: "lec", room: "NC03" },
+            "mon-1430": { type: "lec", room: "NC 03" }, "wed-1430": { type: "lec", room: "NC 03" }, "tue-1730": { type: "lec", room: "NC 03" },
             "B1": { "thu-1630": { type: "lab", room: "NC LAB", span: 1 } }, "B2": { "thu-1630": { type: "lab", room: "NC LAB", span: 1 } },
             "B3": { "thu-1630": { type: "lab", room: "NC LAB", span: 1 } }, "B4": { "thu-1630": { type: "lab", room: "NC LAB", span: 1 } }
         }
     },
 
     // ==========================================
-    // 8. FOUNDATIONS OF ELECTRONICS (FEET)
+    // 11. ENGINEERING CHEMISTRY (EC)
+    // ==========================================
+    "EC": {
+        "Div 1": { "mon-0930": { type: "lec", room: "NC 03" }, "tue-0930": { type: "lec", room: "NC 03" }, "B1": { "mon-1430": { type: "lab", room: "EC LAB", span: 2 } }, "B2": { "mon-1430": { type: "lab", room: "EC LAB", span: 2 } }, "B3": { "tue-1430": { type: "lab", room: "EC LAB", span: 2 } }, "B4": { "tue-1430": { type: "lab", room: "EC LAB", span: 2 } } },
+        "Div 2": { "thu-1430": { type: "lec", room: "NC 03" }, "fri-1430": { type: "lec", room: "NC 03" }, "B1": { "tue-1030": { type: "lab", room: "EC LAB", span: 2 } }, "B2": { "tue-1030": { type: "lab", room: "EC LAB", span: 2 } }, "B3": { "fri-0830": { type: "lab", room: "EC LAB", span: 2 } }, "B4": { "fri-0830": { type: "lab", room: "EC LAB", span: 2 } } }
+    },
+
+    // ==========================================
+    // 12. ELECTRICAL ENERGY UTILIZATION (EEU)
+    // ==========================================
+    "EEU": {
+        "Div 1": { "tue-1330": { type: "lec", room: "NC 08" }, "wed-1330": { type: "lec", room: "NC 08" }, "thu-1330": { type: "lec", room: "NC 08" } },
+        "Div 2": { "tue-1330": { type: "lec", room: "NC 12" }, "wed-1330": { type: "lec", room: "NC 12" }, "thu-1330": { type: "lec", room: "NC 12" } }
+    },
+
+    // ==========================================
+    // 13. ELECTRICAL MEASUREMENTS (EEMI)
+    // ==========================================
+    "EEMI": {
+        "Div 1": {
+            "mon-1030": { type: "lec", room: "NC 03" }, "thu-0930": { type: "lec", room: "NC 03" }, "fri-0930": { type: "lec", room: "NC 03" },
+            "B1": { "mon-0830": { type: "lab", room: "EEMI LAB", span: 2 } }, "B2": { "mon-0830": { type: "lab", room: "EEMI LAB", span: 2 } },
+            "B3": { "tue-0830": { type: "lab", room: "EEMI LAB", span: 2 } }, "B4": { "tue-0830": { type: "lab", room: "EEMI LAB", span: 2 } }
+        },
+        "Div 2": {
+            "mon-1430": { type: "lec", room: "NC 04" }, "wed-1430": { type: "lec", room: "NC 04" }, "tue-1730": { type: "lec", room: "NC 04" },
+            "B1": { "tue-1430": { type: "lab", room: "EEMI LAB", span: 2 } }, "B2": { "tue-1430": { type: "lab", room: "EEMI LAB", span: 2 } },
+            "B3": { "thu-1430": { type: "lab", room: "EEMI LAB", span: 2 } }, "B4": { "thu-1430": { type: "lab", room: "EEMI LAB", span: 2 } }
+        }
+    },
+
+    // ==========================================
+    // 14. ENGINEERING MECHANICS (EM)
+    // ==========================================
+    "EM": {
+        "Div 1": {
+            "wed-1030": { type: "lec", room: "NC 01" }, "thu-1030": { type: "lec", room: "NC 01" }, "fri-1030": { type: "lec", room: "NC 01" },
+            "B1": { "tue-1030": { type: "lab", room: "EM LAB", span: 2 } }, "B2": { "tue-1030": { type: "lab", room: "EM LAB", span: 2 } },
+            "B3": { "wed-0830": { type: "lab", room: "EM LAB", span: 2 } }, "B4": { "wed-0830": { type: "lab", room: "EM LAB", span: 2 } }
+        },
+        "Div 2": {
+            "tue-1530": { type: "lec", room: "NC 01" }, "thu-1530": { type: "lec", room: "NC 01" }, "wed-1730": { type: "lec", room: "NC 01" },
+            "B1": { "mon-1430": { type: "lab", room: "EM LAB", span: 2 } }, "B2": { "mon-1430": { type: "lab", room: "EM LAB", span: 2 } }, "B3": { "fri-1630": { type: "lab", room: "EM LAB", span: 2 } }, "B4": { "fri-1630": { type: "lab", room: "EM LAB", span: 2 } }
+        }
+    },
+
+    // ==========================================
+    // 15. ENGINEERING PHYSICS (EP)
+    // ==========================================
+    "EP": {
+        "Div 1": { "mon-1130": { type: "lec", room: "NC 01" }, "tue-1130": { type: "lec", room: "NC 01" }, "B1": { "mon-1630": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "mon-1630": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "tue-1630": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "tue-1630": { type: "lab", room: "EP LAB", span: 2 } } },
+        "Div 2": { "mon-0930": { type: "lec", room: "NC 01" }, "tue-0930": { type: "lec", room: "NC 01" }, "B1": { "mon-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "mon-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "tue-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "tue-1430": { type: "lab", room: "EP LAB", span: 2 } } },
+        "Div 3": { "mon-0930": { type: "lec", room: "NC 02" }, "tue-0930": { type: "lec", room: "NC 02" }, "B1": { "wed-1630": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "wed-1630": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "thu-1630": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "thu-1630": { type: "lab", room: "EP LAB", span: 2 } } },
+        "Div 4": { "wed-1530": { type: "lec", room: "NC 08" }, "fri-1330": { type: "lec", room: "NC 08" }, "B1": { "mon-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "mon-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "tue-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "tue-0830": { type: "lab", room: "EP LAB", span: 2 } } },
+        "Div 5": { "wed-1530": { type: "lec", room: "NC 11" }, "fri-1330": { type: "lec", room: "NC 11" }, "B1": { "wed-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "wed-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "thu-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "thu-0830": { type: "lab", room: "EP LAB", span: 2 } } },
+        "Div 6": { "thu-1430": { type: "lec", room: "NC 01" }, "fri-1430": { type: "lec", room: "NC 01" }, "B1": { "mon-1030": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "mon-1030": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "tue-1030": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "tue-1030": { type: "lab", room: "EP LAB", span: 2 } } },
+        "Div 7": { "thu-1430": { type: "lec", room: "NC 02" }, "fri-1430": { type: "lec", room: "NC 02" }, "B1": { "mon-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "wed-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "tue-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "thu-0830": { type: "lab", room: "EP LAB", span: 2 } } }
+    },
+
+    // ==========================================
+    // 16. EVA
+    // ==========================================
+    "EVA": {
+        "Div 1": {
+            "mon-1330": { type: "lec", room: "NC 14" },
+            "B1": { "mon-1630": { type: "lab", room: "EVA LAB", span: 2 } },
+            "B2": { "mon-0830": { type: "lab", room: "EVA LAB", span: 2 } }
+        }
+    },
+
+    // ==========================================
+    // 17. EW
+    // ==========================================
+    "EW": {
+        "Div 1": {
+            "mon-1330": { type: "lec", room: "NC 11" },
+            "B1": { "wed-1630": { type: "lab", room: "EW LAB", span: 2 } },
+            "B2": { "mon-1630": { type: "lab", room: "EW LAB", span: 2 } },
+            "B3": { "thu-1030": { type: "lab", room: "EW LAB", span: 2 } },
+            "B4": { "mon-0830": { type: "lab", room: "EW LAB", span: 2 } }
+        }
+    },
+
+    // ==========================================
+    // 18. FCP
+    // ==========================================
+    "FCP": {
+        "Div 1": {
+            "mon-1330": { type: "lec", room: "NC 02" },
+            "B1": { "mon-1630": { type: "lab", room: "FCP LAB", span: 2 } },
+            "B2": { "mon-0830": { type: "lab", room: "FCP LAB", span: 2 } }
+        }
+    },
+
+    // ==========================================
+    // 19. FOUNDATIONS OF ELECTRONICS (FEET)
     // ==========================================
     "FEET": {
         "Div 1": {
-            "wed-1030": { type: "lec", room: "NC02" }, "thu-1030": { type: "lec", room: "NC02" }, "fri-1030": { type: "lec", room: "NC02" },
+            "wed-1030": { type: "lec", room: "NC 02" }, "thu-1030": { type: "lec", room: "NC 02" }, "fri-1030": { type: "lec", room: "NC 02" },
             "B1": { "tue-1030": { type: "lab", room: "FEET LAB", span: 2 } },
             "B2": { "tue-1030": { type: "lab", room: "FEET LAB", span: 2 } },
             "B3": { "wed-0830": { type: "lab", room: "FEET LAB", span: 2 } },
             "B4": { "wed-0830": { type: "lab", room: "FEET LAB", span: 2 } }
         },
         "Div 2": {
-            "mon-1430": { type: "lec", room: "NC08" }, "wed-1430": { type: "lec", room: "NC08" }, "tue-1730": { type: "lec", room: "NC08" },
+            "mon-1430": { type: "lec", room: "NC 08" }, "wed-1430": { type: "lec", room: "NC 08" }, "tue-1730": { type: "lec", room: "NC 08" },
             "B1": { "tue-1430": { type: "lab", room: "FEET LAB", span: 2 } },
             "B2": { "tue-1430": { type: "lab", room: "FEET LAB", span: 2 } },
             "B3": { "thu-1430": { type: "lab", room: "FEET LAB", span: 2 } },
@@ -134,241 +250,141 @@ const MASTER_SCHEDULE = {
     },
 
     // ==========================================
-    // 9. PRODUCTION SYSTEMS (IPSSF)
-    // ==========================================
-    "IPSSF": {
-        "Div 1": {
-            "tue-1530": { type: "lec", room: "NC03" }, "thu-1530": { type: "lec", room: "NC03" }, "wed-1730": { type: "lec", room: "NC03" },
-            "B1": { "mon-1430": { type: "lab", room: "IPSSF LAB", span: 2 } },
-            "B2": { "mon-1430": { type: "lab", room: "IPSSF LAB", span: 2 } },
-            "B3": { "fri-1630": { type: "lab", room: "IPSSF LAB", span: 2 } },
-            "B4": { "fri-1630": { type: "lab", room: "IPSSF LAB", span: 2 } }
-        }
-    },
-
-    // ==========================================
-    // 10. ELECTRICAL MEASUREMENTS (EEMI)
-    // ==========================================
-    "EEMI": {
-        "Div 1": {
-            "mon-1030": { type: "lec", room: "NC03" }, "thu-0930": { type: "lec", room: "NC03" }, "fri-0930": { type: "lec", room: "NC03" },
-            "B1": { "mon-0830": { type: "lab", room: "EEMI LAB", span: 2 } }, "B2": { "mon-0830": { type: "lab", room: "EEMI LAB", span: 2 } },
-            "B3": { "tue-0830": { type: "lab", room: "EEMI LAB", span: 2 } }, "B4": { "tue-0830": { type: "lab", room: "EEMI LAB", span: 2 } }
-        },
-        "Div 2": {
-            "mon-1430": { type: "lec", room: "NC04" }, "wed-1430": { type: "lec", room: "NC04" }, "tue-1730": { type: "lec", room: "NC04" },
-            "B1": { "tue-1430": { type: "lab", room: "EEMI LAB", span: 2 } }, "B2": { "tue-1430": { type: "lab", room: "EEMI LAB", span: 2 } },
-            "B3": { "thu-1430": { type: "lab", room: "EEMI LAB", span: 2 } }, "B4": { "thu-1430": { type: "lab", room: "EEMI LAB", span: 2 } }
-        }
-    },
-
-    // ==========================================
-    // 11. BASICS OF MEASUREMENT & SENSORS (BMS)
-    // ==========================================
-    "BMS": {
-        "Div 1": {
-            "mon-1030": { type: "lec", room: "NC10" }, "thu-0930": { type: "lec", room: "NC10" }, "fri-0930": { type: "lec", room: "NC10" },
-            "B1": { "mon-0830": { type: "lab", room: "BMS LAB", span: 2 } }, "B2": { "mon-0830": { type: "lab", room: "BMS LAB", span: 2 } },
-            "B3": { "tue-0830": { type: "lab", room: "BMS LAB", span: 2 } }, "B4": { "tue-0830": { type: "lab", room: "BMS LAB", span: 2 } }
-        }
-    },
-
-    // ==========================================
-    // 12. COMPUTER AIDED ENGINEERING DRAWING (CAED)
-    // ==========================================
-    "CAED": {
-        "Div 1": {
-            "wed-1030": { type: "lec", room: "NC03" }, "thu-1030": { type: "lec", room: "NC03" }, "fri-1030": { type: "lec", room: "NC03" },
-            "B1": { "tue-1030": { type: "lab", room: "CAED LAB", span: 2 } }, "B2": { "tue-1030": { type: "lab", room: "CAED LAB", span: 2 } },
-            "B3": { "wed-0830": { type: "lab", room: "CAED LAB", span: 2 } }, "B4": { "wed-0830": { type: "lab", room: "CAED LAB", span: 2 } }
-        },
-        "Div 2": {
-            "tue-1530": { type: "lec", room: "NC02" }, "thu-1530": { type: "lec", room: "NC02" }, "wed-1730": { type: "lec", room: "NC02" },
-            "B1": { "mon-1430": { type: "lab", room: "CAED LAB", span: 2 } }, "B2": { "mon-1430": { type: "lab", room: "CAED LAB", span: 2 } },
-            "B3": { "fri-1630": { type: "lab", room: "CAED LAB", span: 2 } }, "B4": { "fri-1630": { type: "lab", room: "CAED LAB", span: 2 } }
-        }
-    },
-
-    // ==========================================
-    // 13. FUEL FURNACES AND REFRACTORIES (FFR)
+    // 20. FFR
     // ==========================================
     "FFR": {
         "Div 1": {
-            "wed-1030": { type: "lec", room: "NC04" }, "thu-1030": { type: "lec", room: "NC04" }, "fri-1030": { type: "lec", room: "NC04" },
-            "B1": { "wed-0830": { type: "lab", room: "FFR LAB", span: 2 } }, "B2": { "wed-0830": { type: "lab", room: "FFR LAB", span: 2 } }, "B3": { "tue-1030": { type: "lab", room: "FFR LAB", span: 2 } }, "B4": { "tue-1030": { type: "lab", room: "FFR LAB", span: 2 } }
+            "wed-1030": { type: "lec", room: "NC 04" }, "thu-1030": { type: "lec", room: "NC 04" }, "fri-1030": { type: "lec", room: "NC 04" },
+            "B1": { "wed-0830": { type: "lab", room: "FFR LAB", span: 2 } }, "B2": { "wed-0830": { type: "lab", room: "FFR LAB", span: 2 } },
+            "B3": { "tue-1030": { type: "lab", room: "FFR LAB", span: 2 } }, "B4": { "tue-1030": { type: "lab", room: "FFR LAB", span: 2 } }
         }
     },
 
     // ==========================================
-    // 14. FUNDAMENTALS OF MEASUREMENTS (FMS)
+    // 21. FME
+    // ==========================================
+    "FME": {
+        "Div 1": { "tue-1330": { type: "lec", room: "NC 05" }, "wed-1330": { type: "lec", room: "NC 05" }, "thu-1330": { type: "lec", room: "NC 05" } }
+    },
+
+    // ==========================================
+    // 22. FMS
     // ==========================================
     "FMS": {
-        "Div 1": { "tue-1330": { type: "lec", room: "NC10" }, "wed-1330": { type: "lec", room: "NC10" }, "thu-1330": { type: "lec", room: "NC10" } },
-        "Div 2": { "tue-1330": { type: "lec", room: "NC10" }, "wed-1330": { type: "lec", room: "NC10" }, "thu-1330": { type: "lec", room: "NC10" } },
-        "Div 3": { "tue-1330": { type: "lec", room: "NC06" }, "wed-1330": { type: "lec", room: "NC06" }, "thu-1330": { type: "lec", room: "NC06" } }
+        "Div 1": { "tue-1330": { type: "lec", room: "NC 10" }, "wed-1330": { type: "lec", room: "NC 10" }, "thu-1330": { type: "lec", room: "NC 10" } },
+        "Div 2": { "tue-1330": { type: "lec", room: "NC 10" }, "wed-1330": { type: "lec", room: "NC 10" }, "thu-1330": { type: "lec", room: "NC 10" } },
+        "Div 3": { "tue-1330": { type: "lec", room: "NC 06" }, "wed-1330": { type: "lec", room: "NC 06" }, "thu-1330": { type: "lec", room: "NC 06" } }
     },
 
     // ==========================================
-    // 15. COMMUNICATION SKILLS (CS)
+    // 23. FPI
     // ==========================================
-    "CS": {
-        "Div 1": { "B1": { "mon-1430": { type: "lab", room: "CS LAB", span: 2 } }, "B2": { "mon-1430": { type: "lab", room: "CS LAB", span: 2 } }, "B3": { "tue-1430": { type: "lab", room: "CS LAB", span: 2 } }, "B4": { "tue-1430": { type: "lab", room: "CS LAB", span: 2 } } },
-        "Div 2": { "B1": { "mon-1430": { type: "lab", room: "NC11", span: 2 } }, "B2": { "mon-1430": { type: "lab", room: "NC11", span: 2 } }, "B3": { "tue-1430": { type: "lab", room: "NC11", span: 2 } }, "B4": { "tue-1430": { type: "lab", room: "NC11", span: 2 } } },
-        "Div 3": { "B1": { "fri-1430": { type: "lab", room: "CS LAB", span: 2 } }, "B2": { "fri-1430": { type: "lab", room: "CS LAB", span: 2 } }, "B3": { "fri-1630": { type: "lab", room: "CS LAB", span: 2 } }, "B4": { "fri-1630": { type: "lab", room: "CS LAB", span: 2 } } },
-        "Div 4": { "B1": { "tue-1630": { type: "lab", room: "CS LAB", span: 2 } }, "B2": { "tue-1630": { type: "lab", room: "CS LAB", span: 2 } }, "B3": { "wed-1430": { type: "lab", room: "CS LAB", span: 2 } }, "B4": { "wed-1430": { type: "lab", room: "CS LAB", span: 2 } } },
-        "Div 5": { "B1": { "mon-1030": { type: "lab", room: "CS LAB", span: 2 } }, "B2": { "mon-1030": { type: "lab", room: "NC09", span: 2 } }, "B3": { "tue-1030": { type: "lab", room: "CS LAB", span: 2 } }, "B4": { "tue-1030": { type: "lab", room: "NC11", span: 2 } } },
-        "Div 6": { "B1": { "mon-1030": { type: "lab", room: "NC08", span: 2 } }, "B2": { "mon-1030": { type: "lab", room: "NC10", span: 2 } }, "B3": { "tue-1030": { type: "lab", room: "NC08", span: 2 } }, "B4": { "tue-1030": { type: "lab", room: "NC09", span: 2 } } },
-        "Div 7": { "B1": { "wed-1030": { type: "lab", room: "NC11", span: 2 } }, "B2": { "wed-1030": { type: "lab", room: "CS LAB", span: 2 } }, "B3": { "thu-1030": { type: "lab", room: "NC08", span: 2 } }, "B4": { "thu-1030": { type: "lab", room: "CS LAB", span: 2 } } }
+    "FPI": {
+        "Div 1": { "tue-1230": { type: "lec", room: "NC 03" }, "wed-1230": { type: "lec", room: "NC 03" }, "thu-1230": { type: "lec", room: "NC 03" } }
     },
 
     // ==========================================
-    // 16. PERSONALITY DEVELOPMENT (PD)
-    // ==========================================
-    "PD": {
-        "Div 1": { "sat-0830": { type: "lec", room: "NC01", span: 2 } },
-        "Div 2": { "sat-1030": { type: "lec", room: "NC01", span: 2 } },
-        "Div 3": { "sat-0830": { type: "lec", room: "NC02", span: 2 } },
-        "Div 4": { "sat-1030": { type: "lec", room: "NC02", span: 2 } },
-        "Div 5": { "sat-0830": { type: "lec", room: "NC03", span: 2 } },
-        "Div 6": { "sat-1030": { type: "lec", room: "NC03", span: 2 } },
-        "Div 7": { "sat-0830": { type: "lec", room: "NC04", span: 2 } },
-        "Div 8": { "sat-1030": { type: "lec", room: "NC04", span: 2 } },
-        "Div 9": { "sat-1030": { type: "lec", room: "NC08", span: 2 } }
-    },
-
-    // ==========================================
-    // 17. VSEC COURSES (GE, FCP, PPS, EW, CAD, MPFL, RDOS, DPV, DPI, EVA, WD, PP, NM, BMT)
+    // 24. GE
     // ==========================================
     "GE": {
         "Div 1": {
-            "mon-1230": { type: "lec", room: "NC01" },
+            "mon-1230": { type: "lec", room: "NC 01" },
             "B1": { "mon-1630": { type: "lab", room: "GE LAB", span: 2 } },
             "B2": { "mon-0830": { type: "lab", room: "GE LAB", span: 2 } }
         }
     },
-    "FCP": {
+
+    // ==========================================
+    // 25. IPSSF
+    // ==========================================
+    "IPSSF": {
         "Div 1": {
-            "mon-1330": { type: "lec", room: "NC02" },
-            "B1": { "mon-1630": { type: "lab", room: "FCP LAB", span: 2 } },
-            "B2": { "mon-0830": { type: "lab", room: "FCP LAB", span: 2 } }
+            "tue-1530": { type: "lec", room: "NC 03" }, "thu-1530": { type: "lec", room: "NC 03" }, "wed-1730": { type: "lec", room: "NC 03" },
+            "B1": { "mon-1430": { type: "lab", room: "IPSSF LAB", span: 2 } }, "B2": { "mon-1430": { type: "lab", room: "IPSSF LAB", span: 2 } },
+            "B3": { "fri-1630": { type: "lab", room: "IPSSF LAB", span: 2 } }, "B4": { "fri-1630": { type: "lab", room: "IPSSF LAB", span: 2 } }
         }
     },
-    "PPS": {
-        "Div 1": {
-            "mon-1330": { type: "lec", room: "NC09" },
-            "B1": { "wed-1630": { type: "lab", room: "PPS LAB", span: 2 } },
-            "B2": { "mon-1630": { type: "lab", room: "PPS LAB", span: 2 } },
-            "B3": { "thu-1030": { type: "lab", room: "PPS LAB", span: 2 } },
-            "B4": { "thu-1030": { type: "lab", room: "PPS LAB", span: 2 } }
-        },
-        "Div 2": {
-            "mon-1330": { type: "lec", room: "NC09" },
-            "B1": { "wed-1630": { type: "lab", room: "PPS LAB", span: 2 } },
-            "B2": { "thu-1030": { type: "lab", room: "PPS LAB", span: 2 } },
-            "B3": { "thu-1030": { type: "lab", room: "PPS LAB", span: 2 } },
-            "B4": { "mon-0830": { type: "lab", room: "PPS LAB", span: 2 } }
-        }
-    },
-    "EW": {
-        "Div 1": {
-            "mon-1330": { type: "lec", room: "NC11" },
-            "B1": { "wed-1630": { type: "lab", room: "EW LAB", span: 2 } },
-            "B2": { "mon-1630": { type: "lab", room: "EW LAB", span: 2 } },
-            "B3": { "thu-1030": { type: "lab", room: "EW LAB", span: 2 } },
-            "B4": { "mon-0830": { type: "lab", room: "EW LAB", span: 2 } }
-        }
-    },
-    "CAD": {
-        "Div 1": {
-            "mon-1330": { type: "lec", room: "NC13" },
-            "B1": { "mon-1630": { type: "lab", room: "CAD LAB", span: 2 } },
-            "B2": { "mon-0830": { type: "lab", room: "CAD LAB", span: 2 } }
-        }
-    },
-    "MPFL": {
-        "Div 1": {
-            "mon-1330": { type: "lec", room: "NC05" },
-            "B1": { "mon-1630": { type: "lab", room: "MPFL LAB", span: 2 } },
-            "B2": { "mon-0830": { type: "lab", room: "MPFL LAB", span: 2 } }
-        }
-    },
-    "RDOS": {
-        "Div 1": {
-            "mon-1330": { type: "lec", room: "NC06" },
-            "B1": { "mon-1630": { type: "lab", room: "RDOS LAB", span: 2 } },
-            "B2": { "mon-1630": { type: "lab", room: "RDOS LAB", span: 2 } },
-            "B3": { "thu-1030": { type: "lab", room: "RDOS LAB", span: 2 } },
-            "B4": { "mon-0830": { type: "lab", room: "RDOS LAB", span: 2 } }
-        }
-    },
+
+    // ==========================================
+    // 26. LAB
+    // ==========================================
     "LAB": {
         "Div 1": {
-            "mon-1330": { type: "lec", room: "NC01" },
+            "mon-1330": { type: "lec", room: "NC 01" },
             "B1": { "wed-1630": { type: "lab", room: "LAB", span: 2 } },
             "B2": { "mon-1630": { type: "lab", room: "LAB", span: 2 } },
             "B3": { "thu-1030": { type: "lab", room: "LAB", span: 2 } },
             "B4": { "mon-0830": { type: "lab", room: "LAB", span: 2 } }
         }
     },
-    "DPI": {
+
+    // ==========================================
+    // 27. MPFL
+    // ==========================================
+    "MPFL": {
         "Div 1": {
-            "mon-1230": { type: "lec", room: "NC02" },
-            "B1": { "mon-1630": { type: "lab", room: "DPI LAB", span: 2 } },
-            "B2": { "thu-1030": { type: "lab", room: "DPI LAB", span: 2 } }
+            "mon-1330": { type: "lec", room: "NC 05" },
+            "B1": { "mon-1630": { type: "lab", room: "MPFL LAB", span: 2 } },
+            "B2": { "mon-0830": { type: "lab", room: "MPFL LAB", span: 2 } }
         }
     },
-    "EVA": {
-        "Div 1": {
-            "mon-1330": { type: "lec", room: "NC14" },
-            "B1": { "mon-1630": { type: "lab", room: "EVA LAB", span: 2 } },
-            "B2": { "mon-0830": { type: "lab", room: "EVA LAB", span: 2 } }
-        }
+
+    // ==========================================
+    // 28. NM
+    // ==========================================
+    "NM": {
+        "Div 1": { "tue-1330": { "type": "lec", "room": "NC 07" }, "wed-1330": { "type": "lec", "room": "NC 07" }, "thu-1330": { "type": "lec", "room": "NC 07" } },
+        "Div 2": { "tue-1330": { "type": "lec", "room": "NC 14" }, "wed-1330": { "type": "lec", "room": "NC 14" }, "thu-1330": { "type": "lec", "room": "NC 14" } }
     },
-    "WD": {
-        "Div 1": {
-            "mon-1330": { type: "lec", room: "NC03" },
-            "B1": { "wed-1630": { type: "lab", room: "WD LAB", span: 2 } },
-            "B2": { "mon-1630": { type: "lab", room: "WD LAB", span: 2 } },
-            "B3": { "thu-1030": { type: "lab", room: "WD LAB", span: 2 } },
-            "B4": { "thu-1030": { type: "lab", room: "WD LAB", span: 2 } }
-        },
-        "Div 2": {
-            "mon-1330": { type: "lec", room: "NC04" },
-            "B1": { "wed-1630": { type: "lab", room: "WD LAB", span: 2 } },
-            "B2": { "thu-1030": { type: "lab", room: "WD LAB", span: 2 } },
-            "B3": { "mon-0830": { type: "lab", room: "WD LAB", span: 2 } }
-        }
+
+    // ==========================================
+    // 29. PERSONALITY DEVELOPMENT (PD)
+    // ==========================================
+    "PD": {
+        "Div 1": { "sat-0830": { type: "lec", room: "NC 01", span: 2 } },
+        "Div 2": { "sat-1030": { type: "lec", room: "NC 01", span: 2 } },
+        "Div 3": { "sat-0830": { type: "lec", room: "NC 02", span: 2 } },
+        "Div 4": { "sat-1030": { type: "lec", room: "NC 02", span: 2 } },
+        "Div 5": { "sat-0830": { type: "lec", room: "NC 03", span: 2 } },
+        "Div 6": { "sat-1030": { type: "lec", room: "NC 03", span: 2 } },
+        "Div 7": { "sat-0830": { type: "lec", room: "NC 04", span: 2 } },
+        "Div 8": { "sat-1030": { type: "lec", room: "NC 04", span: 2 } },
+        "Div 9": { "sat-1030": { type: "lec", room: "NC 08", span: 2 } }
     },
+
+    // ==========================================
+    // 30. PP
+    // ==========================================
     "PP": {
         "Div 1": {
-            "mon-1330": { type: "lec", room: "NC08" },
+            "mon-1330": { type: "lec", room: "NC 08" },
             "B1": { "wed-1430": { type: "lab", room: "PP LAB", span: 2 } },
             "B2": { "wed-1430": { type: "lab", room: "PP LAB", span: 2 } },
             "B3": { "wed-1430": { type: "lab", room: "PP LAB", span: 2 } },
             "B4": { "wed-1430": { type: "lab", room: "PP LAB", span: 2 } }
         },
         "Div 2": {
-            "mon-1330": { type: "lec", room: "NC07" },
+            "mon-1330": { type: "lec", room: "NC 07" },
             "B1": { "wed-1030": { type: "lab", room: "PP LAB", span: 2 } },
             "B2": { "wed-1030": { type: "lab", room: "PP LAB", span: 2 } },
             "B3": { "wed-1030": { type: "lab", room: "PP LAB", span: 2 } },
             "B4": { "wed-1030": { type: "lab", room: "PP LAB", span: 2 } }
         },
         "Div 3": {
-            "mon-1330": { type: "lec", room: "NC12" },
+            "mon-1330": { type: "lec", room: "NC 12" },
             "B1": { "fri-0830": { type: "lab", room: "PP LAB", span: 2 } },
             "B2": { "fri-0830": { type: "lab", room: "PP LAB", span: 2 } },
             "B3": { "fri-0830": { type: "lab", room: "PP LAB", span: 2 } },
             "B4": { "fri-0830": { type: "lab", room: "PP LAB", span: 2 } }
         },
         "Div 4": {
-            "mon-1330": { type: "lec", room: "NC10" },
+            "mon-1330": { type: "lec", room: "NC 10" },
             "B1": { "tue-1030": { type: "lab", room: "PP LAB", span: 2 } },
             "B2": { "tue-1030": { type: "lab", room: "PP LAB", span: 2 } },
             "B3": { "tue-1030": { type: "lab", room: "PP LAB", span: 2 } },
         },
         "Div 5": {
-            "mon-1330": { type: "lec", room: "NC10" },
+            "mon-1330": { type: "lec", room: "NC 10" },
             "B1": { "mon-1030": { type: "lab", room: "PP LAB", span: 2 } },
             "B2": { "mon-1030": { type: "lab", room: "PP LAB", span: 2 } },
             "B3": { "mon-1030": { type: "lab", room: "PP LAB", span: 2 } },
@@ -377,82 +393,108 @@ const MASTER_SCHEDULE = {
             "B6": { "fri-1430": { type: "lab", room: "PP LAB", span: 2 } }
         }
     },
-    "NM": {
-        "Div 1": {
-            "tue-1330": { "type": "lec", "room": "NC07" },
-            "wed-1330": { "type": "lec", "room": "NC07" },
-            "thu-1330": { "type": "lec", "room": "NC07" }
-        },
-        "Div 2": {
-            "tue-1330": { "type": "lec", "room": "NC14" },
-            "wed-1330": { "type": "lec", "room": "NC14" },
-            "thu-1330": { "type": "lec", "room": "NC14" }
-        }
-    },
-    "BMT": {
-        "Div 1": {
-            "tue-1330": { "type": "lec", "room": "NC13" },
-            "wed-1330": { "type": "lec", "room": "NC13" },
-            "thu-1330": { "type": "lec", "room": "NC13" }
-        }
-    },
-    "FME": {
-        "Div 1": { "tue-1330": { type: "lec", room: "NC05" }, "wed-1330": { type: "lec", room: "NC05" }, "thu-1330": { type: "lec", room: "NC05" } }
-    },
-    "FPI": {
-        "Div 1": { "tue-1230": { type: "lec", room: "NC03" }, "wed-1230": { type: "lec", room: "NC03" }, "thu-1230": { type: "lec", room: "NC03" } }
-    },
-    "BCE": {
-        "Div 1": { "tue-1330": { type: "lec", room: "NC01" }, "wed-1330": { type: "lec", room: "NC01" }, "thu-1330": { type: "lec", room: "NC01" } }
-    },
-    "AEIOT": {
-        "Div 1": { "tue-1330": { type: "lec", room: "NC09" }, "wed-1330": { type: "lec", room: "NC09" }, "thu-1330": { type: "lec", room: "NC09" } },
-        "Div 2": { "tue-1330": { type: "lec", room: "NC09" }, "wed-1330": { type: "lec", room: "NC09" }, "thu-1330": { type: "lec", room: "NC09" } },
-        "Div 3": { "tue-1330": { type: "lec", room: "NC11" }, "wed-1330": { type: "lec", room: "NC11" }, "thu-1330": { type: "lec", room: "NC11" } }
-    },
-    // === ELECTRICAL ENERGY UTILIZATION (EEU) ===
-    "EEU": {
-        "Div 1": {
-            "tue-1330": { type: "lec", room: "NC08" },
-            "wed-1330": { type: "lec", room: "NC08" },
-            "thu-1330": { type: "lec", room: "NC08" }
-        },
 
+    // ==========================================
+    // 31. PPS
+    // ==========================================
+    "PPS": {
+        "Div 1": {
+            "mon-1330": { type: "lec", room: "NC 09" },
+            "B1": { "wed-1630": { type: "lab", room: "PPS LAB", span: 2 } },
+            "B2": { "mon-1630": { type: "lab", room: "PPS LAB", span: 2 } },
+            "B3": { "thu-1030": { type: "lab", room: "PPS LAB", span: 2 } },
+            "B4": { "thu-1030": { type: "lab", room: "PPS LAB", span: 2 } }
+        },
         "Div 2": {
-            "tue-1330": { type: "lec", room: "NC12" },
-            "wed-1330": { type: "lec", room: "NC12" },
-            "thu-1330": { type: "lec", room: "NC12" }
+            "mon-1330": { type: "lec", room: "NC 09" },
+            "B1": { "wed-1630": { type: "lab", room: "PPS LAB", span: 2 } },
+            "B2": { "thu-1030": { type: "lab", room: "PPS LAB", span: 2 } },
+            "B3": { "thu-1030": { type: "lab", room: "PPS LAB", span: 2 } },
+            "B4": { "mon-0830": { type: "lab", room: "PPS LAB", span: 2 } }
         }
     },
-    // === APPLIED INDUSTRIAL MATHEMATICS (AIMA) ===
-    "AIMA": {
+
+    // ==========================================
+    // 32. PROBABILITY & STATISTICS (PS)
+    // ==========================================
+    "PS": {
+        "Div 1": { "tue-1030": { type: "lec", room: "NC 03" }, "wed-0930": { type: "lec", room: "NC 03" }, "fri-1330": { type: "lec", room: "NC 03" }, "B1": { "wed-1030": { type: "lab", room: "NC 14", span: 2 } }, "B2": { "thu-1030": { type: "lab", room: "NC 14", span: 2 } }, "B3": { "thu-1030": { type: "lab", room: "NC 14", span: 2 } }, "B4": { "thu-1030": { type: "lab", room: "NC 14", span: 2 } } },
+        "Div 2": { "tue-1030": { type: "lec", room: "NC 04" }, "wed-0930": { type: "lec", room: "NC 04" }, "fri-1330": { type: "lec", room: "NC 04" }, "B1": { "wed-1030": { type: "lab", room: "NC 13", span: 2 } }, "B2": { "wed-1030": { type: "lab", room: "NC 13", span: 2 } }, "B3": { "thu-1030": { type: "lab", room: "NC 13", span: 2 } }, "B4": { "thu-1630": { type: "lab", room: "NC 14", span: 2 } } },
+        "Div 3": { "wed-1130": { type: "lec", room: "NC 04" }, "thu-1130": { type: "lec", room: "NC 04" }, "fri-1130": { type: "lec", room: "NC 04" }, "B1": { "mon-1030": { type: "lab", room: "NC 14", span: 2 } }, "B2": { "mon-1030": { type: "lab", room: "NC 14", span: 2 } }, "B3": { "fri-0830": { type: "lab", room: "NC 14", span: 2 } }, "B4": { "fri-0830": { type: "lab", room: "NC 14", span: 2 } } },
+        "Div 4": { "mon-1530": { type: "lec", room: "NC 03" }, "tue-1630": { type: "lec", room: "NC 03" }, "fri-1630": { type: "lec", room: "NC 03" }, "B1": { "mon-1630": { type: "lab", room: "NC 14", span: 2 } }, "B2": { "fri-1430": { type: "lab", room: "NC 14", span: 2 } }, "B3": { "fri-1430": { type: "lab", room: "NC 14", span: 2 } }, "B4": { "fri-1430": { type: "lab", room: "NC 14", span: 2 } } },
+        "Div 5": { "mon-1530": { type: "lec", room: "NC 04" }, "tue-1630": { type: "lec", room: "NC 04" }, "fri-1630": { type: "lec", room: "NC 04" }, "B1": { "fri-1430": { type: "lab", room: "NC 13", span: 2 } }, "B2": { "fri-1430": { type: "lab", room: "NC 13", span: 2 } }, "B3": { "fri-1430": { type: "lab", room: "NC 13", span: 2 } }, "B4": { "fri-1430": { type: "lab", room: "NC 13", span: 2 } } },
+        "Div 6": { "mon-1530": { type: "lec", room: "NC 08" }, "tue-1630": { type: "lec", room: "NC 08" }, "fri-1630": { type: "lec", room: "NC 08" }, "B1": { "mon-1630": { type: "lab", room: "NC 13", span: 2 } }, "B2": { "mon-1630": { type: "lab", room: "NC 13", span: 2 } }, "B3": { "mon-1630": { type: "lab", room: "NC 13", span: 2 } }, "B4": { "mon-1630": { type: "lab", room: "NC 13", span: 2 } } },
+        "Div 7": { "tue-1430": { type: "lec", room: "NC 08" }, "wed-1630": { type: "lec", room: "NC 04" }, "fri-1130": { type: "lec", room: "NC 04" }, "B1": { "wed-1430": { type: "lab", room: "NC 14", span: 2 } }, "B2": { "wed-1430": { type: "lab", room: "NC 14", span: 2 } }, "B3": { "wed-1430": { type: "lab", room: "NC 14", span: 2 } }, "B4": { "thu-1630": { type: "lab", room: "NC 13", span: 2 } } }
+    },
+
+    // ==========================================
+    // 33. QUANTUM PHYSICS (QP)
+    // ==========================================
+    "QP": {
+        "Div 1": { "mon-1130": { type: "lec", room: "NC 02" }, "tue-1130": { type: "lec", room: "NC 02" }, "B1": { "wed-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "wed-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "thu-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "thu-1430": { type: "lab", room: "EP LAB", span: 2 } } },
+        "Div 2": { "mon-1130": { type: "lec", room: "NC 03" }, "tue-1130": { type: "lec", room: "NC 03" }, "B1": { "fri-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "fri-1430": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "fri-1630": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "fri-1630": { type: "lab", room: "EP LAB", span: 2 } } },
+        "Div 3": { "wed-1530": { type: "lec", room: "NC 01" }, "fri-1330": { type: "lec", room: "NC 12" }, "B1": { "fri-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "fri-0830": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "fri-1030": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "fri-1030": { type: "lab", room: "EP LAB", span: 2 } } },
+        "Div 4": { "wed-1530": { type: "lec", room: "NC 02" }, "fri-1330": { type: "lec", room: "NC 13" }, "B1": { "thu-1030": { type: "lab", room: "EP LAB", span: 2 } }, "B2": { "thu-1030": { type: "lab", room: "EP LAB", span: 2 } }, "B3": { "wed-1030": { type: "lab", room: "EP LAB", span: 2 } }, "B4": { "wed-1030": { type: "lab", room: "EP LAB", span: 2 } } },
+        "Div 5": { "mon-1130": { type: "lec", room: "NC 04" }, "tue-1130": { type: "lec", room: "NC 04" }, "B1": { "fri-1430": { type: "lab", room: "Cognizant", span: 2 } }, "B2": { "fri-1430": { type: "lab", room: "Cognizant", span: 2 } }, "B3": { "tue-1630": { type: "lab", room: "Cognizant", span: 2 } }, "B4": { "tue-1630": { type: "lab", room: "Cognizant", span: 2 } } },
+        "Div 6": { "mon-0930": { type: "lec", room: "NC 04" }, "tue-0930": { type: "lec", room: "NC 12" }, "B1": { "wed-1630": { type: "lab", room: "Cognizant", span: 2 } }, "B2": { "wed-1630": { type: "lab", room: "Cognizant", span: 2 } }, "B3": { "thu-1430": { type: "lab", room: "Cognizant", span: 2 } }, "B4": { "thu-1430": { type: "lab", room: "Cognizant", span: 2 } } },
+        "Div 7": { "wed-1530": { type: "lec", room: "NC 03" }, "fri-1330": { type: "lec", room: "NC 14" }, "B1": { "mon-0830": { type: "lab", room: "Cognizant", span: 2 } }, "B2": { "mon-0830": { type: "lab", room: "Cognizant", span: 2 } }, "B3": { "wed-1030": { type: "lab", room: "Cognizant", span: 2 } }, "B4": { "wed-1030": { type: "lab", room: "Cognizant", span: 2 } } }
+    },
+
+    // ==========================================
+    // 34. RDOS
+    // ==========================================
+    "RDOS": {
         "Div 1": {
-            "tue-1330": { type: "lec", room: "NC02" },
-            "wed-1330": { type: "lec", room: "NC02" },
-            "thu-1330": { type: "lec", room: "NC02" }
+            "mon-1330": { type: "lec", room: "NC 06" },
+            "B1": { "mon-1630": { type: "lab", room: "RDOS LAB", span: 2 } },
+            "B2": { "mon-1630": { type: "lab", room: "RDOS LAB", span: 2 } },
+            "B3": { "thu-1030": { type: "lab", room: "RDOS LAB", span: 2 } },
+            "B4": { "mon-0830": { type: "lab", room: "RDOS LAB", span: 2 } }
+        }
+    },
+
+    // ==========================================
+    // 35. VECTOR CALCULUS (VCDE)
+    // ==========================================
+    "VCDE": {
+        "Div 1": { "tue-1030": { type: "lec", room: "NC 01" }, "wed-0930": { type: "lec", room: "NC 01" }, "fri-1330": { type: "lec", room: "NC 01" }, "B1": { "wed-1030": { type: "lab", room: "NC 12", span: 2 } }, "B2": { "wed-1030": { type: "lab", room: "NC 12", span: 2 } }, "B3": { "thu-1030": { type: "lab", room: "NC 12", span: 2 } }, "B4": { "thu-1030": { type: "lab", room: "NC 12", span: 2 } } },
+        "Div 2": { "tue-1030": { type: "lec", room: "NC 02" }, "wed-0930": { type: "lec", room: "NC 02" }, "fri-1330": { type: "lec", room: "NC 02" }, "B1": { "wed-1030": { type: "lab", room: "NC 08", span: 2 } }, "B2": { "wed-1030": { type: "lab", room: "NC 08", span: 2 } }, "B3": { "wed-1030": { type: "lab", room: "NC 08", span: 2 } }, "B4": { "thu-1030": { type: "lab", room: "NC 11", span: 2 } } },
+        "Div 3": { "wed-1130": { type: "lec", room: "NC 01" }, "thu-1130": { type: "lec", room: "NC 01" }, "fri-1130": { type: "lec", room: "NC 01" }, "B1": { "mon-1030": { type: "lab", room: "NC 13", span: 2 } }, "B2": { "thu-0830": { type: "lab", room: "NC 14", span: 2 } }, "B3": { "thu-0830": { type: "lab", room: "NC 14", span: 2 } }, "B4": { "thu-0830": { type: "lab", room: "NC 14", span: 2 } } },
+        "Div 4": { "wed-1130": { type: "lec", room: "NC 02" }, "thu-1130": { type: "lec", room: "NC 02" }, "fri-1130": { type: "lec", room: "NC 02" }, "B1": { "mon-1030": { type: "lab", room: "NC 12", span: 2 } }, "B2": { "mon-1030": { type: "lab", room: "NC 12", span: 2 } }, "B3": { "mon-1030": { type: "lab", room: "NC 12", span: 2 } }, "B4": { "thu-0830": { type: "lab", room: "NC 13", span: 2 } } },
+        "Div 5": { "wed-1130": { type: "lec", room: "NC 03" }, "thu-1130": { type: "lec", room: "NC 03" }, "fri-1130": { type: "lec", room: "NC 03" }, "B1": { "mon-1030": { type: "lab", room: "NC 11", span: 2 } }, "B2": { "mon-1030": { type: "lab", room: "NC 11", span: 2 } }, "B3": { "mon-1030": { type: "lab", room: "NC 11", span: 2 } }, "B4": { "mon-1030": { type: "lab", room: "NC 11", span: 2 } } },
+        "Div 6": { "mon-1530": { type: "lec", room: "NC 01" }, "tue-1630": { type: "lec", room: "NC 01" }, "fri-1630": { type: "lec", room: "NC 01" }, "B1": { "mon-1630": { type: "lab", room: "NC 12", span: 2 } }, "B2": { "mon-1630": { type: "lab", room: "NC 12", span: 2 } }, "B3": { "mon-1630": { type: "lab", room: "NC 12", span: 2 } }, "B4": { "mon-1630": { type: "lab", room: "NC 12", span: 2 } } },
+        "Div 7": { "mon-1530": { type: "lec", room: "NC 02" }, "tue-1630": { type: "lec", room: "NC 02" }, "fri-1630": { type: "lec", room: "NC 02" }, "B1": { "mon-1630": { type: "lab", room: "NC 11", span: 2 } }, "B2": { "mon-1630": { type: "lab", room: "NC 11", span: 2 } }, "B3": { "fri-1430": { type: "lab", room: "NC 12", span: 2 } }, "B4": { "fri-1430": { type: "lab", room: "NC 12", span: 2 } } },
+        "Div 8": { "tue-1430": { type: "lec", room: "NC 01" }, "wed-1630": { type: "lec", room: "NC 01" }, "fri-1530": { type: "lec", room: "NC 01" }, "B1": { "wed-1430": { type: "lab", room: "NC 13", span: 2 } }, "B2": { "tue-1630": { type: "lab", room: "NC 14", span: 2 } }, "B3": { "wed-1430": { type: "lab", room: "NC 13", span: 2 } }, "B4": { "wed-1430": { type: "lab", room: "NC 13", span: 2 } } },
+        "Div 9": { "tue-1430": { type: "lec", room: "NC 02" }, "wed-1630": { type: "lec", room: "NC 02" }, "fri-1530": { type: "lec", room: "NC 02" }, "B1": { "tue-1630": { type: "lab", room: "NC 13", span: 2 } }, "B2": { "wed-1430": { type: "lab", room: "NC 12", span: 2 } }, "B3": { "wed-1430": { type: "lab", room: "NC 12", span: 2 } }, "B4": { "wed-1430": { type: "lab", room: "NC 12", span: 2 } } }
+    },
+
+    // ==========================================
+    // 36. WD
+    // ==========================================
+    "WD": {
+        "Div 1": {
+            "mon-1330": { type: "lec", room: "NC 03" },
+            "B1": { "wed-1630": { type: "lab", room: "WD LAB", span: 2 } },
+            "B2": { "mon-1630": { type: "lab", room: "WD LAB", span: 2 } },
+            "B3": { "thu-1030": { type: "lab", room: "WD LAB", span: 2 } },
+            "B4": { "thu-1030": { type: "lab", room: "WD LAB", span: 2 } }
         },
         "Div 2": {
-            "tue-1330": { type: "lec", room: "NC03" },
-            "wed-1330": { type: "lec", room: "NC03" },
-            "thu-1330": { type: "lec", room: "NC03" }
-        },
-        "Div 3": {
-            "tue-1330": { type: "lec", room: "NC04" },
-            "wed-1330": { type: "lec", room: "NC04" },
-            "thu-1330": { type: "lec", room: "NC04" }
+            "mon-1330": { type: "lec", room: "NC 04" },
+            "B1": { "wed-1630": { type: "lab", room: "WD LAB", span: 2 } },
+            "B2": { "thu-1030": { type: "lab", room: "WD LAB", span: 2 } },
+            "B3": { "mon-0830": { type: "lab", room: "WD LAB", span: 2 } }
         }
     }
-
-
 };
 
 // --- LAB EMOJI MAPPING ---
 // Assign emojis to lab slots by subject code
 const LAB_EMOJI_GROUPS = [
-    { emoji: '💻', codes: ['CAED', 'WD', 'MPFL', 'IPSSF', 'DS', 'DPV'] },      // computer / CAD / workshop
-    { emoji: '📐', codes: ['VCDE', 'PS', 'AE101', 'FPI', 'AIMA', 'PPS'] }, // math / drawing / plotting
-    { emoji: '🗣️', codes: ['CS', 'PD'] },                    // communication / speaking labs
-    { emoji: '🔬', codes: ['EP', 'EC', 'QP', 'EEMI', 'FEET'] } // core science labs
+    { emoji: '💻', codes: ['CAED', 'WD', 'MPFL', 'IPSSF', 'DS', 'DPV', 'PPS', 'FCP', 'GE', 'EW', 'CAD', 'DPI', 'EVA', 'RDOS'] },
+    { emoji: '📐', codes: ['VCDE', 'PS', 'AEIOT', 'FPI', 'AIMA', 'NM', 'BMT'] }, 
+    { emoji: '🗣️', codes: ['CS', 'PD'] },
+    { emoji: '🔬', codes: ['EP', 'EC', 'QP', 'EEMI', 'FEET', 'EM', 'FME', 'FMS', 'BCE', 'EEU'] }
 ];
 
 function getLabEmoji(code, room) {
@@ -466,7 +508,7 @@ function getLabEmoji(code, room) {
     return '';
 }
 
-// --- DATA MERGER FUNCTION ---
+// --- DATA MERGER FUNC TION ---
 function getStudentData(mis) {
     if (typeof GENERATED_DB === 'undefined') {
         console.error("GENERATED_DB is missing. Check students.js");
