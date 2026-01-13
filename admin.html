@@ -187,6 +187,18 @@
             font-size: 1.5rem; color: #fff; flex-direction: column;
             backdrop-filter: blur(5px);
         }
+
+        #login-screen {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: var(--bg-color); z-index: 3000;
+            display: none; justify-content: center; align-items: center;
+            flex-direction: column;
+        }
+        .login-box {
+            background: var(--card-bg); padding: 30px; border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2); text-align: center;
+            width: 90%; max-width: 400px; border: 1px solid var(--border-color);
+        }
     </style>
 </head>
 <body class="dark-mode">
@@ -198,6 +210,15 @@
 </header>
 
 <div id="loading-overlay"><div>⏳ Processing...</div></div>
+
+<div id="login-screen">
+    <div class="login-box">
+        <h2>Admin Login</h2>
+        <p>Enter GitHub Personal Access Token</p>
+        <input type="password" id="gh-token-input" placeholder="ghp_..." style="margin-bottom: 15px;">
+        <button onclick="saveTokenAndLogin()">Login</button>
+    </div>
+</div>
 
 <div class="tabs">
     <div class="tab active" onclick="showPanel('students')">Students</div>
@@ -296,12 +317,19 @@
         location.reload();
     }
 
+    function saveTokenAndLogin() {
+        const t = document.getElementById('gh-token-input').value.trim();
+        if(!t) return alert("Token required");
+        localStorage.setItem("gh_token", t);
+        GH_TOKEN = t;
+        document.getElementById('login-screen').style.display = 'none';
+        loadData();
+    }
+
     // --- CORE: GITHUB API HANDLER ---
     async function ghRequest(path, method = 'GET', body = null) {
         if (!GH_TOKEN) {
-            GH_TOKEN = prompt("Enter GitHub Personal Access Token (Repo Scope):");
-            if (GH_TOKEN) localStorage.setItem("gh_token", GH_TOKEN);
-            else return null;
+            throw new Error("Authentication required");
         }
         
         const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`;
@@ -319,8 +347,11 @@
         if (!res.ok) {
             if (res.status === 401) {
                 localStorage.removeItem("gh_token");
-                alert("Invalid Token. Reloading...");
-                location.reload();
+                GH_TOKEN = null;
+                alert("Invalid Token. Please login again.");
+                document.getElementById('login-screen').style.display = 'flex';
+                hideLoading();
+                throw new Error("Unauthorized");
             }
             throw new Error(await res.text());
         }
@@ -1084,7 +1115,11 @@
         alert("Subject Updated");
     }
 
-    loadData();
+    if (GH_TOKEN) {
+        loadData();
+    } else {
+        document.getElementById('login-screen').style.display = 'flex';
+    }
 </script>
 
 </body>
