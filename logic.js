@@ -493,7 +493,8 @@ const MASTER_SCHEDULE = {
 const LAB_EMOJI_GROUPS = [
     { emoji: '💻', codes: ['PP', 'CAED', 'WD', 'MPFL', 'IPSSF', 'DS', 'DPV', 'PPS', 'FCP', 'GE', 'EW', 'CAD', 'DPI', 'EVA', 'RDOS'] },
     { emoji: '📐', codes: ['VCDE', 'PS', 'AEIOT', 'FPI', 'AIMA', 'NM', 'BMT'] }, 
-    { emoji: '🗣️', codes: ['CS', 'PD'] },
+    { emoji: '🗣️', codes: ['CS'] },
+    { emoji: '🦸‍♂️', codes: ['PD'] },
     { emoji: '🔬', codes: ['EP', 'EC', 'QP', 'EEMI', 'FEET', 'EM', 'FME', 'FMS', 'BCE', 'EEU'] }
 ];
 
