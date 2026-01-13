@@ -358,7 +358,7 @@
 
         .profile-info h1 { 
             margin: 0 0 6px 0; 
-            font-size: 1.5rem; 
+            font-size: 1.2rem; 
             font-family: 'Cascadia Code', monospace;
             font-weight: 600; 
             color: var(--text-main);
@@ -1041,6 +1041,14 @@
     // Login
     const misInput = document.getElementById('mis-input');
     misInput.addEventListener("keypress", (e) => { if (e.key === "Enter") attemptLogin(); });
+    misInput.addEventListener("paste", (e) => {
+        e.preventDefault();
+        let paste = (e.clipboardData || window.clipboardData).getData('text').trim();
+        if (paste.startsWith("6125")) {
+            paste = paste.substring(4);
+        }
+        misInput.value = paste;
+    });
 
     function attemptLogin() {
         const val = misInput.value.trim();
@@ -1430,11 +1438,16 @@
                         const textColor = readableTextColor(color);
                         const emoji = item.tag || ((item.type === 'lab' && typeof getLabEmoji === 'function') ? getLabEmoji(item.subj, item.room) : '');
 
+                        let extraStyle = "";
+                        if (item.delayed) {
+                             extraStyle = "height: calc(100% - 70px) !important; margin-top: 70px !important;";
+                        }
+
                         rowHtml += `<td rowspan="${span}">
-                        <div class="slot ${item.class||''}" id="${key}" style="background:${bg}; border-left:4px solid ${color}; color:${textColor}">
+                        <div class="slot ${item.class||''}" id="${key}" style="background:${bg}; border-left:4px solid ${color}; color:${textColor}; ${extraStyle}">
                             ${emoji ? `<span class="lab-tag">${emoji}</span>` : ''}
                             <div class="slot-title" style="color:${color}">${item.subj}${item.type==='lab'?' LAB':''}</div>
-                            <span class="room-tag">${item.room}</span>
+                            <span class="room-tag">${item.custom_time ? item.custom_time + '<br>' : ''}${item.room}</span>
                         </div></td>`;
                     }
                 } else {
