@@ -1515,11 +1515,13 @@
             if (!el) {
                 const allIds = ["0830","0930","1030","1130","1230","1330","1430","1530","1630","1730"];
                 const currIdx = allIds.indexOf(slotId);
-                if (currIdx > 0) {
-                      const prevId = allIds[currIdx-1];
-                      const prevKey = `${dayName}-${prevId}`;
-                      const prevItem = currentUserSchedule[prevKey];
-                      if (prevItem && prevItem.span === 2) el = document.getElementById(prevKey);
+                
+                // Check backwards for spanning slots (up to 3 hours back)
+                for (let i = 1; i <= 3; i++) {
+                    if (currIdx - i < 0) break;
+                    const prevKey = `${dayName}-${allIds[currIdx - i]}`;
+                    const prevItem = currentUserSchedule[prevKey];
+                    if (prevItem && prevItem.span > i) el = document.getElementById(prevKey);
                 }
             }
 

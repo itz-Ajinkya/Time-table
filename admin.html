@@ -185,6 +185,7 @@
 
 <header>
     <h1>COEP Admin Portal</h1>
+    <button class="toggle-btn" onclick="clearToken()" title="Reset GitHub Token" style="margin-right:10px;">🔑</button>
     <button class="toggle-btn" onclick="toggleDarkMode()" id="theme-toggle">☀️</button>
 </header>
 
@@ -259,11 +260,98 @@
 <script>
     let DATA = { students: {}, schedule: {}, subjects: {}, notes: [] };
     let EDIT_MIS = null;
+    
+    // --- GITHUB CONFIGURATION ---
+    const REPO_OWNER = "itz-ajinkya";
+    const REPO_NAME = "Time-table";
+    const BRANCH = "main";
+    
+    let GH_TOKEN = localStorage.getItem("gh_token");
+    let SHA_STUDENTS = null;
+    let SHA_LOGIC = null;
+
+    function clearToken() {
+        localStorage.removeItem("gh_token");
+        location.reload();
+    }
+
+    async function ghRequest(path, method = 'GET', body = null) {
+        if (!GH_TOKEN) {
+            GH_TOKEN = prompt("Enter GitHub Personal Access Token (Repo Scope):");
+            if (GH_TOKEN) localStorage.setItem("gh_token", GH_TOKEN);
+            else return null;
+        }
+        
+        const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`;
+        const headers = { 
+            "Authorization": `token ${GH_TOKEN}`,
+            "Accept": "application/vnd.github.v3+json",
+            "Content-Type": "application/json"
+        };
+
+        const options = { method, headers };
+        if (method === 'GET') options.url = url + `?ref=${BRANCH}`;
+        if (body) options.body = JSON.stringify(body);
+
+        const res = await fetch(url + (method === 'GET' ? `?ref=${BRANCH}` : ''), options);
+        if (!res.ok) {
+            if (res.status === 401) {
+                localStorage.removeItem("gh_token");
+                alert("Invalid Token. Reloading...");
+                location.reload();
+            }
+            throw new Error(await res.text());
+        }
+        return res.json();
+    }
+
+    async function ghSaveFile(path, content, sha, message) {
+        // UTF-8 safe Base64 encoding
+        const contentBase64 = btoa(unescape(encodeURIComponent(content)));
+        const body = {
+            message: message,
+            content: contentBase64,
+            sha: sha,
+            branch: BRANCH
+        };
+        return ghRequest(path, 'PUT', body);
+    }
 
     // --- INITIALIZATION ---
     async function loadData() {
-        const res = await fetch('/api/data');
-        DATA = await res.json();
+        try {
+            // 1. Load Students.js
+            const sData = await ghRequest('students.js');
+            if(!sData) return;
+            SHA_STUDENTS = sData.sha;
+            const sText = decodeURIComponent(escape(atob(sData.content)));
+            // Extract JSON from JS file
+            const sMatch = sText.match(/const GENERATED_DB = ([\s\S]*?);/);
+            DATA.students = sMatch ? JSON.parse(sMatch[1]) : {};
+
+            // 2. Load Logic.js
+            const lData = await ghRequest('logic.js');
+            SHA_LOGIC = lData.sha;
+            const lText = decodeURIComponent(escape(atob(lData.content)));
+            
+            const schedMatch = lText.match(/const MASTER_SCHEDULE = ([\s\S]*?);/);
+            DATA.schedule = schedMatch ? JSON.parse(schedMatch[1]) : {};
+
+            const notesMatch = lText.match(/const ACTIVE_NOTES = ([\s\S]*?);/);
+            DATA.notes = notesMatch ? JSON.parse(notesMatch[1]) : [];
+
+            // 3. Extract Subjects from Student Data (since we don't have backend.py)
+            Object.values(DATA.students).forEach(std => {
+                if(std.cards) std.cards.forEach(c => {
+                    if(c.code && c.name) DATA.subjects[c.code] = c.name;
+                });
+            });
+
+        } catch (e) {
+            alert("Error loading data from GitHub: " + e.message);
+            console.error(e);
+        }
+
         populateSchedDropdowns();
         renderNotes();
     }
@@ -439,11 +527,11 @@
         DATA.students[EDIT_MIS].name = name;
         DATA.students[EDIT_MIS].cards = newCards;
 
-        await fetch('/api/save_student', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ mis: EDIT_MIS, data: DATA.students[EDIT_MIS] })
-        });
+        // Save to GitHub
+        const fileContent = `const GENERATED_DB = ${JSON.stringify(DATA.students, null, 2)};`;
+        const res = await ghSaveFile('students.js', fileContent, SHA_STUDENTS, `Update student ${EDIT_MIS}`);
+        SHA_STUDENTS = res.content.sha; // Update SHA for next save
+
         alert("Student Saved!");
         closeStudentEditor();
     }
@@ -630,11 +718,20 @@
             });
         }
 
-        await fetch('/api/save_schedule', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(DATA.schedule)
-        });
+        // Reconstruct logic.js content
+        // We need to preserve the helper functions in logic.js, so we fetch fresh content first or use a template.
+        // For simplicity, we assume logic.js structure is fixed: Schedule -> Emoji -> Helper -> Notes
+        // A safer way for the admin panel is to only replace the variable blocks.
+        
+        const lData = await ghRequest('logic.js'); // Fetch latest to get surrounding code
+        let lText = decodeURIComponent(escape(atob(lData.content)));
+        
+        const newSchedStr = `const MASTER_SCHEDULE = ${JSON.stringify(DATA.schedule, null, 4)};`;
+        lText = lText.replace(/const MASTER_SCHEDULE = {[\s\S]*?};/, newSchedStr);
+
+        const res = await ghSaveFile('logic.js', lText, lData.sha, "Update Master Schedule");
+        SHA_LOGIC = res.content.sha;
+
         alert("Schedule Saved!");
     }
 
@@ -665,11 +762,14 @@
     }
 
     async function saveNotes() {
-        await fetch('/api/save_notes', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ notes: DATA.notes })
-        });
+        const lData = await ghRequest('logic.js');
+        let lText = decodeURIComponent(escape(atob(lData.content)));
+        
+        const newNotesStr = `const ACTIVE_NOTES = ${JSON.stringify(DATA.notes, null, 4)};`;
+        lText = lText.replace(/const ACTIVE_NOTES = \[[\s\S]*?\];/, newNotesStr);
+
+        const res = await ghSaveFile('logic.js', lText, lData.sha, "Update Notes");
+        SHA_LOGIC = res.content.sha;
     }
 
     // --- SUBJECTS LOGIC ---
@@ -688,11 +788,17 @@
 
     async function updateSubject(code) {
         const newName = document.getElementById(`sub-name-${code}`).value;
-        await fetch('/api/update_subject_name', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ code, name: newName })
+        
+        // Update local data
+        Object.values(DATA.students).forEach(std => {
+            if(std.cards) std.cards.forEach(c => { if(c.code === code) c.name = newName; });
         });
+
+        // Save Students File
+        const fileContent = `const GENERATED_DB = ${JSON.stringify(DATA.students, null, 2)};`;
+        const res = await ghSaveFile('students.js', fileContent, SHA_STUDENTS, `Update subject name ${code}`);
+        SHA_STUDENTS = res.content.sha;
+
         alert("Subject Updated");
     }
 
