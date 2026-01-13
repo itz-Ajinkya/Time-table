@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f6f8; padding: 20px; max-width: 600px; margin: 0 auto; }
+        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h2 { margin-top: 0; color: #2c3e50; }
+        label { display: block; margin-bottom: 8px; font-weight: bold; color: #34495e; }
+        input, textarea { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box; }
+        button { background: #3498db; color: white; border: none; padding: 12px 20px; border-radius: 6px; cursor: pointer; font-size: 16px; width: 100%; }
+        button:hover { background: #2980b9; }
+        button.delete { background: #e74c3c; margin-top: 5px; }
+        .hidden { display: none; }
+        #status { margin-top: 15px; padding: 10px; border-radius: 6px; text-align: center; display: none; }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        .note-item { display: flex; gap: 10px; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+    <div id="login-section" class="card">
+        <h2>🔐 Admin Login</h2>
+        <p>Enter your GitHub details to connect.</p>
+        <label>GitHub Username</label>
+        <input type="text" id="gh-username" placeholder="e.g., itz-ajinkya">
+        <label>Repository Name</label>
+        <input type="text" id="gh-repo" placeholder="e.g., Time-table" value="Time-table">
+        <label>Personal Access Token</label>
+        <input type="password" id="gh-token" placeholder="ghp_xxxxxxxxxxxx">
+        <button onclick="saveCredentials()">Login</button>
+    </div>
+
+    <div id="dashboard-section" class="card hidden">
+        <h2>📢 Update Notes</h2>
+        <div id="notes-container">
+            </div>
+        <button onclick="addNoteField()" style="background: #2ecc71; margin-bottom: 15px;">+ Add New Note</button>
+        <button onclick="saveChanges()">💾 Save Changes to Website</button>
+        
+        <div id="status"></div>
+        <br>
+        <button onclick="logout()" class="delete" style="width: auto; padding: 5px 10px; font-size: 12px;">Logout</button>
+    </div>
+
+<script>
+    // Configuration
+    const FILE_PATH = 'logic.js'; // The file we are editing
+    let currentSha = ''; // Needed by GitHub API to update files
+
+    // 1. Check Login on Load
+    window.onload = function() {
+        if(localStorage.getItem('gh_token')) {
+            showDashboard();
+        }
+    };
+
+    function saveCredentials() {
+        const user = document.getElementById('gh-username').value;
+        const repo = document.getElementById('gh-repo').value;
+        const token = document.getElementById('gh-token').value;
+
+        if(!user || !repo || !token) return alert("Please fill all fields");
+
+        localStorage.setItem('gh_username', user);
+        localStorage.setItem('gh_repo', repo);
+        localStorage.setItem('gh_token', token);
+        showDashboard();
+    }
+
+    function logout() {
+        localStorage.clear();
+        location.reload();
+    }
+
+    // 2. Load Data from GitHub
+    async function showDashboard() {
+        document.getElementById('login-section').classList.add('hidden');
+        document.getElementById('dashboard-section').classList.remove('hidden');
+        
+        const status = document.getElementById('status');
+        status.style.display = 'block';
+        status.className = '';
+        status.innerText = 'Loading current notes...';
+
+        try {
+            const user = localStorage.getItem('gh_username');
+            const repo = localStorage.getItem('gh_repo');
+            const token = localStorage.getItem('gh_token');
+            const url = `https://api.github.com/repos/${user}/${repo}/contents/${FILE_PATH}`;
+
+            const response = await fetch(url, {
+                headers: { 'Authorization': `token ${token}` }
+            });
+
+            if (!response.ok) throw new Error("Failed to fetch data. Check credentials.");
+
+            const data = await response.json();
+            currentSha = data.sha; // Save SHA for later update
+            
+            // Decode Content (GitHub sends Base64)
+            const content = atob(data.content);
+            
+            // Extract Notes using Regex
+            // Looks for: const ACTIVE_NOTES = [ ... ];
+            const match = content.match(/const ACTIVE_NOTES = (\[[\s\S]*?\]);/);
+            
+            if (match && match[1]) {
+                const notes = JSON.parse(match[1]);
+                renderNotes(notes);
+                status.style.display = 'none';
+            } else {
+                throw new Error("Could not find ACTIVE_NOTES in logic.js");
+            }
+
+        } catch (error) {
+            status.className = 'error';
+            status.innerText = error.message;
+        }
+    }
+
+    // 3. Render Notes UI
+    function renderNotes(notes) {
+        const container = document.getElementById('notes-container');
+        container.innerHTML = '';
+        notes.forEach(note => {
+            addNoteField(note);
+        });
+    }
+
+    function addNoteField(text = '') {
+        const container = document.getElementById('notes-container');
+        const div = document.createElement('div');
+        div.className = 'note-item';
+        div.innerHTML = `
+            <input type="text" value="${text}" class="note-input" placeholder="Enter note here...">
+            <button onclick="this.parentElement.remove()" class="delete" style="width: 40px;">X</button>
+        `;
+        container.appendChild(div);
+    }
+
+    // 4. Save Changes to GitHub
+    async function saveChanges() {
+        const status = document.getElementById('status');
+        status.style.display = 'block';
+        status.className = '';
+        status.innerText = 'Saving changes...';
+
+        try {
+            // Gather inputs
+            const inputs = document.querySelectorAll('.note-input');
+            const newNotes = Array.from(inputs).map(input => input.value).filter(val => val.trim() !== "");
+            
+            const user = localStorage.getItem('gh_username');
+            const repo = localStorage.getItem('gh_repo');
+            const token = localStorage.getItem('gh_token');
+            const url = `https://api.github.com/repos/${user}/${repo}/contents/${FILE_PATH}`;
+
+            // Fetch latest content again to ensure we don't break other parts of logic.js
+            const getResponse = await fetch(url, { headers: { 'Authorization': `token ${token}` } });
+            const getData = await getResponse.json();
+            let content = atob(getData.content);
+
+            // Replace the notes array in the file string
+            const newNotesString = JSON.stringify(newNotes, null, 4);
+            const newContent = content.replace(/const ACTIVE_NOTES = \[[\s\S]*?\];/, `const ACTIVE_NOTES = ${newNotesString};`);
+
+            // Encode to Base64
+            // Note: complex Unicode characters might need specific handling, but standard text is fine
+            const encodedContent = btoa(unescape(encodeURIComponent(newContent)));
+
+            // Send PUT request to GitHub
+            const putResponse = await fetch(url, {
+                method: 'PUT',
+                headers: {
+                    'Authorization': `token ${token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    message: "Update notes via Admin Page",
+                    content: encodedContent,
+                    sha: getData.sha
+                })
+            });
+
+            if (!putResponse.ok) throw new Error("Failed to save. Check console.");
+
+            status.className = 'success';
+            status.innerText = '✅ Saved! Changes will appear in ~1 minute.';
+
+        } catch (error) {
+            console.error(error);
+            status.className = 'error';
+            status.innerText = 'Error: ' + error.message;
+        }
+    }
+</script>
+
+</body>
+</html>
