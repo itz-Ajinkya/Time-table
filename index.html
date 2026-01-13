@@ -52,8 +52,6 @@
             --slot-shadow: 0 2px 5px rgba(0,0,0,0.3);
             --clock-color: #4fabff;
             --header-border: 1px solid #333;
-            
-            /* UPDATED: Keep Clash Box Light Pink even in Dark Mode */
             --clash-bg: #fff0f0; 
             --clash-text: #c0392b; 
         }
@@ -71,6 +69,197 @@
         }
 
         .hidden { display: none !important; }
+
+        /* ============================
+           TOAST CONTAINER & NOTIFICATIONS
+           ============================ */
+        #toast-container {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            pointer-events: none;
+            width: auto;
+        }
+
+        #custom-toast {
+            position: relative;
+            transform: none;
+            background: var(--card-bg);
+            border-left: 5px solid var(--accent);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            padding: 15px 20px;
+            border-radius: 12px;
+            min-width: 300px;
+            max-width: 90vw;
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            align-items: center;
+            gap: 15px;
+            
+            /* Hiding State */
+            display: none;
+            pointer-events: auto;
+            animation: slideDown 0.4s ease;
+        }
+
+        #custom-toast.show {
+            display: grid;
+        }
+
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .toast-icon {
+            font-size: 2rem;
+            animation: ring 1s infinite ease-in-out;
+        }
+
+        @keyframes ring {
+            0% { transform: rotate(0); }
+            10% { transform: rotate(30deg); }
+            30% { transform: rotate(-28deg); }
+            50% { transform: rotate(34deg); }
+            70% { transform: rotate(-32deg); }
+            100% { transform: rotate(0); }
+        }
+
+        .toast-content { min-width: 0; }
+        .toast-content h4 { margin: 0 0 4px 0; font-size: 1rem; color: var(--text-main); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .toast-content p { margin: 0; font-size: 0.9rem; color: var(--text-sub); }
+
+        .toast-timer {
+            font-family: 'Cascadia Code', monospace;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--accent);
+            white-space: nowrap;
+        }
+
+        /* Urgent Notification (Rainbow Border) */
+        #custom-toast.urgent {
+            border-left: none;
+            background: transparent; /* Fix: Allow pseudo-elements to show */
+            padding: 15px 20px;
+            overflow: hidden;
+        }
+
+        #custom-toast.urgent::before {
+            content: '';
+            position: absolute;
+            top: -50%; left: -50%;
+            width: 200%; height: 200%;
+            background: conic-gradient(
+                from 0deg, 
+                #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3, #ff0000
+            );
+            animation: rotate-rainbow 3s linear infinite;
+            z-index: -2;
+        }
+
+        #custom-toast.urgent::after {
+            content: '';
+            position: absolute;
+            top: 3px; left: 3px; right: 3px; bottom: 3px;
+            background: var(--card-bg);
+            border-radius: 10px;
+            z-index: -1;
+        }
+
+        @keyframes rotate-rainbow {
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* LIVE TOAST */
+        .live-toast {
+            background: var(--card-bg) !important;
+            border: 1px solid var(--live-color);
+            border-radius: 12px;
+            display: none; /* Hidden by default */
+            align-items: stretch; /* Stretch strips to full height */
+            gap: 0; /* Remove gap for edge attachment */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            width: 100%;
+            max-width: 100%;
+            pointer-events: auto;
+            padding: 0; /* Remove padding for edge attachment */
+            margin-bottom: 20px;
+            overflow: hidden;
+            animation: slideDown 0.4s ease, pulse-green 2s infinite;
+        }
+
+        .live-toast.show {
+            display: flex;
+        }
+        
+        @keyframes pulse-green {
+            0% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(46, 204, 113, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0); }
+        }
+
+        .live-vertical-text {
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-weight: 800;
+            background: var(--live-color);
+            color: white;
+            font-size: 0.8rem;
+            letter-spacing: 3px;
+            user-select: none;
+            padding: 0 6px;
+            display: flex; align-items: center; justify-content: center;
+        }
+
+        .live-content {
+            flex: 1;
+            text-align: center;
+            padding: 12px 15px;
+            display: flex; flex-direction: column; justify-content: center;
+        }
+        .live-content h4 { font-family: 'Eras Bold ITC', sans-serif; margin: 0 0 4px 0; font-size: 1.3rem; color: var(--text-main); }
+        .live-content p { margin: 0; font-size: 0.9rem; color: var(--text-sub); font-weight: 1000; }
+
+        /* MOBILE OPTIMIZATIONS */
+        @media (max-width: 768px) {
+            #toast-container {
+                position: relative;
+                top: 0; left: 0;
+                transform: none;
+                width: 100%;
+                margin: 0 0 15px 0;
+                pointer-events: none;
+            }
+            
+            @keyframes slideDownMobile {
+                from { opacity: 0; transform: translateY(-20px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+
+            /* Compact Table & Cards */
+            td, td.time-col-cell, .break { height: 90px; padding: 2px; }
+            .slot { padding: 4px 2px; }
+            .slot-title { font-size: 1rem; margin-bottom: 2px; }
+            .room-tag { font-size: 0.5rem; padding: 2px 6px; }
+            .lab-tag { font-size: 1.2rem; top: 2px; }
+            
+            .card { min-height: 110px; padding: 10px 8px; }
+            .card .subject { font-size: 1.3rem; font-weight: 1000; font-family: 'Eras Bold ITC', sans-serif; }
+            .card h3 { font-size: 0.9rem; }
+            .card .detail { font-size: 0.9rem; padding: 4px 8px; }
+            .card .batch-badge { font-size: 0.7rem; padding: 2px 6px; }
+            
+            /* Header adjustments */
+            .header-main { padding: 12px 15px; }
+            .container { padding: 10px 10px 80px 10px; }
+        }
 
         /* ============================
            LOGIN SCREEN
@@ -100,7 +289,7 @@
         
         body.dark-mode .login-card { background: rgba(30, 30, 30, 0.96); }
 
-        .login-card h1 { margin: 0 0 8px; color: #2c3e50; font-size: 1.8rem; font-weight: 700; letter-spacing: -0.5px; }
+        .login-card h1 { margin: 0 0 8px; color: #2c3e50; font-size: 1.8rem; font-family: 'Cascadia Code', monospace; font-weight: 600; letter-spacing: -0.5px; }
         body.dark-mode .login-card h1 { color: #fff; }
         .login-card p { color: #666; margin-bottom: 32px; font-size: 1rem; }
         body.dark-mode .login-card p { color: #aaa; }
@@ -167,14 +356,12 @@
 
         .profile-info { flex: 1; }
 
-        /* UPDATED: Box around Student Name */
         .profile-info h1 { 
             margin: 0 0 6px 0; 
             font-size: 1.5rem; 
-            font-weight: 700; 
+            font-family: 'Cascadia Code', monospace;
+            font-weight: 600; 
             color: var(--text-main);
-            
-            /* BOX STYLING */
             border: 1px solid var(--border);
             background: rgba(0,0,0,0.03);
             padding: 6px 14px;
@@ -201,6 +388,7 @@
         .header-center {
             display: flex;
             align-items: center;
+            gap: 15px; 
         }
 
         .theme-btn {
@@ -241,6 +429,53 @@
             background: rgba(255, 255, 255, 0.05);
             box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.1);
         }
+
+        /* --- TOGGLE SWITCH STYLES --- */
+        .notif-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 28px;
+        }
+
+        .switch input { opacity: 0; width: 0; height: 0; }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 34px;
+            box-shadow: inset 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "🔕"; 
+            display: flex; align-items: center; justify-content: center;
+            font-size: 14px;
+            height: 22px; width: 22px;
+            left: 3px; bottom: 3px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        input:checked + .slider { background-color: var(--live-color); }
+        input:checked + .slider:before {
+            transform: translateX(22px);
+            content: "🔔"; 
+        }
+        
+        body.dark-mode .slider { background-color: #444; }
 
         .status-bar {
             background: var(--header-bar-bg);
@@ -285,7 +520,7 @@
 
         .card {
             background: var(--card-bg);
-            min-width: 130px; /* Slightly wider */
+            min-width: 130px; 
             padding: 15px 10px;
             border-radius: 12px;
             border: 1px solid var(--border); 
@@ -319,13 +554,12 @@
             text-overflow: ellipsis;
         }
         
-        .card .subject { font-size: 1.5rem; font-weight: 800; line-height: 1.2; }
+        .card .subject { font-family: 'Eras Bold ITC', sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1.2; }
         
-        /* UPDATED: Increased Font Size for Class/Location */
         .card .detail { 
             background: #f8f9fa !important; 
             color: #2c3e50 !important; 
-            font-size: 1.1rem; /* Larger Text */
+            font-size: 1.1rem;
             font-weight: 800; 
             padding: 6px 10px; 
             border-radius: 6px; 
@@ -393,7 +627,7 @@
         .slot-collision { background: transparent; box-shadow: none; padding: 0; pointer-events: none; }
         .slot-split { display: flex; width: 100%; height: 100%; gap: 4px; pointer-events: auto; }
         .split-item { flex: 1; min-width: 0; font-size: 0.9em; }
-        .slot-title { font-weight: 800; font-size: 1.2rem; margin-bottom: 4px; line-height: 1.1; }
+        .slot-title { font-family: 'Eras Bold ITC', sans-serif; font-weight: 800; font-size: 1.2rem; margin-bottom: 4px; line-height: 1.1; }
         .room-tag { background: rgba(255,255,255,0.85); color: #000; font-size: 0.85rem; font-weight: 700; padding: 4px 8px; border-radius: 6px; display: inline-block; }
         
         .lab-tag { 
@@ -453,7 +687,6 @@
 
         .current-day-col { background-color: rgba(52, 152, 219, 0.05); }
         
-        /* UPDATED: Dark Mode Header Visibility */
         th.current-day-col { 
             background-color: #34495e; 
             color: #ffffff !important; 
@@ -461,8 +694,8 @@
         }
 
         body.dark-mode th.current-day-col { 
-            background-color: var(--accent); /* Bright blue for visibility */
-            color: #ffffff !important; /* Force white text */
+            background-color: var(--accent);
+            color: #ffffff !important;
             border-bottom: 3px solid #fff; 
         }
 
@@ -494,7 +727,6 @@
             display: none; /* Hidden by default */
         }
 
-        /* LINK STYLING INSIDE CLASH BOX */
         .clash-note a {
             color: #0066cc !important; 
             text-decoration: underline;
@@ -543,12 +775,10 @@
             font-family: -apple-system, BlinkMacSystemFont, sans-serif;
         }
 
-        /* Instagram Gradient */
         .social-btn.insta {
             background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
         }
 
-        /* Email Color */
         .social-btn.mail {
             background-color: #EA4335;
         }
@@ -602,6 +832,12 @@
                     </div>
                     
                     <div class="header-center">
+                        <div class="notif-wrapper" title="Mute/Unmute Audio">
+                            <label class="switch">
+                                <input type="checkbox" id="notif-toggle" onchange="toggleNotificationChange()">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
                         <button class="theme-btn" onclick="toggleTheme()" id="theme-btn" aria-label="Toggle Theme">
                             <div class="bulb-glow"></div>
                             <span class="theme-icon" id="theme-icon">🌙</span>
@@ -615,6 +851,17 @@
                 </div>
             </header>
 
+            <div id="toast-container">
+                <div id="custom-toast">
+                    <div class="toast-icon">🔔</div>
+                    <div class="toast-content">
+                        <h4 id="toast-title">Notification</h4>
+                        <p id="toast-body">Message goes here</p>
+                    </div>
+                    <div class="toast-timer" id="toast-timer"></div>
+                </div>
+            </div>
+
             <div id="clash-footer" class="clash-note" style="margin-bottom: 20px;">
                 <div style="font-size: 1.1em; margin-bottom: 8px;">⚠️ <strong>Clash Detected!</strong></div>
                 Please contact 
@@ -624,6 +871,15 @@
                 <span style="font-size: 0.9em; opacity: 0.9;">
                     Also, please send me a screenshot of the mail sent to you regarding the branch/batch change so I can update it on the website.
                 </span>
+            </div>
+            
+            <div id="live-toast" class="live-toast">
+                <div class="live-vertical-text">LIVE</div>
+                <div class="live-content">
+                    <h4 id="live-title">Subject</h4>
+                    <p id="live-room">Room</p>
+                </div>
+                <div class="live-vertical-text">LIVE</div>
             </div>
 
             <div class="cards" id="subject-cards-container"></div>
@@ -685,6 +941,15 @@
     let clockInterval;
     let currentUserSchedule = null;
     let currentLiveSlotId = null;
+    let notificationsEnabled = false;
+    let wakeLock = null;
+    
+    // Audio Objects
+    const sound10 = new Audio('noti.mp3');
+    const sound5 = new Audio('noti5.mp3'); // User requested noti.mp3
+    
+    // Active Notification State
+    let activeNotifState = { key: null, played10: false, played5: false };
 
     // Helpers
     const getGroupData = (code) => {
@@ -709,7 +974,6 @@
         return brightness > 180 ? '#111' : '#ffffff';
     };
 
-    // Helper to capitalize first letter of each word (Title Case)
     const toTitleCase = (str) => {
         if (!str) return "";
         return str.toLowerCase().split(' ').map(word => {
@@ -725,13 +989,30 @@
         }
         updateThemeIcon();
         
+        // Initialize Notification Toggle State
+        initNotifications();
+
         const savedUser = localStorage.getItem('currentUserMIS');
         if(savedUser && typeof getStudentData === "function") {
             const data = getStudentData(savedUser);
             if(data) loadDashboard(data);
         }
+        
+        // GLOBAL INTERACTION LISTENER (To Unlock Audio on first click)
+        document.body.addEventListener('click', function() {
+            if(notificationsEnabled && sound10.paused && sound5.paused) { 
+                // Attempt to play/pause quickly to unlock audio context
+                sound10.play().then(() => {
+                    sound10.pause(); 
+                    sound10.currentTime = 0;
+                }).catch(() => {});
+                sound5.play().then(() => {
+                    sound5.pause(); 
+                    sound5.currentTime = 0;
+                }).catch(() => {});
+            }
+        }, { once: true });
 
-        // Animation Loop
         requestAnimationFrame(animateLoop);
     };
 
@@ -760,6 +1041,10 @@
         if (typeof getStudentData !== "function") {
             alert("JS Files missing"); return;
         }
+        
+        // Unlock Audio on Login Click
+        sound10.play().then(() => { sound10.pause(); sound10.currentTime = 0; }).catch(()=>{});
+        sound5.play().then(() => { sound5.pause(); sound5.currentTime = 0; }).catch(()=>{});
 
         const data = getStudentData(fullMis);
         if (data) {
@@ -776,6 +1061,180 @@
         localStorage.removeItem('currentUserMIS');
         location.reload();
     }
+    
+    // --- NOTIFICATION LOGIC (CUSTOM TOAST) ---
+    function initNotifications() {
+        const savedState = localStorage.getItem('notificationsEnabled');
+        const toggle = document.getElementById('notif-toggle');
+        
+        if (savedState === 'true') {
+            notificationsEnabled = true;
+            if(toggle) toggle.checked = true;
+        } else {
+            notificationsEnabled = false;
+            if(toggle) toggle.checked = false;
+        }
+    }
+
+    function toggleNotificationChange() {
+        const toggle = document.getElementById('notif-toggle');
+        
+        if (toggle.checked) {
+            // Turning ON
+            notificationsEnabled = true;
+            localStorage.setItem('notificationsEnabled', 'true');
+            
+            // Try to play sound immediately
+            sound10.play().catch(e => {
+                console.log("Audio play prevented:", e);
+            });
+            sound5.play().then(() => { sound5.pause(); sound5.currentTime = 0; }).catch(()=>{});
+            
+            // Show Test Notification
+            showCustomNotification("Notifications ON", "Test success! You will hear this sound 10 mins before class.");
+        } else {
+            // Turning OFF
+            notificationsEnabled = false;
+            localStorage.setItem('notificationsEnabled', 'false');
+        }
+    }
+    
+    function showCustomNotification(title, body, timerStr = "", persistent = false, isUrgent = false) {
+        const toast = document.getElementById('custom-toast');
+        const tTitle = document.getElementById('toast-title');
+        const tBody = document.getElementById('toast-body');
+        const tTimer = document.getElementById('toast-timer');
+        
+        if(toast && tTitle && tBody) {
+            tTitle.innerText = title;
+            tBody.innerText = body;
+            if(tTimer) tTimer.innerText = timerStr;
+            
+            // Handle Urgent State
+            if (isUrgent) {
+                toast.classList.add('urgent');
+            } else {
+                toast.classList.remove('urgent');
+            }
+
+            toast.classList.add('show');
+            
+            // Clear any existing timeout to hide
+            if (toast.hideTimeout) clearTimeout(toast.hideTimeout);
+
+            if (!persistent) {
+                toast.hideTimeout = setTimeout(() => {
+                    toast.classList.remove('show');
+                    toast.classList.remove('urgent');
+                }, 5000);
+            }
+        }
+    }
+    
+    function hideCustomNotification() {
+        const toast = document.getElementById('custom-toast');
+        if(toast) {
+            toast.classList.remove('show');
+            if (toast.hideTimeout) clearTimeout(toast.hideTimeout);
+        }
+    }
+    
+    function checkUpcomingClasses(now) {
+        if (!currentUserSchedule) return;
+
+        const currentDay = now.getDay(); 
+        const days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+        
+        if (currentDay === 0 || currentDay > 6) return;
+        const dayStr = days[currentDay];
+
+        const slots = [
+            { id: "0830", h: 8, m: 30 },
+            { id: "0930", h: 9, m: 30 },
+            { id: "1030", h: 10, m: 30 },
+            { id: "1130", h: 11, m: 30 },
+            { id: "1230", h: 12, m: 30 },
+            { id: "1330", h: 13, m: 30 },
+            { id: "1430", h: 14, m: 30 },
+            { id: "1530", h: 15, m: 30 },
+            { id: "1630", h: 16, m: 30 },
+            { id: "1730", h: 17, m: 30 }
+        ];
+
+        let upcomingClassFound = false;
+
+        for (const slot of slots) {
+            const startTime = new Date(now);
+            startTime.setHours(slot.h, slot.m, 0, 0);
+            
+            const diffMs = startTime.getTime() - now.getTime();
+            const diffMins = diffMs / 60000;
+
+            // Check if within 10 minutes window (and strictly before start)
+            if (diffMins <= 10 && diffMins > 0) {
+                const key = `${dayStr}-${slot.id}`;
+                const classData = currentUserSchedule[key];
+
+                if (classData) {
+                    upcomingClassFound = true;
+                    handlePersistentNotification(key, classData, diffMs);
+                    break; // Handle only the nearest one
+                }
+            }
+        }
+
+        // If no upcoming class in window, but we have an active notification, close it
+        if (!upcomingClassFound && activeNotifState.key) {
+            hideCustomNotification();
+            activeNotifState = { key: null, played10: false, played5: false };
+        }
+    }
+
+    function handlePersistentNotification(key, classData, diffMs) {
+        // Reset state on refresh or new key
+        if (activeNotifState.key !== key) {
+            activeNotifState = { key: key, played10: false, played5: false };
+        }
+
+        const mins = Math.floor(diffMs / 60000);
+        const secs = Math.floor((diffMs % 60000) / 1000);
+        const timeString = `${mins}:${secs.toString().padStart(2, '0')}`;
+        const diffMins = diffMs / 60000;
+        const isUrgent = diffMins <= 5;
+
+        // Prepare content
+        let title = "Upcoming Class";
+        let body = "";
+        if (Array.isArray(classData)) {
+            body = classData.map(c => c.subj).join(' / ');
+        } else {
+            const type = classData.type === 'lab' ? 'LAB' : 'Lecture';
+            body = `${classData.subj} (${type}) - Room ${classData.room}`;
+        }
+
+        // Show/Update Notification
+        showCustomNotification(title, body, timeString, true, isUrgent);
+
+        // Sound Logic
+        if (diffMins > 5) {
+             // 10 Minute Warning range
+             if (!activeNotifState.played10) {
+                 sound10.play().catch(e => {
+                     console.log("Audio blocked");
+                 });
+                 activeNotifState.played10 = true;
+             }
+        } else {
+             // 5 Minute Warning range (Plays even if page was refreshed inside this window)
+             if (!activeNotifState.played5) {
+                 sound5.play().catch(e => {
+                     console.log("Audio blocked");
+                 });
+                 activeNotifState.played5 = true;
+                 activeNotifState.played10 = true; 
+             }
+        }
+    }
 
     // --- COLLISION FIXER ---
     function fixSpanCollisions(schedule) {
@@ -784,7 +1243,6 @@
         let hasCollision = false;
 
         days.forEach(day => {
-            // Check for explicit array collisions first
             timeSlots.forEach(slot => {
                 const k = `${day}-${slot}`;
                 if (Array.isArray(schedule[k]) && schedule[k].length > 1) {
@@ -792,7 +1250,6 @@
                 }
             });
 
-            // Check for hidden span collisions
             for (let i = 0; i < timeSlots.length; i++) {
                 const currentSlot = timeSlots[i];
                 const key = `${day}-${currentSlot}`;
@@ -800,23 +1257,20 @@
 
                 if (!entry) continue;
 
-                // Handle Arrays (check if any item in array overlaps next slot)
                 if (Array.isArray(entry)) {
                     entry.forEach(subEntry => {
                         if (subEntry.span && subEntry.span > 1) {
-                             // Check overlap
                              for (let j = 1; j < subEntry.span; j++) {
                                  if (i + j >= timeSlots.length) break;
                                  const nextKey = `${day}-${timeSlots[i+j]}`;
                                  if (schedule[nextKey]) {
-                                     hasCollision = true; // Overlap detected!
+                                     hasCollision = true;
                                      subEntry.span = 1; 
                                  }
                              }
                         }
                     });
                 } 
-                // Handle Single Entry
                 else if (entry.span && entry.span > 1) {
                     let overlapFound = false;
                     for (let j = 1; j < entry.span; j++) {
@@ -830,22 +1284,14 @@
 
                     if (overlapFound) {
                         hasCollision = true;
-                        
-                        // EXPLODE THE SPAN
-                        // 1. Save original info
                         const originalSpan = entry.span;
                         const baseEntry = { ...entry, span: 1 };
-                        
-                        // 2. Replace current slot with span-1
                         schedule[key] = baseEntry;
 
-                        // 3. Propagate the rest of the class to subsequent slots
                         for (let j = 1; j < originalSpan; j++) {
                              if (i + j >= timeSlots.length) break;
                              const nextKey = `${day}-${timeSlots[i+j]}`;
                              const nextEntryClone = { ...baseEntry };
-                             
-                             // If next slot exists, merge into array
                              if (schedule[nextKey]) {
                                  if (Array.isArray(schedule[nextKey])) {
                                      schedule[nextKey].push(nextEntryClone);
@@ -860,7 +1306,6 @@
                 }
             }
         });
-        
         return hasCollision;
     }
 
@@ -868,17 +1313,14 @@
         document.getElementById('home-page').classList.add('hidden');
         document.getElementById('timetable-page').classList.remove('hidden');
 
-        // Start Clock
         if (clockInterval) clearInterval(clockInterval);
         updateClock();
         clockInterval = setInterval(updateClock, 1000);
 
-        // Header - Apply Title Case and display logic
         const rawName = data.name || "Student";
         document.getElementById('user-name-display').innerText = toTitleCase(rawName);
         document.getElementById('user-details-display').innerHTML = data.info || `MIS: ${data.mis}`;
 
-        // Cards
         const container = document.getElementById('subject-cards-container');
         container.innerHTML = "";
         if (data.cards) {
@@ -886,10 +1328,7 @@
                 const group = getGroupData(c.code);
                 const color = (group && group.color) || c.color || '#ccc';
                 const bg = (group && group.bg) || hexToRgba(color, 0.1);
-                
-                const batchHtml = (c.batch && c.batch !== '-') 
-                    ? `<div class="batch-badge">Batch: ${c.batch}</div>` 
-                    : '';
+                const batchHtml = (c.batch && c.batch !== '-') ? `<div class="batch-badge">Batch: ${c.batch}</div>` : '';
 
                 container.innerHTML += `
                     <div class="card" style="border-color:${color}; border-bottom-color:${color}; border-right-color:${color}; background:${bg}">
@@ -899,9 +1338,7 @@
                         </div>
                         <div>
                             <div class="detail">${c.div}</div>
-                            <div class="batch-container">
-                                ${batchHtml}
-                            </div>
+                            <div class="batch-container">${batchHtml}</div>
                         </div>
                     </div>
                 `;
@@ -909,13 +1346,9 @@
         }
 
         const collisionDetected = fixSpanCollisions(data.schedule);
-        
         const footerNote = document.getElementById('clash-footer');
-        if (collisionDetected) {
-            footerNote.style.display = 'block';
-        } else {
-            footerNote.style.display = 'none';
-        }
+        if (collisionDetected) footerNote.style.display = 'block';
+        else footerNote.style.display = 'none';
 
         renderTable(data);
         currentUserSchedule = data.schedule;
@@ -1031,21 +1464,12 @@
             const em = document.createElement('div');
             em.className = 'lunch-emoji';
             em.innerText = '🍽️';
-            
             const startX = Math.random() * (lb.clientWidth - 30); 
             const size = 0.8 + Math.random() * 0.8;
-            
             em.style.left = startX + 'px';
             em.style.fontSize = size + 'rem';
-            
             lb.appendChild(em);
-
-            activeEmojis.push({
-                el: em,
-                y: -40,
-                speed: 2 + Math.random() * 2, 
-                wobble: Math.random() * Math.PI * 2
-            });
+            activeEmojis.push({ el: em, y: -40, speed: 2 + Math.random() * 2, wobble: Math.random() * Math.PI * 2 });
         }
 
         for (let i = activeEmojis.length - 1; i >= 0; i--) {
@@ -1057,26 +1481,15 @@
 
             const emRect = obj.el.getBoundingClientRect();
 
-            if (textRect && 
-                emRect.top < textRect.bottom &&
-                emRect.bottom > textRect.top &&
-                emRect.right > textRect.left &&
-                emRect.left < textRect.right) {
-                
+            if (textRect && emRect.top < textRect.bottom && emRect.bottom > textRect.top && emRect.right > textRect.left && emRect.left < textRect.right) {
                 obj.el.classList.add('emoji-burst');
                 activeEmojis.splice(i, 1);
                 setTimeout(() => { if(obj.el.parentNode) obj.el.remove(); }, 200);
                 continue;
             }
 
-            if (obj.y > lbRect.height - 30) {
-                 obj.el.style.opacity = Math.max(0, 1 - (obj.y - (lbRect.height - 30)) / 20);
-            }
-
-            if (obj.y > lbRect.height + 20) {
-                obj.el.remove();
-                activeEmojis.splice(i, 1);
-            }
+            if (obj.y > lbRect.height - 30) obj.el.style.opacity = Math.max(0, 1 - (obj.y - (lbRect.height - 30)) / 20);
+            if (obj.y > lbRect.height + 20) { obj.el.remove(); activeEmojis.splice(i, 1); }
         }
     }
 
@@ -1115,6 +1528,9 @@
         const timeStr = now.toLocaleTimeString('en-US', { hour12: true, hour: 'numeric', minute:'2-digit', second: '2-digit' });
         const clockEl = document.getElementById('clock');
         if(clockEl) clockEl.innerText = `${days[dayIdx]}, ${timeStr}`;
+
+        // Notifications Check
+        checkUpcomingClasses(now);
 
         document.querySelectorAll('.live-active').forEach(el => {
             el.classList.remove('live-active');
@@ -1180,6 +1596,29 @@
                     el.appendChild(badge);
                 }
             }
+        }
+
+        // Update Live Toast
+        const liveToast = document.getElementById('live-toast');
+        if (currentLiveSlotId && currentUserSchedule) {
+             const item = currentUserSchedule[currentLiveSlotId];
+             if (item) {
+                 let title = "", room = "";
+                 if (Array.isArray(item)) {
+                     title = item.map(i => i.subj).join(' / ');
+                     room = item.map(i => i.room).join(' / ');
+                 } else {
+                     title = item.subj + (item.type === 'lab' ? ' LAB' : '');
+                     room = item.room;
+                 }
+                 document.getElementById('live-title').innerText = title;
+                 document.getElementById('live-room').innerText = room;
+                 liveToast.classList.add('show');
+             } else {
+                 liveToast.classList.remove('show');
+             }
+        } else {
+             if(liveToast) liveToast.classList.remove('show');
         }
     }
 </script>
