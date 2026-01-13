@@ -179,6 +179,14 @@
             margin: 15px 0 10px 0;
             font-weight: 600;
         }
+
+        #loading-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.7); z-index: 2000;
+            display: none; justify-content: center; align-items: center;
+            font-size: 1.5rem; color: #fff; flex-direction: column;
+            backdrop-filter: blur(5px);
+        }
     </style>
 </head>
 <body class="dark-mode">
@@ -188,6 +196,8 @@
     <button class="toggle-btn" onclick="clearToken()" title="Reset GitHub Token" style="margin-right:10px;">🔑</button>
     <button class="toggle-btn" onclick="toggleDarkMode()" id="theme-toggle">☀️</button>
 </header>
+
+<div id="loading-overlay"><div>⏳ Processing...</div></div>
 
 <div class="tabs">
     <div class="tab active" onclick="showPanel('students')">Students</div>
@@ -270,11 +280,23 @@
     let SHA_STUDENTS = null;
     let SHA_LOGIC = null;
 
+    // --- HELPER: LOADING SPINNER ---
+    function showLoading(msg = "Processing...") {
+        const el = document.getElementById('loading-overlay');
+        el.firstElementChild.innerText = "⏳ " + msg;
+        el.style.display = 'flex';
+    }
+
+    function hideLoading() {
+        document.getElementById('loading-overlay').style.display = 'none';
+    }
+
     function clearToken() {
         localStorage.removeItem("gh_token");
         location.reload();
     }
 
+    // --- CORE: GITHUB API HANDLER ---
     async function ghRequest(path, method = 'GET', body = null) {
         if (!GH_TOKEN) {
             GH_TOKEN = prompt("Enter GitHub Personal Access Token (Repo Scope):");
@@ -305,6 +327,7 @@
         return res.json();
     }
 
+    // --- CORE: SAVE FILE TO GITHUB ---
     async function ghSaveFile(path, content, sha, message) {
         // UTF-8 safe Base64 encoding
         const contentBase64 = btoa(unescape(encodeURIComponent(content)));
@@ -319,6 +342,7 @@
 
     // --- INITIALIZATION ---
     async function loadData() {
+        showLoading("Loading Data from GitHub...");
         try {
             // 1. Load Students.js
             const sData = await ghRequest('students.js');
@@ -350,6 +374,8 @@
         } catch (e) {
             alert("Error loading data from GitHub: " + e.message);
             console.error(e);
+        } finally {
+            hideLoading();
         }
 
         populateSchedDropdowns();
@@ -512,6 +538,7 @@
     }
 
     async function saveStudentChanges() {
+        showLoading("Saving Student Data...");
         const name = document.getElementById('edit-name').value;
         const rows = document.querySelectorAll('#cards-container .row');
         const newCards = [];
@@ -529,11 +556,16 @@
 
         // Save to GitHub
         const fileContent = `const GENERATED_DB = ${JSON.stringify(DATA.students, null, 2)};`;
-        const res = await ghSaveFile('students.js', fileContent, SHA_STUDENTS, `Update student ${EDIT_MIS}`);
-        SHA_STUDENTS = res.content.sha; // Update SHA for next save
-
-        alert("Student Saved!");
-        closeStudentEditor();
+        try {
+            const res = await ghSaveFile('students.js', fileContent, SHA_STUDENTS, `Update student ${EDIT_MIS}`);
+            SHA_STUDENTS = res.content.sha; // Update SHA for next save
+            alert("Student Saved!");
+            closeStudentEditor();
+        } catch (e) {
+            alert("Save Failed: " + e.message);
+        } finally {
+            hideLoading();
+        }
     }
 
     function closeStudentEditor() {
@@ -662,6 +694,7 @@
     }
 
     async function saveScheduleChanges() {
+        showLoading("Saving Schedule...");
         const sub = document.getElementById('sched-sub').value;
         const div = document.getElementById('sched-div').value;
         const batch = document.getElementById('sched-batch').value;
@@ -729,10 +762,15 @@
         const newSchedStr = `const MASTER_SCHEDULE = ${JSON.stringify(DATA.schedule, null, 4)};`;
         lText = lText.replace(/const MASTER_SCHEDULE = {[\s\S]*?};/, newSchedStr);
 
-        const res = await ghSaveFile('logic.js', lText, lData.sha, "Update Master Schedule");
-        SHA_LOGIC = res.content.sha;
-
-        alert("Schedule Saved!");
+        try {
+            const res = await ghSaveFile('logic.js', lText, lData.sha, "Update Master Schedule");
+            SHA_LOGIC = res.content.sha;
+            alert("Schedule Saved!");
+        } catch (e) {
+            alert("Save Failed: " + e.message);
+        } finally {
+            hideLoading();
+        }
     }
 
     // --- NOTES LOGIC ---
@@ -762,14 +800,21 @@
     }
 
     async function saveNotes() {
-        const lData = await ghRequest('logic.js');
-        let lText = decodeURIComponent(escape(atob(lData.content)));
-        
-        const newNotesStr = `const ACTIVE_NOTES = ${JSON.stringify(DATA.notes, null, 4)};`;
-        lText = lText.replace(/const ACTIVE_NOTES = \[[\s\S]*?\];/, newNotesStr);
+        showLoading("Saving Note...");
+        try {
+            const lData = await ghRequest('logic.js');
+            let lText = decodeURIComponent(escape(atob(lData.content)));
+            
+            const newNotesStr = `const ACTIVE_NOTES = ${JSON.stringify(DATA.notes, null, 4)};`;
+            lText = lText.replace(/const ACTIVE_NOTES = \[[\s\S]*?\];/, newNotesStr);
 
-        const res = await ghSaveFile('logic.js', lText, lData.sha, "Update Notes");
-        SHA_LOGIC = res.content.sha;
+            const res = await ghSaveFile('logic.js', lText, lData.sha, "Update Notes");
+            SHA_LOGIC = res.content.sha;
+        } catch(e) {
+            alert("Failed to save note: " + e.message);
+        } finally {
+            hideLoading();
+        }
     }
 
     // --- SUBJECTS LOGIC ---
@@ -787,6 +832,7 @@
     }
 
     async function updateSubject(code) {
+        showLoading("Updating Subject...");
         const newName = document.getElementById(`sub-name-${code}`).value;
         
         // Update local data
@@ -796,10 +842,15 @@
 
         // Save Students File
         const fileContent = `const GENERATED_DB = ${JSON.stringify(DATA.students, null, 2)};`;
-        const res = await ghSaveFile('students.js', fileContent, SHA_STUDENTS, `Update subject name ${code}`);
-        SHA_STUDENTS = res.content.sha;
-
-        alert("Subject Updated");
+        try {
+            const res = await ghSaveFile('students.js', fileContent, SHA_STUDENTS, `Update subject name ${code}`);
+            SHA_STUDENTS = res.content.sha;
+            alert("Subject Updated");
+        } catch(e) {
+            alert("Update Failed: " + e.message);
+        } finally {
+            hideLoading();
+        }
     }
 
     function toggleDarkMode() {
