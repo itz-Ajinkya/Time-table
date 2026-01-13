@@ -6,6 +6,7 @@
     <title>Timetable</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗓️</text></svg>">
 
     <style>
@@ -33,11 +34,6 @@
             /* CLASH COLORS (Default Light) */
             --clash-bg: #fff0f0;
             --clash-text: #c0392b;
-
-            /* WARNING COLORS */
-            --warning-bg: #fffcf0;
-            --warning-text: #856404;
-            --warning-border: #ffeeba;
         }
 
         /* Dark Mode Overrides */
@@ -56,11 +52,8 @@
             --slot-shadow: 0 2px 5px rgba(0,0,0,0.3);
             --clock-color: #4fabff;
             --header-border: 1px solid #333;
-            --clash-bg: #3d1a1a; 
-            --clash-text: #ff9999; 
-            --warning-bg: #2d2a16;
-            --warning-text: #ffe082;
-            --warning-border: #444020;
+            --clash-bg: #fff0f0; 
+            --clash-text: #c0392b; 
         }
 
         * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -78,7 +71,7 @@
         .hidden { display: none !important; }
 
         /* ============================
-           NOTIFICATIONS & TOASTS
+           TOAST CONTAINER & NOTIFICATIONS
            ============================ */
         #toast-container {
             position: fixed;
@@ -96,6 +89,7 @@
 
         #custom-toast {
             position: relative;
+            transform: none;
             background: var(--card-bg);
             border-left: 5px solid var(--accent);
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
@@ -103,22 +97,30 @@
             border-radius: 12px;
             min-width: 300px;
             max-width: 90vw;
-            display: none;
+            display: grid;
             grid-template-columns: auto 1fr auto;
             align-items: center;
             gap: 15px;
+
+            /* Hiding State */
+            display: none;
             pointer-events: auto;
             animation: slideDown 0.4s ease;
         }
 
-        #custom-toast.show { display: grid; }
+        #custom-toast.show {
+            display: grid;
+        }
 
         @keyframes slideDown {
             from { opacity: 0; transform: translateY(-20px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
-        .toast-icon { font-size: 2rem; animation: ring 1s infinite ease-in-out; }
+        .toast-icon {
+            font-size: 2rem;
+            animation: ring 1s infinite ease-in-out;
+        }
 
         @keyframes ring {
             0% { transform: rotate(0); }
@@ -129,24 +131,73 @@
             100% { transform: rotate(0); }
         }
 
-        .toast-content h4 { margin: 0 0 4px 0; font-size: 1rem; color: var(--text-main); }
+        .toast-content { min-width: 0; }
+        .toast-content h4 { margin: 0 0 4px 0; font-size: 1rem; color: var(--text-main); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         .toast-content p { margin: 0; font-size: 0.9rem; color: var(--text-sub); }
-        .toast-timer { font-family: 'Cascadia Code', monospace; font-size: 1.4rem; font-weight: 700; color: var(--accent); }
 
+        .toast-timer {
+            font-family: 'Cascadia Code', monospace;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--accent);
+            white-space: nowrap;
+        }
+
+        /* Urgent Notification (Rainbow Border) */
+        #custom-toast.urgent {
+            border-left: none;
+            background: transparent; /* Fix: Allow pseudo-elements to show */
+            padding: 15px 20px;
+            overflow: hidden;
+        }
+
+        #custom-toast.urgent::before {
+            content: '';
+            position: absolute;
+            top: -50%; left: -50%;
+            width: 200%; height: 200%;
+            background: conic-gradient(
+                from 0deg, 
+                #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3, #ff0000
+            );
+            animation: rotate-rainbow 3s linear infinite;
+            z-index: -2;
+        }
+
+        #custom-toast.urgent::after {
+            content: '';
+            position: absolute;
+            top: 3px; left: 3px; right: 3px; bottom: 3px;
+            background: var(--card-bg);
+            border-radius: 10px;
+            z-index: -1;
+        }
+
+        @keyframes rotate-rainbow {
+            100% { transform: rotate(360deg); }
+        }
+
+        /* LIVE TOAST */
         .live-toast {
             background: var(--card-bg) !important;
             border: 1px solid var(--live-color);
             border-radius: 12px;
-            display: none;
-            align-items: stretch;
+            display: none; /* Hidden by default */
+            align-items: stretch; /* Stretch strips to full height */
+            gap: 0; /* Remove gap for edge attachment */
             box-shadow: 0 10px 30px rgba(0,0,0,0.15);
             width: 100%;
+            max-width: 100%;
+            pointer-events: auto;
+            padding: 0; /* Remove padding for edge attachment */
             margin-bottom: 20px;
             overflow: hidden;
             animation: slideDown 0.4s ease, pulse-green 2s infinite;
         }
 
-        .live-toast.show { display: flex; }
+        .live-toast.show {
+            display: flex;
+        }
 
         @keyframes pulse-green {
             0% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.7); }
@@ -162,13 +213,53 @@
             color: white;
             font-size: 0.8rem;
             letter-spacing: 3px;
+            user-select: none;
             padding: 0 6px;
             display: flex; align-items: center; justify-content: center;
         }
 
-        .live-content { flex: 1; text-align: center; padding: 12px 15px; }
-        .live-content h4 { font-family: 'Eras Bold ITC', sans-serif; margin: 0 0 4px 0; font-size: 1.3rem; }
-        .live-content p { margin: 0; font-size: 0.9rem; font-weight: 1000; color: var(--text-sub); }
+        .live-content {
+            flex: 1;
+            text-align: center;
+            padding: 12px 15px;
+            display: flex; flex-direction: column; justify-content: center;
+        }
+        .live-content h4 { font-family: 'Eras Bold ITC', sans-serif; margin: 0 0 4px 0; font-size: 1.3rem; color: var(--text-main); }
+        .live-content p { margin: 0; font-size: 0.9rem; color: var(--text-sub); font-weight: 1000; }
+
+        /* MOBILE OPTIMIZATIONS */
+        @media (max-width: 768px) {
+            #toast-container {
+                position: relative;
+                top: 0; left: 0;
+                transform: none;
+                width: 100%;
+                margin: 0 0 15px 0;
+                pointer-events: none;
+            }
+
+            @keyframes slideDownMobile {
+                from { opacity: 0; transform: translateY(-20px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+
+            /* Compact Table & Cards */
+            td, td.time-col-cell, .break { height: 90px; padding: 2px; }
+            .slot { padding: 4px 2px; }
+            .slot-title { font-size: 1rem; margin-bottom: 2px; }
+            .room-tag { font-size: 0.5rem; padding: 2px 6px; }
+            .lab-tag { font-size: 1.2rem; top: 2px; }
+
+            .card { min-height: 110px; padding: 10px 8px; }
+            .card .subject { font-size: 1.3rem; font-weight: 1000; font-family: 'Eras Bold ITC', sans-serif; }
+            .card h3 { font-size: 0.9rem; }
+            .card .detail { font-size: 0.9rem; padding: 4px 8px; }
+            .card .batch-badge { font-size: 0.7rem; padding: 2px 6px; }
+
+            /* Header adjustments */
+            .header-main { padding: 12px 15px; }
+            .container { padding: 10px 10px 80px 10px; }
+        }
 
         /* ============================
            LOGIN SCREEN
@@ -194,18 +285,50 @@
             margin: 0 auto;
             animation: slideUp 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
         }
+        @keyframes slideUp { from { transform: translateY(50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 
         body.dark-mode .login-card { background: rgba(30, 30, 30, 0.96); }
+
+        .login-card h1 { margin: 0 0 8px; color: #2c3e50; font-size: 1.8rem; font-family: 'Cascadia Code', monospace; font-weight: 600; letter-spacing: -0.5px; }
+        body.dark-mode .login-card h1 { color: #fff; }
+        .login-card p { color: #666; margin-bottom: 32px; font-size: 1rem; }
+        body.dark-mode .login-card p { color: #aaa; }
 
         .mis-input-wrapper {
             display: flex; align-items: center; background: var(--input-bg);
             border: 2px solid var(--border); border-radius: 14px; padding: 1px 10px; margin-bottom: 14px;
         }
+        .mis-input-wrapper:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2); }
 
-        .prefix { font-family: 'Cascadia Code', monospace; font-weight: 700; font-size: 2rem; opacity: 0.6; }
-        .mis-input-wrapper input { border: none; background: transparent; padding: 8px 0; font-size: 2rem; font-family: 'Cascadia Code', monospace; font-weight: 700; color: var(--text-main); width: 100%; outline: none; }
+        .prefix { 
+            font-family: 'Cascadia Code', monospace; 
+            font-weight: 700; 
+            font-size: 2rem; 
+            opacity: 0.6; 
+            margin-right: 4px; 
+            letter-spacing: 1px;
+        }
+        .mis-input-wrapper input { 
+            border: none; 
+            background: transparent; 
+            padding: 8px 0; 
+            font-size: 2rem; 
+            font-family: 'Cascadia Code', monospace; 
+            font-weight: 700; 
+            color: var(--text-main); 
+            width: 100%; 
+            outline: none; 
+            letter-spacing: 2px;
+        }
 
-        .btn-login { background: var(--accent); color: white; border: none; padding: 18px 0; width: 100%; border-radius: 14px; font-size: 1.1rem; font-weight: 700; cursor: pointer; }
+        .btn-login {
+            background: var(--accent); color: white; border: none; padding: 18px 0; width: 100%;
+            border-radius: 14px; font-size: 1.1rem; font-weight: 700; cursor: pointer;
+            box-shadow: 0 6px 20px rgba(52, 152, 219, 0.3);
+            transition: transform 0.2s;
+        }
+        .btn-login:active { transform: scale(0.96); }
+        .error-msg { color: var(--error); margin-top: 20px; font-weight: 600; display: none; background: rgba(231, 76, 60, 0.1); padding: 12px; border-radius: 12px; }
 
         /* ============================
            DASHBOARD HEADER
@@ -223,67 +346,446 @@
             border: var(--header-border);
         }
 
-        .header-main { padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; }
-
-        .profile-info h1 { 
-            margin: 0; font-size: 1.5rem; font-family: 'Cascadia Code', monospace;
-            background: rgba(0,0,0,0.03); padding: 6px 14px; border-radius: 10px; display: inline-block;
+        .header-main {
+            padding: 16px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 70px;
         }
 
-        .status-bar { background: var(--header-bar-bg); padding: 10px 20px; display: flex; justify-content: space-between; border-top: 1px solid var(--border); }
+        .profile-info { flex: 1; }
+
+        .profile-info h1 { 
+            margin: 0 0 6px 0; 
+            font-size: 1.5rem; 
+            font-family: 'Cascadia Code', monospace;
+            font-weight: 600; 
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            background: rgba(0,0,0,0.03);
+            padding: 6px 14px;
+            border-radius: 10px;
+            display: inline-block;
+            width: fit-content;
+        }
+
+        body.dark-mode .profile-info h1 {
+            background: rgba(255,255,255,0.05);
+        }
+
+        .profile-info p { 
+            margin: 4px 0 0; 
+            color: var(--text-main);
+            font-size: 1.1rem;
+            font-family: 'Cascadia Code', monospace; 
+            font-weight: 800;
+            opacity: 1;
+            letter-spacing: 1px;
+            padding-left: 4px;
+        }
+
+        .header-center {
+            display: flex;
+            align-items: center;
+            gap: 15px; 
+        }
+
+        .theme-btn {
+            background: transparent;
+            border: none;
+            width: 50px; height: 50px;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .theme-icon {
+            font-size: 2rem;
+            line-height: 1;
+            filter: drop-shadow(0 0 2px rgba(0,0,0,0.1));
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .theme-btn:active .theme-icon { transform: scale(0.8) rotate(15deg); }
+
+        .bulb-glow {
+            position: absolute;
+            width: 40px; height: 40px;
+            background: rgba(255, 235, 59, 0);
+            border-radius: 50%;
+            transition: all 0.4s ease;
+            z-index: -1;
+        }
+
+        body:not(.dark-mode) .bulb-glow {
+            background: rgba(255, 160, 0, 0.1);
+            box-shadow: 0 0 15px 5px rgba(255, 160, 0, 0.2);
+        }
+
+        body.dark-mode .bulb-glow {
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.1);
+        }
+
+        /* --- TOGGLE SWITCH STYLES --- */
+        .notif-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 28px;
+        }
+
+        .switch input { opacity: 0; width: 0; height: 0; }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 34px;
+            box-shadow: inset 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "🔕"; 
+            display: flex; align-items: center; justify-content: center;
+            font-size: 14px;
+            height: 22px; width: 22px;
+            left: 3px; bottom: 3px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        input:checked + .slider { background-color: var(--live-color); }
+        input:checked + .slider:before {
+            transform: translateX(22px);
+            content: "🔔"; 
+        }
+
+        body.dark-mode .slider { background-color: #444; }
+
+        .status-bar {
+            background: var(--header-bar-bg);
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            border-top: 1px solid var(--border);
+        }
+
+        #clock {
+            font-family: 'Cascadia Code', monospace;
+            font-weight: 700;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+            color: var(--clock-color);
+        }
+
+        .logout-btn {
+            background: transparent;
+            color: #ff5252;
+            border: 1px solid rgba(255, 82, 82, 0.3);
+            padding: 7px 15px;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+            transition: all 0.2s;
+        }
+        .logout-btn:active { background: rgba(255, 82, 82, 0.1); transform: scale(0.95); }
+
+        /* ============================
+           CARDS
+           ============================ */
+        .cards {
+            display: flex; gap: 12px; overflow-x: auto; padding: 4px 4px 20px 4px;
+            scroll-snap-type: x mandatory; margin: 0 -12px 10px -12px; padding-left: 12px; padding-right: 12px;
+        }
+        .cards::-webkit-scrollbar { display: none; }
+
+        .card {
+            background: var(--card-bg);
+            min-width: 130px; 
+            padding: 15px 10px;
+            border-radius: 12px;
+            border: 1px solid var(--border); 
+            border-bottom-width: 5px;
+            border-right-width: 5px; 
+            box-shadow: var(--shadow-soft);
+            scroll-snap-align: start;
+            flex-shrink: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+            min-height: 150px;
+        }
+
+        .card-top-content {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            margin-bottom: 12px; 
+        }
+
+        .card h3 { 
+            font-size: 0.75rem; 
+            color: var(--text-sub); 
+            margin: 0; 
+            text-transform: uppercase; 
+            letter-spacing: 0.5px;
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis;
+        }
+
+        .card .subject { font-family: 'Eras Bold ITC', sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1.2; }
+
+        .card .detail { 
+            background: #f8f9fa !important; 
+            color: #2c3e50 !important; 
+            font-size: 1.1rem;
+            font-weight: 800; 
+            padding: 6px 10px; 
+            border-radius: 6px; 
+            display: inline-block; 
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1); 
+            border: 1px solid #e1e4e8;
+            margin-bottom: 8px;
+        }
+
+        .batch-container { height: 24px; display: flex; align-items: center; justify-content: center; }
+
+        .card .batch-badge {
+            background: #f8f9fa !important; 
+            color: #2c3e50 !important;
+            font-size: 0.75rem; font-weight: 700; padding: 3px 8px; 
+            border-radius: 4px; display: inline-block; 
+            border: 1px solid #e1e4e8;
+        }
 
         /* ============================
            TIMETABLE & SLOTS
            ============================ */
-        .timetable-wrapper { background: var(--card-bg); border-radius: 16px; box-shadow: var(--shadow-soft); overflow: hidden; border: 1px solid var(--border); }
-        .table-scroll-container { overflow-x: auto; width: 100%; }
+        .timetable-wrapper { background: var(--card-bg); border-radius: 16px; box-shadow: var(--shadow-soft); overflow: hidden; position: relative; border: 1px solid var(--border); }
+        .table-scroll-container { overflow-x: auto; -webkit-overflow-scrolling: touch; width: 100%; }
 
-        table { border-collapse: separate; border-spacing: 0; min-width: 950px; width: 100%; }
+        table { border-collapse: separate; border-spacing: 0; min-width: 950px; width: 100%; table-layout: fixed; }
 
         th { background: var(--primary); color: #fff; padding: 12px 4px; font-size: 0.8rem; text-transform: uppercase; position: sticky; top: 0; z-index: 20; }
-        
-        .time-col { position: sticky; left: 0; background: var(--card-bg); width: 115px; z-index: 10; border-right: 1px solid var(--border); text-align: center; }
+        body.dark-mode th { color: #121212; }
 
-        td { border-bottom: 1px solid var(--border); border-right: 1px solid var(--border); height: 140px; vertical-align: top; padding: 6px; }
+        .time-col { 
+            position: sticky; left: 0; background: var(--card-bg); width: 115px; 
+            z-index: 1000 !important; 
+            border-right: 1px solid var(--border); font-size: 0.75rem; font-weight: 700; 
+            color: var(--text-sub); text-align: center; padding: 0 4px; 
+            box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+            display: flex; align-items: center; justify-content: center;
+            white-space: nowrap;
+        }
+        td.time-col-cell { padding: 0; height: 140px; } 
 
-        .slot { 
-            height: 100%; width: 100%; border-radius: 10px; display: flex; flex-direction: column; 
-            justify-content: center; align-items: center; text-align: center; padding: 10px;
-            box-shadow: var(--slot-shadow);
+        th:first-child { 
+            position: sticky; left: 0; 
+            z-index: 1001 !important; 
+            background: var(--primary); width: 115px; box-shadow: 2px 0 5px rgba(0,0,0,0.1); 
         }
 
-        .slot-title { font-family: 'Eras Bold ITC', sans-serif; font-weight: 800; font-size: 1.2rem; }
+        td { border-bottom: 1px solid var(--border); border-right: 1px solid var(--border); padding: 6px; vertical-align: top; height: 140px; }
+        th:not(:first-child), td:not(.time-col-cell) { width: calc((100% - 115px) / 6); min-width: 140px; }
 
-        .live-active { box-shadow: 0 0 0 3px var(--live-color) !important; z-index: 10; }
+        .slot, .split-item { 
+            height: 100%; width: 100%; border-radius: 10px; 
+            display: flex; flex-direction: column; justify-content: center; align-items: center; 
+            text-align: center; position: relative; padding: 28px 4px 8px 4px; 
+            box-shadow: var(--slot-shadow); overflow: visible; 
+            transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+        }
 
-        .break { font-family: 'Cascadia Code', monospace; font-weight: 600; font-size: 1.5rem; text-align: center; background: var(--header-bar-bg); }
+        .slot:hover, .split-item:hover { 
+            transform: translateY(-6px) scale(1.03); 
+            z-index: 500 !important; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15); 
+        }
+
+        .slot-collision { background: transparent; box-shadow: none; padding: 0; pointer-events: none; }
+        .slot-split { display: flex; width: 100%; height: 100%; gap: 4px; pointer-events: auto; }
+        .split-item { flex: 1; min-width: 0; font-size: 0.9em; }
+        .slot-title { font-family: 'Eras Bold ITC', sans-serif; font-weight: 800; font-size: 1.2rem; margin-bottom: 4px; line-height: 1.1; }
+        .room-tag { background: rgba(255,255,255,0.85); color: #000; font-size: 0.85rem; font-weight: 700; padding: 4px 8px; border-radius: 6px; display: inline-block; }
+
+        .lab-tag { 
+            position: absolute; top: 4px; left: 50%; transform: translateX(-50%); 
+            font-size: 2rem; line-height: 1; z-index: 5; filter: drop-shadow(0 2px 2px rgba(0,0,0,0.1));
+        }
+
+        .live-active {
+            box-shadow: 0 0 0 3px var(--live-color) !important;
+            z-index: 10;
+            filter: brightness(0.92);
+            border-left-style: none !important;
+            padding-left: 8px !important;
+        }
+
+        .live-badge {
+            position: absolute; top: -12px; left: 50%; transform: translateX(-50%);
+            background: var(--live-color); color: white; font-family: 'Cascadia Code', monospace;
+            font-weight: 600; font-size: 0.85rem; padding: 2px 12px; border-radius: 6px;
+            box-shadow: 0 4px 6px rgba(46, 204, 113, 0.3); z-index: 60; letter-spacing: 1px;
+        }
+
+        .break { 
+            background: linear-gradient(120deg, var(--bg) 0%, var(--card-bg) 50%, var(--bg) 100%);
+            background-size: 200% 200%;
+            font-family: 'Cascadia Code', monospace; 
+            font-weight: 600; font-size: 1.5rem; 
+            color: var(--text-sub); vertical-align: middle; text-align: center; 
+            position: relative; overflow: hidden; height: 140px; 
+        }
+
+        #lunch-break.lunch-now { border: 2px solid var(--accent); animation: lunchBreath 4s ease infinite; }
+        @keyframes lunchBreath { 
+            0% { background-position: 0% 50%; box-shadow: inset 0 0 15px rgba(52,152,219,0.05); } 
+            50% { background-position: 100% 50%; box-shadow: inset 0 0 30px rgba(52,152,219,0.2); } 
+            100% { background-position: 0% 50%; box-shadow: inset 0 0 15px rgba(52,152,219,0.05); } 
+        }
+
+        .lunch-emoji {
+            position: absolute; pointer-events: none; user-select: none;
+            bottom: -50px; font-size: 0.8rem; z-index: 4; will-change: transform;
+        }
+
+        .emoji-burst { animation: burstPop 0.2s ease-out forwards; }
+        @keyframes burstPop {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.4); opacity: 0.8; }
+            100% { transform: scale(2); opacity: 0; }
+        }
+
+        .lb-text { 
+            position: relative; z-index: 10;
+            background: var(--card-bg); color: var(--text-main);
+            padding: 8px 16px; border-radius: 12px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08); border: 1px solid var(--border);
+        }
+
+        .current-day-col { background-color: rgba(52, 152, 219, 0.05); }
+
+        th.current-day-col { 
+            background-color: #34495e; 
+            color: #ffffff !important; 
+            border-bottom: 3px solid var(--accent); 
+        }
+
+        body.dark-mode th.current-day-col { 
+            background-color: var(--accent);
+            color: #ffffff !important;
+            border-bottom: 3px solid #fff; 
+        }
+
+        .snowfall { position: absolute; inset: 0; overflow: hidden; pointer-events: none; opacity: 0.5; z-index: 2; }
+        .snowflake { 
+            position: absolute; 
+            color: white; 
+            top: -20px;
+            animation: fall linear forwards; 
+        }
+        @keyframes fall { 
+            0% { transform: translateY(0); opacity: 1; }
+            80% { opacity: 1; }
+            100% { transform: translateY(180px); opacity: 0; } 
+        }
+
+        /* CLASH FOOTER NOTE */
+        .clash-note {
+            text-align: center; 
+            font-family: 'Cascadia Code', monospace; 
+            font-size: 0.85rem; 
+            color: var(--clash-text); 
+            background: var(--clash-bg);
+            padding: 10px;
+            border-radius: 8px;
+            margin: 10px auto 0 auto;
+            max-width: 400px;
+            border: 1px dashed var(--clash-text);
+            display: none; /* Hidden by default */
+        }
+
+        .clash-note a {
+            color: #0066cc !important; 
+            text-decoration: underline;
+            font-weight: 700;
+        }
+        .clash-note a:hover {
+            opacity: 0.8;
+        }
 
         /* ============================
-           WARNING & FOOTER NOTES
+           NEW FOOTER STYLES
            ============================ */
-        .clash-note {
-            text-align: center; font-family: 'Cascadia Code', monospace; font-size: 0.85rem; 
-            color: var(--clash-text); background: var(--clash-bg); padding: 12px;
-            border-radius: 12px; margin-bottom: 12px; border: 1px dashed var(--clash-text); display: none;
+        .contact-footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--card-bg);
+            margin-top: 2rem;
+            border-top: 1px solid var(--border);
+            border-radius: 16px;
         }
 
-        .subject-change-warning {
-            text-align: center; font-family: 'Cascadia Code', monospace; font-size: 0.9rem;
-            color: var(--warning-text); background: var(--warning-bg); padding: 15px;
-            border-radius: 12px; margin: 15px 0; border: 1px solid var(--warning-border);
-            display: flex; align-items: center; justify-content: center; gap: 10px;
+        .contact-footer p {
+            margin-bottom: 1rem;
+            font-weight: bold;
+            color: var(--text-sub);
+            font-family: 'Cascadia Code', monospace;
         }
 
-        .contact-footer { text-align: center; padding: 2rem; background-color: var(--card-bg); margin-top: 2rem; border-top: 1px solid var(--border); border-radius: 16px; }
-        .social-links { display: flex; justify-content: center; gap: 1.5rem; }
-        .social-btn { text-decoration: none; padding: 10px 20px; border-radius: 25px; color: white; display: inline-flex; align-items: center; gap: 8px; }
-        .social-btn.insta { background: linear-gradient(45deg, #f09433, #bc1888); }
-        .social-btn.mail { background-color: #EA4335; }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
 
-        /* Mobile specific heights */
-        @media (max-width: 768px) {
-            td, .break { height: 90px; }
-            .slot-title { font-size: 1rem; }
+        .social-btn {
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            color: white;
+            font-weight: 500;
+            transition: transform 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        .social-btn.insta {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        }
+
+        .social-btn.mail {
+            background-color: #EA4335;
+        }
+
+        .social-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
     </style>
 </head>
@@ -296,14 +798,33 @@
             <div style="text-align:left; font-weight:700; margin-bottom:8px; color:var(--text-main); font-size:1.2rem; font-family: 'Cascadia Code', monospace;">MIS Number</div>
             <div class="mis-input-wrapper">
                 <span class="prefix">6125</span>
-                <input type="tel" id="mis-input" placeholder="*****" maxlength="5" inputmode="numeric">
+                <input type="tel" id="mis-input" placeholder="*****" maxlength="5" autocomplete="off" inputmode="numeric">
             </div>
             <button class="btn-login" onclick="attemptLogin()">VIEW SCHEDULE</button>
-            <div class="error-msg" id="error-msg" style="display:none; color:red; margin-top:10px;">❌ Invalid MIS</div>
+            <div class="error-msg" id="error-msg">❌ Invalid MIS</div>
         </div>
+
+        <div style="text-align: center; font-family: 'Cascadia Code', monospace; font-size: 0.85rem; color: #856404; background: #fffcf0; padding: 10px; border-radius: 8px; margin: 20px auto 0 auto; max-width: 500px; border: 1px solid #ffeeba;">
+            ⚠️ <strong>Note:</strong> Those who have done a subject change, the timetable will be correct once your division and batch are allotted.
+        </div>
+
         <footer class="contact-footer">
-            <div style="opacity: 0.7; font-family: 'Cascadia Code SemiBold', monospace;">Designed by Ajinkya Patil [AIML]</div>
-        </footer>
+                <div style="margin-top: 15px; font-size: 1.2rem; opacity: 0.7; font-family: 'Cascadia Code SemiBold', monospace;">
+                    Designed by Ajinkya Patil [AIML]
+                </div>
+                <div style="height: 12px;"></div>
+                <p>Connect with me:</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/ajinkya_patil_2006" target="_blank" class="social-btn insta">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+
+                    <a href="mailto:ajinkya.s.p12@gmail.com" class="social-btn mail">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                </div>
+
+            </footer>
     </div>
 
     <div id="timetable-page" class="hidden">
@@ -312,27 +833,49 @@
                 <div class="header-main">
                     <div class="profile-info">
                         <h1 id="user-name-display">Student</h1>
-                        <p id="user-details-display" style="font-family:'Cascadia Code', monospace; margin-top:5px; font-weight:800;">MIS: ---</p>
+                        <p id="user-details-display">MIS: ---</p>
                     </div>
+
                     <div class="header-center">
-                        <button class="theme-btn" onclick="toggleTheme()" style="background:none; border:none; cursor:pointer; font-size:1.5rem;">
-                            <span id="theme-icon">🌙</span>
+                        <div class="notif-wrapper" title="Mute/Unmute Audio">
+                            <label class="switch">
+                                <input type="checkbox" id="notif-toggle" onchange="toggleNotificationChange()">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <button class="theme-btn" onclick="toggleTheme()" id="theme-btn" aria-label="Toggle Theme">
+                            <div class="bulb-glow"></div>
+                            <span class="theme-icon" id="theme-icon">🌙</span>
                         </button>
                     </div>
                 </div>
+
                 <div class="status-bar">
-                    <div id="clock" style="font-family:'Cascadia Code', monospace; font-weight:700;">Mon, 12:00:00 PM</div>
-                    <button onclick="logout()" style="color:#ff5252; background:none; border:none; font-weight:700; cursor:pointer;">Logout</button>
+                    <div id="clock">Mon, 12:00:00 PM</div>
+                    <button class="logout-btn" onclick="logout()">Logout</button>
                 </div>
             </header>
 
-            <div id="clash-footer" class="clash-note">
-                <strong>⚠️ Clash Detected!</strong> Please contact <a href="mailto:yvs.maths@coep.ac.in">yvs.maths@coep.ac.in</a> immediately.
+            <div id="toast-container">
+                <div id="custom-toast">
+                    <div class="toast-icon">🔔</div>
+                    <div class="toast-content">
+                        <h4 id="toast-title">Notification</h4>
+                        <p id="toast-body">Message goes here</p>
+                    </div>
+                    <div class="toast-timer" id="toast-timer"></div>
+                </div>
             </div>
 
-            <div class="subject-change-warning">
-                <i class="fas fa-info-circle"></i>
-                <span><strong>Note:</strong> If you have requested a subject change, your timetable will reflect the correct schedule once your new <strong>Division and Batch</strong> are officially allotted.</span>
+            <div id="clash-footer" class="clash-note" style="margin-bottom: 20px;">
+                <div style="font-size: 1.1em; margin-bottom: 8px;">⚠️ <strong>Clash Detected!</strong></div>
+                Please contact 
+                <a href="mailto:yvs.maths@coep.ac.in">yvs.maths@coep.ac.in</a> 
+                at the earliest.
+                <br><br>
+                <span style="font-size: 0.9em; opacity: 0.9;">
+                    Also, please send me a screenshot of the mail sent to you regarding the branch/batch change so I can update it on the website.
+                </span>
             </div>
 
             <div id="live-toast" class="live-toast">
@@ -344,7 +887,7 @@
                 <div class="live-vertical-text">LIVE</div>
             </div>
 
-            <div class="cards" id="subject-cards-container" style="display:flex; gap:10px; overflow-x:auto; padding-bottom:15px;"></div>
+            <div class="cards" id="subject-cards-container"></div>
 
             <div class="timetable-wrapper">
                 <div class="table-scroll-container">
@@ -365,19 +908,28 @@
                 </div>
             </div>
 
+            <div style="text-align: center; font-family: 'Cascadia Code', monospace; font-size: 0.85rem; color: #856404; background: #fffcf0; padding: 10px; border-radius: 8px; margin: 20px auto 0 auto; max-width: 500px; border: 1px solid #ffeeba;">
+                ⚠️ <strong>Note:</strong> Those who have done a subject change, the timetable will be correct once your division and batch are allotted.
+            </div>
+
             <footer class="contact-footer">
-                <div style="font-size: 1.2rem; opacity: 0.7; font-family: 'Cascadia Code SemiBold', monospace;">Designed by Ajinkya Patil [AIML]</div>
+                <div style="margin-top: 15px; font-size: 1.2rem; opacity: 0.7; font-family: 'Cascadia Code SemiBold', monospace;">
+                    Designed by Ajinkya Patil [AIML]
+                </div>
                 <div style="height: 12px;"></div>
                 <p>Connect with me:</p>
                 <div class="social-links">
                     <a href="https://www.instagram.com/ajinkya_patil_2006" target="_blank" class="social-btn insta">
                         <i class="fab fa-instagram"></i> Instagram
                     </a>
+
                     <a href="mailto:ajinkya.s.p12@gmail.com" class="social-btn mail">
                         <i class="fas fa-envelope"></i> Email
                     </a>
                 </div>
+
             </footer>
+
         </div>
     </div>
 
@@ -385,7 +937,7 @@
 <script src="logic.js"></script>
 
 <script>
-    // Configuration & Utility Functions (Kept from your original code)
+    // Global Config
     window.GROUP_COLOR_MAP = {
         blueGroup: { codes: ['EP','QP','EC'], color: '#2980b9', bg: '#EAF4FF' },
         purpleGroup: { codes: ['PS','VCDE'], color: '#8e44ad', bg: '#F4ECF7' },
@@ -397,32 +949,113 @@
 
     let clockInterval;
     let currentUserSchedule = null;
+    let currentLiveSlotId = null;
+    let notificationsEnabled = false;
+    let wakeLock = null;
 
-    // Standard Handlers
+    // Audio Objects
+    const sound10 = new Audio('noti.mp3');
+    const sound5 = new Audio('noti5.mp3'); // User requested noti.mp3
+
+    // Active Notification State
+    let activeNotifState = { key: null, played10: false, played5: false };
+
+    // Helpers
+    const getGroupData = (code) => {
+        for (const key in window.GROUP_COLOR_MAP) {
+            if (window.GROUP_COLOR_MAP[key].codes.includes(code)) return window.GROUP_COLOR_MAP[key];
+        }
+        return null;
+    };
+
+    const hexToRgba = (hex, alpha) => {
+        if (!hex) return '';
+        const h = hex.replace('#','');
+        const bigint = parseInt(h, 16);
+        return `rgba(${(bigint >> 16) & 255}, ${(bigint >> 8) & 255}, ${bigint & 255}, ${alpha})`;
+    };
+
+    const readableTextColor = (hex) => {
+        if (!hex) return '#111';
+        const h = hex.replace('#','');
+        const b = parseInt(h, 16);
+        const brightness = (((b >> 16) & 255) * 299 + ((b >> 8) & 255) * 587 + (b & 255) * 114) / 1000;
+        return brightness > 180 ? '#111' : '#ffffff';
+    };
+
+    const toTitleCase = (str) => {
+        if (!str) return "";
+        return str.toLowerCase().split(' ').map(word => {
+            return word.charAt(0).toUpperCase() + word.slice(1);
+        }).join(' ');
+    };
+
+    // Initialization
     window.onload = function() {
-        if(localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
+        const savedTheme = localStorage.getItem('theme');
+        if(savedTheme === 'dark') {
+            document.body.classList.add('dark-mode');
+        }
         updateThemeIcon();
+
+        // Initialize Notification Toggle State
+        initNotifications();
+
         const savedUser = localStorage.getItem('currentUserMIS');
         if(savedUser && typeof getStudentData === "function") {
             const data = getStudentData(savedUser);
             if(data) loadDashboard(data);
         }
+
+        // GLOBAL INTERACTION LISTENER (To Unlock Audio on first click)
+        document.body.addEventListener('click', function() {
+            if(notificationsEnabled && sound10.paused && sound5.paused) { 
+                // Attempt to play/pause quickly to unlock audio context
+                sound10.play().then(() => {
+                    sound10.pause(); 
+                    sound10.currentTime = 0;
+                }).catch(() => {});
+                sound5.play().then(() => {
+                    sound5.pause(); 
+                    sound5.currentTime = 0;
+                }).catch(() => {});
+            }
+        }, { once: true });
+
+        requestAnimationFrame(animateLoop);
     };
 
     function toggleTheme() {
         document.body.classList.toggle('dark-mode');
-        localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+        const isDark = document.body.classList.contains('dark-mode');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
         updateThemeIcon();
     }
 
     function updateThemeIcon() {
-        document.getElementById('theme-icon').innerText = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+        const isDark = document.body.classList.contains('dark-mode');
+        const icon = document.getElementById('theme-icon');
+        if(icon) icon.innerText = isDark ? '☀️' : '🌙';
     }
 
+    // Login
+    const misInput = document.getElementById('mis-input');
+    misInput.addEventListener("keypress", (e) => { if (e.key === "Enter") attemptLogin(); });
+
     function attemptLogin() {
-        const val = document.getElementById('mis-input').value.trim();
+        const val = misInput.value.trim();
+        if(!val) return;
         const fullMis = val.length === 9 ? val : "6125" + val;
-        const data = typeof getStudentData === "function" ? getStudentData(fullMis) : null;
+
+        if (typeof getStudentData !== "function") {
+            alert("JS Files missing"); return;
+        }
+
+        // Unlock Audio on Login Click
+        sound10.play().then(() => { sound10.pause(); sound10.currentTime = 0; }).catch(()=>{});
+        sound5.play().then(() => { sound5.pause(); sound5.currentTime = 0; }).catch(()=>{});
+
+        const data = getStudentData(fullMis);
         if (data) {
             localStorage.setItem('currentUserMIS', fullMis);
             loadDashboard(data);
@@ -438,31 +1071,564 @@
         location.reload();
     }
 
-    function updateClock() {
-        const now = new Date();
-        const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-        document.getElementById('clock').innerText = `${days[now.getDay()]}, ${now.toLocaleTimeString('en-US', { hour12: true, hour: 'numeric', minute:'2-digit', second: '2-digit' })}`;
+    // --- NOTIFICATION LOGIC (CUSTOM TOAST) ---
+    function initNotifications() {
+        const savedState = localStorage.getItem('notificationsEnabled');
+        const toggle = document.getElementById('notif-toggle');
+
+        if (savedState === 'true') {
+            notificationsEnabled = true;
+            if(toggle) toggle.checked = true;
+        } else {
+            notificationsEnabled = false;
+            if(toggle) toggle.checked = false;
+        }
+    }
+
+    function toggleNotificationChange() {
+        const toggle = document.getElementById('notif-toggle');
+
+        if (toggle.checked) {
+            // Turning ON
+            notificationsEnabled = true;
+            localStorage.setItem('notificationsEnabled', 'true');
+
+            // Try to play sound immediately
+            sound10.play().catch(e => {
+                console.log("Audio play prevented:", e);
+            });
+            sound5.play().then(() => { sound5.pause(); sound5.currentTime = 0; }).catch(()=>{});
+
+            // Show Test Notification
+            showCustomNotification("Notifications ON", "Test success! You will hear this sound 10 mins before class.");
+        } else {
+            // Turning OFF
+            notificationsEnabled = false;
+            localStorage.setItem('notificationsEnabled', 'false');
+        }
+    }
+
+    function showCustomNotification(title, body, timerStr = "", persistent = false, isUrgent = false) {
+        const toast = document.getElementById('custom-toast');
+        const tTitle = document.getElementById('toast-title');
+        const tBody = document.getElementById('toast-body');
+        const tTimer = document.getElementById('toast-timer');
+
+        if(toast && tTitle && tBody) {
+            tTitle.innerText = title;
+            tBody.innerText = body;
+            if(tTimer) tTimer.innerText = timerStr;
+
+            // Handle Urgent State
+            if (isUrgent) {
+                toast.classList.add('urgent');
+            } else {
+                toast.classList.remove('urgent');
+            }
+
+            toast.classList.add('show');
+
+            // Clear any existing timeout to hide
+            if (toast.hideTimeout) clearTimeout(toast.hideTimeout);
+
+            if (!persistent) {
+                toast.hideTimeout = setTimeout(() => {
+                    toast.classList.remove('show');
+                    toast.classList.remove('urgent');
+                }, 5000);
+            }
+        }
+    }
+
+    function hideCustomNotification() {
+        const toast = document.getElementById('custom-toast');
+        if(toast) {
+            toast.classList.remove('show');
+            if (toast.hideTimeout) clearTimeout(toast.hideTimeout);
+        }
+    }
+
+    function checkUpcomingClasses(now) {
+        if (!currentUserSchedule) return;
+
+        const currentDay = now.getDay(); 
+        const days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+
+        if (currentDay === 0 || currentDay > 6) return;
+        const dayStr = days[currentDay];
+
+        const slots = [
+            { id: "0830", h: 8, m: 30 },
+            { id: "0930", h: 9, m: 30 },
+            { id: "1030", h: 10, m: 30 },
+            { id: "1130", h: 11, m: 30 },
+            { id: "1230", h: 12, m: 30 },
+            { id: "1330", h: 13, m: 30 },
+            { id: "1430", h: 14, m: 30 },
+            { id: "1530", h: 15, m: 30 },
+            { id: "1630", h: 16, m: 30 },
+            { id: "1730", h: 17, m: 30 }
+        ];
+
+        let upcomingClassFound = false;
+
+        for (const slot of slots) {
+            const startTime = new Date(now);
+            startTime.setHours(slot.h, slot.m, 0, 0);
+
+            const diffMs = startTime.getTime() - now.getTime();
+            const diffMins = diffMs / 60000;
+
+            // Check if within 10 minutes window (and strictly before start)
+            if (diffMins <= 10 && diffMins > 0) {
+                const key = `${dayStr}-${slot.id}`;
+                const classData = currentUserSchedule[key];
+
+                if (classData) {
+                    upcomingClassFound = true;
+                    handlePersistentNotification(key, classData, diffMs);
+                    break; // Handle only the nearest one
+                }
+            }
+        }
+
+        // If no upcoming class in window, but we have an active notification, close it
+        if (!upcomingClassFound && activeNotifState.key) {
+            hideCustomNotification();
+            activeNotifState = { key: null, played10: false, played5: false };
+        }
+    }
+
+    function handlePersistentNotification(key, classData, diffMs) {
+        // Reset state on refresh or new key
+        if (activeNotifState.key !== key) {
+            activeNotifState = { key: key, played10: false, played5: false };
+        }
+
+        const mins = Math.floor(diffMs / 60000);
+        const secs = Math.floor((diffMs % 60000) / 1000);
+        const timeString = `${mins}:${secs.toString().padStart(2, '0')}`;
+        const diffMins = diffMs / 60000;
+        const isUrgent = diffMins <= 5;
+
+        // Prepare content
+        let title = "Upcoming Class";
+        let body = "";
+        if (Array.isArray(classData)) {
+            body = classData.map(c => c.subj).join(' / ');
+        } else {
+            const type = classData.type === 'lab' ? 'LAB' : 'Lecture';
+            body = `${classData.subj} (${type}) - Room ${classData.room}`;
+        }
+
+        // Show/Update Notification
+        showCustomNotification(title, body, timeString, true, isUrgent);
+
+        // Sound Logic
+        if (diffMins > 5) {
+             // 10 Minute Warning range
+             if (!activeNotifState.played10) {
+                 sound10.play().catch(e => {
+                     console.log("Audio blocked");
+                 });
+                 activeNotifState.played10 = true;
+             }
+        } else {
+             // 5 Minute Warning range (Plays even if page was refreshed inside this window)
+             if (!activeNotifState.played5) {
+                 sound5.play().catch(e => {
+                     console.log("Audio blocked");
+                 });
+                 activeNotifState.played5 = true;
+                 activeNotifState.played10 = true; 
+             }
+        }
+    }
+
+    // --- COLLISION FIXER ---
+    function fixSpanCollisions(schedule) {
+        const timeSlots = ["0830", "0930", "1030", "1130", "1230", "1330", "1430", "1530", "1630", "1730"];
+        const days = ["mon", "tue", "wed", "thu", "fri", "sat"];
+        let hasCollision = false;
+
+        days.forEach(day => {
+            timeSlots.forEach(slot => {
+                const k = `${day}-${slot}`;
+                if (Array.isArray(schedule[k]) && schedule[k].length > 1) {
+                    hasCollision = true;
+                }
+            });
+
+            for (let i = 0; i < timeSlots.length; i++) {
+                const currentSlot = timeSlots[i];
+                const key = `${day}-${currentSlot}`;
+                let entry = schedule[key];
+
+                if (!entry) continue;
+
+                if (Array.isArray(entry)) {
+                    entry.forEach(subEntry => {
+                        if (subEntry.span && subEntry.span > 1) {
+                             for (let j = 1; j < subEntry.span; j++) {
+                                 if (i + j >= timeSlots.length) break;
+                                 const nextKey = `${day}-${timeSlots[i+j]}`;
+                                 if (schedule[nextKey]) {
+                                     hasCollision = true;
+                                     subEntry.span = 1; 
+                                 }
+                             }
+                        }
+                    });
+                } 
+                else if (entry.span && entry.span > 1) {
+                    let overlapFound = false;
+                    for (let j = 1; j < entry.span; j++) {
+                        if (i + j >= timeSlots.length) break;
+                        const nextKey = `${day}-${timeSlots[i+j]}`;
+                        if (schedule[nextKey]) {
+                            overlapFound = true;
+                            break;
+                        }
+                    }
+
+                    if (overlapFound) {
+                        hasCollision = true;
+                        const originalSpan = entry.span;
+                        const baseEntry = { ...entry, span: 1 };
+                        schedule[key] = baseEntry;
+
+                        for (let j = 1; j < originalSpan; j++) {
+                             if (i + j >= timeSlots.length) break;
+                             const nextKey = `${day}-${timeSlots[i+j]}`;
+                             const nextEntryClone = { ...baseEntry };
+                             if (schedule[nextKey]) {
+                                 if (Array.isArray(schedule[nextKey])) {
+                                     schedule[nextKey].push(nextEntryClone);
+                                 } else {
+                                     schedule[nextKey] = [schedule[nextKey], nextEntryClone];
+                                 }
+                             } else {
+                                 schedule[nextKey] = nextEntryClone;
+                             }
+                        }
+                    }
+                }
+            }
+        });
+        return hasCollision;
     }
 
     function loadDashboard(data) {
         document.getElementById('home-page').classList.add('hidden');
         document.getElementById('timetable-page').classList.remove('hidden');
+
         if (clockInterval) clearInterval(clockInterval);
         updateClock();
         clockInterval = setInterval(updateClock, 1000);
 
-        document.getElementById('user-name-display').innerText = data.name || "Student";
-        document.getElementById('user-details-display').innerText = `MIS: ${data.mis}`;
-        currentUserSchedule = data.schedule;
-        
-        // Render functions would follow here as per your logic.js
+        const rawName = data.name || "Student";
+        document.getElementById('user-name-display').innerText = toTitleCase(rawName);
+        document.getElementById('user-details-display').innerHTML = data.info || `MIS: ${data.mis}`;
+
+        const container = document.getElementById('subject-cards-container');
+        container.innerHTML = "";
+        if (data.cards) {
+            data.cards.forEach(c => {
+                const group = getGroupData(c.code);
+                const color = (group && group.color) || c.color || '#ccc';
+                const bg = (group && group.bg) || hexToRgba(color, 0.1);
+                const batchHtml = (c.batch && c.batch !== '-') ? `<div class="batch-badge">Batch: ${c.batch}</div>` : '';
+
+                container.innerHTML += `
+                    <div class="card" style="border-color:${color}; border-bottom-color:${color}; border-right-color:${color}; background:${bg}">
+                        <div class="card-top-content">
+                            <h3>${c.name}</h3>
+                            <div class="subject" style="color:${color}">${c.code}</div>
+                        </div>
+                        <div>
+                            <div class="detail">${c.div}</div>
+                            <div class="batch-container">${batchHtml}</div>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        const collisionDetected = fixSpanCollisions(data.schedule);
+        const footerNote = document.getElementById('clash-footer');
+        if (collisionDetected) footerNote.style.display = 'block';
+        else footerNote.style.display = 'none';
+
         renderTable(data);
+        currentUserSchedule = data.schedule;
     }
 
-    // Simplified Render for demonstration
     function renderTable(data) {
+        const schedule = data.schedule || {};
         const tbody = document.getElementById('table-body');
-        tbody.innerHTML = "<tr><td colspan='7' style='text-align:center; padding:20px;'>Timetable Rendering via logic.js...</td></tr>";
+        tbody.innerHTML = "";
+
+        const slots = [
+            { id: "0830", label: "8:30 - 9:30" }, { id: "0930", label: "9:30 - 10:30" },
+            { id: "1030", label: "10:30 - 11:30" }, { id: "1130", label: "11:30 - 12:30" },
+            { id: "1230", label: "12:30 - 1:30" }, { id: "1330", label: "1:30 - 2:30" },
+            { id: "1430", label: "2:30 - 3:30" }, { id: "1530", label: "3:30 - 4:30" },
+            { id: "1630", label: "4:30 - 5:30" }, { id: "1730", label: "5:30 - 6:30" }
+        ];
+        const days = ["mon", "tue", "wed", "thu", "fri", "sat"];
+        const skipped = {};
+
+        slots.forEach((slot, idx) => {
+            if (slot.id === "1230") {
+                const hasClass = days.some(d => schedule[`${d}-1230`]);
+                if (!hasClass) {
+                    tbody.innerHTML += `<tr><td class="time-col time-col-cell"><div class="time-col">${slot.label}</div></td><td colspan="6" class="break" id="lunch-break"><span class="lb-text">LUNCH BREAK</span></td></tr>`;
+                    return;
+                }
+            }
+
+            let rowHtml = `<tr><td class="time-col time-col-cell"><div class="time-col">${slot.label}</div></td>`;
+
+            days.forEach(day => {
+                const key = `${day}-${slot.id}`;
+                if (skipped[`${day}-${idx}`]) return;
+
+                const item = schedule[key];
+
+                if (slot.id === "1230" && !item) {
+                    rowHtml += `<td class="break" style="font-size:0.8rem">LUNCH</td>`;
+                    return;
+                }
+
+                if (item) {
+                    if (Array.isArray(item)) {
+                        const maxSpan = Math.max(...item.map(i => i.span || 1));
+                        for(let i=1; i<maxSpan; i++) skipped[`${day}-${idx+i}`] = true;
+
+                        rowHtml += `<td rowspan="${maxSpan}"><div class="slot slot-collision" id="${key}"><div class="slot-split">`;
+                        item.forEach(it => {
+                             const group = getGroupData(it.subj);
+                             const color = (group && group.color) || '#7f8c8d';
+                             const bg = (group && group.bg) || hexToRgba(color, 0.15);
+                             const textColor = readableTextColor(color);
+                             const emoji = it.tag || ((it.type === 'lab' && typeof getLabEmoji === 'function') ? getLabEmoji(it.subj, it.room) : '');
+
+                             rowHtml += `<div class="split-item" style="background:${bg}; border-left:4px solid ${color}; color:${textColor}">
+                                ${emoji ? `<span class="lab-tag">${emoji}</span>` : ''}
+                                <div class="slot-title" style="color:${color}; font-size:1rem">${it.subj}</div>
+                                <span class="room-tag" style="font-size:0.75rem">${it.room}</span>
+                             </div>`;
+                        });
+                        rowHtml += `</div></div></td>`;
+                    } else {
+                        const span = item.span || 1;
+                        for(let i=1; i<span; i++) skipped[`${day}-${idx+i}`] = true;
+
+                        const group = getGroupData(item.subj);
+                        const color = (group && group.color) || '#7f8c8d';
+                        const bg = (group && group.bg) || hexToRgba(color, 0.15);
+                        const textColor = readableTextColor(color);
+                        const emoji = item.tag || ((item.type === 'lab' && typeof getLabEmoji === 'function') ? getLabEmoji(item.subj, item.room) : '');
+
+                        rowHtml += `<td rowspan="${span}">
+                        <div class="slot ${item.class||''}" id="${key}" style="background:${bg}; border-left:4px solid ${color}; color:${textColor}">
+                            ${emoji ? `<span class="lab-tag">${emoji}</span>` : ''}
+                            <div class="slot-title" style="color:${color}">${item.subj}${item.type==='lab'?' LAB':''}</div>
+                            <span class="room-tag">${item.room}</span>
+                        </div></td>`;
+                    }
+                } else {
+                    rowHtml += `<td></td>`;
+                }
+            });
+            rowHtml += `</tr>`;
+            tbody.innerHTML += rowHtml;
+        });
+    }
+
+    // ============================================
+    // ANIMATION LOOP
+    // ============================================
+    let activeEmojis = [];
+
+    function animateLoop() {
+        updateLunchAnimation();
+        updateSnowAnimation();
+        requestAnimationFrame(animateLoop);
+    }
+
+    function updateLunchAnimation() {
+        const lb = document.getElementById('lunch-break');
+        if (!lb || !lb.classList.contains('lunch-now')) {
+            activeEmojis.forEach(obj => obj.el.remove());
+            activeEmojis = [];
+            return;
+        }
+
+        const lbRect = lb.getBoundingClientRect();
+        const textEl = lb.querySelector('.lb-text');
+        const textRect = textEl ? textEl.getBoundingClientRect() : null;
+
+        if (activeEmojis.length < 40 && Math.random() < 0.3) { 
+            const em = document.createElement('div');
+            em.className = 'lunch-emoji';
+            em.innerText = '🍽️';
+            const startX = Math.random() * (lb.clientWidth - 30); 
+            const size = 0.8 + Math.random() * 0.8;
+            em.style.left = startX + 'px';
+            em.style.fontSize = size + 'rem';
+            lb.appendChild(em);
+            activeEmojis.push({ el: em, y: -40, speed: 2 + Math.random() * 2, wobble: Math.random() * Math.PI * 2 });
+        }
+
+        for (let i = activeEmojis.length - 1; i >= 0; i--) {
+            const obj = activeEmojis[i];
+            obj.y += obj.speed;
+            obj.wobble += 0.05; 
+            const xOffset = Math.sin(obj.wobble) * 4; 
+            obj.el.style.transform = `translate(${xOffset}px, -${obj.y}px)`;
+
+            const emRect = obj.el.getBoundingClientRect();
+
+            if (textRect && emRect.top < textRect.bottom && emRect.bottom > textRect.top && emRect.right > textRect.left && emRect.left < textRect.right) {
+                obj.el.classList.add('emoji-burst');
+                activeEmojis.splice(i, 1);
+                setTimeout(() => { if(obj.el.parentNode) obj.el.remove(); }, 200);
+                continue;
+            }
+
+            if (obj.y > lbRect.height - 30) obj.el.style.opacity = Math.max(0, 1 - (obj.y - (lbRect.height - 30)) / 20);
+            if (obj.y > lbRect.height + 20) { obj.el.remove(); activeEmojis.splice(i, 1); }
+        }
+    }
+
+    function updateSnowAnimation() {
+        if (!currentLiveSlotId) return;
+
+        const el = document.getElementById(currentLiveSlotId);
+        if (!el || !el.classList.contains('live-active')) return;
+
+        let snowContainer = el.querySelector('.snowfall');
+        if (!snowContainer) {
+            snowContainer = document.createElement('div');
+            snowContainer.className = 'snowfall';
+            el.appendChild(snowContainer);
+        }
+
+        if (Math.random() < 0.1) {
+            const flake = document.createElement('div');
+            flake.className = 'snowflake';
+            flake.innerText = '❄️';
+            flake.style.left = Math.random() * 100 + '%';
+            flake.style.fontSize = (10 + Math.random() * 10) + 'px';
+            const duration = 1.5 + Math.random() * 2;
+            flake.style.animationDuration = duration + 's';
+            flake.style.opacity = 0.5 + Math.random() * 0.5;
+            snowContainer.appendChild(flake);
+            setTimeout(() => { if(flake.parentNode) flake.remove(); }, duration * 1000);
+        }
+    }
+
+    function updateClock() {
+        const now = new Date();
+        const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        const dayIdx = now.getDay();
+
+        const timeStr = now.toLocaleTimeString('en-US', { hour12: true, hour: 'numeric', minute:'2-digit', second: '2-digit' });
+        const clockEl = document.getElementById('clock');
+        if(clockEl) clockEl.innerText = `${days[dayIdx]}, ${timeStr}`;
+
+        // Notifications Check
+        checkUpcomingClasses(now);
+
+        document.querySelectorAll('.live-active').forEach(el => {
+            el.classList.remove('live-active');
+            const b = el.querySelector('.live-badge');
+            if(b) b.remove();
+            if (el.id !== currentLiveSlotId) {
+                const s = el.querySelector('.snowfall');
+                if(s) s.remove();
+            }
+        });
+        currentLiveSlotId = null; 
+
+        document.querySelectorAll('.current-day-col').forEach(el => el.classList.remove('current-day-col'));
+        const lb = document.getElementById('lunch-break');
+        if (dayIdx === 0 || !currentUserSchedule) return; 
+
+        const dayName = days[dayIdx].toLowerCase();
+        const th = document.getElementById(`th-${dayName}`);
+        if(th) th.classList.add('current-day-col');
+
+        const min = now.getHours() * 60 + now.getMinutes();
+        let slotId = null;
+
+        if (min >= 510 && min < 570) slotId = "0830";
+        else if (min >= 570 && min < 630) slotId = "0930";
+        else if (min >= 630 && min < 690) slotId = "1030";
+        else if (min >= 690 && min < 750) slotId = "1130";
+        else if (min >= 750 && min < 810) slotId = "1230"; 
+        else if (min >= 810 && min < 870) slotId = "1330";
+        else if (min >= 870 && min < 930) slotId = "1430";
+        else if (min >= 930 && min < 990) slotId = "1530";
+        else if (min >= 990 && min < 1050) slotId = "1630";
+        else if (min >= 1050 && min < 1110) slotId = "1730";
+
+        if (slotId === '1230' && lb) {
+             if (!lb.classList.contains('lunch-now')) lb.classList.add('lunch-now');
+        } else {
+            if (lb && lb.classList.contains('lunch-now')) lb.classList.remove('lunch-now');
+        }
+
+        if (slotId && slotId !== '1230') {
+            let key = `${dayName}-${slotId}`;
+            let el = document.getElementById(key);
+
+            if (!el) {
+                const allIds = ["0830","0930","1030","1130","1230","1330","1430","1530","1630","1730"];
+                const currIdx = allIds.indexOf(slotId);
+                if (currIdx > 0) {
+                      const prevId = allIds[currIdx-1];
+                      const prevKey = `${dayName}-${prevId}`;
+                      const prevItem = currentUserSchedule[prevKey];
+                      if (prevItem && prevItem.span === 2) el = document.getElementById(prevKey);
+                }
+            }
+
+            if (el) {
+                el.classList.add('live-active');
+                currentLiveSlotId = el.id; 
+                if (!el.querySelector('.live-badge')) {
+                    const badge = document.createElement('div');
+                    badge.className = 'live-badge';
+                    badge.innerText = 'LIVE';
+                    el.appendChild(badge);
+                }
+            }
+        }
+
+        // Update Live Toast
+        const liveToast = document.getElementById('live-toast');
+        if (currentLiveSlotId && currentUserSchedule) {
+             const item = currentUserSchedule[currentLiveSlotId];
+             if (item) {
+                 let title = "", room = "";
+                 if (Array.isArray(item)) {
+                     title = item.map(i => i.subj).join(' / ');
+                     room = item.map(i => i.room).join(' / ');
+                 } else {
+                     title = item.subj + (item.type === 'lab' ? ' LAB' : '');
+                     room = item.room;
+                 }
+                 document.getElementById('live-title').innerText = title;
+                 document.getElementById('live-room').innerText = room;
+                 liveToast.classList.add('show');
+             } else {
+                 liveToast.classList.remove('show');
+             }
+        } else {
+             if(liveToast) liveToast.classList.remove('show');
+        }
     }
 </script>
 </body>
