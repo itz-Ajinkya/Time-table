@@ -48,6 +48,17 @@ def load_schedule_and_logic_content():
             return {}, content
     return {}, content
 
+def load_notes():
+    if not os.path.exists(LOGIC_FILE):
+        return []
+    with open(LOGIC_FILE, 'r', encoding='utf-8') as f:
+        content = f.read()
+    match = re.search(r'const ACTIVE_NOTES = (\[[\s\S]*?\]);', content)
+    if match:
+        return json.loads(match.group(1))
+    # Default note if variable doesn't exist yet
+    return ["Those who have done a subject change, the timetable will be correct once your division and batch are allotted."]
+
 def update_csv_student(mis, student_data):
     if not os.path.exists(CSV_FILE):
         return
@@ -114,6 +125,7 @@ def admin_panel():
 def get_data():
     students = load_students()
     schedule, _ = load_schedule_and_logic_content()
+    notes = load_notes()
     
     # Extract unique subjects for metadata editing
     subjects = {}
@@ -127,7 +139,8 @@ def get_data():
     return jsonify({
         "students": students,
         "schedule": schedule,
-        "subjects": subjects
+        "subjects": subjects,
+        "notes": notes
     })
 
 @app.route('/api/save_student', methods=['POST'])
@@ -167,6 +180,25 @@ def save_schedule():
         original_content
     )
     
+    with open(LOGIC_FILE, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+        
+    return jsonify({"status": "success"})
+
+@app.route('/api/save_notes', methods=['POST'])
+def save_notes():
+    notes = request.json.get('notes', [])
+    
+    with open(LOGIC_FILE, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    notes_js = "const ACTIVE_NOTES = " + json.dumps(notes, indent=4) + ";"
+    
+    if 'const ACTIVE_NOTES =' in content:
+        new_content = re.sub(r'const ACTIVE_NOTES = \[[\s\S]*?\];', notes_js, content)
+    else:
+        new_content = content + "\n\n" + notes_js
+        
     with open(LOGIC_FILE, 'w', encoding='utf-8') as f:
         f.write(new_content)
         

@@ -804,10 +804,6 @@
             <div class="error-msg" id="error-msg">❌ Invalid MIS</div>
         </div>
 
-        <div style="text-align: center; font-family: 'Cascadia Code', monospace; font-size: 0.85rem; color: #856404; background: #fffcf0; padding: 10px; border-radius: 8px; margin: 20px auto 0 auto; max-width: 500px; border: 1px solid #ffeeba;">
-            ⚠️ <strong>Note:</strong> Those who have done a subject change, the timetable will be correct once your division and batch are allotted.
-        </div>
-
         <footer class="contact-footer">
                 <div style="margin-top: 15px; font-size: 1.2rem; opacity: 0.7; font-family: 'Cascadia Code SemiBold', monospace;">
                     Designed by Ajinkya Patil [AIML]
@@ -837,12 +833,6 @@
                     </div>
 
                     <div class="header-center">
-                        <div class="notif-wrapper" title="Mute/Unmute Audio">
-                            <label class="switch">
-                                <input type="checkbox" id="notif-toggle" onchange="toggleNotificationChange()">
-                                <span class="slider"></span>
-                            </label>
-                        </div>
                         <button class="theme-btn" onclick="toggleTheme()" id="theme-btn" aria-label="Toggle Theme">
                             <div class="bulb-glow"></div>
                             <span class="theme-icon" id="theme-icon">🌙</span>
@@ -908,9 +898,7 @@
                 </div>
             </div>
 
-            <div style="text-align: center; font-family: 'Cascadia Code', monospace; font-size: 0.85rem; color: #856404; background: #fffcf0; padding: 10px; border-radius: 8px; margin: 20px auto 0 auto; max-width: 500px; border: 1px solid #ffeeba;">
-                ⚠️ <strong>Note:</strong> Those who have done a subject change, the timetable will be correct once your division and batch are allotted.
-            </div>
+            <div id="dynamic-notes-container"></div>
 
             <footer class="contact-footer">
                 <div style="margin-top: 15px; font-size: 1.2rem; opacity: 0.7; font-family: 'Cascadia Code SemiBold', monospace;">
@@ -950,15 +938,10 @@
     let clockInterval;
     let currentUserSchedule = null;
     let currentLiveSlotId = null;
-    let notificationsEnabled = false;
     let wakeLock = null;
 
-    // Audio Objects
-    const sound10 = new Audio('noti.mp3');
-    const sound5 = new Audio('noti5.mp3'); // User requested noti.mp3
-
     // Active Notification State
-    let activeNotifState = { key: null, played10: false, played5: false };
+    let activeNotifState = { key: null };
 
     // Helpers
     const getGroupData = (code) => {
@@ -998,29 +981,11 @@
         }
         updateThemeIcon();
 
-        // Initialize Notification Toggle State
-        initNotifications();
-
         const savedUser = localStorage.getItem('currentUserMIS');
         if(savedUser && typeof getStudentData === "function") {
             const data = getStudentData(savedUser);
             if(data) loadDashboard(data);
         }
-
-        // GLOBAL INTERACTION LISTENER (To Unlock Audio on first click)
-        document.body.addEventListener('click', function() {
-            if(notificationsEnabled && sound10.paused && sound5.paused) { 
-                // Attempt to play/pause quickly to unlock audio context
-                sound10.play().then(() => {
-                    sound10.pause(); 
-                    sound10.currentTime = 0;
-                }).catch(() => {});
-                sound5.play().then(() => {
-                    sound5.pause(); 
-                    sound5.currentTime = 0;
-                }).catch(() => {});
-            }
-        }, { once: true });
 
         requestAnimationFrame(animateLoop);
     };
@@ -1059,10 +1024,6 @@
             alert("JS Files missing"); return;
         }
 
-        // Unlock Audio on Login Click
-        sound10.play().then(() => { sound10.pause(); sound10.currentTime = 0; }).catch(()=>{});
-        sound5.play().then(() => { sound5.pause(); sound5.currentTime = 0; }).catch(()=>{});
-
         const data = getStudentData(fullMis);
         if (data) {
             localStorage.setItem('currentUserMIS', fullMis);
@@ -1077,43 +1038,6 @@
     function logout() {
         localStorage.removeItem('currentUserMIS');
         location.reload();
-    }
-
-    // --- NOTIFICATION LOGIC (CUSTOM TOAST) ---
-    function initNotifications() {
-        const savedState = localStorage.getItem('notificationsEnabled');
-        const toggle = document.getElementById('notif-toggle');
-
-        if (savedState === 'true') {
-            notificationsEnabled = true;
-            if(toggle) toggle.checked = true;
-        } else {
-            notificationsEnabled = false;
-            if(toggle) toggle.checked = false;
-        }
-    }
-
-    function toggleNotificationChange() {
-        const toggle = document.getElementById('notif-toggle');
-
-        if (toggle.checked) {
-            // Turning ON
-            notificationsEnabled = true;
-            localStorage.setItem('notificationsEnabled', 'true');
-
-            // Try to play sound immediately
-            sound10.play().catch(e => {
-                console.log("Audio play prevented:", e);
-            });
-            sound5.play().then(() => { sound5.pause(); sound5.currentTime = 0; }).catch(()=>{});
-
-            // Show Test Notification
-            showCustomNotification("Notifications ON", "Test success! You will hear this sound 10 mins before class.");
-        } else {
-            // Turning OFF
-            notificationsEnabled = false;
-            localStorage.setItem('notificationsEnabled', 'false');
-        }
     }
 
     function showCustomNotification(title, body, timerStr = "", persistent = false, isUrgent = false) {
@@ -1203,14 +1127,14 @@
         // If no upcoming class in window, but we have an active notification, close it
         if (!upcomingClassFound && activeNotifState.key) {
             hideCustomNotification();
-            activeNotifState = { key: null, played10: false, played5: false };
+            activeNotifState = { key: null };
         }
     }
 
     function handlePersistentNotification(key, classData, diffMs) {
         // Reset state on refresh or new key
         if (activeNotifState.key !== key) {
-            activeNotifState = { key: key, played10: false, played5: false };
+            activeNotifState = { key: key };
         }
 
         const mins = Math.floor(diffMs / 60000);
@@ -1231,26 +1155,6 @@
 
         // Show/Update Notification
         showCustomNotification(title, body, timeString, true, isUrgent);
-
-        // Sound Logic
-        if (diffMins > 5) {
-             // 10 Minute Warning range
-             if (!activeNotifState.played10) {
-                 sound10.play().catch(e => {
-                     console.log("Audio blocked");
-                 });
-                 activeNotifState.played10 = true;
-             }
-        } else {
-             // 5 Minute Warning range (Plays even if page was refreshed inside this window)
-             if (!activeNotifState.played5) {
-                 sound5.play().catch(e => {
-                     console.log("Audio blocked");
-                 });
-                 activeNotifState.played5 = true;
-                 activeNotifState.played10 = true; 
-             }
-        }
     }
 
     // --- COLLISION FIXER ---
@@ -1369,6 +1273,7 @@
 
         renderTable(data);
         currentUserSchedule = data.schedule;
+        renderDynamicNotes();
     }
 
     function renderTable(data) {
@@ -1457,6 +1362,16 @@
             rowHtml += `</tr>`;
             tbody.innerHTML += rowHtml;
         });
+    }
+
+    function renderDynamicNotes() {
+        if (typeof ACTIVE_NOTES === 'undefined' || !Array.isArray(ACTIVE_NOTES)) return;
+        const container = document.getElementById('dynamic-notes-container');
+        container.innerHTML = ACTIVE_NOTES.map(note => `
+            <div style="text-align: center; font-family: 'Cascadia Code', monospace; font-size: 0.85rem; color: #856404; background: #fffcf0; padding: 10px; border-radius: 8px; margin: 20px auto 0 auto; max-width: 500px; border: 1px solid #ffeeba;">
+                ⚠️ <strong>Note:</strong> ${note}
+            </div>
+        `).join('');
     }
 
     // ============================================

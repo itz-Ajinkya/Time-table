@@ -191,6 +191,7 @@
 <div class="tabs">
     <div class="tab active" onclick="showPanel('students')">Students</div>
     <div class="tab" onclick="showPanel('schedule')">Schedule Logic</div>
+    <div class="tab" onclick="showPanel('notes')">Notes</div>
 </div>
 
 <!-- STUDENTS PANEL -->
@@ -242,8 +243,21 @@
     </div>
 </div>
 
+<!-- NOTES PANEL -->
+<div id="notes" class="panel">
+    <div class="card">
+        <h3>Website Notes</h3>
+        <p>These notes appear at the bottom of the student dashboard. (Prefix "⚠️ Note:" is added automatically)</p>
+        <div id="notes-list"></div>
+        <div class="row" style="margin-top: 15px;">
+            <input type="text" id="new-note-text" placeholder="Enter new note text..." style="margin-bottom:0;">
+            <button onclick="addNote()">Add Note</button>
+        </div>
+    </div>
+</div>
+
 <script>
-    let DATA = { students: {}, schedule: {}, subjects: {} };
+    let DATA = { students: {}, schedule: {}, subjects: {}, notes: [] };
     let EDIT_MIS = null;
 
     // --- INITIALIZATION ---
@@ -251,6 +265,7 @@
         const res = await fetch('/api/data');
         DATA = await res.json();
         populateSchedDropdowns();
+        renderNotes();
     }
 
     // --- STUDENTS LOGIC ---
@@ -621,6 +636,40 @@
             body: JSON.stringify(DATA.schedule)
         });
         alert("Schedule Saved!");
+    }
+
+    // --- NOTES LOGIC ---
+    function renderNotes() {
+        const container = document.getElementById('notes-list');
+        container.innerHTML = DATA.notes.map((note, idx) => `
+            <div class="slot-item" style="justify-content: space-between;">
+                <span>⚠️ <strong>Note:</strong> ${note}</span>
+                <button style="background:red; padding:4px 8px; margin:0; width:auto;" onclick="deleteNote(${idx})">Delete</button>
+            </div>
+        `).join('');
+    }
+
+    function addNote() {
+        const text = document.getElementById('new-note-text').value.trim();
+        if (!text) return;
+        DATA.notes.push(text);
+        document.getElementById('new-note-text').value = '';
+        renderNotes();
+        saveNotes();
+    }
+
+    function deleteNote(idx) {
+        DATA.notes.splice(idx, 1);
+        renderNotes();
+        saveNotes();
+    }
+
+    async function saveNotes() {
+        await fetch('/api/save_notes', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ notes: DATA.notes })
+        });
     }
 
     // --- SUBJECTS LOGIC ---
