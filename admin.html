@@ -383,7 +383,7 @@
             const sData = await ghRequest('students.js');
             if(!sData) return;
             SHA_STUDENTS = sData.sha;
-            const sText = decodeURIComponent(escape(atob(sData.content)));
+            const sText = decodeURIComponent(escape(atob(sData.content.replace(/\s/g, ''))));
             // Extract JSON from JS file
             
             // Robust extraction: Find the JSON object between the first '{' and last '}'
@@ -398,16 +398,22 @@
             try {
                 if (jsonStr) DATA.students = JSON.parse(jsonStr);
                 else DATA.students = {};
-            } catch(e) { 
-                console.error("Error parsing students.js", e); 
-                alert("Failed to parse students.js. Check for syntax errors (e.g., trailing commas) in the GitHub file.");
-                DATA.students = {}; 
+            } catch(e) {
+                console.warn("JSON.parse failed, trying loose parsing", e);
+                try {
+                    // Fallback: Handle trailing commas or unquoted keys
+                    DATA.students = new Function("return " + jsonStr)();
+                } catch (e2) {
+                    console.error("Error parsing students.js", e2); 
+                    alert("Failed to parse students.js. Check for syntax errors in the GitHub file.");
+                    DATA.students = {}; 
+                }
             }
 
             // 2. Load Logic.js
             const lData = await ghRequest('logic.js');
             SHA_LOGIC = lData.sha;
-            const lText = decodeURIComponent(escape(atob(lData.content)));
+            const lText = decodeURIComponent(escape(atob(lData.content.replace(/\s/g, ''))));
             
             const schedMatch = lText.match(/const\s+MASTER_SCHEDULE\s*=\s*([\s\S]*?);/);
             DATA.schedule = schedMatch ? JSON.parse(schedMatch[1]) : {};
@@ -818,7 +824,7 @@
         // A safer way for the admin panel is to only replace the variable blocks.
         
         const lData = await ghRequest('logic.js'); // Fetch latest to get surrounding code
-        let lText = decodeURIComponent(escape(atob(lData.content)));
+        let lText = decodeURIComponent(escape(atob(lData.content.replace(/\s/g, ''))));
         
         const newSchedStr = `const MASTER_SCHEDULE = ${JSON.stringify(DATA.schedule, null, 4)};`;
         lText = lText.replace(/const MASTER_SCHEDULE = {[\s\S]*?};/, newSchedStr);
@@ -864,7 +870,7 @@
         showLoading("Saving Note...");
         try {
             const lData = await ghRequest('logic.js');
-            let lText = decodeURIComponent(escape(atob(lData.content)));
+            let lText = decodeURIComponent(escape(atob(lData.content.replace(/\s/g, ''))));
             
             const newNotesStr = `const ACTIVE_NOTES = ${JSON.stringify(DATA.notes, null, 4)};`;
             lText = lText.replace(/const ACTIVE_NOTES = \[[\s\S]*?\];/, newNotesStr);
