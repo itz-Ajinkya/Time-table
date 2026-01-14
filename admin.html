@@ -387,7 +387,7 @@
             try {
                 // Most robust method: execute the script and return the variable.
                 // This is immune to formatting, comments, and trailing commas.
-                const getDbFunc = new Function(`${sText}; return GENERATED_DB;`);
+                const getDbFunc = new Function(sText + "\n; return GENERATED_DB;");
                 DATA.students = getDbFunc();
                 if (typeof DATA.students !== 'object' || DATA.students === null) {
                     throw new Error("GENERATED_DB was not a valid object.");
@@ -403,7 +403,7 @@
             SHA_LOGIC = lData.sha;
             const lText = decodeURIComponent(escape(atob(lData.content.replace(/\s/g, ''))));
             try {
-                const getLogicFunc = new Function(`${lText}; return { schedule: MASTER_SCHEDULE, notes: ACTIVE_NOTES };`);
+                const getLogicFunc = new Function(lText + "\n; return { schedule: MASTER_SCHEDULE, notes: ACTIVE_NOTES };");
                 const logicData = getLogicFunc();
                 DATA.schedule = logicData.schedule || {};
                 DATA.notes = logicData.notes || [];
