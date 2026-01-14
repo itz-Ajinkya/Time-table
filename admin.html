@@ -384,42 +384,35 @@
             if(!sData) return;
             SHA_STUDENTS = sData.sha;
             const sText = decodeURIComponent(escape(atob(sData.content.replace(/\s/g, ''))));
-            // Extract JSON from JS file
-            
-            // Robust extraction: Find the JSON object between the first '{' and last '}'
-            let jsonStr = null;
-            const firstBrace = sText.indexOf('{');
-            const lastBrace = sText.lastIndexOf('}');
-            
-            if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
-                jsonStr = sText.substring(firstBrace, lastBrace + 1);
-            }
-
             try {
-                if (jsonStr) DATA.students = JSON.parse(jsonStr);
-                else DATA.students = {};
-            } catch(e) {
-                console.warn("JSON.parse failed, trying loose parsing", e);
-                try {
-                    // Fallback: Handle trailing commas or unquoted keys
-                    DATA.students = new Function("return " + jsonStr)();
-                } catch (e2) {
-                    console.error("Error parsing students.js", e2); 
-                    alert("Failed to parse students.js. Check for syntax errors in the GitHub file.");
-                    DATA.students = {}; 
+                // Most robust method: execute the script and return the variable.
+                // This is immune to formatting, comments, and trailing commas.
+                const getDbFunc = new Function(`${sText}; return GENERATED_DB;`);
+                DATA.students = getDbFunc();
+                if (typeof DATA.students !== 'object' || DATA.students === null) {
+                    throw new Error("GENERATED_DB was not a valid object.");
                 }
+            } catch (e) {
+                console.error("Failed to execute and parse students.js", e);
+                alert("Critical error parsing students.js. The file may be corrupt on GitHub. Check console for details.");
+                DATA.students = {};
             }
 
             // 2. Load Logic.js
             const lData = await ghRequest('logic.js');
             SHA_LOGIC = lData.sha;
             const lText = decodeURIComponent(escape(atob(lData.content.replace(/\s/g, ''))));
-            
-            const schedMatch = lText.match(/const\s+MASTER_SCHEDULE\s*=\s*([\s\S]*?);/);
-            DATA.schedule = schedMatch ? JSON.parse(schedMatch[1]) : {};
-
-            const notesMatch = lText.match(/const\s+ACTIVE_NOTES\s*=\s*([\s\S]*?);/);
-            DATA.notes = notesMatch ? JSON.parse(notesMatch[1]) : [];
+            try {
+                const getLogicFunc = new Function(`${lText}; return { schedule: MASTER_SCHEDULE, notes: ACTIVE_NOTES };`);
+                const logicData = getLogicFunc();
+                DATA.schedule = logicData.schedule || {};
+                DATA.notes = logicData.notes || [];
+            } catch (e) {
+                console.error("Failed to execute and parse logic.js", e);
+                alert("Critical error parsing logic.js. Check console for details.");
+                DATA.schedule = {};
+                DATA.notes = [];
+            }
 
             // 3. Extract Subjects from Student Data (since we don't have backend.py)
             Object.values(DATA.students).forEach(std => {
