@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COEP Admin Portal - Fixed</title>
+    <title>COEP Admin Portal</title>
     <style>
         :root {
             --bg-color: #f4f4f9;
@@ -41,7 +41,7 @@
             margin-bottom: 20px;
         }
 
-        h1 { margin: 0; }
+        h1 { margin: 0; font-size: 1.5rem; }
 
         button {
             cursor: pointer;
@@ -72,6 +72,7 @@
             margin-bottom: 20px;
             border-bottom: 1px solid var(--border-color);
             padding-bottom: 10px;
+            overflow-x: auto;
         }
 
         .tab {
@@ -80,6 +81,7 @@
             border-radius: 4px;
             background-color: var(--card-bg);
             border: 1px solid var(--border-color);
+            white-space: nowrap;
         }
 
         .tab.active {
@@ -91,7 +93,6 @@
         .panel { display: none; }
         .panel.active { display: block; }
 
-        /* Cards & Layout */
         .card {
             background-color: var(--card-bg);
             padding: 20px;
@@ -100,17 +101,22 @@
             margin-bottom: 20px;
         }
 
-        .row { display: flex; gap: 10px; align-items: center;}
+        .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
         
         input, select, textarea {
             width: 100%;
-            padding: 8px;
+            padding: 10px;
             margin: 5px 0 15px;
             border: 1px solid var(--border-color);
             border-radius: 4px;
             background-color: var(--bg-color);
             color: var(--text-color);
             box-sizing: border-box;
+        }
+        
+        textarea {
+            font-family: monospace;
+            min-height: 200px;
         }
 
         .note-item {
@@ -121,9 +127,10 @@
             padding: 10px 0;
         }
 
+        /* OVERLAYS */
         #loading-overlay {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0,0,0,0.7); z-index: 2000;
+            background: rgba(0,0,0,0.8); z-index: 2000;
             display: none; justify-content: center; align-items: center;
             font-size: 1.5rem; color: #fff; flex-direction: column;
             backdrop-filter: blur(5px);
@@ -149,7 +156,7 @@
 <div id="login-screen">
     <div class="login-box">
         <h2>Admin Login</h2>
-        <p>Enter GitHub Personal Access Token (Classic)</p>
+        <p>Enter GitHub Personal Access Token</p>
         <input type="password" id="gh-token-input" placeholder="ghp_..." style="margin-bottom: 15px;">
         <button onclick="saveTokenAndLogin()">Login</button>
     </div>
@@ -180,17 +187,17 @@
         </div>
 
         <div id="student-editor" class="card" style="display:none;">
-            <h3>Edit Student Info: <span id="display-mis"></span></h3>
-            <label>Full Name</label>
+            <h3>Edit Student: <span id="display-mis"></span></h3>
+            <label>Name</label>
             <input type="text" id="edit-name">
             
-            <h4>Subject Allocation</h4>
+            <h4>Allocated Subjects</h4>
             <div id="cards-container"></div>
             
             <button onclick="addEmptyCard()" class="secondary" style="margin-bottom: 15px;">+ Add Subject</button>
             
             <div class="row">
-                <button onclick="saveStudentChanges()" class="success">Save Changes to GitHub</button>
+                <button onclick="saveStudentChanges()" class="success">Save Changes</button>
                 <button class="secondary" onclick="document.getElementById('student-editor').style.display='none'">Cancel</button>
             </div>
         </div>
@@ -198,28 +205,28 @@
 
     <div id="schedule" class="panel">
         <div class="card">
-            <h3>View Schedule Structure</h3>
-            <p>Select criteria to view raw JSON structure (Editing simplified for safety).</p>
+            <h3>Schedule Viewer</h3>
+            <p>Select criteria to view raw schedule structure.</p>
             <div class="row">
                 <select id="sched-sub" onchange="onSchedSubChange()"><option value="">Select Subject</option></select>
                 <select id="sched-div"><option value="">Select Division</option></select>
                 <button onclick="viewScheduleData()">View Data</button>
             </div>
-            <textarea id="schedule-json-viewer" readonly></textarea>
+            <textarea id="schedule-json-viewer" readonly placeholder="JSON data will appear here..."></textarea>
         </div>
     </div>
 
     <div id="notes" class="panel">
         <div class="card">
             <h3>Website Notes</h3>
-            <p>Notes appear at the bottom of student dashboards.</p>
+            <p>Notes displayed on student dashboard.</p>
             <div id="notes-list"></div>
             <div class="row" style="margin-top: 15px;">
-                <input type="text" id="new-note-text" placeholder="Enter new note text..." style="margin-bottom:0;">
+                <input type="text" id="new-note-text" placeholder="Enter new note..." style="margin-bottom:0;">
                 <button onclick="addNote()">Add Note</button>
             </div>
             <br>
-            <button onclick="saveLogicChanges()" class="success">Save Notes to GitHub</button>
+            <button onclick="saveLogicChanges()" class="success">Save Notes</button>
         </div>
     </div>
 </div>
@@ -230,14 +237,14 @@
     const REPO_NAME = "Time-table";
     const BRANCH = "main";
     
-    // --- STATE ---
+    // --- GLOBAL STATE ---
     let DATA = { students: {}, schedule: {}, subjects: {}, notes: [] };
     let GH_TOKEN = localStorage.getItem("gh_token");
     let SHA_STUDENTS = null;
     let SHA_LOGIC = null;
     let EDIT_MIS = null;
 
-    // --- INIT & AUTH ---
+    // --- INITIALIZATION ---
     window.onload = function() {
         if(GH_TOKEN) {
             loadData();
@@ -246,13 +253,8 @@
         }
     }
 
-    function saveTokenAndLogin() {
-        const t = document.getElementById('gh-token-input').value.trim();
-        if(!t) return alert("Token required");
-        localStorage.setItem("gh_token", t);
-        GH_TOKEN = t;
-        document.getElementById('login-screen').style.display = 'none';
-        loadData();
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
     }
 
     function logout() {
@@ -260,18 +262,16 @@
         location.reload();
     }
 
-    function toggleDarkMode() {
-        document.body.classList.toggle('dark-mode');
+    function saveTokenAndLogin() {
+        const t = document.getElementById('gh-token-input').value.trim();
+        if(!t) return alert("Token cannot be empty");
+        localStorage.setItem("gh_token", t);
+        GH_TOKEN = t;
+        document.getElementById('login-screen').style.display = 'none';
+        loadData();
     }
 
-    function showPanel(id) {
-        document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
-        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-        document.getElementById(id).classList.add('active');
-        document.querySelector(`.tab[onclick="showPanel('${id}')"]`).classList.add('active');
-    }
-
-    // --- GITHUB API ---
+    // --- GITHUB API HELPER ---
     async function ghRequest(path, method = 'GET', body = null) {
         const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`;
         const headers = { 
@@ -285,58 +285,92 @@
 
         const res = await fetch(url + (method === 'GET' ? `?ref=${BRANCH}` : ''), options);
         if (!res.ok) {
-            if (res.status === 401) { logout(); throw new Error("Unauthorized"); }
+            if (res.status === 401) {
+                logout();
+                throw new Error("Unauthorized: Invalid Token");
+            }
             throw new Error(await res.text());
         }
         return res.json();
     }
 
     async function ghSaveFile(path, content, sha, message) {
-        // UTF-8 Safe Encoding
+        // UTF-8 Safe Base64 Encoding
         const contentBase64 = btoa(unescape(encodeURIComponent(content)));
         const body = { message, content: contentBase64, sha, branch: BRANCH };
         return ghRequest(path, 'PUT', body);
     }
 
-    // --- DATA LOADING (THE FIX) ---
+    // --- ROBUST DATA PARSER (THE FIX) ---
+    function robustParse(text, varName) {
+        // 1. Find where the variable starts (e.g., "GENERATED_DB =")
+        const regex = new RegExp(`${varName}\\s*=\s*`);
+        const parts = text.split(regex);
+        
+        if(parts.length < 2) return null; // Variable not found
+
+        // 2. Get everything after the equals sign
+        let raw = parts[1];
+
+        // 3. Find the last closing bracket to trim trailing junk (export default, etc.)
+        // If it's an object, look for '}', if array look for ']'
+        const lastBrace = raw.lastIndexOf('}');
+        const lastBracket = raw.lastIndexOf(']');
+        
+        // Take the furthest one to be safe, or just assume object structure
+        const cutoff = Math.max(lastBrace, lastBracket);
+        
+        if (cutoff !== -1) {
+            raw = raw.substring(0, cutoff + 1);
+        }
+
+        // 4. Use Function constructor to parse loosely (handles single quotes, trailing commas)
+        try {
+            return new Function(`return ${raw}`)();
+        } catch (e) {
+            console.error(`Failed to parse ${varName}:`, e);
+            return null;
+        }
+    }
+
     async function loadData() {
-        document.getElementById('loading-overlay').style.display = 'flex';
+        const loading = document.getElementById('loading-overlay');
+        loading.style.display = 'flex';
+        
         try {
             document.getElementById('admin-interface').style.display = 'block';
 
-            // 1. Load Students.js
+            // 1. FETCH STUDENTS.JS
             const sData = await ghRequest('students.js');
             SHA_STUDENTS = sData.sha;
             const sText = decodeURIComponent(escape(atob(sData.content)));
             
-            // FIX: Use looser regex and Function constructor instead of JSON.parse
-            const sMatch = sText.match(/GENERATED_DB\s*=\s*([\s\S]*?);?\s*$/m);
-            if(sMatch) {
-                // This handles keys without quotes and trailing commas safely
-                DATA.students = new Function(`return ${sMatch[1]}`)();
+            // Parse
+            const parsedStudents = robustParse(sText, 'GENERATED_DB');
+            if (parsedStudents) {
+                DATA.students = parsedStudents;
             } else {
                 throw new Error("Could not parse GENERATED_DB from students.js");
             }
 
-            // 2. Load Logic.js
+            // 2. FETCH LOGIC.JS
             const lData = await ghRequest('logic.js');
             SHA_LOGIC = lData.sha;
             const lText = decodeURIComponent(escape(atob(lData.content)));
 
-            const schedMatch = lText.match(/MASTER_SCHEDULE\s*=\s*([\s\S]*?);/m);
-            DATA.schedule = schedMatch ? new Function(`return ${schedMatch[1]}`)() : {};
+            // Parse Schedule & Notes
+            DATA.schedule = robustParse(lText, 'MASTER_SCHEDULE') || {};
+            DATA.notes = robustParse(lText, 'ACTIVE_NOTES') || [];
 
-            const notesMatch = lText.match(/ACTIVE_NOTES\s*=\s*([\s\S]*?);/m);
-            DATA.notes = notesMatch ? new Function(`return ${notesMatch[1]}`)() : [];
-
-            // 3. Extract Subjects
+            // 3. GENERATE SUBJECT LIST
+            // We build a list of known subjects from the existing student data
             Object.values(DATA.students).forEach(std => {
                 if(std.cards) std.cards.forEach(c => {
                     if(c.code) DATA.subjects[c.code] = c.name || c.code;
                 });
             });
 
-            console.log("Loaded Students:", Object.keys(DATA.students).length);
+            console.log("Data Loaded:", Object.keys(DATA.students).length, "students.");
             populateSchedDropdowns();
             renderNotes();
 
@@ -344,17 +378,15 @@
             alert("Error loading data: " + e.message);
             console.error(e);
         } finally {
-            document.getElementById('loading-overlay').style.display = 'none';
+            loading.style.display = 'none';
         }
     }
 
-    // --- STUDENT LOGIC ---
+    // --- STUDENT EDITING ---
     function fetchStudent() {
         const mis = document.getElementById('mis-input').value.trim();
-        console.log("Searching:", mis, "in keys:", Object.keys(DATA.students)); // Debugging
-        
         if (!mis || !DATA.students[mis]) {
-            alert("Student not found! Ensure MIS matches exactly.");
+            alert("Student not found!");
             return;
         }
         EDIT_MIS = mis;
@@ -376,10 +408,14 @@
         const container = document.getElementById('cards-container');
         const div = document.createElement('div');
         div.className = 'row';
+        // Create dropdown options
+        const allSubs = new Set([...Object.keys(DATA.schedule), ...Object.keys(DATA.subjects)]);
+        let subOpts = '<option value="" disabled>Select Subject</option>';
+        allSubs.forEach(s => subOpts += `<option value="${s}">${s}</option>`);
+
         div.innerHTML = `
             <select class="card-sub" style="flex:2; margin-bottom:0;" onchange="onCardSubChange(this)">
-                <option value="" disabled>Select Subject</option>
-                ${getSubjectOptions(card.code)}
+                ${subOpts}
             </select>
             <select class="card-div" style="flex:1; margin-bottom:0;" onchange="onCardDivChange(this)">
                 <option value="${card.div}">${card.div || 'Div'}</option>
@@ -387,38 +423,25 @@
             <select class="card-batch" style="flex:1; margin-bottom:0;">
                 <option value="${card.batch}">${card.batch || 'Batch'}</option>
             </select>
-            <button class="danger" style="width:auto; padding: 8px 12px; margin-bottom:0;" onclick="this.parentElement.remove()">X</button>
+            <button class="danger" style="width:auto; padding: 10px;" onclick="this.parentElement.remove()">X</button>
         `;
         container.appendChild(div);
         
-        // Initialize dropdowns
+        // Set initial values
         const subSel = div.querySelector('.card-sub');
         subSel.value = card.code;
-        // Trigger updates to populate divs/batches correctly if data exists
-        if(card.code) onCardSubChange(subSel, card.div, card.batch);
+        // If subject exists in schedule, populate divs properly
+        if(card.code && DATA.schedule[card.code]) {
+            onCardSubChange(subSel, card.div, card.batch);
+        }
     }
 
-    function getSubjectOptions(selected) {
-        // Merge schedule subjects and student subjects to get a full list
-        const allSubs = new Set([...Object.keys(DATA.schedule), ...Object.keys(DATA.subjects)]);
-        let opts = '';
-        allSubs.forEach(s => {
-            opts += `<option value="${s}">${s}</option>`;
-        });
-        return opts;
-    }
-
-    function addEmptyCard() {
-        createCardRow();
-    }
-
-    // --- DROPDOWN CASCADING LOGIC ---
-    function onCardSubChange(subSel, targetDiv = null, targetBatch = null) {
+    function onCardSubChange(subSel, targetDiv, targetBatch) {
         const row = subSel.parentElement;
         const divSel = row.querySelector('.card-div');
         const sub = subSel.value;
         
-        divSel.innerHTML = '<option value="" disabled selected>Select Div</option>';
+        divSel.innerHTML = '<option value="" disabled selected>Div</option>';
         
         if(DATA.schedule[sub]) {
             Object.keys(DATA.schedule[sub]).forEach(d => {
@@ -428,25 +451,30 @@
                 divSel.add(opt);
             });
         } else {
-            // Allow manual entry logic or fallback if subject has no schedule data
-            const opt = document.createElement('option'); opt.value = targetDiv || "1"; opt.text = targetDiv || "1"; divSel.add(opt);
+            // Fallback for subjects not in master schedule
+            const opt = document.createElement('option'); 
+            opt.value = targetDiv || "1"; opt.text = targetDiv || "1"; 
+            divSel.add(opt);
+            divSel.value = targetDiv || "1";
         }
         onCardDivChange(divSel, targetBatch);
     }
 
-    function onCardDivChange(divSel, targetBatch = null) {
+    function onCardDivChange(divSel, targetBatch) {
         const row = divSel.parentElement;
         const sub = row.querySelector('.card-sub').value;
         const batchSel = row.querySelector('.card-batch');
         const div = divSel.value;
 
-        batchSel.innerHTML = '<option value="-" selected>-</option>'; // Default to no batch
+        batchSel.innerHTML = '<option value="-" selected>-</option>'; // Default
 
         if(sub && div && DATA.schedule[sub] && DATA.schedule[sub][div]) {
-            // Find keys in schedule that aren't times (simple heuristic) or just list common batches
-            const possibleBatches = Object.keys(DATA.schedule[sub][div]).filter(k => k.length <= 3 && k !== "L" && k !== "P");
+            const keys = Object.keys(DATA.schedule[sub][div]);
+            // Simple heuristic to filter batch keys (usually short strings like A1, B2)
+            // Excluding 'L' and 'P' which are usually lectures/practical structs
+            const batches = keys.filter(k => k !== "L" && k !== "P" && k.length < 5);
             
-            possibleBatches.forEach(b => {
+            batches.forEach(b => {
                 const opt = document.createElement('option');
                 opt.value = b; opt.text = b;
                 if(b === targetBatch) opt.selected = true;
@@ -455,41 +483,38 @@
         }
     }
 
-    // --- SAVE STUDENTS ---
+    function addEmptyCard() {
+        createCardRow();
+    }
+
     async function saveStudentChanges() {
         if(!EDIT_MIS) return;
         document.getElementById('loading-overlay').style.display = 'flex';
 
-        // 1. Construct Object
         const name = document.getElementById('edit-name').value;
-        const cardRows = document.querySelectorAll('#cards-container .row');
+        const rows = document.querySelectorAll('#cards-container .row');
         const newCards = [];
 
-        cardRows.forEach(row => {
-            const sub = row.querySelector('.card-sub').value;
-            const div = row.querySelector('.card-div').value;
-            const batch = row.querySelector('.card-batch').value;
+        rows.forEach(r => {
+            const sub = r.querySelector('.card-sub').value;
+            const div = r.querySelector('.card-div').value;
+            const batch = r.querySelector('.card-batch').value;
             if(sub) {
-                newCards.push({
-                    code: sub,
-                    name: DATA.subjects[sub] || sub, // Preserve name if known
-                    div: div,
-                    batch: batch
-                });
+                newCards.push({ code: sub, name: DATA.subjects[sub] || sub, div: div, batch: batch });
             }
         });
 
-        // 2. Update Local Data
+        // Update Local
         DATA.students[EDIT_MIS].name = name;
         DATA.students[EDIT_MIS].cards = newCards;
 
-        // 3. Stringify to JS File Format
-        const fileContent = `const GENERATED_DB = ${JSON.stringify(DATA.students, null, 4)};`;
-
+        // Save to GitHub
+        const content = `const GENERATED_DB = ${JSON.stringify(DATA.students, null, 4)};\n\nexport default GENERATED_DB;`;
+        
         try {
-            const res = await ghSaveFile('students.js', fileContent, SHA_STUDENTS, `Update student ${EDIT_MIS}`);
-            SHA_STUDENTS = res.content.sha; // Update SHA for next save
-            alert("Saved successfully!");
+            const res = await ghSaveFile('students.js', content, SHA_STUDENTS, `Update student ${EDIT_MIS}`);
+            SHA_STUDENTS = res.content.sha;
+            alert("Student saved successfully!");
         } catch (e) {
             alert("Save failed: " + e.message);
         } finally {
@@ -525,18 +550,15 @@
         }
     }
 
-    // --- NOTES LOGIC ---
+    // --- NOTES SYSTEM ---
     function renderNotes() {
         const list = document.getElementById('notes-list');
         list.innerHTML = '';
-        DATA.notes.forEach((note, index) => {
-            const div = document.createElement('div');
-            div.className = 'note-item';
-            div.innerHTML = `
-                <span>${note}</span>
-                <button class="danger" style="padding:4px 8px; font-size:12px;" onclick="removeNote(${index})">Delete</button>
-            `;
-            list.appendChild(div);
+        DATA.notes.forEach((n, i) => {
+            const d = document.createElement('div');
+            d.className = 'note-item';
+            d.innerHTML = `<span>${n}</span> <button class="danger" style="padding:5px;" onclick="removeNote(${i})">Del</button>`;
+            list.appendChild(d);
         });
     }
 
@@ -549,22 +571,20 @@
         }
     }
 
-    function removeNote(index) {
-        DATA.notes.splice(index, 1);
+    function removeNote(i) {
+        DATA.notes.splice(i, 1);
         renderNotes();
     }
 
-    // --- SAVE LOGIC (SCHEDULE + NOTES) ---
     async function saveLogicChanges() {
         document.getElementById('loading-overlay').style.display = 'flex';
         
-        // We must save BOTH variables into logic.js
-        const fileContent = `const MASTER_SCHEDULE = ${JSON.stringify(DATA.schedule, null, 4)};\n\nconst ACTIVE_NOTES = ${JSON.stringify(DATA.notes, null, 4)};`;
+        const content = `const MASTER_SCHEDULE = ${JSON.stringify(DATA.schedule, null, 4)};\n\nconst ACTIVE_NOTES = ${JSON.stringify(DATA.notes, null, 4)};\n\nexport { MASTER_SCHEDULE, ACTIVE_NOTES };`;
 
         try {
-            const res = await ghSaveFile('logic.js', fileContent, SHA_LOGIC, `Update notes/logic`);
+            const res = await ghSaveFile('logic.js', content, SHA_LOGIC, "Update notes/schedule");
             SHA_LOGIC = res.content.sha;
-            alert("Notes & Logic saved successfully!");
+            alert("Notes & Schedule saved!");
         } catch (e) {
             alert("Save failed: " + e.message);
         } finally {
