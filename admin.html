@@ -386,14 +386,23 @@
             const sText = decodeURIComponent(escape(atob(sData.content)));
             // Extract JSON from JS file
             
-            // Improved Regex to handle whitespace and potential missing semicolon
-            let sMatch = sText.match(/const\s+GENERATED_DB\s*=\s*([\s\S]*?);/);
-            if (!sMatch) sMatch = sText.match(/const\s+GENERATED_DB\s*=\s*([\s\S]*)/); // Fallback to EOF
+            // Robust extraction: Find the JSON object between the first '{' and last '}'
+            let jsonStr = null;
+            const firstBrace = sText.indexOf('{');
+            const lastBrace = sText.lastIndexOf('}');
+            
+            if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+                jsonStr = sText.substring(firstBrace, lastBrace + 1);
+            }
 
             try {
-                if (sMatch) DATA.students = JSON.parse(sMatch[1].trim().replace(/;$/, ''));
+                if (jsonStr) DATA.students = JSON.parse(jsonStr);
                 else DATA.students = {};
-            } catch(e) { console.error("Error parsing students.js", e); DATA.students = {}; }
+            } catch(e) { 
+                console.error("Error parsing students.js", e); 
+                alert("Failed to parse students.js. Check for syntax errors (e.g., trailing commas) in the GitHub file.");
+                DATA.students = {}; 
+            }
 
             // 2. Load Logic.js
             const lData = await ghRequest('logic.js');
@@ -434,7 +443,11 @@
             mis = "6125" + mis;
         }
         if (!DATA.students[mis]) {
-            alert(`Student not found! (Searched MIS: ${mis})\nEnsure students.js is loaded correctly.`);
+            if (Object.keys(DATA.students).length === 0) {
+                alert("Error: No student data loaded. Please check the console for parsing errors.");
+            } else {
+                alert(`Student not found! (Searched MIS: ${mis})`);
+            }
             return;
         }
         EDIT_MIS = mis;
