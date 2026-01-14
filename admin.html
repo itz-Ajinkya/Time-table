@@ -3,594 +3,241 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COEP Admin Portal</title>
+    <title>COEP Admin Portal (Debug Mode)</title>
     <style>
-        :root {
-            --bg-color: #f4f4f9;
-            --text-color: #333;
-            --card-bg: #fff;
-            --border-color: #ddd;
-            --primary: #007bff;
-            --accent: #6c757d;
-            --danger: #dc3545;
-            --success: #28a745;
-        }
-
-        body.dark-mode {
-            --bg-color: #121212;
-            --text-color: #e0e0e0;
-            --card-bg: #1e1e1e;
-            --border-color: #333;
-            --primary: #bb86fc;
-            --accent: #03dac6;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 20px;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        h1 { margin: 0; font-size: 1.5rem; }
-
-        button {
-            cursor: pointer;
-            padding: 8px 16px;
-            border: none;
-            border-radius: 4px;
-            background-color: var(--primary);
-            color: #fff;
-            font-size: 14px;
-            transition: opacity 0.2s;
-            margin-right: 5px;
-        }
-
-        button:hover { opacity: 0.9; }
-        button.secondary { background-color: var(--accent); }
-        button.danger { background-color: var(--danger); }
-        button.success { background-color: var(--success); }
-
-        .toggle-btn {
-            background: none;
-            font-size: 24px;
-            padding: 0;
-        }
-
-        .tabs {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 20px;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 10px;
-            overflow-x: auto;
-        }
-
-        .tab {
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 4px;
-            background-color: var(--card-bg);
-            border: 1px solid var(--border-color);
-            white-space: nowrap;
-        }
-
-        .tab.active {
-            background-color: var(--primary);
-            color: #fff;
-            border-color: var(--primary);
-        }
-
-        .panel { display: none; }
-        .panel.active { display: block; }
-
-        .card {
-            background-color: var(--card-bg);
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-        }
-
-        .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
-        
-        input, select, textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 5px 0 15px;
-            border: 1px solid var(--border-color);
-            border-radius: 4px;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            box-sizing: border-box;
-        }
-        
-        textarea {
-            font-family: monospace;
-            min-height: 200px;
-        }
-
-        .note-item {
-            display: flex; 
-            justify-content: space-between; 
-            align-items: center;
-            border-bottom: 1px solid var(--border-color);
-            padding: 10px 0;
-        }
-
-        /* OVERLAYS */
-        #loading-overlay {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0,0,0,0.8); z-index: 2000;
-            display: none; justify-content: center; align-items: center;
-            font-size: 1.5rem; color: #fff; flex-direction: column;
-            backdrop-filter: blur(5px);
-        }
-
-        #login-screen {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: var(--bg-color); z-index: 3000;
-            display: none; justify-content: center; align-items: center;
-            flex-direction: column;
-        }
-        .login-box {
-            background: var(--card-bg); padding: 30px; border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.2); text-align: center;
-            width: 90%; max-width: 400px; border: 1px solid var(--border-color);
-        }
+        :root { --bg: #121212; --card: #1e1e1e; --text: #e0e0e0; --primary: #bb86fc; --danger: #cf6679; }
+        body { font-family: sans-serif; background: var(--bg); color: var(--text); padding: 20px; }
+        .card { background: var(--card); padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #333; }
+        input, select, button { padding: 10px; margin: 5px 0; width: 100%; box-sizing: border-box; }
+        button { background: var(--primary); color: #000; font-weight: bold; border: none; cursor: pointer; }
+        button.danger { background: var(--danger); color: #fff; }
+        .row { display: flex; gap: 10px; }
+        .hidden { display: none; }
+        #loading { position: fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); display:none; justify-content:center; align-items:center; flex-direction:column; z-index:999; }
+        pre { background: #000; padding: 10px; overflow: auto; max-height: 200px; font-size: 12px; }
     </style>
 </head>
-<body class="dark-mode">
+<body>
 
-<div id="loading-overlay"><div>⏳ Processing...</div></div>
+<div id="loading"><h1>⏳ Working...</h1><div id="loading-msg"></div></div>
 
-<div id="login-screen">
-    <div class="login-box">
-        <h2>Admin Login</h2>
-        <p>Enter GitHub Personal Access Token</p>
-        <input type="password" id="gh-token-input" placeholder="ghp_..." style="margin-bottom: 15px;">
-        <button onclick="saveTokenAndLogin()">Login</button>
-    </div>
+<div id="login-screen" class="card" style="max-width:400px; margin: 50px auto;">
+    <h2>Admin Login</h2>
+    <input type="password" id="gh-token" placeholder="Paste GitHub Token (ghp_...)">
+    <button onclick="login()">Login</button>
 </div>
 
-<div id="admin-interface" style="display:none;">
-    <header>
-        <h1>COEP Admin Portal</h1>
-        <div>
-            <button onclick="logout()" class="danger">Logout</button>
-            <button class="toggle-btn" onclick="toggleDarkMode()">☀️</button>
-        </div>
-    </header>
-
-    <div class="tabs">
-        <div class="tab active" onclick="showPanel('students')">Students</div>
-        <div class="tab" onclick="showPanel('schedule')">Schedule Logic</div>
-        <div class="tab" onclick="showPanel('notes')">Notes</div>
+<div id="app" class="hidden">
+    <div class="row">
+        <h2>COEP Admin</h2>
+        <button onclick="logout()" class="danger" style="width:auto; margin-left:auto;">Logout</button>
     </div>
 
-    <div id="students" class="panel active">
-        <div class="card">
-            <h3>Student Search</h3>
-            <div class="row">
-                <input type="text" id="mis-input" placeholder="Enter MIS (e.g. 112203050)" onkeydown="if(event.key==='Enter') fetchStudent()">
-                <button onclick="fetchStudent()">Search</button>
-            </div>
-        </div>
+    <div class="card" style="border: 1px solid #bb86fc;">
+        <h3>🛠️ Diagnostics</h3>
+        <p>If search fails, click below to see what is actually in the database.</p>
+        <button onclick="debugCheckDB()">Check Database Data</button>
+        <pre id="debug-output">No data checked yet.</pre>
+    </div>
 
-        <div id="student-editor" class="card" style="display:none;">
-            <h3>Edit Student: <span id="display-mis"></span></h3>
-            <label>Name</label>
-            <input type="text" id="edit-name">
-            
-            <h4>Allocated Subjects</h4>
-            <div id="cards-container"></div>
-            
-            <button onclick="addEmptyCard()" class="secondary" style="margin-bottom: 15px;">+ Add Subject</button>
-            
-            <div class="row">
-                <button onclick="saveStudentChanges()" class="success">Save Changes</button>
-                <button class="secondary" onclick="document.getElementById('student-editor').style.display='none'">Cancel</button>
-            </div>
+    <div class="card">
+        <h3>Student Search</h3>
+        <div class="row">
+            <input type="text" id="search-input" placeholder="Enter MIS">
+            <button onclick="searchStudent()">Search</button>
         </div>
     </div>
 
-    <div id="schedule" class="panel">
-        <div class="card">
-            <h3>Schedule Viewer</h3>
-            <p>Select criteria to view raw schedule structure.</p>
-            <div class="row">
-                <select id="sched-sub" onchange="onSchedSubChange()"><option value="">Select Subject</option></select>
-                <select id="sched-div"><option value="">Select Division</option></select>
-                <button onclick="viewScheduleData()">View Data</button>
-            </div>
-            <textarea id="schedule-json-viewer" readonly placeholder="JSON data will appear here..."></textarea>
-        </div>
-    </div>
-
-    <div id="notes" class="panel">
-        <div class="card">
-            <h3>Website Notes</h3>
-            <p>Notes displayed on student dashboard.</p>
-            <div id="notes-list"></div>
-            <div class="row" style="margin-top: 15px;">
-                <input type="text" id="new-note-text" placeholder="Enter new note..." style="margin-bottom:0;">
-                <button onclick="addNote()">Add Note</button>
-            </div>
-            <br>
-            <button onclick="saveLogicChanges()" class="success">Save Notes</button>
+    <div id="editor" class="card hidden">
+        <h3>Editing: <span id="lbl-mis"></span></h3>
+        <label>Name</label> <input type="text" id="inp-name">
+        <div id="course-list"></div>
+        <button onclick="addCourseRow()">+ Add Subject</button>
+        <div class="row" style="margin-top:15px;">
+            <button onclick="saveChanges()">💾 Save to GitHub</button>
+            <button onclick="document.getElementById('editor').classList.add('hidden')" class="danger">Cancel</button>
         </div>
     </div>
 </div>
 
 <script>
-    // --- CONFIGURATION ---
-    const REPO_OWNER = "itz-ajinkya";
-    const REPO_NAME = "Time-table";
-    const BRANCH = "main";
-    
-    // --- GLOBAL STATE ---
-    let DATA = { students: {}, schedule: {}, subjects: {}, notes: [] };
-    let GH_TOKEN = localStorage.getItem("gh_token");
-    let SHA_STUDENTS = null;
-    let SHA_LOGIC = null;
-    let EDIT_MIS = null;
+const REPO_OWNER = "itz-ajinkya";
+const REPO_NAME = "Time-table";
+const BRANCH = "main";
+let GH_TOKEN = localStorage.getItem("gh_token");
+let DB = { students: {}, sha: null };
 
-    // --- INITIALIZATION ---
-    window.onload = function() {
-        if(GH_TOKEN) {
-            loadData();
-        } else {
-            document.getElementById('login-screen').style.display = 'flex';
-        }
-    }
+// --- INIT ---
+if(GH_TOKEN) login();
 
-    function toggleDarkMode() {
-        document.body.classList.toggle('dark-mode');
-    }
+function login() {
+    const t = document.getElementById('gh-token').value || GH_TOKEN;
+    if(!t) return;
+    localStorage.setItem("gh_token", t);
+    GH_TOKEN = t;
+    document.getElementById('login-screen').classList.add('hidden');
+    loadData();
+}
 
-    function logout() {
-        localStorage.removeItem("gh_token");
-        location.reload();
-    }
+function logout() {
+    localStorage.removeItem("gh_token");
+    location.reload();
+}
 
-    function saveTokenAndLogin() {
-        const t = document.getElementById('gh-token-input').value.trim();
-        if(!t) return alert("Token cannot be empty");
-        localStorage.setItem("gh_token", t);
-        GH_TOKEN = t;
-        document.getElementById('login-screen').style.display = 'none';
-        loadData();
-    }
-
-    // --- GITHUB API HELPER ---
-    async function ghRequest(path, method = 'GET', body = null) {
-        const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`;
-        const headers = { 
-            "Authorization": `token ${GH_TOKEN}`,
-            "Accept": "application/vnd.github.v3+json",
-            "Content-Type": "application/json"
-        };
-        const options = { method, headers };
-        if (method === 'GET') options.url = url + `?ref=${BRANCH}`;
-        if (body) options.body = JSON.stringify(body);
-
-        const res = await fetch(url + (method === 'GET' ? `?ref=${BRANCH}` : ''), options);
-        if (!res.ok) {
-            if (res.status === 401) {
-                logout();
-                throw new Error("Unauthorized: Invalid Token");
-            }
-            throw new Error(await res.text());
-        }
-        return res.json();
-    }
-
-    async function ghSaveFile(path, content, sha, message) {
-        // UTF-8 Safe Base64 Encoding
-        const contentBase64 = btoa(unescape(encodeURIComponent(content)));
-        const body = { message, content: contentBase64, sha, branch: BRANCH };
-        return ghRequest(path, 'PUT', body);
-    }
-
-    // --- ROBUST DATA PARSER (THE FIX) ---
-    function robustParse(text, varName) {
-        // 1. Find where the variable starts (e.g., "GENERATED_DB =")
-        const regex = new RegExp(`${varName}\\s*=\s*`);
-        const parts = text.split(regex);
+// --- CORE: DATA LOADING ---
+async function loadData() {
+    showLoad(true, "Fetching students.js...");
+    try {
+        // 1. Fetch File
+        const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/students.js?ref=${BRANCH}`;
+        const res = await fetch(url, { headers: { Authorization: `token ${GH_TOKEN}` } });
         
-        if(parts.length < 2) return null; // Variable not found
-
-        // 2. Get everything after the equals sign
-        let raw = parts[1];
-
-        // 3. Find the last closing bracket to trim trailing junk (export default, etc.)
-        // If it's an object, look for '}', if array look for ']'
-        const lastBrace = raw.lastIndexOf('}');
-        const lastBracket = raw.lastIndexOf(']');
+        if(!res.ok) throw new Error((await res.json()).message || "Auth Failed");
         
-        // Take the furthest one to be safe, or just assume object structure
-        const cutoff = Math.max(lastBrace, lastBracket);
-        
-        if (cutoff !== -1) {
-            raw = raw.substring(0, cutoff + 1);
+        const data = await res.json();
+        DB.sha = data.sha;
+        const text = decodeURIComponent(escape(atob(data.content)));
+
+        // 2. PARSE STRATEGY: "BRUTE FORCE JSON"
+        // Ignore variable names. Just find the first { and last }.
+        const firstBrace = text.indexOf('{');
+        const lastBrace = text.lastIndexOf('}');
+
+        if(firstBrace === -1 || lastBrace === -1) {
+            alert("CRITICAL ERROR: No object {...} found in file.\n\nFile Start:\n" + text.substring(0, 100));
+            throw new Error("Invalid File Format");
         }
 
-        // 4. Use Function constructor to parse loosely (handles single quotes, trailing commas)
+        const jsonCandidate = text.substring(firstBrace, lastBrace + 1);
+
         try {
-            return new Function(`return ${raw}`)();
-        } catch (e) {
-            console.error(`Failed to parse ${varName}:`, e);
-            return null;
-        }
-    }
-
-    async function loadData() {
-        const loading = document.getElementById('loading-overlay');
-        loading.style.display = 'flex';
-        
-        try {
-            document.getElementById('admin-interface').style.display = 'block';
-
-            // 1. FETCH STUDENTS.JS
-            const sData = await ghRequest('students.js');
-            SHA_STUDENTS = sData.sha;
-            const sText = decodeURIComponent(escape(atob(sData.content)));
-            
-            // Parse
-            const parsedStudents = robustParse(sText, 'GENERATED_DB');
-            if (parsedStudents) {
-                DATA.students = parsedStudents;
-            } else {
-                throw new Error("Could not parse GENERATED_DB from students.js");
-            }
-
-            // 2. FETCH LOGIC.JS
-            const lData = await ghRequest('logic.js');
-            SHA_LOGIC = lData.sha;
-            const lText = decodeURIComponent(escape(atob(lData.content)));
-
-            // Parse Schedule & Notes
-            DATA.schedule = robustParse(lText, 'MASTER_SCHEDULE') || {};
-            DATA.notes = robustParse(lText, 'ACTIVE_NOTES') || [];
-
-            // 3. GENERATE SUBJECT LIST
-            // We build a list of known subjects from the existing student data
-            Object.values(DATA.students).forEach(std => {
-                if(std.cards) std.cards.forEach(c => {
-                    if(c.code) DATA.subjects[c.code] = c.name || c.code;
-                });
-            });
-
-            console.log("Data Loaded:", Object.keys(DATA.students).length, "students.");
-            populateSchedDropdowns();
-            renderNotes();
-
-        } catch (e) {
-            alert("Error loading data: " + e.message);
+            // Try parsing securely
+            DB.students = new Function('return ' + jsonCandidate)();
+        } catch(e) {
             console.error(e);
-        } finally {
-            loading.style.display = 'none';
+            alert("Parsing Failed. The file content inside { ... } is not valid JS object.");
         }
+
+        document.getElementById('app').classList.remove('hidden');
+        showLoad(false);
+
+    } catch (e) {
+        showLoad(false);
+        alert("Error: " + e.message);
+        document.getElementById('login-screen').classList.remove('hidden');
+    }
+}
+
+// --- DEBUGGING TOOL ---
+function debugCheckDB() {
+    const keys = Object.keys(DB.students);
+    const count = keys.length;
+    let msg = `Total Students: ${count}\n`;
+    
+    if(count > 0) {
+        msg += `First 3 IDs found in DB:\n`;
+        msg += `1. "${keys[0]}" (Type: ${typeof keys[0]})\n`;
+        if(keys[1]) msg += `2. "${keys[1]}"\n`;
+        if(keys[2]) msg += `3. "${keys[2]}"\n`;
+    } else {
+        msg += "⚠️ DATABASE IS EMPTY!";
+    }
+    document.getElementById('debug-output').innerText = msg;
+}
+
+// --- SEARCH LOGIC ---
+function searchStudent() {
+    const input = document.getElementById('search-input').value.trim();
+    
+    // Fuzzy Search: Compare string vs number
+    const foundKey = Object.keys(DB.students).find(k => k == input); // '==' allows "123" == 123
+
+    if (!foundKey) {
+        alert(`Student "${input}" not found.\n(Click 'Check Database Data' to see valid IDs)`);
+        return;
     }
 
-    // --- STUDENT EDITING ---
-    function fetchStudent() {
-        const mis = document.getElementById('mis-input').value.trim();
-        if (!mis || !DATA.students[mis]) {
-            alert("Student not found!");
-            return;
-        }
-        EDIT_MIS = mis;
-        const student = DATA.students[mis];
-        
-        document.getElementById('display-mis').innerText = mis;
-        document.getElementById('edit-name').value = student.name;
-        renderEditorCards(student.cards || []);
-        document.getElementById('student-editor').style.display = 'block';
-    }
+    openEditor(foundKey);
+}
 
-    function renderEditorCards(cards) {
-        const container = document.getElementById('cards-container');
-        container.innerHTML = '';
-        cards.forEach(card => createCardRow(card));
-    }
+// --- EDITOR LOGIC ---
+let EDIT_ID = null;
 
-    function createCardRow(card = {code: '', div: '', batch: ''}) {
-        const container = document.getElementById('cards-container');
-        const div = document.createElement('div');
-        div.className = 'row';
-        // Create dropdown options
-        const allSubs = new Set([...Object.keys(DATA.schedule), ...Object.keys(DATA.subjects)]);
-        let subOpts = '<option value="" disabled>Select Subject</option>';
-        allSubs.forEach(s => subOpts += `<option value="${s}">${s}</option>`);
+function openEditor(id) {
+    EDIT_ID = id;
+    const s = DB.students[id];
+    document.getElementById('lbl-mis').innerText = id;
+    document.getElementById('inp-name').value = s.name || "";
+    document.getElementById('course-list').innerHTML = '';
+    
+    (s.cards || []).forEach(addCourseRow);
+    document.getElementById('editor').classList.remove('hidden');
+}
 
-        div.innerHTML = `
-            <select class="card-sub" style="flex:2; margin-bottom:0;" onchange="onCardSubChange(this)">
-                ${subOpts}
-            </select>
-            <select class="card-div" style="flex:1; margin-bottom:0;" onchange="onCardDivChange(this)">
-                <option value="${card.div}">${card.div || 'Div'}</option>
-            </select>
-            <select class="card-batch" style="flex:1; margin-bottom:0;">
-                <option value="${card.batch}">${card.batch || 'Batch'}</option>
-            </select>
-            <button class="danger" style="width:auto; padding: 10px;" onclick="this.parentElement.remove()">X</button>
-        `;
-        container.appendChild(div);
-        
-        // Set initial values
-        const subSel = div.querySelector('.card-sub');
-        subSel.value = card.code;
-        // If subject exists in schedule, populate divs properly
-        if(card.code && DATA.schedule[card.code]) {
-            onCardSubChange(subSel, card.div, card.batch);
-        }
-    }
+function addCourseRow(data = {}) {
+    const div = document.createElement('div');
+    div.className = 'row';
+    div.innerHTML = `
+        <input placeholder="Subject (e.g. Dsa)" class="sub" value="${data.code || ''}">
+        <input placeholder="Div" class="div" value="${data.div || ''}">
+        <input placeholder="Batch" class="bat" value="${data.batch || ''}">
+        <button class="danger" style="width:auto;" onclick="this.parentElement.remove()">X</button>
+    `;
+    document.getElementById('course-list').appendChild(div);
+}
 
-    function onCardSubChange(subSel, targetDiv, targetBatch) {
-        const row = subSel.parentElement;
-        const divSel = row.querySelector('.card-div');
-        const sub = subSel.value;
-        
-        divSel.innerHTML = '<option value="" disabled selected>Div</option>';
-        
-        if(DATA.schedule[sub]) {
-            Object.keys(DATA.schedule[sub]).forEach(d => {
-                const opt = document.createElement('option');
-                opt.value = d; opt.text = d;
-                if(d === targetDiv) opt.selected = true;
-                divSel.add(opt);
-            });
-        } else {
-            // Fallback for subjects not in master schedule
-            const opt = document.createElement('option'); 
-            opt.value = targetDiv || "1"; opt.text = targetDiv || "1"; 
-            divSel.add(opt);
-            divSel.value = targetDiv || "1";
-        }
-        onCardDivChange(divSel, targetBatch);
-    }
-
-    function onCardDivChange(divSel, targetBatch) {
-        const row = divSel.parentElement;
-        const sub = row.querySelector('.card-sub').value;
-        const batchSel = row.querySelector('.card-batch');
-        const div = divSel.value;
-
-        batchSel.innerHTML = '<option value="-" selected>-</option>'; // Default
-
-        if(sub && div && DATA.schedule[sub] && DATA.schedule[sub][div]) {
-            const keys = Object.keys(DATA.schedule[sub][div]);
-            // Simple heuristic to filter batch keys (usually short strings like A1, B2)
-            // Excluding 'L' and 'P' which are usually lectures/practical structs
-            const batches = keys.filter(k => k !== "L" && k !== "P" && k.length < 5);
-            
-            batches.forEach(b => {
-                const opt = document.createElement('option');
-                opt.value = b; opt.text = b;
-                if(b === targetBatch) opt.selected = true;
-                batchSel.add(opt);
-            });
-        }
-    }
-
-    function addEmptyCard() {
-        createCardRow();
-    }
-
-    async function saveStudentChanges() {
-        if(!EDIT_MIS) return;
-        document.getElementById('loading-overlay').style.display = 'flex';
-
-        const name = document.getElementById('edit-name').value;
-        const rows = document.querySelectorAll('#cards-container .row');
-        const newCards = [];
-
-        rows.forEach(r => {
-            const sub = r.querySelector('.card-sub').value;
-            const div = r.querySelector('.card-div').value;
-            const batch = r.querySelector('.card-batch').value;
-            if(sub) {
-                newCards.push({ code: sub, name: DATA.subjects[sub] || sub, div: div, batch: batch });
-            }
+async function saveChanges() {
+    showLoad(true, "Saving to GitHub...");
+    
+    // 1. Update Memory
+    const name = document.getElementById('inp-name').value;
+    const cards = [];
+    document.querySelectorAll('#course-list .row').forEach(row => {
+        cards.push({
+            code: row.querySelector('.sub').value,
+            div: row.querySelector('.div').value,
+            batch: row.querySelector('.bat').value,
+            name: row.querySelector('.sub').value // Auto-set name = code for now
         });
+    });
 
-        // Update Local
-        DATA.students[EDIT_MIS].name = name;
-        DATA.students[EDIT_MIS].cards = newCards;
+    DB.students[EDIT_ID] = { name, cards };
 
-        // Save to GitHub
-        const content = `const GENERATED_DB = ${JSON.stringify(DATA.students, null, 4)};\n\nexport default GENERATED_DB;`;
-        
-        try {
-            const res = await ghSaveFile('students.js', content, SHA_STUDENTS, `Update student ${EDIT_MIS}`);
-            SHA_STUDENTS = res.content.sha;
-            alert("Student saved successfully!");
-        } catch (e) {
-            alert("Save failed: " + e.message);
-        } finally {
-            document.getElementById('loading-overlay').style.display = 'none';
-        }
-    }
+    // 2. Construct File Content
+    // We rebuild the file cleanly: "const GENERATED_DB = { ... }; export default GENERATED_DB;"
+    const newContent = `const GENERATED_DB = ${JSON.stringify(DB.students, null, 4)};\n\nexport default GENERATED_DB;`;
+    
+    const body = {
+        message: "Update " + EDIT_ID,
+        content: btoa(unescape(encodeURIComponent(newContent))),
+        sha: DB.sha,
+        branch: BRANCH
+    };
 
-    // --- SCHEDULE VIEWER ---
-    function populateSchedDropdowns() {
-        const subSel = document.getElementById('sched-sub');
-        subSel.innerHTML = '<option value="">Select Subject</option>';
-        Object.keys(DATA.schedule).forEach(k => {
-            const opt = document.createElement('option'); opt.value = k; opt.text = k; subSel.add(opt);
+    try {
+        const res = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/students.js`, {
+            method: 'PUT',
+            headers: { Authorization: `token ${GH_TOKEN}`, "Content-Type": "application/json" },
+            body: JSON.stringify(body)
         });
-    }
-
-    function onSchedSubChange() {
-        const sub = document.getElementById('sched-sub').value;
-        const divSel = document.getElementById('sched-div');
-        divSel.innerHTML = '<option value="">Select Division</option>';
-        if(sub && DATA.schedule[sub]) {
-            Object.keys(DATA.schedule[sub]).forEach(d => {
-                const opt = document.createElement('option'); opt.value = d; opt.text = d; divSel.add(opt);
-            });
-        }
-    }
-
-    function viewScheduleData() {
-        const sub = document.getElementById('sched-sub').value;
-        const div = document.getElementById('sched-div').value;
-        if(sub && div) {
-            document.getElementById('schedule-json-viewer').value = JSON.stringify(DATA.schedule[sub][div], null, 4);
-        }
-    }
-
-    // --- NOTES SYSTEM ---
-    function renderNotes() {
-        const list = document.getElementById('notes-list');
-        list.innerHTML = '';
-        DATA.notes.forEach((n, i) => {
-            const d = document.createElement('div');
-            d.className = 'note-item';
-            d.innerHTML = `<span>${n}</span> <button class="danger" style="padding:5px;" onclick="removeNote(${i})">Del</button>`;
-            list.appendChild(d);
-        });
-    }
-
-    function addNote() {
-        const txt = document.getElementById('new-note-text').value.trim();
-        if(txt) {
-            DATA.notes.push(txt);
-            document.getElementById('new-note-text').value = '';
-            renderNotes();
-        }
-    }
-
-    function removeNote(i) {
-        DATA.notes.splice(i, 1);
-        renderNotes();
-    }
-
-    async function saveLogicChanges() {
-        document.getElementById('loading-overlay').style.display = 'flex';
         
-        const content = `const MASTER_SCHEDULE = ${JSON.stringify(DATA.schedule, null, 4)};\n\nconst ACTIVE_NOTES = ${JSON.stringify(DATA.notes, null, 4)};\n\nexport { MASTER_SCHEDULE, ACTIVE_NOTES };`;
-
-        try {
-            const res = await ghSaveFile('logic.js', content, SHA_LOGIC, "Update notes/schedule");
-            SHA_LOGIC = res.content.sha;
-            alert("Notes & Schedule saved!");
-        } catch (e) {
-            alert("Save failed: " + e.message);
-        } finally {
-            document.getElementById('loading-overlay').style.display = 'none';
-        }
+        if(!res.ok) throw new Error(await res.text());
+        
+        const json = await res.json();
+        DB.sha = json.content.sha;
+        alert("Saved Successfully!");
+        document.getElementById('editor').classList.add('hidden');
+    } catch(e) {
+        alert("Save Failed: " + e.message);
     }
+    showLoad(false);
+}
+
+function showLoad(show, msg) {
+    const el = document.getElementById('loading');
+    el.style.display = show ? 'flex' : 'none';
+    if(msg) document.getElementById('loading-msg').innerText = msg;
+}
 </script>
 </body>
 </html>
