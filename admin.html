@@ -203,12 +203,6 @@
 </head>
 <body class="dark-mode">
 
-<header>
-    <h1>COEP Admin Portal</h1>
-    <button class="toggle-btn" onclick="clearToken()" title="Reset GitHub Token" style="margin-right:10px;">🔑</button>
-    <button class="toggle-btn" onclick="toggleDarkMode()" id="theme-toggle">☀️</button>
-</header>
-
 <div id="loading-overlay"><div>⏳ Processing...</div></div>
 
 <div id="login-screen">
@@ -219,6 +213,13 @@
         <button onclick="saveTokenAndLogin()">Login</button>
     </div>
 </div>
+
+<div id="admin-interface" style="display:none;">
+<header>
+    <h1>COEP Admin Portal</h1>
+    <button onclick="logout()" style="margin-right:10px; background-color: #dc3545;">Logout</button>
+    <button class="toggle-btn" onclick="toggleDarkMode()" id="theme-toggle">☀️</button>
+</header>
 
 <div class="tabs">
     <div class="tab active" onclick="showPanel('students')">Students</div>
@@ -287,6 +288,7 @@
         </div>
     </div>
 </div>
+</div>
 
 <script>
     let DATA = { students: {}, schedule: {}, subjects: {}, notes: [] };
@@ -312,7 +314,7 @@
         document.getElementById('loading-overlay').style.display = 'none';
     }
 
-    function clearToken() {
+    function logout() {
         localStorage.removeItem("gh_token");
         location.reload();
     }
@@ -323,6 +325,7 @@
         localStorage.setItem("gh_token", t);
         GH_TOKEN = t;
         document.getElementById('login-screen').style.display = 'none';
+        document.getElementById('admin-interface').style.display = 'block';
         loadData();
     }
 
@@ -350,6 +353,7 @@
                 GH_TOKEN = null;
                 alert("Invalid Token. Please login again.");
                 document.getElementById('login-screen').style.display = 'flex';
+                document.getElementById('admin-interface').style.display = 'none';
                 hideLoading();
                 throw new Error("Unauthorized");
             }
@@ -1116,6 +1120,7 @@
     }
 
     if (GH_TOKEN) {
+        document.getElementById('admin-interface').style.display = 'block';
         loadData();
     } else {
         document.getElementById('login-screen').style.display = 'flex';
