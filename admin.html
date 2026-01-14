@@ -3,241 +3,330 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COEP Admin Portal (Debug Mode)</title>
+    <title>COEP Admin - Recovery Mode</title>
     <style>
-        :root { --bg: #121212; --card: #1e1e1e; --text: #e0e0e0; --primary: #bb86fc; --danger: #cf6679; }
-        body { font-family: sans-serif; background: var(--bg); color: var(--text); padding: 20px; }
-        .card { background: var(--card); padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #333; }
-        input, select, button { padding: 10px; margin: 5px 0; width: 100%; box-sizing: border-box; }
-        button { background: var(--primary); color: #000; font-weight: bold; border: none; cursor: pointer; }
-        button.danger { background: var(--danger); color: #fff; }
-        .row { display: flex; gap: 10px; }
-        .hidden { display: none; }
-        #loading { position: fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); display:none; justify-content:center; align-items:center; flex-direction:column; z-index:999; }
-        pre { background: #000; padding: 10px; overflow: auto; max-height: 200px; font-size: 12px; }
+        :root { --bg: #121212; --card: #1e1e1e; --text: #e0e0e0; --primary: #bb86fc; --danger: #cf6679; --success: #03dac6; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); padding: 20px; max-width: 800px; margin: 0 auto; }
+        .card { background: var(--card); padding: 20px; border-radius: 10px; margin-bottom: 20px; border: 1px solid #333; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+        h2, h3 { margin-top: 0; color: var(--primary); }
+        
+        input, button, textarea { width: 100%; padding: 12px; margin: 8px 0; border-radius: 5px; border: 1px solid #444; background: #2d2d2d; color: #fff; box-sizing: border-box; }
+        button { font-weight: bold; cursor: pointer; border: none; transition: 0.2s; }
+        button:hover { opacity: 0.9; }
+        
+        .btn-primary { background: var(--primary); color: #000; }
+        .btn-danger { background: var(--danger); color: #fff; }
+        .btn-success { background: var(--success); color: #000; }
+        
+        .row { display: flex; gap: 10px; align-items: center; }
+        .hidden { display: none !important; }
+        
+        #loading-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 1000; display: none; justify-content: center; align-items: center; flex-direction: column; }
+        .status-box { background: #333; padding: 15px; border-radius: 5px; margin-top: 10px; font-family: monospace; }
     </style>
 </head>
 <body>
 
-<div id="loading"><h1>⏳ Working...</h1><div id="loading-msg"></div></div>
-
-<div id="login-screen" class="card" style="max-width:400px; margin: 50px auto;">
-    <h2>Admin Login</h2>
-    <input type="password" id="gh-token" placeholder="Paste GitHub Token (ghp_...)">
-    <button onclick="login()">Login</button>
+<div id="loading-overlay">
+    <h2 style="color:white">⏳ Processing...</h2>
+    <div id="loading-text" style="color:#aaa">Connecting to GitHub</div>
 </div>
 
-<div id="app" class="hidden">
-    <div class="row">
-        <h2>COEP Admin</h2>
-        <button onclick="logout()" class="danger" style="width:auto; margin-left:auto;">Logout</button>
-    </div>
+<div id="login-panel" class="card">
+    <h2>🔐 Admin Login</h2>
+    <p>Enter your GitHub Personal Access Token to access the database.</p>
+    <input type="password" id="gh-token" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx">
+    <button class="btn-primary" onclick="attemptLogin()">Login</button>
+</div>
 
-    <div class="card" style="border: 1px solid #bb86fc;">
-        <h3>🛠️ Diagnostics</h3>
-        <p>If search fails, click below to see what is actually in the database.</p>
-        <button onclick="debugCheckDB()">Check Database Data</button>
-        <pre id="debug-output">No data checked yet.</pre>
+<div id="repair-panel" class="card hidden" style="border: 2px solid var(--danger);">
+    <h2 style="color: var(--danger)">⚠️ Database Corrupted</h2>
+    <p>The file <code>students.js</code> on GitHub is empty or invalid.</p>
+    <div class="status-box" id="error-details">Error details here...</div>
+    <br>
+    <p>Click below to wipe the corrupted file and upload a fresh starter database.</p>
+    <button class="btn-danger" onclick="runRepair()">🛠️ Repair & Reset Database</button>
+</div>
+
+<div id="dashboard" class="hidden">
+    <div class="row" style="justify-content: space-between; margin-bottom:20px;">
+        <h2>🎓 Student Admin</h2>
+        <button class="btn-danger" style="width: auto;" onclick="logout()">Logout</button>
     </div>
 
     <div class="card">
-        <h3>Student Search</h3>
+        <h3>🔍 Search Student</h3>
         <div class="row">
-            <input type="text" id="search-input" placeholder="Enter MIS">
-            <button onclick="searchStudent()">Search</button>
+            <input type="text" id="search-mis" placeholder="Enter MIS (e.g., 111223344)">
+            <button class="btn-primary" style="width: 30%;" onclick="searchStudent()">Search</button>
         </div>
     </div>
 
-    <div id="editor" class="card hidden">
-        <h3>Editing: <span id="lbl-mis"></span></h3>
-        <label>Name</label> <input type="text" id="inp-name">
+    <div id="editor-panel" class="card hidden">
+        <h3>✏️ Editing MIS: <span id="lbl-mis" style="color:white"></span></h3>
+        
+        <label>Student Name</label>
+        <input type="text" id="inp-name">
+        
+        <label>Allocated Subjects</label>
         <div id="course-list"></div>
-        <button onclick="addCourseRow()">+ Add Subject</button>
-        <div class="row" style="margin-top:15px;">
-            <button onclick="saveChanges()">💾 Save to GitHub</button>
-            <button onclick="document.getElementById('editor').classList.add('hidden')" class="danger">Cancel</button>
+        
+        <button class="btn-success" style="margin-top:10px;" onclick="addSubjectRow()">+ Add Subject</button>
+        
+        <div class="row" style="margin-top: 20px; border-top: 1px solid #444; padding-top: 15px;">
+            <button class="btn-primary" onclick="saveChanges()">💾 Save Changes</button>
+            <button class="btn-danger" onclick="closeEditor()">Cancel</button>
         </div>
     </div>
 </div>
 
 <script>
-const REPO_OWNER = "itz-ajinkya";
-const REPO_NAME = "Time-table";
-const BRANCH = "main";
-let GH_TOKEN = localStorage.getItem("gh_token");
-let DB = { students: {}, sha: null };
-
-// --- INIT ---
-if(GH_TOKEN) login();
-
-function login() {
-    const t = document.getElementById('gh-token').value || GH_TOKEN;
-    if(!t) return;
-    localStorage.setItem("gh_token", t);
-    GH_TOKEN = t;
-    document.getElementById('login-screen').classList.add('hidden');
-    loadData();
-}
-
-function logout() {
-    localStorage.removeItem("gh_token");
-    location.reload();
-}
-
-// --- CORE: DATA LOADING ---
-async function loadData() {
-    showLoad(true, "Fetching students.js...");
-    try {
-        // 1. Fetch File
-        const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/students.js?ref=${BRANCH}`;
-        const res = await fetch(url, { headers: { Authorization: `token ${GH_TOKEN}` } });
-        
-        if(!res.ok) throw new Error((await res.json()).message || "Auth Failed");
-        
-        const data = await res.json();
-        DB.sha = data.sha;
-        const text = decodeURIComponent(escape(atob(data.content)));
-
-        // 2. PARSE STRATEGY: "BRUTE FORCE JSON"
-        // Ignore variable names. Just find the first { and last }.
-        const firstBrace = text.indexOf('{');
-        const lastBrace = text.lastIndexOf('}');
-
-        if(firstBrace === -1 || lastBrace === -1) {
-            alert("CRITICAL ERROR: No object {...} found in file.\n\nFile Start:\n" + text.substring(0, 100));
-            throw new Error("Invalid File Format");
-        }
-
-        const jsonCandidate = text.substring(firstBrace, lastBrace + 1);
-
-        try {
-            // Try parsing securely
-            DB.students = new Function('return ' + jsonCandidate)();
-        } catch(e) {
-            console.error(e);
-            alert("Parsing Failed. The file content inside { ... } is not valid JS object.");
-        }
-
-        document.getElementById('app').classList.remove('hidden');
-        showLoad(false);
-
-    } catch (e) {
-        showLoad(false);
-        alert("Error: " + e.message);
-        document.getElementById('login-screen').classList.remove('hidden');
-    }
-}
-
-// --- DEBUGGING TOOL ---
-function debugCheckDB() {
-    const keys = Object.keys(DB.students);
-    const count = keys.length;
-    let msg = `Total Students: ${count}\n`;
-    
-    if(count > 0) {
-        msg += `First 3 IDs found in DB:\n`;
-        msg += `1. "${keys[0]}" (Type: ${typeof keys[0]})\n`;
-        if(keys[1]) msg += `2. "${keys[1]}"\n`;
-        if(keys[2]) msg += `3. "${keys[2]}"\n`;
-    } else {
-        msg += "⚠️ DATABASE IS EMPTY!";
-    }
-    document.getElementById('debug-output').innerText = msg;
-}
-
-// --- SEARCH LOGIC ---
-function searchStudent() {
-    const input = document.getElementById('search-input').value.trim();
-    
-    // Fuzzy Search: Compare string vs number
-    const foundKey = Object.keys(DB.students).find(k => k == input); // '==' allows "123" == 123
-
-    if (!foundKey) {
-        alert(`Student "${input}" not found.\n(Click 'Check Database Data' to see valid IDs)`);
-        return;
-    }
-
-    openEditor(foundKey);
-}
-
-// --- EDITOR LOGIC ---
-let EDIT_ID = null;
-
-function openEditor(id) {
-    EDIT_ID = id;
-    const s = DB.students[id];
-    document.getElementById('lbl-mis').innerText = id;
-    document.getElementById('inp-name').value = s.name || "";
-    document.getElementById('course-list').innerHTML = '';
-    
-    (s.cards || []).forEach(addCourseRow);
-    document.getElementById('editor').classList.remove('hidden');
-}
-
-function addCourseRow(data = {}) {
-    const div = document.createElement('div');
-    div.className = 'row';
-    div.innerHTML = `
-        <input placeholder="Subject (e.g. Dsa)" class="sub" value="${data.code || ''}">
-        <input placeholder="Div" class="div" value="${data.div || ''}">
-        <input placeholder="Batch" class="bat" value="${data.batch || ''}">
-        <button class="danger" style="width:auto;" onclick="this.parentElement.remove()">X</button>
-    `;
-    document.getElementById('course-list').appendChild(div);
-}
-
-async function saveChanges() {
-    showLoad(true, "Saving to GitHub...");
-    
-    // 1. Update Memory
-    const name = document.getElementById('inp-name').value;
-    const cards = [];
-    document.querySelectorAll('#course-list .row').forEach(row => {
-        cards.push({
-            code: row.querySelector('.sub').value,
-            div: row.querySelector('.div').value,
-            batch: row.querySelector('.bat').value,
-            name: row.querySelector('.sub').value // Auto-set name = code for now
-        });
-    });
-
-    DB.students[EDIT_ID] = { name, cards };
-
-    // 2. Construct File Content
-    // We rebuild the file cleanly: "const GENERATED_DB = { ... }; export default GENERATED_DB;"
-    const newContent = `const GENERATED_DB = ${JSON.stringify(DB.students, null, 4)};\n\nexport default GENERATED_DB;`;
-    
-    const body = {
-        message: "Update " + EDIT_ID,
-        content: btoa(unescape(encodeURIComponent(newContent))),
-        sha: DB.sha,
-        branch: BRANCH
+    // CONFIGURATION
+    const CONFIG = {
+        owner: "itz-ajinkya",
+        repo: "Time-table",
+        branch: "main",
+        file: "students.js"
     };
 
-    try {
-        const res = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/students.js`, {
-            method: 'PUT',
-            headers: { Authorization: `token ${GH_TOKEN}`, "Content-Type": "application/json" },
-            body: JSON.stringify(body)
-        });
-        
-        if(!res.ok) throw new Error(await res.text());
-        
-        const json = await res.json();
-        DB.sha = json.content.sha;
-        alert("Saved Successfully!");
-        document.getElementById('editor').classList.add('hidden');
-    } catch(e) {
-        alert("Save Failed: " + e.message);
-    }
-    showLoad(false);
-}
+    let STATE = {
+        token: localStorage.getItem("gh_token"),
+        sha: null,
+        data: {},
+        currentMis: null
+    };
 
-function showLoad(show, msg) {
-    const el = document.getElementById('loading');
-    el.style.display = show ? 'flex' : 'none';
-    if(msg) document.getElementById('loading-msg').innerText = msg;
-}
+    // --- INITIALIZATION ---
+    if (STATE.token) {
+        document.getElementById('gh-token').value = STATE.token;
+        attemptLogin();
+    }
+
+    // --- CORE FUNCTIONS ---
+
+    async function attemptLogin() {
+        const token = document.getElementById('gh-token').value.trim();
+        if (!token) return alert("Please enter a token!");
+        
+        localStorage.setItem("gh_token", token);
+        STATE.token = token;
+        
+        toggleLoading(true, "Fetching Database...");
+        document.getElementById('login-panel').classList.add('hidden');
+        
+        try {
+            await loadData();
+            // If successful:
+            document.getElementById('dashboard').classList.remove('hidden');
+            document.getElementById('repair-panel').classList.add('hidden');
+        } catch (e) {
+            console.error(e);
+            // If load fails, show REPAIR PANEL
+            document.getElementById('dashboard').classList.add('hidden');
+            document.getElementById('repair-panel').classList.remove('hidden');
+            document.getElementById('error-details').innerText = e.message;
+        } finally {
+            toggleLoading(false);
+        }
+    }
+
+    async function loadData() {
+        const url = `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/contents/${CONFIG.file}?ref=${CONFIG.branch}`;
+        
+        const res = await fetch(url, { headers: { Authorization: `token ${STATE.token}` } });
+        if (!res.ok) {
+            if(res.status === 404) throw new Error("File students.js not found in repo.");
+            if(res.status === 401) { logout(); throw new Error("Invalid Token."); }
+            throw new Error(`GitHub Error: ${res.status}`);
+        }
+
+        const json = await res.json();
+        STATE.sha = json.sha;
+        
+        // 1. DECODE CONTENT
+        const rawText = decodeURIComponent(escape(atob(json.content.replace(/\s/g, ''))));
+        
+        // 2. CHECK IF EMPTY
+        if (!rawText || rawText.trim().length === 0) {
+            throw new Error("File is EMPTY. Needs repair.");
+        }
+
+        // 3. PARSE (Find first '{' and last '}')
+        const first = rawText.indexOf('{');
+        const last = rawText.lastIndexOf('}');
+        
+        if (first === -1 || last === -1) {
+            throw new Error(`Corrupted Data: No JSON object found.\nFile starts with: ${rawText.substring(0,20)}...`);
+        }
+
+        try {
+            const jsonString = rawText.substring(first, last + 1);
+            STATE.data = new Function(`return ${jsonString}`)();
+            console.log("Loaded Students:", Object.keys(STATE.data).length);
+        } catch (parseErr) {
+            throw new Error("Syntax Error in students.js data.");
+        }
+    }
+
+    // --- REPAIR SYSTEM ---
+    async function runRepair() {
+        if(!confirm("Are you sure? This will OVERWRITE students.js with a fresh blank database.")) return;
+        
+        toggleLoading(true, "Repairing Database...");
+        
+        // Default clean database
+        const freshData = {
+            "111111111": { 
+                "name": "Test Student", 
+                "cards": [ { "code": "TestSub", "div": "1", "batch": "A1" } ] 
+            }
+        };
+
+        const fileContent = `const GENERATED_DB = ${JSON.stringify(freshData, null, 4)};\n\nexport default GENERATED_DB;`;
+        const encoded = btoa(unescape(encodeURIComponent(fileContent)));
+
+        try {
+            const body = {
+                message: "Repair corrupted database",
+                content: encoded,
+                branch: CONFIG.branch
+            };
+            // If we have a SHA (even if file was empty), use it. If not, don't send it (might be creating new).
+            if(STATE.sha) body.sha = STATE.sha;
+
+            const res = await fetch(`https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/contents/${CONFIG.file}`, {
+                method: 'PUT',
+                headers: { 
+                    Authorization: `token ${STATE.token}`,
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(body)
+            });
+
+            if(!res.ok) throw new Error(await res.text());
+            
+            alert("✅ Repair Successful! The page will now reload.");
+            location.reload();
+
+        } catch (e) {
+            alert("Repair Failed: " + e.message);
+        } finally {
+            toggleLoading(false);
+        }
+    }
+
+    // --- APP LOGIC ---
+
+    function searchStudent() {
+        const query = document.getElementById('search-mis').value.trim();
+        if(!query) return;
+
+        // FUZZY SEARCH (String vs Number safe)
+        const foundID = Object.keys(STATE.data).find(k => k == query);
+
+        if (foundID) {
+            openEditor(foundID);
+        } else {
+            alert("Student not found!");
+        }
+    }
+
+    function openEditor(mis) {
+        STATE.currentMis = mis;
+        const student = STATE.data[mis];
+        
+        document.getElementById('editor-panel').classList.remove('hidden');
+        document.getElementById('lbl-mis').innerText = mis;
+        document.getElementById('inp-name').value = student.name || "";
+        
+        const list = document.getElementById('course-list');
+        list.innerHTML = "";
+        
+        if(student.cards && Array.isArray(student.cards)) {
+            student.cards.forEach(card => addSubjectRow(card));
+        }
+    }
+
+    function addSubjectRow(data = {}) {
+        const div = document.createElement('div');
+        div.className = "row";
+        div.style.marginBottom = "5px";
+        div.innerHTML = `
+            <input placeholder="Subject" class="sub" value="${data.code || ''}" style="flex:2">
+            <input placeholder="Div" class="div" value="${data.div || ''}" style="flex:1">
+            <input placeholder="Batch" class="bat" value="${data.batch || ''}" style="flex:1">
+            <button class="btn-danger" style="width:auto; padding:10px;" onclick="this.parentElement.remove()">X</button>
+        `;
+        document.getElementById('course-list').appendChild(div);
+    }
+
+    async function saveChanges() {
+        if(!STATE.currentMis) return;
+        
+        toggleLoading(true, "Saving to GitHub...");
+        
+        // 1. Update Local Data
+        const newCards = [];
+        document.querySelectorAll('#course-list .row').forEach(row => {
+            const code = row.querySelector('.sub').value.trim();
+            if(code) {
+                newCards.push({
+                    code: code,
+                    name: code, // Assuming name = code for now
+                    div: row.querySelector('.div').value.trim(),
+                    batch: row.querySelector('.bat').value.trim()
+                });
+            }
+        });
+
+        STATE.data[STATE.currentMis].name = document.getElementById('inp-name').value.trim();
+        STATE.data[STATE.currentMis].cards = newCards;
+
+        // 2. Prepare File
+        const content = `const GENERATED_DB = ${JSON.stringify(STATE.data, null, 4)};\n\nexport default GENERATED_DB;`;
+        const encoded = btoa(unescape(encodeURIComponent(content)));
+
+        try {
+            const res = await fetch(`https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/contents/${CONFIG.file}`, {
+                method: 'PUT',
+                headers: { Authorization: `token ${STATE.token}`, "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    message: `Update student ${STATE.currentMis}`,
+                    content: encoded,
+                    sha: STATE.sha,
+                    branch: CONFIG.branch
+                })
+            });
+
+            if(!res.ok) throw new Error(await res.text());
+            
+            const json = await res.json();
+            STATE.sha = json.content.sha; // Update SHA
+            alert("Saved Successfully!");
+            closeEditor();
+
+        } catch (e) {
+            alert("Save Failed: " + e.message);
+        } finally {
+            toggleLoading(false);
+        }
+    }
+
+    function closeEditor() {
+        document.getElementById('editor-panel').classList.add('hidden');
+        STATE.currentMis = null;
+    }
+
+    function logout() {
+        localStorage.removeItem("gh_token");
+        location.reload();
+    }
+
+    function toggleLoading(show, msg) {
+        document.getElementById('loading-overlay').style.display = show ? 'flex' : 'none';
+        if(msg) document.getElementById('loading-text').innerText = msg;
+    }
 </script>
+
 </body>
 </html>
