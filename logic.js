@@ -3226,6 +3226,4 @@ function addToSchedule(schedule, timeKey, entry) {
     }
 }
 
-const ACTIVE_NOTES = [
-    "hi"
-];
+const ACTIVE_NOTES = [];
