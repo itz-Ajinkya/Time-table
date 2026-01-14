@@ -3227,5 +3227,6 @@ function addToSchedule(schedule, timeKey, entry) {
 }
 
 const ACTIVE_NOTES = [
-    "Those who have done a subject change, the timetable will be correct once your division and batch are allotted."
+    "Those who have done a subject change, the timetable will be correct once your division and batch are allotted.",
+    "HI"
 ];
