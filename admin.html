@@ -385,18 +385,25 @@
             SHA_STUDENTS = sData.sha;
             const sText = decodeURIComponent(escape(atob(sData.content)));
             // Extract JSON from JS file
-            const sMatch = sText.match(/const GENERATED_DB = ([\s\S]*?);/);
-            DATA.students = sMatch ? JSON.parse(sMatch[1]) : {};
+            
+            // Improved Regex to handle whitespace and potential missing semicolon
+            let sMatch = sText.match(/const\s+GENERATED_DB\s*=\s*([\s\S]*?);/);
+            if (!sMatch) sMatch = sText.match(/const\s+GENERATED_DB\s*=\s*([\s\S]*)/); // Fallback to EOF
+
+            try {
+                if (sMatch) DATA.students = JSON.parse(sMatch[1].trim().replace(/;$/, ''));
+                else DATA.students = {};
+            } catch(e) { console.error("Error parsing students.js", e); DATA.students = {}; }
 
             // 2. Load Logic.js
             const lData = await ghRequest('logic.js');
             SHA_LOGIC = lData.sha;
             const lText = decodeURIComponent(escape(atob(lData.content)));
             
-            const schedMatch = lText.match(/const MASTER_SCHEDULE = ([\s\S]*?);/);
+            const schedMatch = lText.match(/const\s+MASTER_SCHEDULE\s*=\s*([\s\S]*?);/);
             DATA.schedule = schedMatch ? JSON.parse(schedMatch[1]) : {};
 
-            const notesMatch = lText.match(/const ACTIVE_NOTES = ([\s\S]*?);/);
+            const notesMatch = lText.match(/const\s+ACTIVE_NOTES\s*=\s*([\s\S]*?);/);
             DATA.notes = notesMatch ? JSON.parse(notesMatch[1]) : [];
 
             // 3. Extract Subjects from Student Data (since we don't have backend.py)
@@ -427,7 +434,7 @@
             mis = "6125" + mis;
         }
         if (!DATA.students[mis]) {
-            alert("Student not found!");
+            alert(`Student not found! (Searched MIS: ${mis})\nEnsure students.js is loaded correctly.`);
             return;
         }
         EDIT_MIS = mis;
