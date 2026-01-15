@@ -189,7 +189,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -274,8 +274,8 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "PP",
-        "name": "Python Programming",
+        "code": "MPFL",
+        "name": "Mfg Practices & FabLab",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -509,7 +509,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -532,10 +532,10 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "WD",
-        "name": "Web Design",
+        "code": "PP",
+        "name": "Python Programming",
         "div": "Div 1",
-        "batch": "B2"
+        "batch": "B1"
       }
     ],
     "schedule": {}
@@ -638,7 +638,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -1025,7 +1025,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -1048,8 +1048,8 @@ const GENERATED_DB = {
         "batch": "B1"
       },
       {
-        "code": "PP",
-        "name": "Python Programming",
+        "code": "MPFL",
+        "name": "Mfg Practices & FabLab",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -1111,7 +1111,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -1134,8 +1134,8 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "FCP",
-        "name": "Fund Const Practices",
+        "code": "EVA",
+        "name": "EV Architecture",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -1220,10 +1220,10 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "WD",
-        "name": "Web Design",
+        "code": "MPFL",
+        "name": "Mfg Practices & FabLab",
         "div": "Div 1",
-        "batch": "B2"
+        "batch": "B1"
       }
     ],
     "schedule": {}
@@ -1455,7 +1455,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -1951,8 +1951,8 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "RDOS",
-        "name": "Robotics & Drone Safe",
+        "code": "GE",
+        "name": "Geomatic Engg",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -2014,7 +2014,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -2425,7 +2425,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -2616,7 +2616,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -3585,8 +3585,8 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "GE",
-        "name": "Geomatic Engg",
+        "code": "MPFL",
+        "name": "Mfg Practices & FabLab",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -4059,7 +4059,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -4101,10 +4101,10 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "EW",
-        "name": "Unknown",
+        "code": "FCP",
+        "name": "Fund Const Practices",
         "div": "Div 1",
-        "batch": "B2"
+        "batch": "B1"
       }
     ],
     "schedule": {}
@@ -4144,10 +4144,10 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "WD",
-        "name": "Web Design",
+        "code": "MPFL",
+        "name": "Mfg Practices & FabLab",
         "div": "Div 1",
-        "batch": "B2"
+        "batch": "B1"
       }
     ],
     "schedule": {}
@@ -5220,7 +5220,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -5706,7 +5706,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -5878,7 +5878,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -6007,7 +6007,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -6030,8 +6030,8 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "FCP",
-        "name": "Fund Const Practices",
+        "code": "CAD",
+        "name": "CAD Drafting",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -6093,7 +6093,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -6363,7 +6363,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -6405,8 +6405,8 @@ const GENERATED_DB = {
         "batch": "B1"
       },
       {
-        "code": "GE",
-        "name": "Geomatic Engg",
+        "code": "CAD",
+        "name": "CAD Drafting",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -6706,8 +6706,8 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "WD",
-        "name": "Web Design",
+        "code": "MPFL",
+        "name": "Mfg Practices & FabLab",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -6812,7 +6812,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -6898,7 +6898,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -7474,10 +7474,10 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "EVA",
-        "name": "EV Architecture",
+        "code": "FCP",
+        "name": "Fund Const Practices",
         "div": "Div 1",
-        "batch": "B2"
+        "batch": "B1"
       }
     ],
     "schedule": {}
@@ -7604,7 +7604,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -7690,7 +7690,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -7758,7 +7758,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -7801,7 +7801,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -7844,7 +7844,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -7887,7 +7887,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -7930,7 +7930,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -7973,7 +7973,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -7991,7 +7991,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -8016,7 +8016,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8059,7 +8059,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8077,7 +8077,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -8102,7 +8102,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8145,7 +8145,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8188,7 +8188,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8206,7 +8206,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -8231,7 +8231,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8249,7 +8249,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -8274,7 +8274,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8317,7 +8317,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8360,7 +8360,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8403,7 +8403,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8446,7 +8446,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8464,7 +8464,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -8489,7 +8489,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8532,7 +8532,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8575,7 +8575,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8618,7 +8618,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8661,7 +8661,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8679,7 +8679,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -8704,7 +8704,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8747,7 +8747,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -8790,7 +8790,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -8833,7 +8833,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -8876,7 +8876,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -8919,7 +8919,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -8937,7 +8937,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -8962,7 +8962,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9005,7 +9005,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9048,7 +9048,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9091,7 +9091,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9134,7 +9134,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9177,7 +9177,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9220,7 +9220,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9263,7 +9263,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9306,7 +9306,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9349,7 +9349,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9392,7 +9392,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9435,7 +9435,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9478,7 +9478,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9496,7 +9496,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -9521,7 +9521,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9564,7 +9564,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9607,7 +9607,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9650,7 +9650,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9693,7 +9693,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9736,7 +9736,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9773,13 +9773,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -9822,7 +9822,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -9840,7 +9840,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -9865,7 +9865,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -9908,7 +9908,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -9951,7 +9951,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -9994,7 +9994,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10037,7 +10037,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10080,7 +10080,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10123,7 +10123,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10166,7 +10166,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10209,7 +10209,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10252,7 +10252,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10295,7 +10295,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10338,7 +10338,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10381,7 +10381,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10399,7 +10399,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -10424,7 +10424,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10442,7 +10442,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -10467,7 +10467,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10522,7 +10522,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -10547,7 +10547,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10590,7 +10590,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10633,7 +10633,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10651,7 +10651,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -10676,7 +10676,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10694,7 +10694,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -10719,7 +10719,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10737,7 +10737,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -10762,7 +10762,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10805,7 +10805,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -10848,7 +10848,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -10891,7 +10891,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -10909,7 +10909,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -10934,7 +10934,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -10977,7 +10977,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -10995,7 +10995,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -11020,7 +11020,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11063,7 +11063,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11106,7 +11106,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11149,7 +11149,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11192,7 +11192,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11210,7 +11210,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -11235,7 +11235,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11253,7 +11253,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -11278,7 +11278,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11321,7 +11321,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11364,7 +11364,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11382,7 +11382,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -11407,7 +11407,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11450,7 +11450,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11493,7 +11493,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11536,7 +11536,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11579,7 +11579,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11597,7 +11597,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -11622,7 +11622,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11665,7 +11665,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11708,7 +11708,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11751,7 +11751,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11769,7 +11769,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -11794,7 +11794,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -11837,7 +11837,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -11880,7 +11880,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -11898,7 +11898,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -11923,7 +11923,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -11966,7 +11966,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -11984,7 +11984,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -12009,7 +12009,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12052,7 +12052,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12070,7 +12070,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -12095,7 +12095,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12138,7 +12138,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12181,7 +12181,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12224,7 +12224,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12267,7 +12267,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12285,7 +12285,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -12310,7 +12310,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12353,7 +12353,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12371,7 +12371,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -12396,7 +12396,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12414,7 +12414,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -12439,7 +12439,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12482,7 +12482,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12500,7 +12500,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -12525,7 +12525,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12568,7 +12568,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12611,7 +12611,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12654,7 +12654,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12672,7 +12672,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -12697,7 +12697,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -12715,7 +12715,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -12740,7 +12740,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -12758,7 +12758,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -12783,7 +12783,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -12826,7 +12826,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -12844,7 +12844,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -12869,7 +12869,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -12906,13 +12906,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -12955,7 +12955,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -12973,7 +12973,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -12998,7 +12998,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -13041,7 +13041,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -13084,7 +13084,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -13127,7 +13127,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -13170,7 +13170,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -13213,7 +13213,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -13231,7 +13231,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -13256,7 +13256,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -13299,7 +13299,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -13342,7 +13342,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -13385,7 +13385,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -13428,7 +13428,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -13471,7 +13471,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -13489,7 +13489,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -13514,7 +13514,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -13557,7 +13557,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -13600,7 +13600,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -13618,7 +13618,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -13643,7 +13643,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -13686,7 +13686,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -13723,13 +13723,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -13772,7 +13772,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -13815,7 +13815,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -13833,7 +13833,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -13858,7 +13858,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -13901,7 +13901,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -13944,7 +13944,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -13987,7 +13987,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -14005,7 +14005,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -14030,7 +14030,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -14048,7 +14048,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -14073,7 +14073,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -14116,7 +14116,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -14134,7 +14134,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -14159,7 +14159,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -14202,7 +14202,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -14220,7 +14220,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -14245,7 +14245,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -14288,7 +14288,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -14331,7 +14331,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -14374,7 +14374,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -14417,7 +14417,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -14435,7 +14435,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -14460,7 +14460,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -14503,7 +14503,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -14521,7 +14521,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -14540,7 +14540,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -14577,7 +14577,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -14595,7 +14595,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -14620,7 +14620,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -14663,7 +14663,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -14681,7 +14681,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -14706,7 +14706,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -14749,7 +14749,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -14767,7 +14767,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -14792,7 +14792,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -14835,7 +14835,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -14853,7 +14853,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -14878,7 +14878,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -14921,7 +14921,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -14964,7 +14964,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -15007,7 +15007,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -15050,7 +15050,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -15068,7 +15068,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -15093,7 +15093,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -15136,7 +15136,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -15179,7 +15179,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -15197,7 +15197,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -15222,7 +15222,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -15265,7 +15265,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -15308,7 +15308,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -15326,7 +15326,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -15351,7 +15351,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -15369,7 +15369,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -15394,7 +15394,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EEMI",
-        "name": "Elec & Elec Meas",
+        "name": "EEMI",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -15437,7 +15437,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -15480,7 +15480,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -15560,7 +15560,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -15603,7 +15603,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -15646,7 +15646,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -15689,7 +15689,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -15732,7 +15732,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -15775,7 +15775,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -15818,7 +15818,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -15861,7 +15861,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -15904,7 +15904,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -15947,7 +15947,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -15965,7 +15965,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -15990,7 +15990,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -16033,7 +16033,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -16076,7 +16076,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -16119,7 +16119,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -16162,7 +16162,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -16205,7 +16205,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -16248,7 +16248,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -16328,7 +16328,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -16371,7 +16371,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -16414,7 +16414,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -16457,7 +16457,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -16500,7 +16500,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -16543,7 +16543,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -16586,7 +16586,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -16629,7 +16629,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -16672,7 +16672,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -16715,7 +16715,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -16758,7 +16758,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -16801,7 +16801,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -16844,7 +16844,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -16887,7 +16887,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -16930,7 +16930,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -16973,7 +16973,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -17016,7 +17016,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -17059,7 +17059,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -17102,7 +17102,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -17145,7 +17145,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -17188,7 +17188,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -17231,7 +17231,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -17274,7 +17274,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -17317,7 +17317,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -17360,7 +17360,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -17403,7 +17403,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -17446,7 +17446,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -17489,7 +17489,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -17532,7 +17532,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -17575,7 +17575,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -17618,7 +17618,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -17661,7 +17661,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -17704,7 +17704,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -17747,7 +17747,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -17790,7 +17790,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -17808,7 +17808,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -17833,7 +17833,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -17876,7 +17876,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -17919,7 +17919,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -17962,7 +17962,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18005,7 +18005,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18048,7 +18048,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18103,7 +18103,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -18128,7 +18128,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18171,7 +18171,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18214,7 +18214,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18257,7 +18257,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18300,7 +18300,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18343,7 +18343,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18386,7 +18386,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18429,7 +18429,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18472,7 +18472,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18515,7 +18515,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18558,7 +18558,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18601,7 +18601,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18644,7 +18644,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18687,7 +18687,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -18730,7 +18730,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -18773,7 +18773,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -18816,7 +18816,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -18859,7 +18859,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -18902,7 +18902,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -18945,7 +18945,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -18988,7 +18988,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19031,7 +19031,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19074,7 +19074,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19117,7 +19117,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19160,7 +19160,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19203,7 +19203,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19246,7 +19246,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19289,7 +19289,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19332,7 +19332,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19375,7 +19375,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19418,7 +19418,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19461,7 +19461,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19504,7 +19504,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19547,7 +19547,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19590,7 +19590,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19633,7 +19633,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -19676,7 +19676,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -19719,7 +19719,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -19762,7 +19762,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -19805,7 +19805,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -19848,7 +19848,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -19891,7 +19891,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -19934,7 +19934,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -19977,7 +19977,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -20020,7 +20020,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -20063,7 +20063,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -20081,7 +20081,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -20106,7 +20106,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -20149,7 +20149,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -20192,7 +20192,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -20235,7 +20235,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -20278,7 +20278,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -20321,7 +20321,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -20364,7 +20364,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -20407,7 +20407,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -20450,7 +20450,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -20493,7 +20493,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -20536,7 +20536,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -20579,7 +20579,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -20622,7 +20622,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -20702,7 +20702,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -20739,13 +20739,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -20788,7 +20788,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -20831,7 +20831,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -20874,7 +20874,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -20917,7 +20917,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -20960,7 +20960,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -21003,7 +21003,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -21046,7 +21046,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -21089,7 +21089,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -21132,7 +21132,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -21175,7 +21175,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -21212,13 +21212,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -21261,7 +21261,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -21304,7 +21304,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -21347,7 +21347,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -21390,7 +21390,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -21427,13 +21427,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -21476,7 +21476,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -21556,7 +21556,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -21599,7 +21599,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -21642,7 +21642,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -21685,7 +21685,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -21728,7 +21728,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -21771,7 +21771,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -21814,7 +21814,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -21857,7 +21857,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -21900,7 +21900,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -21943,7 +21943,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -21986,7 +21986,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -22029,7 +22029,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -22072,7 +22072,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -22115,7 +22115,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -22158,7 +22158,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -22201,7 +22201,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -22244,7 +22244,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -22287,7 +22287,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -22330,7 +22330,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -22373,7 +22373,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -22416,7 +22416,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -22459,7 +22459,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -22502,7 +22502,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -22545,7 +22545,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -22588,7 +22588,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -22631,7 +22631,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -22674,7 +22674,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -22717,7 +22717,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -22735,7 +22735,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -22760,7 +22760,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -22797,13 +22797,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -22846,7 +22846,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -22889,7 +22889,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -22906,9 +22906,9 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "WD",
-        "name": "Web Design",
-        "div": "Div 2",
+        "code": "DPI",
+        "name": "Digital Public Infra",
+        "div": "Div 1",
         "batch": "B2"
       }
     ],
@@ -22932,7 +22932,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -22975,7 +22975,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -23018,7 +23018,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -23061,7 +23061,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -23104,7 +23104,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -23147,7 +23147,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -23190,7 +23190,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -23233,7 +23233,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -23276,7 +23276,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -23319,7 +23319,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -23362,7 +23362,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -23405,7 +23405,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FEET",
-        "name": "Foundations Elec & ET",
+        "name": "FEET",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -23448,7 +23448,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -23491,7 +23491,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -23534,7 +23534,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -23577,7 +23577,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -23620,7 +23620,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -23663,7 +23663,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -23706,7 +23706,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -23749,7 +23749,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -23792,7 +23792,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -23835,7 +23835,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -23878,7 +23878,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -23921,7 +23921,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -23964,7 +23964,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -24007,7 +24007,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -24050,7 +24050,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -24093,7 +24093,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -24136,7 +24136,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -24179,7 +24179,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24222,7 +24222,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24265,7 +24265,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24308,7 +24308,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24351,7 +24351,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24394,7 +24394,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24437,7 +24437,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24480,7 +24480,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24523,7 +24523,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24566,7 +24566,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24609,7 +24609,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24652,7 +24652,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24732,7 +24732,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24775,7 +24775,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24818,7 +24818,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24861,7 +24861,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24904,7 +24904,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -24947,7 +24947,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -24965,7 +24965,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -24990,7 +24990,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25033,7 +25033,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25076,7 +25076,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25119,7 +25119,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25162,7 +25162,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25205,7 +25205,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25248,7 +25248,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25291,7 +25291,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25334,7 +25334,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25377,7 +25377,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25420,7 +25420,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25438,7 +25438,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -25463,7 +25463,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25506,7 +25506,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25549,7 +25549,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25592,7 +25592,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25635,7 +25635,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -25715,7 +25715,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -25758,7 +25758,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -25801,7 +25801,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -25819,7 +25819,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -25844,7 +25844,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -25887,7 +25887,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -25930,7 +25930,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -25973,7 +25973,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -26016,7 +26016,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -26059,7 +26059,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -26102,7 +26102,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -26145,7 +26145,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -26188,7 +26188,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -26206,7 +26206,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 2",
         "batch": "B1"
       }
@@ -26231,7 +26231,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -26268,13 +26268,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -26317,7 +26317,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -26335,7 +26335,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EVA",
-        "name": "EVAitecture",
+        "name": "EV Architecture",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -26360,7 +26360,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -26403,7 +26403,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -26446,7 +26446,7 @@ const GENERATED_DB = {
       },
       {
         "code": "BMS",
-        "name": "Basics Meas & Sensor",
+        "name": "BMS",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -26489,7 +26489,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -26532,7 +26532,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -26575,7 +26575,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -26618,7 +26618,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -26661,7 +26661,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -26704,7 +26704,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -26747,7 +26747,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -26790,7 +26790,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -26833,7 +26833,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -26876,7 +26876,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -26919,7 +26919,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -26962,7 +26962,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -27005,7 +27005,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -27048,7 +27048,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -27066,7 +27066,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -27091,7 +27091,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -27128,13 +27128,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -27177,7 +27177,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -27220,7 +27220,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -27263,7 +27263,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -27306,7 +27306,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -27323,10 +27323,10 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "RDOS",
-        "name": "Robotics & Drone Safe",
+        "code": "MPFL",
+        "name": "Mfg Practices & FabLab",
         "div": "Div 1",
-        "batch": "B2"
+        "batch": "B1"
       }
     ],
     "schedule": {}
@@ -27349,7 +27349,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -27392,7 +27392,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -27435,7 +27435,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -27478,7 +27478,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -27521,7 +27521,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -27564,7 +27564,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -27607,7 +27607,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -27650,7 +27650,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -27693,7 +27693,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -27736,7 +27736,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -27779,7 +27779,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -27822,7 +27822,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -27865,7 +27865,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -27908,7 +27908,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -27951,7 +27951,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -27968,10 +27968,10 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "EVA",
-        "name": "EV Architecture",
-        "div": "Div 1",
-        "batch": "B1"
+        "code": "PP",
+        "name": "Python Programming",
+        "div": "Div 3",
+        "batch": "B2"
       }
     ],
     "schedule": {}
@@ -27994,7 +27994,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -28037,7 +28037,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -28080,7 +28080,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -28123,7 +28123,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -28166,7 +28166,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -28209,7 +28209,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -28252,7 +28252,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -28295,7 +28295,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -28338,7 +28338,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -28381,7 +28381,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -28424,7 +28424,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -28467,7 +28467,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -28510,7 +28510,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -28553,7 +28553,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -28596,7 +28596,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -28639,7 +28639,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -28682,7 +28682,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -28725,7 +28725,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -28768,7 +28768,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -28811,7 +28811,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -28854,7 +28854,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -28897,7 +28897,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -28940,7 +28940,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -28983,7 +28983,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -29026,7 +29026,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -29069,7 +29069,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -29112,7 +29112,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -29155,7 +29155,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -29198,7 +29198,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -29241,7 +29241,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -29284,7 +29284,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -29327,7 +29327,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -29370,7 +29370,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -29413,7 +29413,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -29456,7 +29456,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -29499,7 +29499,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -29542,7 +29542,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -29585,7 +29585,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -29603,7 +29603,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -29628,7 +29628,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -29671,7 +29671,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -29714,7 +29714,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -29757,7 +29757,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -29800,7 +29800,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -29843,7 +29843,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -29886,7 +29886,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -29929,7 +29929,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -29966,13 +29966,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -30015,7 +30015,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -30058,7 +30058,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -30138,7 +30138,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -30181,7 +30181,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -30218,13 +30218,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -30241,8 +30241,8 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "CAD",
-        "name": "CAD Drafting",
+        "code": "MPFL",
+        "name": "Mfg Practices & FabLab",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -30267,7 +30267,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -30310,7 +30310,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -30353,7 +30353,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -30396,7 +30396,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -30439,7 +30439,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -30482,7 +30482,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -30525,7 +30525,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -30568,7 +30568,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -30611,7 +30611,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -30654,7 +30654,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -30672,7 +30672,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -30697,7 +30697,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -30740,7 +30740,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -30783,7 +30783,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -30826,7 +30826,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -30869,7 +30869,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -30912,7 +30912,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -30955,7 +30955,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -30998,7 +30998,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -31041,7 +31041,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -31084,7 +31084,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -31127,7 +31127,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -31153,7 +31153,7 @@ const GENERATED_DB = {
     "schedule": {}
   },
   "612510114": {
-    "name": "Student",
+    "name": "JAY SUNIL VARHADE",
     "info": "MIS: 612510114",
     "cards": [
       {
@@ -31181,8 +31181,8 @@ const GENERATED_DB = {
         "batch": "B2"
       },
       {
-        "code": "EVA",
-        "name": "EV Architecture",
+        "code": "MPFL",
+        "name": "Mfg Practices & FabLab",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -31207,7 +31207,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -31250,7 +31250,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -31268,7 +31268,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -31293,7 +31293,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -31336,7 +31336,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -31379,7 +31379,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -31422,7 +31422,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -31465,7 +31465,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -31508,7 +31508,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -31551,7 +31551,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B1"
       },
@@ -31594,7 +31594,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -31637,7 +31637,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -31680,7 +31680,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -31723,7 +31723,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -31791,7 +31791,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -31834,7 +31834,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -31877,7 +31877,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -31920,7 +31920,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -31963,7 +31963,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -32006,7 +32006,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -32049,7 +32049,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -32092,7 +32092,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -32135,7 +32135,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -32178,7 +32178,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -32215,13 +32215,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -32264,7 +32264,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -32282,7 +32282,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -32307,7 +32307,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -32350,7 +32350,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -32368,7 +32368,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -32393,7 +32393,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -32430,13 +32430,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -32479,7 +32479,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -32522,7 +32522,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B2"
       },
@@ -32565,7 +32565,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -32608,7 +32608,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -32651,7 +32651,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -32694,7 +32694,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -32731,13 +32731,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -32780,7 +32780,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -32823,7 +32823,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -32866,7 +32866,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -32909,7 +32909,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -32946,13 +32946,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -32995,7 +32995,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -33038,7 +33038,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -33081,7 +33081,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -33124,7 +33124,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -33167,7 +33167,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -33210,7 +33210,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -33253,7 +33253,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -33296,7 +33296,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -33339,7 +33339,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -33382,7 +33382,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -33399,10 +33399,10 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "RDOS",
-        "name": "Robotics & Drone Safe",
+        "code": "MPFL",
+        "name": "Mfg Practices & FabLab",
         "div": "Div 1",
-        "batch": "B4"
+        "batch": "B2"
       }
     ],
     "schedule": {}
@@ -33425,7 +33425,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B3"
       },
@@ -33468,7 +33468,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -33511,7 +33511,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -33554,7 +33554,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -33634,7 +33634,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -33677,7 +33677,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -33720,7 +33720,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -33763,7 +33763,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -33806,7 +33806,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -33849,7 +33849,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -33892,7 +33892,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -33935,7 +33935,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -33978,7 +33978,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -34015,13 +34015,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -34064,7 +34064,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -34101,13 +34101,13 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -34125,7 +34125,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EVA",
-        "name": "EVAitecture",
+        "name": "EV Architecture",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -34150,7 +34150,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -34193,7 +34193,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -34236,7 +34236,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -34279,7 +34279,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -34322,7 +34322,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -34365,7 +34365,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CA Engg & Drawing",
+        "name": "CAED",
         "div": "Div 2",
         "batch": "B4"
       },
@@ -34408,7 +34408,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -34451,7 +34451,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -34494,7 +34494,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -34537,7 +34537,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -34580,7 +34580,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -34623,7 +34623,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -34666,7 +34666,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -34709,7 +34709,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -34752,7 +34752,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -34769,8 +34769,8 @@ const GENERATED_DB = {
         "batch": "B2"
       },
       {
-        "code": "FCP",
-        "name": "Fund Const Practices",
+        "code": "EVA",
+        "name": "EV Architecture",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -34795,7 +34795,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -34838,7 +34838,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -34881,7 +34881,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -34924,7 +34924,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -34967,7 +34967,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -35010,7 +35010,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -35028,7 +35028,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -35053,7 +35053,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -35090,7 +35090,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -35127,7 +35127,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -35170,7 +35170,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -35213,7 +35213,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -35256,7 +35256,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -35299,7 +35299,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -35342,7 +35342,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -35385,7 +35385,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -35428,7 +35428,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -35471,7 +35471,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -35514,7 +35514,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -35557,7 +35557,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -35600,7 +35600,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -35643,7 +35643,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -35686,7 +35686,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -35729,7 +35729,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -35747,7 +35747,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -35772,7 +35772,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -35815,7 +35815,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -35858,7 +35858,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -35901,7 +35901,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -35944,7 +35944,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -35987,7 +35987,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -36030,7 +36030,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -36073,7 +36073,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -36116,7 +36116,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -36159,7 +36159,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -36202,7 +36202,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -36245,7 +36245,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -36288,7 +36288,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -36331,7 +36331,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -36374,7 +36374,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -36417,7 +36417,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -36460,7 +36460,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -36503,7 +36503,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -36521,7 +36521,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EVA",
-        "name": "EVAitecture",
+        "name": "EV Architecture",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -36546,7 +36546,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -36589,7 +36589,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -36632,7 +36632,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -36675,7 +36675,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -36718,7 +36718,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -36761,7 +36761,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -36804,7 +36804,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -36847,7 +36847,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -36890,7 +36890,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -36970,7 +36970,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -37013,7 +37013,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -37056,7 +37056,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -37099,7 +37099,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -37142,7 +37142,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -37185,7 +37185,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -37228,7 +37228,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -37246,7 +37246,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -37271,7 +37271,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37314,7 +37314,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37332,7 +37332,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -37357,7 +37357,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37375,7 +37375,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -37400,7 +37400,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37443,7 +37443,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37486,7 +37486,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37529,7 +37529,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37572,7 +37572,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37615,7 +37615,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37658,7 +37658,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37701,7 +37701,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37744,7 +37744,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37787,7 +37787,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37805,7 +37805,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -37830,7 +37830,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37873,7 +37873,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37890,8 +37890,8 @@ const GENERATED_DB = {
         "batch": "B4"
       },
       {
-        "code": "FCP",
-        "name": "Fund Const Practices",
+        "code": "MPFL",
+        "name": "Mfg Practices & FabLab",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -37916,7 +37916,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -37959,7 +37959,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -38002,7 +38002,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -38045,7 +38045,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -38088,7 +38088,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -38131,7 +38131,7 @@ const GENERATED_DB = {
       },
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -38162,7 +38162,7 @@ const GENERATED_DB = {
     "cards": [
       {
         "code": "FFR",
-        "name": "Fuel Furnaces & Refrac",
+        "name": "FFR",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -38187,7 +38187,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38230,7 +38230,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38273,7 +38273,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38316,7 +38316,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38359,7 +38359,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38402,7 +38402,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38445,7 +38445,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38488,7 +38488,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38531,7 +38531,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38574,7 +38574,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38617,7 +38617,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38660,7 +38660,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38703,7 +38703,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38746,7 +38746,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38789,7 +38789,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38832,7 +38832,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38849,10 +38849,10 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "RDOS",
-        "name": "Robotics & Drone Safe",
-        "div": "Div 1",
-        "batch": "B1"
+        "code": "PPS",
+        "name": "Prog for Prob Solv",
+        "div": "Div 2",
+        "batch": "B4"
       }
     ],
     "schedule": {}
@@ -38912,7 +38912,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38955,7 +38955,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -38992,7 +38992,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -39029,7 +39029,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -39072,7 +39072,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -39115,7 +39115,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B1"
       },
@@ -39158,7 +39158,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39201,7 +39201,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39244,7 +39244,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39287,7 +39287,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39330,7 +39330,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39373,7 +39373,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39416,7 +39416,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39459,7 +39459,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39502,7 +39502,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39545,7 +39545,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39588,7 +39588,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39631,7 +39631,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39674,7 +39674,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39717,7 +39717,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39760,7 +39760,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39803,7 +39803,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39846,7 +39846,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39889,7 +39889,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39932,7 +39932,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -39975,7 +39975,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -40018,7 +40018,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -40061,7 +40061,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B2"
       },
@@ -40104,7 +40104,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40147,7 +40147,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40190,7 +40190,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40233,7 +40233,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40276,7 +40276,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40319,7 +40319,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40362,7 +40362,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40405,7 +40405,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40448,7 +40448,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40491,7 +40491,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40534,7 +40534,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40577,7 +40577,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40620,7 +40620,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40663,7 +40663,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40681,7 +40681,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B4"
       }
@@ -40706,7 +40706,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40749,7 +40749,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40792,7 +40792,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40835,7 +40835,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40878,7 +40878,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40921,7 +40921,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -40964,7 +40964,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -41044,7 +41044,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41087,7 +41087,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41130,7 +41130,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41173,7 +41173,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41216,7 +41216,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41259,7 +41259,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41302,7 +41302,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41345,7 +41345,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41388,7 +41388,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41431,7 +41431,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41474,7 +41474,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41517,7 +41517,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41535,7 +41535,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -41560,7 +41560,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41603,7 +41603,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41646,7 +41646,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41689,7 +41689,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41732,7 +41732,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41750,7 +41750,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EVA",
-        "name": "EVAitecture",
+        "name": "EV Architecture",
         "div": "Div 1",
         "batch": "B2"
       }
@@ -41775,7 +41775,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41818,7 +41818,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41861,7 +41861,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -41904,7 +41904,7 @@ const GENERATED_DB = {
       },
       {
         "code": "IPSSF",
-        "name": "Intro Prod & Smart Sys",
+        "name": "IPSSF",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -42222,8 +42222,8 @@ const GENERATED_DB = {
         "batch": "B1"
       },
       {
-        "code": "MPFL",
-        "name": "Mfg Practices & FabLab",
+        "code": "EVA",
+        "name": "EV Architecture",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -45178,7 +45178,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -46081,7 +46081,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -46167,7 +46167,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 1",
         "batch": "B1"
       }
@@ -46315,7 +46315,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -47790,7 +47790,7 @@ const GENERATED_DB = {
       {
         "code": "PS",
         "name": "Probability & Stats",
-        "div": "Div 3",
+        "div": "Div 2",
         "batch": "B3"
       },
       {
@@ -50326,7 +50326,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 1",
         "batch": "-"
       }
@@ -51357,10 +51357,10 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "WD",
-        "name": "Web Design",
+        "code": "MPFL",
+        "name": "Mfg Practices & FabLab",
         "div": "Div 1",
-        "batch": "B3"
+        "batch": "B2"
       }
     ],
     "schedule": {}
@@ -52581,7 +52581,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -52753,7 +52753,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -52776,10 +52776,10 @@ const GENERATED_DB = {
         "batch": "B4"
       },
       {
-        "code": "GE",
-        "name": "Geomatic Engg",
-        "div": "Div 1",
-        "batch": "B2"
+        "code": "PP",
+        "name": "Python Programming",
+        "div": "Div 3",
+        "batch": "B3"
       }
     ],
     "schedule": {}
@@ -55652,7 +55652,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 2",
         "batch": "B3"
       }
@@ -56875,7 +56875,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
@@ -56918,7 +56918,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
@@ -57090,7 +57090,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
@@ -57133,7 +57133,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
@@ -57176,7 +57176,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
@@ -57466,7 +57466,7 @@ const GENERATED_DB = {
     "schedule": {}
   },
   "612515364": {
-    "name": "AREEN VALS�NGKAR",
+    "name": "AREEN VALS\ufffdNGKAR",
     "info": "MIS: 612515364",
     "cards": [
       {
@@ -57643,7 +57643,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
@@ -57715,10 +57715,10 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "WD",
-        "name": "Web Design",
-        "div": "Div 2",
-        "batch": "B3"
+        "code": "PP",
+        "name": "Python Programming",
+        "div": "Div 4",
+        "batch": "B1"
       }
     ],
     "schedule": {}
@@ -57950,7 +57950,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
@@ -58079,7 +58079,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
@@ -58146,7 +58146,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 2",
         "batch": "B2"
       }
@@ -58466,7 +58466,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
@@ -59129,7 +59129,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }
@@ -59492,7 +59492,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 2",
         "batch": "-"
       },
@@ -60286,6 +60286,8 @@ const GENERATED_DB = {
     "schedule": {}
   },
   "612572009": {
+    "name": "AJINKYA  PATIL",
+    "info": "MIS: 612572009",
     "cards": [
       {
         "code": "QP",
@@ -60324,8 +60326,6 @@ const GENERATED_DB = {
         "batch": "B1"
       }
     ],
-    "info": "MIS: 612572009",
-    "name": "AJINKYA  PATIL",
     "schedule": {}
   },
   "612572010": {
@@ -60555,7 +60555,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "-"
       },
@@ -62894,10 +62894,10 @@ const GENERATED_DB = {
         "batch": "B4"
       },
       {
-        "code": "RDOS",
-        "name": "Robotics & Drone Safe",
-        "div": "Div 1",
-        "batch": "B3"
+        "code": "PP",
+        "name": "Python Programming",
+        "div": "Div 3",
+        "batch": "B2"
       }
     ],
     "schedule": {}
@@ -63043,7 +63043,7 @@ const GENERATED_DB = {
       },
       {
         "code": "NM",
-        "name": "NM",
+        "name": "Nanomaterials",
         "div": "Div 1",
         "batch": "B3"
       },
@@ -63067,7 +63067,7 @@ const GENERATED_DB = {
       },
       {
         "code": "WD",
-        "name": "WD",
+        "name": "Web Design",
         "div": "Div 1",
         "batch": "-"
       }
@@ -63712,7 +63712,7 @@ const GENERATED_DB = {
       },
       {
         "code": "EW",
-        "name": "Unknown",
+        "name": "EW",
         "div": "Div 1",
         "batch": "B3"
       }

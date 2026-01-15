@@ -5,139 +5,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COEP Admin Portal</title>
     <style>
-        :root {
+        body {
             --bg-color: #f4f4f9;
             --text-color: #333;
             --card-bg: #fff;
             --border-color: #ddd;
             --primary: #007bff;
+            --primary-hover: #0056b3;
             --accent: #6c757d;
+            --danger: #dc3545;
+            --radius: 8px;
+            --font: 'Inter', system-ui, -apple-system, sans-serif;
+            --input-bg: #ffffff;
+            --item-bg: #f8f9fa;
         }
 
         body.dark-mode {
-            --bg-color: #121212;
-            --text-color: #e0e0e0;
-            --card-bg: #1e1e1e;
-            --border-color: #333;
-            --primary: #bb86fc;
-            --accent: #03dac6;
+            --bg-color: #09090b;
+            --text-color: #fafafa;
+            --card-bg: #18181b;
+            --border-color: #27272a;
+            --primary: linear-gradient(135deg, #8b5cf6 0%, #d946ef 100%);
+            --primary-hover: linear-gradient(135deg, #7c3aed 0%, #c026d3 100%);
+            --accent: #3f3f46;
+            --danger: linear-gradient(135deg, #ef4444 0%, #f43f5e 100%);
+            --radius: 16px;
+            --input-bg: #27272a;
+            --item-bg: #27272a;
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: var(--font);
             background-color: var(--bg-color);
             color: var(--text-color);
             margin: 0;
             padding: 20px;
-            transition: background-color 0.3s, color 0.3s;
+            caret-color: transparent;
+            user-select: none;
+            -webkit-user-select: none;
         }
 
         header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            padding: 10px 5px;
         }
 
-        h1 { margin: 0; }
+        h1 { margin: 0; font-weight: 800; letter-spacing: -1px; background: var(--primary); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 2.5rem; }
 
         button {
             cursor: pointer;
-            padding: 8px 16px;
+            padding: 12px 24px;
             border: none;
-            border-radius: 4px;
-            background-color: var(--primary);
+            border-radius: 12px;
+            background: var(--primary);
             color: #fff;
-            font-size: 14px;
-            transition: opacity 0.2s;
+            font-size: 15px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
         }
 
-        button:hover { opacity: 0.9; }
-        button.secondary { background-color: var(--accent); }
+        button:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(139, 92, 246, 0.4); }
+        button:active { transform: scale(0.96); }
+        button.secondary { background: var(--accent); box-shadow: none; }
+        button.danger { background: var(--danger); box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3); }
 
         .toggle-btn {
             background: none;
+            box-shadow: none;
             font-size: 24px;
             padding: 0;
         }
+        .toggle-btn:hover { transform: rotate(15deg); background: none; box-shadow: none; }
 
         .tabs {
             display: flex;
             gap: 10px;
-            margin-bottom: 20px;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 10px;
-        }
-
-        .tab {
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 4px;
-            background-color: var(--card-bg);
+            margin-bottom: 30px;
+            background: var(--card-bg);
+            padding: 8px;
+            border-radius: 20px;
+            width: fit-content;
             border: 1px solid var(--border-color);
         }
 
+        .tab {
+            padding: 10px 25px;
+            cursor: pointer;
+            border-radius: 14px;
+            background-color: transparent;
+            border: none;
+            font-weight: 600;
+            color: #71717a;
+            transition: all 0.3s;
+        }
+
         .tab.active {
-            background-color: var(--primary);
+            background: var(--primary);
             color: #fff;
-            border-color: var(--primary);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
         }
 
         .panel { display: none; }
-        .panel.active { display: block; }
+        .panel.active { display: block; animation: fadeIn 0.4s ease; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
         /* Cards & Layout */
         .card {
             background-color: var(--card-bg);
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
+            padding: 30px;
+            border-radius: var(--radius);
+            border: 1px solid var(--border-color);
+            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.3);
+            margin-bottom: 25px;
         }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        }
+        
+        h3 { margin-top: 0; font-size: 1.5rem; margin-bottom: 20px; }
 
         .row { display: flex; gap: 10px; }
         
         .slot-item {
             display: flex;
             gap: 10px;
-            background: var(--bg-color);
-            padding: 10px;
+            background: var(--item-bg);
+            padding: 12px;
             margin-bottom: 5px;
-            border-radius: 4px;
+            border-radius: 12px;
             align-items: center;
             border: 1px solid var(--border-color);
         }
 
         input, select, textarea {
             width: 100%;
-            padding: 8px;
+            padding: 12px 16px;
             margin: 5px 0 15px;
             border: 1px solid var(--border-color);
-            border-radius: 4px;
-            background-color: var(--bg-color);
+            border-radius: 12px;
+            background-color: var(--input-bg);
             color: var(--text-color);
             box-sizing: border-box;
+            font-size: 15px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            outline: none;
+            caret-color: var(--text-color);
+            user-select: text;
+            -webkit-user-select: text;
         }
+        
+        input:focus, select:focus { border-color: #8b5cf6; box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.2); }
 
         textarea {
             font-family: monospace;
             min-height: 300px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th, td {
-            text-align: left;
-            padding: 12px;
-            border-bottom: 1px solid var(--border-color);
         }
 
         .tag {
@@ -158,20 +180,21 @@
             background-color: rgba(0,0,0,0.5);
             justify-content: center;
             align-items: center;
+            z-index: 1000;
         }
 
         .modal-content {
             background-color: var(--card-bg);
             padding: 20px;
             border-radius: 8px;
-            width: 500px;
+            width: 600px;
             max-width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
         }
 
-        .row { display: flex; gap: 10px; }
-
         .section-pill {
-            background-color: var(--primary);
+            background: var(--primary);
             color: #fff;
             padding: 5px 15px;
             border-radius: 20px;
@@ -180,256 +203,209 @@
             font-weight: 600;
         }
 
-        #loading-overlay {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0,0,0,0.7); z-index: 2000;
-            display: none; justify-content: center; align-items: center;
-            font-size: 1.5rem; color: #fff; flex-direction: column;
-            backdrop-filter: blur(5px);
+        .glass-notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--text-color);
+            padding: 15px 25px;
+            border-radius: 8px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            z-index: 10000;
+            transition: opacity 0.3s, transform 0.3s;
+            opacity: 0;
+            transform: translateY(-20px);
+            pointer-events: none;
+        }
+        .glass-notification.show {
+            opacity: 1;
+            transform: translateY(0);
         }
 
-        #login-screen {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: var(--bg-color); z-index: 3000;
-            display: none; justify-content: center; align-items: center;
-            flex-direction: column;
+        /* Search Box Specifics */
+        .search-box-wrapper {
+            display: flex;
+            gap: 12px;
+            height: 50px; /* Enforce equal height */
         }
-        .login-box {
-            background: var(--card-bg); padding: 30px; border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.2); text-align: center;
-            width: 90%; max-width: 400px; border: 1px solid var(--border-color);
+        .search-box-wrapper input {
+            flex: 1;
+            height: 100%;
+            margin: 0;
+        }
+        .search-box-wrapper button {
+            height: 100%;
+            margin: 0;
+            padding: 0 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .slot-item select, .slot-item input {
+            border-radius: 50px;
+            border: 1px solid rgba(128, 128, 128, 0.3);
         }
     </style>
 </head>
 <body class="dark-mode">
 
-<div id="loading-overlay"><div>⏳ Processing...</div></div>
+<div id="admin-interface">
+    <header>
+        <h1>⚡ Admin Portal</h1>
+        <button class="toggle-btn" onclick="toggleDarkMode()" id="theme-toggle">☀️</button>
+    </header>
 
-<div id="login-screen">
-    <div class="login-box">
-        <h2>Admin Login</h2>
-        <p>Enter GitHub Personal Access Token</p>
-        <input type="password" id="gh-token-input" placeholder="ghp_..." style="margin-bottom: 15px;">
-        <button onclick="saveTokenAndLogin()">Login</button>
+    <div class="tabs">
+        <div class="tab active" onclick="showPanel('students')">🎓 Students</div>
+        <div class="tab" onclick="showPanel('schedule')">📅 Schedule</div>
+        <div class="tab" onclick="showPanel('notes')">📢 Announcements</div>
     </div>
-</div>
 
-<div id="admin-interface" style="display:none;">
-<header>
-    <h1>COEP Admin Portal</h1>
-    <button onclick="logout()" style="margin-right:10px; background-color: #dc3545;">Logout</button>
-    <button class="toggle-btn" onclick="toggleDarkMode()" id="theme-toggle">☀️</button>
-</header>
+    <!-- STUDENTS PANEL -->
+    <div id="students" class="panel active">
+        <div class="card">
+            <h3>🔍 Find Student</h3>
+            <div class="search-box-wrapper">
+                <input type="text" id="mis-input" placeholder="Enter MIS (e.g. 1120...)" onkeydown="if(event.key==='Enter') fetchStudent()">
+                <button onclick="fetchStudent()">Search</button>
+            </div>
+        </div>
 
-<div class="tabs">
-    <div class="tab active" onclick="showPanel('students')">Students</div>
-    <div class="tab" onclick="showPanel('schedule')">Schedule Logic</div>
-    <div class="tab" onclick="showPanel('notes')">Notes</div>
-</div>
-
-<!-- STUDENTS PANEL -->
-<div id="students" class="panel active">
-    <div class="card">
-        <h3>Student Search</h3>
-        <div class="row">
-            <input type="text" id="mis-input" placeholder="Enter MIS" onkeydown="if(event.key==='Enter') fetchStudent()">
-            <button onclick="fetchStudent()">Search</button>
+        <div id="student-editor" class="card" style="display:none;">
+            <h3>✏️ Edit Student</h3>
+            <label>Name</label>
+            <input type="text" id="edit-name">
+            
+            <h4>📚 Subject Allocation</h4>
+            <div id="cards-container"></div>
+            
+            <div class="row" style="margin-top: 30px;">
+                <button onclick="saveStudentChanges()">💾 Save Changes</button>
+                <button class="secondary" onclick="closeStudentEditor()">Cancel</button>
+            </div>
         </div>
     </div>
 
-    <div id="student-editor" class="card" style="display:none;">
-        <h3>Edit Student Info</h3>
-        <label>Name</label>
-        <input type="text" id="edit-name">
-        
-        <h4>Subject Allocation</h4>
-        <div id="cards-container"></div>
-        
-        <button onclick="addEmptyCard()" class="secondary" style="margin-bottom: 15px;">+ Add Subject</button>
-        
-        <div class="row">
-            <button onclick="saveStudentChanges()">Save Student</button>
-            <button class="secondary" onclick="closeStudentEditor()">Cancel</button>
+    <!-- SCHEDULE PANEL -->
+    <div id="schedule" class="panel">
+        <div class="card">
+            <h3>📅 Master Schedule</h3>
+            <div class="row">
+                <select id="sched-sub" onchange="onSchedSubChange()"><option value="">Select Subject</option></select>
+                <select id="sched-div" onchange="onSchedDivChange()"><option value="">Select Division</option></select>
+                <select id="sched-batch" onchange="renderTimetableEditor()"><option value="">Select Batch (Optional)</option></select>
+            </div>
+        </div>
+
+        <div id="timetable-editor" class="card" style="display:none;">
+            <h4 class="section-pill">Lecture</h4>
+            <div id="lecture-bar"></div>
+            
+            <h4 id="lab-header" class="section-pill">Lab</h4>
+            <div id="lab-bar"></div>
+
+            <button onclick="saveScheduleChanges()" style="margin-top:20px;">💾 Save Schedule</button>
+        </div>
+    </div>
+
+    <!-- NOTES PANEL -->
+    <div id="notes" class="panel">
+        <div class="card">
+            <h3>📢 Website Announcements</h3>
+            <p>These appear on the student dashboard between cards and table. (Prefix "📢" is added automatically)</p>
+            <div id="notes-list"></div>
+            <div class="row" style="margin-top: 15px;">
+                <input type="text" id="new-note-text" placeholder="Enter announcement text..." style="margin-bottom:0;">
+                <button onclick="addNote()">Add Announcement</button>
+            </div>
+            <br>
+            <button onclick="saveNotes()">💾 Save Announcements</button>
         </div>
     </div>
 </div>
 
-<!-- SCHEDULE PANEL -->
-<div id="schedule" class="panel">
-    <div class="card">
-        <h3>Master Schedule Editor</h3>
-        <div class="row">
-            <select id="sched-sub" onchange="onSchedSubChange()"><option value="">Select Subject</option></select>
-            <select id="sched-div" onchange="onSchedDivChange()"><option value="">Select Division</option></select>
-            <select id="sched-batch" onchange="renderTimetableEditor()"><option value="">Select Batch (Optional)</option></select>
-        </div>
-    </div>
-
-    <div id="timetable-editor" class="card" style="display:none;">
-        <h4 class="section-pill">Lecture</h4>
-        <div id="lecture-bar"></div>
-        
-        <h4 id="lab-header" class="section-pill">Lab</h4>
-        <div id="lab-bar"></div>
-
-        <button onclick="saveScheduleChanges()" style="margin-top:20px;">Save Schedule Changes</button>
-    </div>
-</div>
-
-<!-- NOTES PANEL -->
-<div id="notes" class="panel">
-    <div class="card">
-        <h3>Website Notes</h3>
-        <p>These notes appear at the bottom of the student dashboard. (Prefix "⚠️ Note:" is added automatically)</p>
-        <div id="notes-list"></div>
-        <div class="row" style="margin-top: 15px;">
-            <input type="text" id="new-note-text" placeholder="Enter new note text..." style="margin-bottom:0;">
-            <button onclick="addNote()">Add Note</button>
-        </div>
-    </div>
-</div>
-</div>
+<!-- Load Data Files -->
+<script>
+    document.write('<script src="logic.js?v=' + Date.now() + '"><\/script>');
+    document.write('<script src="students.js?v=' + Date.now() + '"><\/script>');
+</script>
 
 <script>
-    let DATA = { students: {}, schedule: {}, subjects: {}, notes: [] };
+    // Metadata for subjects
+    const SUBJECT_METADATA = {
+        "AEIOT": { "name": "Applied Elec & IoT" }, "AIMA":  { "name": "AI Multidisc Apps" }, "BCE":   { "name": "Basics of Civil Engg" }, "BMS":   { "name": "Basics Meas & Sensor" }, "BMT":   { "name": "Basics of Mfg Tech" }, "CAD":   { "name": "CAD Drafting" }, "CAED":  { "name": "CA Engg & Drawing" }, "CS":    { "name": "Comm Skills" }, "DPI":   { "name": "Digital Public Infra" }, "DPV":   { "name": "Data Proc & Viz" }, "DS":    { "name": "Discrete Struct" }, "EC":    { "name": "Engg Chemistry" }, "EEU":   { "name": "Electrical Energy Util" }, "EM":    { "name": "Engg Mechanics" }, "EP":    { "name": "Engg Physics" }, "FEET":  { "name": "Foundations Elec & ET" }, "FME":   { "name": "Foundations Mech Engg" }, "FMS":   { "name": "Fund Meas & Sensor" }, "FPI":   { "name": "Fund Physical Infra" }, "IPSSF": { "name": "Intro Prod & Smart Sys" }, "NM":    { "name": "Nanomaterials" }, "PD":    { "name": "Personality Dev" }, "QP":    { "name": "Quantum Physics" }, "PS":    { "name": "Probability & Stats" }, "VCDE":  { "name": "Vector Calculus" }, "PPS":   { "name": "Prog for Prob Solv" }, "WD":    { "name": "Web Design" }, "PP":    { "name": "Python Programming" }, "EEMI":  { "name": "Elec & Elec Meas" }, "RDOS":  { "name": "Robotics & Drone Safe" }, "FFR":   { "name": "Fuel Furnaces & Refrac" }, "EVA":   { "name": "EV Architecture" }, "GE":    { "name": "Geomatic Engg" }, "FCP":   { "name": "Fund Const Practices" }, "MPFL":  { "name": "Mfg Practices & FabLab" }, "DEFAULT": {"name": "Unknown" }
+    };
+    
+    const SUBJECT_GROUPS = [
+        ['EP', 'QP', 'EC'],
+        ['PS', 'VCDE'],
+        ['BCE', 'FPI', 'AIMA', 'EEU', 'AEIOT', 'FMS', 'FME', 'BMT', 'NM'],
+        ['IPSSF', 'EM', 'FEET', 'DS', 'EEMI', 'BMS', 'CAED', 'FFR'],
+        ['PD', 'CS'],
+        ['GE', 'FCP', 'PPS', 'WD', 'EW', 'DPI', 'DPV', 'CAD', 'EVA', 'MPFL', 'RDOS', 'PP']
+    ];
+
+    let DATA = { students: {}, schedule: {}, notes: [] };
     let EDIT_MIS = null;
-    
-    // --- GITHUB CONFIGURATION ---
-    const REPO_OWNER = "itz-ajinkya";
-    const REPO_NAME = "Time-table";
-    const BRANCH = "main";
-    
-    let GH_TOKEN = localStorage.getItem("gh_token");
-    let SHA_STUDENTS = null;
-    let SHA_LOGIC = null;
-
-    // --- HELPER: LOADING SPINNER ---
-    function showLoading(msg = "Processing...") {
-        const el = document.getElementById('loading-overlay');
-        el.firstElementChild.innerText = "⏳ " + msg;
-        el.style.display = 'flex';
-    }
-
-    function hideLoading() {
-        document.getElementById('loading-overlay').style.display = 'none';
-    }
-
-    function logout() {
-        localStorage.removeItem("gh_token");
-        location.reload();
-    }
-
-    function saveTokenAndLogin() {
-        const t = document.getElementById('gh-token-input').value.trim();
-        if(!t) return alert("Token required");
-        localStorage.setItem("gh_token", t);
-        GH_TOKEN = t;
-        document.getElementById('login-screen').style.display = 'none';
-        document.getElementById('admin-interface').style.display = 'block';
-        loadData();
-    }
-
-    // --- CORE: GITHUB API HANDLER ---
-    async function ghRequest(path, method = 'GET', body = null) {
-        if (!GH_TOKEN) {
-            throw new Error("Authentication required");
-        }
-        
-        const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`;
-        const headers = { 
-            "Authorization": `token ${GH_TOKEN}`,
-            "Accept": "application/vnd.github.v3+json",
-            "Content-Type": "application/json"
-        };
-
-        const options = { method, headers };
-        if (method === 'GET') options.url = url + `?ref=${BRANCH}`;
-        if (body) options.body = JSON.stringify(body);
-
-        const res = await fetch(url + (method === 'GET' ? `?ref=${BRANCH}` : ''), options);
-        if (!res.ok) {
-            if (res.status === 401) {
-                localStorage.removeItem("gh_token");
-                GH_TOKEN = null;
-                alert("Invalid Token. Please login again.");
-                document.getElementById('login-screen').style.display = 'flex';
-                document.getElementById('admin-interface').style.display = 'none';
-                hideLoading();
-                throw new Error("Unauthorized");
-            }
-            throw new Error(await res.text());
-        }
-        return res.json();
-    }
-
-    // --- CORE: SAVE FILE TO GITHUB ---
-    async function ghSaveFile(path, content, sha, message) {
-        // UTF-8 safe Base64 encoding
-        const contentBase64 = btoa(unescape(encodeURIComponent(content)));
-        const body = {
-            message: message,
-            content: contentBase64,
-            sha: sha,
-            branch: BRANCH
-        };
-        return ghRequest(path, 'PUT', body);
-    }
 
     // --- INITIALIZATION ---
-    async function loadData() {
-        showLoading("Loading Data from GitHub...");
-        try {
-            // 1. Load Students.js
-            const sData = await ghRequest('students.js');
-            if(!sData) return;
-            SHA_STUDENTS = sData.sha;
-            const sText = decodeURIComponent(escape(atob(sData.content.replace(/\s/g, ''))));
-            try {
-                // Most robust method: execute the script and return the variable.
-                // This is immune to formatting, comments, and trailing commas.
-                const getDbFunc = new Function(sText + "\n; return GENERATED_DB;");
-                DATA.students = getDbFunc();
-                if (typeof DATA.students !== 'object' || DATA.students === null) {
-                    throw new Error("GENERATED_DB was not a valid object.");
-                }
-            } catch (e) {
-                console.error("Failed to execute and parse students.js", e);
-                alert("Critical error parsing students.js. The file may be corrupt on GitHub. Check console for details.");
-                DATA.students = {};
-            }
-
-            // 2. Load Logic.js
-            const lData = await ghRequest('logic.js');
-            SHA_LOGIC = lData.sha;
-            const lText = decodeURIComponent(escape(atob(lData.content.replace(/\s/g, ''))));
-            try {
-                const getLogicFunc = new Function(lText + "\n; return { schedule: MASTER_SCHEDULE, notes: ACTIVE_NOTES };");
-                const logicData = getLogicFunc();
-                DATA.schedule = logicData.schedule || {};
-                DATA.notes = logicData.notes || [];
-            } catch (e) {
-                console.error("Failed to execute and parse logic.js", e);
-                alert("Critical error parsing logic.js. Check console for details.");
-                DATA.schedule = {};
-                DATA.notes = [];
-            }
-
-            // 3. Extract Subjects from Student Data (since we don't have backend.py)
-            Object.values(DATA.students).forEach(std => {
-                if(std.cards) std.cards.forEach(c => {
-                    if(c.code && c.name) DATA.subjects[c.code] = c.name;
-                });
-            });
-
-        } catch (e) {
-            alert("Error loading data from GitHub: " + e.message);
-            console.error(e);
-        } finally {
-            hideLoading();
-        }
-
+    document.addEventListener('DOMContentLoaded', () => {
+        // Load data from global variables defined in students.js and logic.js
+        if (typeof GENERATED_DB !== 'undefined') DATA.students = GENERATED_DB;
+        if (typeof MASTER_SCHEDULE !== 'undefined') DATA.schedule = MASTER_SCHEDULE;
+        if (typeof ACTIVE_NOTES !== 'undefined') DATA.notes = ACTIVE_NOTES;
+        
         populateSchedDropdowns();
         renderNotes();
+    });
+
+    // --- UI HELPERS ---
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+        const btn = document.getElementById('theme-toggle');
+        btn.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+    }
+
+    function showPanel(id) {
+        document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.getElementById(id).classList.add('active');
+        event.target.classList.add('active');
+    }
+
+    function showNotification(message, duration = 3500) {
+        let notif = document.getElementById('glass-notif');
+        if (!notif) {
+            notif = document.createElement('div');
+            notif.id = 'glass-notif';
+            notif.className = 'glass-notification';
+            document.body.appendChild(notif);
+        }
+        notif.textContent = message;
+        notif.classList.add('show');
+        setTimeout(() => {
+            notif.classList.remove('show');
+        }, duration);
+    }
+
+    async function saveFile(endpoint, content) {
+        return fetch(endpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ content: content })
+        })
+        .then(response => {
+            if (!response.ok) throw new Error("Server error");
+        })
+        .catch(err => {
+            console.error(err);
+            throw err;
+        });
     }
 
     // --- STUDENTS LOGIC ---
@@ -437,16 +413,11 @@
         let mis = document.getElementById('mis-input').value.trim();
         if (!mis) return;
 
-        // If a partial MIS is entered (not 9 digits), assume it's the suffix and prepend the prefix.
         if (mis.length !== 9) {
-            mis = "6125" + mis;
+            mis = "6125" + mis; // Auto-prefix convenience
         }
         if (!DATA.students[mis]) {
-            if (Object.keys(DATA.students).length === 0) {
-                alert("Error: No student data loaded. Please check the console for parsing errors.");
-            } else {
-                alert(`Student not found! (Searched MIS: ${mis})`);
-            }
+            alert(`Student not found! (Searched MIS: ${mis})`);
             return;
         }
         EDIT_MIS = mis;
@@ -468,11 +439,12 @@
         const container = document.getElementById('cards-container');
         container.innerHTML = '';
         
-        // Use schedule keys for subjects to ensure validity
-        const subjectOptions = `<option value="" disabled>Select Course</option>` + 
-            Object.keys(DATA.schedule).map(s => `<option value="${s}">${s}</option>`).join('');
-
         cards.forEach((card, index) => {
+            // Determine options based on group
+            const group = SUBJECT_GROUPS.find(g => g.includes(card.code));
+            const codesToShow = group ? group : Object.keys(DATA.schedule).sort();
+            const subjectOptions = codesToShow.map(s => `<option value="${s}">${s}</option>`).join('');
+
             const div = document.createElement('div');
             div.className = 'row';
             div.style.alignItems = 'center';
@@ -486,11 +458,10 @@
                 <select class="card-batch" style="flex:1; margin-bottom:0;">
                     <option value="" disabled>Select Batch</option>
                 </select>
-                <button style="background:red; width:auto; padding: 8px 12px; margin-bottom:0;" onclick="removeEditorCard(this)">X</button>
+                <button class="danger" style="width:auto; padding: 8px 12px; margin-bottom:0;" onclick="removeEditorCard(this)">X</button>
             `;
             container.appendChild(div);
 
-            // Set Values & Trigger Updates
             const subSel = div.querySelector('.card-sub');
             const divSel = div.querySelector('.card-div');
             const batchSel = div.querySelector('.card-batch');
@@ -499,7 +470,6 @@
             if (Object.keys(DATA.schedule).includes(card.code)) {
                 subSel.value = card.code;
             } else {
-                // Fallback if subject not in schedule
                 const opt = document.createElement('option');
                 opt.value = card.code;
                 opt.text = card.code;
@@ -509,14 +479,12 @@
 
             // 2. Update Divs
             updateCardDivOptions(subSel, divSel);
-            // Try to set div value (add if missing)
             let divFound = false;
             for(let opt of divSel.options) { if(opt.value === card.div) { divSel.value = card.div; divFound = true; break; } }
             if(!divFound) { const opt = document.createElement('option'); opt.value = card.div; opt.text = card.div; divSel.add(opt); divSel.value = card.div; }
 
             // 3. Update Batches
             updateCardBatchOptions(subSel, divSel, batchSel);
-            // Set Batch
             let batchFound = false;
             for(let opt of batchSel.options) { if(opt.value === card.batch) { batchSel.value = card.batch; batchFound = true; break; } }
             if(!batchFound) { const opt = document.createElement('option'); opt.value = card.batch; opt.text = card.batch; batchSel.add(opt); batchSel.value = card.batch; }
@@ -528,7 +496,6 @@
         const divSel = row.querySelector('.card-div');
         const batchSel = row.querySelector('.card-batch');
         updateCardDivOptions(subSel, divSel);
-        // Reset Batch
         batchSel.innerHTML = '<option value="" selected disabled>Select Batch</option>';
         batchSel.disabled = true;
     }
@@ -544,7 +511,7 @@
         const sub = subSel.value;
         divSel.innerHTML = '<option value="" selected disabled>Select Division</option>';
         if (sub && DATA.schedule[sub]) {
-            Object.keys(DATA.schedule[sub]).forEach(d => {
+            Object.keys(DATA.schedule[sub]).sort().forEach(d => {
                 const opt = document.createElement('option');
                 opt.value = d; opt.text = d;
                 divSel.add(opt);
@@ -561,12 +528,16 @@
         batchSel.innerHTML = '<option value="" selected disabled>Select Batch</option>';
         if (sub && div && DATA.schedule[sub] && DATA.schedule[sub][div]) {
             const batches = getBatchesForDiv(sub, div);
-            // Always add '-' option
             const optDefault = document.createElement('option'); optDefault.value = '-'; optDefault.text = '-'; batchSel.add(optDefault);
-            batches.forEach(b => {
-                const opt = document.createElement('option'); opt.value = b; opt.text = b; batchSel.add(opt);
-            });
-            batchSel.disabled = false;
+            if (batches.length > 0) {
+                batches.forEach(b => {
+                    const opt = document.createElement('option'); opt.value = b; opt.text = b; batchSel.add(opt);
+                });
+                batchSel.disabled = false;
+            } else {
+                batchSel.value = '-';
+                batchSel.disabled = true;
+            }
         } else {
             batchSel.disabled = true;
         }
@@ -579,7 +550,7 @@
     function addEmptyCard() {
         const container = document.getElementById('cards-container');
         const subjectOptions = `<option value="" selected disabled>Select Course</option>` + 
-            Object.keys(DATA.schedule).map(s => `<option value="${s}">${s}</option>`).join('');
+            Object.keys(DATA.schedule).sort().map(s => `<option value="${s}">${s}</option>`).join('');
 
         const div = document.createElement('div');
         div.className = 'row';
@@ -592,13 +563,12 @@
             <select class="card-batch" style="flex:1; margin-bottom:0;" disabled>
                 <option value="" selected disabled>Select Batch</option>
             </select>
-            <button style="background:red; width:auto; padding: 8px 12px; margin-bottom:0;" onclick="removeEditorCard(this)">X</button>
+            <button class="danger" style="width:auto; padding: 8px 12px; margin-bottom:0;" onclick="removeEditorCard(this)">X</button>
         `;
         container.appendChild(div);
     }
 
     async function saveStudentChanges() {
-        showLoading("Saving Student Data...");
         const name = document.getElementById('edit-name').value;
         const rows = document.querySelectorAll('#cards-container .row');
         const newCards = [];
@@ -607,24 +577,25 @@
             const code = row.querySelector('.card-sub').value;
             const div = row.querySelector('.card-div').value;
             const batch = row.querySelector('.card-batch').value;
-            const subName = DATA.subjects[code] || "Unknown";
-            newCards.push({ code, name: subName, div, batch });
+            const subName = (SUBJECT_METADATA[code] && SUBJECT_METADATA[code].name) ? SUBJECT_METADATA[code].name : "Unknown";
+            if(code && div) {
+                newCards.push({ code, name: subName, div, batch });
+            }
         });
 
         DATA.students[EDIT_MIS].name = name;
         DATA.students[EDIT_MIS].cards = newCards;
 
-        // Save to GitHub
         const fileContent = `const GENERATED_DB = ${JSON.stringify(DATA.students, null, 2)};`;
+        
+        // Save JS file
         try {
-            const res = await ghSaveFile('students.js', fileContent, SHA_STUDENTS, `Update student ${EDIT_MIS}`);
-            SHA_STUDENTS = res.content.sha; // Update SHA for next save
-            alert("Student Saved!");
-            closeStudentEditor();
+            await saveFile('/save_students', fileContent);
+            // Save CSV file (Regenerate from current DB)
+            await saveFile('/save_csv', generateCSV(DATA.students));
+            showNotification("Student changes saved successfully!");
         } catch (e) {
-            alert("Save Failed: " + e.message);
-        } finally {
-            hideLoading();
+            showNotification("Error saving changes. Is server running?");
         }
     }
 
@@ -634,11 +605,37 @@
         EDIT_MIS = null;
     }
 
+    function generateCSV(db) {
+        // Header
+        let csv = "MIS,FIRST NAME,LAST NAME,DIVISION,BATCH\n";
+        
+        Object.keys(db).sort().forEach(mis => {
+            const student = db[mis];
+            const nameParts = student.name.split(' ');
+            const fname = nameParts[0] || "";
+            const lname = nameParts.slice(1).join(' ') || "";
+
+            if (student.cards && student.cards.length > 0) {
+                student.cards.forEach(card => {
+                    // Reconstruct DIVISION format (e.g., "EP 1")
+                    const divNum = card.div.replace("Div ", "");
+                    const divStr = `${card.code} ${divNum}`;
+                    const batchStr = card.batch === '-' ? '' : card.batch;
+                    csv += `${mis},${fname},${lname},${divStr},${batchStr}\n`;
+                });
+            } else {
+                // Handle student with no cards if necessary, or skip
+                csv += `${mis},${fname},${lname},,\n`;
+            }
+        });
+        return csv;
+    }
+
     // --- SCHEDULE LOGIC ---
     function populateSchedDropdowns() {
         const subSel = document.getElementById('sched-sub');
         subSel.innerHTML = '<option value="">Select Subject</option>' + 
-            Object.keys(DATA.schedule).map(s => `<option value="${s}">${s}</option>`).join('');
+            Object.keys(DATA.schedule).sort().map(s => `<option value="${s}">${s}</option>`).join('');
     }
 
     function onSchedSubChange() {
@@ -649,7 +646,7 @@
         document.getElementById('timetable-editor').style.display = 'none';
 
         if (sub && DATA.schedule[sub]) {
-            Object.keys(DATA.schedule[sub]).forEach(d => {
+            Object.keys(DATA.schedule[sub]).sort().forEach(d => {
                 divSel.innerHTML += `<option value="${d}">${d}</option>`;
             });
         }
@@ -662,10 +659,8 @@
         batchSel.innerHTML = '<option value="">Select Batch (Optional)</option>';
         
         if (sub && div && DATA.schedule[sub][div]) {
-            // Find keys that look like batches (not containing '-' and usually short like B1)
-            // Or simply keys that are objects and don't have 'type' property
             const divData = DATA.schedule[sub][div];
-            Object.keys(divData).forEach(k => {
+            Object.keys(divData).sort().forEach(k => {
                 if (!k.includes('-') && typeof divData[k] === 'object' && !divData[k].type) {
                     batchSel.innerHTML += `<option value="${k}">${k}</option>`;
                 }
@@ -691,7 +686,6 @@
         // 1. Lectures (Division Level)
         Object.keys(divData).forEach(key => {
             const val = divData[key];
-            // Heuristic: It's a lecture if key has '-' (time) OR type is 'lec'
             if (key.includes('-') || (val.type && val.type === 'lec')) {
                 lecContainer.appendChild(createSlotItem(key, val, 'lec'));
             }
@@ -715,7 +709,6 @@
         const div = document.createElement('div');
         div.className = 'slot-item';
         
-        // Parse Key: day-time (e.g. mon-1030)
         const parts = key.split('-');
         const dayCode = parts[0] || 'mon';
         const timeStr = parts[1] || '1030';
@@ -734,45 +727,42 @@
         const mins = ['00','15','30','45'];
         
         div.innerHTML = `
-            <select class="slot-day" style="width:100px; margin:0;">
+            <select class="slot-day" style="width:115px; margin:0;">
                 ${days.map(d=>`<option value="${d}" ${d===dayName?'selected':''}>${d}</option>`).join('')}
             </select>
-            <select class="slot-hr" style="width:60px; margin:0;">
+            <select class="slot-hr" style="width:75px; margin:0;">
                 ${hrs.map(h=>`<option value="${h}" ${h===hr?'selected':''}>${h}</option>`).join('')}
             </select>
-            <select class="slot-min" style="width:60px; margin:0;">
+            <select class="slot-min" style="width:75px; margin:0;">
                 ${mins.map(m=>`<option value="${m}" ${m===min?'selected':''}>${m}</option>`).join('')}
             </select>
-            <select class="slot-ampm" style="width:60px; margin:0;">
+            <select class="slot-ampm" style="width:75px; margin:0;">
                 <option value="AM" ${ampm==='AM'?'selected':''}>AM</option>
                 <option value="PM" ${ampm==='PM'?'selected':''}>PM</option>
             </select>
             <input type="text" class="slot-room" value="${data.room || ''}" style="flex:1; margin:0;" placeholder="Location">
-            <button style="background:red; padding:4px 8px; margin:0;" onclick="this.parentElement.remove()">X</button>
+            <button class="danger" style="padding:4px 8px; margin:0;" onclick="this.parentElement.remove()">X</button>
         `;
         return div;
     }
 
-    async function saveScheduleChanges() {
-        showLoading("Saving Schedule...");
+    function saveScheduleChanges() {
         const sub = document.getElementById('sched-sub').value;
         const div = document.getElementById('sched-div').value;
         const batch = document.getElementById('sched-batch').value;
 
         if (!sub || !div) return;
 
-        // Reconstruct Division Data
-        // 1. Start with existing data to keep other batches safe
         const divData = DATA.schedule[sub][div];
         
-        // 2. Clear old lectures (keys with '-')
+        // Clear old lectures
         Object.keys(divData).forEach(k => {
             if (k.includes('-') || (divData[k].type === 'lec')) {
                 delete divData[k];
             }
         });
 
-        // 3. Add new lectures from UI
+        // Add new lectures
         document.querySelectorAll('#lecture-bar .slot-item').forEach(el => {
             const day = el.querySelector('.slot-day').value;
             const hr = parseInt(el.querySelector('.slot-hr').value);
@@ -780,7 +770,6 @@
             const ampm = el.querySelector('.slot-ampm').value;
             const room = el.querySelector('.slot-room').value;
             
-            // Construct Key
             const revDayMap = {'Monday':'mon','Tuesday':'tue','Wednesday':'wed','Thursday':'thu','Friday':'fri','Saturday':'sat'};
             let h = hr;
             if(ampm==='PM' && h!==12) h+=12;
@@ -790,9 +779,9 @@
             if (key) divData[key] = { room, type: 'lec' };
         });
 
-        // 4. Update Batch Labs if batch selected
+        // Update Batch Labs
         if (batch && divData[batch]) {
-            divData[batch] = {}; // Clear old batch slots
+            divData[batch] = {}; 
             document.querySelectorAll('#lab-bar .slot-item').forEach(el => {
                 const day = el.querySelector('.slot-day').value;
                 const hr = parseInt(el.querySelector('.slot-hr').value);
@@ -806,31 +795,14 @@
                 if(ampm==='AM' && h===12) h=0;
                 const key = `${revDayMap[day]}-${h.toString().padStart(2,'0')}${min}`;
 
-                // Default span 2 for labs if not specified, but let's keep it simple
                 if (key) divData[batch][key] = { room, type: 'lab', span: 2 }; 
             });
         }
 
-        // Reconstruct logic.js content
-        // We need to preserve the helper functions in logic.js, so we fetch fresh content first or use a template.
-        // For simplicity, we assume logic.js structure is fixed: Schedule -> Emoji -> Helper -> Notes
-        // A safer way for the admin panel is to only replace the variable blocks.
-        
-        const lData = await ghRequest('logic.js'); // Fetch latest to get surrounding code
-        let lText = decodeURIComponent(escape(atob(lData.content.replace(/\s/g, ''))));
-        
         const newSchedStr = `const MASTER_SCHEDULE = ${JSON.stringify(DATA.schedule, null, 4)};`;
-        lText = lText.replace(/const MASTER_SCHEDULE = {[\s\S]*?};/, newSchedStr);
-
-        try {
-            const res = await ghSaveFile('logic.js', lText, lData.sha, "Update Master Schedule");
-            SHA_LOGIC = res.content.sha;
-            alert("Schedule Saved!");
-        } catch (e) {
-            alert("Save Failed: " + e.message);
-        } finally {
-            hideLoading();
-        }
+        saveFile('/save_logic', newSchedStr)
+            .then(() => showNotification("Schedule saved successfully!"))
+            .catch(() => showNotification("Error saving schedule."));
     }
 
     // --- NOTES LOGIC ---
@@ -838,8 +810,8 @@
         const container = document.getElementById('notes-list');
         container.innerHTML = DATA.notes.map((note, idx) => `
             <div class="slot-item" style="justify-content: space-between;">
-                <span>⚠️ <strong>Note:</strong> ${note}</span>
-                <button style="background:red; padding:4px 8px; margin:0; width:auto;" onclick="deleteNote(${idx})">Delete</button>
+                <span>📢 ${note}</span>
+                <button class="danger" style="padding:4px 8px; margin:0; width:auto;" onclick="deleteNote(${idx})">Delete</button>
             </div>
         `).join('');
     }
@@ -850,305 +822,119 @@
         DATA.notes.push(text);
         document.getElementById('new-note-text').value = '';
         renderNotes();
-        saveNotes();
     }
 
     function deleteNote(idx) {
         DATA.notes.splice(idx, 1);
         renderNotes();
-        saveNotes();
     }
 
-    async function saveNotes() {
-        showLoading("Saving Note...");
-        try {
-            const lData = await ghRequest('logic.js');
-            let lText = decodeURIComponent(escape(atob(lData.content.replace(/\s/g, ''))));
-            
-            const newNotesStr = `const ACTIVE_NOTES = ${JSON.stringify(DATA.notes, null, 4)};`;
-            lText = lText.replace(/const ACTIVE_NOTES = \[[\s\S]*?\];/, newNotesStr);
-
-            const res = await ghSaveFile('logic.js', lText, lData.sha, "Update Notes");
-            SHA_LOGIC = res.content.sha;
-        } catch(e) {
-            alert("Failed to save note: " + e.message);
-        } finally {
-            hideLoading();
-        }
+    function saveNotes() {
+        const newNotesStr = `const ACTIVE_NOTES = ${JSON.stringify(DATA.notes, null, 4)};`;
+        saveFile('/save_logic', newSchedStrWithNotes())
+            .then(() => showNotification("Announcements saved successfully!"))
+            .catch(() => showNotification("Error saving announcements."));
     }
 
-    // --- SUBJECTS LOGIC ---
-    // ... (Existing Subject Logic remains same) ...
-    function renderSubjects() { /* ... same as before ... */ 
-        const container = document.getElementById('subject-list');
-        container.innerHTML = `<table><tr><th>Code</th><th>Name</th><th>Action</th></tr>` + 
-        Object.entries(DATA.subjects).map(([code, name]) => `
-            <tr>
-                <td>${code}</td>
-                <td><input type="text" value="${name}" id="sub-name-${code}" style="margin:0"></td>
-                <td><button onclick="updateSubject('${code}')">Save</button></td>
-            </tr>
-        `).join('') + `</table>`;
-    }
-
-    async function updateSubject(code) {
-        showLoading("Updating Subject...");
-        const newName = document.getElementById(`sub-name-${code}`).value;
-        
-        // Update local data
-        Object.values(DATA.students).forEach(std => {
-            if(std.cards) std.cards.forEach(c => { if(c.code === code) c.name = newName; });
-        });
-
-        // Save Students File
-        const fileContent = `const GENERATED_DB = ${JSON.stringify(DATA.students, null, 2)};`;
-        try {
-            const res = await ghSaveFile('students.js', fileContent, SHA_STUDENTS, `Update subject name ${code}`);
-            SHA_STUDENTS = res.content.sha;
-            alert("Subject Updated");
-        } catch(e) {
-            alert("Update Failed: " + e.message);
-        } finally {
-            hideLoading();
-        }
-    }
-
-    function toggleDarkMode() {
-        document.body.classList.toggle('dark-mode');
-        const btn = document.getElementById('theme-toggle');
-        btn.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
-    }
-
-    function showPanel(id) {
-        document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
-        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-        document.getElementById(id).classList.add('active');
-        event.target.classList.add('active');
-    }
-
-    // --- STUDENTS LOGIC ---
-    function renderStudents() {
-        const container = document.getElementById('student-list');
-        const query = document.getElementById('search').value.toLowerCase();
-        container.innerHTML = '';
-
-        Object.entries(DATA.students).forEach(([mis, student]) => {
-            if (student.name.toLowerCase().includes(query) || mis.toLowerCase().includes(query)) {
-                const div = document.createElement('div');
-                div.className = 'card';
-                div.innerHTML = `
-                    <h3>${student.name}</h3>
-                    <p>${student.info}</p>
-                    <div>${student.cards.map(c => `<span class="tag">${c.code} ${c.div} ${c.batch !== '-' ? c.batch : ''}</span>`).join('')}</div>
-                    <br>
-                    <button onclick="openEditModal('${mis}')">Edit</button>
-                `;
-                container.appendChild(div);
-            }
-        });
-    }
-
-    function openEditModal(mis) {
-        CURRENT_MIS = mis;
-        const student = DATA.students[mis];
-        document.getElementById('modal-title').innerText = `Edit ${student.name}`;
-        renderModalCards();
-        document.getElementById('edit-modal').style.display = 'flex';
-    }
-
-    function renderModalCards() {
-        const container = document.getElementById('modal-cards');
-        const cards = DATA.students[CURRENT_MIS].cards;
-        container.innerHTML = cards.map((c, idx) => `
-            <div style="display:flex; justify-content:space-between; margin-bottom:5px; border-bottom:1px solid #444; padding:5px;">
-                <span><b>${c.code}</b> - ${c.div} (${c.batch})</span>
-                <button style="background:red; padding:2px 8px;" onclick="removeCard(${idx})">X</button>
-            </div>
-        `).join('');
-    }
-
-    function removeCard(idx) {
-        DATA.students[CURRENT_MIS].cards.splice(idx, 1);
-        renderModalCards();
-        saveStudent(CURRENT_MIS);
-    }
-
-    function addCard() {
-        const code = document.getElementById('new-sub-code').value;
-        const div = document.getElementById('new-sub-div').value.toUpperCase();
-        let batch = document.getElementById('new-sub-batch').value.toUpperCase();
-
-        if (!code || !div) {
-            alert("Subject and Division are required.");
-            return;
-        }
-
-        // Logic: If batch is empty, set to '-'
-        if (!batch) batch = '-';
-
-        const name = DATA.subjects[code] || "Unknown";
-        
-        DATA.students[CURRENT_MIS].cards.push({
-            code, name, div: `Div ${div}`, batch: batch !== '-' ? `B${batch.replace('B','')}` : '-'
-        });
-
-        renderModalCards();
-        saveStudent(CURRENT_MIS);
-        
-        // Clear inputs
-        document.getElementById('new-sub-div').value = '';
-        document.getElementById('new-sub-batch').value = '';
-    }
-
-    function closeModal() {
-        document.getElementById('edit-modal').style.display = 'none';
-        renderStudents();
-    }
-
-    async function saveStudent(mis) {
-        await fetch('/api/save_student', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ mis, data: DATA.students[mis] })
-        });
-    }
-
-    // --- SCHEDULE LOGIC ---
-    function renderSchedule() {
-        document.getElementById('schedule-json').value = JSON.stringify(DATA.schedule, null, 4);
-    }
-
-    async function saveSchedule() {
-        try {
-            const newSchedule = JSON.parse(document.getElementById('schedule-json').value);
-            await fetch('/api/save_schedule', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(newSchedule)
-            });
-            DATA.schedule = newSchedule;
-            alert("Schedule Saved!");
-        } catch (e) {
-            alert("Invalid JSON: " + e.message);
-        }
-    }
-
-    function applySmartUpdate() {
-        // This function implements the logic:
-        // "if lecture time is changed then it will change the lecture time in all the batches of the same division"
-        // "if anything about changed that will be limited to batch only"
-        
-        const raw = document.getElementById('schedule-json').value;
-        let schedule;
-        try {
-            schedule = JSON.parse(raw);
-        } catch(e) { alert("Fix JSON first"); return; }
-
-        const divToUpdate = prompt("Enter Division to update (e.g. A):");
-        if (!divToUpdate) return;
-
-        const subjectToUpdate = prompt("Enter Subject Code (e.g. CS):");
-        if (!subjectToUpdate) return;
-
-        const oldTime = prompt("Enter OLD Time (e.g. 10:00):");
-        const newTime = prompt("Enter NEW Time (e.g. 11:00):");
-
-        if (!oldTime || !newTime) return;
-
-        let count = 0;
-        
-        // Iterate through the schedule structure
-        // Assuming structure is Day -> Time -> [Entries] or Day -> [Entries]
-        // We will traverse recursively to find matching objects
-        
-        function traverseAndUpdate(obj) {
-            for (let key in obj) {
-                if (Array.isArray(obj[key])) {
-                    // It's a list of slots
-                    obj[key].forEach(slot => {
-                        // Check if slot matches criteria
-                        // We look for 'div' or 'division' and 'code' or 'subject'
-                        let slotDiv = slot.div || slot.division || "";
-                        let slotSub = slot.code || slot.subject || slot.sub || "";
-                        let slotTime = slot.time || key; // Sometimes time is the key, sometimes in object
-
-                        // Normalize
-                        if (slotDiv.includes(divToUpdate) && slotSub === subjectToUpdate) {
-                            
-                            // LOGIC: Lecture vs Lab
-                            // If it's a Lecture, we update ALL batches in this division
-                            // If it's a Lab, we might need to ask for batch, but here we are doing a bulk update based on time.
-                            
-                            // If the slot has the OLD time (either in property or we are in a time-keyed object)
-                            if (slot.time === oldTime || key === oldTime) {
-                                
-                                const isLecture = (slot.type || "").toLowerCase().includes("lec");
-                                
-                                if (isLecture) {
-                                    // Update regardless of batch
-                                    slot.time = newTime;
-                                    count++;
-                                } else {
-                                    // It is a Lab/Tutorial (Batch specific)
-                                    // The user request: "if anything about changed that will be limited to batch only"
-                                    // So we only update if the user specifically intended to update this batch.
-                                    // For this bulk tool, we will ask confirmation or just update.
-                                    // To keep it simple and "best":
-                                    // We only auto-update Lectures across batches. Labs must be manually edited or match exact batch.
-                                    
-                                    // If the user didn't specify batch in prompt, we skip labs to be safe?
-                                    // Or we update if it matches exactly.
-                                    slot.time = newTime;
-                                    count++;
-                                }
-                            }
-                        }
-                    });
-                } else if (typeof obj[key] === 'object' && obj[key] !== null) {
-                    traverseAndUpdate(obj[key]);
-                }
-            }
-        }
-
-        traverseAndUpdate(schedule);
-        
-        document.getElementById('schedule-json').value = JSON.stringify(schedule, null, 4);
-        alert(`Updated ${count} entries. Review and click Save.`);
-    }
-
-    // --- SUBJECTS LOGIC ---
-    function renderSubjects() {
-        const container = document.getElementById('subject-list');
-        container.innerHTML = `<table><tr><th>Code</th><th>Name</th><th>Action</th></tr>` + 
-        Object.entries(DATA.subjects).map(([code, name]) => `
-            <tr>
-                <td>${code}</td>
-                <td><input type="text" value="${name}" id="sub-name-${code}" style="margin:0"></td>
-                <td><button onclick="updateSubject('${code}')">Save</button></td>
-            </tr>
-        `).join('') + `</table>`;
-    }
-
-    function populateSubjectDropdown() {
-        const sel = document.getElementById('new-sub-code');
-        sel.innerHTML = Object.keys(DATA.subjects).map(k => `<option value="${k}">${k}</option>`).join('');
-    }
-
-    async function updateSubject(code) {
-        const newName = document.getElementById(`sub-name-${code}`).value;
-        await fetch('/api/update_subject_name', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ code, name: newName })
-        });
-        alert("Subject Updated");
-    }
-
-    if (GH_TOKEN) {
-        document.getElementById('admin-interface').style.display = 'block';
-        loadData();
-    } else {
-        document.getElementById('login-screen').style.display = 'flex';
+    function newSchedStrWithNotes() {
+        // We need to preserve MASTER_SCHEDULE while updating ACTIVE_NOTES
+        // Since we are in a browser, we can just reconstruct the whole file content
+        // based on the current state of DATA.schedule and DATA.notes
+        return `const MASTER_SCHEDULE = ${JSON.stringify(DATA.schedule, null, 4)};\n\n` +
+               `// --- LAB EMOJI MAPPING ---\n` + 
+               `// 1. UPDATED: Added 'PP' to the Computer/Tech group\n` +
+               `const LAB_EMOJI_GROUPS = [\n` +
+               `    { emoji: '💻', codes: ['PP', 'CAED', 'WD', 'MPFL', 'IPSSF', 'DS', 'DPV', 'PPS', 'FCP', 'GE', 'EW', 'CAD', 'DPI', 'EVA', 'RDOS'] },\n` +
+               `    { emoji: '📐', codes: ['VCDE', 'PS', 'AEIOT', 'FPI', 'AIMA', 'NM', 'BMT'] }, \n` +
+               `    { emoji: '🗣️', codes: ['CS'] },\n` +
+               `    { emoji: '🦸‍♂️', codes: ['PD'] },\n` +
+               `    { emoji: '🔬', codes: ['EP', 'EC', 'QP', 'EEMI', 'FEET', 'EM', 'FME', 'FMS', 'BCE', 'EEU'] }\n` +
+               `];\n\n` +
+               `function getLabEmoji(code, room) {\n` +
+               `    if (!code) return '🧪';\n` +
+               `    const upper = code.toUpperCase();\n` +
+               `    \n` +
+               `    for (const g of LAB_EMOJI_GROUPS) {\n` +
+               `        if (g.codes.includes(upper) && g.emoji) return g.emoji;\n` +
+               `    }\n` +
+               `    \n` +
+               `    // Fallback heuristics based on room name\n` +
+               `    if (room && /computer|cognizant/i.test(room)) return '💻';\n` +
+               `    \n` +
+               `    // 2. UPDATED: Return generic lab emoji if no match found\n` +
+               `    return '🧪';\n` +
+               `}\n\n` +
+               `// --- DATA MERGER FUNCTION ---\n` +
+               `function getStudentData(mis) {\n` +
+               `    if (!GENERATED_DB || !GENERATED_DB[mis]) {\n` +
+               `        return null;\n` +
+               `    }\n\n` +
+               `    const student = GENERATED_DB[mis];\n` +
+               `    const personalSchedule = {};\n\n` +
+               `    if (student.cards && Array.isArray(student.cards)) {\n` +
+               `        student.cards.forEach(card => {\n` +
+               `            const subjectCode = card.code;\n` +
+               `            const div = card.div;\n` +
+               `            const batch = card.batch;\n\n` +
+               `            if (MASTER_SCHEDULE[subjectCode] && MASTER_SCHEDULE[subjectCode][div]) {\n` +
+               `                const divSchedule = MASTER_SCHEDULE[subjectCode][div];\n\n` +
+               `                // --- A. Process Lectures ---\n` +
+               `                Object.keys(divSchedule).forEach(timeKey => {\n` +
+               `                    if (timeKey.length < 5) return; \n\n` +
+               `                    const slot = divSchedule[timeKey];\n` +
+               `                    \n` +
+               `                    // 3. UPDATED: Check for PD, CS, PP lectures to give them emojis\n` +
+               `                    let lectureEmoji = "";\n` +
+               `                    if (['PD', 'CS', 'PP'].includes(subjectCode.toUpperCase())) {\n` +
+               `                        lectureEmoji = getLabEmoji(subjectCode, slot.room);\n` +
+               `                    }\n\n` +
+               `                    const entry = {\n` +
+               `                        ...slot,\n` +
+               `                        subj: subjectCode,\n` +
+               `                        class: subjectCode.toLowerCase(),\n` +
+               `                        tag: lectureEmoji \n` +
+               `                    };\n\n` +
+               `                    addToSchedule(personalSchedule, timeKey, entry);\n` +
+               `                });\n\n` +
+               `                // --- B. Process Labs ---\n` +
+               `                if (batch !== '-' && divSchedule[batch]) {\n` +
+               `                    const labSlots = divSchedule[batch];\n` +
+               `                    \n` +
+               `                    Object.keys(labSlots).forEach(timeKey => {\n` +
+               `                        const lab = labSlots[timeKey];\n` +
+               `                        const entry = {\n` +
+               `                            ...lab,\n` +
+               `                            subj: subjectCode,\n` +
+               `                            class: subjectCode.toLowerCase(),\n` +
+               `                            // This now works for PP (added to list) and others (via fallback)\n` +
+               `                            tag: getLabEmoji(subjectCode, lab.room) \n` +
+               `                        };\n\n` +
+               `                        addToSchedule(personalSchedule, timeKey, entry);\n` +
+               `                    });\n` +
+               `                }\n` +
+               `            }\n` +
+               `        });\n` +
+               `    }\n\n` +
+               `    return {\n` +
+               `        name: student.name,\n` +
+               `        info: student.info,\n` +
+               `        cards: student.cards,\n` +
+               `        schedule: personalSchedule\n` +
+               `    };\n` +
+               `}\n\n` +
+               `// Helper to handle overlapping slots\n` +
+               `function addToSchedule(schedule, timeKey, entry) {\n` +
+               `    if (schedule[timeKey]) {\n` +
+               `        if (Array.isArray(schedule[timeKey])) {\n` +
+               `            schedule[timeKey].push(entry);\n` +
+               `        } else {\n` +
+               `            schedule[timeKey] = [schedule[timeKey], entry];\n` +
+               `        }\n` +
+               `    } else {\n` +
+               `        schedule[timeKey] = entry;\n` +
+               `    }\n` +
+               `}\n\n` +
+               `const ACTIVE_NOTES = ${JSON.stringify(DATA.notes, null, 4)};`;
     }
 </script>
 

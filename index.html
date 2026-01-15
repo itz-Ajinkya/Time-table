@@ -623,12 +623,19 @@
         .slot-collision { background: transparent; box-shadow: none; padding: 0; pointer-events: none; }
         .slot-split { display: flex; width: 100%; height: 100%; gap: 4px; pointer-events: auto; }
         .split-item { flex: 1; min-width: 0; font-size: 0.9em; }
-        .slot-title { font-family: 'Eras Bold ITC', sans-serif; font-weight: 800; font-size: 1.2rem; margin-bottom: 4px; line-height: 1.1; }
-        .room-tag { background: rgba(255,255,255,0.85); color: #000; font-size: 0.85rem; font-weight: 700; padding: 4px 8px; border-radius: 10px; display: inline-block; }
+        .slot-title { font-family: 'Eras Bold ITC', sans-serif; font-weight: 800; font-size: 1.2rem; margin-bottom: 4px; line-height: 1.1; position: relative; z-index: 2; }
+        .room-tag { background: rgba(255,255,255,0.85); color: #000; font-size: 0.85rem; font-weight: 700; padding: 4px 8px; border-radius: 10px; display: inline-block; position: relative; z-index: 2; }
 
         .lab-tag { 
             position: absolute; top: 4px; left: 50%; transform: translateX(-50%); 
             font-size: 2rem; line-height: 1; z-index: 5; filter: drop-shadow(0 2px 2px rgba(0,0,0,0.1));
+        }
+
+        .emoji-burst { animation: burstPop 0.2s ease-out forwards; }
+        @keyframes burstPop {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.4); opacity: 0.8; }
+            100% { transform: scale(2); opacity: 0; }
         }
 
         .live-active {
@@ -697,7 +704,7 @@
             border-bottom: 3px solid #fff; 
         }
 
-        .snowfall { position: absolute; inset: 0; overflow: visible; pointer-events: none; opacity: 1; z-index: 50; }
+        .snowfall { position: absolute; inset: 0; overflow: hidden; border-radius: 18px; pointer-events: none; opacity: 1; z-index: 1; }
         .snowflake { 
             position: absolute; 
             color: #fff;
@@ -1395,6 +1402,7 @@
         if (collisionDetected) footerNote.style.display = 'block';
         else footerNote.style.display = 'none';
 
+        activeEmojis = []; // Clear emojis on reload to prevent glitches
         renderTable(data);
         currentUserSchedule = data.schedule;
         renderDynamicNotes();
@@ -1524,13 +1532,14 @@
         if (activeEmojis.length < 40 && Math.random() < 0.3) { 
             const em = document.createElement('div');
             em.className = 'lunch-emoji';
-            em.innerText = '🍽️';
+            const foodEmojis = ['🍽️', '🍍', '🥭', '🍒', '🍓', '🍉', '🍇'];
+            em.innerText = foodEmojis[Math.floor(Math.random() * foodEmojis.length)];
             const startX = Math.random() * (lb.clientWidth - 30); 
             const size = 0.8 + Math.random() * 0.8;
             em.style.left = startX + 'px';
             em.style.fontSize = size + 'rem';
             lb.appendChild(em);
-            activeEmojis.push({ el: em, y: -40, speed: 2 + Math.random() * 2, wobble: Math.random() * Math.PI * 2 });
+            activeEmojis.push({ el: em, y: 0, speed: 2 + Math.random() * 2, wobble: Math.random() * Math.PI * 2 });
         }
 
         for (let i = activeEmojis.length - 1; i >= 0; i--) {
@@ -1543,6 +1552,7 @@
             const emRect = obj.el.getBoundingClientRect();
 
             if (textRect && emRect.top < textRect.bottom && emRect.bottom > textRect.top && emRect.right > textRect.left && emRect.left < textRect.right) {
+                obj.el.innerText = '🫧';
                 obj.el.classList.add('emoji-burst');
                 activeEmojis.splice(i, 1);
                 setTimeout(() => { if(obj.el.parentNode) obj.el.remove(); }, 200);
@@ -1575,7 +1585,7 @@
             flake.style.fontSize = (10 + Math.random() * 10) + 'px';
             const duration = 1.5 + Math.random() * 2;
             flake.style.animationDuration = duration + 's';
-            flake.style.opacity = 0.5 + Math.random() * 0.5;
+            flake.style.opacity = 0.2 + Math.random() * 0.3;
             snowContainer.appendChild(flake);
             setTimeout(() => { if(flake.parentNode) flake.remove(); }, duration * 1000);
         }
@@ -1593,24 +1603,15 @@
         // Notifications Check
         checkUpcomingClasses(now);
 
-        document.querySelectorAll('.live-active').forEach(el => {
-            el.classList.remove('live-active');
-            const b = el.querySelector('.live-badge');
-            if(b) b.remove();
-            if (el.id !== currentLiveSlotId) {
-                const s = el.querySelector('.snowfall');
-                if(s) s.remove();
-            }
-        });
-        currentLiveSlotId = null; 
-
         document.querySelectorAll('.current-day-col').forEach(el => el.classList.remove('current-day-col'));
         const lb = document.getElementById('lunch-break');
-        if (dayIdx === 0 || !currentUserSchedule) return; 
-
-        const dayName = days[dayIdx].toLowerCase();
-        const th = document.getElementById(`th-${dayName}`);
-        if(th) th.classList.add('current-day-col');
+        
+        // Highlight current day column
+        if (dayIdx !== 0 && currentUserSchedule) {
+            const dayName = days[dayIdx].toLowerCase();
+            const th = document.getElementById(`th-${dayName}`);
+            if(th) th.classList.add('current-day-col');
+        }
 
         const min = now.getHours() * 60 + now.getMinutes();
         let slotId = null;
@@ -1632,27 +1633,48 @@
             if (lb && lb.classList.contains('lunch-now')) lb.classList.remove('lunch-now');
         }
 
-        if (slotId && slotId !== '1230') {
+        // Determine new live slot
+        let newLiveKey = null;
+        if (dayIdx !== 0 && currentUserSchedule && slotId && slotId !== '1230') {
+            const dayName = days[dayIdx].toLowerCase();
             let key = `${dayName}-${slotId}`;
-            let el = document.getElementById(key);
-
-            if (!el) {
+            
+            // Check direct slot
+            if (document.getElementById(key)) {
+                newLiveKey = key;
+            } else {
+                // Check spanning slots (look back up to 3 hours)
                 const allIds = ["0830","0930","1030","1130","1230","1330","1430","1530","1630","1730"];
                 const currIdx = allIds.indexOf(slotId);
-                
-                // Check backwards for spanning slots (up to 3 hours back)
                 for (let i = 1; i <= 3; i++) {
                     if (currIdx - i < 0) break;
                     const prevKey = `${dayName}-${allIds[currIdx - i]}`;
                     const prevItem = currentUserSchedule[prevKey];
-                    if (prevItem && prevItem.span > i) el = document.getElementById(prevKey);
+                    if (prevItem && prevItem.span > i) {
+                        newLiveKey = prevKey;
+                        break;
+                    }
                 }
             }
+        }
 
-            if (el) {
-                el.classList.add('live-active');
-                currentLiveSlotId = el.id; 
-                if (!el.querySelector('.live-badge')) {
+        // Update DOM only if the active slot has changed
+        if (currentLiveSlotId !== newLiveKey) {
+            if (currentLiveSlotId) {
+                const oldEl = document.getElementById(currentLiveSlotId);
+                if (oldEl) {
+                    oldEl.classList.remove('live-active');
+                    const b = oldEl.querySelector('.live-badge');
+                    if(b) b.remove();
+                    const s = oldEl.querySelector('.snowfall');
+                    if(s) s.remove();
+                }
+            }
+            if (newLiveKey) {
+                const el = document.getElementById(newLiveKey);
+                if (el) {
+                    el.classList.add('live-active');
+                    if (!el.querySelector('.live-badge')) {
                     const badge = document.createElement('div');
                     badge.className = 'live-badge';
                     badge.innerText = 'LIVE';
@@ -1660,6 +1682,8 @@
                 }
             }
         }
+        currentLiveSlotId = newLiveKey;
+    }
 
         // Update Live Toast
         const liveToast = document.getElementById('live-toast');
