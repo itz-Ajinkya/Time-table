@@ -2132,10 +2132,10 @@ const MASTER_SCHEDULE = {
                 }
             },
             "B3": {
-                "thu-1030": {
-                    "room": "NC 13",
-                    "span": 2,
-                    "type": "lab"
+                "thu-1630": {
+                    "room": "NC 12",
+                    "type": "lab",
+                    "span": 2
                 }
             },
             "B4": {
@@ -2176,8 +2176,8 @@ const MASTER_SCHEDULE = {
             "B3": {
                 "thu-1630": {
                     "room": "NC 11",
-                    "span": 2,
-                    "type": "lab"
+                    "type": "lab",
+                    "span": 2
                 }
             },
             "B4": {
@@ -3119,7 +3119,6 @@ const MASTER_SCHEDULE = {
 };
 
 // --- LAB EMOJI MAPPING ---
-// 1. UPDATED: Added 'PP' to the Computer/Tech group
 const LAB_EMOJI_GROUPS = [
     { emoji: '💻', codes: ['PP', 'CAED', 'WD', 'MPFL', 'IPSSF', 'DS', 'DPV', 'PPS', 'FCP', 'GE', 'EW', 'CAD', 'DPI', 'EVA', 'RDOS'] },
     { emoji: '📐', codes: ['VCDE', 'PS', 'AEIOT', 'FPI', 'AIMA', 'NM', 'BMT'] }, 
@@ -3139,7 +3138,6 @@ function getLabEmoji(code, room) {
     // Fallback heuristics based on room name
     if (room && /computer|cognizant/i.test(room)) return '💻';
     
-    // 2. UPDATED: Return generic lab emoji if no match found
     return '🧪';
 }
 
@@ -3167,7 +3165,6 @@ function getStudentData(mis) {
 
                     const slot = divSchedule[timeKey];
                     
-                    // 3. UPDATED: Check for PD, CS, PP lectures to give them emojis
                     let lectureEmoji = "";
                     if (['PD', 'CS', 'PP'].includes(subjectCode.toUpperCase())) {
                         lectureEmoji = getLabEmoji(subjectCode, slot.room);
@@ -3193,7 +3190,6 @@ function getStudentData(mis) {
                             ...lab,
                             subj: subjectCode,
                             class: subjectCode.toLowerCase(),
-                            // This now works for PP (added to list) and others (via fallback)
                             tag: getLabEmoji(subjectCode, lab.room) 
                         };
 

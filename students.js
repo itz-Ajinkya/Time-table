@@ -4531,10 +4531,10 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "EVA",
-        "name": "EV Architecture",
+        "code": "WD",
+        "name": "Web Design",
         "div": "Div 1",
-        "batch": "B1"
+        "batch": "B2"
       }
     ],
     "schedule": {}
@@ -11295,9 +11295,9 @@ const GENERATED_DB = {
         "batch": "B2"
       },
       {
-        "code": "DPV",
-        "name": "Data Proc & Viz",
-        "div": "Div 1",
+        "code": "WD",
+        "name": "Web Design",
+        "div": "Div 2",
         "batch": "B1"
       }
     ],
@@ -24282,9 +24282,9 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "WD",
-        "name": "Web Design",
-        "div": "Div 2",
+        "code": "RDOS",
+        "name": "Robotics & Drone Safe",
+        "div": "Div 1",
         "batch": "B1"
       }
     ],
@@ -40008,7 +40008,7 @@ const GENERATED_DB = {
         "code": "EP",
         "name": "Engg Physics",
         "div": "Div 7",
-        "batch": "B1"
+        "batch": "B3"
       },
       {
         "code": "FME",
@@ -40352,7 +40352,7 @@ const GENERATED_DB = {
         "code": "EP",
         "name": "Engg Physics",
         "div": "Div 7",
-        "batch": "B1"
+        "batch": "B3"
       },
       {
         "code": "AEIOT",
@@ -43248,10 +43248,10 @@ const GENERATED_DB = {
         "batch": "B1"
       },
       {
-        "code": "CAD",
-        "name": "CAD Drafting",
+        "code": "WD",
+        "name": "Web Design",
         "div": "Div 1",
-        "batch": "B2"
+        "batch": "B1"
       }
     ],
     "schedule": {}
@@ -47054,7 +47054,7 @@ const GENERATED_DB = {
         "code": "DS",
         "name": "Discrete Struct",
         "div": "Div 2",
-        "batch": "B1"
+        "batch": "B4"
       },
       {
         "code": "PS",
@@ -47790,8 +47790,8 @@ const GENERATED_DB = {
       {
         "code": "PS",
         "name": "Probability & Stats",
-        "div": "Div 2",
-        "batch": "B2"
+        "div": "Div 3",
+        "batch": "B3"
       },
       {
         "code": "PD",
@@ -51720,8 +51720,8 @@ const GENERATED_DB = {
         "batch": "B3"
       },
       {
-        "code": "AEIOT",
-        "name": "Applied Elec & IoT",
+        "code": "FPI",
+        "name": "Fund Physical Infra",
         "div": "Div 1",
         "batch": "-"
       },
@@ -53507,10 +53507,10 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "EVA",
-        "name": "EV Architecture",
+        "code": "WD",
+        "name": "Web Design",
         "div": "Div 1",
-        "batch": "B2"
+        "batch": "B4"
       }
     ],
     "schedule": {}
@@ -57457,10 +57457,10 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "DPI",
-        "name": "Digital Public Infra",
-        "div": "Div 1",
-        "batch": "B1"
+        "code": "WD",
+        "name": "Web Design",
+        "div": "Div 2",
+        "batch": "B2"
       }
     ],
     "schedule": {}
@@ -57706,7 +57706,13 @@ const GENERATED_DB = {
         "code": "CS",
         "name": "Comm Skills",
         "div": "Div 6",
-        "batch": "B2"
+        "batch": "B3"
+      },
+      {
+        "code": "PD",
+        "name": "Personality Dev",
+        "div": "Div 6",
+        "batch": "-"
       },
       {
         "code": "WD",

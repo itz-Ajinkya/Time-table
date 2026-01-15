@@ -578,7 +578,7 @@
 
         table { border-collapse: separate; border-spacing: 0; min-width: 950px; width: 100%; table-layout: fixed; }
 
-        th { background: var(--primary); color: #fff; padding: 12px 4px; font-size: 0.8rem; text-transform: uppercase; position: sticky; top: 0; z-index: 20; }
+        th { background: var(--primary); color: #fff; padding: 12px 4px; font-size: 0.8rem; text-transform: uppercase; position: sticky; top: 0; z-index: 60; }
         body.dark-mode th { color: #121212; }
 
         .time-col { 
@@ -633,7 +633,7 @@
 
         .live-active {
             box-shadow: 0 0 0 3px var(--live-color) !important;
-            z-index: 10;
+            z-index: 40;
             filter: brightness(0.92);
             border-left-style: none !important;
             padding-left: 8px !important;
@@ -652,7 +652,7 @@
             font-family: 'Outfit', sans-serif; 
             font-weight: 900; font-size: 1.5rem; 
             color: var(--text-sub); vertical-align: middle; text-align: center; 
-            position: relative; overflow: visible; height: 140px; transform: translateZ(0);
+            position: relative; overflow: visible; height: 140px; transform: translateZ(0); z-index: 50;
         }
 
         #lunch-break.lunch-now { border: 2px solid var(--accent); animation: lunchBreath 4s ease infinite; }
@@ -704,7 +704,7 @@
             top: -20px;
             z-index: 60;
             animation: fall linear forwards; 
-            text-shadow: 0 0 4px rgba(0,0,0,0.8); /* Shadow for visibility in light mode */
+            text-shadow: 0 0 2px #000, 0 0 5px rgba(0,0,0,0.5); /* Stronger shadow for visibility */
             pointer-events: none;
         }
         @keyframes fall { 
@@ -1046,6 +1046,16 @@
             document.body.classList.add('dark-mode');
         }
         updateThemeIcon();
+
+        const savedViewMode = localStorage.getItem('viewMode');
+        if (savedViewMode === 'mobile') {
+            document.body.classList.add('view-mode-mobile');
+            setViewport('mobile');
+        } else if (savedViewMode === 'desktop') {
+            document.body.classList.add('view-mode-desktop');
+            setViewport('desktop');
+        }
+
         updateViewIcon();
 
         const savedUser = localStorage.getItem('currentUserMIS');
@@ -1088,10 +1098,12 @@
             body.classList.remove('view-mode-desktop');
             body.classList.add('view-mode-mobile');
             setViewport('mobile');
+            localStorage.setItem('viewMode', 'mobile');
         } else {
             body.classList.remove('view-mode-mobile');
             body.classList.add('view-mode-desktop');
             setViewport('desktop');
+            localStorage.setItem('viewMode', 'desktop');
         }
         updateViewIcon();
     }
