@@ -1,4 +1,3 @@
-// --- MASTER SCHEDULE DATABASE ---
 const MASTER_SCHEDULE = {
     "AEIOT": {
         "Div 1": {

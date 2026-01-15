@@ -8,28 +8,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗓️</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
 
     <style>
         @import url('https://fonts.cdnfonts.com/css/cascadia-code');
 
         :root {
             /* Light Mode Defaults */
-            --primary: #2c3e50;
-            --accent: #3498db;
-            --bg: #f4f6f8;
-            --card-bg: #ffffff;
-            --header-bg: #ffffff;
-            --header-bar-bg: #eef2f5;
-            --text-main: #2c3e50;
-            --text-sub: #7f8c8d;
-            --border: #e1e4e8;
-            --input-bg: #ffffff;
-            --shadow-soft: 0 4px 20px rgba(0,0,0,0.05);
-            --slot-shadow: 0 2px 5px rgba(0,0,0,0.08);
-            --live-color: #2ecc71;
-            --error: #e74c3c;
-            --clock-color: #2980b9;
-            --header-border: 1px solid #e1e4e8;
+            --primary: #6c5ce7;
+            --accent: #0984e3;
+            --bg: #f0f2f5;
+            --card-bg: rgba(255, 255, 255, 0.65);
+            --header-bg: rgba(255, 255, 255, 0.75);
+            --header-bar-bg: rgba(255, 255, 255, 0.5);
+            --text-main: #2d3436;
+            --text-sub: #636e72;
+            --border: rgba(255, 255, 255, 0.6);
+            --input-bg: rgba(255, 255, 255, 0.8);
+            --shadow-soft: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+            --slot-shadow: 0 4px 16px rgba(0,0,0,0.05);
+            --live-color: #00b894;
+            --error: #ff7675;
+            --clock-color: #6c5ce7;
+            --header-border: 1px solid rgba(255, 255, 255, 0.8);
+            --radius: 24px;
+            --card-bg-solid: #ffffff;
 
             /* CLASH COLORS (Default Light) */
             --clash-bg: #fff0f0;
@@ -38,34 +41,42 @@
 
         /* Dark Mode Overrides */
         body.dark-mode {
-            --primary: #ecf0f1;
-            --accent: #5dade2;
-            --bg: #121212;
-            --card-bg: #1e1e1e;
-            --header-bg: #181818; 
-            --header-bar-bg: #0d0d0d;
-            --text-main: #e0e0e0;
-            --text-sub: #a0a0a0;
-            --border: #333333;
-            --input-bg: #2c2c2c;
-            --shadow-soft: 0 4px 20px rgba(0,0,0,0.4);
-            --slot-shadow: 0 2px 5px rgba(0,0,0,0.3);
-            --clock-color: #4fabff;
-            --header-border: 1px solid #333;
-            --clash-bg: #fff0f0; 
-            --clash-text: #c0392b; 
+            --primary: #a29bfe;
+            --accent: #74b9ff;
+            --bg: #09090b;
+            --card-bg: rgba(24, 24, 27, 0.6);
+            --header-bg: rgba(24, 24, 27, 0.7); 
+            --header-bar-bg: rgba(39, 39, 42, 0.5);
+            --text-main: #fafafa;
+            --text-sub: #a1a1aa;
+            --border: rgba(255, 255, 255, 0.08);
+            --input-bg: rgba(39, 39, 42, 0.6);
+            --shadow-soft: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+            --slot-shadow: 0 4px 16px rgba(0,0,0,0.2);
+            --clock-color: #a29bfe;
+            --header-border: 1px solid rgba(255, 255, 255, 0.08);
+            --clash-bg: rgba(255, 82, 82, 0.1); 
+            --clash-text: #ff7675; 
+            --card-bg-solid: #18181b;
         }
 
         * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
             background-color: var(--bg);
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(108, 92, 231, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(9, 132, 227, 0.15) 0px, transparent 50%);
+            background-attachment: fixed;
             color: var(--text-main);
             margin: 0;
             padding: 0;
             overscroll-behavior-y: none;
             font-size: 16px;
+            caret-color: transparent;
+            user-select: none;
+            -webkit-user-select: none;
         }
 
         .hidden { display: none !important; }
@@ -74,47 +85,46 @@
            TOAST CONTAINER & NOTIFICATIONS
            ============================ */
         #toast-container {
-            position: fixed;
-            top: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 9999;
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             gap: 10px;
             pointer-events: none;
-            width: auto;
+            width: 100%;
+            z-index: 9999;
+            margin-bottom: 15px; /* Spacing between header and cards */
+            min-height: 0; /* Prevents layout jump when empty */
         }
 
         #custom-toast {
             position: relative;
             transform: none;
             background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
             border-left: 5px solid var(--accent);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            box-shadow: var(--shadow-soft);
             padding: 15px 20px;
-            border-radius: 12px;
-            min-width: 300px;
-            max-width: 90vw;
-            display: grid;
+            border-radius: 20px;
+            width: 100%;
+            max-width: 500px; /* Centered width */
+            display: none;
             grid-template-columns: auto 1fr auto;
             align-items: center;
             gap: 15px;
-
-            /* Hiding State */
-            display: none;
             pointer-events: auto;
-            animation: slideDown 0.4s ease;
+            animation: slideInToast 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 1px solid var(--border);
         }
 
         #custom-toast.show {
             display: grid;
         }
 
-        @keyframes slideDown {
-            from { opacity: 0; transform: translateY(-20px); }
-            to { opacity: 1; transform: translateY(0); }
+        @keyframes slideInToast {
+            from { opacity: 0; transform: translateY(-10px) scale(0.95); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
         }
 
         .toast-icon {
@@ -146,7 +156,7 @@
         /* Urgent Notification (Rainbow Border) */
         #custom-toast.urgent {
             border-left: none;
-            background: transparent; /* Fix: Allow pseudo-elements to show */
+            background: var(--card-bg-solid); /* Opaque background */
             padding: 15px 20px;
             overflow: hidden;
         }
@@ -168,8 +178,8 @@
             content: '';
             position: absolute;
             top: 3px; left: 3px; right: 3px; bottom: 3px;
-            background: var(--card-bg);
-            border-radius: 10px;
+            background: var(--card-bg-solid);
+            border-radius: 16px;
             z-index: -1;
         }
 
@@ -177,26 +187,32 @@
             100% { transform: rotate(360deg); }
         }
 
-        /* LIVE TOAST */
+        /* LIVE TOAST (Green Bar inside Header) */
         .live-toast {
             background: var(--card-bg) !important;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
             border: 1px solid var(--live-color);
-            border-radius: 12px;
+            border-radius: 20px;
             display: none; /* Hidden by default */
             align-items: stretch; /* Stretch strips to full height */
             gap: 0; /* Remove gap for edge attachment */
             box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-            width: 100%;
-            max-width: 100%;
+            width: auto;
+            margin: 10px 15px 15px 15px;
             pointer-events: auto;
             padding: 0; /* Remove padding for edge attachment */
-            margin-bottom: 20px;
             overflow: hidden;
             animation: slideDown 0.4s ease, pulse-green 2s infinite;
         }
 
         .live-toast.show {
             display: flex;
+        }
+        
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         @keyframes pulse-green {
@@ -229,20 +245,6 @@
 
         /* MOBILE OPTIMIZATIONS */
         @media (max-width: 768px) {
-            #toast-container {
-                position: relative;
-                top: 0; left: 0;
-                transform: none;
-                width: 100%;
-                margin: 0 0 15px 0;
-                pointer-events: none;
-            }
-
-            @keyframes slideDownMobile {
-                from { opacity: 0; transform: translateY(-20px); }
-                to { opacity: 1; transform: translateY(0); }
-            }
-
             /* Compact Table & Cards */
             td, td.time-col-cell, .break { height: 90px; padding: 2px; }
             .slot { padding: 4px 2px; }
@@ -258,7 +260,10 @@
 
             /* Header adjustments */
             .header-main { padding: 12px 15px; }
-            .container { padding: 10px 10px 80px 10px; }
+            .container { padding: 10px 10px 20px 10px; }
+            
+            .profile-info { order: 1; }
+            .header-center { order: 2; }
         }
 
         /* ============================
@@ -270,15 +275,17 @@
             flex-direction: column;
             justify-content: center;
             padding: 24px;
-            background: linear-gradient(135deg, #1a1a1a 0%, #2c3e50 100%);
+            background: transparent;
         }
 
         .login-card {
-            background: rgba(255, 255, 255, 0.96);
-            backdrop-filter: blur(12px);
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
             padding: 32px 24px;
-            border-radius: 24px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.25);
+            border-radius: 32px;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid var(--border);
             text-align: center;
             width: 100%;
             max-width: 400px;
@@ -287,8 +294,6 @@
         }
         @keyframes slideUp { from { transform: translateY(50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 
-        body.dark-mode .login-card { background: rgba(30, 30, 30, 0.96); }
-
         .login-card h1 { margin: 0 0 8px; color: #2c3e50; font-size: 1.8rem; font-family: 'Cascadia Code', monospace; font-weight: 600; letter-spacing: -0.5px; }
         body.dark-mode .login-card h1 { color: #fff; }
         .login-card p { color: #666; margin-bottom: 32px; font-size: 1rem; }
@@ -296,7 +301,7 @@
 
         .mis-input-wrapper {
             display: flex; align-items: center; background: var(--input-bg);
-            border: 2px solid var(--border); border-radius: 14px; padding: 1px 10px; margin-bottom: 14px;
+            border: 2px solid var(--border); border-radius: 20px; padding: 1px 10px; margin-bottom: 14px;
         }
         .mis-input-wrapper:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2); }
 
@@ -319,11 +324,14 @@
             width: 100%; 
             outline: none; 
             letter-spacing: 2px;
+            caret-color: var(--text-main);
+            user-select: text;
+            -webkit-user-select: text;
         }
 
         .btn-login {
             background: var(--accent); color: white; border: none; padding: 18px 0; width: 100%;
-            border-radius: 14px; font-size: 1.1rem; font-weight: 700; cursor: pointer;
+            border-radius: 20px; font-size: 1.1rem; font-weight: 700; cursor: pointer;
             box-shadow: 0 6px 20px rgba(52, 152, 219, 0.3);
             transition: transform 0.2s;
         }
@@ -333,25 +341,31 @@
         /* ============================
            DASHBOARD HEADER
            ============================ */
-        .container { padding: 12px 12px 80px 12px; max-width: 1600px; margin: 0 auto; }
+        .container { padding: 12px 12px 20px 12px; max-width: 1600px; margin: 0 auto; }
 
         header {
             background: var(--header-bg);
-            border-radius: 16px;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-radius: var(--radius);
             box-shadow: var(--shadow-soft);
-            margin-bottom: 16px;
+            margin-bottom: 10px;
             overflow: hidden;
             display: flex;
             flex-direction: column;
             border: var(--header-border);
+            position: relative;
+            z-index: 1000;
         }
 
         .header-main {
             padding: 16px 20px;
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
             min-height: 70px;
+            gap: 15px;
         }
 
         .profile-info { flex: 1; }
@@ -365,7 +379,7 @@
             border: 1px solid var(--border);
             background: rgba(0,0,0,0.03);
             padding: 6px 14px;
-            border-radius: 10px;
+            border-radius: 14px;
             display: inline-block;
             width: fit-content;
         }
@@ -430,53 +444,6 @@
             box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.1);
         }
 
-        /* --- TOGGLE SWITCH STYLES --- */
-        .notif-wrapper {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .switch {
-            position: relative;
-            display: inline-block;
-            width: 50px;
-            height: 28px;
-        }
-
-        .switch input { opacity: 0; width: 0; height: 0; }
-
-        .slider {
-            position: absolute;
-            cursor: pointer;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background-color: #ccc;
-            transition: .4s;
-            border-radius: 34px;
-            box-shadow: inset 0 2px 5px rgba(0,0,0,0.2);
-        }
-
-        .slider:before {
-            position: absolute;
-            content: "🔕"; 
-            display: flex; align-items: center; justify-content: center;
-            font-size: 14px;
-            height: 22px; width: 22px;
-            left: 3px; bottom: 3px;
-            background-color: white;
-            transition: .4s;
-            border-radius: 50%;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-        }
-
-        input:checked + .slider { background-color: var(--live-color); }
-        input:checked + .slider:before {
-            transform: translateX(22px);
-            content: "🔔"; 
-        }
-
-        body.dark-mode .slider { background-color: #444; }
-
         .status-bar {
             background: var(--header-bar-bg);
             padding: 10px 20px;
@@ -515,17 +482,32 @@
         .cards {
             display: flex; gap: 12px; overflow-x: auto; padding: 4px 4px 20px 4px;
             scroll-snap-type: x mandatory; margin: 0 -12px 10px -12px; padding-left: 12px; padding-right: 12px;
+            cursor: grab;
         }
         .cards::-webkit-scrollbar { display: none; }
+        
+        @media (min-width: 769px) {
+            .cards {
+                justify-content: center;
+                flex-wrap: wrap;
+                overflow-x: visible;
+                cursor: default;
+            }
+            
+            /* Desktop Header Layout */
+            .header-main {
+                flex-wrap: nowrap;
+            }
+        }
 
         .card {
             background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
             min-width: 130px; 
             padding: 15px 10px;
-            border-radius: 12px;
+            border-radius: var(--radius);
             border: 1px solid var(--border); 
-            border-bottom-width: 5px;
-            border-right-width: 5px; 
             box-shadow: var(--shadow-soft);
             scroll-snap-align: start;
             flex-shrink: 0;
@@ -534,7 +516,15 @@
             flex-direction: column;
             justify-content: space-between; 
             min-height: 150px;
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
+        
+        .cards.active {
+            cursor: grabbing;
+            scroll-snap-type: none; /* Disable snap while dragging */
+        }
+
+        .card:hover { transform: translateY(-5px) scale(1.02); }
 
         .card-top-content {
             display: flex;
@@ -562,7 +552,7 @@
             font-size: 1.1rem;
             font-weight: 800; 
             padding: 6px 10px; 
-            border-radius: 6px; 
+            border-radius: 12px; 
             display: inline-block; 
             box-shadow: 0 1px 2px rgba(0,0,0,0.1); 
             border: 1px solid #e1e4e8;
@@ -575,15 +565,16 @@
             background: #f8f9fa !important; 
             color: #2c3e50 !important;
             font-size: 0.75rem; font-weight: 700; padding: 3px 8px; 
-            border-radius: 4px; display: inline-block; 
+            border-radius: 8px; display: inline-block; 
             border: 1px solid #e1e4e8;
         }
 
         /* ============================
            TIMETABLE & SLOTS
            ============================ */
-        .timetable-wrapper { background: var(--card-bg); border-radius: 16px; box-shadow: var(--shadow-soft); overflow: hidden; position: relative; border: 1px solid var(--border); }
-        .table-scroll-container { overflow-x: auto; -webkit-overflow-scrolling: touch; width: 100%; }
+        .timetable-wrapper { background: var(--card-bg); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-radius: var(--radius); box-shadow: var(--shadow-soft); overflow: hidden; position: relative; border: 1px solid var(--border); }
+        .table-scroll-container { overflow-x: auto; -webkit-overflow-scrolling: touch; width: 100%; cursor: grab; }
+        .table-scroll-container.active { cursor: grabbing; }
 
         table { border-collapse: separate; border-spacing: 0; min-width: 950px; width: 100%; table-layout: fixed; }
 
@@ -591,14 +582,19 @@
         body.dark-mode th { color: #121212; }
 
         .time-col { 
-            position: sticky; left: 0; background: var(--card-bg); width: 115px; 
+            position: sticky; left: 0; background: rgba(255, 255, 255, 0.15); width: 115px; 
+            backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
             z-index: 1000 !important; 
-            border-right: 1px solid var(--border); font-size: 0.75rem; font-weight: 700; 
-            color: var(--text-sub); text-align: center; padding: 0 4px; 
+            border-right: 1px solid var(--border); font-size: 1.1rem; font-weight: 900; 
+            font-family: 'Outfit', sans-serif;
+            color: var(--text-main); text-align: center; padding: 0 4px; 
             box-shadow: 2px 0 5px rgba(0,0,0,0.05);
             display: flex; align-items: center; justify-content: center;
             white-space: nowrap;
         }
+        
+        body.dark-mode .time-col { background: rgba(0, 0, 0, 0.2); }
+
         td.time-col-cell { padding: 0; height: 140px; } 
 
         th:first-child { 
@@ -611,7 +607,7 @@
         th:not(:first-child), td:not(.time-col-cell) { width: calc((100% - 115px) / 6); min-width: 140px; }
 
         .slot, .split-item { 
-            height: 100%; width: 100%; border-radius: 10px; 
+            height: 100%; width: 100%; border-radius: 18px; 
             display: flex; flex-direction: column; justify-content: center; align-items: center; 
             text-align: center; position: relative; padding: 28px 4px 8px 4px; 
             box-shadow: var(--slot-shadow); overflow: visible; 
@@ -628,7 +624,7 @@
         .slot-split { display: flex; width: 100%; height: 100%; gap: 4px; pointer-events: auto; }
         .split-item { flex: 1; min-width: 0; font-size: 0.9em; }
         .slot-title { font-family: 'Eras Bold ITC', sans-serif; font-weight: 800; font-size: 1.2rem; margin-bottom: 4px; line-height: 1.1; }
-        .room-tag { background: rgba(255,255,255,0.85); color: #000; font-size: 0.85rem; font-weight: 700; padding: 4px 8px; border-radius: 6px; display: inline-block; }
+        .room-tag { background: rgba(255,255,255,0.85); color: #000; font-size: 0.85rem; font-weight: 700; padding: 4px 8px; border-radius: 10px; display: inline-block; }
 
         .lab-tag { 
             position: absolute; top: 4px; left: 50%; transform: translateX(-50%); 
@@ -646,17 +642,17 @@
         .live-badge {
             position: absolute; top: -12px; left: 50%; transform: translateX(-50%);
             background: var(--live-color); color: white; font-family: 'Cascadia Code', monospace;
-            font-weight: 600; font-size: 0.85rem; padding: 2px 12px; border-radius: 6px;
+            font-weight: 600; font-size: 0.85rem; padding: 2px 12px; border-radius: 10px;
             box-shadow: 0 4px 6px rgba(46, 204, 113, 0.3); z-index: 60; letter-spacing: 1px;
         }
 
         .break { 
             background: linear-gradient(120deg, var(--bg) 0%, var(--card-bg) 50%, var(--bg) 100%);
             background-size: 200% 200%;
-            font-family: 'Cascadia Code', monospace; 
-            font-weight: 600; font-size: 1.5rem; 
+            font-family: 'Outfit', sans-serif; 
+            font-weight: 900; font-size: 1.5rem; 
             color: var(--text-sub); vertical-align: middle; text-align: center; 
-            position: relative; overflow: hidden; height: 140px; 
+            position: relative; overflow: visible; height: 140px; transform: translateZ(0);
         }
 
         #lunch-break.lunch-now { border: 2px solid var(--accent); animation: lunchBreath 4s ease infinite; }
@@ -668,7 +664,9 @@
 
         .lunch-emoji {
             position: absolute; pointer-events: none; user-select: none;
-            bottom: -50px; font-size: 0.8rem; z-index: 4; will-change: transform;
+            bottom: -50px; font-size: 0.8rem; z-index: 500; will-change: transform;
+            /* Ensure emojis are above other elements */
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
         }
 
         .emoji-burst { animation: burstPop 0.2s ease-out forwards; }
@@ -681,7 +679,7 @@
         .lb-text { 
             position: relative; z-index: 10;
             background: var(--card-bg); color: var(--text-main);
-            padding: 8px 16px; border-radius: 12px; 
+            padding: 8px 16px; border-radius: 20px; 
             box-shadow: 0 4px 10px rgba(0,0,0,0.08); border: 1px solid var(--border);
         }
 
@@ -699,12 +697,15 @@
             border-bottom: 3px solid #fff; 
         }
 
-        .snowfall { position: absolute; inset: 0; overflow: hidden; pointer-events: none; opacity: 0.5; z-index: 2; }
+        .snowfall { position: absolute; inset: 0; overflow: visible; pointer-events: none; opacity: 1; z-index: 50; }
         .snowflake { 
             position: absolute; 
-            color: white; 
+            color: #fff;
             top: -20px;
+            z-index: 60;
             animation: fall linear forwards; 
+            text-shadow: 0 0 4px rgba(0,0,0,0.8); /* Shadow for visibility in light mode */
+            pointer-events: none;
         }
         @keyframes fall { 
             0% { transform: translateY(0); opacity: 1; }
@@ -742,10 +743,12 @@
         .contact-footer {
             text-align: center;
             padding: 2rem;
-            background-color: var(--card-bg);
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
             margin-top: 2rem;
             border-top: 1px solid var(--border);
-            border-radius: 16px;
+            border-radius: var(--radius);
         }
 
         .contact-footer p {
@@ -786,6 +789,66 @@
         .social-btn:hover {
             transform: translateY(-3px);
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        /* --- VIEW MODE SIMULATIONS --- */
+
+        /* 1. Mobile Simulation on Desktop (S24 Ultra style) */
+        @media (min-width: 769px) {
+            body.view-mode-mobile {
+                background: #1e1e1e !important; /* Dark desk environment */
+                background-image: none !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                overflow: hidden;
+                padding: 0;
+                margin: 0;
+            }
+
+            body.view-mode-mobile #timetable-page {
+                width: 412px; /* S20 Ultra width */
+                height: 915px; /* S20 Ultra height */
+                max-height: 95vh;
+                background-color: var(--bg);
+                background-image: 
+                    radial-gradient(at 0% 0%, rgba(108, 92, 231, 0.15) 0px, transparent 50%),
+                    radial-gradient(at 100% 100%, rgba(9, 132, 227, 0.15) 0px, transparent 50%);
+                background-attachment: scroll;
+                border: 10px solid #000;
+                border-radius: 24px;
+                box-shadow: 0 0 0 2px #333, 0 20px 50px rgba(0,0,0,0.5);
+                overflow-y: auto; /* Enable scroll on the frame */
+                overflow-x: hidden;
+                position: relative;
+                margin: 0;
+            }
+
+            body.view-mode-mobile .container::-webkit-scrollbar { width: 0; background: transparent; }
+            
+            body.view-mode-mobile .container { 
+                padding: 10px;
+                min-height: 100%;
+            }
+            
+            body.view-mode-mobile .cards { justify-content: flex-start !important; flex-wrap: nowrap !important; overflow-x: auto !important; }
+            
+            body.view-mode-mobile header { 
+                position: relative;
+                top: auto;
+                z-index: 1;
+                margin-bottom: 16px;
+                width: 100%; 
+                border-radius: var(--radius);
+                border: var(--header-border);
+            }
+        }
+
+        /* 2. Desktop Simulation on Mobile */
+        @media (max-width: 768px) {
+            body.view-mode-desktop { min-width: 1200px; overflow-x: auto; }
+            body.view-mode-desktop .cards { justify-content: center !important; flex-wrap: wrap !important; overflow-x: visible !important; }
         }
     </style>
 </head>
@@ -837,12 +900,24 @@
                             <div class="bulb-glow"></div>
                             <span class="theme-icon" id="theme-icon">🌙</span>
                         </button>
+                        <button class="theme-btn" onclick="toggleViewMode()" id="view-btn" aria-label="Toggle View">
+                            <span class="theme-icon" id="view-icon">📱</span>
+                        </button>
                     </div>
                 </div>
 
                 <div class="status-bar">
                     <div id="clock">Mon, 12:00:00 PM</div>
                     <button class="logout-btn" onclick="logout()">Logout</button>
+                </div>
+
+                <div id="live-toast" class="live-toast">
+                    <div class="live-vertical-text">LIVE</div>
+                    <div class="live-content">
+                        <h4 id="live-title">Subject</h4>
+                        <p id="live-room">Room</p>
+                    </div>
+                    <div class="live-vertical-text">LIVE</div>
                 </div>
             </header>
 
@@ -868,16 +943,9 @@
                 </span>
             </div>
 
-            <div id="live-toast" class="live-toast">
-                <div class="live-vertical-text">LIVE</div>
-                <div class="live-content">
-                    <h4 id="live-title">Subject</h4>
-                    <p id="live-room">Room</p>
-                </div>
-                <div class="live-vertical-text">LIVE</div>
-            </div>
-
             <div class="cards" id="subject-cards-container"></div>
+
+            <div id="dynamic-notes-container"></div>
 
             <div class="timetable-wrapper">
                 <div class="table-scroll-container">
@@ -897,8 +965,6 @@
                     </table>
                 </div>
             </div>
-
-            <div id="dynamic-notes-container"></div>
 
             <footer class="contact-footer">
                 <div style="margin-top: 15px; font-size: 1.2rem; opacity: 0.7; font-family: 'Cascadia Code SemiBold', monospace;">
@@ -980,15 +1046,19 @@
             document.body.classList.add('dark-mode');
         }
         updateThemeIcon();
+        updateViewIcon();
 
         const savedUser = localStorage.getItem('currentUserMIS');
         if(savedUser && typeof getStudentData === "function") {
             const data = getStudentData(savedUser);
             if(data) loadDashboard(data);
+            enableDragScroll();
         }
 
         requestAnimationFrame(animateLoop);
     };
+
+    window.addEventListener('resize', updateViewIcon);
 
     function toggleTheme() {
         document.body.classList.toggle('dark-mode');
@@ -1001,6 +1071,47 @@
         const isDark = document.body.classList.contains('dark-mode');
         const icon = document.getElementById('theme-icon');
         if(icon) icon.innerText = isDark ? '☀️' : '🌙';
+    }
+
+    function toggleViewMode() {
+        const body = document.body;
+        const isForcedMobile = body.classList.contains('view-mode-mobile');
+        const isForcedDesktop = body.classList.contains('view-mode-desktop');
+        
+        let targetMode = '';
+
+        if (isForcedDesktop) targetMode = 'mobile';
+        else if (isForcedMobile) targetMode = 'desktop';
+        else targetMode = window.innerWidth > 768 ? 'mobile' : 'desktop';
+        
+        if (targetMode === 'mobile') {
+            body.classList.remove('view-mode-desktop');
+            body.classList.add('view-mode-mobile');
+            setViewport('mobile');
+        } else {
+            body.classList.remove('view-mode-mobile');
+            body.classList.add('view-mode-desktop');
+            setViewport('desktop');
+        }
+        updateViewIcon();
+    }
+
+    function setViewport(mode) {
+        const meta = document.querySelector('meta[name="viewport"]');
+        if (!meta) return;
+        if (mode === 'desktop') meta.setAttribute('content', 'width=1200');
+        else meta.setAttribute('content', 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0');
+    }
+
+    function updateViewIcon() {
+        const icon = document.getElementById('view-icon');
+        if (!icon) return;
+        const body = document.body;
+        const isForcedMobile = body.classList.contains('view-mode-mobile');
+        const isForcedDesktop = body.classList.contains('view-mode-desktop');
+        
+        const isDesktopView = isForcedDesktop || (window.innerWidth > 768 && !isForcedMobile);
+        icon.innerText = isDesktopView ? '📱' : '💻';
     }
 
     // Login
@@ -1028,6 +1139,7 @@
         if (data) {
             localStorage.setItem('currentUserMIS', fullMis);
             loadDashboard(data);
+            enableDragScroll();
         } else {
             const msg = document.getElementById('error-msg');
             msg.style.display = 'block';
@@ -1368,8 +1480,8 @@
         if (typeof ACTIVE_NOTES === 'undefined' || !Array.isArray(ACTIVE_NOTES)) return;
         const container = document.getElementById('dynamic-notes-container');
         container.innerHTML = ACTIVE_NOTES.map(note => `
-            <div style="text-align: center; font-family: 'Cascadia Code', monospace; font-size: 0.85rem; color: #856404; background: #fffcf0; padding: 10px; border-radius: 8px; margin: 20px auto 0 auto; max-width: 500px; border: 1px solid #ffeeba;">
-                ⚠️ <strong>Note:</strong> ${note}
+            <div style="text-align: center; font-family: 'Cascadia Code', monospace; font-size: 0.85rem; color: #856404; background: #fffcf0; padding: 10px; border-radius: 8px; margin: 0 auto 20px auto; max-width: 500px; border: 1px solid #ffeeba;">
+                📢 ${note}
             </div>
         `).join('');
     }
@@ -1430,7 +1542,7 @@
         }
     }
 
-    function updateSnowAnimation() {
+        function updateSnowAnimation() {
         if (!currentLiveSlotId) return;
 
         const el = document.getElementById(currentLiveSlotId);
