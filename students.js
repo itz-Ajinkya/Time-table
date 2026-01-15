@@ -43497,7 +43497,7 @@ const GENERATED_DB = {
         "code": "VCDE",
         "name": "Vector Calculus",
         "div": "Div 1",
-        "batch": "B1"
+        "batch": "B3"
       },
       {
         "code": "PD",
@@ -57466,7 +57466,7 @@ const GENERATED_DB = {
     "schedule": {}
   },
   "612515364": {
-    "name": "AREEN VALS\ufffdNGKAR",
+    "name": "AREEN VALS�NGKAR",
     "info": "MIS: 612515364",
     "cards": [
       {
@@ -57709,15 +57709,9 @@ const GENERATED_DB = {
         "batch": "B3"
       },
       {
-        "code": "PD",
-        "name": "Personality Dev",
-        "div": "Div 6",
-        "batch": "-"
-      },
-      {
         "code": "PP",
         "name": "Python Programming",
-        "div": "Div 4",
+        "div": "Div 5",
         "batch": "B1"
       }
     ],
