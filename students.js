@@ -1134,8 +1134,8 @@ const GENERATED_DB = {
         "batch": "-"
       },
       {
-        "code": "EVA",
-        "name": "EV Architecture",
+        "code": "FCP",
+        "name": "Fund Const Practices",
         "div": "Div 1",
         "batch": "B1"
       }
