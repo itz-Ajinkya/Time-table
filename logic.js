@@ -2356,7 +2356,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "fri-1130": {
-                "room": "NC -  4",
+                "room": "NC -  8",
                 "type": "lec"
             },
             "tue-1430": {
@@ -2364,7 +2364,7 @@ const MASTER_SCHEDULE = {
                 "type": "lec"
             },
             "wed-1630": {
-                "room": "NC -  4",
+                "room": "NC -  8",
                 "type": "lec"
             }
         }
