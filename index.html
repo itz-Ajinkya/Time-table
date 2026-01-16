@@ -93,9 +93,7 @@
             justify-content: center;
             gap: 10px;
             pointer-events: none;
-            width: 100%;
             z-index: 9999;
-            margin-bottom: 15px; /* Spacing between header and cards */
             min-height: 0; /* Prevents layout jump when empty */
         }
 
@@ -110,18 +108,20 @@
             padding: 15px 20px;
             border-radius: 20px;
             width: 100%;
-            max-width: 500px; /* Centered width */
+            max-width: 400px; /* Centered width */
             display: none;
-            grid-template-columns: auto 1fr auto;
+            flex-direction: column;
             align-items: center;
+            text-align: center;
             gap: 15px;
             pointer-events: auto;
             animation: slideInToast 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             border: 1px solid var(--border);
+            transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
 
         #custom-toast.show {
-            display: grid;
+            display: flex;
         }
 
         @keyframes slideInToast {
@@ -129,30 +129,50 @@
             to { opacity: 1; transform: translateY(0) scale(1); }
         }
 
-        .toast-icon {
-            font-size: 2rem;
-            animation: ring 1s infinite ease-in-out;
-        }
-
-        @keyframes ring {
-            0% { transform: rotate(0); }
-            10% { transform: rotate(30deg); }
-            30% { transform: rotate(-28deg); }
-            50% { transform: rotate(34deg); }
-            70% { transform: rotate(-32deg); }
-            100% { transform: rotate(0); }
-        }
-
-        .toast-content { min-width: 0; }
-        .toast-content h4 { margin: 0 0 4px 0; font-size: 1rem; color: var(--text-main); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        .toast-content p { margin: 0; font-size: 0.9rem; color: var(--text-sub); }
+        .toast-content { min-width: 0; width: 100%; transition: all 0.3s ease; }
 
         .toast-timer {
             font-family: 'Cascadia Code', monospace;
-            font-size: 1.4rem;
-            font-weight: 700;
+            font-size: 2.5rem;
+            font-weight: 800;
             color: var(--accent);
             white-space: nowrap;
+            line-height: 1;
+            transition: all 0.3s ease;
+        }
+        
+        .glow-line {
+            width: 80%;
+            height: 3px;
+            background: var(--accent);
+            box-shadow: 0 0 10px var(--accent);
+            margin: 5px 0 10px 0;
+            border-radius: 2px;
+            transition: all 0.5s ease;
+        }
+
+        #toast-subject {
+            font-family: 'Eras Bold ITC', sans-serif;
+            font-weight: 900;
+            font-size: 2rem;
+            line-height: 1.1;
+            margin: 0 0 5px 0;
+            color: var(--text-main);
+        }
+
+        #toast-type {
+            font-size: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--text-sub);
+            letter-spacing: 1px;
+            margin-bottom: 2px;
+        }
+
+        #toast-location {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: var(--text-main);
         }
 
         /* Urgent Notification (Rainbow Border) */
@@ -201,7 +221,6 @@
             gap: 0; /* Remove gap for edge attachment */
             box-shadow: 0 10px 30px rgba(0,0,0,0.15);
             width: auto;
-            margin: 10px 15px 15px 15px;
             pointer-events: auto;
             padding: 0; /* Remove padding for edge attachment */
             overflow: hidden;
@@ -245,21 +264,98 @@
         .live-content h4 { font-family: 'Eras Bold ITC', sans-serif; margin: 0 0 4px 0; font-size: 1.3rem; color: var(--text-main); }
         .live-content p { margin: 0; font-size: 0.9rem; color: var(--text-sub); font-weight: 1000; }
 
+        /* Notification Wrapper for Dual Mode */
+        #notification-wrapper {
+            display: flex;
+            flex-direction: row; /* Always row for smooth resizing */
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: stretch;
+            width: 100%;
+            transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .live-toast {
+            flex: 1 1 100%; /* Take full width by default */
+            margin: 10px 15px 15px 15px;
+            transition: flex 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), margin 0.5s ease, max-width 0.5s ease;
+        }
+
+        #toast-container {
+            flex: 1 1 100%; /* Take full width by default */
+            padding: 0 15px 15px 15px;
+            transition: flex 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), padding 0.5s ease;
+        }
+
+        /* --- SINGLE MODE LAYOUT (Data Left, Timer Right) --- */
+        #notification-wrapper:not(.dual-mode) #custom-toast {
+            flex-direction: row;
+            text-align: left;
+            justify-content: space-between;
+            max-width: 550px;
+            padding: 8px 25px;
+        }
+        #notification-wrapper:not(.dual-mode) .toast-content { order: 1; text-align: left; }
+        #notification-wrapper:not(.dual-mode) .glow-line { 
+            order: 2; width: 4px; height: 40px; margin: 0 20px; 
+        }
+        #notification-wrapper:not(.dual-mode) .toast-timer { order: 3; font-size: 2.8rem; }
+
+
+        /* --- DUAL MODE LAYOUT (Side by Side) --- */
+        #notification-wrapper.dual-mode {
+            padding: 10px 15px 15px 15px;
+            gap: 10px;
+        }
+
+        #notification-wrapper.dual-mode .live-toast {
+            margin: 0; 
+            flex: 1 1 40%; /* Shrink to share space */
+        }
+
+        #notification-wrapper.dual-mode #toast-container {
+            margin: 0; 
+            flex: 1 1 40%; /* Shrink to share space */
+            padding: 0;
+        }
+
+        /* In Dual Mode, revert custom toast to Column layout to fit */
+        #notification-wrapper.dual-mode #custom-toast {
+            max-width: none; height: 100%; margin: 0; 
+            flex-direction: column; text-align: center;
+        }
+        #notification-wrapper.dual-mode .toast-content { order: 3; text-align: center; }
+        #notification-wrapper.dual-mode .glow-line { order: 2; width: 80%; height: 3px; margin: 5px 0 10px 0; }
+        #notification-wrapper.dual-mode .toast-timer { order: 1; font-size: 2.2rem; }
+
         /* MOBILE OPTIMIZATIONS */
         @media (max-width: 768px) {
             /* Compact Table & Cards */
-            td, td.time-col-cell, .break { height: 90px; padding: 2px; }
+            td, td.time-col-cell, .break { height: 100px; padding: 2px; }
             .slot { padding: 4px 2px; }
             .slot-title { font-size: 1rem; margin-bottom: 2px; }
             .room-tag { font-size: 0.5rem; padding: 2px 6px; }
             .lab-tag { font-size: 1.2rem; top: 2px; }
 
-            .card { min-height: 110px; padding: 10px 8px; }
+            .card { min-height: 160px; padding: 10px 8px; }
             .card .subject { font-size: 1.3rem; font-weight: 1000; font-family: 'Eras Bold ITC', sans-serif; }
             /* Hide Subject Full Name by default on mobile too, but ensure touch behavior */
             .card h3 { font-size: 0.9rem; } 
             .card .detail { font-size: 0.9rem; padding: 4px 8px; }
             .card .batch-badge { font-size: 0.7rem; padding: 2px 6px; }
+
+            #lunch-break {
+                text-align: left;
+            }
+            #lunch-break .lb-text {
+                position: sticky;
+                /* Center between time column (115px) and right edge */
+                left: calc(50vw + 57.5px);
+                transform: translateX(-50%);
+                margin-left: 0;
+                width: max-content;
+                z-index: 200;
+            }
 
             /* Header adjustments */
             .header-main { padding: 12px 15px; }
@@ -267,6 +363,34 @@
             
             .profile-info { order: 1; }
             .header-center { order: 2; }
+
+            /* Mobile Notification Fixes (Dual Mode Stack) */
+            #notification-wrapper.dual-mode {
+                flex-direction: column;
+                padding: 0;
+                gap: 0;
+            }
+
+            #notification-wrapper.dual-mode .live-toast {
+                margin: 10px 15px 10px 15px;
+                flex: none;
+                width: auto;
+            }
+
+            #notification-wrapper.dual-mode #toast-container {
+                padding: 0 15px 15px 15px;
+                margin: 0;
+                flex: none;
+                width: 100%;
+            }
+
+            #custom-toast {
+                padding: 12px 16px;
+                border-radius: 18px;
+                gap: 12px;
+                box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            }
+
         }
 
         /* ============================
@@ -507,7 +631,8 @@
             background: var(--card-bg);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
-            min-width: 130px; 
+            width: 150px;
+            min-width: 150px; 
             padding: 15px 10px;
             border-radius: var(--radius);
             border: 1px solid var(--border); 
@@ -518,7 +643,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between; 
-            min-height: 150px;
+            min-height: 180px;
             transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
         
@@ -557,7 +682,7 @@
             opacity: 1; /* Visible on hover */
         }
 
-        .card .subject { font-family: 'Eras Bold ITC', sans-serif; font-size: 1.5rem; font-weight: 800; line-height: 1.2; }
+        .card .subject { font-family: 'Gill Sans Ultra', sans-serif; font-size: 1.7rem; font-weight: 800; line-height: 1.2; margin-top: 6px; }
 
         .card .detail { 
             background: #f8f9fa !important; 
@@ -589,24 +714,24 @@
         .table-scroll-container { overflow-x: auto; -webkit-overflow-scrolling: touch; width: 100%; cursor: grab; }
         .table-scroll-container.active { cursor: grabbing; }
 
-        table { border-collapse: separate; border-spacing: 0; min-width: 750px; width: 100%; table-layout: fixed; }
+        table { border-collapse: separate; border-spacing: 0; min-width: 1200px; width: 100%; table-layout: fixed; }
 
         th { background: var(--primary); color: #fff; padding: 12px 4px; font-size: 0.8rem; text-transform: uppercase; position: sticky; top: 0; z-index: 60; }
         body.dark-mode th { color: #121212; }
 
         .time-col { 
-            position: sticky; left: 0; background: rgba(255, 255, 255, 0.15); width: 115px; 
+            position: sticky; left: 0; background: rgba(255, 255, 255, 0.8); width: 115px; 
             backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
             z-index: 1000 !important; 
             border-right: 1px solid var(--border); font-size: 1.1rem; font-weight: 900; 
             font-family: 'Outfit', sans-serif;
             color: var(--text-main); text-align: center; padding: 0 4px; 
             box-shadow: 2px 0 5px rgba(0,0,0,0.05);
-            display: flex; align-items: center; justify-content: center;
+            vertical-align: middle !important;
             white-space: nowrap;
         }
         
-        body.dark-mode .time-col { background: rgba(0, 0, 0, 0.2); }
+        body.dark-mode .time-col { background: rgba(0, 0, 0, 0.8); }
 
         td.time-col-cell { padding: 0; height: 80px; } 
 
@@ -620,7 +745,7 @@
         }
 
         td { border-bottom: 1px solid var(--border); border-right: 1px solid var(--border); padding: 4px; vertical-align: top; height: 80px; }
-        th:not(:first-child), td:not(.time-col-cell) { width: calc((100% - 115px) / 6); min-width: 100px; }
+        th:not(:first-child), td:not(.time-col-cell) { width: calc((100% - 115px) / 6); min-width: 175px; }
 
         .slot, .split-item { 
             height: 100%; width: 100%; border-radius: 18px; 
@@ -631,20 +756,43 @@
         }
 
         .slot:hover, .split-item:hover { 
-            transform: translateY(-6px) scale(1.03); 
+            transform: translateY(-2px) scale(1.01); 
             z-index: 500 !important; 
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15); 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+        }
+
+        .delayed-slot::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -2000px;
+            width: 2000px;
+            border-top: 2px dashed rgba(255, 0, 0, 0.25);
+            z-index: -1;
+            pointer-events: none;
         }
 
         .slot-collision { background: transparent; box-shadow: none; padding: 0; pointer-events: none; }
         .slot-split { display: flex; width: 100%; height: 100%; gap: 4px; pointer-events: auto; }
         .split-item { flex: 1; min-width: 0; font-size: 0.9em; }
-        .slot-title { font-family: 'Eras Bold ITC', sans-serif; font-weight: 800; font-size: 0.95rem; margin-bottom: 2px; line-height: 1.1; position: relative; z-index: 2; }
-        .room-tag { background: rgba(255,255,255,0.85); color: #000; font-size: 0.75rem; font-weight: 700; padding: 2px 6px; border-radius: 8px; display: inline-block; position: relative; z-index: 2; }
+        .slot-title { font-family: 'Eras Bold ITC', sans-serif; font-weight: 800; font-size: 1.6rem; margin-bottom: 6px; line-height: 1.1; position: relative; z-index: 2; }
 
-        .lab-tag { 
-            position: absolute; top: 2px; left: 50%; transform: translateX(-50%); 
-            font-size: 1.1rem; line-height: 1; z-index: 5; filter: drop-shadow(0 2px 2px rgba(0,0,0,0.1));
+        .slot-footer { position: relative; z-index: 2; display: flex; align-items: center; justify-content: center; gap: 3px; max-width: 98%; margin-top: 2px; }
+        .info-box { 
+            background: rgba(255,255,255,0.9); color: #000; 
+            font-size: 0.9rem; font-weight: 700; padding: 2px 6px; 
+            border-radius: 6px; white-space: nowrap; 
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1); 
+        }
+        .separator { font-size: 1.3rem; filter: drop-shadow(0 1px 1px rgba(0,0,0,0.1)); }
+
+        .lab-tag {      
+            position: absolute; top: 4px; right: 4px; left: auto; transform: none; 
+            font-size: 2rem; line-height: 1; z-index: 5; filter: drop-shadow(0 2px 2px rgba(0,0,0,0.1));
+        }
+
+        .ds .lab-tag {
+            font-size: 1.2rem;
         }
 
         .emoji-burst { animation: burstPop 0.2s ease-out forwards; }
@@ -927,26 +1075,28 @@
                     <button class="logout-btn" onclick="logout()">Logout</button>
                 </div>
 
-                <div id="live-toast" class="live-toast">
-                    <div class="live-vertical-text">LIVE</div>
-                    <div class="live-content">
-                        <h4 id="live-title">Subject</h4>
-                        <p id="live-room">Room</p>
+                <div id="notification-wrapper">
+                    <div id="live-toast" class="live-toast">
+                        <div class="live-vertical-text">LIVE</div>
+                        <div class="live-content">
+                            <h4 id="live-title">Subject</h4>
+                            <p id="live-room">Room</p>
+                        </div>
+                        <div class="live-vertical-text">LIVE</div>
                     </div>
-                    <div class="live-vertical-text">LIVE</div>
+                    <div id="toast-container">
+                        <div id="custom-toast">
+                            <div class="toast-content">
+                                <div id="toast-subject"></div>
+                                <div id="toast-type"></div>
+                                <div id="toast-location"></div>
+                            </div>
+                            <div class="glow-line"></div>
+                            <div class="toast-timer" id="toast-timer"></div>
+                        </div>
+                    </div>
                 </div>
             </header>
-
-            <div id="toast-container">
-                <div id="custom-toast">
-                    <div class="toast-icon">🔔</div>
-                    <div class="toast-content">
-                        <h4 id="toast-title">Notification</h4>
-                        <p id="toast-body">Message goes here</p>
-                    </div>
-                    <div class="toast-timer" id="toast-timer"></div>
-                </div>
-            </div>
 
             <div id="clash-footer" class="clash-note" style="margin-bottom: 20px;">
                 <div style="font-size: 1.1em; margin-bottom: 8px;">⚠️ <strong>Clash Detected!</strong></div>
@@ -1197,15 +1347,17 @@
         location.reload();
     }
 
-    function showCustomNotification(title, body, timerStr = "", persistent = false, isUrgent = false) {
+    function showCustomNotification(subject, type, location, timerStr = "", persistent = false, isUrgent = false) {
         const toast = document.getElementById('custom-toast');
-        const tTitle = document.getElementById('toast-title');
-        const tBody = document.getElementById('toast-body');
+        const tSubject = document.getElementById('toast-subject');
+        const tType = document.getElementById('toast-type');
+        const tLocation = document.getElementById('toast-location');
         const tTimer = document.getElementById('toast-timer');
 
-        if(toast && tTitle && tBody) {
-            tTitle.innerText = title;
-            tBody.innerText = body;
+        if(toast) {
+            if(tSubject) tSubject.innerText = subject;
+            if(tType) tType.innerText = type;
+            if(tLocation) tLocation.innerText = location;
             if(tTimer) tTimer.innerText = timerStr;
 
             // Handle Urgent State
@@ -1301,17 +1453,22 @@
         const isUrgent = diffMins <= 5;
 
         // Prepare content
-        let title = "Upcoming Class";
-        let body = "";
+        let subject = "";
+        let type = "";
+        let location = "";
+
         if (Array.isArray(classData)) {
-            body = classData.map(c => c.subj).join(' / ');
+            subject = classData.map(c => c.subj).join('/');
+            type = "CLASH";
+            location = classData.map(c => c.room).join('/');
         } else {
-            const type = classData.type === 'lab' ? 'LAB' : 'Lecture';
-            body = `${classData.subj} (${type}) - Room ${classData.room}`;
+            subject = classData.subj;
+            type = classData.type === 'lab' ? 'LAB' : 'LECTURE';
+            location = classData.room;
         }
 
         // Show/Update Notification
-        showCustomNotification(title, body, timeString, true, isUrgent);
+        showCustomNotification(subject, type, location, timeString, true, isUrgent);
     }
 
     // --- COLLISION FIXER ---
@@ -1479,12 +1636,12 @@
             if (slot.id === "1230") {
                 const hasClass = days.some(d => schedule[`${d}-1230`]);
                 if (!hasClass) {
-                    tbody.innerHTML += `<tr><td class="time-col time-col-cell"><div class="time-col">${slot.label}</div></td><td colspan="6" class="break" id="lunch-break"><span class="lb-text">LUNCH BREAK</span></td></tr>`;
+                    tbody.innerHTML += `<tr><td class="time-col time-col-cell">${slot.label}</td><td colspan="6" class="break" id="lunch-break"><span class="lb-text">LUNCH BREAK</span></td></tr>`;
                     return;
                 }
             }
 
-            let rowHtml = `<tr><td class="time-col time-col-cell"><div class="time-col">${slot.label}</div></td>`;
+            let rowHtml = `<tr><td class="time-col time-col-cell">${slot.label}</td>`;
 
             days.forEach(day => {
                 const key = `${day}-${slot.id}`;
@@ -1510,10 +1667,17 @@
                              const textColor = readableTextColor(color);
                              const emoji = it.tag || ((it.type === 'lab' && typeof getLabEmoji === 'function') ? getLabEmoji(it.subj, it.room) : '');
 
-                             rowHtml += `<div class="split-item" style="background:${bg}; border-left:4px solid ${color}; color:${textColor}">
+                             const divStr = it.div ? it.div.replace('Div ', 'D') : '';
+                             const batchStr = (it.batch && it.batch !== '-') ? it.batch : '';
+                             const metaStr = [divStr, batchStr].filter(Boolean).join(' | ');
+
+                             rowHtml += `<div class="split-item ${it.class||''}" style="background:${bg}; border-left:4px solid ${color}; color:${textColor}">
                                 ${emoji ? `<span class="lab-tag">${emoji}</span>` : ''}
-                                <div class="slot-title" style="color:${color}; font-size:1rem">${it.subj}</div>
-                                <span class="room-tag" style="font-size:0.75rem">${it.room}</span>
+                                <div class="slot-title" style="color:${color}; font-size:1.2rem">${it.subj}</div>
+                                <div class="slot-footer">
+                                    <span class="info-box">${it.room}</span>
+                                    ${metaStr ? `<span class="separator">😏</span><span class="info-box">${metaStr}</span>` : ''}
+                                </div>
                              </div>`;
                         });
                         rowHtml += `</div></div></td>`;
@@ -1528,15 +1692,24 @@
                         const emoji = item.tag || ((item.type === 'lab' && typeof getLabEmoji === 'function') ? getLabEmoji(item.subj, item.room) : '');
 
                         let extraStyle = "";
+                        let delayedClass = "";
                         if (item.delayed) {
-                             extraStyle = "height: calc(100% - 70px) !important; margin-top: 70px !important;";
+                             extraStyle = "height: calc(100% - 40px) !important; margin-top: 40px !important;";
+                             delayedClass = "delayed-slot";
                         }
+                        
+                        const divStr = item.div ? item.div.replace('Div ', 'D') : '';
+                        const batchStr = (item.batch && item.batch !== '-') ? item.batch : '';
+                        const metaStr = [divStr, batchStr].filter(Boolean).join(' | ');
 
                         rowHtml += `<td rowspan="${span}">
-                        <div class="slot ${item.class||''}" id="${key}" style="background:${bg}; border-left:4px solid ${color}; color:${textColor}; ${extraStyle}">
+                        <div class="slot ${item.class||''} ${delayedClass}" id="${key}" style="background:${bg}; border-left:4px solid ${color}; color:${textColor}; ${extraStyle}">
                             ${emoji ? `<span class="lab-tag">${emoji}</span>` : ''}
                             <div class="slot-title" style="color:${color}">${item.subj}${item.type==='lab'?' LAB':''}</div>
-                            <span class="room-tag">${item.custom_time ? item.custom_time + '<br>' : ''}${item.room}</span>
+                            <div class="slot-footer">
+                                <span class="info-box">${item.room}</span>
+                                ${metaStr ? `<span class="separator">😏</span><span class="info-box">${metaStr}</span>` : ''}
+                            </div>
                         </div></td>`;
                     }
                 } else {
@@ -1600,7 +1773,7 @@
             lb.appendChild(em);
             
             // Reduced speed significantly
-            activeEmojis.push({ el: em, y: 0, speed: 0.2 + Math.random() * 0.4, wobble: Math.random() * Math.PI * 2 });
+            activeEmojis.push({ el: em, y: 0, speed: 0.2 + Math.random() * 1.5, wobble: Math.random() * Math.PI * 2 });
         }
 
         for (let i = activeEmojis.length - 1; i >= 0; i--) {
@@ -1654,7 +1827,7 @@
             const duration = 1.5 + Math.random() * 2;
             flake.style.animationDuration = duration + 's';
             // Increased opacity significantly (0.4 to 0.8 range)
-            flake.style.opacity = 0.4 + Math.random() * 0.4; 
+            flake.style.opacity = 0.4 + Math.random() * 0.8; 
             snowContainer.appendChild(flake);
             setTimeout(() => { if(flake.parentNode) flake.remove(); }, duration * 1000);
         }
@@ -1775,6 +1948,17 @@
              }
         } else {
              if(liveToast) liveToast.classList.remove('show');
+        }
+
+        // Handle Dual Mode (Clash)
+        const wrapper = document.getElementById('notification-wrapper');
+        const customToast = document.getElementById('custom-toast');
+        const isLive = liveToast && liveToast.classList.contains('show');
+        const isCustom = customToast && customToast.classList.contains('show');
+
+        if (wrapper) {
+            if (isLive && isCustom) wrapper.classList.add('dual-mode');
+            else wrapper.classList.remove('dual-mode');
         }
     }
 

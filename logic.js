@@ -2,43 +2,43 @@ const MASTER_SCHEDULE = {
     "AEIOT": {
         "Div 1": {
             "thu-1330": {
-                "room": "NC 09",
+                "room": "NC -  9",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 09",
+                "room": "NC -  9",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 09",
+                "room": "NC -  9",
                 "type": "lec"
             }
         },
         "Div 2": {
             "thu-1330": {
-                "room": "NC 09",
+                "room": "NC -  9",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 09",
+                "room": "NC -  9",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 09",
+                "room": "NC -  9",
                 "type": "lec"
             }
         },
         "Div 3": {
             "thu-1330": {
-                "room": "NC 11",
+                "room": "NC -  11",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 11",
+                "room": "NC -  11",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 11",
+                "room": "NC -  11",
                 "type": "lec"
             }
         }
@@ -46,43 +46,43 @@ const MASTER_SCHEDULE = {
     "AIMA": {
         "Div 1": {
             "thu-1330": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             }
         },
         "Div 2": {
             "thu-1330": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             }
         },
         "Div 3": {
             "thu-1330": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             }
         }
@@ -90,15 +90,15 @@ const MASTER_SCHEDULE = {
     "BCE": {
         "Div 1": {
             "thu-1330": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         }
@@ -134,15 +134,15 @@ const MASTER_SCHEDULE = {
                 }
             },
             "fri-0930": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "mon-1030": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "thu-0930": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             }
         }
@@ -150,15 +150,15 @@ const MASTER_SCHEDULE = {
     "BMT": {
         "Div 1": {
             "thu-1330": {
-                "room": "NC 13",
+                "room": "NC -  13",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 13",
+                "room": "NC -  13",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 13",
+                "room": "NC -  13",
                 "type": "lec"
             }
         }
@@ -180,7 +180,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 13",
+                "room": "NC -  13",
                 "type": "lec"
             }
         }
@@ -216,15 +216,15 @@ const MASTER_SCHEDULE = {
                 }
             },
             "fri-1030": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "thu-1030": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "wed-1030": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             }
         },
@@ -258,15 +258,15 @@ const MASTER_SCHEDULE = {
                 }
             },
             "thu-1530": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "tue-1530": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "wed-1730": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             }
         }
@@ -305,28 +305,28 @@ const MASTER_SCHEDULE = {
         "Div 2": {
             "B1": {
                 "mon-1430": {
-                    "room": "NC 11",
+                    "room": "NC -  11",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "mon-1430": {
-                    "room": "NC 11",
+                    "room": "NC -  11",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "tue-1430": {
-                    "room": "NC 11",
+                    "room": "NC -  11",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "tue-1430": {
-                    "room": "NC 11",
+                    "room": "NC -  11",
                     "span": 2,
                     "type": "lab"
                 }
@@ -402,7 +402,7 @@ const MASTER_SCHEDULE = {
             },
             "B2": {
                 "mon-1030": {
-                    "room": "NC 09",
+                    "room": "NC -  9",
                     "span": 2,
                     "type": "lab"
                 }
@@ -416,7 +416,7 @@ const MASTER_SCHEDULE = {
             },
             "B4": {
                 "tue-1030": {
-                    "room": "NC 11",
+                    "room": "NC -  11",
                     "span": 2,
                     "type": "lab"
                 }
@@ -425,28 +425,28 @@ const MASTER_SCHEDULE = {
         "Div 6": {
             "B1": {
                 "mon-1030": {
-                    "room": "NC 08",
+                    "room": "NC -  8",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "mon-1030": {
-                    "room": "NC 10",
+                    "room": "NC -  10",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "tue-1030": {
-                    "room": "NC 08",
+                    "room": "NC -  8",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "tue-1030": {
-                    "room": "NC 09",
+                    "room": "NC -  9",
                     "span": 2,
                     "type": "lab"
                 }
@@ -455,7 +455,7 @@ const MASTER_SCHEDULE = {
         "Div 7": {
             "B1": {
                 "wed-1030": {
-                    "room": "NC 11",
+                    "room": "NC -  11",
                     "span": 2,
                     "type": "lab"
                 }
@@ -469,7 +469,7 @@ const MASTER_SCHEDULE = {
             },
             "B3": {
                 "thu-1030": {
-                    "room": "NC 08",
+                    "room": "NC -  8",
                     "span": 2,
                     "type": "lab"
                 }
@@ -500,7 +500,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1230": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             }
         }
@@ -536,7 +536,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         }
@@ -545,210 +545,210 @@ const MASTER_SCHEDULE = {
         "Div 1": {
             "B1": {
                 "mon-0930": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "B2": {
                 "mon-0930": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "B3": {
                 "tue-0930": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "B4": {
                 "tue-0930": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "fri-0930": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "mon-1030": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "thu-0930": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         },
         "Div 2": {
             "B1": {
                 "thu-1130": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "B2": {
                 "fri-1130": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "B3": {
                 "thu-1130": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "B4": {
                 "fri-1130": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "fri-0930": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "mon-1030": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "thu-0930": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             }
         },
         "Div 3": {
             "B1": {
                 "thu-1530": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "B2": {
                 "thu-1530": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "B3": {
                 "tue-1530": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "B4": {
                 "tue-1530": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "mon-1430": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "tue-1730": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "wed-1430": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         },
         "Div 4": {
             "B1": {
                 "wed-1630": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "B2": {
                 "wed-1630": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "B3": {
                 "wed-1630": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "B4": {
                 "wed-1630": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "mon-1430": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "tue-1730": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "wed-1430": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             }
         },
         "Div 5": {
             "B1": {
                 "thu-1630": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "B2": {
                 "thu-1630": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "B3": {
                 "thu-1630": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "B4": {
                 "thu-1630": {
-                    "room": "NC LAB",
+                    "room": "NC -  LAB",
                     "span": 1,
                     "type": "lab"
                 }
             },
             "mon-1430": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "tue-1730": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "wed-1430": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             }
         }
@@ -784,11 +784,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-0930": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "tue-0930": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             }
         },
@@ -822,11 +822,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "fri-1430": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "thu-1430": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             }
         }
@@ -862,15 +862,15 @@ const MASTER_SCHEDULE = {
                 }
             },
             "fri-0930": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "mon-1030": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "thu-0930": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             }
         },
@@ -904,15 +904,15 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1430": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "tue-1730": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "wed-1430": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             }
         }
@@ -920,29 +920,29 @@ const MASTER_SCHEDULE = {
     "EEU": {
         "Div 1": {
             "thu-1330": {
-                "room": "NC 08",
+                "room": "NC -  8",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 08",
+                "room": "NC -  8",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 08",
+                "room": "NC -  8",
                 "type": "lec"
             }
         },
         "Div 2": {
             "thu-1330": {
-                "room": "NC 12",
+                "room": "NC -  12",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 12",
+                "room": "NC -  12",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 12",
+                "room": "NC -  12",
                 "type": "lec"
             }
         }
@@ -978,15 +978,15 @@ const MASTER_SCHEDULE = {
                 }
             },
             "fri-1030": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "thu-1030": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "wed-1030": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         },
@@ -1020,15 +1020,15 @@ const MASTER_SCHEDULE = {
                 }
             },
             "thu-1530": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "tue-1530": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "wed-1730": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         }
@@ -1064,11 +1064,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1130": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "tue-1130": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         },
@@ -1102,11 +1102,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-0930": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "tue-0930": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         },
@@ -1140,11 +1140,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-0930": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "tue-0930": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             }
         },
@@ -1178,11 +1178,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "fri-1330": {
-                "room": "NC 08",
+                "room": "NC -  8",
                 "type": "lec"
             },
             "wed-1530": {
-                "room": "NC 08",
+                "room": "NC -  8",
                 "type": "lec"
             }
         },
@@ -1216,11 +1216,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "fri-1330": {
-                "room": "NC 11",
+                "room": "NC -  11",
                 "type": "lec"
             },
             "wed-1530": {
-                "room": "NC 11",
+                "room": "NC -  11",
                 "type": "lec"
             }
         },
@@ -1254,11 +1254,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "fri-1430": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "thu-1430": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         },
@@ -1292,11 +1292,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "fri-1430": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "thu-1430": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             }
         }
@@ -1318,7 +1318,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 14",
+                "room": "NC -  14",
                 "type": "lec"
             }
         }
@@ -1354,7 +1354,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 11",
+                "room": "NC -  11",
                 "type": "lec"
             }
         }
@@ -1376,7 +1376,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             }
         }
@@ -1412,15 +1412,15 @@ const MASTER_SCHEDULE = {
                 }
             },
             "fri-1030": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "thu-1030": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "wed-1030": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             }
         },
@@ -1454,15 +1454,15 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1430": {
-                "room": "NC 08",
+                "room": "NC -  8",
                 "type": "lec"
             },
             "tue-1730": {
-                "room": "NC 08",
+                "room": "NC -  8",
                 "type": "lec"
             },
             "wed-1430": {
-                "room": "NC 08",
+                "room": "NC -  8",
                 "type": "lec"
             }
         }
@@ -1498,15 +1498,15 @@ const MASTER_SCHEDULE = {
                 }
             },
             "fri-1030": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "thu-1030": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "wed-1030": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             }
         }
@@ -1514,15 +1514,15 @@ const MASTER_SCHEDULE = {
     "FME": {
         "Div 1": {
             "thu-1330": {
-                "room": "NC 05",
+                "room": "NC -  5",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 05",
+                "room": "NC -  5",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 05",
+                "room": "NC -  5",
                 "type": "lec"
             }
         }
@@ -1530,43 +1530,43 @@ const MASTER_SCHEDULE = {
     "FMS": {
         "Div 1": {
             "thu-1330": {
-                "room": "NC 10",
+                "room": "NC -  10",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 10",
+                "room": "NC -  10",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 10",
+                "room": "NC -  10",
                 "type": "lec"
             }
         },
         "Div 2": {
             "thu-1330": {
-                "room": "NC 10",
+                "room": "NC -  10",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 10",
+                "room": "NC -  10",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 10",
+                "room": "NC -  10",
                 "type": "lec"
             }
         },
         "Div 3": {
             "thu-1330": {
-                "room": "NC 06",
+                "room": "NC -  6",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 06",
+                "room": "NC -  6",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 06",
+                "room": "NC -  6",
                 "type": "lec"
             }
         }
@@ -1574,15 +1574,15 @@ const MASTER_SCHEDULE = {
     "FPI": {
         "Div 1": {
             "thu-1230": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "tue-1230": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "wed-1230": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             }
         }
@@ -1604,7 +1604,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1230": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         }
@@ -1640,15 +1640,15 @@ const MASTER_SCHEDULE = {
                 }
             },
             "thu-1530": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "tue-1530": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "wed-1730": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             }
         }
@@ -1684,7 +1684,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         }
@@ -1706,7 +1706,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 05",
+                "room": "NC -  5",
                 "type": "lec"
             }
         }
@@ -1714,29 +1714,29 @@ const MASTER_SCHEDULE = {
     "NM": {
         "Div 1": {
             "thu-1330": {
-                "room": "NC 07",
+                "room": "NC -  7",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 07",
+                "room": "NC -  7",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 07",
+                "room": "NC -  7",
                 "type": "lec"
             }
         },
         "Div 2": {
             "thu-1330": {
-                "room": "NC 14",
+                "room": "NC -  14",
                 "type": "lec"
             },
             "tue-1330": {
-                "room": "NC 14",
+                "room": "NC -  14",
                 "type": "lec"
             },
             "wed-1330": {
-                "room": "NC 14",
+                "room": "NC -  14",
                 "type": "lec"
             }
         }
@@ -1744,7 +1744,7 @@ const MASTER_SCHEDULE = {
     "PD": {
         "Div 1": {
             "sat-0830": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "span": 2,
                 "type": "lec",
                 "custom_time": "9:00 - 10:30",
@@ -1753,7 +1753,7 @@ const MASTER_SCHEDULE = {
         },
         "Div 2": {
             "sat-1030": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "span": 2,
                 "type": "lec",
                 "custom_time": "11:00 - 12:30",
@@ -1762,7 +1762,7 @@ const MASTER_SCHEDULE = {
         },
         "Div 3": {
             "sat-0830": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "span": 2,
                 "type": "lec",
                 "custom_time": "9:00 - 10:30",
@@ -1771,7 +1771,7 @@ const MASTER_SCHEDULE = {
         },
         "Div 4": {
             "sat-1030": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "span": 2,
                 "type": "lec",
                 "custom_time": "11:00 - 12:30",
@@ -1780,7 +1780,7 @@ const MASTER_SCHEDULE = {
         },
         "Div 5": {
             "sat-0830": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "span": 2,
                 "type": "lec",
                 "custom_time": "9:00 - 10:30",
@@ -1789,7 +1789,7 @@ const MASTER_SCHEDULE = {
         },
         "Div 6": {
             "sat-1030": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "span": 2,
                 "type": "lec",
                 "custom_time": "11:00 - 12:30",
@@ -1798,7 +1798,7 @@ const MASTER_SCHEDULE = {
         },
         "Div 7": {
             "sat-0830": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "span": 2,
                 "type": "lec",
                 "custom_time": "9:00 - 10:30",
@@ -1807,7 +1807,7 @@ const MASTER_SCHEDULE = {
         },
         "Div 8": {
             "sat-1030": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "span": 2,
                 "type": "lec",
                 "custom_time": "11:00 - 12:30",
@@ -1816,7 +1816,7 @@ const MASTER_SCHEDULE = {
         },
         "Div 9": {
             "sat-1030": {
-                "room": "NC 08",
+                "room": "NC -  8",
                 "span": 2,
                 "type": "lec",
                 "custom_time": "11:00 - 12:30",
@@ -1855,7 +1855,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 08",
+                "room": "NC -  8",
                 "type": "lec"
             }
         },
@@ -1889,7 +1889,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 07",
+                "room": "NC -  7",
                 "type": "lec"
             }
         },
@@ -1923,7 +1923,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 12",
+                "room": "NC -  12",
                 "type": "lec"
             }
         },
@@ -1950,7 +1950,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 10",
+                "room": "NC -  10",
                 "type": "lec"
             }
         },
@@ -1998,7 +1998,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 10",
+                "room": "NC -  10",
                 "type": "lec"
             }
         }
@@ -2034,7 +2034,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 09",
+                "room": "NC -  9",
                 "type": "lec"
             }
         },
@@ -2068,7 +2068,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 09",
+                "room": "NC -  9",
                 "type": "lec"
             }
         }
@@ -2077,294 +2077,294 @@ const MASTER_SCHEDULE = {
         "Div 1": {
             "B1": {
                 "wed-1030": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "thu-1030": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "thu-1030": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "thu-1030": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1330": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "tue-1030": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "wed-0930": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             }
         },
         "Div 2": {
             "B1": {
                 "wed-1030": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "wed-1030": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "thu-1630": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "type": "lab",
                     "span": 2
                 }
             },
             "B4": {
                 "thu-1630": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1330": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "tue-1030": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "wed-0930": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             }
         },
         "Div 3": {
             "B1": {
                 "mon-1030": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "mon-1030": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "thu-1630": {
-                    "room": "NC 11",
+                    "room": "NC -  11",
                     "type": "lab",
                     "span": 2
                 }
             },
             "B4": {
                 "fri-0830": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1130": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "thu-1130": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "wed-1130": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             }
         },
         "Div 4": {
             "B1": {
                 "mon-1630": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "fri-1430": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "fri-1430": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "fri-1430": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1630": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "mon-1530": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "tue-1630": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             }
         },
         "Div 5": {
             "B1": {
                 "fri-1430": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "fri-1430": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "fri-1430": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "fri-1430": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1630": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "mon-1530": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "tue-1630": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             }
         },
         "Div 6": {
             "B1": {
                 "mon-1630": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "mon-1630": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "mon-1630": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "mon-1630": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1630": {
-                "room": "NC 08",
+                "room": "NC -  8",
                 "type": "lec"
             },
             "mon-1530": {
-                "room": "NC 08",
+                "room": "NC -  8",
                 "type": "lec"
             },
             "tue-1630": {
-                "room": "NC 08",
+                "room": "NC -  8",
                 "type": "lec"
             }
         },
         "Div 7": {
             "B1": {
                 "wed-1430": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "wed-1430": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "wed-1430": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "thu-1630": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1130": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "tue-1430": {
-                "room": "NC 08",
+                "room": "NC -  8",
                 "type": "lec"
             },
             "wed-1630": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             }
         }
@@ -2400,11 +2400,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1130": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "tue-1130": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             }
         },
@@ -2438,11 +2438,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1130": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "tue-1130": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             }
         },
@@ -2476,11 +2476,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "fri-1330": {
-                "room": "NC 12",
+                "room": "NC -  12",
                 "type": "lec"
             },
             "wed-1530": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         },
@@ -2514,11 +2514,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "fri-1330": {
-                "room": "NC 13",
+                "room": "NC -  13",
                 "type": "lec"
             },
             "wed-1530": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             }
         },
@@ -2552,11 +2552,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1130": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "tue-1130": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             }
         },
@@ -2590,11 +2590,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-0930": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             },
             "tue-0930": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             }
         },
@@ -2628,11 +2628,11 @@ const MASTER_SCHEDULE = {
                 }
             },
             "fri-1330": {
-                "room": "NC 14",
+                "room": "NC -  14",
                 "type": "lec"
             },
             "wed-1530": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             }
         }
@@ -2668,7 +2668,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 06",
+                "room": "NC -  6",
                 "type": "lec"
             }
         }
@@ -2677,378 +2677,378 @@ const MASTER_SCHEDULE = {
         "Div 1": {
             "B1": {
                 "wed-1030": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "wed-1030": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "thu-1030": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "thu-1030": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1330": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "tue-1030": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "wed-0930": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         },
         "Div 2": {
             "B1": {
                 "wed-1030": {
-                    "room": "NC 08",
+                    "room": "NC -  8",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "wed-1030": {
-                    "room": "NC 08",
+                    "room": "NC -  8",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "wed-1030": {
-                    "room": "NC 08",
+                    "room": "NC -  8",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "thu-1030": {
-                    "room": "NC 11",
+                    "room": "NC -  11",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1330": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "tue-1030": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "wed-0930": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             }
         },
         "Div 3": {
             "B1": {
                 "mon-1030": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "thu-0830": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "thu-0830": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "thu-0830": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1130": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "thu-1130": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "wed-1130": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         },
         "Div 4": {
             "B1": {
                 "mon-1030": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "mon-1030": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "mon-1030": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "thu-0830": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1130": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "thu-1130": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "wed-1130": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             }
         },
         "Div 5": {
             "B1": {
                 "mon-1030": {
-                    "room": "NC 11",
+                    "room": "NC -  11",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "mon-1030": {
-                    "room": "NC 11",
+                    "room": "NC -  11",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "mon-1030": {
-                    "room": "NC 11",
+                    "room": "NC -  11",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "mon-1030": {
-                    "room": "NC 11",
+                    "room": "NC -  11",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1130": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "thu-1130": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             },
             "wed-1130": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             }
         },
         "Div 6": {
             "B1": {
                 "mon-1630": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "mon-1630": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "mon-1630": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "mon-1630": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1630": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "mon-1530": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "tue-1630": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         },
         "Div 7": {
             "B1": {
                 "mon-1630": {
-                    "room": "NC 11",
+                    "room": "NC -  11",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "mon-1630": {
-                    "room": "NC 11",
+                    "room": "NC -  11",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "fri-1430": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "fri-1430": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1630": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "mon-1530": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "tue-1630": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             }
         },
         "Div 8": {
             "B1": {
                 "wed-1430": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "tue-1630": {
-                    "room": "NC 14",
+                    "room": "NC -  14",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "wed-1430": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "wed-1430": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1530": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "tue-1430": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             },
             "wed-1630": {
-                "room": "NC 01",
+                "room": "NC -  1",
                 "type": "lec"
             }
         },
         "Div 9": {
             "B1": {
                 "tue-1630": {
-                    "room": "NC 13",
+                    "room": "NC -  13",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B2": {
                 "wed-1430": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B3": {
                 "wed-1430": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "B4": {
                 "wed-1430": {
-                    "room": "NC 12",
+                    "room": "NC -  12",
                     "span": 2,
                     "type": "lab"
                 }
             },
             "fri-1530": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "tue-1430": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             },
             "wed-1630": {
-                "room": "NC 02",
+                "room": "NC -  2",
                 "type": "lec"
             }
         }
@@ -3084,7 +3084,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 03",
+                "room": "NC -  3",
                 "type": "lec"
             }
         },
@@ -3111,7 +3111,7 @@ const MASTER_SCHEDULE = {
                 }
             },
             "mon-1330": {
-                "room": "NC 04",
+                "room": "NC -  4",
                 "type": "lec"
             }
         }
@@ -3119,6 +3119,7 @@ const MASTER_SCHEDULE = {
 };
 
 // --- LAB EMOJI MAPPING ---
+// 1. UPDATED: Added 'PP' to the Computer/Tech group
 const LAB_EMOJI_GROUPS = [
     { emoji: '💻', codes: ['PP', 'CAED', 'WD', 'MPFL', 'IPSSF', 'DS', 'DPV', 'PPS', 'FCP', 'GE', 'EW', 'CAD', 'DPI', 'EVA', 'RDOS'] },
     { emoji: '📐', codes: ['VCDE', 'PS', 'AEIOT', 'FPI', 'AIMA', 'NM', 'BMT'] }, 
@@ -3138,6 +3139,7 @@ function getLabEmoji(code, room) {
     // Fallback heuristics based on room name
     if (room && /computer|cognizant/i.test(room)) return '💻';
     
+    // 2. UPDATED: Return generic lab emoji if no match found
     return '🧪';
 }
 
@@ -3165,6 +3167,7 @@ function getStudentData(mis) {
 
                     const slot = divSchedule[timeKey];
                     
+                    // 3. UPDATED: Check for PD, CS, PP lectures to give them emojis
                     let lectureEmoji = "";
                     if (['PD', 'CS', 'PP'].includes(subjectCode.toUpperCase())) {
                         lectureEmoji = getLabEmoji(subjectCode, slot.room);
@@ -3174,7 +3177,9 @@ function getStudentData(mis) {
                         ...slot,
                         subj: subjectCode,
                         class: subjectCode.toLowerCase(),
-                        tag: lectureEmoji 
+                        tag: lectureEmoji,
+                        div: div,
+                        batch: batch
                     };
 
                     addToSchedule(personalSchedule, timeKey, entry);
@@ -3190,7 +3195,10 @@ function getStudentData(mis) {
                             ...lab,
                             subj: subjectCode,
                             class: subjectCode.toLowerCase(),
-                            tag: getLabEmoji(subjectCode, lab.room) 
+                            // This now works for PP (added to list) and others (via fallback)
+                            tag: getLabEmoji(subjectCode, lab.room),
+                            div: div,
+                            batch: batch
                         };
 
                         addToSchedule(personalSchedule, timeKey, entry);
@@ -3221,4 +3229,6 @@ function addToSchedule(schedule, timeKey, entry) {
     }
 }
 
-const ACTIVE_NOTES = [];
+const ACTIVE_NOTES = [
+    "Thx for using the portal!!  If there would be any wrong info about you just contact me... I'll definitely sort it out."
+];

@@ -30353,7 +30353,7 @@ const GENERATED_DB = {
       },
       {
         "code": "CAED",
-        "name": "CAED",
+        "name": "CA Engg & Drawing",
         "div": "Div 1",
         "batch": "B4"
       },
@@ -30372,8 +30372,8 @@ const GENERATED_DB = {
       {
         "code": "WD",
         "name": "Web Design",
-        "div": "Div 2",
-        "batch": "B3"
+        "div": "Div 1",
+        "batch": "B2"
       }
     ],
     "schedule": {}
