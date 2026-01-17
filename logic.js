@@ -1744,7 +1744,7 @@ const MASTER_SCHEDULE = {
     "PD": {
         "Div 1": {
             "sat-0830": {
-                "room": "NC -  1",
+                "room": "AC -  101",
                 "span": 2,
                 "type": "lec",
                 "custom_time": "9:00 - 10:30",
@@ -1752,17 +1752,17 @@ const MASTER_SCHEDULE = {
             }
         },
         "Div 2": {
-            "sat-1030": {
-                "room": "NC -  1",
+            "sat-0830": {
+                "room": "AC -  102",
                 "span": 2,
                 "type": "lec",
-                "custom_time": "11:00 - 12:30",
+                "custom_time": "09:00 - 10:30",
                 "delayed": true
             }
         },
         "Div 3": {
             "sat-0830": {
-                "room": "NC -  2",
+                "room": "AC -  103",
                 "span": 2,
                 "type": "lec",
                 "custom_time": "9:00 - 10:30",
@@ -1770,26 +1770,26 @@ const MASTER_SCHEDULE = {
             }
         },
         "Div 4": {
+            "sat-0830": {
+                "room": "AC -  104",
+                "span": 2,
+                "type": "lec",
+                "custom_time": "09:00 - 10:30",
+                "delayed": true
+            }
+        },
+        "Div 5": {
             "sat-1030": {
-                "room": "NC -  2",
+                "room": "AC -  101",
                 "span": 2,
                 "type": "lec",
                 "custom_time": "11:00 - 12:30",
                 "delayed": true
             }
         },
-        "Div 5": {
-            "sat-0830": {
-                "room": "NC -  3",
-                "span": 2,
-                "type": "lec",
-                "custom_time": "9:00 - 10:30",
-                "delayed": true
-            }
-        },
         "Div 6": {
             "sat-1030": {
-                "room": "NC -  3",
+                "room": "AC -  102",
                 "span": 2,
                 "type": "lec",
                 "custom_time": "11:00 - 12:30",
@@ -1797,17 +1797,17 @@ const MASTER_SCHEDULE = {
             }
         },
         "Div 7": {
-            "sat-0830": {
-                "room": "NC -  4",
+            "sat-1030": {
+                "room": "AC -  103",
                 "span": 2,
                 "type": "lec",
-                "custom_time": "9:00 - 10:30",
+                "custom_time": "11:00 - 12:30",
                 "delayed": true
             }
         },
         "Div 8": {
             "sat-1030": {
-                "room": "NC -  4",
+                "room": "AC -  104",
                 "span": 2,
                 "type": "lec",
                 "custom_time": "11:00 - 12:30",
@@ -1816,7 +1816,7 @@ const MASTER_SCHEDULE = {
         },
         "Div 9": {
             "sat-1030": {
-                "room": "NC -  8",
+                "room": "AC -  104",
                 "span": 2,
                 "type": "lec",
                 "custom_time": "11:00 - 12:30",
