@@ -2337,8 +2337,8 @@ const MASTER_SCHEDULE = {
             "B2": {
                 "wed-1430": {
                     "room": "NC -  14",
-                    "span": 2,
-                    "type": "lab"
+                    "type": "lab",
+                    "span": 2
                 }
             },
             "B3": {
@@ -3145,7 +3145,7 @@ function getLabEmoji(code, room) {
 
 // --- DATA MERGER FUNCTION ---
 function getStudentData(mis) {
-    if (!GENERATED_DB || !GENERATED_DB[mis]) {
+    if (typeof GENERATED_DB === 'undefined' || !GENERATED_DB[mis]) {
         return null;
     }
 
@@ -3229,6 +3229,4 @@ function addToSchedule(schedule, timeKey, entry) {
     }
 }
 
-const ACTIVE_NOTES = [
-    "Thx for using the portal!!  If there would be any wrong info about you just contact me... I'll definitely sort it out."
-];
+const ACTIVE_NOTES = [];
