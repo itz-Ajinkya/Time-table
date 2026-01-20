@@ -31185,6 +31185,12 @@ const GENERATED_DB = {
         "name": "Mfg Practices & FabLab",
         "div": "Div 1",
         "batch": "B2"
+      },
+      {
+        "code": "CAED",
+        "name": "CA Engg & Drawing",
+        "div": "Div 2",
+        "batch": "B1"
       }
     ],
     "schedule": {}

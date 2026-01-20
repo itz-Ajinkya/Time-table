@@ -1017,6 +1017,21 @@
             body.view-mode-desktop { min-width: 1200px; overflow-x: auto; }
             body.view-mode-desktop .cards { justify-content: center !important; flex-wrap: wrap !important; overflow-x: visible !important; }
         }
+
+        /* Current Time Row Highlight */
+        .current-time-row .time-col-cell {
+            border-left: 5px solid var(--live-color) !important;
+            color: var(--live-color) !important;
+            background: var(--card-bg) !important;
+        }
+
+        .current-time-row td:not(.time-col-cell) {
+            background-color: rgba(108, 92, 231, 0.05);
+        }
+
+        body.dark-mode .current-time-row td:not(.time-col-cell) {
+            background-color: rgba(162, 155, 254, 0.05);
+        }
     </style>
 </head>
 <body>
@@ -1641,7 +1656,7 @@
             if (slot.id === "1230") {
             }
 
-            let rowHtml = `<tr><td class="time-col time-col-cell">${slot.label}</td>`;
+            let rowHtml = `<tr id="row-${slot.id}"><td class="time-col time-col-cell">${slot.label}</td>`;
 
             days.forEach(day => {
                 const key = `${day}-${slot.id}`;
@@ -1736,7 +1751,7 @@
     // ============================================
     function animateLoop() {
         updateLunchAnimation();
-        
+        updateSnowAnimation(); // FIXED: Added this call
         requestAnimationFrame(animateLoop);
     }
 
@@ -1790,7 +1805,7 @@
             const duration = 1.5 + Math.random() * 2;
             flake.style.animationDuration = duration + 's';
             // Increased opacity significantly (0.4 to 0.8 range)
-            flake.style.opacity = 0.4 + Math.random() * 0.8; 
+            flake.style.opacity = 0.9 + Math.random() * 1.5;
             snowContainer.appendChild(flake);
             setTimeout(() => { if(flake.parentNode) flake.remove(); }, duration * 1000);
         }
@@ -1833,6 +1848,13 @@
         else if (min >= 930 && min < 990) slotId = "1530";
         else if (min >= 990 && min < 1050) slotId = "1630";
         else if (min >= 1050 && min < 1110) slotId = "1730";
+
+        // Highlight current time row
+        document.querySelectorAll('.current-time-row').forEach(el => el.classList.remove('current-time-row'));
+        if (slotId) {
+            const row = document.getElementById(`row-${slotId}`);
+            if (row) row.classList.add('current-time-row');
+        }
 
         if (slotId === '1230' && lb) {
              if (!lb.classList.contains('lunch-now')) {

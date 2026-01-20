@@ -266,7 +266,6 @@
         <div class="tab" onclick="showPanel('notes')">📢 Announcements</div>
     </div>
 
-    <!-- STUDENTS PANEL -->
     <div id="students" class="panel active">
         <div class="card">
             <h3>🔍 Find Student</h3>
@@ -283,6 +282,7 @@
             
             <h4>📚 Subject Allocation</h4>
             <div id="cards-container"></div>
+            <button onclick="addEmptyCard()" style="margin-top: 10px; width: auto; padding: 8px 15px;">+ Add Subject</button>
             
             <div class="row" style="margin-top: 30px;">
                 <button onclick="saveStudentChanges()">💾 Save Changes</button>
@@ -291,7 +291,6 @@
         </div>
     </div>
 
-    <!-- SCHEDULE PANEL -->
     <div id="schedule" class="panel">
         <div class="card">
             <h3>📅 Master Schedule</h3>
@@ -313,7 +312,6 @@
         </div>
     </div>
 
-    <!-- NOTES PANEL -->
     <div id="notes" class="panel">
         <div class="card">
             <h3>📢 Website Announcements</h3>
@@ -329,7 +327,6 @@
     </div>
 </div>
 
-<!-- Load Data Files -->
 <script>
     document.write('<script src="logic.js?v=' + Date.now() + '"><\/script>');
     document.write('<script src="students.js?v=' + Date.now() + '"><\/script>');
@@ -799,8 +796,7 @@
             });
         }
 
-        const newSchedStr = `const MASTER_SCHEDULE = ${JSON.stringify(DATA.schedule, null, 4)};`;
-        saveFile('/save_logic', newSchedStr)
+        saveFile('/save_logic', newSchedStrWithNotes())
             .then(() => showNotification("Schedule saved successfully!"))
             .catch(() => showNotification("Error saving schedule."));
     }
@@ -875,7 +871,10 @@
                `        student.cards.forEach(card => {\n` +
                `            const subjectCode = card.code;\n` +
                `            const div = card.div;\n` +
-               `            const batch = card.batch;\n\n` +
+               `            const batch = card.batch;\n` +
+               `            // --- NEW: Format D1|B1 Info Tag ---\n` +
+               `            const shortDiv = div.toString().replace(/Div\\s*/i, '').trim();\n` + 
+               `            const locSuffix = " ⚡ D" + shortDiv + "|B" + batch;\n\n` +
                `            if (MASTER_SCHEDULE[subjectCode] && MASTER_SCHEDULE[subjectCode][div]) {\n` +
                `                const divSchedule = MASTER_SCHEDULE[subjectCode][div];\n\n` +
                `                // --- A. Process Lectures ---\n` +
@@ -892,7 +891,11 @@
                `                        ...slot,\n` +
                `                        subj: subjectCode,\n` +
                `                        class: subjectCode.toLowerCase(),\n` +
-               `                        tag: lectureEmoji \n` +
+               `                        tag: lectureEmoji,\n` +
+               `                        // Appending info to room so it shows in the table box\n` +
+               `                        room: (slot.room || "") + locSuffix,\n` +
+               `                        div: div,\n` +
+               `                        batch: batch\n` +
                `                    };\n\n` +
                `                    addToSchedule(personalSchedule, timeKey, entry);\n` +
                `                });\n\n` +
@@ -907,7 +910,11 @@
                `                            subj: subjectCode,\n` +
                `                            class: subjectCode.toLowerCase(),\n` +
                `                            // This now works for PP (added to list) and others (via fallback)\n` +
-               `                            tag: getLabEmoji(subjectCode, lab.room) \n` +
+               `                            tag: getLabEmoji(subjectCode, lab.room),\n` +
+               `                            // Appending info to room so it shows in the table box\n` +
+               `                            room: (lab.room || "") + locSuffix,\n` +
+               `                            div: div,\n` +
+               `                            batch: batch\n` +
                `                        };\n\n` +
                `                        addToSchedule(personalSchedule, timeKey, entry);\n` +
                `                    });\n` +
