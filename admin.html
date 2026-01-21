@@ -3,649 +3,300 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COEP Admin Portal</title>
+    <title>COEP Admin (Firebase)</title>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+
     <style>
-        body {
-            --bg-color: #f4f4f9;
-            --text-color: #333;
-            --card-bg: #fff;
-            --border-color: #ddd;
-            --primary: #007bff;
-            --primary-hover: #0056b3;
-            --accent: #6c757d;
-            --danger: #dc3545;
-            --radius: 8px;
-            --font: 'Inter', system-ui, -apple-system, sans-serif;
-            --input-bg: #ffffff;
-            --item-bg: #f8f9fa;
-        }
-
-        body.dark-mode {
-            --bg-color: #09090b;
-            --text-color: #fafafa;
-            --card-bg: #18181b;
-            --border-color: #27272a;
-            --primary: linear-gradient(135deg, #8b5cf6 0%, #d946ef 100%);
-            --primary-hover: linear-gradient(135deg, #7c3aed 0%, #c026d3 100%);
-            --accent: #3f3f46;
-            --danger: linear-gradient(135deg, #ef4444 0%, #f43f5e 100%);
-            --radius: 16px;
-            --input-bg: #27272a;
-            --item-bg: #27272a;
-        }
-
-        body {
-            font-family: var(--font);
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 20px;
-            caret-color: transparent;
-            user-select: none;
-            -webkit-user-select: none;
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 30px;
-            padding: 10px 5px;
-        }
-
-        h1 { margin: 0; font-weight: 800; letter-spacing: -1px; background: var(--primary); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 2.5rem; }
-
-        button {
-            cursor: pointer;
-            padding: 12px 24px;
-            border: none;
-            border-radius: 12px;
-            background: var(--primary);
-            color: #fff;
-            font-size: 15px;
-            font-weight: 600;
-            transition: transform 0.2s, box-shadow 0.2s;
-            box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
-        }
-
-        button:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(139, 92, 246, 0.4); }
-        button:active { transform: scale(0.96); }
-        button.secondary { background: var(--accent); box-shadow: none; }
-        button.danger { background: var(--danger); box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3); }
-
-        .toggle-btn {
-            background: none;
-            box-shadow: none;
-            font-size: 24px;
-            padding: 0;
-        }
-        .toggle-btn:hover { transform: rotate(15deg); background: none; box-shadow: none; }
-
-        .tabs {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 30px;
-            background: var(--card-bg);
-            padding: 8px;
-            border-radius: 20px;
-            width: fit-content;
-            border: 1px solid var(--border-color);
-        }
-
-        .tab {
-            padding: 10px 25px;
-            cursor: pointer;
-            border-radius: 14px;
-            background-color: transparent;
-            border: none;
-            font-weight: 600;
-            color: #71717a;
-            transition: all 0.3s;
-        }
-
-        .tab.active {
-            background: var(--primary);
-            color: #fff;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-        }
-
+        body { --bg: #f4f4f9; --text: #333; --card: #fff; --primary: #6c5ce7; font-family: sans-serif; margin: 0; padding: 20px; background: var(--bg); color: var(--text); }
+        body.dark-mode { --bg: #09090b; --text: #fafafa; --card: #18181b; }
+        .card { background: var(--card); padding: 25px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        button { background: var(--primary); color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-weight: bold; margin-right: 10px; }
+        input, select { padding: 10px; border-radius: 8px; border: 1px solid #ccc; width: 100%; box-sizing: border-box; margin-bottom: 10px; background: transparent; color: var(--text); }
+        .row { display: flex; gap: 10px; align-items: center; }
+        .tabs { display: flex; gap: 10px; margin-bottom: 20px; }
+        .tab { padding: 10px 20px; background: var(--card); border-radius: 20px; cursor: pointer; font-weight: bold; opacity: 0.7; }
+        .tab.active { opacity: 1; border: 2px solid var(--primary); color: var(--primary); }
         .panel { display: none; }
-        .panel.active { display: block; animation: fadeIn 0.4s ease; }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-
-        /* Cards & Layout */
-        .card {
-            background-color: var(--card-bg);
-            padding: 30px;
-            border-radius: var(--radius);
-            border: 1px solid var(--border-color);
-            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.3);
-            margin-bottom: 25px;
-        }
+        .panel.active { display: block; }
+        .loading-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; color: white; font-size: 2rem; z-index: 9999; display: none; }
         
-        h3 { margin-top: 0; font-size: 1.5rem; margin-bottom: 20px; }
+        /* Migration Section Style */
+        .migration-box { border: 2px dashed #6c5ce7; background: rgba(108, 92, 231, 0.05); }
+        .toast { position: fixed; bottom: 20px; right: 20px; background: #27ae60; color: white; padding: 15px 25px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); display: none; z-index: 10000; animation: slideUp 0.3s ease; }
+        @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 
-        .row { display: flex; gap: 10px; }
-        
-        .slot-item {
-            display: flex;
-            gap: 10px;
-            background: var(--item-bg);
-            padding: 12px;
-            margin-bottom: 5px;
-            border-radius: 12px;
-            align-items: center;
-            border: 1px solid var(--border-color);
-        }
-
-        input, select, textarea {
-            width: 100%;
-            padding: 12px 16px;
-            margin: 5px 0 15px;
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            background-color: var(--input-bg);
-            color: var(--text-color);
-            box-sizing: border-box;
-            font-size: 15px;
-            transition: border-color 0.2s, box-shadow 0.2s;
-            outline: none;
-            caret-color: var(--text-color);
-            user-select: text;
-            -webkit-user-select: text;
-        }
-        
-        input:focus, select:focus { border-color: #8b5cf6; box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.2); }
-
-        textarea {
-            font-family: monospace;
-            min-height: 300px;
-        }
-
-        .tag {
-            display: inline-block;
-            padding: 2px 8px;
-            border-radius: 12px;
-            font-size: 12px;
-            background-color: var(--accent);
-            color: #fff;
-            margin-right: 5px;
-        }
-
-        /* Modal */
-        .modal {
-            display: none;
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background-color: rgba(0,0,0,0.5);
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-        }
-
-        .modal-content {
-            background-color: var(--card-bg);
-            padding: 20px;
-            border-radius: 8px;
-            width: 600px;
-            max-width: 90%;
-            max-height: 90vh;
-            overflow-y: auto;
-        }
-
-        .section-pill {
-            background: var(--primary);
-            color: #fff;
-            padding: 5px 15px;
-            border-radius: 20px;
-            width: fit-content;
-            margin: 15px 0 10px 0;
-            font-weight: 600;
-        }
-
-        .glass-notification {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: var(--card-bg);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            color: var(--text-color);
-            padding: 15px 25px;
-            border-radius: 8px;
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-            z-index: 10000;
-            transition: opacity 0.3s, transform 0.3s;
-            opacity: 0;
-            transform: translateY(-20px);
-            pointer-events: none;
-        }
-        .glass-notification.show {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* Search Box Specifics */
-        .search-box-wrapper {
-            display: flex;
-            gap: 12px;
-            height: 50px; /* Enforce equal height */
-        }
-        .search-box-wrapper input {
-            flex: 1;
-            height: 100%;
-            margin: 0;
-        }
-        .search-box-wrapper button {
-            height: 100%;
-            margin: 0;
-            padding: 0 30px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .slot-item select, .slot-item input {
-            border-radius: 50px;
-            border: 1px solid rgba(128, 128, 128, 0.3);
-        }
+        /* Dark Mode Enhancements */
+        body.dark-mode input, body.dark-mode select { border-color: rgba(255,255,255,0.2); background: var(--card); color: var(--text); }
+        option { background: var(--card); color: var(--text); }
+        .pass-code { background: #eee; padding: 2px 6px; border-radius: 4px; color: #d35400; font-weight: bold; font-family: monospace; font-size: 0.9rem; }
+        body.dark-mode .pass-code { background: rgba(255,255,255,0.1); color: #ff9f43; }
     </style>
 </head>
 <body class="dark-mode">
 
+<div class="loading-overlay" id="loader">Processing...</div>
+
 <div id="admin-interface">
-    <header>
-        <h1>⚡ Admin Portal</h1>
-        <button class="toggle-btn" onclick="toggleDarkMode()" id="theme-toggle">☀️</button>
-    </header>
+    <div id="custom-toast" class="toast"></div>
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+        <h1>⚡ Cloud Admin Portal</h1>
+        <button onclick="document.body.classList.toggle('dark-mode')">🌗 Theme</button>
+    </div>
+
+    <div class="card migration-box">
+        <h3>📂 Bulk Migration (Fix)</h3>
+        <p>Use this to upload your old <code>students.js</code> and <code>logic.js</code> to the cloud instantly.</p>
+        <div class="row">
+            <button onclick="document.getElementById('file-students').click()" style="background:#2d3436;">1. Upload students.js</button>
+            <input type="file" id="file-students" hidden onchange="importStudents(this)">
+
+            <button onclick="document.getElementById('file-logic').click()" style="background:#2d3436;">2. Upload logic.js</button>
+            <input type="file" id="file-logic" hidden onchange="importLogic(this)">
+            
+            <button onclick="saveToFirebase()" style="background:#27ae60; margin-left:auto;">SAVE ALL TO CLOUD</button>
+        </div>
+        <div id="import-status" style="margin-top:10px; font-weight:bold; color: var(--primary);"></div>
+    </div>
 
     <div class="tabs">
-        <div class="tab active" onclick="showPanel('students')">🎓 Students</div>
-        <div class="tab" onclick="showPanel('schedule')">📅 Schedule</div>
-        <div class="tab" onclick="showPanel('notes')">📢 Announcements</div>
+        <div class="tab active" onclick="switchTab('students')">🎓 Students</div>
+        <div class="tab" onclick="switchTab('schedule')">📅 Schedule</div>
+        <div class="tab" onclick="switchTab('notes')">📢 Announcements</div>
+        <div class="tab" onclick="switchTab('requests')">💬 Requests</div>
     </div>
 
     <div id="students" class="panel active">
         <div class="card">
-            <h3>🔍 Find Student</h3>
-            <div class="search-box-wrapper">
-                <input type="text" id="mis-input" placeholder="Enter MIS (e.g. 1120...)" onkeydown="if(event.key==='Enter') fetchStudent()">
-                <button onclick="fetchStudent()">Search</button>
+            <h3>🔍 Edit Student</h3>
+            <div class="row">
+                <input type="text" id="mis-input" placeholder="Enter MIS (e.g., 6125...)" onkeydown="if(event.key==='Enter') fetchStudent()">
+                <button onclick="fetchStudent()">Fetch</button>
             </div>
         </div>
-
         <div id="student-editor" class="card" style="display:none;">
-            <h3>✏️ Edit Student</h3>
+            <h3>✏️ Details</h3>
             <label>Name</label>
             <input type="text" id="edit-name">
-            
-            <h4>📚 Subject Allocation</h4>
+            <h4 style="margin-top:20px;">Subject Allocation</h4>
             <div id="cards-container"></div>
-            <button onclick="addEmptyCard()" style="margin-top: 10px; width: auto; padding: 8px 15px;">+ Add Subject</button>
-            
-            <div class="row" style="margin-top: 30px;">
-                <button onclick="saveStudentChanges()">💾 Save Changes</button>
-                <button class="secondary" onclick="closeStudentEditor()">Cancel</button>
+            <div class="row" style="margin-top:15px;">
+                <button onclick="addEmptyCard()">+ Add Subject</button>
+                <button onclick="saveStudent()" style="background:#27ae60;">💾 Update This Student</button>
             </div>
         </div>
     </div>
 
     <div id="schedule" class="panel">
         <div class="card">
-            <h3>📅 Master Schedule</h3>
+            <h3>📅 Edit Master Schedule</h3>
             <div class="row">
                 <select id="sched-sub" onchange="onSchedSubChange()"><option value="">Select Subject</option></select>
                 <select id="sched-div" onchange="onSchedDivChange()"><option value="">Select Division</option></select>
-                <select id="sched-batch" onchange="renderTimetableEditor()"><option value="">Select Batch (Optional)</option></select>
+                <select id="sched-batch" onchange="renderTimetableEditor()"><option value="">Batch (Optional)</option></select>
             </div>
-        </div>
-
-        <div id="timetable-editor" class="card" style="display:none;">
-            <h4 class="section-pill">Lecture</h4>
-            <div id="lecture-bar"></div>
-            
-            <h4 id="lab-header" class="section-pill">Lab</h4>
-            <div id="lab-bar"></div>
-
-            <button onclick="saveScheduleChanges()" style="margin-top:20px;">💾 Save Schedule</button>
+            <div id="timetable-editor" style="margin-top:20px; display:none;">
+                <h4>Lectures & Labs</h4>
+                <div id="slots-container"></div>
+                <button onclick="saveSchedule()" style="margin-top:20px; background:#27ae60;">💾 Save Schedule</button>
+            </div>
         </div>
     </div>
 
     <div id="notes" class="panel">
         <div class="card">
-            <h3>📢 Website Announcements</h3>
-            <p>These appear on the student dashboard between cards and table. (Prefix "📢" is added automatically)</p>
+            <h3>📢 Announcements</h3>
             <div id="notes-list"></div>
-            <div class="row" style="margin-top: 15px;">
-                <input type="text" id="new-note-text" placeholder="Enter announcement text..." style="margin-bottom:0;">
-                <button onclick="addNote()">Add Announcement</button>
+            <div class="row" style="margin-top:15px;">
+                <input type="text" id="new-note" placeholder="New announcement...">
+                <button onclick="addNote()">Add</button>
             </div>
-            <br>
-            <button onclick="saveNotes()">💾 Save Announcements</button>
+            <button onclick="saveNotes()" style="margin-top:20px; background:#27ae60;">💾 Save Announcements</button>
+        </div>
+    </div>
+
+    <div id="requests" class="panel">
+        <div class="card">
+            <h3>💬 Chat Access Requests</h3>
+            <button onclick="renderRequests()" style="margin-bottom:15px; background:#2d3436;">🔄 Refresh List</button>
+            <button onclick="approveAllRequests()" style="margin-bottom:15px; background:#e67e22;">⚡ Activate All</button>
+            <div id="requests-list"></div>
         </div>
     </div>
 </div>
 
 <script>
-    document.write('<script src="logic.js?v=' + Date.now() + '"><\/script>');
-    document.write('<script src="students.js?v=' + Date.now() + '"><\/script>');
-</script>
-
-<script>
-    // Metadata for subjects
-    const SUBJECT_METADATA = {
-        "AEIOT": { "name": "Applied Elec & IoT" }, "AIMA":  { "name": "AI Multidisc Apps" }, "BCE":   { "name": "Basics of Civil Engg" }, "BMS":   { "name": "Basics Meas & Sensor" }, "BMT":   { "name": "Basics of Mfg Tech" }, "CAD":   { "name": "CAD Drafting" }, "CAED":  { "name": "CA Engg & Drawing" }, "CS":    { "name": "Comm Skills" }, "DPI":   { "name": "Digital Public Infra" }, "DPV":   { "name": "Data Proc & Viz" }, "DS":    { "name": "Discrete Struct" }, "EC":    { "name": "Engg Chemistry" }, "EEU":   { "name": "Electrical Energy Util" }, "EM":    { "name": "Engg Mechanics" }, "EP":    { "name": "Engg Physics" }, "FEET":  { "name": "Foundations Elec & ET" }, "FME":   { "name": "Foundations Mech Engg" }, "FMS":   { "name": "Fund Meas & Sensor" }, "FPI":   { "name": "Fund Physical Infra" }, "IPSSF": { "name": "Intro Prod & Smart Sys" }, "NM":    { "name": "Nanomaterials" }, "PD":    { "name": "Personality Dev" }, "QP":    { "name": "Quantum Physics" }, "PS":    { "name": "Probability & Stats" }, "VCDE":  { "name": "Vector Calculus" }, "PPS":   { "name": "Prog for Prob Solv" }, "WD":    { "name": "Web Design" }, "PP":    { "name": "Python Programming" }, "EEMI":  { "name": "Elec & Elec Meas" }, "RDOS":  { "name": "Robotics & Drone Safe" }, "FFR":   { "name": "Fuel Furnaces & Refrac" }, "EVA":   { "name": "EV Architecture" }, "GE":    { "name": "Geomatic Engg" }, "FCP":   { "name": "Fund Const Practices" }, "MPFL":  { "name": "Mfg Practices & FabLab" }, "DEFAULT": {"name": "Unknown" }
+    // --- FIREBASE CONFIG ---
+    const firebaseConfig = {
+        apiKey: "AIzaSyBZHCiqLPSM9_tO3g1NiYxr53YfwdrJeAM",
+        authDomain: "coep-timetable-chat.firebaseapp.com",
+        projectId: "coep-timetable-chat",
+        storageBucket: "coep-timetable-chat.appspot.com",
+        messagingSenderId: "104557504692",
+        appId: "1:104557504692:web:506682eb4fd1e7d62d4fe1"
     };
-    
-    const SUBJECT_GROUPS = [
-        ['EP', 'QP', 'EC'],
-        ['PS', 'VCDE'],
-        ['BCE', 'FPI', 'AIMA', 'EEU', 'AEIOT', 'FMS', 'FME', 'BMT', 'NM'],
-        ['IPSSF', 'EM', 'FEET', 'DS', 'EEMI', 'BMS', 'CAED', 'FFR'],
-        ['PD', 'CS'],
-        ['GE', 'FCP', 'PPS', 'WD', 'EW', 'DPI', 'DPV', 'CAD', 'EVA', 'MPFL', 'RDOS', 'PP']
-    ];
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
 
     let DATA = { students: {}, schedule: {}, notes: [] };
-    let EDIT_MIS = null;
+    let CURRENT_MIS = null;
 
-    // --- INITIALIZATION ---
-    document.addEventListener('DOMContentLoaded', () => {
-        // Load data from global variables defined in students.js and logic.js
-        if (typeof GENERATED_DB !== 'undefined') DATA.students = GENERATED_DB;
-        if (typeof MASTER_SCHEDULE !== 'undefined') DATA.schedule = MASTER_SCHEDULE;
-        if (typeof ACTIVE_NOTES !== 'undefined') DATA.notes = ACTIVE_NOTES;
-        
-        populateSchedDropdowns();
-        renderNotes();
-    });
+    window.onload = async function() {
+        document.getElementById('loader').style.display = 'flex';
+        try {
+            const doc = await db.collection('timetable_global').doc('main_data').get();
+            if (doc.exists) {
+                const fetched = doc.data();
+                DATA.students = fetched.students || {};
+                DATA.schedule = fetched.schedule || {};
+                DATA.notes = fetched.notes || [];
+                document.getElementById('import-status').innerText = `Loaded from Cloud: ${Object.keys(DATA.students).length} students.`;
+            }
+            populateDropdowns();
+            renderNotesList();
+        } catch (e) {
+            console.error(e);
+        }
+        document.getElementById('loader').style.display = 'none';
+    };
 
-    // --- UI HELPERS ---
-    function toggleDarkMode() {
-        document.body.classList.toggle('dark-mode');
-        const btn = document.getElementById('theme-toggle');
-        btn.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+    // --- MIGRATION LOGIC (FIXED) ---
+    function importStudents(input) {
+        const file = input.files[0];
+        if(!file) return;
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const text = e.target.result;
+            // Match exactly the GENERATED_DB object
+            const match = text.match(/const GENERATED_DB\s*=\s*(\{[\s\S]*?\});/);
+            if(match && match[1]) {
+                try {
+                    const imported = JSON.parse(match[1]);
+                    DATA.students = imported;
+                    document.getElementById('import-status').innerText += ` | Ready to upload ${Object.keys(imported).length} students.`;
+                    alert("✅ Students loaded! Next: Upload logic.js");
+                } catch(err) { alert("JSON Parse Error: " + err.message); }
+            } else {
+                alert("Could not find GENERATED_DB in file.");
+            }
+        };
+        reader.readAsText(file);
     }
 
-    function showPanel(id) {
+    function importLogic(input) {
+        const file = input.files[0];
+        if(!file) return;
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const text = e.target.result;
+            
+            // 1. EXTRACT SCHEDULE (Non-greedy match to stop at the first semicolon)
+            const schedMatch = text.match(/const MASTER_SCHEDULE\s*=\s*(\{[\s\S]*?\});/);
+            
+            if(schedMatch && schedMatch[1]) {
+                try {
+                    DATA.schedule = JSON.parse(schedMatch[1]);
+                    
+                    // 2. EXTRACT NOTES
+                    const notesMatch = text.match(/const ACTIVE_NOTES\s*=\s*(\[[\s\S]*?\]);/);
+                    if(notesMatch && notesMatch[1]) {
+                        DATA.notes = JSON.parse(notesMatch[1]);
+                    }
+                    
+                    document.getElementById('import-status').innerText += ` | Schedule loaded.`;
+                    alert("✅ Logic loaded! NOW CLICK 'SAVE ALL TO CLOUD'.");
+                    populateDropdowns(); 
+                } catch(err) { alert("JSON Parse Error in logic.js: " + err.message); }
+            } else {
+                alert("Could not find MASTER_SCHEDULE in file. Ensure it starts with 'const MASTER_SCHEDULE = {' and ends with '};'");
+            }
+        };
+        reader.readAsText(file);
+    }
+
+    async function saveToFirebase() {
+        document.getElementById('loader').style.display = 'flex';
+        try {
+            await db.collection('timetable_global').doc('main_data').set(DATA);
+            alert("✅ SUCCESS! All data is now on the cloud.");
+        } catch (e) {
+            alert("❌ Save failed: " + e.message);
+        }
+        document.getElementById('loader').style.display = 'none';
+    }
+
+    function showToast(msg) {
+        const t = document.getElementById('custom-toast');
+        t.innerText = msg;
+        t.style.display = 'block';
+        setTimeout(() => t.style.display = 'none', 3000);
+    }
+
+    // --- STANDARD ADMIN LOGIC ---
+    function switchTab(id) {
         document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
         document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
         document.getElementById(id).classList.add('active');
-        event.target.classList.add('active');
+        event.currentTarget.classList.add('active');
     }
 
-    function showNotification(message, duration = 3500) {
-        let notif = document.getElementById('glass-notif');
-        if (!notif) {
-            notif = document.createElement('div');
-            notif.id = 'glass-notif';
-            notif.className = 'glass-notification';
-            document.body.appendChild(notif);
-        }
-        notif.textContent = message;
-        notif.classList.add('show');
-        setTimeout(() => {
-            notif.classList.remove('show');
-        }, duration);
-    }
-
-    async function saveFile(endpoint, content) {
-        return fetch(endpoint, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ content: content })
-        })
-        .then(response => {
-            if (!response.ok) throw new Error("Server error");
-        })
-        .catch(err => {
-            console.error(err);
-            throw err;
-        });
-    }
-
-    // --- STUDENTS LOGIC ---
     function fetchStudent() {
         let mis = document.getElementById('mis-input').value.trim();
-        if (!mis) return;
-
-        if (mis.length !== 9) {
-            mis = "6125" + mis; // Auto-prefix convenience
-        }
-        if (!DATA.students[mis]) {
-            alert(`Student not found! (Searched MIS: ${mis})`);
-            return;
-        }
-        EDIT_MIS = mis;
-        const student = DATA.students[mis];
-        
-        document.getElementById('edit-name').value = student.name;
-        renderEditorCards(student.cards);
-        
+        if(!mis) return;
+        if(mis.length < 9) mis = "6125" + mis;
+        CURRENT_MIS = mis;
+        const student = DATA.students[mis] || { name: "New Student", cards: [] };
         document.getElementById('student-editor').style.display = 'block';
+        document.getElementById('edit-name').value = student.name;
+        renderCards(student.cards);
     }
 
-    // Helper to get batches from schedule
-    function getBatchesForDiv(sub, div) {
-        if (!DATA.schedule[sub] || !DATA.schedule[sub][div]) return [];
-        return Object.keys(DATA.schedule[sub][div]).filter(k => !k.includes('-') && typeof DATA.schedule[sub][div][k] === 'object');
-    }
-
-    function renderEditorCards(cards) {
+    function renderCards(cards) {
         const container = document.getElementById('cards-container');
         container.innerHTML = '';
-        
-        cards.forEach((card, index) => {
-            // Determine options based on group
-            const group = SUBJECT_GROUPS.find(g => g.includes(card.code));
-            const codesToShow = group ? group : Object.keys(DATA.schedule).sort();
-            const subjectOptions = codesToShow.map(s => `<option value="${s}">${s}</option>`).join('');
-
-            const div = document.createElement('div');
-            div.className = 'row';
-            div.style.alignItems = 'center';
-            div.innerHTML = `
-                <select class="card-sub" style="flex:2; margin-bottom:0;" onchange="onCardSubChange(this)">
-                    ${subjectOptions}
-                </select>
-                <select class="card-div" style="flex:1; margin-bottom:0;" onchange="onCardDivChange(this)">
-                    <option value="" disabled>Select Division</option>
-                </select>
-                <select class="card-batch" style="flex:1; margin-bottom:0;">
-                    <option value="" disabled>Select Batch</option>
-                </select>
-                <button class="danger" style="width:auto; padding: 8px 12px; margin-bottom:0;" onclick="removeEditorCard(this)">X</button>
-            `;
-            container.appendChild(div);
-
-            const subSel = div.querySelector('.card-sub');
-            const divSel = div.querySelector('.card-div');
-            const batchSel = div.querySelector('.card-batch');
-
-            // 1. Set Subject
-            if (Object.keys(DATA.schedule).includes(card.code)) {
-                subSel.value = card.code;
-            } else {
-                const opt = document.createElement('option');
-                opt.value = card.code;
-                opt.text = card.code;
-                subSel.add(opt);
-                subSel.value = card.code;
-            }
-
-            // 2. Update Divs
-            updateCardDivOptions(subSel, divSel);
-            let divFound = false;
-            for(let opt of divSel.options) { if(opt.value === card.div) { divSel.value = card.div; divFound = true; break; } }
-            if(!divFound) { const opt = document.createElement('option'); opt.value = card.div; opt.text = card.div; divSel.add(opt); divSel.value = card.div; }
-
-            // 3. Update Batches
-            updateCardBatchOptions(subSel, divSel, batchSel);
-            let batchFound = false;
-            for(let opt of batchSel.options) { if(opt.value === card.batch) { batchSel.value = card.batch; batchFound = true; break; } }
-            if(!batchFound) { const opt = document.createElement('option'); opt.value = card.batch; opt.text = card.batch; batchSel.add(opt); batchSel.value = card.batch; }
-        });
+        cards.forEach(card => addCardRow(card));
     }
 
-    function onCardSubChange(subSel) {
-        const row = subSel.parentElement;
-        const divSel = row.querySelector('.card-div');
-        const batchSel = row.querySelector('.card-batch');
-        updateCardDivOptions(subSel, divSel);
-        batchSel.innerHTML = '<option value="" selected disabled>Select Batch</option>';
-        batchSel.disabled = true;
-    }
-
-    function onCardDivChange(divSel) {
-        const row = divSel.parentElement;
-        const subSel = row.querySelector('.card-sub');
-        const batchSel = row.querySelector('.card-batch');
-        updateCardBatchOptions(subSel, divSel, batchSel);
-    }
-
-    function updateCardDivOptions(subSel, divSel) {
-        const sub = subSel.value;
-        divSel.innerHTML = '<option value="" selected disabled>Select Division</option>';
-        if (sub && DATA.schedule[sub]) {
-            Object.keys(DATA.schedule[sub]).sort().forEach(d => {
-                const opt = document.createElement('option');
-                opt.value = d; opt.text = d;
-                divSel.add(opt);
-            });
-            divSel.disabled = false;
-        } else {
-            divSel.disabled = true;
-        }
-    }
-
-    function updateCardBatchOptions(subSel, divSel, batchSel) {
-        const sub = subSel.value;
-        const div = divSel.value;
-        batchSel.innerHTML = '<option value="" selected disabled>Select Batch</option>';
-        if (sub && div && DATA.schedule[sub] && DATA.schedule[sub][div]) {
-            const batches = getBatchesForDiv(sub, div);
-            const optDefault = document.createElement('option'); optDefault.value = '-'; optDefault.text = '-'; batchSel.add(optDefault);
-            if (batches.length > 0) {
-                batches.forEach(b => {
-                    const opt = document.createElement('option'); opt.value = b; opt.text = b; batchSel.add(opt);
-                });
-                batchSel.disabled = false;
-            } else {
-                batchSel.value = '-';
-                batchSel.disabled = true;
-            }
-        } else {
-            batchSel.disabled = true;
-        }
-    }
-
-    function removeEditorCard(btn) {
-        btn.parentElement.remove();
-    }
-
-    function addEmptyCard() {
-        const container = document.getElementById('cards-container');
-        const subjectOptions = `<option value="" selected disabled>Select Course</option>` + 
-            Object.keys(DATA.schedule).sort().map(s => `<option value="${s}">${s}</option>`).join('');
-
+    function addCardRow(card = {code:'', div:'', batch:'-'}) {
+        const subjects = Object.keys(DATA.schedule).sort();
         const div = document.createElement('div');
         div.className = 'row';
-        div.style.alignItems = 'center';
         div.innerHTML = `
-            <select class="card-sub" style="flex:2; margin-bottom:0;" onchange="onCardSubChange(this)">${subjectOptions}</select>
-            <select class="card-div" style="flex:1; margin-bottom:0;" onchange="onCardDivChange(this)" disabled>
-                <option value="" selected disabled>Select Division</option>
-            </select>
-            <select class="card-batch" style="flex:1; margin-bottom:0;" disabled>
-                <option value="" selected disabled>Select Batch</option>
-            </select>
-            <button class="danger" style="width:auto; padding: 8px 12px; margin-bottom:0;" onclick="removeEditorCard(this)">X</button>
+            <select class="c-sub">${subjects.map(s => `<option value="${s}" ${s===card.code?'selected':''}>${s}</option>`).join('')}</select>
+            <input type="text" class="c-div" value="${card.div}" placeholder="Div (e.g. Div 1)">
+            <input type="text" class="c-batch" value="${card.batch}" placeholder="Batch">
+            <button onclick="this.parentElement.remove()" style="background:#e74c3c;">X</button>
         `;
-        container.appendChild(div);
+        document.getElementById('cards-container').appendChild(div);
     }
 
-    async function saveStudentChanges() {
+    function addEmptyCard() { addCardRow(); }
+
+    function saveStudent() {
+        if(!CURRENT_MIS) return;
         const name = document.getElementById('edit-name').value;
-        const rows = document.querySelectorAll('#cards-container .row');
-        const newCards = [];
-
-        rows.forEach(row => {
-            const code = row.querySelector('.card-sub').value;
-            const div = row.querySelector('.card-div').value;
-            const batch = row.querySelector('.card-batch').value;
-            const subName = (SUBJECT_METADATA[code] && SUBJECT_METADATA[code].name) ? SUBJECT_METADATA[code].name : "Unknown";
-            if(code && div) {
-                newCards.push({ code, name: subName, div, batch });
-            }
-        });
-
-        DATA.students[EDIT_MIS].name = name;
-        DATA.students[EDIT_MIS].cards = newCards;
-
-        const fileContent = `const GENERATED_DB = ${JSON.stringify(DATA.students, null, 2)};`;
-        
-        // Save JS file
-        try {
-            await saveFile('/save_students', fileContent);
-            // Save CSV file (Regenerate from current DB)
-            await saveFile('/save_csv', generateCSV(DATA.students));
-            showNotification("Student changes saved successfully!");
-        } catch (e) {
-            showNotification("Error saving changes. Is server running?");
-        }
+        const cardRows = document.querySelectorAll('#cards-container .row');
+        const cards = Array.from(cardRows).map(r => ({
+            code: r.querySelector('.c-sub').value,
+            name: r.querySelector('.c-sub').value,
+            div: r.querySelector('.c-div').value,
+            batch: r.querySelector('.c-batch').value
+        }));
+        DATA.students[CURRENT_MIS] = { name, cards };
+        saveToFirebase();
     }
 
-    function closeStudentEditor() {
-        document.getElementById('student-editor').style.display = 'none';
-        document.getElementById('mis-input').value = '';
-        EDIT_MIS = null;
-    }
-
-    function generateCSV(db) {
-        // Header
-        let csv = "MIS,FIRST NAME,LAST NAME,DIVISION,BATCH\n";
-        
-        Object.keys(db).sort().forEach(mis => {
-            const student = db[mis];
-            const nameParts = student.name.split(' ');
-            const fname = nameParts[0] || "";
-            const lname = nameParts.slice(1).join(' ') || "";
-
-            if (student.cards && student.cards.length > 0) {
-                student.cards.forEach(card => {
-                    // Reconstruct DIVISION format (e.g., "EP 1")
-                    const divNum = card.div.replace("Div ", "");
-                    const divStr = `${card.code} ${divNum}`;
-                    const batchStr = card.batch === '-' ? '' : card.batch;
-                    csv += `${mis},${fname},${lname},${divStr},${batchStr}\n`;
-                });
-            } else {
-                // Handle student with no cards if necessary, or skip
-                csv += `${mis},${fname},${lname},,\n`;
-            }
-        });
-        return csv;
-    }
-
-    // --- SCHEDULE LOGIC ---
-    function populateSchedDropdowns() {
+    function populateDropdowns() {
         const subSel = document.getElementById('sched-sub');
-        subSel.innerHTML = '<option value="">Select Subject</option>' + 
-            Object.keys(DATA.schedule).sort().map(s => `<option value="${s}">${s}</option>`).join('');
+        subSel.innerHTML = '<option value="">Select Subject</option>' + Object.keys(DATA.schedule).sort().map(s => `<option value="${s}">${s}</option>`).join('');
     }
 
     function onSchedSubChange() {
         const sub = document.getElementById('sched-sub').value;
         const divSel = document.getElementById('sched-div');
         divSel.innerHTML = '<option value="">Select Division</option>';
-        document.getElementById('sched-batch').innerHTML = '<option value="">Select Batch (Optional)</option>';
-        document.getElementById('timetable-editor').style.display = 'none';
-
-        if (sub && DATA.schedule[sub]) {
-            Object.keys(DATA.schedule[sub]).sort().forEach(d => {
-                divSel.innerHTML += `<option value="${d}">${d}</option>`;
-            });
+        if(sub && DATA.schedule[sub]) {
+            Object.keys(DATA.schedule[sub]).forEach(d => divSel.innerHTML += `<option value="${d}">${d}</option>`);
         }
     }
 
@@ -653,12 +304,10 @@
         const sub = document.getElementById('sched-sub').value;
         const div = document.getElementById('sched-div').value;
         const batchSel = document.getElementById('sched-batch');
-        batchSel.innerHTML = '<option value="">Select Batch (Optional)</option>';
-        
-        if (sub && div && DATA.schedule[sub][div]) {
-            const divData = DATA.schedule[sub][div];
-            Object.keys(divData).sort().forEach(k => {
-                if (!k.includes('-') && typeof divData[k] === 'object' && !divData[k].type) {
+        batchSel.innerHTML = '<option value="">Batch (Optional)</option>';
+        if(sub && div && DATA.schedule[sub][div]) {
+            Object.keys(DATA.schedule[sub][div]).forEach(k => {
+                if(!k.includes('-') && typeof DATA.schedule[sub][div][k] === 'object') {
                     batchSel.innerHTML += `<option value="${k}">${k}</option>`;
                 }
             });
@@ -670,280 +319,160 @@
         const sub = document.getElementById('sched-sub').value;
         const div = document.getElementById('sched-div').value;
         const batch = document.getElementById('sched-batch').value;
-
-        if (!sub || !div) return;
-
-        const divData = DATA.schedule[sub][div];
-        const lecContainer = document.getElementById('lecture-bar');
-        const labContainer = document.getElementById('lab-bar');
-        
-        lecContainer.innerHTML = '';
-        labContainer.innerHTML = '';
-
-        // 1. Lectures (Division Level)
-        Object.keys(divData).forEach(key => {
-            const val = divData[key];
-            if (key.includes('-') || (val.type && val.type === 'lec')) {
-                lecContainer.appendChild(createSlotItem(key, val, 'lec'));
-            }
-        });
-
-        // 2. Labs (Batch Level)
-        if (batch && divData[batch]) {
-            document.getElementById('lab-header').style.display = 'block';
-            const batchData = divData[batch];
-            Object.keys(batchData).forEach(key => {
-                labContainer.appendChild(createSlotItem(key, batchData[key], 'lab'));
-            });
-        } else {
-            document.getElementById('lab-header').style.display = 'none';
-        }
-        
+        if(!sub || !div) return;
+        const container = document.getElementById('slots-container');
+        container.innerHTML = '';
         document.getElementById('timetable-editor').style.display = 'block';
+        const source = batch ? DATA.schedule[sub][div][batch] : DATA.schedule[sub][div];
+        if(source) {
+            Object.keys(source).forEach(key => {
+                if(key.includes('-')) addSlotRow(key, source[key].room);
+            });
+        }
+        addSlotRow();
     }
 
-    function createSlotItem(key, data, context) {
+    function addSlotRow(key='', room='') {
+        const [d, t] = key.split('-');
+        const days = ['mon','tue','wed','thu','fri','sat'];
+        const times = ['0830','0930','1030','1130','1230','1330','1430','1530','1630','1730'];
         const div = document.createElement('div');
-        div.className = 'slot-item';
-        
-        const parts = key.split('-');
-        const dayCode = parts[0] || 'mon';
-        const timeStr = parts[1] || '1030';
-        
-        const dayMap = {'mon':'Monday','tue':'Tuesday','wed':'Wednesday','thu':'Thursday','fri':'Friday','sat':'Saturday','sun':'Sunday'};
-        const dayName = dayMap[dayCode];
-        
-        let hr = parseInt(timeStr.substring(0,2));
-        const min = timeStr.substring(2);
-        let ampm = 'AM';
-        if(hr>=12) { ampm='PM'; if(hr>12) hr-=12; }
-        else if(hr===0) hr=12;
-
-        const days = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-        const hrs = Array.from({length:12},(_,i)=>i+1);
-        const mins = ['00','15','30','45'];
-        
+        div.className = 'row slot-row';
         div.innerHTML = `
-            <select class="slot-day" style="width:115px; margin:0;">
-                ${days.map(d=>`<option value="${d}" ${d===dayName?'selected':''}>${d}</option>`).join('')}
-            </select>
-            <select class="slot-hr" style="width:75px; margin:0;">
-                ${hrs.map(h=>`<option value="${h}" ${h===hr?'selected':''}>${h}</option>`).join('')}
-            </select>
-            <select class="slot-min" style="width:75px; margin:0;">
-                ${mins.map(m=>`<option value="${m}" ${m===min?'selected':''}>${m}</option>`).join('')}
-            </select>
-            <select class="slot-ampm" style="width:75px; margin:0;">
-                <option value="AM" ${ampm==='AM'?'selected':''}>AM</option>
-                <option value="PM" ${ampm==='PM'?'selected':''}>PM</option>
-            </select>
-            <input type="text" class="slot-room" value="${data.room || ''}" style="flex:1; margin:0;" placeholder="Location">
-            <button class="danger" style="padding:4px 8px; margin:0;" onclick="this.parentElement.remove()">X</button>
+            <select class="s-day">${days.map(day => `<option value="${day}" ${day===d?'selected':''}>${day.toUpperCase()}</option>`).join('')}</select>
+            <select class="s-time">${times.map(time => `<option value="${time}" ${time===t?'selected':''}>${time}</option>`).join('')}</select>
+            <input type="text" class="s-room" value="${room}" placeholder="Room No">
+            <button onclick="this.parentElement.remove()" style="background:#e74c3c;">X</button>
+            <button onclick="addSlotRow()" style="background:#3498db;">+</button>
         `;
-        return div;
+        document.getElementById('slots-container').appendChild(div);
     }
 
-    function saveScheduleChanges() {
+    function saveSchedule() {
         const sub = document.getElementById('sched-sub').value;
         const div = document.getElementById('sched-div').value;
         const batch = document.getElementById('sched-batch').value;
-
-        if (!sub || !div) return;
-
-        const divData = DATA.schedule[sub][div];
-        
-        // Clear old lectures
-        Object.keys(divData).forEach(k => {
-            if (k.includes('-') || (divData[k].type === 'lec')) {
-                delete divData[k];
+        const newSlots = {};
+        document.querySelectorAll('.slot-row').forEach(row => {
+            const d = row.querySelector('.s-day').value;
+            const t = row.querySelector('.s-time').value;
+            const r = row.querySelector('.s-room').value;
+            if(r) {
+                newSlots[`${d}-${t}`] = { room: r, type: batch ? 'lab' : 'lec' };
+                if(batch) newSlots[`${d}-${t}`].span = 2;
             }
         });
-
-        // Add new lectures
-        document.querySelectorAll('#lecture-bar .slot-item').forEach(el => {
-            const day = el.querySelector('.slot-day').value;
-            const hr = parseInt(el.querySelector('.slot-hr').value);
-            const min = el.querySelector('.slot-min').value;
-            const ampm = el.querySelector('.slot-ampm').value;
-            const room = el.querySelector('.slot-room').value;
-            
-            const revDayMap = {'Monday':'mon','Tuesday':'tue','Wednesday':'wed','Thursday':'thu','Friday':'fri','Saturday':'sat'};
-            let h = hr;
-            if(ampm==='PM' && h!==12) h+=12;
-            if(ampm==='AM' && h===12) h=0;
-            const key = `${revDayMap[day]}-${h.toString().padStart(2,'0')}${min}`;
-            
-            if (key) divData[key] = { room, type: 'lec' };
-        });
-
-        // Update Batch Labs
-        if (batch && divData[batch]) {
-            divData[batch] = {}; 
-            document.querySelectorAll('#lab-bar .slot-item').forEach(el => {
-                const day = el.querySelector('.slot-day').value;
-                const hr = parseInt(el.querySelector('.slot-hr').value);
-                const min = el.querySelector('.slot-min').value;
-                const ampm = el.querySelector('.slot-ampm').value;
-                const room = el.querySelector('.slot-room').value;
-                
-                const revDayMap = {'Monday':'mon','Tuesday':'tue','Wednesday':'wed','Thursday':'thu','Friday':'fri','Saturday':'sat'};
-                let h = hr;
-                if(ampm==='PM' && h!==12) h+=12;
-                if(ampm==='AM' && h===12) h=0;
-                const key = `${revDayMap[day]}-${h.toString().padStart(2,'0')}${min}`;
-
-                if (key) divData[batch][key] = { room, type: 'lab', span: 2 }; 
-            });
+        if(batch) {
+            if(!DATA.schedule[sub][div][batch]) DATA.schedule[sub][div][batch] = {};
+            Object.keys(DATA.schedule[sub][div][batch]).forEach(k => delete DATA.schedule[sub][div][batch][k]);
+            Object.assign(DATA.schedule[sub][div][batch], newSlots);
+        } else {
+            Object.keys(DATA.schedule[sub][div]).forEach(k => { if(k.includes('-')) delete DATA.schedule[sub][div][k]; });
+            Object.assign(DATA.schedule[sub][div], newSlots);
         }
-
-        saveFile('/save_logic', newSchedStrWithNotes())
-            .then(() => showNotification("Schedule saved successfully!"))
-            .catch(() => showNotification("Error saving schedule."));
+        saveToFirebase();
     }
 
-    // --- NOTES LOGIC ---
-    function renderNotes() {
-        const container = document.getElementById('notes-list');
-        container.innerHTML = DATA.notes.map((note, idx) => `
-            <div class="slot-item" style="justify-content: space-between;">
-                <span>📢 ${note}</span>
-                <button class="danger" style="padding:4px 8px; margin:0; width:auto;" onclick="deleteNote(${idx})">Delete</button>
-            </div>
+    function renderNotesList() {
+        const list = document.getElementById('notes-list');
+        list.innerHTML = DATA.notes.map((n, i) => `
+            <div class="row"><span>${n}</span><button onclick="removeNote(${i})" style="background:#e74c3c; margin-left:auto;">Del</button></div>
         `).join('');
     }
 
-    function addNote() {
-        const text = document.getElementById('new-note-text').value.trim();
-        if (!text) return;
-        DATA.notes.push(text);
-        document.getElementById('new-note-text').value = '';
-        renderNotes();
+    function addNote() { const val = document.getElementById('new-note').value; if(val) { DATA.notes.push(val); renderNotesList(); document.getElementById('new-note').value=''; } }
+    function removeNote(i) { DATA.notes.splice(i, 1); renderNotesList(); }
+    function saveNotes() { saveToFirebase(); }
+
+    // --- CHAT REQUESTS LOGIC ---
+    function renderRequests() {
+        const container = document.getElementById('requests-list');
+        container.innerHTML = 'Loading...';
+        
+        db.collection('chat_activations').orderBy('timestamp', 'desc').get().then(snap => {
+            container.innerHTML = '';
+            if(snap.empty) { container.innerHTML = '<p>No pending requests.</p>'; return; }
+            
+            snap.forEach(doc => {
+                const data = doc.data();
+                const div = document.createElement('div');
+                div.className = 'card';
+                div.style.borderLeft = "5px solid #e67e22";
+                div.innerHTML = `
+                    <div class="row" style="justify-content:space-between;">
+                        <div>
+                            <strong>${data.name}</strong> (${data.mis})<br>
+                            <small>${data.email}</small><br>
+                            <span class="pass-code">Pass: ${data.password}</span>
+                        </div>
+                        <div>
+                            <button onclick="approveRequest('${data.mis}', '${data.email}', '${data.password}', '${data.name}')" style="background:#27ae60;">Activate & Mail</button>
+                            <button onclick="deleteRequest('${data.mis}')" style="background:#e74c3c;">Reject</button>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+        });
     }
 
-    function deleteNote(idx) {
-        DATA.notes.splice(idx, 1);
-        renderNotes();
+    async function approveRequest(mis, email, password, name) {
+        if(!confirm(`Activate chat for ${name}?`)) return;
+        
+        try {
+            // 1. Move to chat_users (Enable Login)
+            await db.collection('chat_users').doc(mis).set({ password: password });
+            
+            // 2. Delete from activations
+            await db.collection('chat_activations').doc(mis).delete();
+            
+            // 3. Open Mail Draft
+            const subject = encodeURIComponent("Your Chat Password - COEP Timetable");
+            const body = encodeURIComponent(`Hello ${name},\n\nYour password for the chat section is: ${password}\n\nLogin with your MIS: ${mis}\n\nRegards,\nAdmin`);
+            window.open(`mailto:${email}?subject=${subject}&body=${body}`);
+            
+            renderRequests();
+        } catch(e) {
+            alert("Error: " + e.message);
+        }
     }
 
-    function saveNotes() {
-        const newNotesStr = `const ACTIVE_NOTES = ${JSON.stringify(DATA.notes, null, 4)};`;
-        saveFile('/save_logic', newSchedStrWithNotes())
-            .then(() => showNotification("Announcements saved successfully!"))
-            .catch(() => showNotification("Error saving announcements."));
+    function deleteRequest(mis) {
+        if(confirm("Reject this request?")) {
+            db.collection('chat_activations').doc(mis).delete().then(renderRequests);
+        }
     }
 
-    function newSchedStrWithNotes() {
-        // We need to preserve MASTER_SCHEDULE while updating ACTIVE_NOTES
-        // Since we are in a browser, we can just reconstruct the whole file content
-        // based on the current state of DATA.schedule and DATA.notes
-        return `const MASTER_SCHEDULE = ${JSON.stringify(DATA.schedule, null, 4)};\n\n` +
-               `// --- LAB EMOJI MAPPING ---\n` + 
-               `// 1. UPDATED: Added 'PP' to the Computer/Tech group\n` +
-               `const LAB_EMOJI_GROUPS = [\n` +
-               `    { emoji: '💻', codes: ['PP', 'CAED', 'WD', 'MPFL', 'IPSSF', 'DS', 'DPV', 'PPS', 'FCP', 'GE', 'EW', 'CAD', 'DPI', 'EVA', 'RDOS'] },\n` +
-               `    { emoji: '📐', codes: ['VCDE', 'PS', 'AEIOT', 'FPI', 'AIMA', 'NM', 'BMT'] }, \n` +
-               `    { emoji: '🗣️', codes: ['CS'] },\n` +
-               `    { emoji: '🦸‍♂️', codes: ['PD'] },\n` +
-               `    { emoji: '🔬', codes: ['EP', 'EC', 'QP', 'EEMI', 'FEET', 'EM', 'FME', 'FMS', 'BCE', 'EEU'] }\n` +
-               `];\n\n` +
-               `function getLabEmoji(code, room) {\n` +
-               `    if (!code) return '🧪';\n` +
-               `    const upper = code.toUpperCase();\n` +
-               `    \n` +
-               `    for (const g of LAB_EMOJI_GROUPS) {\n` +
-               `        if (g.codes.includes(upper) && g.emoji) return g.emoji;\n` +
-               `    }\n` +
-               `    \n` +
-               `    // Fallback heuristics based on room name\n` +
-               `    if (room && /computer|cognizant/i.test(room)) return '💻';\n` +
-               `    \n` +
-               `    // 2. UPDATED: Return generic lab emoji if no match found\n` +
-               `    return '🧪';\n` +
-               `}\n\n` +
-               `// --- DATA MERGER FUNCTION ---\n` +
-               `function getStudentData(mis) {\n` +
-               `    if (!GENERATED_DB || !GENERATED_DB[mis]) {\n` +
-               `        return null;\n` +
-               `    }\n\n` +
-               `    const student = GENERATED_DB[mis];\n` +
-               `    const personalSchedule = {};\n\n` +
-               `    if (student.cards && Array.isArray(student.cards)) {\n` +
-               `        student.cards.forEach(card => {\n` +
-               `            const subjectCode = card.code;\n` +
-               `            const div = card.div;\n` +
-               `            const batch = card.batch;\n` +
-               `            // --- NEW: Format D1|B1 Info Tag ---\n` +
-               `            const shortDiv = div.toString().replace(/Div\\s*/i, '').trim();\n` + 
-               `            const locSuffix = " ⚡ D" + shortDiv + "|B" + batch;\n\n` +
-               `            if (MASTER_SCHEDULE[subjectCode] && MASTER_SCHEDULE[subjectCode][div]) {\n` +
-               `                const divSchedule = MASTER_SCHEDULE[subjectCode][div];\n\n` +
-               `                // --- A. Process Lectures ---\n` +
-               `                Object.keys(divSchedule).forEach(timeKey => {\n` +
-               `                    if (timeKey.length < 5) return; \n\n` +
-               `                    const slot = divSchedule[timeKey];\n` +
-               `                    \n` +
-               `                    // 3. UPDATED: Check for PD, CS, PP lectures to give them emojis\n` +
-               `                    let lectureEmoji = "";\n` +
-               `                    if (['PD', 'CS', 'PP'].includes(subjectCode.toUpperCase())) {\n` +
-               `                        lectureEmoji = getLabEmoji(subjectCode, slot.room);\n` +
-               `                    }\n\n` +
-               `                    const entry = {\n` +
-               `                        ...slot,\n` +
-               `                        subj: subjectCode,\n` +
-               `                        class: subjectCode.toLowerCase(),\n` +
-               `                        tag: lectureEmoji,\n` +
-               `                        // Appending info to room so it shows in the table box\n` +
-               `                        room: (slot.room || "") + locSuffix,\n` +
-               `                        div: div,\n` +
-               `                        batch: batch\n` +
-               `                    };\n\n` +
-               `                    addToSchedule(personalSchedule, timeKey, entry);\n` +
-               `                });\n\n` +
-               `                // --- B. Process Labs ---\n` +
-               `                if (batch !== '-' && divSchedule[batch]) {\n` +
-               `                    const labSlots = divSchedule[batch];\n` +
-               `                    \n` +
-               `                    Object.keys(labSlots).forEach(timeKey => {\n` +
-               `                        const lab = labSlots[timeKey];\n` +
-               `                        const entry = {\n` +
-               `                            ...lab,\n` +
-               `                            subj: subjectCode,\n` +
-               `                            class: subjectCode.toLowerCase(),\n` +
-               `                            // This now works for PP (added to list) and others (via fallback)\n` +
-               `                            tag: getLabEmoji(subjectCode, lab.room),\n` +
-               `                            // Appending info to room so it shows in the table box\n` +
-               `                            room: (lab.room || "") + locSuffix,\n` +
-               `                            div: div,\n` +
-               `                            batch: batch\n` +
-               `                        };\n\n` +
-               `                        addToSchedule(personalSchedule, timeKey, entry);\n` +
-               `                    });\n` +
-               `                }\n` +
-               `            }\n` +
-               `        });\n` +
-               `    }\n\n` +
-               `    return {\n` +
-               `        name: student.name,\n` +
-               `        info: student.info,\n` +
-               `        cards: student.cards,\n` +
-               `        schedule: personalSchedule\n` +
-               `    };\n` +
-               `}\n\n` +
-               `// Helper to handle overlapping slots\n` +
-               `function addToSchedule(schedule, timeKey, entry) {\n` +
-               `    if (schedule[timeKey]) {\n` +
-               `        if (Array.isArray(schedule[timeKey])) {\n` +
-               `            schedule[timeKey].push(entry);\n` +
-               `        } else {\n` +
-               `            schedule[timeKey] = [schedule[timeKey], entry];\n` +
-               `        }\n` +
-               `    } else {\n` +
-               `        schedule[timeKey] = entry;\n` +
-               `    }\n` +
-               `}\n\n` +
-               `const ACTIVE_NOTES = ${JSON.stringify(DATA.notes, null, 4)};`;
+    async function approveAllRequests() {
+        const shouldMail = true;
+        
+        const batch = db.batch();
+        const snap = await db.collection('chat_activations').get();
+        
+        if(snap.empty) { showToast("No requests to approve."); return; }
+        
+        let delay = 0;
+        snap.forEach(doc => {
+            const data = doc.data();
+            const userRef = db.collection('chat_users').doc(data.mis);
+            const reqRef = db.collection('chat_activations').doc(data.mis);
+            
+            batch.set(userRef, { password: data.password });
+            batch.delete(reqRef);
+            
+            if(shouldMail) {
+                const subject = encodeURIComponent("Your Chat Password - COEP Timetable");
+                const body = encodeURIComponent(`Hello ${data.name},\n\nYour password for the chat section is: ${data.password}\n\nLogin with your MIS: ${data.mis}\n\nRegards,\nAdmin`);
+                setTimeout(() => window.open(`mailto:${data.email}?subject=${subject}&body=${body}`), delay);
+                delay += 500;
+            }
+        });
+        
+        await batch.commit();
+        showToast(`Activated ${snap.size} users.`);
+        renderRequests();
     }
+
 </script>
-
 </body>
 </html>
