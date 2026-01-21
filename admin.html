@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COEP Admin (Firebase)</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
     <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
 
@@ -11,10 +12,12 @@
         body { --bg: #f4f4f9; --text: #333; --card: #fff; --primary: #6c5ce7; font-family: sans-serif; margin: 0; padding: 20px; background: var(--bg); color: var(--text); }
         body.dark-mode { --bg: #09090b; --text: #fafafa; --card: #18181b; }
         .card { background: var(--card); padding: 25px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 20px; }
-        button { background: var(--primary); color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-weight: bold; margin-right: 10px; }
+        button { background: var(--primary); color: white; border: none; padding: 12px 20px; border-radius: 8px; cursor: pointer; font-weight: bold; margin-right: 10px; transition: transform 0.1s; }
+        button:active { transform: scale(0.96); }
         input, select { padding: 10px; border-radius: 8px; border: 1px solid #ccc; width: 100%; box-sizing: border-box; margin-bottom: 10px; background: transparent; color: var(--text); }
-        .row { display: flex; gap: 10px; align-items: center; }
-        .tabs { display: flex; gap: 10px; margin-bottom: 20px; }
+        .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+        .tabs { display: flex; gap: 10px; margin-bottom: 20px; overflow-x: auto; padding-bottom: 5px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+        .tabs::-webkit-scrollbar { display: none; }
         .tab { padding: 10px 20px; background: var(--card); border-radius: 20px; cursor: pointer; font-weight: bold; opacity: 0.7; }
         .tab.active { opacity: 1; border: 2px solid var(--primary); color: var(--primary); }
         .panel { display: none; }
@@ -31,6 +34,25 @@
         option { background: var(--card); color: var(--text); }
         .pass-code { background: #eee; padding: 2px 6px; border-radius: 4px; color: #d35400; font-weight: bold; font-family: monospace; font-size: 0.9rem; }
         body.dark-mode .pass-code { background: rgba(255,255,255,0.1); color: #ff9f43; }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            body { padding: 10px; }
+            h1 { font-size: 1.5rem; }
+            .card { padding: 15px; }
+            .row { flex-direction: column; align-items: stretch; gap: 10px; }
+            button { width: 100%; margin-right: 0; margin-bottom: 5px; }
+            .tab { flex-shrink: 0; white-space: nowrap; font-size: 0.9rem; padding: 8px 16px; }
+            
+            /* Slot Row Exception for Schedule Editor */
+            .slot-row { flex-direction: row; flex-wrap: wrap; background: rgba(0,0,0,0.02); padding: 10px; border-radius: 8px; border: 1px solid var(--primary); }
+            .slot-row select, .slot-row input { width: 48% !important; flex: 1 1 40%; font-size: 0.9rem; }
+            .slot-row button { width: auto; flex: 1 1 40%; }
+            
+            /* Requests List Mobile */
+            #requests-list .row { flex-direction: column; align-items: flex-start; }
+            #requests-list button { width: 100%; margin-top: 5px; }
+        }
     </style>
 </head>
 <body class="dark-mode">
