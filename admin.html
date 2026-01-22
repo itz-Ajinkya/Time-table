@@ -7,21 +7,115 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
     <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <style>
-        body { --bg: #f4f4f9; --text: #333; --card: #fff; --primary: #6c5ce7; font-family: sans-serif; margin: 0; padding: 20px; background: var(--bg); color: var(--text); }
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+
+        :root {
+            --bg: #f4f4f9; --text: #2d3436; --card: #ffffff; --primary: #6c5ce7; 
+            --sidebar-w: 260px; --nav-h: 70px;
+        }
         body.dark-mode { --bg: #09090b; --text: #fafafa; --card: #18181b; }
-        .card { background: var(--card); padding: 25px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        
+        body { 
+            font-family: 'Outfit', sans-serif; margin: 0; padding: 0; 
+            background: var(--bg); color: var(--text); 
+            display: flex; min-height: 100vh; overflow-x: hidden;
+        }
+
+        /* --- DESKTOP SIDEBAR --- */
+        .sidebar {
+            width: var(--sidebar-w);
+            background: var(--card);
+            height: 100vh;
+            position: fixed;
+            left: 0; top: 0;
+            padding: 30px 20px;
+            display: flex; flex-direction: column;
+            border-right: 1px solid rgba(0,0,0,0.05);
+            z-index: 100;
+            transition: transform 0.3s ease;
+        }
+        .sidebar h2 { margin: 0 0 40px 10px; font-size: 1.8rem; color: var(--primary); display: flex; align-items: center; gap: 10px; }
+        
+        .nav-item {
+            padding: 16px 20px;
+            border-radius: 16px;
+            cursor: pointer;
+            margin-bottom: 8px;
+            color: var(--text);
+            font-weight: 600;
+            display: flex; align-items: center; gap: 15px;
+            transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+            opacity: 0.7;
+            font-size: 1.05rem;
+        }
+        .nav-item:hover { background: rgba(108, 92, 231, 0.08); opacity: 1; transform: translateX(5px); }
+        .nav-item.active { background: var(--primary); color: white; opacity: 1; box-shadow: 0 8px 20px rgba(108, 92, 231, 0.3); transform: translateX(5px); }
+        .nav-item i { width: 24px; text-align: center; }
+
+        /* --- MAIN CONTENT --- */
+        .main-content {
+            flex: 1;
+            margin-left: var(--sidebar-w);
+            padding: 40px;
+            max-width: 1600px;
+            width: calc(100% - var(--sidebar-w));
+        }
+
+        /* --- MOBILE BOTTOM NAV --- */
+        .bottom-nav {
+            display: none;
+            position: fixed; bottom: 0; left: 0; width: 100%;
+            background: var(--card);
+            padding: 12px 20px;
+            justify-content: space-around; align-items: center;
+            box-shadow: 0 -5px 30px rgba(0,0,0,0.1);
+            z-index: 1000;
+            border-top: 1px solid rgba(0,0,0,0.05);
+            padding-bottom: max(12px, env(safe-area-inset-bottom));
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .b-nav-item {
+            display: flex; flex-direction: column; align-items: center; gap: 6px;
+            font-size: 0.7rem; color: var(--text); opacity: 0.5; cursor: pointer;
+            transition: all 0.2s;
+        }
+        .b-nav-item i { font-size: 1.4rem; margin-bottom: 2px; transition: transform 0.2s; }
+        .b-nav-item.active { color: var(--primary); opacity: 1; }
+        .b-nav-item.active i { transform: translateY(-3px); }
+
+        /* --- CARDS & UI --- */
+        .card { 
+            background: var(--card); padding: 30px; border-radius: 24px; 
+            box-shadow: 0 10px 40px rgba(0,0,0,0.04); margin-bottom: 25px; 
+            border: 1px solid rgba(0,0,0,0.03);
+            transition: transform 0.2s;
+        }
+        .card h3 { margin-top: 0; font-size: 1.4rem; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+        
         button { background: var(--primary); color: white; border: none; padding: 12px 20px; border-radius: 8px; cursor: pointer; font-weight: bold; margin-right: 10px; transition: transform 0.1s; }
         button:active { transform: scale(0.96); }
-        input, select { padding: 10px; border-radius: 8px; border: 1px solid #ccc; width: 100%; box-sizing: border-box; margin-bottom: 10px; background: transparent; color: var(--text); }
+        
+        input, select { 
+            padding: 14px; border-radius: 12px; border: 2px solid rgba(0,0,0,0.1); 
+            width: 100%; box-sizing: border-box; margin-bottom: 15px; 
+            background: transparent; color: var(--text); font-family: inherit; font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+        input:focus, select:focus { outline: none; border-color: var(--primary); }
+        
         .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
-        .tabs { display: flex; gap: 10px; margin-bottom: 20px; overflow-x: auto; padding-bottom: 5px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
-        .tabs::-webkit-scrollbar { display: none; }
-        .tab { padding: 10px 20px; background: var(--card); border-radius: 20px; cursor: pointer; font-weight: bold; opacity: 0.7; }
-        .tab.active { opacity: 1; border: 2px solid var(--primary); color: var(--primary); }
+        
+        /* Hide old tabs */
+        .tabs { display: none; }
+        
         .panel { display: none; }
         .panel.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        
         .loading-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; color: white; font-size: 2rem; z-index: 9999; display: none; }
         
         /* Migration Section Style */
@@ -37,18 +131,22 @@
 
         /* Mobile Responsiveness */
         @media (max-width: 768px) {
-            body { padding: 10px; }
-            h1 { font-size: 1.5rem; }
-            .card { padding: 15px; }
+            .sidebar { display: none; }
+            .main-content { margin-left: 0; width: 100%; padding: 20px 15px 100px 15px; }
+            .bottom-nav { display: flex; }
+            
+            .mobile-header { display: flex !important; }
+            
+            .card { padding: 20px; border-radius: 20px; }
             .row { flex-direction: column; align-items: stretch; gap: 10px; }
             button { width: 100%; margin-right: 0; margin-bottom: 5px; }
-            .tab { flex-shrink: 0; white-space: nowrap; font-size: 0.9rem; padding: 8px 16px; }
+            
+            /* Chat FAB Adjustment */
+            .chat-fab { bottom: 90px; right: 20px; width: 55px; height: 55px; }
+            
+            h1 { font-size: 1.8rem; margin: 0; }
             
             /* Slot Row Exception for Schedule Editor */
-            .slot-row { flex-direction: row; flex-wrap: wrap; background: rgba(0,0,0,0.02); padding: 10px; border-radius: 8px; border: 1px solid var(--primary); }
-            .slot-row select, .slot-row input { width: 48% !important; flex: 1 1 40%; font-size: 0.9rem; }
-            .slot-row button { width: auto; flex: 1 1 40%; }
-            
             /* Requests List Mobile */
             #requests-list .row { flex-direction: column; align-items: flex-start; }
             #requests-list button { width: 100%; margin-top: 5px; }
@@ -59,25 +157,77 @@
         .chat-list-item:hover { background: rgba(0,0,0,0.05); }
         .unseen-dot { height: 10px; width: 10px; background: #2ecc71; border-radius: 50%; display: inline-block; box-shadow: 0 0 5px #2ecc71; }
         
-        /* Chat Modal/Panel - Updated */
-        #admin-chat-view { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 2200; justify-content: center; align-items: center; backdrop-filter: blur(5px); }
-        .admin-chat-box { width: 95%; max-width: 450px; height: 85vh; background: var(--bg); border-radius: 16px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); }
+        /* --- LEGENDARY CHAT UI --- */
+        #admin-chat-view { 
+            display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+            background: rgba(0,0,0,0.6); z-index: 2200; 
+            justify-content: center; align-items: center; 
+            backdrop-filter: blur(12px); 
+        }
+        .admin-chat-box { 
+            width: 95%; max-width: 500px; height: 85vh; 
+            background: var(--card); border-radius: 24px; 
+            display: flex; flex-direction: column; overflow: hidden; 
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5); 
+            border: 1px solid rgba(255,255,255,0.1); 
+        }
         
-        .ac-header { padding: 15px 20px; background: var(--card); border-bottom: 1px solid rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; font-weight: bold; font-size: 1.1rem; color: var(--primary); }
-        .ac-msgs { flex: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 12px; background: var(--bg); }
+        .ac-header { 
+            padding: 20px 25px; background: rgba(255,255,255,0.03); 
+            border-bottom: 1px solid rgba(0,0,0,0.05); 
+            display: flex; justify-content: space-between; align-items: center; 
+            font-weight: 800; font-size: 1.3rem; color: var(--primary); 
+            backdrop-filter: blur(10px);
+        }
+        .ac-msgs { 
+            flex: 1; padding: 25px; overflow-y: auto; 
+            display: flex; flex-direction: column; gap: 10px; 
+            background: var(--bg); 
+        }
         
-        .ac-footer { padding: 15px; background: var(--card); border-top: 1px solid rgba(0,0,0,0.1); display: flex; gap: 10px; align-items: center; }
-        .ac-footer input { margin: 0; border-radius: 20px; padding: 12px 15px; border: 1px solid rgba(0,0,0,0.1); background: var(--bg); flex: 1; }
-        .ac-footer button { margin: 0; width: 45px; height: 45px; border-radius: 50%; padding: 0; display: flex; align-items: center; justify-content: center; background: var(--primary); color: white; border: none; }
+        .ac-footer { 
+            padding: 15px 20px; background: var(--card); 
+            border-top: 1px solid rgba(0,0,0,0.05); 
+            display: flex; gap: 12px; align-items: center; 
+        }
+        .ac-footer input { 
+            margin: 0; border-radius: 30px; padding: 14px 20px; 
+            border: 1px solid transparent; background: var(--bg); flex: 1; 
+            box-shadow: inset 0 2px 5px rgba(0,0,0,0.03);
+            transition: all 0.3s;
+        }
+        .ac-footer input:focus { background: var(--card); box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.2); }
+        .ac-footer button { 
+            margin: 0; width: 52px; height: 52px; border-radius: 50%; padding: 0; 
+            display: flex; align-items: center; justify-content: center; 
+            background: var(--primary); color: white; border: none; 
+            box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
+            font-size: 1.2rem;
+        }
 
         /* Message Bubbles */
-        .message { max-width: 80%; padding: 10px 14px; border-radius: 18px; font-size: 0.95rem; position: relative; line-height: 1.4; word-wrap: break-word; }
+        .message { 
+            max-width: 75%; padding: 12px 18px; border-radius: 22px; 
+            font-size: 0.95rem; position: relative; line-height: 1.5; word-wrap: break-word; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            animation: msgPop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        @keyframes msgPop { from { opacity: 0; transform: scale(0.9) translateY(10px); } to { opacity: 1; transform: scale(1) translateY(0); } }
         
         /* Student Messages (Left) */
-        .message.student { align-self: flex-start; background: var(--card); color: var(--text); border: 1px solid rgba(0,0,0,0.1); border-bottom-left-radius: 4px; }
+        .message.student { 
+            align-self: flex-start; background: var(--card); color: var(--text); 
+            border: 1px solid rgba(0,0,0,0.05); border-bottom-left-radius: 4px; 
+        }
         
-        /* Admin Messages (Center Green) */
-        .message.admin { align-self: center; background: #27ae60; color: white; border: none; border-radius: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); text-align: center; font-weight: 500; }
+        /* Admin Messages (Right Gradient) */
+        .message.admin { 
+            align-self: flex-end; 
+            background: linear-gradient(135deg, var(--primary), #a29bfe); 
+            color: white; border: none; border-bottom-right-radius: 4px; 
+            text-align: left; font-weight: 500; 
+            box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);
+        }
 
         .msg-sender { font-size: 0.7rem; opacity: 0.7; margin-bottom: 4px; display: block; font-weight: 600; }
         .message.admin .msg-sender { display: none; } 
@@ -88,60 +238,117 @@
         .ctx-item:hover { background: rgba(0,0,0,0.05); }
         .ctx-item.delete { color: #e74c3c; }
 
-        /* FAB & Chat List Modal */
-        .chat-fab { position: fixed; bottom: 25px; right: 25px; background: var(--primary); color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); cursor: pointer; z-index: 1500; transition: transform 0.2s; }
-        .chat-fab:active { transform: scale(0.90); }
-
         #admin-chat-list-modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 2100; justify-content: center; align-items: center; backdrop-filter: blur(5px); }
         .chat-list-box { width: 95%; max-width: 400px; height: 70vh; background: var(--bg); border-radius: 16px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); }
         .cl-header { padding: 15px 20px; background: var(--card); border-bottom: 1px solid rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; font-weight: bold; font-size: 1.1rem; color: var(--primary); }
         .cl-body { flex: 1; overflow-y: auto; padding: 10px; }
+
+        /* Subject Entry Card Styling */
+        .subject-entry-card {
+            background: var(--bg);
+            border: 1px solid rgba(128,128,128,0.1);
+            border-radius: 16px;
+            padding: 15px;
+            margin-bottom: 12px;
+            display: grid;
+            grid-template-columns: 3fr 2fr 2fr auto;
+            gap: 10px;
+            align-items: center;
+        }
+        .subject-entry-card select { margin-bottom: 0 !important; }
+        .subject-entry-card button { margin: 0 !important; height: 48px; width: 48px; display: flex; align-items: center; justify-content: center; border-radius: 12px; }
+
+        /* Schedule Entry Card Styling */
+        .schedule-entry-card {
+            background: var(--bg);
+            border: 1px solid rgba(128,128,128,0.1);
+            border-radius: 16px;
+            padding: 15px;
+            margin-bottom: 12px;
+            display: grid;
+            grid-template-columns: 2fr 2fr 3fr auto auto; /* Day, Time, Room, Del, Add */
+            gap: 10px;
+            align-items: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .schedule-entry-card:hover { transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+        .schedule-entry-card select, .schedule-entry-card input { margin-bottom: 0 !important; }
+        .schedule-entry-card button { margin: 0 !important; height: 48px; width: 48px; display: flex; align-items: center; justify-content: center; border-radius: 12px; }
+
+        @media (max-width: 768px) {
+            .subject-entry-card {
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+                padding: 12px;
+            }
+            .subject-entry-card button { width: 100%; }
+            
+            .schedule-entry-card {
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+                padding: 15px;
+            }
+            /* Room takes full width */
+            .schedule-entry-card .s-room { grid-column: 1 / -1; }
+            /* Buttons */
+            .schedule-entry-card button { width: 100%; }
+        }
     </style>
 </head>
 <body class="dark-mode">
 
 <div class="loading-overlay" id="loader">Processing...</div>
 
-<div id="admin-interface">
+<!-- DESKTOP SIDEBAR -->
+<nav class="sidebar">
+    <h2>⚡ Admin</h2>
+    <div class="nav-item active" onclick="switchTab('students')"><i class="fas fa-user-graduate"></i> Students</div>
+    <div class="nav-item" onclick="switchTab('schedule')"><i class="fas fa-calendar-alt"></i> Schedule</div>
+    <div class="nav-item" onclick="switchTab('notes')"><i class="fas fa-bullhorn"></i> Notes</div>
+    <div class="nav-item" onclick="switchTab('requests')"><i class="fas fa-envelope-open-text"></i> Requests</div>
+    <div class="nav-item" onclick="switchTab('group-chats')"><i class="fas fa-comments"></i> Chats</div>
+    <div class="nav-item" onclick="switchTab('migration')"><i class="fas fa-cloud-upload-alt"></i> Migration</div>
+    <div style="flex:1"></div>
+    <div class="nav-item" onclick="document.body.classList.toggle('dark-mode')"><i class="fas fa-moon"></i> Theme</div>
+</nav>
+
+<div class="main-content" id="admin-interface">
+    
+    <!-- MOBILE HEADER -->
+    <div class="mobile-header" style="display:none; justify-content:space-between; align-items:center; margin-bottom:25px;">
+        <h1>⚡ Admin</h1>
+        <button onclick="document.body.classList.toggle('dark-mode')" style="width:auto; padding:10px 14px; background:var(--card); color:var(--text); box-shadow:0 4px 10px rgba(0,0,0,0.1);"><i class="fas fa-moon"></i></button>
+    </div>
+
     <div id="custom-toast" class="toast"></div>
-    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
-        <h1>⚡ Cloud Admin Portal</h1>
-        <button onclick="document.body.classList.toggle('dark-mode')">🌗 Theme</button>
-    </div>
 
-    <div class="card migration-box">
-        <h3>📂 Bulk Migration (Fix)</h3>
-        <p>Use this to upload your old <code>students.js</code> and <code>logic.js</code> to the cloud instantly.</p>
-        <div class="row">
-            <button onclick="document.getElementById('file-students').click()" style="background:#2d3436;">1. Upload students.js</button>
-            <input type="file" id="file-students" hidden onchange="importStudents(this)">
+    <div id="migration" class="panel">
+        <div class="card migration-box">
+            <h3><i class="fas fa-cloud-upload-alt"></i> Data Migration</h3>
+            <p style="opacity:0.7; margin-bottom:15px;">Upload local <code>students.js</code> and <code>logic.js</code> to sync with cloud.</p>
+            <div class="row">
+                <button onclick="document.getElementById('file-students').click()" style="background:var(--text);">1. Upload students.js</button>
+                <input type="file" id="file-students" hidden onchange="importStudents(this)">
 
-            <button onclick="document.getElementById('file-logic').click()" style="background:#2d3436;">2. Upload logic.js</button>
-            <input type="file" id="file-logic" hidden onchange="importLogic(this)">
-            
-            <button onclick="saveToFirebase()" style="background:#27ae60; margin-left:auto;">SAVE ALL TO CLOUD</button>
+                <button onclick="document.getElementById('file-logic').click()" style="background:var(--text);">2. Upload logic.js</button>
+                <input type="file" id="file-logic" hidden onchange="importLogic(this)">
+                
+                <button onclick="saveToFirebase()" style="background:#27ae60; margin-left:auto;">SAVE ALL TO CLOUD</button>
+            </div>
+            <div id="import-status" style="margin-top:10px; font-weight:bold; color: var(--primary);"></div>
         </div>
-        <div id="import-status" style="margin-top:10px; font-weight:bold; color: var(--primary);"></div>
-    </div>
-
-    <div class="tabs">
-        <div class="tab active" onclick="switchTab('students')">🎓 Students</div>
-        <div class="tab" onclick="switchTab('schedule')">📅 Schedule</div>
-        <div class="tab" onclick="switchTab('notes')">📢 Announcements</div>
-        <div class="tab" onclick="switchTab('requests')">💬 Requests</div>
-        <div class="tab" onclick="switchTab('group-chats')">💬 Group Chats</div>
     </div>
 
     <div id="students" class="panel active">
         <div class="card">
-            <h3>🔍 Edit Student</h3>
+            <h3><i class="fas fa-search"></i> Find Student</h3>
             <div class="row">
                 <input type="text" id="mis-input" placeholder="Enter MIS (e.g., 6125...)" onkeydown="if(event.key==='Enter') fetchStudent()">
                 <button onclick="fetchStudent()">Fetch</button>
             </div>
         </div>
         <div id="student-editor" class="card" style="display:none;">
-            <h3>✏️ Details</h3>
+            <h3><i class="fas fa-user-edit"></i> Edit Details</h3>
             <label>Name</label>
             <input type="text" id="edit-name">
             <h4 style="margin-top:20px;">Subject Allocation</h4>
@@ -155,7 +362,7 @@
 
     <div id="schedule" class="panel">
         <div class="card">
-            <h3>📅 Edit Master Schedule</h3>
+            <h3><i class="fas fa-calendar-check"></i> Master Schedule</h3>
             <div class="row">
                 <select id="sched-sub" onchange="onSchedSubChange()"><option value="">Select Subject</option></select>
                 <select id="sched-div" onchange="onSchedDivChange()"><option value="">Select Division</option></select>
@@ -171,7 +378,7 @@
 
     <div id="notes" class="panel">
         <div class="card">
-            <h3>📢 Announcements</h3>
+            <h3><i class="fas fa-bullhorn"></i> Announcements</h3>
             <div id="notes-list"></div>
             <div class="row" style="margin-top:15px;">
                 <input type="text" id="new-note" placeholder="New announcement...">
@@ -183,7 +390,7 @@
 
     <div id="requests" class="panel">
         <div class="card">
-            <h3>💬 Chat Access Requests</h3>
+            <h3><i class="fas fa-user-lock"></i> Access Requests</h3>
             <button onclick="renderRequests()" style="margin-bottom:15px; background:#2d3436;">🔄 Refresh List</button>
             <button onclick="approveAllRequests()" style="margin-bottom:15px; background:#e67e22;">⚡ Activate All</button>
             <div id="requests-list"></div>
@@ -192,7 +399,7 @@
 
     <div id="group-chats" class="panel">
         <div class="card">
-            <h3>💬 Active Group Chats</h3>
+            <h3><i class="fas fa-users"></i> Active Chats</h3>
             <div class="row" style="margin-bottom:15px;">
                 <input type="text" id="manual-chat-id" placeholder="Enter Group ID (e.g. EP_Div1)" onkeydown="if(event.key==='Enter') openManualChat()">
                 <button onclick="openManualChat()">Open Specific Chat</button>
@@ -203,8 +410,15 @@
     </div>
 </div>
 
-<!-- Chat FAB -->
-<div class="chat-fab" onclick="openAdminChatList()">💬</div>
+<!-- MOBILE BOTTOM NAV -->
+<nav class="bottom-nav">
+    <div class="b-nav-item active" onclick="switchTab('students')"><i class="fas fa-user-graduate"></i><span>Students</span></div>
+    <div class="b-nav-item" onclick="switchTab('schedule')"><i class="fas fa-calendar-alt"></i><span>Schedule</span></div>
+    <div class="b-nav-item" onclick="switchTab('notes')"><i class="fas fa-bullhorn"></i><span>Notes</span></div>
+    <div class="b-nav-item" onclick="switchTab('requests')"><i class="fas fa-envelope-open-text"></i><span>Requests</span></div>
+    <div class="b-nav-item" onclick="switchTab('group-chats')"><i class="fas fa-comments"></i><span>Chats</span></div>
+    <div class="b-nav-item" onclick="switchTab('migration')"><i class="fas fa-cloud-upload-alt"></i><span>Migrate</span></div>
+</nav>
 
 <!-- Chat List Modal -->
 <div id="admin-chat-list-modal">
@@ -227,7 +441,7 @@
         <div class="ac-msgs" id="ac-msgs-area"></div>
         <div class="ac-footer">
             <input type="text" id="ac-input" placeholder="Type as Admin..." onkeydown="if(event.key==='Enter') sendAdminMessage()">
-            <button onclick="sendAdminMessage()" style="margin:0;">➤</button>
+            <button onclick="sendAdminMessage()" style="margin:0;"><i class="fas fa-paper-plane"></i></button>
         </div>
     </div>
 </div>
@@ -259,6 +473,11 @@
     let CHAT_UNSUBSCRIBE = null;
 
     window.onload = async function() {
+        if (!sessionStorage.getItem("admin_auth")) {
+            alert("🔒 Access Denied: Please login first.");
+            window.location.href = "index.html";
+            return;
+        }
         document.getElementById('loader').style.display = 'flex';
         try {
             const doc = await db.collection('timetable_global').doc('main_data').get();
@@ -352,9 +571,26 @@
     // --- STANDARD ADMIN LOGIC ---
     function switchTab(id) {
         document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
-        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        
+        // Update Desktop Sidebar
+        document.querySelectorAll('.nav-item').forEach(t => t.classList.remove('active'));
+        // Update Mobile Bottom Nav
+        document.querySelectorAll('.b-nav-item').forEach(t => t.classList.remove('active'));
+        
         document.getElementById(id).classList.add('active');
-        event.currentTarget.classList.add('active');
+        
+        // Highlight clicked item (and its counterpart in the other menu)
+        const map = { 'students': 0, 'schedule': 1, 'notes': 2, 'requests': 3, 'group-chats': 4, 'migration': 5 };
+        const idx = map[id];
+        
+        if (idx !== undefined) {
+            const sidebarItems = document.querySelectorAll('.sidebar .nav-item');
+            if(sidebarItems[idx]) sidebarItems[idx].classList.add('active');
+            
+            const bottomItems = document.querySelectorAll('.bottom-nav .b-nav-item');
+            if(bottomItems[idx]) bottomItems[idx].classList.add('active');
+        }
+        
         if(id === 'group-chats') renderAllChats();
     }
 
@@ -378,13 +614,90 @@
     function addCardRow(card = {code:'', div:'', batch:'-'}) {
         const subjects = Object.keys(DATA.schedule).sort();
         const div = document.createElement('div');
-        div.className = 'row';
+        div.className = 'subject-entry-card';
+        
+        // Structure with Selects
         div.innerHTML = `
-            <select class="c-sub">${subjects.map(s => `<option value="${s}" ${s===card.code?'selected':''}>${s}</option>`).join('')}</select>
-            <input type="text" class="c-div" value="${card.div}" placeholder="Div (e.g. Div 1)">
-            <input type="text" class="c-batch" value="${card.batch}" placeholder="Batch">
-            <button onclick="this.parentElement.remove()" style="background:#e74c3c;">X</button>
+            <select class="c-sub"></select>
+            <select class="c-div"></select>
+            <select class="c-batch"></select>
+            <button style="background:#e74c3c;"><i class="fas fa-trash"></i></button>
         `;
+
+        const subSel = div.querySelector('.c-sub');
+        const divSel = div.querySelector('.c-div');
+        const batchSel = div.querySelector('.c-batch');
+        const delBtn = div.querySelector('button');
+
+        delBtn.onclick = () => div.remove();
+
+        // Populate Subjects
+        subSel.innerHTML = '<option value="">Select Subject</option>';
+        subjects.forEach(s => {
+            const opt = document.createElement('option');
+            opt.value = s;
+            opt.innerText = s;
+            if(s === card.code) opt.selected = true;
+            subSel.appendChild(opt);
+        });
+
+        // Helper: Populate Batches
+        const populateBatches = (selectedBatch) => {
+            const s = subSel.value;
+            const d = divSel.value;
+            batchSel.innerHTML = '';
+            
+            let batches = [];
+            if (s && d && DATA.schedule[s] && DATA.schedule[s][d]) {
+                batches = Object.keys(DATA.schedule[s][d])
+                    .filter(k => !k.includes('-') && typeof DATA.schedule[s][d][k] === 'object')
+                    .sort((a, b) => a.localeCompare(b, undefined, {numeric: true, sensitivity: 'base'}));
+            }
+
+            if (batches.length > 0) {
+                batchSel.disabled = false;
+                batches.forEach(b => {
+                    const opt = document.createElement('option');
+                    opt.value = b;
+                    opt.innerText = b;
+                    if (b === selectedBatch) opt.selected = true;
+                    batchSel.appendChild(opt);
+                });
+                if (!batches.includes(batchSel.value)) batchSel.selectedIndex = 0;
+            } else {
+                batchSel.innerHTML = '<option value="-">-</option>';
+                batchSel.disabled = true;
+            }
+        };
+
+        // Helper: Populate Divs
+        const populateDivs = (selectedDiv, selectedBatch) => {
+            const s = subSel.value;
+            divSel.innerHTML = '';
+            
+            if (s && DATA.schedule[s]) {
+                const divs = Object.keys(DATA.schedule[s]).sort();
+                divs.forEach(d => {
+                    const opt = document.createElement('option');
+                    opt.value = d;
+                    opt.innerText = d;
+                    if (d === selectedDiv) opt.selected = true;
+                    divSel.appendChild(opt);
+                });
+                if (!divs.includes(divSel.value) && divs.length > 0) divSel.selectedIndex = 0;
+            } else {
+                divSel.innerHTML = '<option value="">-</option>';
+            }
+            populateBatches(selectedBatch);
+        };
+
+        // Event Listeners
+        subSel.onchange = () => populateDivs();
+        divSel.onchange = () => populateBatches();
+
+        // Initial Load
+        populateDivs(card.div, card.batch);
+
         document.getElementById('cards-container').appendChild(div);
     }
 
@@ -393,7 +706,7 @@
     function saveStudent() {
         if(!CURRENT_MIS) return;
         const name = document.getElementById('edit-name').value;
-        const cardRows = document.querySelectorAll('#cards-container .row');
+        const cardRows = document.querySelectorAll('#cards-container .subject-entry-card');
         const cards = Array.from(cardRows).map(r => ({
             code: r.querySelector('.c-sub').value,
             name: r.querySelector('.c-sub').value,
@@ -455,13 +768,13 @@
         const days = ['mon','tue','wed','thu','fri','sat'];
         const times = ['0830','0930','1030','1130','1230','1330','1430','1530','1630','1730'];
         const div = document.createElement('div');
-        div.className = 'row slot-row';
+        div.className = 'schedule-entry-card';
         div.innerHTML = `
             <select class="s-day">${days.map(day => `<option value="${day}" ${day===d?'selected':''}>${day.toUpperCase()}</option>`).join('')}</select>
             <select class="s-time">${times.map(time => `<option value="${time}" ${time===t?'selected':''}>${time}</option>`).join('')}</select>
             <input type="text" class="s-room" value="${room}" placeholder="Room No">
-            <button onclick="this.parentElement.remove()" style="background:#e74c3c;">X</button>
-            <button onclick="addSlotRow()" style="background:#3498db;">+</button>
+            <button onclick="this.parentElement.remove()" style="background:#e74c3c;"><i class="fas fa-trash"></i></button>
+            <button onclick="addSlotRow()" style="background:#3498db;"><i class="fas fa-plus"></i></button>
         `;
         document.getElementById('slots-container').appendChild(div);
     }
@@ -471,7 +784,7 @@
         const div = document.getElementById('sched-div').value;
         const batch = document.getElementById('sched-batch').value;
         const newSlots = {};
-        document.querySelectorAll('.slot-row').forEach(row => {
+        document.querySelectorAll('.schedule-entry-card').forEach(row => {
             const d = row.querySelector('.s-day').value;
             const t = row.querySelector('.s-time').value;
             const r = row.querySelector('.s-room').value;

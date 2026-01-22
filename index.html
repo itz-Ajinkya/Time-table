@@ -2001,11 +2001,24 @@
         location.reload();
     }
 
-    function adminLogin() {
+    async function adminLogin() {
         const mis = prompt("Enter Admin MIS:");
         if (mis === "612572009") {
             const pass = prompt("Enter Password:");
-            if (pass === "Ajinky@2006") {
+            if (!pass) return;
+
+            const msgBuffer = new TextEncoder().encode(pass);
+            const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+
+            // DEBUG: Open Console (F12) to see these values
+            console.log("Typed Password:", pass);
+            console.log("Generated Hash:", hashHex);
+
+            
+            if (hashHex === "a00a8bac6ab8898bb44543cb8618a1830d9fcf736bd755bf0804cff4a21d2f41") {
+                sessionStorage.setItem("admin_auth", "true");
                 window.location.href = "admin.html";
             } else {
                 alert("Incorrect Password");
@@ -2265,6 +2278,14 @@
 
     // --- FREE ROOM LOGIC ---
 
+    const TIME_SLOTS_CONFIG = [
+        { id: "0830", label: "8:30 - 9:30" }, { id: "0930", label: "9:30 - 10:30" },
+        { id: "1030", label: "10:30 - 11:30" }, { id: "1130", label: "11:30 - 12:30" },
+        { id: "1230", label: "12:30 - 1:30" }, { id: "1330", label: "1:30 - 2:30" },
+        { id: "1430", label: "2:30 - 3:30" }, { id: "1530", label: "3:30 - 4:30" },
+        { id: "1630", label: "4:30 - 5:30" }, { id: "1730", label: "5:30 - 6:30" }
+    ];
+
     // 1. Extract all unique rooms from the Master Schedule
     function getAllKnownRooms() {
         const rooms = new Set();
@@ -2293,33 +2314,76 @@
     // 2. Find occupied rooms for a specific day and time
     function getOccupiedRooms(day, slotId) {
         const occupied = new Set();
-        const targetKey = `${day}-${slotId}`;
+        const targetIndex = TIME_SLOTS_CONFIG.findIndex(s => s.id === slotId);
+        if (targetIndex === -1) return occupied;
         
         if (!window.MASTER_SCHEDULE) return occupied;
 
         Object.values(window.MASTER_SCHEDULE).forEach(divs => {
             Object.values(divs).forEach(divData => {
-                // Check Standard Lectures
-                if (divData[targetKey]) {
-                    const slot = divData[targetKey];
-                    if (Array.isArray(slot)) {
-                        slot.forEach(s => { if(s.room) occupied.add(s.room); });
-                    } else if (slot.room) {
-                        occupied.add(slot.room);
+                // Helper to check if an entry overlaps with the target time
+                const checkEntry = (entry, startSlotId) => {
+                    if (!entry) return;
+                    const startIndex = TIME_SLOTS_CONFIG.findIndex(s => s.id === startSlotId);
+                    if (startIndex === -1) return;
+                    
+                    const span = entry.span || 1;
+                    // Check if the entry's duration covers the target index
+                    if (startIndex <= targetIndex && (startIndex + span) > targetIndex) {
+                        if (entry.room) occupied.add(entry.room);
                     }
-                }
+                };
+
+                // Check Lectures & Batches
+                Object.keys(divData).forEach(key => {
+                    if (key.startsWith(day + '-')) {
+                        const startSlotId = key.split('-')[1];
+                        const item = divData[key];
                 
-                // Check Batches (Labs often have spanning logic, simpler to check direct key)
-                Object.keys(divData).forEach(batchKey => {
-                    if (typeof divData[batchKey] === 'object' && divData[batchKey][targetKey]) {
-                        const lab = divData[batchKey][targetKey];
-                        if (lab.room) occupied.add(lab.room);
+                        if (Array.isArray(item)) {
+                            item.forEach(sub => checkEntry(sub, startSlotId));
+                        } else if (typeof item === 'object' && (item.room || item.span)) {
+                            checkEntry(item, startSlotId);
+                        }
+                    }
+                    // Check nested batches (e.g. "B1": { ... })
+                    else if (typeof divData[key] === 'object' && !key.includes('-')) {
+                        const batchData = divData[key];
+                        Object.keys(batchData).forEach(bKey => {
+                            if (bKey.startsWith(day + '-')) {
+                                const bStartSlotId = bKey.split('-')[1];
+                                checkEntry(batchData[bKey], bStartSlotId);
+                            }
+                        });
                     }
                 });
             });
         });
         return occupied;
     }
+
+    // --- MOBILE PAGE NAVIGATION HANDLER ---
+    window.addEventListener('popstate', (e) => {
+        if (window.innerWidth > 768) return;
+
+        // 1. Close all modals visually
+        document.querySelectorAll('.chat-modal-overlay').forEach(el => el.classList.remove('active'));
+        document.getElementById('msgContextMenu').style.display = 'none';
+
+        // 2. Handle State
+        if (e.state && e.state.view) {
+            document.getElementById('timetable-page').classList.add('hidden');
+            
+            if (e.state.view === 'freeRooms') document.getElementById('freeRoomsModal').classList.add('active');
+            else if (e.state.view === 'auth') document.getElementById('authModal').classList.add('active');
+            else if (e.state.view === 'subjects') document.getElementById('subjectModal').classList.add('active');
+            else if (e.state.view === 'chat') document.getElementById('chatRoomModal').classList.add('active');
+        } else {
+            // Home/Dashboard
+            document.getElementById('timetable-page').classList.remove('hidden');
+            if (typeof unsubscribeChat === 'function' && unsubscribeChat) unsubscribeChat();
+        }
+    });
 
     // 3. Main Function to Show Modal
     function showFreeRooms(day, slotId, timeLabel) {
@@ -2371,10 +2435,20 @@
         
         // Open Modal
         document.getElementById('freeRoomsModal').classList.add('active');
+
+        // Mobile Page Logic
+        if (window.innerWidth <= 768) {
+            history.pushState({ view: 'freeRooms' }, "Free Rooms", "#freeRooms");
+            document.getElementById('timetable-page').classList.add('hidden');
+        }
     }
 
     function closeFreeRooms() {
-        document.getElementById('freeRoomsModal').classList.remove('active');
+        if (window.innerWidth <= 768 && history.state && history.state.view === 'freeRooms') {
+            history.back();
+        } else {
+            document.getElementById('freeRoomsModal').classList.remove('active');
+        }
     }
 
     function scrollToCurrentDay() {
@@ -2401,18 +2475,32 @@
     }
 
     // Helper for attaching the event
-    function attachFreeRoomListener(element, day, slotId, timeLabel) {
+    function attachFreeRoomListener(element, day, startSlotId, span = 1) {
         let timer;
-        const holdDuration = 1500; // 1.5 seconds
+        const holdDuration = 1000; // 1 seconds
 
         const start = (e) => {
-            // Optional: Restrict to Monday if strictly required
-            // if (day !== 'mon') return; 
+            // Calculate which hour segment was clicked
+            const rect = element.getBoundingClientRect();
+            let clientY = e.touches ? e.touches[0].clientY : e.clientY;
+            
+            // Calculate relative position (0.0 to 1.0)
+            const relativeY = Math.max(0, Math.min(1, (clientY - rect.top) / rect.height));
+            
+            // Determine offset based on span (e.g., if span is 2, top half is 0, bottom half is 1)
+            const offset = Math.floor(relativeY * span);
+            
+            // Find the actual time slot ID
+            const startIndex = TIME_SLOTS_CONFIG.findIndex(s => s.id === startSlotId);
+            if (startIndex === -1) return;
+            
+            const targetIndex = Math.min(startIndex + offset, TIME_SLOTS_CONFIG.length - 1);
+            const targetSlot = TIME_SLOTS_CONFIG[targetIndex];
             
             timer = setTimeout(() => {
                 // Vibrate to indicate success
                 if (navigator.vibrate) navigator.vibrate([50, 50, 50]);
-                showFreeRooms(day, slotId, timeLabel);
+                showFreeRooms(day, targetSlot.id, targetSlot.label);
             }, holdDuration);
         };
 
@@ -2437,17 +2525,10 @@
         const tbody = document.getElementById('table-body');
         tbody.innerHTML = "";
 
-        const slots = [
-            { id: "0830", label: "8:30 - 9:30" }, { id: "0930", label: "9:30 - 10:30" },
-            { id: "1030", label: "10:30 - 11:30" }, { id: "1130", label: "11:30 - 12:30" },
-            { id: "1230", label: "12:30 - 1:30" }, { id: "1330", label: "1:30 - 2:30" },
-            { id: "1430", label: "2:30 - 3:30" }, { id: "1530", label: "3:30 - 4:30" },
-            { id: "1630", label: "4:30 - 5:30" }, { id: "1730", label: "5:30 - 6:30" }
-        ];
         const days = ["mon", "tue", "wed", "thu", "fri", "sat"];
         const skipped = {};
 
-        slots.forEach((slot, idx) => {
+        TIME_SLOTS_CONFIG.forEach((slot, idx) => {
             if (slot.id === "1230") {
             }
 
@@ -2469,7 +2550,7 @@
                         const maxSpan = Math.max(...item.map(i => i.span || 1));
                         for(let i=1; i<maxSpan; i++) skipped[`${day}-${idx+i}`] = true;
 
-                        rowHtml += `<td rowspan="${maxSpan}"><div class="slot slot-collision" id="${key}"><div class="slot-split">`;
+                        rowHtml += `<td rowspan="${maxSpan}"><div class="slot slot-collision" id="${key}" data-span="${maxSpan}"><div class="slot-split">`;
                         item.forEach(it => {
                              const group = getGroupData(it.subj);
                              const color = (group && group.color) || '#7f8c8d';
@@ -2513,7 +2594,7 @@
                         const metaStr = [divStr, batchStr].filter(Boolean).join(' | ');
 
                         rowHtml += `<td rowspan="${span}">
-                        <div class="slot ${item.class||''} ${delayedClass}" id="${key}" style="background:${bg}; border-left:4px solid ${color}; color:${textColor}; ${extraStyle}">
+                        <div class="slot ${item.class||''} ${delayedClass}" id="${key}" data-span="${span}" style="background:${bg}; border-left:4px solid ${color}; color:${textColor}; ${extraStyle}">
                             ${emoji ? `<span class="lab-tag">${emoji}</span>` : ''}
                             <div class="slot-title" style="color:${color}">${item.subj}${item.type==='lab'?' LAB':''}</div>
                             <div class="slot-footer">
@@ -2523,7 +2604,7 @@
                         </div></td>`;
                     }
                 } else {
-                    rowHtml += `<td><div id="${key}" class="slot empty-slot" style="background:transparent; box-shadow:none; border:none; color:var(--text-sub); font-size:0.65rem; opacity:0.5; display:flex; align-items:center; justify-content:center; height:100%; text-align:center; cursor:pointer;">Press & hold<br>for free rooms</div></td>`;
+                    rowHtml += `<td><div id="${key}" class="slot empty-slot" data-span="1" style="background:transparent; box-shadow:none; border:none; color:var(--text-sub); font-size:0.65rem; opacity:0.5; display:flex; align-items:center; justify-content:center; height:100%; text-align:center; cursor:pointer;"><i class="fas fa-fingerprint" style="font-size: 1.5rem; opacity: 0.2;"></i></div></td>`;
                 }
             });
             rowHtml += `</tr>`;
@@ -2531,12 +2612,13 @@
         });
 
         // Attach listeners to all generated slots
-        slots.forEach((slot) => {
+        TIME_SLOTS_CONFIG.forEach((slot) => {
             days.forEach(day => {
                 const key = `${day}-${slot.id}`;
                 const el = document.getElementById(key);
                 if (el) {
-                    attachFreeRoomListener(el, day, slot.id, slot.label);
+                    const span = parseInt(el.dataset.span || 1);
+                    attachFreeRoomListener(el, day, slot.id, span);
                 }
             });
         });
@@ -2546,8 +2628,8 @@
         if (typeof ACTIVE_NOTES === 'undefined' || !Array.isArray(ACTIVE_NOTES)) return;
         const container = document.getElementById('dynamic-notes-container');
         container.innerHTML = ACTIVE_NOTES.map(note => `
-            <div style="text-align: center; font-family: 'Cascadia Code', monospace; font-size: 0.85rem; color: #856404; background: #fffcf0; padding: 10px; border-radius: 8px; margin: 0 auto 20px auto; max-width: 500px; border: 1px solid #ffeeba;">
-                📢 ${note}
+            <div style="text-align: center; font-family: 'Cascadia Code', monospace; font-size: 0.9rem; font-weight: bold; color: var(--error); background: rgba(255, 82, 82, 0.1); padding: 12px; border-radius: 12px; margin: 0 auto 20px auto; max-width: 500px; border: 2px solid var(--error);">
+                📢 ${escapeHtml(note)}
             </div>
         `).join('');
     }
@@ -2718,7 +2800,7 @@
             }
             if (newLiveKey) {
                 const el = document.getElementById(newLiveKey);
-                if (el) {
+                if (el && !el.classList.contains('empty-slot')) {
                     el.classList.add('live-active');
                     if (!el.querySelector('.live-badge')) {
                     const badge = document.createElement('div');
@@ -2834,6 +2916,12 @@
             document.getElementById('authModal').classList.add('active');
             document.getElementById('subjectModal').classList.remove('active');
             document.getElementById('chatRoomModal').classList.remove('active');
+            
+            if (window.innerWidth <= 768) {
+                history.pushState({ view: 'auth' }, "Auth", "#auth");
+                document.getElementById('timetable-page').classList.add('hidden');
+            }
+
             hideAllAuthViews();
 
             if (doc.exists) {
@@ -3059,6 +3147,11 @@
 
         document.getElementById('subjectModal').classList.add('active');
         document.getElementById('chatRoomModal').classList.remove('active');
+
+        if (window.innerWidth <= 768) {
+            history.pushState({ view: 'subjects' }, "Groups", "#groups");
+            document.getElementById('timetable-page').classList.add('hidden');
+        }
     }
 
     // 2. Open Chat Room
@@ -3072,6 +3165,11 @@
         // Switch Modals
         document.getElementById('subjectModal').classList.remove('active');
         document.getElementById('chatRoomModal').classList.add('active');
+
+        if (window.innerWidth <= 768) {
+            history.pushState({ view: 'chat' }, "Chat", "#chat");
+            document.getElementById('timetable-page').classList.add('hidden');
+        }
         
         const msgArea = document.getElementById('messagesArea');
         msgArea.innerHTML = '<div style="text-align:center;color:#999;margin-top:20px;">Loading messages...</div>';
@@ -3402,11 +3500,15 @@
     }
 
     function closeModals() {
-        document.getElementById('subjectModal').classList.remove('active');
-        document.getElementById('chatRoomModal').classList.remove('active');
-        document.getElementById('authModal').classList.remove('active');
-        document.getElementById('msgContextMenu').style.display = 'none';
-        if (unsubscribeChat) unsubscribeChat();
+        if (window.innerWidth <= 768 && history.state && history.state.view) {
+            history.back();
+        } else {
+            document.getElementById('subjectModal').classList.remove('active');
+            document.getElementById('chatRoomModal').classList.remove('active');
+            document.getElementById('authModal').classList.remove('active');
+            document.getElementById('msgContextMenu').style.display = 'none';
+            if (unsubscribeChat) unsubscribeChat();
+        }
     }
 
     // Security Helper
