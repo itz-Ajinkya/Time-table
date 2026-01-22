@@ -1365,6 +1365,20 @@
             to { opacity: 1; transform: scale(1); }
         }
 
+        /* Auth Crazy Styles */
+        .auth-lock-anim {
+            font-size: 4rem;
+            margin-bottom: 10px;
+            display: inline-block;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: lockFloat 3s ease-in-out infinite;
+        }
+        @keyframes lockFloat {
+            0%, 100% { transform: translateY(0) rotate(-5deg); filter: drop-shadow(0 5px 15px rgba(108, 92, 231, 0.2)); }
+            50% { transform: translateY(-10px) rotate(5deg); filter: drop-shadow(0 15px 25px rgba(108, 92, 231, 0.4)); }
+        }
     </style>
 </head>
 <body>
@@ -1516,7 +1530,7 @@
             <div class="chat-header">
                 <span><i class="fas fa-users"></i> Select Group</span>
                 <div style="display:flex; gap:15px;">
-                    <i class="fas fa-key" onclick="showChangePassView()" style="cursor:pointer; color:var(--primary)" title="Change Password"></i>
+                    <i class="fas fa-cog" onclick="showChangePassView()" style="cursor:pointer; color:var(--text-sub); font-size: 1.2rem; transition: transform 0.5s;" onmouseover="this.style.transform='rotate(90deg)'" onmouseout="this.style.transform='rotate(0deg)'" title="Settings"></i>
                     <i class="fas fa-times" onclick="closeModals()" style="cursor:pointer; color:var(--text-sub)"></i>
                 </div>
             </div>
@@ -1589,10 +1603,14 @@
                 
                 <!-- LOGIN VIEW -->
                 <div id="auth-login-view" style="width:100%;">
-                    <h3>Enter Password</h3>
-                    <p style="font-size:0.9rem; color:var(--text-sub); margin-bottom:15px;">Secure Chat Access</p>
-                    <input type="password" id="login-pass" class="chat-input" placeholder="Password" style="margin-bottom:10px; text-align:center;" onkeydown="if(event.key==='Enter') verifyChatLogin()">
-                    <button class="btn-login" onclick="verifyChatLogin()" style="padding:10px; font-size:1rem;">Unlock</button>
+                    <div class="auth-lock-anim"><i class="fas fa-fingerprint"></i></div>
+                    <h3 style="margin:0; font-family:'Outfit', sans-serif; font-weight:800;">Identity Check</h3>
+                    <p style="font-size:0.9rem; color:var(--text-sub); margin-bottom:20px; opacity:0.8;">Enter your secret key to enter</p>
+                    <div style="position:relative; margin-bottom:15px;">
+                        <input type="password" id="login-pass" class="chat-input" placeholder="Password" style="text-align:center; padding-right:40px; font-weight:bold; letter-spacing:1px;" onkeydown="if(event.key==='Enter') verifyChatLogin()">
+                        <i class="fas fa-eye" onclick="togglePass('login-pass', this)" style="position:absolute; right:15px; top:50%; transform:translateY(-50%); cursor:pointer; color:var(--text-sub); opacity:0.6;"></i>
+                    </div>
+                    <button class="btn-login" onclick="verifyChatLogin()" style="padding:12px; font-size:1rem; background: linear-gradient(90deg, var(--primary), var(--accent)); border-radius:12px; box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);">Unlock Chat</button>
                     <div style="margin-top:15px;">
                         <span onclick="showForgotPass()" style="cursor:pointer; color:var(--primary); font-size:0.85rem; text-decoration:underline;">Forgot Password?</span>
                     </div>
@@ -1621,9 +1639,16 @@
                 <!-- CHANGE PASSWORD VIEW -->
                 <div id="auth-change-pass-view" style="width:100%; display:none;">
                     <h3>Change Password</h3>
-                    <input type="password" id="cp-old" class="chat-input" placeholder="Old Password" style="margin-bottom:10px; text-align:center;">
-                    <input type="password" id="cp-new" class="chat-input" placeholder="New Password" style="margin-bottom:10px; text-align:center;">
-                    <button class="btn-login" onclick="doChangePassword()" style="padding:10px; font-size:1rem;">Update</button>
+                    <div style="position:relative; margin-bottom:10px;">
+                        <input type="password" id="cp-old" class="chat-input" placeholder="Old Password" style="text-align:center; padding-right:40px;">
+                        <i class="fas fa-eye" onclick="togglePass('cp-old', this)" style="position:absolute; right:15px; top:50%; transform:translateY(-50%); cursor:pointer; color:var(--text-sub); opacity:0.6;"></i>
+                    </div>
+                    <div style="position:relative; margin-bottom:10px;">
+                        <input type="password" id="cp-new" class="chat-input" placeholder="New Password" style="text-align:center; padding-right:40px;">
+                        <i class="fas fa-eye" onclick="togglePass('cp-new', this)" style="position:absolute; right:15px; top:50%; transform:translateY(-50%); cursor:pointer; color:var(--text-sub); opacity:0.6;"></i>
+                    </div>
+                    <input type="password" id="cp-confirm" class="chat-input" placeholder="Confirm Password" style="margin-bottom:15px; text-align:center;">
+                    <button class="btn-login" onclick="doChangePassword()" style="padding:10px; font-size:1rem; background:#27ae60;">Update Password</button>
                     <div style="margin-top:15px;">
                         <span onclick="cancelChangePass()" style="cursor:pointer; color:var(--text-sub); font-size:0.85rem;">Cancel</span>
                     </div>
@@ -2017,7 +2042,7 @@
             console.log("Generated Hash:", hashHex);
 
             
-            if (hashHex === "a00a8bac6ab8898bb44543cb8618a1830d9fcf736bd755bf0804cff4a21d2f41") {
+            if (hashHex === "57fa8c37f04db0a8467991fdaa445c0ee53b83bedc9876084bfa75e3a39a5c47") {
                 sessionStorage.setItem("admin_auth", "true");
                 window.location.href = "admin.html";
             } else {
@@ -2942,6 +2967,17 @@
         }
     }
 
+    function togglePass(inputId, icon) {
+        const input = document.getElementById(inputId);
+        if (input.type === "password") {
+            input.type = "text";
+            icon.classList.replace('fa-eye', 'fa-eye-slash');
+        } else {
+            input.type = "password";
+            icon.classList.replace('fa-eye-slash', 'fa-eye');
+        }
+    }
+
     function hideAllAuthViews() {
         document.getElementById('auth-login-view').style.display = 'none';
         document.getElementById('auth-register-view').style.display = 'none';
@@ -2951,7 +2987,7 @@
     function showLoginView() {
         hideAllAuthViews();
         document.getElementById('auth-login-view').style.display = 'block';
-        document.getElementById('authTitle').innerHTML = '<i class="fas fa-lock"></i> Chat Login';
+        document.getElementById('authTitle').innerHTML = '<i class="fas fa-shield-alt"></i> Security';
     }
 
     function showPendingView() {
@@ -3029,6 +3065,16 @@
                     document.getElementById('login-pass').value = ''; // Clear
                     document.getElementById('authModal').classList.remove('active');
                     openSubjectSelector();
+
+                    // Check if password looks like a default random one (8 chars)
+                    // Prompt user to change it if so
+                    if (pass.length === 8) {
+                        setTimeout(() => {
+                            if(confirm("⚠️ Security Alert\n\nYou are using a default password. Would you like to change it now?")) {
+                                showChangePassView();
+                            }
+                        }, 500);
+                    }
                 } else {
                     alert("Incorrect Password");
                 }
@@ -3051,7 +3097,7 @@
         document.getElementById('authModal').classList.add('active');
         hideAllAuthViews();
         document.getElementById('auth-change-pass-view').style.display = 'block';
-        document.getElementById('authTitle').innerHTML = '<i class="fas fa-key"></i> Change Password';
+        document.getElementById('authTitle').innerHTML = '<i class="fas fa-cog"></i> Settings';
     }
 
     function cancelChangePass() {
@@ -3062,9 +3108,11 @@
     async function doChangePassword() {
         const oldPass = document.getElementById('cp-old').value.trim();
         const newPass = document.getElementById('cp-new').value.trim();
+        const confirmPass = document.getElementById('cp-confirm').value.trim();
         const mis = localStorage.getItem('currentUserMIS');
         
         if(!oldPass || !newPass) { alert("Please fill all fields"); return; }
+        if(newPass !== confirmPass) { alert("New passwords do not match!"); return; }
         if(newPass.length < 4) { alert("New password too short"); return; }
 
         try {
@@ -3075,6 +3123,7 @@
                 alert("Password updated successfully!");
                 document.getElementById('cp-old').value = '';
                 document.getElementById('cp-new').value = '';
+                document.getElementById('cp-confirm').value = '';
                 cancelChangePass();
             } else {
                 alert("Incorrect Old Password");
