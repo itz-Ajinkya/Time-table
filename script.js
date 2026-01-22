@@ -350,6 +350,7 @@ function attemptLogin() {
 
 function logout() {
     localStorage.removeItem('currentUserMIS');
+    localStorage.removeItem('chat_auth_active');
     location.reload();
 }
 
