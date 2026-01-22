@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COEP Admin (Firebase)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title> Admin (TT)</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
     <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
@@ -12,30 +12,47 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
 
+        * { box-sizing: border-box; }
+
         :root {
             --bg: #f4f4f9; --text: #2d3436; --card: #ffffff; --primary: #6c5ce7; 
             --sidebar-w: 260px; --nav-h: 70px;
+            --glass-border: 1px solid rgba(0,0,0,0.05);
+            --glass-bg: rgba(255, 255, 255, 0.8);
+            --shadow-lg: 0 10px 40px rgba(0,0,0,0.05);
         }
-        body.dark-mode { --bg: #09090b; --text: #fafafa; --card: #18181b; }
+        body.dark-mode { 
+            --bg: #0f0c29; --text: #ecf0f1; --card: rgba(20, 20, 30, 0.6); 
+            --glass-border: 1px solid rgba(255,255,255,0.08);
+            --glass-bg: rgba(0, 0, 0, 0.3);
+            --shadow-lg: 0 15px 50px rgba(0,0,0,0.3);
+        }
         
         body { 
             font-family: 'Outfit', sans-serif; margin: 0; padding: 0; 
             background: var(--bg); color: var(--text); 
             display: flex; min-height: 100vh; overflow-x: hidden;
+            background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            background-attachment: fixed;
+        }
+        body.dark-mode {
+            background-image: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
         }
 
         /* --- DESKTOP SIDEBAR --- */
         .sidebar {
             width: var(--sidebar-w);
             background: var(--card);
+            backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
             height: 100vh;
             position: fixed;
             left: 0; top: 0;
             padding: 30px 20px;
             display: flex; flex-direction: column;
-            border-right: 1px solid rgba(0,0,0,0.05);
+            border-right: var(--glass-border);
             z-index: 100;
             transition: transform 0.3s ease;
+            box-shadow: 5px 0 30px rgba(0,0,0,0.1);
         }
         .sidebar h2 { margin: 0 0 40px 10px; font-size: 1.8rem; color: var(--primary); display: flex; align-items: center; gap: 10px; }
         
@@ -50,9 +67,15 @@
             transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
             opacity: 0.7;
             font-size: 1.05rem;
+            position: relative; overflow: hidden;
         }
-        .nav-item:hover { background: rgba(108, 92, 231, 0.08); opacity: 1; transform: translateX(5px); }
-        .nav-item.active { background: var(--primary); color: white; opacity: 1; box-shadow: 0 8px 20px rgba(108, 92, 231, 0.3); transform: translateX(5px); }
+        .nav-item:hover { background: rgba(108, 92, 231, 0.1); opacity: 1; transform: translateX(5px); color: var(--primary); }
+        .nav-item.active { 
+            background: linear-gradient(90deg, var(--primary), #a29bfe); 
+            color: white; opacity: 1; 
+            box-shadow: 0 8px 20px rgba(108, 92, 231, 0.4); 
+            transform: translateX(5px); 
+        }
         .nav-item i { width: 24px; text-align: center; }
 
         /* --- MAIN CONTENT --- */
@@ -70,7 +93,7 @@
             position: fixed; bottom: 0; left: 0; width: 100%;
             background: var(--card);
             padding: 12px 20px;
-            justify-content: space-around; align-items: center;
+            justify-content: space-between; align-items: center;
             box-shadow: 0 -5px 30px rgba(0,0,0,0.1);
             z-index: 1000;
             border-top: 1px solid rgba(0,0,0,0.05);
@@ -89,29 +112,35 @@
 
         /* --- CARDS & UI --- */
         .card { 
-            background: var(--card); padding: 30px; border-radius: 24px; 
-            box-shadow: 0 10px 40px rgba(0,0,0,0.04); margin-bottom: 25px; 
-            border: 1px solid rgba(0,0,0,0.03);
+            background: var(--card); 
+            backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+            padding: 30px; border-radius: 24px; 
+            box-shadow: var(--shadow-lg); margin-bottom: 25px; 
+            border: var(--glass-border);
             transition: transform 0.2s;
         }
         .card h3 { margin-top: 0; font-size: 1.4rem; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
         
-        button { background: var(--primary); color: white; border: none; padding: 12px 20px; border-radius: 8px; cursor: pointer; font-weight: bold; margin-right: 10px; transition: transform 0.1s; }
-        button:active { transform: scale(0.96); }
+        button { 
+            background: linear-gradient(135deg, var(--primary), #8e44ad); 
+            color: white; border: none; padding: 12px 24px; border-radius: 12px; 
+            cursor: pointer; font-weight: 700; margin-right: 10px; 
+            transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3); 
+        }
+        button:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(108, 92, 231, 0.5); }
+        button:active { transform: scale(0.96); box-shadow: 0 2px 10px rgba(108, 92, 231, 0.3); }
         
         input, select { 
-            padding: 14px; border-radius: 12px; border: 2px solid rgba(0,0,0,0.1); 
+            padding: 14px; border-radius: 14px; border: 2px solid rgba(255,255,255,0.1); 
             width: 100%; box-sizing: border-box; margin-bottom: 15px; 
-            background: transparent; color: var(--text); font-family: inherit; font-size: 1rem;
+            background: rgba(255,255,255,0.03); color: var(--text); font-family: inherit; font-size: 1rem;
             transition: border-color 0.2s;
         }
-        input:focus, select:focus { outline: none; border-color: var(--primary); }
+        input:focus, select:focus { outline: none; border-color: var(--primary); background: rgba(255,255,255,0.08); }
         
         .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
         
-        /* Hide old tabs */
         .tabs { display: none; }
-        
         .panel { display: none; }
         .panel.active { display: block; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
@@ -120,11 +149,14 @@
         
         /* Migration Section Style */
         .migration-box { border: 2px dashed #6c5ce7; background: rgba(108, 92, 231, 0.05); }
-        .toast { position: fixed; bottom: 20px; right: 20px; background: #27ae60; color: white; padding: 15px 25px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); display: none; z-index: 10000; animation: slideUp 0.3s ease; }
+        body.dark-mode .migration-box { background: rgba(108, 92, 231, 0.15); border-color: #a29bfe; }
+        
+        .toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%) translateY(100px); background: #2d3436; color: white; padding: 15px 30px; border-radius: 50px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); display: flex; align-items: center; gap: 10px; z-index: 10000; transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); font-weight: 600; border: 1px solid rgba(255,255,255,0.1); }
+        .toast.active { transform: translateX(-50%) translateY(0); }
         @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 
         /* Dark Mode Enhancements */
-        body.dark-mode input, body.dark-mode select { border-color: rgba(255,255,255,0.2); background: var(--card); color: var(--text); }
+        body.dark-mode input, body.dark-mode select { border-color: rgba(255,255,255,0.1); background: rgba(0,0,0,0.2); color: var(--text); }
         option { background: var(--card); color: var(--text); }
         .pass-code { background: #eee; padding: 2px 6px; border-radius: 4px; color: #d35400; font-weight: bold; font-family: monospace; font-size: 0.9rem; }
         body.dark-mode .pass-code { background: rgba(255,255,255,0.1); color: #ff9f43; }
@@ -134,30 +166,26 @@
             .sidebar { display: none; }
             .main-content { margin-left: 0; width: 100%; padding: 20px 15px 100px 15px; }
             .bottom-nav { display: flex; }
-            
             .mobile-header { display: flex !important; }
-            
             .card { padding: 20px; border-radius: 20px; }
             .row { flex-direction: column; align-items: stretch; gap: 10px; }
             button { width: 100%; margin-right: 0; margin-bottom: 5px; }
-            
-            /* Chat FAB Adjustment */
-            .chat-fab { bottom: 90px; right: 20px; width: 55px; height: 55px; }
-            
             h1 { font-size: 1.8rem; margin: 0; }
-            
-            /* Slot Row Exception for Schedule Editor */
-            /* Requests List Mobile */
             #requests-list .row { flex-direction: column; align-items: flex-start; }
             #requests-list button { width: 100%; margin-top: 5px; }
         }
 
-        /* Chat Styles for Admin */
+        /* Chat Styles */
         .chat-list-item { padding: 15px; border-bottom: 1px solid #eee; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
         .chat-list-item:hover { background: rgba(0,0,0,0.05); }
         .unseen-dot { height: 10px; width: 10px; background: #2ecc71; border-radius: 50%; display: inline-block; box-shadow: 0 0 5px #2ecc71; }
+
+        .chat-columns { display: flex; gap: 20px; height: 600px; }
+        .chat-col { flex: 1; background: rgba(0,0,0,0.02); border-radius: 20px; padding: 20px; border: var(--glass-border); display: flex; flex-direction: column; box-shadow: inset 0 2px 10px rgba(0,0,0,0.05); }
+        .chat-col h4 { margin-top: 0; color: var(--primary); border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 15px; margin-bottom: 15px; flex-shrink: 0; font-size: 1.1rem; letter-spacing: 0.5px; }
+        .chat-col-list { flex: 1; overflow-y: auto; }
+        @media (max-width: 768px) { .chat-columns { flex-direction: column; height: auto; } .chat-col { height: 400px; } }
         
-        /* --- LEGENDARY CHAT UI --- */
         #admin-chat-view { 
             display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
             background: rgba(0,0,0,0.6); z-index: 2200; 
@@ -166,10 +194,11 @@
         }
         .admin-chat-box { 
             width: 95%; max-width: 500px; height: 85vh; 
-            background: var(--card); border-radius: 24px; 
+            background: var(--card); border-radius: 30px; 
             display: flex; flex-direction: column; overflow: hidden; 
-            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5); 
-            border: 1px solid rgba(255,255,255,0.1); 
+            box-shadow: 0 30px 60px -12px rgba(0,0,0,0.6); 
+            border: var(--glass-border);
+            backdrop-filter: blur(25px);
         }
         
         .ac-header { 
@@ -182,7 +211,7 @@
         .ac-msgs { 
             flex: 1; padding: 25px; overflow-y: auto; 
             display: flex; flex-direction: column; gap: 10px; 
-            background: var(--bg); 
+            background: rgba(0,0,0,0.02); 
         }
         
         .ac-footer { 
@@ -192,9 +221,10 @@
         }
         .ac-footer input { 
             margin: 0; border-radius: 30px; padding: 14px 20px; 
-            border: 1px solid transparent; background: var(--bg); flex: 1; 
+            border: 1px solid transparent; background: rgba(0,0,0,0.05); flex: 1; 
             box-shadow: inset 0 2px 5px rgba(0,0,0,0.03);
             transition: all 0.3s;
+            font-size: 16px;
         }
         .ac-footer input:focus { background: var(--card); box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.2); }
         .ac-footer button { 
@@ -208,22 +238,21 @@
         /* Message Bubbles */
         .message { 
             max-width: 75%; padding: 12px 18px; border-radius: 22px; 
-            font-size: 0.95rem; position: relative; line-height: 1.5; word-wrap: break-word; 
+            font-size: 0.95rem; position: relative; line-height: 1.5; word-wrap: break-word;
             box-shadow: 0 2px 8px rgba(0,0,0,0.04);
             animation: msgPop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
         @keyframes msgPop { from { opacity: 0; transform: scale(0.9) translateY(10px); } to { opacity: 1; transform: scale(1) translateY(0); } }
         
-        /* Student Messages (Left) */
         .message.student { 
-            align-self: flex-start; background: var(--card); color: var(--text); 
-            border: 1px solid rgba(0,0,0,0.05); border-bottom-left-radius: 4px; 
+            align-self: flex-start; background: rgba(255,255,255,0.1); color: var(--text); 
+            border: 1px solid rgba(255,255,255,0.1); border-bottom-left-radius: 4px; 
+            backdrop-filter: blur(5px);
         }
         
-        /* Admin Messages (Right Gradient) */
         .message.admin { 
             align-self: flex-end; 
-            background: linear-gradient(135deg, var(--primary), #a29bfe); 
+            background: linear-gradient(135deg, var(--primary), #8e44ad); 
             color: white; border: none; border-bottom-right-radius: 4px; 
             text-align: left; font-weight: 500; 
             box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);
@@ -231,6 +260,20 @@
 
         .msg-sender { font-size: 0.7rem; opacity: 0.7; margin-bottom: 4px; display: block; font-weight: 600; }
         .message.admin .msg-sender { display: none; } 
+        
+        /* Message Time & Date Separator */
+        .msg-time { display: block; font-size: 0.65rem; opacity: 0.6; margin-top: 4px; text-align: right; }
+        .message.admin .msg-time { color: rgba(255,255,255,0.8); }
+        .chat-date-separator {
+            text-align: center; font-size: 0.75rem; color: var(--text); opacity: 0.5;
+            margin: 15px 0; font-weight: 600; font-family: 'Outfit', sans-serif;
+            position: relative;
+        }
+        .chat-date-separator::before, .chat-date-separator::after {
+            content: ''; position: absolute; top: 50%; width: 30%; height: 1px; background: currentColor; opacity: 0.3;
+        }
+        .chat-date-separator::before { left: 10%; }
+        .chat-date-separator::after { right: 10%; }
 
         /* Context Menu */
         .ctx-menu { position: fixed; background: var(--card); border: 1px solid rgba(0,0,0,0.1); border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); z-index: 3000; display: none; flex-direction: column; min-width: 150px; overflow: hidden; }
@@ -245,8 +288,8 @@
 
         /* Subject Entry Card Styling */
         .subject-entry-card {
-            background: var(--bg);
-            border: 1px solid rgba(128,128,128,0.1);
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.1);
             border-radius: 16px;
             padding: 15px;
             margin-bottom: 12px;
@@ -258,22 +301,23 @@
         .subject-entry-card select { margin-bottom: 0 !important; }
         .subject-entry-card button { margin: 0 !important; height: 48px; width: 48px; display: flex; align-items: center; justify-content: center; border-radius: 12px; }
 
-        /* Schedule Entry Card Styling */
+        /* Schedule Entry Card Styling - Modified Grid */
         .schedule-entry-card {
-            background: var(--bg);
-            border: 1px solid rgba(128,128,128,0.1);
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.1);
             border-radius: 16px;
             padding: 15px;
             margin-bottom: 12px;
             display: grid;
-            grid-template-columns: 2fr 2fr 3fr auto auto; /* Day, Time, Room, Del, Add */
-            gap: 10px;
+            /* Narrow Day, Wider Time, Room, Delete */
+            grid-template-columns: 85px 1.5fr 1fr auto; 
+            gap: 15px;
             align-items: center;
             transition: transform 0.2s, box-shadow 0.2s;
         }
         .schedule-entry-card:hover { transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
         .schedule-entry-card select, .schedule-entry-card input { margin-bottom: 0 !important; }
-        .schedule-entry-card button { margin: 0 !important; height: 48px; width: 48px; display: flex; align-items: center; justify-content: center; border-radius: 12px; }
+        .schedule-entry-card button { margin: 0 !important; height: 48px; width: 60px; display: flex; align-items: center; justify-content: center; border-radius: 12px; }
 
         @media (max-width: 768px) {
             .subject-entry-card {
@@ -284,14 +328,31 @@
             .subject-entry-card button { width: 100%; }
             
             .schedule-entry-card {
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: 1fr;
                 gap: 10px;
                 padding: 15px;
             }
-            /* Room takes full width */
-            .schedule-entry-card .s-room { grid-column: 1 / -1; }
-            /* Buttons */
-            .schedule-entry-card button { width: 100%; }
+            .schedule-entry-card > div { width: 100%; justify-content: space-between; }
+        }
+
+        /* --- CUSTOM CONFIRM MODAL --- */
+        .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); backdrop-filter: blur(5px); z-index: 5000; display: none; justify-content: center; align-items: center; }
+        .modal-box { background: var(--card); padding: 30px; border-radius: 24px; width: 90%; max-width: 400px; text-align: center; box-shadow: 0 20px 50px rgba(0,0,0,0.4); transform: scale(0.9); transition: transform 0.3s; border: 1px solid rgba(255,255,255,0.1); }
+        .modal-overlay.active { display: flex; }
+        .modal-overlay.active .modal-box { transform: scale(1); }
+        .modal-btn-group { display: flex; gap: 10px; justify-content: center; margin-top: 25px; }
+        .modal-btn-group button { flex: 1; margin: 0; }
+
+        /* --- CONFETTI --- */
+        .confetti-piece {
+            position: fixed; width: 8px; height: 8px;
+            bottom: 0; z-index: 9999; pointer-events: none;
+            border-radius: 2px;
+        }
+        @keyframes confettiShoot {
+            0% { transform: translate(0, 0) rotate(0deg); opacity: 1; }
+            50% { opacity: 1; }
+            100% { transform: translate(var(--tx), var(--ty)) rotate(720deg); opacity: 0; }
         }
     </style>
 </head>
@@ -299,38 +360,40 @@
 
 <div class="loading-overlay" id="loader">Processing...</div>
 
-<!-- DESKTOP SIDEBAR -->
 <nav class="sidebar">
     <h2>⚡ Admin</h2>
     <div class="nav-item active" onclick="switchTab('students')"><i class="fas fa-user-graduate"></i> Students</div>
     <div class="nav-item" onclick="switchTab('schedule')"><i class="fas fa-calendar-alt"></i> Schedule</div>
-    <div class="nav-item" onclick="switchTab('notes')"><i class="fas fa-bullhorn"></i> Notes</div>
+    <div class="nav-item" onclick="switchTab('notes')"><i class="fas fa-bullhorn"></i> Announcements</div>
     <div class="nav-item" onclick="switchTab('requests')"><i class="fas fa-envelope-open-text"></i> Requests</div>
     <div class="nav-item" onclick="switchTab('group-chats')"><i class="fas fa-comments"></i> Chats</div>
     <div class="nav-item" onclick="switchTab('migration')"><i class="fas fa-cloud-upload-alt"></i> Migration</div>
     <div style="flex:1"></div>
+    <div class="nav-item" onclick="logout()"><i class="fas fa-sign-out-alt"></i> Logout</div>
     <div class="nav-item" onclick="document.body.classList.toggle('dark-mode')"><i class="fas fa-moon"></i> Theme</div>
 </nav>
 
 <div class="main-content" id="admin-interface">
     
-    <!-- MOBILE HEADER -->
     <div class="mobile-header" style="display:none; justify-content:space-between; align-items:center; margin-bottom:25px;">
         <h1>⚡ Admin</h1>
-        <button onclick="document.body.classList.toggle('dark-mode')" style="width:auto; padding:10px 14px; background:var(--card); color:var(--text); box-shadow:0 4px 10px rgba(0,0,0,0.1);"><i class="fas fa-moon"></i></button>
+        <div style="display:flex; gap:10px;">
+            <button onclick="logout()" style="width:auto; padding:10px 14px; background:var(--card); color:#e74c3c; box-shadow:0 4px 10px rgba(0,0,0,0.1);"><i class="fas fa-sign-out-alt"></i></button>
+            <button onclick="document.body.classList.toggle('dark-mode')" style="width:auto; padding:10px 14px; background:var(--card); color:var(--text); box-shadow:0 4px 10px rgba(0,0,0,0.1);"><i class="fas fa-moon"></i></button>
+        </div>
     </div>
 
-    <div id="custom-toast" class="toast"></div>
+    <div id="custom-toast" class="toast"><i class="fas fa-check-circle" style="color:#2ecc71"></i> <span id="toast-msg"></span></div>
 
     <div id="migration" class="panel">
         <div class="card migration-box">
             <h3><i class="fas fa-cloud-upload-alt"></i> Data Migration</h3>
             <p style="opacity:0.7; margin-bottom:15px;">Upload local <code>students.js</code> and <code>logic.js</code> to sync with cloud.</p>
             <div class="row">
-                <button onclick="document.getElementById('file-students').click()" style="background:var(--text);">1. Upload students.js</button>
+                <button onclick="document.getElementById('file-students').click()" style="background:var(--text);background:#8749B9;">students.js</button>
                 <input type="file" id="file-students" hidden onchange="importStudents(this)">
 
-                <button onclick="document.getElementById('file-logic').click()" style="background:var(--text);">2. Upload logic.js</button>
+                <button onclick="document.getElementById('file-logic').click()" style="background:var(--text);background:#8749B9;">logic.js</button>
                 <input type="file" id="file-logic" hidden onchange="importLogic(this)">
                 
                 <button onclick="saveToFirebase()" style="background:#27ae60; margin-left:auto;">SAVE ALL TO CLOUD</button>
@@ -343,7 +406,7 @@
         <div class="card">
             <h3><i class="fas fa-search"></i> Find Student</h3>
             <div class="row">
-                <input type="text" id="mis-input" placeholder="Enter MIS (e.g., 6125...)" onkeydown="if(event.key==='Enter') fetchStudent()">
+                <input type="text" id="mis-input" placeholder="Enter MIS or Name..." onkeydown="if(event.key==='Enter') fetchStudent()">
                 <button onclick="fetchStudent()">Fetch</button>
             </div>
         </div>
@@ -363,10 +426,10 @@
     <div id="schedule" class="panel">
         <div class="card">
             <h3><i class="fas fa-calendar-check"></i> Master Schedule</h3>
-            <div class="row">
+            <div class="row" style="flex-wrap: nowrap;">
                 <select id="sched-sub" onchange="onSchedSubChange()"><option value="">Select Subject</option></select>
                 <select id="sched-div" onchange="onSchedDivChange()"><option value="">Select Division</option></select>
-                <select id="sched-batch" onchange="renderTimetableEditor()"><option value="">Batch (Optional)</option></select>
+                <select id="sched-batch" onchange="renderTimetableEditor()"><option value="">Select Batch</option></select>
             </div>
             <div id="timetable-editor" style="margin-top:20px; display:none;">
                 <h4>Lectures & Labs</h4>
@@ -391,7 +454,6 @@
     <div id="requests" class="panel">
         <div class="card">
             <h3><i class="fas fa-user-lock"></i> Access Requests</h3>
-            <button onclick="renderRequests()" style="margin-bottom:15px; background:#2d3436;">🔄 Refresh List</button>
             <button onclick="approveAllRequests()" style="margin-bottom:15px; background:#e67e22;">⚡ Activate All</button>
             <div id="requests-list"></div>
         </div>
@@ -400,17 +462,21 @@
     <div id="group-chats" class="panel">
         <div class="card">
             <h3><i class="fas fa-users"></i> Active Chats</h3>
-            <div class="row" style="margin-bottom:15px;">
-                <input type="text" id="manual-chat-id" placeholder="Enter Group ID (e.g. EP_Div1)" onkeydown="if(event.key==='Enter') openManualChat()">
-                <button onclick="openManualChat()">Open Specific Chat</button>
+            <input type="text" id="chat-search-input" placeholder="Search group name or messages..." onkeyup="filterChats()" style="margin-bottom: 20px;">
+            <div class="chat-columns">
+                <div class="chat-col">
+                    <h4>🔴 Unread / Priority</h4>
+                    <div id="list-unread" class="chat-col-list"></div>
+                </div>
+                <div class="chat-col">
+                    <h4>💬 All Chats</h4>
+                    <div id="list-read" class="chat-col-list"></div>
+                </div>
             </div>
-            <button onclick="renderAllChats()" style="margin-bottom:15px; background:#2d3436;">🔄 Refresh Chats</button>
-            <div id="all-chats-list"></div>
         </div>
     </div>
 </div>
 
-<!-- MOBILE BOTTOM NAV -->
 <nav class="bottom-nav">
     <div class="b-nav-item active" onclick="switchTab('students')"><i class="fas fa-user-graduate"></i><span>Students</span></div>
     <div class="b-nav-item" onclick="switchTab('schedule')"><i class="fas fa-calendar-alt"></i><span>Schedule</span></div>
@@ -420,7 +486,6 @@
     <div class="b-nav-item" onclick="switchTab('migration')"><i class="fas fa-cloud-upload-alt"></i><span>Migrate</span></div>
 </nav>
 
-<!-- Chat List Modal -->
 <div id="admin-chat-list-modal">
     <div class="chat-list-box">
         <div class="cl-header">
@@ -431,7 +496,6 @@
     </div>
 </div>
 
-<!-- Admin Chat Modal -->
 <div id="admin-chat-view">
     <div class="admin-chat-box">
         <div class="ac-header">
@@ -446,12 +510,24 @@
     </div>
 </div>
 
-<!-- Context Menu -->
 <div id="ctx-menu" class="ctx-menu">
     <div class="ctx-item delete" onclick="deleteSelectedMessage()">
         <span>🗑️ Delete Message</span>
     </div>
 </div>
+
+<div id="confirm-modal" class="modal-overlay">
+    <div class="modal-box">
+        <h3 style="margin-top:0;">⚠️ Confirmation</h3>
+        <p id="confirm-msg" style="opacity:0.8; font-size:1.1rem;">Are you sure?</p>
+        <div class="modal-btn-group">
+            <button id="confirm-no" style="background:var(--bg); color:var(--text);">Cancel</button>
+            <button id="confirm-yes" style="background:var(--primary);">Yes, Proceed</button>
+        </div>
+    </div>
+</div>
+
+<div id="confetti-container"></div>
 
 <script>
     // --- FIREBASE CONFIG ---
@@ -471,10 +547,12 @@
     let CURRENT_CHAT_ID = null;
     let SELECTED_MSG_ID = null;
     let CHAT_UNSUBSCRIBE = null;
+    let REQUESTS_UNSUBSCRIBE = null;
+    let CHATS_LIST_UNSUBSCRIBE = null;
+    let ALL_CHATS_DATA = [];
 
     window.onload = async function() {
         if (!sessionStorage.getItem("admin_auth")) {
-            alert("🔒 Access Denied: Please login first.");
             window.location.href = "index.html";
             return;
         }
@@ -496,24 +574,23 @@
         document.getElementById('loader').style.display = 'none';
     };
 
-    // --- MIGRATION LOGIC (FIXED) ---
+    // --- MIGRATION LOGIC ---
     function importStudents(input) {
         const file = input.files[0];
         if(!file) return;
         const reader = new FileReader();
         reader.onload = function(e) {
             const text = e.target.result;
-            // Match exactly the GENERATED_DB object
             const match = text.match(/const GENERATED_DB\s*=\s*(\{[\s\S]*?\});/);
             if(match && match[1]) {
                 try {
                     const imported = JSON.parse(match[1]);
                     DATA.students = imported;
                     document.getElementById('import-status').innerText += ` | Ready to upload ${Object.keys(imported).length} students.`;
-                    alert("✅ Students loaded! Next: Upload logic.js");
-                } catch(err) { alert("JSON Parse Error: " + err.message); }
+                    showToast("✅ Students loaded! Next: Upload logic.js");
+                } catch(err) { showToast("JSON Parse Error"); }
             } else {
-                alert("Could not find GENERATED_DB in file.");
+                showToast("Invalid File Format");
             }
         };
         reader.readAsText(file);
@@ -525,26 +602,21 @@
         const reader = new FileReader();
         reader.onload = function(e) {
             const text = e.target.result;
-            
-            // 1. EXTRACT SCHEDULE (Non-greedy match to stop at the first semicolon)
             const schedMatch = text.match(/const MASTER_SCHEDULE\s*=\s*(\{[\s\S]*?\});/);
             
             if(schedMatch && schedMatch[1]) {
                 try {
                     DATA.schedule = JSON.parse(schedMatch[1]);
-                    
-                    // 2. EXTRACT NOTES
                     const notesMatch = text.match(/const ACTIVE_NOTES\s*=\s*(\[[\s\S]*?\]);/);
                     if(notesMatch && notesMatch[1]) {
                         DATA.notes = JSON.parse(notesMatch[1]);
                     }
-                    
                     document.getElementById('import-status').innerText += ` | Schedule loaded.`;
-                    alert("✅ Logic loaded! NOW CLICK 'SAVE ALL TO CLOUD'.");
+                    showToast("✅ Logic loaded! Ready to Save.");
                     populateDropdowns(); 
-                } catch(err) { alert("JSON Parse Error in logic.js: " + err.message); }
+                } catch(err) { showToast("JSON Parse Error"); }
             } else {
-                alert("Could not find MASTER_SCHEDULE in file. Ensure it starts with 'const MASTER_SCHEDULE = {' and ends with '};'");
+                showToast("Invalid Logic File");
             }
         };
         reader.readAsText(file);
@@ -554,55 +626,83 @@
         document.getElementById('loader').style.display = 'flex';
         try {
             await db.collection('timetable_global').doc('main_data').set(DATA);
-            alert("✅ SUCCESS! All data is now on the cloud.");
+            showToast("✅ Data Synced Successfully!");
+            triggerConfetti();
         } catch (e) {
-            alert("❌ Save failed: " + e.message);
+            showToast("❌ Save failed: " + e.message);
         }
         document.getElementById('loader').style.display = 'none';
     }
 
     function showToast(msg) {
         const t = document.getElementById('custom-toast');
-        t.innerText = msg;
-        t.style.display = 'block';
-        setTimeout(() => t.style.display = 'none', 3000);
+        document.getElementById('toast-msg').innerText = msg;
+        t.classList.add('active');
+        if (navigator.vibrate) navigator.vibrate(50);
+        setTimeout(() => t.classList.remove('active'), 3000);
     }
 
     // --- STANDARD ADMIN LOGIC ---
     function switchTab(id) {
         document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
-        
-        // Update Desktop Sidebar
         document.querySelectorAll('.nav-item').forEach(t => t.classList.remove('active'));
-        // Update Mobile Bottom Nav
         document.querySelectorAll('.b-nav-item').forEach(t => t.classList.remove('active'));
         
         document.getElementById(id).classList.add('active');
         
-        // Highlight clicked item (and its counterpart in the other menu)
         const map = { 'students': 0, 'schedule': 1, 'notes': 2, 'requests': 3, 'group-chats': 4, 'migration': 5 };
         const idx = map[id];
         
         if (idx !== undefined) {
             const sidebarItems = document.querySelectorAll('.sidebar .nav-item');
             if(sidebarItems[idx]) sidebarItems[idx].classList.add('active');
-            
             const bottomItems = document.querySelectorAll('.bottom-nav .b-nav-item');
             if(bottomItems[idx]) bottomItems[idx].classList.add('active');
         }
         
-        if(id === 'group-chats') renderAllChats();
+        if (id === 'requests') startRequestsListener();
+        else stopRequestsListener();
+
+        if (id === 'group-chats') startChatsListener();
+        else stopChatsListener();
     }
 
     function fetchStudent() {
-        let mis = document.getElementById('mis-input').value.trim();
-        if(!mis) return;
-        if(mis.length < 9) mis = "6125" + mis;
-        CURRENT_MIS = mis;
-        const student = DATA.students[mis] || { name: "New Student", cards: [] };
-        document.getElementById('student-editor').style.display = 'block';
-        document.getElementById('edit-name').value = student.name;
-        renderCards(student.cards);
+        let input = document.getElementById('mis-input').value.trim();
+        if(!input) return;
+        
+        // Search by MIS
+        let mis = input.length === 9 ? input : "6125" + input;
+        let student = DATA.students[mis];
+
+        // Search by Name if MIS fails
+        if (!student) {
+            for (const key in DATA.students) {
+                if (DATA.students[key].name && DATA.students[key].name.toLowerCase().includes(input.toLowerCase())) {
+                    student = DATA.students[key];
+                    mis = key;
+                    break;
+                }
+            }
+        }
+
+        if (student) {
+            CURRENT_MIS = mis;
+            document.getElementById('student-editor').style.display = 'block';
+            document.getElementById('edit-name').value = student.name;
+            renderCards(student.cards);
+        } else {
+             // Treat as new student if explicit MIS entered, else Error
+             if (input.match(/^\d+$/)) {
+                 CURRENT_MIS = mis;
+                 student = { name: "New Student", cards: [] };
+                 document.getElementById('student-editor').style.display = 'block';
+                 document.getElementById('edit-name').value = student.name;
+                 renderCards(student.cards);
+             } else {
+                 showToast("Student not found");
+             }
+        }
     }
 
     function renderCards(cards) {
@@ -616,7 +716,6 @@
         const div = document.createElement('div');
         div.className = 'subject-entry-card';
         
-        // Structure with Selects
         div.innerHTML = `
             <select class="c-sub"></select>
             <select class="c-div"></select>
@@ -631,7 +730,6 @@
 
         delBtn.onclick = () => div.remove();
 
-        // Populate Subjects
         subSel.innerHTML = '<option value="">Select Subject</option>';
         subjects.forEach(s => {
             const opt = document.createElement('option');
@@ -641,7 +739,6 @@
             subSel.appendChild(opt);
         });
 
-        // Helper: Populate Batches
         const populateBatches = (selectedBatch) => {
             const s = subSel.value;
             const d = divSel.value;
@@ -670,7 +767,6 @@
             }
         };
 
-        // Helper: Populate Divs
         const populateDivs = (selectedDiv, selectedBatch) => {
             const s = subSel.value;
             divSel.innerHTML = '';
@@ -691,13 +787,9 @@
             populateBatches(selectedBatch);
         };
 
-        // Event Listeners
         subSel.onchange = () => populateDivs();
         divSel.onchange = () => populateBatches();
-
-        // Initial Load
         populateDivs(card.div, card.batch);
-
         document.getElementById('cards-container').appendChild(div);
     }
 
@@ -723,11 +815,19 @@
     }
 
     function onSchedSubChange() {
-        const sub = document.getElementById('sched-sub').value;
+        const subSel = document.getElementById('sched-sub');
+        const sub = subSel.value;
         const divSel = document.getElementById('sched-div');
         divSel.innerHTML = '<option value="">Select Division</option>';
         if(sub && DATA.schedule[sub]) {
-            Object.keys(DATA.schedule[sub]).forEach(d => divSel.innerHTML += `<option value="${d}">${d}</option>`);
+            const divs = Object.keys(DATA.schedule[sub]);
+            divs.forEach(d => divSel.innerHTML += `<option value="${d}">${d}</option>`);
+            
+            // Auto-select if only one division
+            if (divs.length === 1) {
+                divSel.selectedIndex = 1;
+                onSchedDivChange();
+            }
         }
     }
 
@@ -735,13 +835,26 @@
         const sub = document.getElementById('sched-sub').value;
         const div = document.getElementById('sched-div').value;
         const batchSel = document.getElementById('sched-batch');
-        batchSel.innerHTML = '<option value="">Batch (Optional)</option>';
+        batchSel.innerHTML = '<option value="">Select Batch</option>';
+        batchSel.disabled = true;
+
         if(sub && div && DATA.schedule[sub][div]) {
+            const batches = [];
             Object.keys(DATA.schedule[sub][div]).forEach(k => {
                 if(!k.includes('-') && typeof DATA.schedule[sub][div][k] === 'object') {
+                    batches.push(k);
                     batchSel.innerHTML += `<option value="${k}">${k}</option>`;
                 }
             });
+            
+            if (batches.length > 0) {
+                batchSel.disabled = false;
+                 // Auto-select if only one batch
+                if (batches.length === 1) {
+                    batchSel.selectedIndex = 1;
+                    renderTimetableEditor();
+                }
+            }
         }
         renderTimetableEditor();
     }
@@ -750,57 +863,139 @@
         const sub = document.getElementById('sched-sub').value;
         const div = document.getElementById('sched-div').value;
         const batch = document.getElementById('sched-batch').value;
+        
         if(!sub || !div) return;
+        
         const container = document.getElementById('slots-container');
         container.innerHTML = '';
         document.getElementById('timetable-editor').style.display = 'block';
-        const source = batch ? DATA.schedule[sub][div][batch] : DATA.schedule[sub][div];
-        if(source) {
-            Object.keys(source).forEach(key => {
-                if(key.includes('-')) addSlotRow(key, source[key].room);
+        
+        const lecturesContainer = document.createElement('div');
+        lecturesContainer.innerHTML = '<h4 style="margin: 10px 0; color: var(--primary);">Lectures</h4>';
+        container.appendChild(lecturesContainer);
+        
+        const divData = DATA.schedule[sub][div];
+        if (divData) {
+            Object.keys(divData).forEach(key => {
+                if (key.includes('-')) {
+                    lecturesContainer.appendChild(createSlotRow(key, divData[key].room, 'lecture'));
+                }
             });
         }
-        addSlotRow();
+        
+        const addLecBtn = document.createElement('button');
+        addLecBtn.innerHTML = '<i class="fas fa-plus"></i> Add Lecture';
+        addLecBtn.style.background = '#3498db';
+        addLecBtn.style.marginTop = '10px';
+        addLecBtn.onclick = () => lecturesContainer.insertBefore(createSlotRow('', '', 'lecture'), addLecBtn);
+        lecturesContainer.appendChild(addLecBtn);
+
+        if (batch) {
+            const labsContainer = document.createElement('div');
+            labsContainer.innerHTML = `<h4 style="margin: 20px 0 10px 0; color: #9b59b6; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">Labs (${batch})</h4>`;
+            container.appendChild(labsContainer);
+            
+            const batchData = DATA.schedule[sub][div][batch];
+            if (batchData) {
+                Object.keys(batchData).forEach(key => {
+                    if (key.includes('-')) {
+                        labsContainer.appendChild(createSlotRow(key, batchData[key].room, 'lab'));
+                    }
+                });
+            }
+            
+            const addLabBtn = document.createElement('button');
+            addLabBtn.innerHTML = '<i class="fas fa-plus"></i> Add Lab';
+            addLabBtn.style.background = '#9b59b6';
+            addLabBtn.style.marginTop = '10px';
+            addLabBtn.onclick = () => labsContainer.insertBefore(createSlotRow('', '', 'lab'), addLabBtn);
+            labsContainer.appendChild(addLabBtn);
+        }
     }
 
-    function addSlotRow(key='', room='') {
-        const [d, t] = key.split('-');
+    function createSlotRow(key='', room='', type='lecture') {
+        let d = 'mon', h = '10', m = '30', ap = 'AM';
+        if (key) {
+            const parts = key.split('-');
+            d = parts[0];
+            const t = parts[1]; 
+            if (t && t.length === 4) {
+                let hour = parseInt(t.substring(0, 2));
+                const min = t.substring(2);
+                if (hour >= 12) { ap = 'PM'; if (hour > 12) hour -= 12; }
+                else { ap = 'AM'; if (hour === 0) hour = 12; }
+                h = hour.toString(); m = min;
+            }
+        }
+
         const days = ['mon','tue','wed','thu','fri','sat'];
-        const times = ['0830','0930','1030','1130','1230','1330','1430','1530','1630','1730'];
+        const hours = Array.from({length: 12}, (_, i) => i + 1);
+        const mins = ['00', '15', '30', '45'];
+        const ampm = ['AM', 'PM'];
+
         const div = document.createElement('div');
         div.className = 'schedule-entry-card';
+        div.dataset.type = type;
+        
         div.innerHTML = `
-            <select class="s-day">${days.map(day => `<option value="${day}" ${day===d?'selected':''}>${day.toUpperCase()}</option>`).join('')}</select>
-            <select class="s-time">${times.map(time => `<option value="${time}" ${time===t?'selected':''}>${time}</option>`).join('')}</select>
+            <select class="s-day" style="width:90px;">${days.map(day => `<option value="${day}" ${day===d?'selected':''}>${day.toUpperCase()}</option>`).join('')}</select>
+            <div style="display:flex; gap:5px; align-items:center;">
+                <select class="s-hour" style="width:70px;">${hours.map(x => `<option value="${x}" ${x==h?'selected':''}>${x}</option>`).join('')}</select>
+                <span style="font-weight:bold;">:</span>
+                <select class="s-min" style="width:80px;">${mins.map(x => `<option value="${x}" ${x===m?'selected':''}>${x}</option>`).join('')}</select>
+                <select class="s-ampm" style="width:75px;">${ampm.map(x => `<option value="${x}" ${x===ap?'selected':''}>${x}</option>`).join('')}</select>
+            </div>
             <input type="text" class="s-room" value="${room}" placeholder="Room No">
             <button onclick="this.parentElement.remove()" style="background:#e74c3c;"><i class="fas fa-trash"></i></button>
-            <button onclick="addSlotRow()" style="background:#3498db;"><i class="fas fa-plus"></i></button>
         `;
-        document.getElementById('slots-container').appendChild(div);
+        return div;
     }
 
     function saveSchedule() {
         const sub = document.getElementById('sched-sub').value;
         const div = document.getElementById('sched-div').value;
         const batch = document.getElementById('sched-batch').value;
-        const newSlots = {};
-        document.querySelectorAll('.schedule-entry-card').forEach(row => {
+        if (!sub || !div) return;
+
+        const getRowKey = (row) => {
             const d = row.querySelector('.s-day').value;
-            const t = row.querySelector('.s-time').value;
+            let h = parseInt(row.querySelector('.s-hour').value);
+            const m = row.querySelector('.s-min').value;
+            const ap = row.querySelector('.s-ampm').value;
+            if (ap === 'PM' && h !== 12) h += 12;
+            if (ap === 'AM' && h === 12) h = 0;
+            return `${d}-${h.toString().padStart(2, '0')}${m}`;
+        };
+
+        const newLectures = {};
+        document.querySelectorAll('.schedule-entry-card[data-type="lecture"]').forEach(row => {
+            const k = getRowKey(row);
             const r = row.querySelector('.s-room').value;
-            if(r) {
-                newSlots[`${d}-${t}`] = { room: r, type: batch ? 'lab' : 'lec' };
-                if(batch) newSlots[`${d}-${t}`].span = 2;
-            }
+            if (k && r) newLectures[k] = { room: r, type: 'lec' };
         });
-        if(batch) {
-            if(!DATA.schedule[sub][div][batch]) DATA.schedule[sub][div][batch] = {};
-            Object.keys(DATA.schedule[sub][div][batch]).forEach(k => delete DATA.schedule[sub][div][batch][k]);
-            Object.assign(DATA.schedule[sub][div][batch], newSlots);
-        } else {
-            Object.keys(DATA.schedule[sub][div]).forEach(k => { if(k.includes('-')) delete DATA.schedule[sub][div][k]; });
-            Object.assign(DATA.schedule[sub][div], newSlots);
+
+        const newLabs = {};
+        if (batch) {
+            document.querySelectorAll('.schedule-entry-card[data-type="lab"]').forEach(row => {
+                const k = getRowKey(row);
+                const r = row.querySelector('.s-room').value;
+                if (k && r) newLabs[k] = { room: r, type: 'lab', span: 2 };
+            });
         }
+
+        const currentDivData = DATA.schedule[sub][div] || {};
+        const preservedBatches = {};
+        Object.keys(currentDivData).forEach(key => {
+            if (!key.includes('-')) preservedBatches[key] = currentDivData[key];
+        });
+        
+        DATA.schedule[sub][div] = { ...preservedBatches, ...newLectures };
+
+        if (batch) {
+            if (!DATA.schedule[sub][div][batch]) DATA.schedule[sub][div][batch] = {};
+            DATA.schedule[sub][div][batch] = newLabs;
+        }
+
         saveToFirebase();
     }
 
@@ -816,14 +1011,14 @@
     function saveNotes() { saveToFirebase(); }
 
     // --- CHAT REQUESTS LOGIC ---
-    function renderRequests() {
+    function startRequestsListener() {
+        if (REQUESTS_UNSUBSCRIBE) return;
         const container = document.getElementById('requests-list');
         container.innerHTML = 'Loading...';
         
-        db.collection('chat_activations').orderBy('timestamp', 'desc').get().then(snap => {
+        REQUESTS_UNSUBSCRIBE = db.collection('chat_activations').orderBy('timestamp', 'desc').onSnapshot(snap => {
             container.innerHTML = '';
             if(snap.empty) { container.innerHTML = '<p>No pending requests.</p>'; return; }
-            
             snap.forEach(doc => {
                 const data = doc.data();
                 const div = document.createElement('div');
@@ -847,39 +1042,30 @@
         });
     }
 
+    function stopRequestsListener() {
+        if (REQUESTS_UNSUBSCRIBE) { REQUESTS_UNSUBSCRIBE(); REQUESTS_UNSUBSCRIBE = null; }
+    }
+
     async function approveRequest(mis, email, password, name) {
-        if(!confirm(`Activate chat for ${name}?`)) return;
-        
+        if(!await customConfirm(`Activate chat for ${name}?`)) return;
         try {
-            // 1. Move to chat_users (Enable Login)
             await db.collection('chat_users').doc(mis).set({ password: password });
-            
-            // 2. Delete from activations
             await db.collection('chat_activations').doc(mis).delete();
-            
-            // 3. Open Mail Draft
             const subject = encodeURIComponent("Your Chat Password - COEP Timetable");
             const body = encodeURIComponent(`Hello ${name},\n\nYour password for the chat section is: ${password}\n\nLogin with your MIS: ${mis}\n\nRegards,\nAdmin`);
             window.open(`mailto:${email}?subject=${subject}&body=${body}`);
-            
-            renderRequests();
-        } catch(e) {
-            alert("Error: " + e.message);
-        }
+            showToast("User Activated! 🎉");
+            triggerConfetti();
+        } catch(e) { showToast("Error: " + e.message); }
     }
 
-    function deleteRequest(mis) {
-        if(confirm("Reject this request?")) {
-            db.collection('chat_activations').doc(mis).delete().then(renderRequests);
-        }
+    async function deleteRequest(mis) {
+        if(await customConfirm("Reject this request?")) db.collection('chat_activations').doc(mis).delete();
     }
 
     async function approveAllRequests() {
-        const shouldMail = true;
-        
         const batch = db.batch();
         const snap = await db.collection('chat_activations').get();
-        
         if(snap.empty) { showToast("No requests to approve."); return; }
         
         let delay = 0;
@@ -887,95 +1073,91 @@
             const data = doc.data();
             const userRef = db.collection('chat_users').doc(data.mis);
             const reqRef = db.collection('chat_activations').doc(data.mis);
-            
             batch.set(userRef, { password: data.password });
             batch.delete(reqRef);
             
-            if(shouldMail) {
-                const subject = encodeURIComponent("Your Chat Password - COEP Timetable");
-                const body = encodeURIComponent(`Hello ${data.name},\n\nYour password for the chat section is: ${data.password}\n\nLogin with your MIS: ${data.mis}\n\nRegards,\nAdmin`);
-                setTimeout(() => window.open(`mailto:${data.email}?subject=${subject}&body=${body}`), delay);
-                delay += 500;
-            }
+            const subject = encodeURIComponent("Your Chat Password - COEP Timetable");
+            const body = encodeURIComponent(`Hello ${data.name},\n\nYour password for the chat section is: ${data.password}\n\nLogin with your MIS: ${data.mis}\n\nRegards,\nAdmin`);
+            setTimeout(() => window.open(`mailto:${data.email}?subject=${subject}&body=${body}`), delay);
+            delay += 500;
         });
         
         await batch.commit();
         showToast(`Activated ${snap.size} users.`);
-        renderRequests();
+        triggerConfetti();
     }
 
     // --- GROUP CHATS LOGIC ---
-    function renderAllChats(targetId = 'all-chats-list') {
-        const container = document.getElementById(targetId);
-        if(!container) return;
-        container.innerHTML = '<div style="text-align:center; padding:20px; opacity:0.7;">Loading...</div>';
-        
-        db.collection('chats').get().then(snap => {
-            container.innerHTML = '';
-            if(snap.empty) { container.innerHTML = '<div style="text-align:center; padding:20px;">No active chats found.<br><small style="opacity:0.6">Chats appear here once a message is sent.</small></div>'; return; }
-            
-            let docs = [];
-            snap.forEach(doc => docs.push({ id: doc.id, ...doc.data() }));
-            
-            // Client-side sort to handle missing timestamps gracefully
-            docs.sort((a, b) => {
-                const tA = a.lastMessageTimestamp ? a.lastMessageTimestamp.toMillis() : 0;
-                const tB = b.lastMessageTimestamp ? b.lastMessageTimestamp.toMillis() : 0;
-                return tB - tA;
-            });
-            
-            docs.forEach(data => {
-                const groupId = data.id;
-                const lastMsg = data.lastMessageText || "No messages";
-                const lastTime = data.lastMessageTimestamp ? new Date(data.lastMessageTimestamp.toMillis()).toLocaleString() : "";
-                
-                // Unseen Logic
-                const lastSeen = localStorage.getItem('adminLastSeen_' + groupId) || 0;
-                let unseenDot = '';
-                if (data.lastMessageTimestamp && data.lastMessageTimestamp.toMillis() > lastSeen) {
-                    unseenDot = '<div class="unseen-dot" title="Unread Activity"></div>';
-                }
+    function toTitleCase(str) {
+        if(!str) return "";
+        return str.replace(/_/g, ' ').split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(' ');
+    }
 
-                const div = document.createElement('div');
-                div.className = 'chat-list-item';
-                div.onclick = () => openAdminChat(groupId);
-                div.innerHTML = `
-                    <div>
-                        <div class="chat-group-id">${groupId}</div>
-                        <div class="chat-last-msg">${lastMsg}</div>
-                        <small style="opacity:0.6">${lastTime}</small>
-                    </div>
-                    ${unseenDot}
-                `;
-                container.appendChild(div);
-            });
+    function startChatsListener() {
+        if (CHATS_LIST_UNSUBSCRIBE) return;
+        CHATS_LIST_UNSUBSCRIBE = db.collection('chats').onSnapshot(snap => {
+            ALL_CHATS_DATA = [];
+            snap.forEach(doc => ALL_CHATS_DATA.push({ id: doc.id, ...doc.data() }));
+            filterChats();
         });
     }
 
-    function openManualChat() {
-        const gid = document.getElementById('manual-chat-id').value.trim();
-        if(gid) openAdminChat(gid);
-        else alert("Please enter a Group ID");
+    function filterChats() {
+        const term = document.getElementById('chat-search-input').value.toLowerCase();
+        const unreadContainer = document.getElementById('list-unread');
+        const readContainer = document.getElementById('list-read');
+        unreadContainer.innerHTML = ''; readContainer.innerHTML = '';
+
+        ALL_CHATS_DATA.sort((a, b) => {
+            const tA = a.lastMessageTimestamp ? a.lastMessageTimestamp.toMillis() : 0;
+            const tB = b.lastMessageTimestamp ? b.lastMessageTimestamp.toMillis() : 0;
+            return tB - tA;
+        });
+
+        ALL_CHATS_DATA.forEach(data => {
+            const groupId = data.id;
+            const lastMsg = data.lastMessageText || "";
+            if (!lastMsg) return;
+            if (term && !groupId.toLowerCase().includes(term) && !lastMsg.toLowerCase().includes(term)) return;
+
+            const lastSeen = localStorage.getItem('adminLastSeen_' + groupId) || 0;
+            const isUnread = data.lastMessageTimestamp && data.lastMessageTimestamp.toMillis() > lastSeen;
+            
+            const div = document.createElement('div');
+            div.className = 'chat-list-item';
+            div.onclick = () => openAdminChat(groupId);
+            // Increased Font Size & Title Case
+            div.innerHTML = `
+                <div style="overflow:hidden; flex:1; padding-right:10px;">
+                    <div style="font-weight:bold; font-family:monospace; font-size:1.1rem; margin-bottom:4px;">${toTitleCase(groupId)}</div>
+                    <div style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis; opacity:0.7; font-size:0.9rem;">${lastMsg}</div>
+                </div>
+                ${isUnread ? '<div class="unseen-dot"></div>' : ''}
+            `;
+            if (isUnread) unreadContainer.appendChild(div);
+            else readContainer.appendChild(div);
+        });
+
+        if(!unreadContainer.innerHTML) unreadContainer.innerHTML = '<div style="padding:15px; opacity:0.5; text-align:center;">No unread messages</div>';
+        if(!readContainer.innerHTML) readContainer.innerHTML = '<div style="padding:15px; opacity:0.5; text-align:center;">No chats found</div>';
     }
 
-    function openAdminChatList() {
-        document.getElementById('admin-chat-list-modal').style.display = 'flex';
-        renderAllChats('admin-chat-list-container');
+    function stopChatsListener() {
+        if (CHATS_LIST_UNSUBSCRIBE) { CHATS_LIST_UNSUBSCRIBE(); CHATS_LIST_UNSUBSCRIBE = null; }
     }
 
-    function closeAdminChatList() {
-        document.getElementById('admin-chat-list-modal').style.display = 'none';
-    }
+    function closeAdminChatList() { document.getElementById('admin-chat-list-modal').style.display = 'none'; }
 
     function openAdminChat(groupId) {
         CURRENT_CHAT_ID = groupId;
-        document.getElementById('ac-title').innerText = groupId;
+        document.getElementById('ac-title').innerText = toTitleCase(groupId);
         document.getElementById('admin-chat-view').style.display = 'flex';
         const area = document.getElementById('ac-msgs-area');
         area.innerHTML = 'Loading...';
         
-        // Mark as seen
+        // Mark as seen & Refresh List immediately
         localStorage.setItem('adminLastSeen_' + groupId, Date.now());
+        filterChats(); // Updates UI to remove green dot
 
         if(CHAT_UNSUBSCRIBE) CHAT_UNSUBSCRIBE();
         
@@ -983,62 +1165,90 @@
             .orderBy('timestamp', 'asc').limit(50)
             .onSnapshot(snap => {
                 area.innerHTML = '';
+                let lastDate = null;
+
                 snap.forEach(doc => {
                     const d = doc.data();
                     const isMine = d.sender === 'Admin';
-                    const div = document.createElement('div');
                     
-                    // Style determination
-                    if (isMine) {
-                        div.className = 'message admin';
-                    } else {
-                        div.className = 'message student';
+                    // Date Separator Logic
+                    if (d.timestamp) {
+                        const msgDate = new Date(d.timestamp.toMillis()).toLocaleDateString();
+                        if (msgDate !== lastDate) {
+                            const dateDiv = document.createElement('div');
+                            dateDiv.className = 'chat-date-separator';
+                            // Better date labels
+                            const today = new Date().toLocaleDateString();
+                            const yesterday = new Date(Date.now() - 86400000).toLocaleDateString();
+                            dateDiv.innerText = msgDate === today ? "Today" : (msgDate === yesterday ? "Yesterday" : msgDate);
+                            area.appendChild(dateDiv);
+                            lastDate = msgDate;
+                        }
                     }
+
+                    const div = document.createElement('div');
+                    div.className = `message ${isMine ? 'admin' : 'student'}`;
                     
                     let senderHtml = isMine ? '' : `<span class="msg-sender">${d.sender}</span>`;
-                    let contentHtml = d.text || (d.imageUrl ? `<a href="${d.imageUrl}" target="_blank" style="color:inherit">📷 Image</a>` : '');
+                    let contentHtml = linkify(d.text) || (d.imageUrl ? `<a href="${d.imageUrl}" target="_blank" style="color:inherit">📷 Image</a>` : '');
                     
-                    div.innerHTML = `${senderHtml}${contentHtml}`;
-                    
-                    // Context Menu Event
+                    // Time Stamp
+                    let timeStr = "";
+                    if (d.timestamp) {
+                        timeStr = new Date(d.timestamp.toMillis()).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+                    }
+
+                    div.innerHTML = `${senderHtml}${contentHtml}<span class="msg-time">${timeStr}</span>`;
                     div.oncontextmenu = (e) => showContextMenu(e, doc.id);
-                    
                     area.appendChild(div);
                 });
                 area.scrollTop = area.scrollHeight;
-                // Update seen while open
                 localStorage.setItem('adminLastSeen_' + groupId, Date.now());
             });
+    }
+
+    function linkify(text) {
+        if (!text) return "";
+        const urlRegex = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+        return text.replace(urlRegex, function(url) {
+            return '<a href="' + url + '" target="_blank" style="color:inherit; text-decoration:underline;">' + url + '</a>';
+        });
     }
 
     function showContextMenu(e, msgId) {
         e.preventDefault();
         SELECTED_MSG_ID = msgId;
         const menu = document.getElementById('ctx-menu');
-        
-        let x = e.pageX;
-        let y = e.pageY;
-        
+        let x = e.pageX, y = e.pageY;
         if (x + 150 > window.innerWidth) x = window.innerWidth - 160;
         if (y + 100 > window.innerHeight) y = window.innerHeight - 110;
-
-        menu.style.display = 'flex';
-        menu.style.left = x + 'px';
-        menu.style.top = y + 'px';
-        
-        const closeMenu = () => {
-            menu.style.display = 'none';
-            document.removeEventListener('click', closeMenu);
-        };
+        menu.style.display = 'flex'; menu.style.left = x + 'px'; menu.style.top = y + 'px';
+        const closeMenu = () => { menu.style.display = 'none'; document.removeEventListener('click', closeMenu); };
         setTimeout(() => document.addEventListener('click', closeMenu), 100);
     }
 
-    function deleteSelectedMessage() {
+    async function deleteSelectedMessage() {
         if(SELECTED_MSG_ID && CURRENT_CHAT_ID) {
-            if(confirm("Delete this message?")) {
-                db.collection('chats').doc(CURRENT_CHAT_ID).collection('messages').doc(SELECTED_MSG_ID).delete()
-                .then(() => showToast("Message deleted"))
-                .catch(err => alert("Error: " + err.message));
+            if(await customConfirm("Delete this message?")) {
+                try {
+                    await db.collection('chats').doc(CURRENT_CHAT_ID).collection('messages').doc(SELECTED_MSG_ID).delete();
+                    showToast("Message deleted");
+                    
+                    // Update parent chat document with new last message
+                    const snap = await db.collection('chats').doc(CURRENT_CHAT_ID).collection('messages')
+                        .orderBy('timestamp', 'desc').limit(1).get();
+                    
+                    let updateData = { lastMessageText: "", lastMessageTimestamp: null, lastSender: "" };
+                    
+                    if (!snap.empty) {
+                        const lastMsg = snap.docs[0].data();
+                        updateData.lastMessageText = lastMsg.text || (lastMsg.imageUrl ? "📷 Image" : "Message");
+                        updateData.lastMessageTimestamp = lastMsg.timestamp;
+                        updateData.lastSender = lastMsg.sender;
+                    }
+                    
+                    await db.collection('chats').doc(CURRENT_CHAT_ID).update(updateData);
+                } catch(e) { showToast("Error deleting"); console.error(e); }
             }
         }
     }
@@ -1046,8 +1256,7 @@
     function closeAdminChat() {
         document.getElementById('admin-chat-view').style.display = 'none';
         if(CHAT_UNSUBSCRIBE) CHAT_UNSUBSCRIBE();
-        if(document.getElementById('admin-chat-list-modal').style.display === 'flex') renderAllChats('admin-chat-list-container');
-        renderAllChats('all-chats-list');
+        filterChats();
     }
 
     function sendAdminMessage() {
@@ -1056,23 +1265,50 @@
         if(!text || !CURRENT_CHAT_ID) return;
         
         const payload = {
-            text: text,
-            sender: 'Admin',
-            timestamp: firebase.firestore.FieldValue.serverTimestamp()
+            text: text, sender: 'Admin', timestamp: firebase.firestore.FieldValue.serverTimestamp()
         };
-        
         db.collection('chats').doc(CURRENT_CHAT_ID).collection('messages').add(payload);
-        
-        // Update Parent for sorting/unseen
         db.collection('chats').doc(CURRENT_CHAT_ID).set({
             lastMessageTimestamp: firebase.firestore.FieldValue.serverTimestamp(),
-            lastMessageText: text,
-            lastSender: 'Admin'
+            lastMessageText: text, lastSender: 'Admin'
         }, { merge: true });
-        
         input.value = '';
     }
 
+    function customConfirm(msg) {
+        return new Promise((resolve) => {
+            const modal = document.getElementById('confirm-modal');
+            const txt = document.getElementById('confirm-msg');
+            const yesBtn = document.getElementById('confirm-yes');
+            const noBtn = document.getElementById('confirm-no');
+            txt.innerText = msg; modal.classList.add('active');
+            const cleanup = () => { modal.classList.remove('active'); yesBtn.onclick = null; noBtn.onclick = null; };
+            yesBtn.onclick = () => { cleanup(); resolve(true); };
+            noBtn.onclick = () => { cleanup(); resolve(false); };
+        });
+    }
+
+    function triggerConfetti() {
+        const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
+        const container = document.getElementById('confetti-container');
+        for (let i = 0; i < 60; i++) {
+            const el = document.createElement('div');
+            el.className = 'confetti-piece';
+            el.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+            el.style.left = (Math.random() < 0.5 ? 0 : 100) + '%';
+            const tx = (Math.random() - 0.5) * 400 + 'px';
+            const ty = -(Math.random() * 500 + 100) + 'px';
+            el.style.setProperty('--tx', tx); el.style.setProperty('--ty', ty);
+            el.style.animation = `confettiShoot ${1 + Math.random()}s ease-out forwards`;
+            container.appendChild(el);
+            setTimeout(() => el.remove(), 2000);
+        }
+    }
+
+    function logout() {
+        sessionStorage.removeItem("admin_auth");
+        window.location.href = "index.html";
+    }
 </script>
 </body>
 </html>
