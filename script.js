@@ -139,7 +139,14 @@ window.addEventListener('DOMContentLoaded', async () => {
     const db = firebase.firestore();
     try {
         // Fetch global data doc
-        const doc = await db.collection('timetable_global').doc('main_data').get();
+        let doc;
+        try {
+            doc = await db.collection('timetable_global').doc('main_data').get({ source: 'server' });
+        } catch (e) {
+            console.warn("Server fetch failed, falling back to cache");
+            doc = await db.collection('timetable_global').doc('main_data').get({ source: 'cache' });
+        }
+
         if (doc.exists) {
             const data = doc.data();
             window.GENERATED_DB = data.students || {};
@@ -327,7 +334,7 @@ function attemptLogin() {
     const fullMis = val.length === 9 ? val : "6125" + val;
 
     if (typeof getStudentData !== "function") {
-        alert("JS Files missing"); return;
+        showSystemToast("JS Files missing"); return;
     }
 
     const data = getStudentData(fullMis);
@@ -517,7 +524,7 @@ function handlePersistentNotification(key, classData, diffMs) {
         location = classData.map(c => c.room).join('/');
     } else {
         subject = classData.subj;
-        type = classData.type === 'lab' ? 'LAB' : 'LECTURE';
+        type = classData.type === 'lab' ? (classData.subj === 'QP' ? 'TUT' : 'LAB') : 'LECTURE';
         location = classData.room;
     }
 
@@ -957,8 +964,15 @@ function renderTable(data) {
 
                     let extraStyle = "";
                     let delayedClass = "";
+                    let preSlotHtml = "";
+
                     if (item.delayed) {
-                            extraStyle = "height: calc(100% - 40px) !important; margin-top: 40px !important;";
+                            const h = parseInt(slot.id.substring(0, 2));
+                            const m = parseInt(slot.id.substring(2));
+                            const d = new Date(); d.setHours(h, m + 30);
+                            const timeStr = d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+                            preSlotHtml = `<div style="height:36px; margin-bottom:4px; background:rgba(0,0,0,0.05); border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:0.7rem; font-weight:800; color:var(--text-sub); border:1px dashed rgba(127, 140, 141, 0.3);">Starts at ${timeStr}</div>`;
+                            extraStyle = "height: calc(100% - 40px) !important;";
                             delayedClass = "delayed-slot";
                     }
                     
@@ -967,9 +981,10 @@ function renderTable(data) {
                     const metaStr = [divStr, batchStr].filter(Boolean).join(' | ');
 
                     rowHtml += `<td rowspan="${span}">
+                    ${preSlotHtml}
                     <div class="slot ${item.class||''} ${delayedClass}" id="${key}" data-span="${span}" style="background:${bg}; border-left:4px solid ${color}; color:${textColor}; ${extraStyle}">
                         ${emoji ? `<span class="lab-tag">${emoji}</span>` : ''}
-                        <div class="slot-title" style="color:${color}">${item.subj}${item.type==='lab'?' LAB':''}</div>
+                        <div class="slot-title" style="color:${color}">${item.subj}${item.type==='lab' ? (item.subj === 'QP' ? ' TUT' : ' LAB') : ''}</div>
                         <div class="slot-footer">
                             <span class="info-box">${item.room}</span>
                             ${metaStr ? `<span class="separator">⚡</span><span class="info-box">${metaStr}</span>` : ''}
@@ -1172,7 +1187,7 @@ function updateClock() {
                     title = item.map(i => i.subj).join(' / ');
                     room = item.map(i => i.room).join(' / ');
                 } else {
-                    title = item.subj + (item.type === 'lab' ? ' LAB' : '');
+                    title = item.subj + (item.type === 'lab' ? (item.subj === 'QP' ? ' TUT' : ' LAB') : '');
                     room = item.room;
                 }
                 document.getElementById('live-title').innerText = title;
@@ -1399,8 +1414,8 @@ async function verifyChatLogin() {
                 // Check if password looks like a default random one (8 chars)
                 // Prompt user to change it if so
                 if (pass.length === 8) {
-                    setTimeout(() => {
-                        if(confirm("⚠️ Security Alert\n\nYou are using a default password. Would you like to change it now?")) {
+                    setTimeout(async () => {
+                        if(await showCustomConfirm("⚠️ Security Alert\n\nYou are using a default password. Would you like to change it now?")) {
                             showChangePassView();
                         }
                     }, 500);
@@ -1880,15 +1895,16 @@ function clearImagePreview() {
 }
 
 // --- Edit / Delete Triggers ---
-function triggerDelete() {
-    if(!confirm("Delete this message?")) return;
-    db.collection('chats').doc(currentChatId).collection('messages').doc(contextMenuMsgId).delete()
-        .catch(err => showSystemToast("Error deleting"));
+async function triggerDelete() {
+    if(await showCustomConfirm("Delete this message?")) {
+        db.collection('chats').doc(currentChatId).collection('messages').doc(contextMenuMsgId).delete()
+            .catch(err => showSystemToast("Error deleting"));
+    }
 }
 
-function triggerEdit() {
-    const newText = prompt("Edit message:", contextMenuMsgText);
-    if (newText !== null && newText.trim() !== "" && newText !== contextMenuMsgText) {
+async function triggerEdit() {
+    const newText = await showCustomPrompt("Edit message:", contextMenuMsgText);
+    if (newText && newText.trim() !== "" && newText !== contextMenuMsgText) {
         db.collection('chats').doc(currentChatId).collection('messages').doc(contextMenuMsgId).update({
             text: newText.trim()
         }).catch(err => showSystemToast("Error updating"));
@@ -1963,4 +1979,49 @@ function triggerConfetti() {
         container.appendChild(el);
         setTimeout(() => el.remove(), 2000);
     }
+}
+
+// --- CUSTOM MODAL HELPERS ---
+function showCustomConfirm(msg) {
+    return new Promise((resolve) => {
+        const modal = document.getElementById('customConfirmModal');
+        const msgEl = document.getElementById('confirmMessage');
+        const yesBtn = document.getElementById('confirmBtnYes');
+        const noBtn = document.getElementById('confirmBtnNo');
+
+        msgEl.innerText = msg;
+        modal.classList.add('active');
+
+        const close = (val) => {
+            modal.classList.remove('active');
+            resolve(val);
+        };
+
+        yesBtn.onclick = () => close(true);
+        noBtn.onclick = () => close(false);
+    });
+}
+
+function showCustomPrompt(msg, val) {
+    return new Promise((resolve) => {
+        const modal = document.getElementById('customPromptModal');
+        const titleEl = document.getElementById('promptTitle');
+        const inputEl = document.getElementById('promptInput');
+        const okBtn = document.getElementById('promptBtnOk');
+        const cancelBtn = document.getElementById('promptBtnCancel');
+
+        titleEl.innerText = msg;
+        inputEl.value = val || '';
+        modal.classList.add('active');
+        inputEl.focus();
+
+        const close = (res) => {
+            modal.classList.remove('active');
+            resolve(res);
+        };
+
+        okBtn.onclick = () => close(inputEl.value);
+        cancelBtn.onclick = () => close(null);
+        inputEl.onkeydown = (e) => { if(e.key === 'Enter') close(inputEl.value); };
+    });
 }

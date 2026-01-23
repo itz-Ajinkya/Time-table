@@ -309,8 +309,8 @@
             padding: 15px;
             margin-bottom: 12px;
             display: grid;
-            /* Narrow Day, Wider Time, Room, Delete */
-            grid-template-columns: 85px 1.5fr 1fr auto; 
+            /* Narrow Day, Wider Time, Room, Span, Delete */
+            grid-template-columns: 85px 1.5fr 1fr 70px auto; 
             gap: 15px;
             align-items: center;
             transition: transform 0.2s, box-shadow 0.2s;
@@ -337,11 +337,12 @@
 
         /* --- CUSTOM CONFIRM MODAL --- */
         .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); backdrop-filter: blur(5px); z-index: 5000; display: none; justify-content: center; align-items: center; }
-        .modal-box { background: var(--card); padding: 30px; border-radius: 24px; width: 90%; max-width: 400px; text-align: center; box-shadow: 0 20px 50px rgba(0,0,0,0.4); transform: scale(0.9); transition: transform 0.3s; border: 1px solid rgba(255,255,255,0.1); }
+        .modal-box { background: var(--card); padding: 30px; border-radius: 28px; width: 90%; max-width: 360px; text-align: center; box-shadow: 0 25px 60px rgba(0,0,0,0.4); transform: scale(0.9) translateY(20px); transition: transform 0.4s cubic-bezier(0.19, 1, 0.22, 1); border: 1px solid rgba(255,255,255,0.1); }
         .modal-overlay.active { display: flex; }
-        .modal-overlay.active .modal-box { transform: scale(1); }
-        .modal-btn-group { display: flex; gap: 10px; justify-content: center; margin-top: 25px; }
-        .modal-btn-group button { flex: 1; margin: 0; }
+        .modal-overlay.active .modal-box { transform: scale(1) translateY(0); }
+        .modal-btn-group { display: flex; gap: 12px; justify-content: center; margin-top: 20px; }
+        .modal-btn-group button { flex: 1; margin: 0; padding: 14px; border-radius: 16px; font-size: 1rem; }
+        .modal-icon { font-size: 3.5rem; margin-bottom: 10px; filter: drop-shadow(0 5px 15px rgba(108, 92, 231, 0.3)); animation: floatIcon 3s ease-in-out infinite; }
 
         /* --- CONFETTI --- */
         .confetti-piece {
@@ -518,12 +519,21 @@
 
 <div id="confirm-modal" class="modal-overlay">
     <div class="modal-box">
-        <h3 style="margin-top:0;">⚠️ Confirmation</h3>
+        <div class="modal-icon">⚠️</div>
+        <h3 style="margin:0 0 10px 0; font-size:1.4rem;">Confirmation</h3>
         <p id="confirm-msg" style="opacity:0.8; font-size:1.1rem;">Are you sure?</p>
         <div class="modal-btn-group">
             <button id="confirm-no" style="background:var(--bg); color:var(--text);">Cancel</button>
             <button id="confirm-yes" style="background:var(--primary);">Yes, Proceed</button>
         </div>
+    </div>
+</div>
+
+<div id="student-select-modal" class="modal-overlay">
+    <div class="modal-box" style="max-width: 500px;">
+        <h3 style="margin:0 0 15px 0;">Select Student</h3>
+        <div id="student-select-list" style="text-align:left; max-height:400px; overflow-y:auto; margin-bottom:15px; border:1px solid rgba(255,255,255,0.1); border-radius:12px;"></div>
+        <button onclick="document.getElementById('student-select-modal').classList.remove('active')" style="background:var(--bg); color:var(--text); width:100%;">Cancel</button>
     </div>
 </div>
 
@@ -558,7 +568,7 @@
         }
         document.getElementById('loader').style.display = 'flex';
         try {
-            const doc = await db.collection('timetable_global').doc('main_data').get();
+            const doc = await db.collection('timetable_global').doc('main_data').get({ source: 'server' });
             if (doc.exists) {
                 const fetched = doc.data();
                 DATA.students = fetched.students || {};
@@ -671,38 +681,73 @@
         let input = document.getElementById('mis-input').value.trim();
         if(!input) return;
         
-        // Search by MIS
-        let mis = input.length === 9 ? input : "6125" + input;
-        let student = DATA.students[mis];
+        let matches = [];
+        let potentialMis = input.length === 9 ? input : "6125" + input;
 
-        // Search by Name if MIS fails
-        if (!student) {
+        // 1. Try exact MIS match
+        if (DATA.students[potentialMis]) {
+            matches.push({ mis: potentialMis, data: DATA.students[potentialMis] });
+        }
+
+        // 2. Search by Name (if no exact MIS match found, or just search anyway)
+        if (matches.length === 0) {
+            const lowerInput = input.toLowerCase();
             for (const key in DATA.students) {
-                if (DATA.students[key].name && DATA.students[key].name.toLowerCase().includes(input.toLowerCase())) {
-                    student = DATA.students[key];
-                    mis = key;
-                    break;
+                const s = DATA.students[key];
+                if (s.name && s.name.toLowerCase().includes(lowerInput)) {
+                    matches.push({ mis: key, data: s });
                 }
             }
         }
 
-        if (student) {
-            CURRENT_MIS = mis;
-            document.getElementById('student-editor').style.display = 'block';
-            document.getElementById('edit-name').value = student.name;
-            renderCards(student.cards);
+        if (matches.length === 1) {
+            loadStudentEditor(matches[0].mis, matches[0].data);
+        } else if (matches.length > 1) {
+            showStudentSelection(matches);
         } else {
-             // Treat as new student if explicit MIS entered, else Error
+             // Treat as new student if explicit MIS entered (numeric), else Error
              if (input.match(/^\d+$/)) {
-                 CURRENT_MIS = mis;
-                 student = { name: "New Student", cards: [] };
-                 document.getElementById('student-editor').style.display = 'block';
-                 document.getElementById('edit-name').value = student.name;
-                 renderCards(student.cards);
+                 loadStudentEditor(potentialMis, { name: "New Student", cards: [] });
              } else {
                  showToast("Student not found");
              }
         }
+    }
+
+    function loadStudentEditor(mis, student) {
+        CURRENT_MIS = mis;
+        document.getElementById('student-editor').style.display = 'block';
+        document.getElementById('edit-name').value = student.name;
+        renderCards(student.cards || []);
+        document.getElementById('student-select-modal').classList.remove('active');
+    }
+
+    function showStudentSelection(matches) {
+        const modal = document.getElementById('student-select-modal');
+        const list = document.getElementById('student-select-list');
+        list.innerHTML = '';
+        
+        matches.forEach(m => {
+            const div = document.createElement('div');
+            div.style.padding = '12px';
+            div.style.borderBottom = '1px solid rgba(255,255,255,0.1)';
+            div.style.cursor = 'pointer';
+            div.style.display = 'flex';
+            div.style.justifyContent = 'space-between';
+            div.style.alignItems = 'center';
+            div.innerHTML = `
+                <div>
+                    <div style="font-weight:bold; font-size:1.1rem;">${m.data.name}</div>
+                    <div style="font-size:0.85rem; opacity:0.7;">${m.mis}</div>
+                </div>
+                <i class="fas fa-chevron-right" style="opacity:0.5;"></i>
+            `;
+            div.onmouseover = () => div.style.background = 'rgba(255,255,255,0.05)';
+            div.onmouseout = () => div.style.background = 'transparent';
+            div.onclick = () => loadStudentEditor(m.mis, m.data);
+            list.appendChild(div);
+        });
+        modal.classList.add('active');
     }
 
     function renderCards(cards) {
@@ -820,7 +865,7 @@
         const divSel = document.getElementById('sched-div');
         divSel.innerHTML = '<option value="">Select Division</option>';
         if(sub && DATA.schedule[sub]) {
-            const divs = Object.keys(DATA.schedule[sub]);
+            const divs = Object.keys(DATA.schedule[sub]).sort((a, b) => a.localeCompare(b, undefined, {numeric: true, sensitivity: 'base'}));
             divs.forEach(d => divSel.innerHTML += `<option value="${d}">${d}</option>`);
             
             // Auto-select if only one division
@@ -843,10 +888,12 @@
             Object.keys(DATA.schedule[sub][div]).forEach(k => {
                 if(!k.includes('-') && typeof DATA.schedule[sub][div][k] === 'object') {
                     batches.push(k);
-                    batchSel.innerHTML += `<option value="${k}">${k}</option>`;
                 }
             });
             
+            batches.sort((a, b) => a.localeCompare(b, undefined, {numeric: true, sensitivity: 'base'}));
+            batches.forEach(b => batchSel.innerHTML += `<option value="${b}">${b}</option>`);
+
             if (batches.length > 0) {
                 batchSel.disabled = false;
                  // Auto-select if only one batch
@@ -878,7 +925,7 @@
         if (divData) {
             Object.keys(divData).forEach(key => {
                 if (key.includes('-')) {
-                    lecturesContainer.appendChild(createSlotRow(key, divData[key].room, 'lecture'));
+                    lecturesContainer.appendChild(createSlotRow(key, divData[key].room, 'lecture', divData[key].span || 1));
                 }
             });
         }
@@ -899,7 +946,7 @@
             if (batchData) {
                 Object.keys(batchData).forEach(key => {
                     if (key.includes('-')) {
-                        labsContainer.appendChild(createSlotRow(key, batchData[key].room, 'lab'));
+                        labsContainer.appendChild(createSlotRow(key, batchData[key].room, 'lab', batchData[key].span || 2));
                     }
                 });
             }
@@ -908,12 +955,12 @@
             addLabBtn.innerHTML = '<i class="fas fa-plus"></i> Add Lab';
             addLabBtn.style.background = '#9b59b6';
             addLabBtn.style.marginTop = '10px';
-            addLabBtn.onclick = () => labsContainer.insertBefore(createSlotRow('', '', 'lab'), addLabBtn);
+            addLabBtn.onclick = () => labsContainer.insertBefore(createSlotRow('', '', 'lab', 2), addLabBtn);
             labsContainer.appendChild(addLabBtn);
         }
     }
 
-    function createSlotRow(key='', room='', type='lecture') {
+    function createSlotRow(key='', room='', type='lecture', span=1) {
         let d = 'mon', h = '10', m = '30', ap = 'AM';
         if (key) {
             const parts = key.split('-');
@@ -932,6 +979,7 @@
         const hours = Array.from({length: 12}, (_, i) => i + 1);
         const mins = ['00', '15', '30', '45'];
         const ampm = ['AM', 'PM'];
+        const spans = [1, 2, 3, 4];
 
         const div = document.createElement('div');
         div.className = 'schedule-entry-card';
@@ -946,6 +994,7 @@
                 <select class="s-ampm" style="width:75px;">${ampm.map(x => `<option value="${x}" ${x===ap?'selected':''}>${x}</option>`).join('')}</select>
             </div>
             <input type="text" class="s-room" value="${room}" placeholder="Room No">
+            <select class="s-span" title="Duration">${spans.map(s => `<option value="${s}" ${s==span?'selected':''}>${s}h</option>`).join('')}</select>
             <button onclick="this.parentElement.remove()" style="background:#e74c3c;"><i class="fas fa-trash"></i></button>
         `;
         return div;
@@ -971,7 +1020,8 @@
         document.querySelectorAll('.schedule-entry-card[data-type="lecture"]').forEach(row => {
             const k = getRowKey(row);
             const r = row.querySelector('.s-room').value;
-            if (k && r) newLectures[k] = { room: r, type: 'lec' };
+            const s = parseInt(row.querySelector('.s-span').value) || 1;
+            if (k && r) newLectures[k] = { room: r, type: 'lec', span: s };
         });
 
         const newLabs = {};
@@ -979,7 +1029,8 @@
             document.querySelectorAll('.schedule-entry-card[data-type="lab"]').forEach(row => {
                 const k = getRowKey(row);
                 const r = row.querySelector('.s-room').value;
-                if (k && r) newLabs[k] = { room: r, type: 'lab', span: 2 };
+                const s = parseInt(row.querySelector('.s-span').value) || 2;
+                if (k && r) newLabs[k] = { room: r, type: 'lab', span: s };
             });
         }
 

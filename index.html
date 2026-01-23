@@ -335,6 +335,32 @@
         </div>
     </div>
 
+    <!-- CUSTOM CONFIRM MODAL -->
+    <div class="system-modal-overlay" id="customConfirmModal">
+        <div class="system-modal-card">
+            <div class="sys-modal-icon">⚠️</div>
+            <h3 class="sys-modal-title" id="confirmTitle">Confirmation</h3>
+            <p class="sys-modal-msg" id="confirmMessage">Are you sure?</p>
+            <div class="sys-modal-btns">
+                <button class="sys-btn secondary" id="confirmBtnNo">Cancel</button>
+                <button class="sys-btn primary" id="confirmBtnYes">Yes</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- CUSTOM PROMPT MODAL -->
+    <div class="system-modal-overlay" id="customPromptModal">
+        <div class="system-modal-card">
+            <div class="sys-modal-icon">✏️</div>
+            <h3 class="sys-modal-title" id="promptTitle">Input Required</h3>
+            <input type="text" id="promptInput" class="chat-input" style="margin: 0; text-align: left;" autocomplete="off">
+            <div class="sys-modal-btns">
+                <button class="sys-btn secondary" id="promptBtnCancel">Cancel</button>
+                <button class="sys-btn primary" id="promptBtnOk">Save</button>
+            </div>
+        </div>
+    </div>
+
     <!-- SYSTEM TOAST -->
     <div id="system-toast">
         <i class="fas fa-info-circle" id="st-icon" style="font-size: 1.2rem; color: var(--primary);"></i>
