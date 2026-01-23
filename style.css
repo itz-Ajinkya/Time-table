@@ -1464,3 +1464,40 @@ body.dark-mode #system-toast { background: #1e1e1e; color: #fff; border: 1px sol
 .sys-btn:active { transform: scale(0.95); }
 .sys-btn.primary { background: var(--primary); color: white; box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3); }
 .sys-btn.secondary { background: var(--bg); color: var(--text-main); border: 1px solid var(--border); }
+
+/* --- GLOBAL LOADER --- */
+#global-loader {
+    position: fixed;
+    inset: 0;
+    background-color: var(--bg);
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.loader-anim { margin-bottom: 20px; display: flex; gap: 8px; }
+.loader-anim > div {
+    width: 18px; height: 18px;
+    background-color: var(--primary);
+    border-radius: 100%;
+    display: inline-block;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+.loader-anim .bounce1 { animation-delay: -0.32s; }
+.loader-anim .bounce2 { animation-delay: -0.16s; }
+
+@keyframes sk-bouncedelay {
+    0%, 80%, 100% { transform: scale(0); }
+    40% { transform: scale(1.0); }
+}
+
+.loader-text {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: var(--text-sub);
+    letter-spacing: 1px;
+    animation: pulse 1.5s infinite;
+}

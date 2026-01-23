@@ -169,6 +169,13 @@ window.addEventListener('DOMContentLoaded', async () => {
         console.error("Error fetching Firebase data:", error);
         showCustomNotification("Data Load Error", "NETWORK", "Please refresh");
     }
+
+    // Hide Loader only after Firebase data is processed
+    const loader = document.getElementById('global-loader');
+    if(loader) {
+        loader.style.opacity = '0';
+        setTimeout(() => loader.remove(), 600);
+    }
 });
 
 // Global Config
